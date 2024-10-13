@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>블로그 포스트 관리</title>
+    <link rel="stylesheet" href="../css/admin.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<!-- 헤더 영역 -->
+<header>
+    <div class="logo">그로스빌런</div>
+    <nav>
+        <ul class="menu">
+            <li><a href="#">관리자홈</a></li>
+        </ul>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+    <div class="contact-buttons">
+        <button class="btn">소개서</button>
+        <button class="btn-primary">문의하기</button>
+    </div>
+</header>
+
+<main>
+    <h1>블로그 포스트 관리</h1>
+
+    <section id="editor">
+        <h2>새 포스트 작성</h2>
+        <form id="post-form" onsubmit="event.preventDefault(); addPost();">
+            <label for="post-title">제목</label>
+            <input type="text" id="post-title" placeholder="제목" required>
+            
+            <div>
+                <button type="button" id="uploadImage">사진 업로드</button>
+                <button type="button" id="uploadVideo">동영상 업로드</button>
+                <button type="button" id="quoteButton">인용구</button>
+                <button type="button" id="dividerButton">구분선</button>
+                <button type="button" id="linkButton">URL 링크</button>
+                <button type="button" id="fileUpload">파일 첨부</button>
+                <select id="fontSelector"></select>
+                <input type="number" id="fontSize" min="10" max="50" value="16">
+                <button type="button" id="boldButton">B</button>
+                <input type="color" id="textColor" value="#000000">
+                <input type="color" id="bgColor" value="#ffffff">
+                <button type="button" id="alignLeft">왼쪽 정렬</button>
+                <button type="button" id="alignCenter">가운데 정렬</button>
+                <button type="button" id="alignRight">오른쪽 정렬</button>
+            </div>
+
+            <label for="post-content">내용</label>
+            <div id="post-content" contentEditable="true" placeholder="내용" style="border: 1px solid #ccc; padding: 10px; min-height: 200px;"></div>
+            <div id="mediaPreviewContainer" style="margin-top: 10px;">
+                <h4>미리보기:</h4>
+                <div id="imagePreview" style="display: flex; flex-wrap: wrap;"></div>
+                <div id="videoPreview" style="display: flex; flex-wrap: wrap;"></div>
+            </div>
+
+            <div id="filePreviewContainer" style="margin-top: 10px;">
+                <h4>파일 첨부:</h4>
+                <div id="filePreview" style="display: flex; flex-direction: column;"></div>
+            </div>
+
+            <button type="submit" class="btn-primary">작성</button> <!-- 작성 버튼 -->
+            <button type="button" id="edit-complete" class="btn-primary" style="display:none;">수정 완료</button> <!-- 수정 완료 버튼 -->
+      </form>
+    </section>
+
+    <ul id="postList" class="blog-grid">
+        <!-- 동적으로 추가될 포스트 내용 -->
+    </ul>
+
+    <div class="pagination" id="pagination">
+        <!-- 페이지 번호 버튼이 여기에 추가됩니다. -->
+    </div>
+</main>
+
+<footer>
+    <p>&copy; Growth Villain, Inc. 2025. We love our users!</p>
+</footer>
+
+<script src="../js/admin.js"></script>
+<script src="../js/header.js"></script>
+</body>
+</html>
