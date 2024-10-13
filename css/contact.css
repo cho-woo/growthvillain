@@ -1,0 +1,63 @@
+
+
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px; /* 최대 너비 설정 */
+    padding-left: 15px; /* 좌측 여백 */
+    padding-right: 15px; /* 우측 여백 */
+}
+
+
+/* Video Section */
+.video-section {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 40px;
+    background-color: #f8f9fa;
+}
+
+.contact-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    margin-bottom: 20px;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, select, textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.submit-btn {
+    background-color: #ff6361;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}

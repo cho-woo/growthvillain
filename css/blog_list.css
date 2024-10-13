@@ -1,0 +1,148 @@
+
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px; /* 최대 너비 설정 */
+    padding: 50px 300px 150px 300px;
+    text-align: left;
+}
+
+
+
+/* 모바일 스타일 */
+@media (max-width: 768px) { /* 화면 너비가 768px 이하일 때 */
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1200px; /* 최대 너비 설정 */
+        padding: 50px 0px 150px 0px;
+        text-align: left;
+    }  
+}
+
+.blog-grid {
+    font-size: 14px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: inherit;
+    color: #333;
+    text-decoration: none;
+    position: relative;
+    width: 700px;
+    max-height: 146px;
+    padding: 32px 0;
+    border-bottom: 1px solid #eee;
+    margin-right: 150px;
+    list-style-type: none; /* 마커 제거 */
+    counter-reset: item; /* 리스트 시작할 때 번호 초기화 */
+    list-style: none; /* 기본 리스트 스타일 제거 */
+}
+
+.blog-grid strong {
+    color: #333;
+    text-rendering: inherit;
+    display: block;
+    overflow: hidden;
+    padding-top: 1px;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    line-height: 25px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transition: text-decoration 0.3s ease; /* 밑줄 효과에 부드러운 전환 추가 */
+}
+
+.blog-grid p {
+    backface-visibility: hidden;
+    font-family: "Noto Sans DemiLight","Malgun Gothic",sans-serif;
+    margin: 0;
+    text-rendering: inherit;
+    overflow: hidden;
+    max-height: 48px;
+    padding: 4px 0 0;
+    color: #959595;
+    font-size: 14px;
+    letter-spacing: -1px;
+    line-height: 21px;
+}
+
+
+.blog-grid li {
+    margin: 10px 0;
+    padding: 10px;
+    max-width: 70%;
+    position: relative; /* 상대 위치 지정 */
+}
+
+.blog-grid li::before {
+    content: counter(item, decimal-leading-zero); /* 현재 항목 번호 표시, 01, 02 형식 */
+    counter-increment: item; /* 번호 증가 */
+    position: absolute; /* 절대 위치 설정 */
+    left: -30px; /* 왼쪽으로 이동 */
+    font-weight: bold; /* 번호 굵게 설정 */
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+.blog-grid strong:hover {
+    text-decoration: underline; /* 마우스를 올리면 밑줄 추가 */
+    text-decoration-color: gray; /* 밑줄의 색상 회색으로 설정 */
+    text-decoration-thickness: 0.3px; /* 밑줄의 두께 설정 */
+}
+
+.post-number {
+    margin-right: 10px; /* 제목과 번호 간격 */
+    font-weight: bold; /* 번호를 굵게 */
+}
+
+#loading {
+    position: fixed; /* 화면 고정 위치 */
+    left: 50%; /* 중앙 정렬 */
+    bottom: 60px; /* 푸터 위 위치 */
+    transform: translateX(-50%); /* 중앙 정렬을 위한 변환 */
+    background-color: rgba(255, 255, 255, 0.8); /* 배경색과 투명도 */
+    padding: 10px 20px; /* 여백 */
+    border-radius: 5px; /* 모서리 둥글게 */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* 그림자 */
+    font-size: 16px; /* 글자 크기 */
+    color: #333; /* 글자 색상 */
+    z-index: 1000; /* 다른 요소 위에 표시 */
+    display: none; /* 기본적으로 숨김 */
+}
+
+.post-preview {
+    display: block; /* block 요소로 설정 */
+    max-height: 3em; /* 두 줄로 제한, line-height가 1.5em일 때 */
+    overflow: hidden; /* 넘치는 내용 숨기기 */
+    line-height: 1.5em; /* 줄 높이 설정 */
+    text-overflow: ellipsis; /* 넘치는 텍스트를 생략 부호(...)로 표시 */
+}
+/* 기본 밑줄 제거 */
+.blog-grid a {
+    text-decoration: none;
+  }
+  
+  /* 아직 방문하지 않은 링크의 글자색 정의 */
+  .blog-grid a:link {
+    color: rgb(0, 0, 0);
+  }
+
+  /* 사용자가 방문한 적이 있는(클릭한 이후) 링크의 글자색 
+  정의 */
+  .blog-grid a:visited {
+    color: black;
+  }
+
+  /* 마우스를 링크에 올려두었을 때, 글자색을 정의 */
+  .blog-grid a:hover {
+    color: rgb(0, 0, 0);
+  }
+
+
+  /* 마우스로 링크를 클릭하고 뗄 때까지의 글자색을 정의 */
+  .blog-grid a:active {
+    color: rgb(0, 0, 0);
+  }

@@ -1,0 +1,495 @@
+
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px; /* 최대 너비 설정 */
+    padding: 50px 300px 150px 300px;
+    text-align: left;
+}
+
+/* 모바일 스타일 */
+@media (max-width: 768px) { /* 화면 너비가 768px 이하일 때 */
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1200px; /* 최대 너비 설정 */
+        padding: 50px 0px 150px 0px;
+        text-align: left;
+    }  
+}
+
+@media (max-width: 1100px) and (min-width: 768px) { /* 화면 너비가 768px 이상 1100px 이하일 때 */
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1200px; /* 최대 너비 설정 */
+        padding: 50px 100px 150px 100px;
+        text-align: left;
+    }  
+}
+
+
+
+.container-full {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 0px 150px 0px;
+}
+
+/* 비디오 배경 설정 */
+.background-video {
+    width: 40vw; /* 기본값: 화면 너비의 40% */
+    height: auto; /* 비디오의 비율을 유지 */
+    position: absolute; /* 절대 위치로 설정하여 배경처럼 사용 */
+    top: 50%; /* 수직 중앙 정렬을 위한 설정 */
+    left: 50%; /* 수평 중앙 정렬을 위한 설정 */
+    transform: translate(-50%, -50%); /* 중앙 정렬 */
+    z-index: 1; /* 비디오를 텍스트 뒤에 배치 */
+}
+
+/* 모바일 스타일 */
+@media (max-width: 768px) { /* 화면 너비가 768px 이하일 때 */
+    .background-video {
+        width: 100%; /* 모바일에서는 100% */
+        height: 50vh; /* 비디오의 비율을 유지 */
+    }
+}
+
+/* PC 스타일 */
+@media (min-width: 769px) { /* 화면 너비가 769px 이상일 때 */
+    .background-video {
+        width: 25%; /* PC에서는 25% */
+    }
+}
+
+
+/* 메인 타이틀 텍스트 */
+.banner-text {
+    position: relative; /* 상대 위치로 설정하여 텍스트가 비디오 위에 표시되도록 함 */
+    z-index: 2; /* 텍스트가 비디오보다 위에 표시 */
+    text-align: center; /* 텍스트 중앙 정렬 */
+    color: white; /* 텍스트 색상을 흰색으로 설정 */
+}
+.main_title {
+    font-size: 40px;
+    cursor: pointer;
+}
+.main_sub_title {
+    font-size: 24px;
+}
+
+/* 배경 비디오를 헤더 높이만큼 제외한 화면을 꽉 채우도록 설정 */
+.banner {
+    position: relative;
+    background-color: black; /* 배경을 검은색으로 설정 */
+    display: flex;
+    justify-content: center; /* 중앙 정렬 */
+    align-items: center; /* 수직 중앙 정렬 */
+    height: 67vh; /* 배너의 높이를 전체 화면 높이로 설정 */
+    overflow: hidden; /* 비디오가 배너 영역을 넘지 않도록 설정 */
+}
+
+/* 모바일 스타일 */
+@media (max-width: 768px) { /* 화면 너비가 768px 이하일 때 */
+    .banner {
+        position: relative;
+        background-color: black; /* 배경을 검은색으로 설정 */
+        display: flex;
+        justify-content: center; /* 중앙 정렬 */
+        align-items: center; /* 수직 중앙 정렬 */
+        height: 100vh; /* 배너의 높이를 전체 화면 높이로 설정 */
+        overflow: hidden; /* 비디오가 배너 영역을 넘지 않도록 설정 */
+    }
+}
+
+
+
+/* 메인 타이틀 텍스트 */
+.banner-text h1 {
+    font-size: 34px;
+}
+.banner-text p {
+    font-size: 22px;
+}
+
+
+
+
+/* info 영역 더보기 버튼 */
+.more-button {
+    position: relative; /* 버튼 내에서 상대 위치 설정 */
+    background-color: transparent; /* 배경색 투명 */
+    border: none; /* 테두리 제거 */
+    color: white; /* 글씨 색상 */
+    font-size: 18px; /* 글씨 크기 */
+    cursor: pointer; /* 커서 모양 변경 */
+    overflow: visible; /* 내용이 잘리지 않도록 설정 */
+    margin-top: 10px;
+}
+
+.more-text {
+    display: inline-block; /* 텍스트를 블록으로 설정하여 애니메이션 가능 */
+    transition: transform 0.3s ease; /* 텍스트 이동 애니메이션 */
+}
+
+.arrow {
+    position: absolute; /* 화살표를 절대 위치로 설정 */
+    left: -20px; /* 기본 위치 */
+    opacity: 0; /* 기본적으로 보이지 않음 */
+    transition: left 0.3s ease, opacity 0.3s ease; /* 위치 및 투명도 애니메이션 */
+}
+
+.more-button:hover .more-text {
+    transform: translateX(20px); /* 텍스트 오른쪽으로 이동 */
+}
+
+.more-button:hover .arrow {
+    left: 0; /* 화살표의 위치 조정 */
+    opacity: 1; /* 화살표 보이기 */
+}
+
+/* info 영역 더보기 버튼 끝 */
+
+/* 빌런 히어로 영역 더보기 버튼 */
+.more-button-2 {
+    position: relative; /* 버튼 내에서 상대 위치 설정 */
+    background-color: transparent; /* 배경색 투명 */
+    border: none; /* 테두리 제거 */
+    color: rgb(0, 0, 0); /* 글씨 색상 */
+    font-size: 18px; /* 글씨 크기 */
+    cursor: pointer; /* 커서 모양 변경 */
+    overflow: visible; /* 내용이 잘리지 않도록 설정 */
+    margin-top: 40px;
+}
+
+.more-text-2 {
+    display: inline-block; /* 텍스트를 블록으로 설정하여 애니메이션 가능 */
+    transition: transform 0.3s ease; /* 텍스트 이동 애니메이션 */
+}
+
+.arrow-2 {
+    position: absolute; /* 화살표를 절대 위치로 설정 */
+    left: -20px; /* 기본 위치 */
+    opacity: 0; /* 기본적으로 보이지 않음 */
+    transition: left 0.3s ease, opacity 0.3s ease; /* 위치 및 투명도 애니메이션 */
+}
+
+.more-button-2:hover .more-text-2 {
+    transform: translateX(20px); /* 텍스트 오른쪽으로 이동 */
+}
+
+.more-button-2:hover .arrow-2 {
+    left: 0; /* 화살표의 위치 조정 */
+    opacity: 1; /* 화살표 보이기 */
+}
+
+/* 빌런 히어로 영역 더보기 버튼 끝 */
+
+
+/* info 영역 시작 */
+.info-section {
+    display: flex;
+    flex-direction: column; /* 세로 방향으로 배치 */
+    background-color: #000000;
+    color: white;
+}
+
+.info-box {
+    width: 100%; /* 너비를 100%로 설정 */
+    text-align: center; /* 중앙 정렬 */
+}
+
+.info-grid {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 기본적으로 4개의 열로 나누기 */
+    gap: 1px; /* 간격 설정 */
+    width: 100%; /* 너비를 100%로 설정 */
+}
+
+.info-item {
+    position: relative; /* 자식 요소를 위한 기준 설정 */
+    overflow: hidden; /* 자식 요소가 박스를 넘지 않도록 설정 */
+}
+
+/* 이미지에 대한 스타일 */
+.info-item img {
+    width: 100%; /* 이미지 너비를 100%로 설정하여 박스에 꽉 차게 함 */
+    height: auto; /* 비율 유지 */
+}
+
+/* 호버 텍스트 스타일 */
+.hover-text {
+    position: absolute;
+    top: 50%; /* 수직 중앙 정렬 */
+    left: 50%; /* 수평 중앙 정렬 */
+    transform: translate(-50%, -50%); /* 중앙으로 위치 조정 */
+    color: white; /* 텍스트 색상 */
+    font-size: 1.2em; /* 텍스트 크기 */
+    opacity: 0; /* 기본적으로 숨김 */
+    transition: opacity 0.3s; /* 부드러운 전환 효과 */
+}
+
+/* 기본적인 스타일에서 모바일에서는 항상 텍스트 보이기 */
+@media only screen and (max-width: 768px) {
+    .hover-text {
+        opacity: 1; /* 항상 보이게 설정 */
+        position: static; /* 호버 효과 비활성화 */
+        transform: none; /* 위치 조정 비활성화 */
+        text-align: center; /* 중앙 정렬 */
+    }
+}
+
+/* 텍스트 스타일 */
+.info-item .info-text {
+    position: absolute; /* 절대 위치 설정 */
+    top: 50%; /* 세로 중앙 정렬 */
+    left: 50%; /* 가로 중앙 정렬 */
+    transform: translate(-50%, -50%); /* 중앙 위치 조정 */
+    color: white; /* 텍스트 색상 */
+    opacity: 0; /* 기본적으로 보이지 않도록 설정 */
+    transition: opacity 0.3s ease; /* 부드러운 전환 효과 */
+}
+
+/* 마우스 호버 시 텍스트 보이기 */
+
+
+@media only screen and (min-width: 768px) {
+    .info-item:hover .info-text {
+        opacity: 1; /* 호버 시 텍스트 보이도록 설정 */
+    }
+
+}
+/* 모바일 화면에서 스타일 조정 */
+@media only screen and (max-width: 768px) {
+    .info-grid {
+        grid-template-columns: 1fr; /* 모바일에서는 1개의 열로 설정 */
+    }
+
+    .info-box {
+        margin-bottom: 20px; /* 텍스트 아래에 여백 추가 */
+        padding: 25px 15px 5px 15px;
+    }
+    
+    .info-item img {
+        width: 100%; /* 이미지 너비를 100%로 설정하여 박스에 꽉 차게 함 */
+        height: 100px;
+    }
+
+    /* 텍스트 스타일 */
+.info-item .info-text {
+    position: absolute; /* 절대 위치 설정 */
+    top: 50%; /* 세로 중앙 정렬 */
+    left: 50%; /* 가로 중앙 정렬 */
+    transform: translate(-50%, -50%); /* 중앙 위치 조정 */
+}
+}
+
+/* info 영역 끝 */
+
+
+/* 파트너 섹션 스타일 */
+.partners {
+    padding: 20px 0; /* 상하 패딩 */
+}
+
+.partners h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.partners p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.partners-list {
+    overflow: hidden; /* 슬라이더를 위한 오버플로우 설정 */
+}
+
+/* 로고 슬라이더 */
+.logo-slider {
+    display: flex;
+    justify-content: center; /* 중앙 정렬 */
+    flex-wrap: nowrap; /* 한 줄로 유지 */
+    list-style-type: none; /* 기본 목록 스타일 제거 */
+    padding: 0; /* 패딩 제거 */
+    margin: 0; /* 마진 제거 */
+    transition: transform 0.5s ease; /* 부드러운 이동 효과 */
+}
+
+.logo-slider li {
+    margin: 0 15px; /* 로고 간격 조정 */
+}
+
+.logo-slider img {
+    width: 100px; /* 로고 크기 조정 */
+    height: auto; /* 비율 유지 */
+}
+
+/* 모바일에서의 스타일 조정 */
+@media (max-width: 768px) {
+    .logo-slider li {
+        margin: 0 30px; /* 모바일에서 로고 간격 조정 */
+    }
+
+    .logo-slider img {
+        width: 120px; /* 모바일에서 로고 크기 조정 */
+    }
+}
+
+/* 빌런을 만난 히어로들 끝*/
+
+
+/* Contact 문의 섹션 */
+.contact-section {
+    background-color: #F5F5F5;
+    padding: 50px;
+    text-align: center;
+}
+
+.contact-text p {
+    line-height: 0.4; /* 행간 조정 */
+    font-size: 16px; /* 예시로 글꼴 크기 설정 */
+    color: #333; /* 텍스트 색상 설정 */
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center; /* 중앙 정렬 */
+    align-items: center;
+}
+
+.contact-form-area {
+    width: 100%; /* 전체 너비 사용 */
+    max-width: 500px; /* 최대 너비 설정 */
+    text-align: left; /* 문의 폼 왼쪽 정렬 */
+}
+
+.contact-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    margin-bottom: 20px;
+}
+
+/* Contact Form */
+.contact-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form textarea,
+.contact-form input {
+    width: 100%; /* 전체 너비 사용 */
+    padding: 10px;
+    border: 1px solid #ccc; /* 테두리 추가 */
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 200px; /* 세로 길이 설정 */
+    resize: vertical; /* 세로 방향으로만 크기 조절 가능 */
+}
+
+.contact-form button {
+    width: 100%; /* 전체 너비 사용 */
+    padding: 10px;
+    border: none;
+    background-color: #1d54ba; /* 버튼 배경색 */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s; /* 배경색 전환 효과 */
+}
+
+.contact-form button:hover {
+    background-color: #1d54ba; /* 호버 시 배경색 변화 */
+}
+
+
+
+
+
+/* 모바일 스타일 */
+@media (max-width: 768px) {
+    .contact-section {
+        padding: 20px; /* 모바일에서 패딩 조정 */
+    }
+
+    .contact-form-area {
+        width: 100%; /* 모바일에서 전체 너비 사용 */
+        padding: 0 10px; /* 좌우 패딩 추가 */
+    }
+
+    .contact-form textarea {
+        height: 150px; /* 모바일에서 텍스트 영역 높이 조정 */
+    }
+
+    .contact-section h2 {
+        font-size: 20px; /* 모바일에서 글꼴 크기 조정 */
+    }
+
+    .contact-text p {
+        font-size: 16px; /* 모바일에서 글꼴 크기 조정 */
+        line-height: 1.5;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* Contact 문의 섹션 끝 */
+
+
+/* Contact Section */
+.contact-section {
+    padding: 40px;
+    background-color: #f8f9fa;
+}
+
+.contact-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    margin-bottom: 20px;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, select, textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.submit-btn {
+    background-color: #ff6361;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
