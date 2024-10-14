@@ -275,7 +275,7 @@ document.getElementById('uploadVideo').addEventListener('click', function(event)
             videoElement.style.margin = '10px 0'; 
 
             const postContent = document.getElementById('post-content');
-            postContent.innerHTML += videoElement.outerHTML; // HTML로 추가
+            postContent.appendChild(videoElement); // appendChild를 사용하여 추가
         }
     });
 
