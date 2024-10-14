@@ -17,6 +17,18 @@ body {
     margin: 0; /* 기본 마진 제거 */
 }
 
+a {
+    text-decoration: none; /* 밑줄 제거 */
+    color: inherit; /* 부모 요소의 색상 상속 */
+    background-color: transparent; /* 배경색 제거 */
+}
+
+/* 링크에 마우스를 올렸을 때의 스타일 (선택 사항) */
+a:hover {
+    color: #340000; /* 원하는 색상으로 변경 */
+    transition: color 0.3s; /* 색상 전환 효과 */
+}
+
 .container {
     flex: 1; /* 가능한 공간을 차지하게 설정 */
     display: flex;
@@ -41,6 +53,7 @@ header {
 main {
     flex: 1; /* 공간을 차지 */
     box-sizing: border-box; /* 패딩이 요소 크기에 포함되도록 설정 */
+    padding-top: 100px;
 }
 footer {
     background-color: #003f5c; /* 푸터 배경색 */
