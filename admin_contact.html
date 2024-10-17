@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>문의 내역</title>
+    <link rel="stylesheet" href="css/admin_contact.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <!-- 헤더 영역 -->
+    <header>
+        <div class="logo">그로스빌런</div>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">관리자홈</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+        <div class="contact-buttons">
+            <button class="btn">소개서</button>
+            <button class="btn-primary">문의하기</button>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h1>문의 내역</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>회사/단체명</th>
+                        <th>이메일</th>
+                        <th>전화번호</th>
+                        <th>알게 된 경로</th>
+                        <th>문의 주제</th>
+                        <th>내용</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php
+                    // JSON 파일에서 데이터 읽기
+                    $filePath = 'contacts.json';
+                    if (file_exists($filePath)) {
+                        $jsonData = file_get_contents($filePath);
+                        $contacts = json_decode($jsonData, true);
+
+                        // 데이터가 있을 경우 테이블에 출력
+                        foreach ($contacts as $contact) {
+                            echo "<tr>
+                                <td>{$contact['company']}</td>
+                                <td>{$contact['email']}</td>
+                                <td>{$contact['phone']}</td>
+                                <td>{$contact['source']}</td>
+                                <td>{$contact['topic']}</td>
+                                <td>{$contact['message']}</td>
+                            </tr>";
+                        }
+                    } else {
+                        echo "<tr><td colspan='6'>문의 내역이 없습니다.</td></tr>";
+                    }
+                    ?>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-links">
+            <a href="#">회사소개서</a>
+            <!-- <a href="#">개인정보처리방침</a> -->
+            <!-- <a href="#">이용약관</a> -->
+            <!-- <a href="#">생산현황</a> -->
+            <a href="blog_list.html">블로그</a>
+            <a href="#">포트폴리오</a>
+        </div>
+        <div class="footer-info">
+            <p>서울시 강남구 역삼로 123</p>
+            <p>&copy; Growth Villain, Inc. 2025</p>
+        </div>
+    </footer>
+</body>
+</html>
