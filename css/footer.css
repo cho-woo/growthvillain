@@ -1,0 +1,33 @@
+/* footer.css */
+footer {
+    position: fixed; /* 푸터를 고정 */
+    bottom: 0; /* 하단에 위치 */
+    left: 0; /* 왼쪽 정렬 */
+    right: 0; /* 오른쪽 정렬 */
+    background-color: #fff; /* 배경색 설정 */
+    padding: 20px 0; /* 위아래 패딩 */
+    text-align: center; /* 텍스트 중앙 정렬 */
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* 상단 그림자 */
+    z-index: 1000; /* 다른 요소 위에 표시 */
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-info {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.footer-links a:link,
+.footer-links a:visited {
+    color: rgb(0, 0, 0);
+}
+
+.footer-links a:hover {
+    color: rgb(103, 0, 0);
+}

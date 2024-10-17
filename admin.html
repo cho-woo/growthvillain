@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>블로그 포스트 관리</title>
+    <link rel="stylesheet" href="css/admin.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<!-- 헤더 영역 -->
+<header>
+    <div class="logo">그로스빌런</div>
+    <nav>
+        <ul class="menu">
+            <li><a href="#">관리자홈</a></li>
+        </ul>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+    <div class="contact-buttons">
+        <button class="btn">소개서</button>
+        <button class="btn-primary">문의하기</button>
+    </div>
+</header>
+
+<main>
+    <h1>블로그 포스트 관리</h1>
+<h2>SEO 최적화 팁</h2>
+<ul>
+    <li>제목 첫 번째 키워드가 본문에 자연스럽게 녹아들어 반복되게 작성(키워드 스터핑 방지, 부자연스럽게 기계적으로 반복되면 안됨. 다양한 서브키워드를 조합하여 작성)</li>
+    <li>제목 첫 번째 키워드가 부제목에 포함되게 작성</li>
+    <li>이미지 alt 작성: 이미지 파일명이 alt로 들어감</li>
+    <li>제목 첫 번째 키워드의 검색량 조사</li>
+
+</ul>
+<br>
+<h2>할일</h2>
+<ul>
+    <li>1. h2 h3 h4 h5 버튼 디자인 디벨롭, 단축키 개발, alt h 구분선 단축키 개발</li>
+    <li>2. 글자 색상, 글자 배경 색상 기능 개발</li>
+    <li>3. 서버에 동영상 업로드 기능 개발</li>
+    <li>기본 버튼 색상 #2c2c2c</li>
+</ul>
+
+<section id="editor">
+        <h2>새 포스트 작성</h2>
+        <form id="post-form" onsubmit="event.preventDefault(); addPost();">
+            <label for="post-title">제목</label>
+            <input type="text" id="post-title" placeholder="제목" required></br>
+            <label for="post-subtitle">부제목</label>
+            <input type="text" id="post-subtitle" placeholder="부제목" required>
+    
+            <div>
+                <button type="button" id="uploadImage">사진 업로드</button>
+                <button type="button" id="uploadVideo">동영상 업로드(개발중)</button>
+                <button type="button" id="quoteButton">인용구(개발중)</button>
+                <button type="button" id="dividerButton">구분선</button>
+                <button type="button" id="linkButton">URL 링크</button>
+<input type="text" id="urlInput" placeholder="링크 URL을 입력하세요" style="display: none;">
+
+                <button type="button" id="fileUpload">파일 첨부(개발중)</button>
+                <div id="toolbar"></div>
+                <label for="textColor">텍스트 색상</label>
+                <input type="color" id="textColor" value="#000000">
+                <label for="bgColor">배경 색상</label>
+                <input type="color" id="bgColor" value="#ffffff">
+                 <button type="button" id="alignLeft">왼쪽 정렬</button>
+                <button type="button" id="alignCenter">가운데 정렬</button>
+                <button type="button" id="alignRight">오른쪽 정렬</button>
+            </div>
+
+            <label for="post-content">내용</label>
+           <div id="post-content" contentEditable="true" style="border: 1px solid #ccc; padding: 10px; min-height: 200px; position: relative;"></div>
+           <button  type="button" id="toggle-html-button" onclick="toggleHtmlView()">HTML 코드 보기</button>
+            <div id="mediaPreviewContainer" style="margin-top: 10px;">
+                <P>미리보기:</P>
+                <div id="imagePreview" style="display: flex; flex-wrap: wrap;"></div>
+                <div id="videoPreview" style="display: flex; flex-wrap: wrap;"></div>
+            </div>
+
+            <div id="filePreviewContainer" style="margin-top: 10px;">
+                <p>파일 첨부:</p>
+                <div id="filePreview" style="display: flex; flex-direction: column;"></div>
+            </div>
+
+            <button type="submit" class="btn-primary">작성</button> <!-- 작성 버튼 -->
+            <button type="button" id="edit-complete" class="btn-primary" style="display:none;">수정 완료</button> <!-- 수정 완료 버튼 -->
+      </form>
+    </section>
+
+    <ul id="postList" class="blog-grid ">
+        <!-- 동적으로 추가될 포스트 내용 -->
+    </ul>
+
+    <div class="pagination" id="pagination">
+        <!-- 페이지 번호 버튼이 여기에 추가됩니다. -->
+    </div>
+</main>
+
+<footer>
+    <div class="footer-links">
+        <a href="#">회사소개서</a>
+        <!-- <a href="#">개인정보처리방침</a> -->
+        <!-- <a href="#">이용약관</a> -->
+        <!-- <a href="#">생산현황</a> -->
+        <a href="blog_list.html">블로그</a>
+        <a href="#">포트폴리오</a>
+    </div>
+    <div class="footer-info">
+        <p>서울시 강남구 역삼로 123</p>
+        <p>&copy; Growth Villain, Inc. 2025</p>
+    </div>
+</footer>
+
+<script src="js/admin.js"></script>
+<script src="js/header.js"></script>
+</body>
+</html>

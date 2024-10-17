@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>그로스빌런</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+<!-- 헤더 영역 -->
+<header>
+    <div class="top_logo"><a href="index.html">그로스빌런</a></div>
+    <nav>
+        <ul class="menu">
+            <li><a href="#">그로스해킹</a></li>
+            <li><a href="#">데이터 시각화/분석</a></li>
+            <li><a href="#">광고 기획/제작</a></li>
+            <li><a href="#">앱/웹 개발</a></li>
+            <li><a href="blog_list.html">블로그</a></li>
+            <li><a href="portfolio.html">포트폴리오</a></li>
+        </ul>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+    <div class="contact-buttons">
+        <button class="btn">소개서</button>
+        <a href="contact.html"><button class="btn-primary">문의하기</button></a>
+    </div>
+</header>
+    <!-- 슬라이드 메뉴 -->
+    <div id="slide-menu" class="slide-menu">
+        <div class="close-menu" id="close-menu">X</div>
+        <ul>
+            <li><a href="#">그로스해킹</a></li>
+            <li><a href="#">데이터 시각화/분석</a></li>
+            <li><a href="#">광고 기획/제작</a></li>
+            <li><a href="#">앱/웹 개발</a></li>
+            <li><a href="blog_list.html">블로그</a></li>
+            <li><a href="portfolio.html">포트폴리오</a></li>
+        </ul>
+    </div>
+<main>
+    <!-- 비디오 섹션 -->
+    <section class="video-section">
+        <video autoplay muted loop>
+            <source src="img/main_video.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+    </section>
+
+    <!-- 문의 섹션 -->
+    <section class="contact-section">
+        <div class="container">
+        <h2>무엇이든 물어보세요.</h2>
+        <p>언제든지 연락주세요 데이터 빌런 그로스 해킹</p>
+        <p>이메일 또는 연락처를 남겨주시면 영업일 기준 24시간 안에 연락드리겠습니다.</p>
+        
+        <form id="contact-form" action="send-email.py" method="post">
+            <label for="company">회사/단체명 *</label>
+            <input type="text" id="company" name="company" required>
+
+            <label for="email">이메일 *</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">전화번호</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="source"> 그로스빌런을 알게 된 경로</label>
+            <select id="source" name="source">
+                <option>어떻게 알게 되셨나요?</option>
+                <option>광고</option>
+                <option>추천</option>
+                <option>검색</option>
+            </select>
+
+            <label for="topic">관심/문의 주제</label>
+            <select id="topic" name="topic">
+                <option>문의/상담 주제를 선택해주세요</option>
+                <option>데이터 시각화, 분석</option>
+                <option>광고 기획, 제작</option>
+                <option>앱/웹 개발</option>
+            </select>
+
+            <label for="message">문의사항 *</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <div>
+                <input type="checkbox" id="privacy" name="privacy" required>
+                <label for="privacy">아래 개인정보 취급방침에 동의합니다.</label>
+            </div>
+
+            <button type="submit" class="submit-btn">문의하기</button>
+        </form>
+    </div>
+    </section>
+</main>
+
+    <!-- 푸터 -->
+    <footer>
+        <div class="footer-links">
+            <a href="#">회사소개서</a>
+            <!-- <a href="#">개인정보처리방침</a> -->
+            <!-- <a href="#">이용약관</a> -->
+            <!-- <a href="#">생산현황</a> -->
+            <a href="/blog_list.html">블로그</a>
+            <a href="#">포트폴리오</a>
+        </div>
+        <div class="footer-info">
+            <p>서울시 강남구 역삼로 123</p>
+            <p>&copy; Growth Villain, Inc. 2025</p>
+        </div>
+    </footer>
+    <script src="js/contact.js"></script>
+    <script src="js/header.js"></script>
+</body>
+</html>

@@ -1,0 +1,205 @@
+/* 모든 페이지에 공통으로 들어가는 CSS 헤더, 푸터 적용중 */
+* {
+    font-family: 'Pretendard', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%; /* 전체 높이를 100%로 설정 */
+}
+
+body {
+    display: flex;
+    flex-direction: column; /* 세로 방향으로 배치 */
+    min-height: 100vh; /* 최소 높이를 화면 높이로 설정 */
+    margin: 0; /* 기본 마진 제거 */
+}
+
+a {
+    text-decoration: none; /* 밑줄 제거 */
+    color: inherit; /* 부모 요소의 색상 상속 */
+    background-color: transparent; /* 배경색 제거 */
+}
+
+/* 링크에 마우스를 올렸을 때의 스타일 (선택 사항) */
+a:hover {
+    color: #340000; /* 원하는 색상으로 변경 */
+    transition: color 0.3s; /* 색상 전환 효과 */
+}
+
+.container {
+    flex: 1; /* 가능한 공간을 차지하게 설정 */
+    display: flex;
+    flex-direction: column; /* 세로 방향으로 배치 */
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 100px; /* 헤더와의 간격을 유지 */
+    line-height: 1.6;
+    max-width: 960px;
+}
+
+/* 모바일 스타일 */
+@media (max-width: 768px) { /* 화면 너비가 768px 이하일 때 */
+    .container {
+        width: 100%;
+    }  
+}
+
+@media (max-width: 1100px) and (min-width: 768px) { /* 화면 너비가 768px 이상 1100px 이하일 때 */
+    .container {
+        width: 70%;
+    }  
+}
+
+/* 헤더 높이를 60px로 설정 */
+header {
+    height: 60px;
+    width: 100%;
+    padding: 20px;
+    position: fixed; /* 고정된 헤더 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    background-color: #212121; /* 헤더의 배경색 */
+    z-index: 1000; /* 배경 비디오 위에 위치하게 */
+    transition: top 0.3s; /* 위쪽으로 이동할 때의 애니메이션 효과 */
+}
+
+main {
+    flex: 1; /* 공간을 차지 */
+    box-sizing: border-box; /* 패딩이 요소 크기에 포함되도록 설정 */
+    padding-top: 60px;
+}
+
+/* 링크 스타일 */
+a {
+    text-decoration-line: none;
+}
+
+.top_logo a {
+    font-size: 24px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* 모바일 메뉴 토글 버튼 */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+}
+
+.contact-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btn, .btn-primary {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: white;
+    color: #003f5c;
+}
+
+.btn-primary {
+    background-color: #9c0000;
+    color: white;
+}
+
+/* 슬라이드 메뉴 스타일 */
+.slide-menu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 70%; /* 슬라이드 메뉴 너비 */
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8); /* 반투명 흰색 배경 */
+    backdrop-filter: blur(20px); /* 블러 효과 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* 상단 정렬 */
+    padding-top: 20px; /* 상단 여백 */
+    transition: left 0.3s ease-in-out;
+    z-index: 999;
+}
+
+.slide-menu ul {
+    list-style: none;
+    padding: 20px;
+}
+
+.slide-menu ul li {
+    margin: 20px 0;
+}
+
+.slide-menu ul li a {
+    font-size: 24px;
+    color: black; /* 메뉴 글씨를 검은색으로 설정 */
+    text-decoration: none;
+}
+
+.close-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    color: black; /* 닫기 버튼 글씨 색상 */
+}
+
+/* 슬라이드 메뉴 활성화 */
+.slide-menu.show {
+    left: 0;
+}
+
+/* 모바일 뷰포트에서 네비게이션 메뉴 스타일 */
+@media (max-width: 960px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #003f5c;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        padding: 20px;
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .contact-buttons {
+        display: none;
+    }
+}
