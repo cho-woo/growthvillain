@@ -5,13 +5,14 @@ body {
     padding: 20px;
 }
 
-.container {
-    max-width: 800px;
-    margin: auto;
-    background: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.container_admin_contact {
+    max-width: 2000px !important; /* 전체 너비에 맞게 수정 */
+    margin: auto !important;
+    background: #fff !important;
+    padding: 20px !important;
+    border-radius: 8px !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
+    width: 100% 0%!important;
 }
 
 h1 {
@@ -29,12 +30,48 @@ th, td {
     padding: 10px;
     text-align: left;
     border-bottom: 1px solid #ddd;
+    word-wrap: break-word; /* 긴 단어 줄바꿈 허용 */
 }
 
 th {
     background-color: #f2f2f2;
 }
 
+/* 모든 칸의 가로 크기 늘리기 */
+th, td {
+    width: 150px; /* 기존 100px에서 50px 늘림 */
+}
+
 tr:hover {
     background-color: #f9f9f9;
+}
+
+/* 긴 내용의 줄바꿈을 위해 설정 */
+td {
+    overflow-wrap: break-word; /* 줄바꿈을 위한 속성 */
+    word-break: break-word; /* 긴 단어가 들어오면 줄바꿈 */
+}
+
+body > main > div > table > thead > tr > th:nth-child(1){
+    width: 200px;
+}
+
+body > main > div > table > thead > tr > th:nth-child(2){
+    width: 500px;
+}
+
+body > main > div > table > thead > tr > th:nth-child(3){
+    width: 400px;
+}
+
+body > main > div > table > thead > tr > th:nth-child(4){
+    width: 200px;
+}
+
+body > main > div > table > thead > tr > th:nth-child(5){
+    width: 500px;
+}
+
+body > main > div > table > thead > tr > th:nth-child(6){
+    width: 900px;
 }

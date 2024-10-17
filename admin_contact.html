@@ -11,26 +11,17 @@
 </head>
 
 <body>
-    <!-- 헤더 영역 -->
     <header>
         <div class="logo">그로스빌런</div>
         <nav>
             <ul class="menu">
                 <li><a href="#">관리자홈</a></li>
             </ul>
-            <div class="menu-toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
         </nav>
-        <div class="contact-buttons">
-            <button class="btn">소개서</button>
-            <button class="btn-primary">문의하기</button>
-        </div>
     </header>
+
     <main>
-        <div class="container">
+        <div class="container_admin_contact">
             <h1>문의 내역</h1>
             <table>
                 <thead>
@@ -41,48 +32,71 @@
                         <th>알게 된 경로</th>
                         <th>문의 주제</th>
                         <th>내용</th>
+                        <th>문의 시간</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <?php
-                    // JSON 파일에서 데이터 읽기
-                    $filePath = 'contacts.json';
-                    if (file_exists($filePath)) {
-                        $jsonData = file_get_contents($filePath);
-                        $contacts = json_decode($jsonData, true);
-
-                        // 데이터가 있을 경우 테이블에 출력
-                        foreach ($contacts as $contact) {
-                            echo "<tr>
-                                <td>{$contact['company']}</td>
-                                <td>{$contact['email']}</td>
-                                <td>{$contact['phone']}</td>
-                                <td>{$contact['source']}</td>
-                                <td>{$contact['topic']}</td>
-                                <td>{$contact['message']}</td>
-                            </tr>";
-                        }
-                    } else {
-                        echo "<tr><td colspan='6'>문의 내역이 없습니다.</td></tr>";
-                    }
-                    ?>
+                <tbody id="contacts-table-body">
+                    <!-- 동적으로 추가될 내용 -->
                 </tbody>
             </table>
         </div>
     </main>
+
     <footer>
         <div class="footer-links">
             <a href="#">회사소개서</a>
-            <!-- <a href="#">개인정보처리방침</a> -->
-            <!-- <a href="#">이용약관</a> -->
-            <!-- <a href="#">생산현황</a> -->
             <a href="blog_list.html">블로그</a>
-            <a href="#">포트폴리오</a>
         </div>
         <div class="footer-info">
             <p>서울시 강남구 역삼로 123</p>
             <p>&copy; Growth Villain, Inc. 2025</p>
         </div>
     </footer>
+
+    <script>
+        let page = 0; // 현재 페이지
+        const limit = 10; // 한 페이지에 로드할 데이터 수
+    
+function loadContacts() {
+    fetch(`http://growthvillain.kesug.com/php/contacts.json?page=${page}&limit=${limit}`)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('네트워크 응답이 좋지 않습니다.');
+            }
+            return response.json();
+        })
+        .then(data => {
+            const tableBody = document.getElementById('contacts-table-body');
+            data.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp)); // 최신순 정렬
+            data.forEach(contact => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${contact.company}</td>
+                    <td>${contact.email}</td>
+                    <td>${contact.phone}</td>
+                    <td>${contact.source}</td>
+                    <td>${contact.topic}</td>
+                    <td>${contact.message}</td>
+                    <td>${contact.timestamp}</td>
+                `;
+                tableBody.appendChild(row);
+            });
+            page++; // 페이지 증가
+        })
+        .catch(error => console.error('Error loading contacts:', error));
+}
+
+    
+        // 스크롤 이벤트 처리
+        window.addEventListener('scroll', () => {
+            if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
+                loadContacts();
+            }
+        });
+    
+        // 페이지 로드 시 최초 데이터 로드
+        loadContacts();
+    </script>
+    
 </body>
 </html>

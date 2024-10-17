@@ -54,3 +54,29 @@ document.addEventListener('DOMContentLoaded', () => {
         privacyPopup.style.display = 'none';
     });
     
+    document.getElementById('contact-form').addEventListener('submit', function(e) {
+        e.preventDefault(); // 기본 제출 방지
+    
+        const formData = new FormData(this);
+    
+        fetch('../php/save_contact.php', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => {
+            if (response.ok) {
+                alert('문의가 성공적으로 전송되었습니다.'); // 피드백 메시지
+                window.location.href = 'http://growthvillain.kesug.com/'; // 성공 시 리다이렉트
+            } else {
+                alert('문의 전송 실패: 다시 시도해주세요.');
+                console.error('문의 전송 실패');
+            }
+        })
+        .catch(error => {
+            alert('서버와의 연결에 문제가 발생했습니다.');
+            console.error('Error:', error);
+        });
+    });
+    
+
+
