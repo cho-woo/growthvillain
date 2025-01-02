@@ -1,47 +1,17 @@
-document.getElementById('toggle-chat').addEventListener('click', function() {
-    const chatWindow = document.getElementById('chat-window');
-    chatWindow.style.display = chatWindow.style.display === 'none' ? 'flex' : 'none';
-});
+// 페이지 로드 시 애니메이션 효과 추가
+window.addEventListener('load', () => {
+    // 배경색과 텍스트 애니메이션을 위한 클래스 추가
+    document.body.classList.add('fade-in');
+    const container = document.querySelector('.container');
+    container.classList.add('fade-in');
 
-document.getElementById('send-btn').addEventListener('click', function() {
-    const messageInput = document.getElementById('message');
-    const messageText = messageInput.value.trim();
+    // 텍스트 애니메이션 설정
+    const title = document.querySelector('.title');
+    title.innerHTML = title.textContent.replace(/\S/g, "<span>$&</span>");
 
-    if (messageText) {
-        // 서버에 메시지 전송
-        fetch('sendMessage.php', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({ message: messageText }),
-        })
-        .then(response => response.json())
-        .then(data => {
-            // 메시지 전송 후 입력 필드 비우기
-            messageInput.value = '';
-
-            // 메시지 목록 업데이트
-            loadMessages();
-        });
-    }
-});
-
-// 메시지 로드 함수
-function loadMessages() {
-    fetch('loadMessages.php')
-    .then(response => response.json())
-    .then(data => {
-        const chatMessages = document.getElementById('chat-messages');
-        chatMessages.innerHTML = ''; // 이전 메시지 초기화
-
-        data.forEach(message => {
-            const messageElement = document.createElement('div');
-            messageElement.textContent = message;
-            chatMessages.appendChild(messageElement);
-        });
+    // 각 글자에 딜레이 추가
+    const letters = title.querySelectorAll('span');
+    letters.forEach((letter, index) => {
+        letter.style.animationDelay = `${index * 0.1}s`;
     });
-}
-
-// 주기적으로 메시지 로드
-setInterval(loadMessages, 3000); // 3초마다 메시지 로드
+});

@@ -80,3 +80,14 @@ document.addEventListener('DOMContentLoaded', () => {
     
 
 
+// 페이지 로드 시 텍스트 애니메이션 적용
+window.addEventListener('load', () => {
+    const title = document.querySelector('.title');
+    title.innerHTML = title.textContent.replace(/\S/g, "<span>$&</span>");
+
+    // 각 글자에 딜레이 추가
+    const letters = title.querySelectorAll('span');
+    letters.forEach((letter, index) => {
+        letter.style.animationDelay = `${index * 0.1}s`;
+    });
+});

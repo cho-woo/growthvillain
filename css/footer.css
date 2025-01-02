@@ -9,6 +9,7 @@ footer {
     text-align: center; /* 텍스트 중앙 정렬 */
     box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* 상단 그림자 */
     z-index: 1000; /* 다른 요소 위에 표시 */
+    line-height: 22px;
 }
 
 .footer-links {
@@ -18,7 +19,7 @@ footer {
 }
 
 .footer-info {
-    margin-top: 20px;
+    margin-top: 5px;
     font-size: 14px;
     color: #666;
 }
@@ -29,5 +30,5 @@ footer {
 }
 
 .footer-links a:hover {
-    color: rgb(103, 0, 0);
+    color: #343434;
 }

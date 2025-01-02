@@ -39,3 +39,13 @@ document.addEventListener("DOMContentLoaded", function() {
         // checkScroll(); // 새 아이템이 추가된 후 다시 체크
     }
 });
+
+
+
+
+
+
+
+
+
+
