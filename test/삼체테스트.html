@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Orbits of Cosmic Grace - xAI</title>
+  <style>
+    body { margin: 0; overflow: auto; height: 2000px; background: black; } /* 스크롤 가능 */
+    canvas { position: fixed; top: 0; left: 0; }
+    #info { position: fixed; color: white; width: 100%; text-align: center; font-family: Arial; pointer-events: none; z-index: 1; }
+  </style>
+</head>
+<body>
+  <div id="info">
+    <div id="title" style="top: 20px;">The Three-Body Problem</div>
+    <div id="slogan" style="bottom: 20px; position: absolute;">xAI - Orbits of the Unknown</div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script>
+    // 장면 설정
+    const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 5000);
+    const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.setClearColor(0x000000, 1);
+    document.body.appendChild(renderer.domElement);
+
+    // 조명
+    const ambientLight = new THREE.AmbientLight(0x202020, 1);
+    scene.add(ambientLight);
+    const pointLight = new THREE.PointLight(0xffffff, 3, 1000);
+    pointLight.position.set(0, 0, 500);
+    scene.add(pointLight);
+
+    // 별 (소량, 부드럽게)
+    const starField = new THREE.Group();
+    scene.add(starField);
+    const starCount = 50;
+    const stars = [];
+    for (let i = 0; i < starCount; i++) {
+      const star = new THREE.Points(
+        new THREE.BufferGeometry().setFromPoints([new THREE.Vector3(
+          (Math.random() - 0.5) * 4000,
+          (Math.random() - 0.5) * 4000,
+          (Math.random() - 0.5) * 4000
+        )]),
+        new THREE.PointsMaterial({
+          color: new THREE.Color().setHSL(Math.random(), 0.2, 0.9),
+          size: Math.random() * 10 + 5,
+          transparent: true,
+          opacity: 0.7,
+          blending: THREE.AdditiveBlending
+        })
+      );
+      starField.add(star);
+      stars.push(star);
+    }
+
+    // 질량체 클래스
+    class Body {
+      constructor(mass, x, y, z, vx, vy, vz, baseColor) {
+        this.mass = mass;
+        this.pos = new THREE.Vector3(x, y, z);
+        this.vel = new THREE.Vector3(vx, vy, vz);
+        this.baseColor = new THREE.Color(baseColor);
+
+        // 코어
+        this.core = new THREE.Mesh(
+          new THREE.SphereGeometry(12, 32, 32),
+          new THREE.MeshBasicMaterial({ color: this.baseColor, transparent: true, opacity: 0.9 })
+        );
+        this.core.position.copy(this.pos);
+        scene.add(this.core);
+
+        // 오라
+        this.aura = new THREE.Mesh(
+          new THREE.SphereGeometry(20, 32, 32),
+          new THREE.MeshBasicMaterial({ color: this.baseColor, transparent: true, opacity: 0.2 })
+        );
+        this.aura.position.copy(this.pos);
+        scene.add(this.aura);
+
+        // 그림자 링
+        this.ring = new THREE.Mesh(
+          new THREE.RingGeometry(25, 35, 32),
+          new THREE.MeshBasicMaterial({ color: 0x000000, transparent: true, opacity: 0.4, side: THREE.DoubleSide })
+        );
+        this.ring.position.copy(this.pos);
+        scene.add(this.ring);
+
+        // 궤적 (긴 공전 경로)
+        this.trailGeometry = new THREE.BufferGeometry();
+        this.trailMaterial = new THREE.LineBasicMaterial({ color: this.baseColor, transparent: true, opacity: 0.3 });
+        this.trail = new THREE.Line(this.trailGeometry, this.trailMaterial);
+        this.trailPoints = [];
+        scene.add(this.trail);
+
+        // 빛 입자
+        this.particleGroup = new THREE.Group();
+        scene.add(this.particleGroup);
+        this.particles = [];
+      }
+
+      update(bodies, time, mousePos) {
+        let acc = new THREE.Vector3();
+        let reflectedColor = new THREE.Color(this.baseColor);
+
+        // 중력 상호작용 (공전 강하게)
+        bodies.forEach(other => {
+          if (other !== this) {
+            const diff = other.pos.clone().sub(this.pos);
+            const dist = diff.length();
+            if (dist > 30) {
+              const force = (2 * this.mass * other.mass) / (dist * dist); // 중력 강화로 공전 궤적 뚜렷하게
+              acc.add(diff.normalize().multiplyScalar(force / this.mass));
+              if (dist < 100) {
+                const mixFactor = (100 - dist) / 100 * 0.4;
+                reflectedColor.lerp(other.baseColor, mixFactor);
+              }
+            }
+          }
+        });
+
+        // 마우스 영향
+        const mouseDist = this.pos.distanceTo(mousePos);
+        if (mouseDist < 200) {
+          const mouseForce = (200 - mouseDist) / 200 * 0.05;
+          const mouseDir = this.pos.clone().sub(mousePos).normalize();
+          acc.add(mouseDir.multiplyScalar(mouseForce));
+          this.core.scale.setScalar(1 + Math.sin(time * 5) * 0.3);
+          this.aura.scale.setScalar(1 + Math.sin(time * 5) * 0.5);
+        } else {
+          this.core.scale.setScalar(1);
+          this.aura.scale.setScalar(1);
+        }
+
+        this.vel.add(acc.multiplyScalar(dt));
+        this.pos.add(this.vel.clone().multiplyScalar(dt));
+        this.core.position.copy(this.pos);
+        this.aura.position.copy(this.pos);
+        this.ring.position.copy(this.pos);
+        this.ring.rotation.x = time * 0.3 + Math.sin(time) * 0.1;
+        this.core.material.color.copy(reflectedColor);
+        this.aura.material.color.copy(reflectedColor);
+
+        // 궤적 (공전 경로)
+        this.trailPoints.push(this.pos.clone());
+        if (this.trailPoints.length > 200) this.trailPoints.shift(); // 긴 궤적 유지
+        this.trailGeometry.setFromPoints(this.trailPoints);
+
+        // 빛 입자
+        if (Math.random() < 0.05) {
+          const particle = new THREE.Points(
+            new THREE.BufferGeometry().setFromPoints([this.pos.clone()]),
+            new THREE.PointsMaterial({
+              color: reflectedColor,
+              size: 3,
+              transparent: true,
+              opacity: 0.7,
+              blending: THREE.AdditiveBlending
+            })
+          );
+          particle.velocity = new THREE.Vector3(
+            (Math.random() - 0.5) * 0.5,
+            (Math.random() - 0.5) * 0.5,
+            (Math.random() - 0.5) * 0.5
+          );
+          particle.life = 2;
+          this.particles.push(particle);
+          this.particleGroup.add(particle);
+        }
+        this.particles = this.particles.filter(p => {
+          p.position.add(p.velocity);
+          p.life -= dt;
+          p.material.opacity = p.life / 2;
+          if (p.life <= 0) this.particleGroup.remove(p);
+          return p.life > 0;
+        });
+      }
+    }
+
+    // 초기 질량체 (고급스러운 색상, 공전 초기값 조정)
+    let bodies = [
+      new Body(1, -150, 0, 0, 0, 0.8, 0, 0xFFD700), // 금빛
+      new Body(1, 150, 0, 0, 0, -0.8, 0, 0xC0C0C0), // 은빛
+      new Body(0.5, 0, 150, 0, -0.8, 0, 0, 0x800080) // 자줏빛
+    ];
+
+    // 인터랙션
+    let dt = 0.005;
+    const raycaster = new THREE.Raycaster();
+    const mouse = new THREE.Vector2(-1, -1);
+
+    document.addEventListener('mousemove', (e) => {
+      mouse.x = (e.clientX / window.innerWidth) * 2 - 1;
+      mouse.y = -(e.clientY / window.innerHeight) * 2 + 1;
+    });
+
+    document.addEventListener('click', () => {
+      bodies.forEach(body => {
+        body.vel.add(new THREE.Vector3(
+          (Math.random() - 0.5) * 0.5,
+          (Math.random() - 0.5) * 0.5,
+          (Math.random() - 0.5) * 0.5
+        ));
+      });
+    });
+
+    // 스크롤 항해
+    let scrollPos = 0;
+    document.addEventListener('wheel', (e) => {
+      scrollPos += e.deltaY * 0.5; // 스크롤 방향에 따라 이동
+      scrollPos = Math.max(-1000, Math.min(1000, scrollPos)); // 이동 범위 제한
+    });
+
+    // 카메라 이동
+    let time = 0;
+    camera.position.set(0, 0, 500);
+    function updateCamera() {
+      const center = bodies.reduce((acc, b) => acc.add(b.pos), new THREE.Vector3()).divideScalar(bodies.length);
+      const targetPos = new THREE.Vector3(
+        center.x + mouse.x * 300,
+        center.y - mouse.y * 300,
+        500 - scrollPos // 스크롤에 따라 z축 이동
+      );
+      camera.position.lerp(targetPos, 0.05);
+      camera.lookAt(center);
+
+      // 별 위치 조정 (카메라와 함께 이동)
+      starField.position.lerp(new THREE.Vector3(center.x, center.y, -1000 - scrollPos * 0.5), 0.02);
+    }
+
+    // 애니메이션
+    function animate() {
+      requestAnimationFrame(animate);
+      time += dt;
+
+      raycaster.setFromCamera(mouse, camera);
+      const mousePos = raycaster.ray.at(500, new THREE.Vector3());
+
+      bodies.forEach(body => body.update(bodies, time, mousePos));
+      pointLight.position.copy(bodies[0].pos);
+      updateCamera();
+
+      renderer.render(scene, camera);
+    }
+    animate();
+
+    // 창 크기 조정
+    window.addEventListener('resize', () => {
+      camera.aspect = window.innerWidth / window.innerHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+    });
+  </script>
+</body>
+</html>
