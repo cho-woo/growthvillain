@@ -1,7 +1,7 @@
 
 
 
-.container {
+.contact-container {
     margin-left: auto;
     margin-right: auto;
     max-width: 1200px; /* 최대 너비 설정 */
@@ -44,6 +44,7 @@ video {
 }
 
 input, select, textarea {
+    width: 100%;
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;

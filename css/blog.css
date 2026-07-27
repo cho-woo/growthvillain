@@ -1,4 +1,4 @@
-.container {
+.blog-container {
     margin-left: 150px;
     margin-right: 150px;
     max-width: 1200px; /* 최대 너비 설정 */
@@ -9,7 +9,7 @@
 
 /* 모바일 사이즈에 대한 스타일 */
 @media (max-width: 768px) { /* 768px 이하의 화면 크기에 적용 */
-    .container {
+    .blog-container {
         margin-left: 20px; /* 모바일 좌측 마진 */
         margin-right: 20px; /* 모바일 우측 마진 */
         position: relative; /* container의 position을 relative로 설정 */
