@@ -1,4 +1,60 @@
 /* css/portfolio.css */
+.my-portfolio-teaser {
+    background-color: #12332b;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.my-portfolio-teaser-inner {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.my-portfolio-teaser-eyebrow {
+    color: #8fe3c4;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    margin-bottom: 10px;
+}
+
+.my-portfolio-teaser h2 {
+    color: #ffffff;
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+.my-portfolio-teaser-desc {
+    color: #cfe8de;
+    font-size: 15px;
+    margin-bottom: 24px;
+}
+
+.my-portfolio-teaser-btn {
+    display: inline-block;
+    background-color: #8fe3c4;
+    color: #12332b;
+    font-weight: 700;
+    padding: 12px 28px;
+    border-radius: 999px;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.my-portfolio-teaser-btn:hover {
+    background-color: #ffffff;
+    color: #12332b;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .my-portfolio-teaser {
+        padding: 40px 20px;
+    }
+    .my-portfolio-teaser h2 {
+        font-size: 22px;
+    }
+}
+
 .portfolio-section {
     text-align: center;
     padding: 40px 40px 200px 40px;
