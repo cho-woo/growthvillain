@@ -25,10 +25,11 @@ video {
 /* Contact Section */
 .contact-section {
     padding: 40px;
-    background-color: #f8f9fa;
+    background-color: var(--color-bg-light);
 }
 
 .contact-section h2 {
+    color: var(--color-primary);
     font-size: 32px;
     margin-bottom: 20px;
 }
@@ -48,7 +49,14 @@ input, select, textarea {
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: var(--radius);
+    transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: var(--color-accent);
+    box-shadow: 0 0 0 3px rgba(143, 227, 196, 0.35);
 }
 
 textarea {
@@ -56,9 +64,17 @@ textarea {
 }
 
 .submit-btn {
-    background-color: #ff6361;
-    color: white;
-    padding: 10px;
+    background-color: var(--color-accent);
+    color: var(--color-primary);
+    font-weight: 700;
+    padding: 12px;
     border: none;
+    border-radius: var(--radius);
     cursor: pointer;
+    transition: background-color var(--transition-fast), transform var(--transition-fast);
+}
+
+.submit-btn:hover {
+    background-color: var(--color-accent-dark);
+    transform: translateY(-2px);
 }

@@ -1,6 +1,6 @@
 /* css/portfolio.css */
 .my-portfolio-teaser {
-    background-color: #12332b;
+    background-color: var(--color-primary);
     padding: 60px 20px;
     text-align: center;
 }
@@ -11,7 +11,7 @@
 }
 
 .my-portfolio-teaser-eyebrow {
-    color: #8fe3c4;
+    color: var(--color-accent);
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 0.02em;
@@ -32,17 +32,17 @@
 
 .my-portfolio-teaser-btn {
     display: inline-block;
-    background-color: #8fe3c4;
-    color: #12332b;
+    background-color: var(--color-accent);
+    color: var(--color-primary);
     font-weight: 700;
     padding: 12px 28px;
     border-radius: 999px;
-    transition: transform 0.2s ease, background-color 0.2s ease;
+    transition: transform var(--transition-fast), background-color var(--transition-fast);
 }
 
 .my-portfolio-teaser-btn:hover {
     background-color: #ffffff;
-    color: #12332b;
+    color: var(--color-primary);
     transform: translateY(-2px);
 }
 
@@ -71,19 +71,31 @@
 
 .portfolio-item {
     background: #ffffff;
-    border-radius: 8px;
+    border-radius: var(--radius);
     overflow: hidden;
     text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--shadow-card);
     margin: 10px 0;
     opacity: 0; /* 초기 투명도 0 */
     transform: translateY(20px); /* 아래로 살짝 이동 */
-    transition: opacity 0.5s ease, transform 0.5s ease; /* 애니메이션 효과 */
+    transition: opacity 0.5s ease, transform 0.5s ease, box-shadow var(--transition-fast); /* 애니메이션 효과 */
 }
 
 .portfolio-item.visible {
     opacity: 1; /* 완전히 보이게 설정 */
     transform: translateY(0); /* 원래 위치로 이동 */
+}
+
+.portfolio-item:hover {
+    box-shadow: 0 10px 24px rgba(18, 51, 43, 0.16);
+}
+
+.portfolio-item:hover img {
+    transform: scale(1.04);
+}
+
+.portfolio-item img {
+    transition: transform var(--transition-fast);
 }
 
 .portfolio-item img {

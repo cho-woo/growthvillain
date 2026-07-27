@@ -65,14 +65,21 @@ ul {
 
 .partner-item {
     background: #ffffff;
-    border-radius: 8px;
+    border-radius: var(--radius);
     overflow: hidden;
     text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--shadow-card);
     margin: 10px 0;
+    transition: box-shadow var(--transition-fast);
    }
 
+.partner-item:hover {
+    box-shadow: 0 10px 24px rgba(18, 51, 43, 0.16);
+}
 
+.partner-item:hover img {
+    transform: scale(1.04);
+}
 
 .partner-item img {
     width: 70%; /* 모바일에서는 이미지의 너비를 50%로 설정 */
@@ -80,6 +87,7 @@ ul {
     margin-top: 70px;
     margin-bottom: 50px;
     display: inline-block; /* 이미지가 가운데 정렬되도록 설정 */
+    transition: transform var(--transition-fast);
 }
 
 .partner-item h3 {
@@ -184,11 +192,20 @@ ul {
 
 #random-portfolio-items .portfolio-item {
     background: #ffffff;
-    border-radius: 8px;
+    border-radius: var(--radius);
     overflow: hidden;
     text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--shadow-card);
     margin: 10px 0;
+    transition: box-shadow var(--transition-fast);
+}
+
+#random-portfolio-items .portfolio-item:hover {
+    box-shadow: 0 10px 24px rgba(18, 51, 43, 0.16);
+}
+
+#random-portfolio-items .portfolio-item:hover img {
+    transform: scale(1.04);
 }
 
 #random-portfolio-items .portfolio-item img {
@@ -197,6 +214,7 @@ ul {
     margin-top: 70px;
     margin-bottom: 50px;
     display: inline-block;
+    transition: transform var(--transition-fast);
 }
 
 #random-portfolio-items .portfolio-item h3 {

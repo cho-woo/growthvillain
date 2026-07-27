@@ -124,8 +124,9 @@
 
 .blog-grid strong:hover {
     text-decoration: underline; /* 마우스를 올리면 밑줄 추가 */
-    text-decoration-color: gray; /* 밑줄의 색상 회색으로 설정 */
-    text-decoration-thickness: 0.3px; /* 밑줄의 두께 설정 */
+    text-decoration-color: var(--color-accent-dark); /* 밑줄의 색상을 브랜드 컬러로 설정 */
+    text-decoration-thickness: 2px;
+    color: var(--color-primary);
 }
 
 body > main > h1 {
