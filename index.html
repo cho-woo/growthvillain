@@ -207,41 +207,48 @@
   <div class="wrap">
     <div class="cno" style="color:var(--color-primary-on-dark)">Case 06–09</div>
     <h3 class="display" style="margin-top:8px">커머스 운영 자동화 · 데이터 파이프라인</h3>
-    <p class="lead" style="margin-top:18px;max-width:860px">5개 브랜드 쇼핑몰의 매출·광고·재고·고객 데이터를 자동으로 모으고 정리해서 보고서로 만드는 시스템을, 기획부터 개발·운영까지 전 과정을 직접 만들었습니다.</p>
+    <p class="lead" style="margin-top:18px;max-width:900px">5개 브랜드 쇼핑몰의 매출·광고·재고·고객 데이터를 자동으로 모으고 정리해서 보고서로 만드는 시스템을, 기획부터 개발·운영까지 전 과정을 직접 만들었습니다. 파이썬 스크립트 174개(약 48,000줄)로 외부 플랫폼 11곳을 연동했고, 서버에서 24시간 무인으로 돕니다.</p>
     <div class="flow" style="margin-top:30px">
-      <span class="fstep" style="background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.16);color:#fff;transition-delay:.05s">외부 API 8종</span>
+      <span class="fstep" style="background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.16);color:#fff;transition-delay:.05s">외부 API 11종</span>
       <span class="farr" style="color:var(--color-primary-on-dark);animation-delay:0s">→</span>
       <span class="fstep" style="background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.16);color:#fff;transition-delay:.2s">수집·가공 (Python)</span>
       <span class="farr" style="color:var(--color-primary-on-dark);animation-delay:.3s">→</span>
       <span class="fstep" style="background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.16);color:#fff;transition-delay:.35s">리포팅·산출</span>
     </div>
     <div class="grid g3" style="margin-top:26px">
-      <div class="card"><div class="tt">외부 API 8종</div><p>이지어드민 · 카페24 · 스마트스토어 · 쿠팡 · 메타 · 네이버 SA · GFA</p></div>
-      <div class="card"><div class="tt">수집·가공 (Python)</div><p>로그인 정보 자동 갱신, 요청이 막히면 자동 재시도, 데이터를 나눠서 안전하게 수집, 중복 제거</p></div>
-      <div class="card"><div class="tt">리포팅·산출</div><p>구글시트에 KPI·광고 데이터 정리, 네이트온 실시간 알림, 문자 자동 발송, 엑셀로 고객 데이터 관리</p></div>
+      <div class="card"><div class="tt">외부 API 11종</div><p><strong>수집 8</strong> — 카페24(주문·애널리틱스) · 스마트스토어(네이버 커머스) · 쿠팡 · 이지어드민 ERP · 메타 그래프 · 네이버 검색광고 · 네이버 GFA · GA4<br><strong>산출 3</strong> — 구글 시트 · 슬랙 · 알리고 문자</p></div>
+      <div class="card"><div class="tt">수집·가공 (Python)</div><p>로그인 정보 자동 갱신, 요청이 막히면 자동 재시도, 데이터를 나눠서 안전하게 수집, 중복 제거. API가 없는 쿠팡 재고는 브라우저 자동화로 받아옵니다.</p></div>
+      <div class="card"><div class="tt">리포팅·산출</div><p>구글시트에 KPI·광고 데이터 자동 기입, 슬랙으로 브랜드별 매출 실시간 보고, 고객에게 문자 자동 발송, 고객 데이터 통합 관리</p></div>
     </div>
     <div class="techs">
-      <span class="tech">Python</span><span class="tech">REST API</span><span class="tech">OAuth2 · HMAC</span><span class="tech">Google Sheets API</span><span class="tech">FastAPI</span><span class="tech">SQLite</span><span class="tech">systemd</span><span class="tech">AWS Lightsail</span>
+      <span class="tech">Python</span><span class="tech">REST API</span><span class="tech">OAuth2 · HMAC</span><span class="tech">Meta Graph API</span><span class="tech">Google Sheets API</span><span class="tech">Slack API</span><span class="tech">FastAPI</span><span class="tech">SQLite</span><span class="tech">Selenium · Playwright</span><span class="tech">systemd timer</span><span class="tech">AWS Lightsail</span>
     </div>
 
-    <h4 style="font-family:var(--font-display);font-weight:600;font-size:19px;margin:44px 0 4px;color:#fff">무인 운영 · 하루 자동 실행 스케줄 <span class="muted" style="font-weight:400">(KST 기준)</span></h4>
+    <h4 style="font-family:var(--font-display);font-weight:600;font-size:19px;margin:44px 0 4px;color:#fff">무인 운영 · 상시 자동 실행 <span class="muted" style="font-weight:400">(서버 타이머 13종 · 로컬 2종 / KST)</span></h4>
     <div class="sched">
-      <div class="row"><div class="t">06:00 · 18:00</div><div class="d">카페24 로그인 정보 자동 갱신 — 2주마다 만료되는 걸 하루 2번씩 자동 갱신</div></div>
-      <div class="row"><div class="t">08:00</div><div class="d">광고비 자동 수집 — 메타 · 네이버 GFA · 네이버 검색광고</div></div>
-      <div class="row"><div class="t">09:00</div><div class="d">배송 늦어지는 주문 자동 확인 → 네이트온으로 바로 알림</div></div>
-      <div class="row"><div class="t">00:00</div><div class="d">쿠팡 로켓배송 재고·판매량 자동 확인</div></div>
+      <div class="row"><div class="t">1분마다</div><div class="d">슬랙에 달린 "승인" 답글을 감지해 광고 설정에 바로 반영하고 완료 답글까지 남깁니다</div></div>
+      <div class="row"><div class="t">30분마다</div><div class="d">광고 계정 4곳 감시 — 기준을 넘긴 신규 소재는 승인 없이 자동으로 끕니다</div></div>
+      <div class="row"><div class="t">6시간마다</div><div class="d">카페24 로그인 정보 자동 갱신 — 서버 한 곳에서만 갱신하고 로컬은 받아쓰는 구조</div></div>
+      <div class="row"><div class="t">09:30 · 15:30 · 21:30</div><div class="d">소재별 성과 원인 진단 → 중단·증액 후보를 슬랙으로 제안</div></div>
+      <div class="row"><div class="t">11:00</div><div class="d">목표 ROAS를 넘긴 세트·캠페인의 증액 후보 탐지, KPI 시트 자동 기입</div></div>
+      <div class="row"><div class="t">09 · 11 · 13 · 15 · 17시</div><div class="d">브랜드별 매출 현황 슬랙 자동 보고</div></div>
+      <div class="row"><div class="t">매일 (야간)</div><div class="d">쿠팡 재고·판매 수집, 이지어드민 매출 동기화, 네이버 검색광고·GFA 광고비 수집, 재구매 데이터 갱신, ERP DB 백업</div></div>
     </div>
 
     <div class="grid g3" style="margin-top:36px">
-      <div class="card"><div class="k">① 배송지연 자동 감지 · CS 알림</div><ul><li>매일 아침 9시에 자동 시작</li><li>카페24에서 주문 내역 조회</li><li>결제 후 일정 기간 넘도록 안 보낸 주문만 골라내기 (주말·공휴일 제외)</li><li>네이트온으로 팀에 바로 알리고, 문자도 자동 발송</li></ul></div>
+      <div class="card"><div class="k">① 배송지연 자동 감지 · CS 알림</div><ul><li>매일 아침 9시에 자동 시작</li><li>카페24에서 주문 내역 조회</li><li>결제 후 일정 기간 넘도록 안 보낸 주문만 골라내기 (주말·공휴일 제외)</li><li>슬랙으로 팀에 바로 알리고, 고객에게 문자도 자동 발송</li></ul></div>
       <div class="card"><div class="k">② 옴니채널 고객 통합</div><ul><li>카페24 + 스마트스토어 전체 주문</li><li>전화번호 형식을 통일하고 어느 채널 고객인지 표시</li><li>전화번호가 같으면 중복 제거하고 하나로 합치기</li><li>통합 고객 9만 명+ 자산화</li></ul></div>
       <div class="card"><div class="k">③ 경쟁사 광고 자동 모니터링</div><ul><li>브랜드별로 경쟁사가 새로 올린 광고를 자동으로 찾기</li><li>연결된 사이트 주소, 광고 기간, 소재 종류로 걸러보기</li><li>쓸만한 광고를 자동으로 모아서 저장</li></ul></div>
+      <div class="card"><div class="k">④ 슬랙 승인 기반 광고 운영</div><ul><li>광고 계정 4곳을 30분마다 감시</li><li>중단·증액 후보를 근거와 함께 슬랙으로 제안</li><li>스레드에 "승인"만 달면 1분 안에 반영하고 완료 답글</li><li>예산 변경은 반드시 사람 승인, 자동은 신규 소재 차단만</li></ul></div>
+      <div class="card"><div class="k">⑤ 광고 자동 세팅</div><ul><li>사내 웹 화면에서 소재를 올리면 캠페인·세트·광고를 자동 생성</li><li>브랜드·기획자별 일예산 규칙을 코드로 관리</li><li>소재 파일명 규칙으로 제품·기획자·차수를 자동 인식</li></ul></div>
+      <div class="card"><div class="k">⑥ 재고·발주 모니터링</div><ul><li>쿠팡 로켓배송 재고와 판매량을 매일 자동 수집</li><li>API가 없어 브라우저 자동화로 수집</li><li>위험·주의·안전 신호로 발주 시점 자동 경고</li></ul></div>
     </div>
     <div class="stats" style="margin-top:32px">
-      <div class="stat"><div class="num"><em>8</em>개</div><div class="lbl">무인 자동화 작업 상시 운영</div></div>
-      <div class="stat"><div class="num"><em>8</em>종</div><div class="lbl">연동 외부 API 플랫폼</div></div>
+      <div class="stat"><div class="num"><em>15</em>개</div><div class="lbl">무인 자동화 작업 상시 운영 (서버 13 · 로컬 2)</div></div>
+      <div class="stat"><div class="num"><em>11</em>종</div><div class="lbl">연동 외부 API 플랫폼</div></div>
       <div class="stat"><div class="num"><em>15만</em>건+</div><div class="lbl">카페24 주문 데이터 처리</div></div>
       <div class="stat"><div class="num"><em>9만</em>명+</div><div class="lbl">옴니채널 통합 고객 리스트</div></div>
+      <div class="stat"><div class="num"><em>174</em>개</div><div class="lbl">직접 작성한 파이썬 스크립트 · 약 48,000줄</div></div>
     </div>
 
     <div class="grid g3" style="margin-top:32px">
@@ -265,6 +272,8 @@
       <div class="card"><div class="tt">요청 제한 초과 → 해결</div><p>한 번에 너무 많이 요청하면 막히는 문제가 있었는데, 요청 간격을 조절하고 실패하면 자동으로 다시 시도하게 만들어 15만 건이 넘는 데이터도 누락 없이 수집했습니다.</p></div>
       <div class="card"><div class="tt">로그인 정보 만료 → 해결</div><p>로그인 정보가 2주마다 만료되는 문제를, 하루 2번 자동 갱신하도록 만들어서 사람이 다시 로그인하지 않아도 되게 했습니다.</p></div>
       <div class="card"><div class="tt">시트 데이터 밀림 → 해결</div><p>시트에 열이 하나 추가되면서 데이터가 밀려 잘못 들어가는 문제를 발견해 고치고, 빠진 날짜 데이터도 다시 채워 넣었습니다.</p></div>
+      <div class="card"><div class="tt">조용한 실패 → 감지 체계</div><p>KPI 자동 기입 스크립트가 시트 범위를 고정해 둔 탓에, 시트가 길어지자 아무것도 못 쓰면서도 오류 없이 매일 정상 종료됐습니다. 몇 주간 모르고 지나간 뒤 발견해서, 고정 범위를 탐색 방식으로 바꾸고 실패하면 반드시 알림이 오도록 고쳤습니다.</p></div>
+      <div class="card"><div class="tt">자동화 충돌 → 주체 일원화</div><p>"켜둔 광고가 자꾸 꺼진다"는 현상을 추적해 보니, 매체사 자체 자동 규칙과 제가 만든 스크립트가 서로 다른 기준으로 동시에 돌고 있었습니다. 전수 조사로 잘못 꺼진 건을 찾아 되살리고, 자동 조치 주체를 한쪽으로 정리했습니다.</p></div>
     </div>
   </div>
 </section>
