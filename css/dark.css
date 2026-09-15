@@ -336,3 +336,36 @@ p{margin:0}
 /* reveal-on-scroll (reused pattern) */
 .rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 .rv-in{opacity:1;transform:none}
+
+/* ---------- hero motion graphics (inline SVG, no external assets) ---------- */
+.dgraphic{width:100%;height:auto;max-height:120px;margin:4px 0 30px;display:block;overflow:visible}
+.dgraphic .dg-line{fill:none;stroke:var(--accent);stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;
+  stroke-dasharray:100;stroke-dashoffset:100;animation:ddraw 1.8s cubic-bezier(.4,0,.2,1) forwards;animation-play-state:paused}
+.dgraphic .dg-line2{fill:none;stroke:var(--border);stroke-width:2;stroke-linecap:round;stroke-linejoin:round;
+  stroke-dasharray:100;stroke-dashoffset:100;animation:ddraw 1.8s cubic-bezier(.4,0,.2,1) .15s forwards;animation-play-state:paused}
+.dgraphic .dg-fill{fill:var(--accent);opacity:.07}
+.dgraphic .dg-dot{fill:var(--accent);opacity:0;animation:ddotpop .5s ease forwards,dpulse 2.4s ease-in-out infinite;animation-play-state:paused}
+.dgraphic .dg-dot-static{fill:var(--muted);opacity:.5}
+.dgraphic .dg-bar{fill:var(--accent);transform-box:fill-box;transform-origin:bottom;transform:scaleY(0);animation:dbar .7s cubic-bezier(.2,.8,.3,1) forwards;animation-play-state:paused}
+.dgraphic.rv-in .dg-line,.dgraphic.rv-in .dg-line2,.dgraphic.rv-in .dg-dot,.dgraphic.rv-in .dg-bar{animation-play-state:running}
+
+@keyframes ddraw{to{stroke-dashoffset:0}}
+@keyframes ddotpop{to{opacity:1}}
+@keyframes dpulse{0%,100%{opacity:1;r:4}50%{opacity:.45;r:5.5}}
+@keyframes dbar{to{transform:scaleY(1)}}
+
+@media (max-width:640px){.dgraphic{max-height:88px}}
+
+/* flowing pipeline arrows (page 1 flagship banner) */
+.dpipe-arrow{animation:dflowpulse 2.4s ease-in-out infinite}
+.dpipe-steps .dpipe-arrow:nth-of-type(1){animation-delay:0s}
+.dpipe-steps .dpipe-arrow:nth-of-type(2){animation-delay:.3s}
+.dpipe-steps .dpipe-arrow:nth-of-type(3){animation-delay:.6s}
+.dpipe-steps .dpipe-arrow:nth-of-type(4){animation-delay:.9s}
+.dpipe-steps .dpipe-arrow:nth-of-type(5){animation-delay:1.2s}
+.dpipe-steps .dpipe-arrow:nth-of-type(6){animation-delay:1.5s}
+@keyframes dflowpulse{0%,100%{opacity:.45;transform:translateX(0)}50%{opacity:1;transform:translateX(3px)}}
+@media (prefers-reduced-motion:reduce){
+  .dpipe-arrow{animation:none}
+  .dgraphic .dg-line,.dgraphic .dg-line2,.dgraphic .dg-dot,.dgraphic .dg-bar{animation:none;stroke-dashoffset:0;opacity:1;transform:none}
+}

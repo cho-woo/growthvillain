@@ -45,6 +45,19 @@
       <div class="dline"></div>
       <h1 class="dh1">섭외부터 콘텐츠,<br>성과 검증까지<br>직접 합니다.</h1>
       <p class="dsub">파트너를 찾고, 조건을 협의하고, 가이드를 만들고,<br>실제 구매로 이어졌는지까지 확인합니다.</p>
+      <svg class="dgraphic" viewBox="0 0 600 110" width="100%" height="100" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+        <path class="dg-line2" pathLength="100" d="M300,55 L80,25"/>
+        <path class="dg-line2" pathLength="100" d="M300,55 L150,90"/>
+        <path class="dg-line" pathLength="100" d="M300,55 L450,20"/>
+        <path class="dg-line" pathLength="100" d="M300,55 L520,85"/>
+        <path class="dg-line" pathLength="100" d="M300,55 L300,15"/>
+        <circle class="dg-dot-static" cx="80" cy="25" r="4"/>
+        <circle class="dg-dot-static" cx="150" cy="90" r="4"/>
+        <circle class="dg-dot" cx="450" cy="20" r="4"/>
+        <circle class="dg-dot" cx="520" cy="85" r="4"/>
+        <circle class="dg-dot" cx="300" cy="15" r="4"/>
+        <circle class="dg-dot" cx="300" cy="55" r="6"/>
+      </svg>
       <div class="dstats">
         <div class="dstat"><div class="num">16편</div><div class="lbl">직접 진행한 파트너십 광고</div></div>
         <div class="dstat"><div class="num">164%</div><div class="lbl">협찬 직접전환 광고 효율</div></div>
@@ -128,7 +141,7 @@
 
 <script>
 (function () {
-  var targets = document.querySelectorAll('.ecard, .em, .dstat, .dstep');
+  var targets = document.querySelectorAll('.ecard, .em, .dstat, .dstep, .dgraphic');
   targets.forEach(function (el) { el.classList.add('rv'); });
   var io = new IntersectionObserver(function (entries) {
     entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('rv-in'); io.unobserve(e.target); } });

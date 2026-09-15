@@ -44,6 +44,12 @@
       <div class="dline"></div>
       <h1 class="dh1">기획은 아이디어가 아니라,<br>매출이 나는 구조를<br>만드는 일입니다.</h1>
       <p class="dsub">상품·고객·메시지·채널을 연결하고,<br>성과를 보며 계속 고쳐 나갑니다.</p>
+      <svg class="dgraphic" viewBox="0 0 600 110" width="100%" height="100" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+        <path class="dg-line2" pathLength="100" d="M0,98 L600,98"/>
+        <path class="dg-line" pathLength="100" d="M10,95 L110,95 L110,70 L230,70 L230,45 L350,45 L350,20 L590,20"/>
+        <circle class="dg-dot-static" cx="10" cy="95" r="4"/>
+        <circle class="dg-dot" cx="590" cy="20" r="4"/>
+      </svg>
       <div class="dstats">
         <div class="dstat"><div class="num">3개 브랜드</div><div class="lbl">주력 상세페이지 직접 기획</div></div>
         <div class="dstat"><div class="num">6종</div><div class="lbl">상세페이지 제작·개선</div></div>
@@ -143,7 +149,7 @@
 
 <script>
 (function () {
-  var targets = document.querySelectorAll('.ecard, .em, .dstat, .dstep, .ditem');
+  var targets = document.querySelectorAll('.ecard, .em, .dstat, .dstep, .ditem, .dgraphic');
   targets.forEach(function (el) { el.classList.add('rv'); });
   var io = new IntersectionObserver(function (entries) {
     entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('rv-in'); io.unobserve(e.target); } });

@@ -45,6 +45,11 @@
       <div class="dline"></div>
       <h1 class="dh1">잘 되는 것은 키우고,<br>아닌 것은<br>빠르게 멈춥니다.</h1>
       <p class="dsub">채널 단위 효율이 아니라 브랜드 전체 손익을 보고,<br>예산을 늘릴지 줄일지 판단합니다.</p>
+      <svg class="dgraphic" viewBox="0 0 600 110" width="100%" height="100" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+        <path class="dg-fill" d="M0,100 L0,90 L100,75 L200,80 L300,55 L400,60 L500,25 L600,15 L600,100 Z"/>
+        <path class="dg-line" pathLength="100" d="M0,90 L100,75 L200,80 L300,55 L400,60 L500,25 L600,15"/>
+        <circle class="dg-dot" cx="596" cy="15" r="4"/>
+      </svg>
       <div class="dstats">
         <div class="dstat"><div class="num">4개 브랜드</div><div class="lbl">통합 광고 운영</div></div>
         <div class="dstat"><div class="num">220%+</div><div class="lbl">3개월 통합 평균 광고 효율</div></div>
@@ -100,7 +105,7 @@
 
 <script>
 (function () {
-  var targets = document.querySelectorAll('.ecard, .estat, .dstat, .dstep');
+  var targets = document.querySelectorAll('.ecard, .estat, .dstat, .dstep, .dgraphic');
   targets.forEach(function (el) { el.classList.add('rv'); });
   var io = new IntersectionObserver(function (entries) {
     entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('rv-in'); io.unobserve(e.target); } });

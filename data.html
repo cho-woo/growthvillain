@@ -44,6 +44,16 @@
       <div class="dline"></div>
       <h1 class="dh1">데이터는 보는 게 아니라,<br>판단할 수 있게<br>만드는 것입니다.</h1>
       <p class="dsub">수집 설계부터 정합성 검증, 분류, 시각화까지,<br>의사결정에 필요한 흐름을 직접 구축합니다.</p>
+      <svg class="dgraphic" viewBox="0 0 600 110" width="100%" height="100" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+        <rect class="dg-bar" x="30" y="70" width="26" height="30" style="animation-delay:.05s"/>
+        <rect class="dg-bar" x="110" y="55" width="26" height="45" style="animation-delay:.15s"/>
+        <rect class="dg-bar" x="190" y="60" width="26" height="40" style="animation-delay:.25s"/>
+        <rect class="dg-bar" x="270" y="40" width="26" height="60" style="animation-delay:.35s"/>
+        <rect class="dg-bar" x="350" y="30" width="26" height="70" style="animation-delay:.45s"/>
+        <rect class="dg-bar" x="430" y="18" width="26" height="82" style="animation-delay:.55s"/>
+        <rect class="dg-bar" x="510" y="8" width="26" height="92" style="animation-delay:.65s"/>
+        <path class="dg-line" pathLength="100" d="M43,70 L123,55 L203,60 L283,40 L363,30 L443,18 L523,8"/>
+      </svg>
       <div class="dstats">
         <div class="dstat"><div class="num">34개사</div><div class="lbl">기업 데이터 구축 프로젝트</div></div>
         <div class="dstat"><div class="num">50건+</div><div class="lbl">데이터 구축·시각화 경험</div></div>
@@ -175,7 +185,7 @@
 <div class="lightbox" id="lightbox"><img id="lightbox-img" src="" alt=""></div>
 <script>
 (function () {
-  var targets = document.querySelectorAll('.ecard, .em, .dstat, .dstep, .eshot, .epitem');
+  var targets = document.querySelectorAll('.ecard, .em, .dstat, .dstep, .eshot, .epitem, .dgraphic');
   targets.forEach(function (el) { el.classList.add('rv'); });
   var io = new IntersectionObserver(function (entries) {
     entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('rv-in'); io.unobserve(e.target); } });

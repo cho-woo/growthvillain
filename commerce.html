@@ -46,6 +46,13 @@
       <h1 class="dh1">페이지를 만드는 게 아니라,<br>구매가 이어지는 구조를<br>설계합니다.</h1>
       <p class="dsub">상품 기획부터 상세페이지, 프로모션, 고객관리까지,<br>구매 전후 흐름을 직접 설계하고 운영합니다.</p>
       <p class="dsub" style="margin-top:-16px">상세페이지 한 장보다 구매 전후 전체 흐름을 봅니다.</p>
+      <svg class="dgraphic" viewBox="0 0 600 110" width="100%" height="100" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+        <path class="dg-line2" pathLength="100" d="M100,85 L300,20 L500,85 Z"/>
+        <path class="dg-line" pathLength="100" d="M100,85 L300,20"/>
+        <circle class="dg-dot-static" cx="100" cy="85" r="5"/>
+        <circle class="dg-dot-static" cx="300" cy="20" r="5"/>
+        <circle class="dg-dot" cx="500" cy="85" r="5"/>
+      </svg>
       <div class="dstats">
         <div class="dstat"><div class="num">상세페이지</div><div class="lbl">소구점·구매 흐름 설계</div></div>
         <div class="dstat"><div class="num">프로모션</div><div class="lbl">가격·세트·혜택 구조</div></div>
@@ -96,7 +103,7 @@
 
 <script>
 (function () {
-  var targets = document.querySelectorAll('.ecard, .estat, .dstat, .dstep');
+  var targets = document.querySelectorAll('.ecard, .estat, .dstat, .dstep, .dgraphic');
   targets.forEach(function (el) { el.classList.add('rv'); });
   var io = new IntersectionObserver(function (entries) {
     entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('rv-in'); io.unobserve(e.target); } });

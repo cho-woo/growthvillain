@@ -46,6 +46,14 @@
       <h1 class="dh1">성과가 쌓일수록,<br>역할은 더 넓어졌습니다.</h1>
       <p class="dsub">광고 집행에서 시작해 데이터 구축, 자동화, 브랜드 운영까지,<br>역할을 점차 넓혀왔습니다.</p>
       <p class="dsub" style="margin-top:-16px">숫자로 문제를 찾고, 구조로 개선하는 방식은 계속 같았습니다.</p>
+      <svg class="dgraphic" viewBox="0 0 600 110" width="100%" height="100" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+        <path class="dg-line" pathLength="100" d="M20,70 L580,25"/>
+        <circle class="dg-dot-static" cx="20" cy="70" r="3"/>
+        <circle class="dg-dot-static" cx="160" cy="59" r="4"/>
+        <circle class="dg-dot-static" cx="300" cy="48" r="5"/>
+        <circle class="dg-dot-static" cx="440" cy="36" r="6"/>
+        <circle class="dg-dot" cx="580" cy="25" r="7"/>
+      </svg>
       <div class="dstats">
         <div class="dstat"><div class="num">7년 7개월</div><div class="lbl">총 마케팅 경력</div></div>
         <div class="dstat"><div class="num">5개 브랜드</div><div class="lbl">동시 운영 경험</div></div>
@@ -77,7 +85,7 @@
 
 <script>
 (function () {
-  var targets = document.querySelectorAll('.dstat, .ejob');
+  var targets = document.querySelectorAll('.dstat, .ejob, .dgraphic');
   targets.forEach(function (el) { el.classList.add('rv'); });
   var io = new IntersectionObserver(function (entries) {
     entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('rv-in'); io.unobserve(e.target); } });
