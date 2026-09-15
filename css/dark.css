@@ -8,8 +8,8 @@
   --bg:#060708;
   --bg-alt:#08090b;
   --ink:#f5f2ed;
-  --muted:#9499a6;
-  --muted-2:#c2c4cc;
+  --muted:#adb2c0;
+  --muted-2:#d3d5dc;
   --accent:#ff5233;
   --accent-soft:rgba(255,82,51,.12);
   --peach:#f5cca8;
@@ -80,6 +80,13 @@ p{margin:0}
 
 /* ---------- layout shells ---------- */
 .dwrap{max-width:1280px;margin:0 auto;padding:0 32px;position:relative;z-index:1}
+
+/* single-page section shells (formerly separate pages) — each keeps its own
+   positioning context for the decorative orb/particles, plus a chapter
+   divider so the reading flow never feels like it "cuts" between pages */
+.dpagesec{position:relative;scroll-margin-top:76px}
+.dpagesec + .dpagesec{border-top:1px solid var(--border-soft)}
+
 .dorb{
   position:absolute;border-radius:50%;pointer-events:none;z-index:0;
   background:radial-gradient(circle, rgba(255,82,51,.16), rgba(255,82,51,0) 70%);
@@ -353,9 +360,26 @@ p{margin:0}
 }
 
 /* lightbox (reused from old site) */
-.lightbox{position:fixed;inset:0;background:rgba(0,0,0,.86);display:none;align-items:center;justify-content:center;z-index:100;padding:24px}
-.lightbox.open{display:flex}
-.lightbox img{max-width:92vw;max-height:88vh;border-radius:10px}
+.lightbox{position:fixed;inset:0;background:rgba(0,0,0,.86);display:none;z-index:100;overflow-y:auto;padding:40px 20px}
+.lightbox.open{display:flex;flex-direction:column;align-items:center}
+.lightbox img{max-width:92vw;max-height:88vh;border-radius:10px;cursor:zoom-in;margin:auto}
+.lightbox img.zoomed{max-width:min(1100px,96vw);max-height:none;cursor:zoom-out;margin:0 auto}
+
+/* large scrollable/draggable detail-page preview (Case 03) */
+.dpv{margin-top:16px}
+.dpv-main{
+  width:100%;max-width:420px;margin:0 auto;height:640px;overflow-y:auto;overflow-x:hidden;
+  border-radius:14px;border:1px solid var(--border-soft);background:var(--card-0);
+  -webkit-overflow-scrolling:touch;
+  scrollbar-width:none;-ms-overflow-style:none;
+}
+.dpv-main::-webkit-scrollbar{width:0;height:0;display:none}
+.dpv-main img{
+  width:100%;height:auto;display:block;cursor:zoom-in;
+  -webkit-user-drag:none;user-select:none;
+}
+.dpv-label{font-size:12.5px;color:var(--muted);margin-top:14px;text-align:center;max-width:420px;margin-left:auto;margin-right:auto}
+@media (max-width:640px){.dpv-main{height:520px}}
 
 /* reveal-on-scroll (reused pattern) */
 .rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
