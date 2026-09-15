@@ -97,12 +97,12 @@ p{margin:0}
 
 .dhero{
   position:relative;z-index:1;
-  display:grid;grid-template-columns:1.05fr 1fr;gap:48px;
-  padding:96px 0 72px;
+  display:grid;grid-template-columns:1.05fr 1fr;gap:56px;
+  padding:130px 0 100px;
   align-items:start;
 }
 @media (max-width:960px){
-  .dhero{grid-template-columns:1fr;padding:72px 0 40px}
+  .dhero{grid-template-columns:1fr;padding:88px 0 56px}
 }
 
 .deyebrow{
@@ -239,8 +239,9 @@ p{margin:0}
 .dph-label{font-size:13px;color:#adb2bf;margin-bottom:10px;text-align:center}
 
 /* generic evidence sections below the hero+card fold */
-.esec{padding:64px 0;border-top:1px solid var(--border-soft);position:relative;z-index:1}
-.esec.tight{padding:48px 0}
+.esec{padding:100px 0;border-top:1px solid var(--border-soft);position:relative;z-index:1}
+.esec.tight{padding:64px 0}
+@media (max-width:640px){.esec{padding:72px 0}}
 .eeyebrow{color:var(--accent);font-size:14px;font-weight:700;letter-spacing:1.4px;text-transform:uppercase;margin-bottom:14px}
 .edisplay{font-size:clamp(24px,3vw,38px);font-weight:800;line-height:1.28;margin:0 0 18px;color:var(--ink)}
 .edisplay-sm{font-size:clamp(20px,2.2vw,27px);font-weight:800;line-height:1.3;margin:0 0 18px;color:var(--ink)}
@@ -248,14 +249,14 @@ p{margin:0}
 .enote{color:var(--muted);font-size:12.5px;margin-top:14px}
 .ecase-sub{font-size:12.5px;letter-spacing:1px;text-transform:uppercase;color:var(--muted);font-weight:600}
 
-.egrid{display:grid;gap:16px;margin-top:8px}
+.egrid{display:grid;gap:20px;margin-top:8px}
 .egrid.g2{grid-template-columns:1fr 1fr}
 .egrid.g3{grid-template-columns:repeat(3,1fr)}
 .egrid.g4{grid-template-columns:repeat(4,1fr)}
 @media (max-width:860px){.egrid.g3,.egrid.g4{grid-template-columns:1fr 1fr}}
 @media (max-width:560px){.egrid.g2,.egrid.g3,.egrid.g4{grid-template-columns:1fr}}
 
-.ecard{background:var(--card-0);border:1px solid var(--border-soft);border-radius:18px;padding:22px}
+.ecard{background:var(--card-0);border:1px solid var(--border-soft);border-radius:18px;padding:26px}
 .ecard .k{color:var(--accent);font-size:12.5px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;margin-bottom:8px}
 .ecard .tt{font-size:18px;font-weight:700;color:var(--ink);margin-bottom:8px}
 .ecard p{color:var(--muted);font-size:14px;line-height:1.6}
@@ -335,6 +336,16 @@ p{margin:0}
 .elead-cell p{color:var(--muted);font-size:13.5px;line-height:1.6}
 
 .rlink a{color:var(--accent);font-weight:600}
+
+/* studiomx-style "impact moment" — one big number, generous breathing room */
+.dimpact{
+  border-top:1px solid var(--border-soft);
+  padding:80px 0;margin:0;text-align:center;position:relative;z-index:1;
+}
+.dimpact .lab{color:var(--accent);font-size:13px;font-weight:700;letter-spacing:2.4px;text-transform:uppercase;margin:0 0 22px}
+.dimpact .num{font-size:clamp(42px,7vw,88px);font-weight:900;color:var(--ink);line-height:1;letter-spacing:-1px}
+.dimpact .sub{color:var(--muted);font-size:16px;margin:20px auto 0;max-width:560px;line-height:1.65}
+@media (max-width:640px){.dimpact{padding:56px 0}}
 
 /* footer + contact */
 .dfoot{
