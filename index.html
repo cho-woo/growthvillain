@@ -89,10 +89,10 @@
       <h2 class="dcard-h2">6개 핵심 자동화</h2>
       <div class="ditem"><div class="no">01</div><div class="t">배송지연 자동 감지</div><div class="d">미출고 주문 매일 탐지 → 슬랙·문자 발송</div></div>
       <div class="ditem"><div class="no">02</div><div class="t">옴니채널 고객 통합</div><div class="d">카페24·스마트스토어 주문을 전화번호 기준으로 중복 제거</div></div>
-      <div class="ditem"><div class="no">03</div><div class="t">경쟁사 광고 모니터링</div><div class="d">브랜드군 신규 광고 자동 수집·축적</div></div>
+      <div class="ditem"><div class="no">03</div><div class="t">경쟁사 광고 자동 서치</div><div class="d">신규 광고 매일 수집 → 효율 좋은 소재를 레퍼런스로 자동 매칭</div></div>
       <div class="ditem"><div class="no">04</div><div class="t">슬랙 승인 기반 광고 운영</div><div class="d">4개 계정 중단·증액 후보 감시 → 승인 후 반영</div></div>
       <div class="ditem"><div class="no">05</div><div class="t">광고 자동 세팅</div><div class="d">소재 파일명으로 제품·담당자·차수 인식 → 캠페인·세트·광고 생성</div></div>
-      <div class="ditem"><div class="no">06</div><div class="t">재고·발주 모니터링</div><div class="d">API 없는 쿠팡 재고를 브라우저 자동화로 수집해 위험 신호 경고</div></div>
+      <div class="ditem"><div class="no">06</div><div class="t">재고 수량 모니터링</div><div class="d">SKU별 이지어드민 API 자동 반영, 생산 리드타임·평균 판매량 기준 품절 위험 경고</div></div>
     </div>
   </section>
 
@@ -117,8 +117,22 @@
       <div class="ecard"><div class="tt">자동화 충돌</div><p>매체 자동 규칙과 내부 스크립트 충돌 원인을 찾아 조치 주체 일원화</p></div>
     </div>
 
-    <h3 class="edisplay-sm" style="margin-top:56px">경쟁사 광고 자동 서치 · 재고/판매 모니터</h3>
-    <p class="edesc">클릭드래그(또는 스와이프)로 한 장씩 넘겨보세요</p>
+    <h3 class="edisplay-sm" style="margin-top:56px">경쟁사 광고 자동 서치 · 레퍼런스 매칭</h3>
+    <ul class="dlist big">
+      <li>브랜드군 경쟁사 신규 광고를 매일 자동 수집 — 현재 904개 소재 실시간 트래킹</li>
+      <li>소재 유형·랜딩페이지·집행 기간 조건으로 필터링해 비교 가능한 형태로 정리</li>
+      <li>노출 지속 기간·반복도로 효율 좋은 소재를 추려 레퍼런스로 자동 매칭</li>
+    </ul>
+
+    <h3 class="edisplay-sm" style="margin-top:56px">재고 수량 모니터링 · 품절 위험 경고</h3>
+    <ul class="dlist big">
+      <li>상품 SKU별로 이지어드민 API를 활용해 재고 수량을 구글시트에 매일 자동 업데이트</li>
+      <li>제품 생산 리드타임과 최근 일 평균 판매 수량을 함께 반영해 소진 시점 예측</li>
+      <li>예측 기준으로 품절 위험 신호를 자동 모니터링, 발주 시점 경고</li>
+      <li>API가 없는 쿠팡 로켓배송 재고는 브라우저 자동화로 별도 수집</li>
+    </ul>
+
+    <p class="edesc" style="margin-top:32px">클릭드래그(또는 스와이프)로 한 장씩 넘겨보세요</p>
     <div class="dslide" data-slide>
       <div class="dslide-item"><img src="/img/shot-competitor.png" alt="경쟁사 광고 자동 서치" width="1312" height="899" loading="lazy"></div>
       <div class="dslide-item"><img src="/img/shot-inventory.png" alt="재고/판매 모니터" width="1117" height="842" loading="lazy"></div>
