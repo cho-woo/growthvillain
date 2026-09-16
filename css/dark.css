@@ -403,6 +403,26 @@ p{margin:0}
   -webkit-user-drag:none;user-select:none;
 }
 .dpv-label{font-size:12.5px;color:var(--muted);margin-top:14px;text-align:center;max-width:420px;margin-left:auto;margin-right:auto}
+/* horizontal drag-to-swipe image slider — one shot at a time, ratio never forced */
+.dslide{
+  display:flex;overflow-x:auto;overflow-y:hidden;
+  scroll-snap-type:x mandatory;border-radius:14px;border:1px solid var(--border-soft);
+  background:var(--card-0);scrollbar-width:none;-ms-overflow-style:none;
+  cursor:grab;margin-top:14px;
+}
+.dslide::-webkit-scrollbar{display:none}
+.dslide .dslide-item{
+  flex:0 0 100%;scroll-snap-align:start;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  padding:28px;min-height:340px;
+}
+.dslide img{max-width:100%;max-height:60vh;width:auto;height:auto;object-fit:contain;border-radius:8px;display:block;cursor:zoom-in;-webkit-user-drag:none;user-select:none}
+.dslide-cap{margin-top:14px;color:var(--muted);font-size:12.5px;text-align:center}
+.dslide-dots{display:flex;justify-content:center;gap:8px;margin-top:14px}
+.dslide-dots span{width:6px;height:6px;border-radius:50%;background:var(--border);transition:background .2s}
+.dslide-dots span.on{background:var(--accent)}
+@media (max-width:640px){.dslide .dslide-item{padding:18px;min-height:240px}}
+
 .dpv-more{
   display:flex;align-items:center;justify-content:center;gap:6px;
   padding:22px;background:var(--accent);color:#0a0a0a;font-weight:700;font-size:14.5px;

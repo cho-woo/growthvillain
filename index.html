@@ -118,20 +118,16 @@
     </div>
 
     <h3 class="edisplay-sm" style="margin-top:56px">경쟁사 광고 자동 서치 · 재고/판매 모니터 · 공유 드라이브 구조</h3>
-    <div class="egrid g3">
-      <figure class="eshot" style="margin:0">
-        <img src="/img/shot-competitor.png" alt="경쟁사 광고 자동 서치" width="1312" height="899" loading="lazy">
-        <figcaption class="eshot-cap">경쟁사 광고 자동 서치</figcaption>
-      </figure>
-      <figure class="eshot" style="margin:0">
-        <img src="/img/shot-inventory.png" alt="재고/판매 모니터" width="1117" height="842" loading="lazy">
-        <figcaption class="eshot-cap">재고/판매 모니터</figcaption>
-      </figure>
-      <figure class="eshot" style="margin:0">
-        <img src="/img/shot-drive.png" alt="공유 드라이브 구조" width="776" height="657" loading="lazy">
-        <figcaption class="eshot-cap">공유 드라이브 구조</figcaption>
-      </figure>
+    <p class="edesc">클릭드래그(또는 스와이프)로 한 장씩 넘겨보세요</p>
+    <div class="dslide" data-slide>
+      <div class="dslide-item"><img src="/img/shot-competitor.png" alt="경쟁사 광고 자동 서치" width="1312" height="899" loading="lazy"></div>
+      <div class="dslide-item"><img src="/img/shot-inventory.png" alt="재고/판매 모니터" width="1117" height="842" loading="lazy"></div>
+      <div class="dslide-item"><img src="/img/shot-drive.png" alt="공유 드라이브 구조" width="776" height="657" loading="lazy"></div>
     </div>
+    <div class="dslide-dots" data-slide-dots>
+      <span class="on"></span><span></span><span></span>
+    </div>
+    <p class="dslide-cap" data-slide-cap>경쟁사 광고 자동 서치</p>
   </section>
   </section>
 
@@ -504,6 +500,49 @@
       });
     });
   });
+
+  // horizontal drag-to-swipe image slider (one shot at a time, native aspect ratio)
+  document.querySelectorAll('[data-slide]').forEach(function (track) {
+    var items = Array.prototype.slice.call(track.querySelectorAll('.dslide-item'));
+    var dotsWrap = track.parentElement.querySelector('[data-slide-dots]');
+    var dots = dotsWrap ? Array.prototype.slice.call(dotsWrap.children) : [];
+    var capEl = track.parentElement.querySelector('[data-slide-cap]');
+
+    function setActive(i) {
+      dots.forEach(function (d, di) { d.classList.toggle('on', di === i); });
+      var img = items[i] && items[i].querySelector('img');
+      if (capEl && img) capEl.textContent = img.alt;
+    }
+
+    var slideIO = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting && e.intersectionRatio > 0.6) setActive(items.indexOf(e.target));
+      });
+    }, { root: track, threshold: [0.6] });
+    items.forEach(function (el) { slideIO.observe(el); });
+
+    var down = false, dragged = false, startX = 0, startScroll = 0;
+    track.addEventListener('mousedown', function (e) {
+      down = true; dragged = false; startX = e.clientX; startScroll = track.scrollLeft;
+      track.style.cursor = 'grabbing';
+    });
+    window.addEventListener('mousemove', function (e) {
+      if (!down) return;
+      var dx = e.clientX - startX;
+      if (Math.abs(dx) > 4) dragged = true;
+      track.scrollLeft = startScroll - dx;
+    });
+    window.addEventListener('mouseup', function () { down = false; track.style.cursor = 'grab'; });
+
+    items.forEach(function (el) {
+      var img = el.querySelector('img');
+      img.addEventListener('click', function () {
+        if (dragged) { dragged = false; return; }
+        openLightbox(img.src, img.alt);
+      });
+    });
+  });
+
   boxImg.addEventListener('click', function (e) {
     e.stopPropagation();
     boxImg.classList.toggle('zoomed');
