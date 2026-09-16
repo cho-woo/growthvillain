@@ -41,6 +41,12 @@ body.dpage{
   overflow-x:hidden;
 }
 
+.dbg-video{
+  position:fixed;inset:0;width:100%;height:100%;object-fit:cover;
+  z-index:-1;opacity:.22;pointer-events:none;
+}
+@media (prefers-reduced-motion:reduce){.dbg-video{display:none}}
+
 /* faint vertical grid, matches the Figma canvas ruler */
 body.dpage::before{
   content:"";
