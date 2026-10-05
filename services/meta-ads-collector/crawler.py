@@ -151,21 +151,48 @@ async def check_access(page):
             raise CollectionBlocked('Meta blocked this request. Collection stopped; no bypass is attempted.')
 
 
-async def setup_search(page, keyword):
-    url = BASE_URL + '?' + urlencode({'active_status': 'active', 'ad_type': 'all', 'country': 'KR', 'media_type': 'all', 'q': keyword, 'search_type': 'keyword_unordered'})
+async def setup_search(page, keyword, diagnostic_path=None):
+    url = BASE_URL + '?' + urlencode({'active_status': 'active', 'ad_type': 'all', 'country': 'KR', 'is_targeted_country': 'false', 'media_type': 'all', 'q': keyword, 'search_type': 'keyword_unordered'})
     response = await page.goto(url, wait_until='domcontentloaded', timeout=NAV_TIMEOUT_MS)
-    if response and response.status in (401, 403, 429):
-        raise CollectionBlocked('Meta returned HTTP ' + str(response.status))
-    if response and response.status >= 400:
-        raise RuntimeError('Meta returned HTTP ' + str(response.status))
-    await asyncio.sleep(3)
-    await check_access(page)
-    # Do not dismiss login or consent gates automatically.
+    initial_status = response.status if response else None
+    diagnostic = {'initialStatus': initial_status, 'outcome': 'waiting', 'adCount': 0}
+    # The document's initial HTTP status can be 403 while the public SPA still
+    # loads real ad results. Judge the rendered outcome; never retry or bypass a gate.
     try:
-        await page.wait_for_selector('div[role="main"]', timeout=CARD_WAIT_MS)
-    except PlaywrightTimeoutError:
-        pass
-    await check_access(page)
+        if initial_status == 429:
+            raise CollectionBlocked('Meta rate limit reached. Collection stopped.')
+        try:
+            await page.wait_for_function(r"""() => {
+                const text = document.body?.innerText || '';
+                return /(?:라이브러리 ID|Library ID)[:\s]+\d{5,40}/i.test(text) ||
+                    /결과\s*0개|검색 결과가 없습니다|광고를 찾을 수 없습니다|no ads found|no results found/i.test(text) ||
+                    /temporarily blocked|일시적으로 차단|too many requests|confirm you are human|로봇이 아님을|security check required/i.test(text) ||
+                    /\/(login|checkpoint|captcha|challenge)(\/|\?|$)/i.test(location.href) ||
+                    [...document.querySelectorAll('input[type="password"],iframe[src*="captcha"]')].some(el => el.getClientRects().length);
+            }""", timeout=30_000)
+        except PlaywrightTimeoutError:
+            pass
+        await check_access(page)
+        text = await page.inner_text('body')
+        ad_ids = set(re.findall(r'(?:라이브러리 ID|Library ID)[:\s]+(\d{5,40})', text, re.I))
+        if ad_ids:
+            diagnostic.update(outcome='ready', adCount=len(ad_ids))
+            print(f'[*] Public ad results ready: {len(ad_ids)} (initial HTTP {initial_status})', flush=True)
+            return
+        if re.search(r'결과\s*0개|검색 결과가 없습니다|광고를 찾을 수 없습니다|no ads found|no results found', text, re.I):
+            diagnostic['outcome'] = 'empty'
+            raise RuntimeError('No ads found for this search.')
+        if initial_status in (401, 403):
+            raise CollectionBlocked(f'HTTP {initial_status}; no public ad results appeared before timeout.')
+        diagnostic['outcome'] = 'timeout'
+        raise RuntimeError('Ad results did not finish loading before timeout.')
+    except CollectionBlocked:
+        diagnostic['outcome'] = 'blocked'
+        raise
+    finally:
+        if diagnostic_path:
+            # Only status/counts, never account data, page HTML, cookies or headers.
+            Path(diagnostic_path).write_text(json.dumps(diagnostic, indent=2), encoding='utf-8')
 
 
 async def extract_card_data(card: ElementHandle, page: Page) -> dict:
@@ -225,15 +252,6 @@ async def extract_card_data(card: ElementHandle, page: Page) -> dict:
     if m:
         data["platforms_raw"] = m.group(1).strip()
 
-    # 광고주명 + 페이지 링크 (첫 번째 = 메인 광고주)
-    try:
-        adv = await card.query_selector('a[href*="facebook.com/"][target="_blank"]')
-        if adv:
-            data["advertiser"] = (await adv.inner_text()).strip()
-            data["advertiser_url"] = await adv.get_attribute("href") or ""
-    except Exception:
-        pass
-
     # 카드 안의 모든 페이지 링크 텍스트 (메인 advertiser 포함, 중복 제거)
     # 메디큐브가 메인이 아니어도 secondary로 노출되는 경우를 잡기 위함.
     try:
@@ -254,6 +272,9 @@ async def extract_card_data(card: ElementHandle, page: Page) -> dict:
             # 너무 길거나 줄바꿈 포함은 페이지명이 아닐 가능성
             if not text or len(text) > 80 or "\n" in text:
                 continue
+            if not data["advertiser"]:
+                data["advertiser"] = text
+                data["advertiser_url"] = href
             key = text.lower()
             if key in seen_pages:
                 continue
@@ -302,7 +323,11 @@ async def extract_card_data(card: ElementHandle, page: Page) -> dict:
     try:
         videos = await card.query_selector_all("video")
         for v in videos:
-            src = await v.get_attribute("src") or ""
+            candidates = [await v.get_attribute("src") or ""]
+            candidates.append(await v.evaluate("video => video.currentSrc || ''"))
+            for source in await v.query_selector_all("source[src]"):
+                candidates.append(await source.get_attribute("src") or "")
+            src = next((url for url in candidates if allowed_media_url(url)), "")
             poster = await v.get_attribute("poster") or ""
             if src and src not in data["video_urls"]:
                 data["video_urls"].append(src)
@@ -317,7 +342,9 @@ async def extract_card_data(card: ElementHandle, page: Page) -> dict:
         landing_anchors = await card.query_selector_all('a[href*="l.facebook.com/l.php"], a[href*="l.php?u="]')
         # 광고주 페이지 링크는 facebook.com/<id>/ 이므로 제외됨
         if landing_anchors:
-            a = landing_anchors[0]
+            # Partnership headers can link to an influencer's Instagram profile.
+            # The final external link is the product CTA below the ad creative.
+            a = landing_anchors[-1]
             href = await a.get_attribute("href") or ""
             data["landing_url_raw"] = href
             data["landing_url"] = extract_real_url(href)
@@ -344,7 +371,7 @@ async def get_visible_cards(page: Page):
     """광고 카드 노드 리스트. 라이브러리 ID 텍스트 기준으로 카드 컨테이너를 찾음."""
     # 라이브러리 ID 텍스트가 들어있는 가장 가까운 카드 컨테이너 탐색
     # 카드는 보통 width 가 일정한 div.xh8yej3 계층에 있음.
-    cards = await page.evaluate("""
+    cards = await page.evaluate(r"""
         () => {
             const out = [];
             const seen = new Set();
@@ -364,9 +391,11 @@ async def get_visible_cards(page: Page):
                     depth++;
                 }
                 if (!node) continue;
+                const ids = [...new Set((node.innerText || '').match(/(?:라이브러리 ID|Library ID)[:\s]+\d+/g) || [])]
+                    .map(text => text.match(/\d+$/)[0]);
+                if (new Set(ids).size !== 1) continue;
                 // 중복 제거 - 같은 카드 안에 ID 텍스트가 여러개 잡힐 수 있어서
-                const rect = node.getBoundingClientRect();
-                const key = `${Math.round(rect.top)}_${Math.round(rect.left)}_${Math.round(rect.width)}`;
+                const key = ids[0];
                 if (seen.has(key)) continue;
                 seen.add(key);
                 // 식별용 data 속성 부여
@@ -396,7 +425,7 @@ async def scroll_until_enough(page: Page, target_count: int, already_seen_ids: s
     for i in range(max_scrolls):
         await check_access(page)
         cards = await get_visible_cards(page)
-        new_count = 0
+        new_ids = set()
         for c in cards:
             # 임시로 library_id 만 빠르게 추출해서 중복 체크
             try:
@@ -405,8 +434,8 @@ async def scroll_until_enough(page: Page, target_count: int, already_seen_ids: s
                 continue
             m = re.search(r"라이브러리 ID[:\s]+(\d+)", txt) or re.search(r"Library ID[:\s]+(\d+)", txt)
             if m and m.group(1) not in already_seen_ids:
-                new_count += 1
-        if new_count >= target_count:
+                new_ids.add(m.group(1))
+        if len(new_ids) >= target_count:
             return
         # 스크롤
         await page.evaluate("window.scrollBy(0, window.innerHeight * 1.5);")
@@ -455,6 +484,7 @@ async def run(
     total_target: int | None = None,
     auto: bool = False,
     headless: bool | None = None,
+    browser_channel: str = 'chromium',
 ):
     """크롤링 본체.
 
@@ -471,12 +501,12 @@ async def run(
     if async_playwright is None:
         raise RuntimeError("Playwright is not installed. Run setup first.")
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=is_headless)
+        browser = await p.chromium.launch(channel=browser_channel, headless=is_headless, args=['--lang=ko-KR'])
         context = await browser.new_context(locale="ko-KR", viewport={"width": 1440, "height": 960})
         page = await context.new_page()
         page.set_default_timeout(NAV_TIMEOUT_MS)
 
-        await setup_search(page, keyword)
+        await setup_search(page, keyword, run_dir / 'access-diagnostic.json')
 
         seen_ids: set = set()
         domains_seen: dict = {}
@@ -494,6 +524,7 @@ async def run(
             print(f"[*] 화면에 잡힌 카드: {len(cards)}개 (누적 처리: {len(seen_ids)}개)")
 
             collected_this_batch = 0
+            examined_this_batch = 0
             for card in cards:
                 if collected_this_batch >= batch_size or (total_target is not None and total_saved >= total_target):
                     break
@@ -508,6 +539,7 @@ async def run(
                 if not re.fullmatch(r"\d{5,40}", lib_id) or lib_id in seen_ids:
                     continue
                 seen_ids.add(lib_id)
+                examined_this_batch += 1
 
                 # 도메인 필터 (부분 일치: 'themedicube' 입력하면 'themedicube.co.kr', 'shop.themedicube.com' 모두 매칭)
                 dom = data["landing_domain"]
@@ -541,7 +573,13 @@ async def run(
                         saved_posters.append(str(dest.relative_to(run_dir)))
 
                 if not saved_images and not saved_videos:
-                    continue
+                    if not saved_posters:
+                        continue
+                    # A saved poster is still a usable preview, but never claim
+                    # that the video itself was downloaded successfully.
+                    saved_images = list(saved_posters)
+                    saved_posters = []
+                    print("  [*] 영상 파일을 받지 못해 포스터 이미지만 저장합니다.")
                 data["_saved_images"] = saved_images
                 data["_saved_videos"] = saved_videos
                 data["_saved_posters"] = saved_posters
@@ -565,9 +603,9 @@ async def run(
                 print(f"[*] 목표 {total_target}건 도달, 자동 종료")
                 break
 
-            # 더 이상 새 카드를 못 모은 경우 안전 탈출
-            if collected_this_batch == 0:
-                print("[*] 이번 배치에서 새로 수집한 카드가 없어 자동 종료")
+            # Filtered or unavailable media must not hide later search results.
+            if examined_this_batch == 0:
+                print("[*] 추가 스크롤 후에도 새로운 광고 ID가 없어 자동 종료")
                 break
 
             # Fixed pacing limits request volume; no evasion or identity spoofing.
@@ -610,6 +648,8 @@ def parse_args():
                         help="출력 폴더명 (기본: <timestamp>_<keyword>)")
     parser.add_argument("--output-dir", default="output", help="결과 루트 디렉토리")
     parser.add_argument("--headless", action="store_true", help="브라우저 헤드리스 모드")
+    parser.add_argument("--browser-channel", choices=['chromium', 'chrome', 'msedge'], default='chromium',
+                        help="실제 브라우저 엔진 (기본 chromium, 새 헤드리스 모드 지원)")
     return parser.parse_args()
 
 
@@ -669,6 +709,7 @@ def main():
             total_target=args.total,
             auto=non_interactive,
             headless=args.headless if non_interactive else None,
+            browser_channel=args.browser_channel,
         )
     )
 
