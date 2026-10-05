@@ -24,6 +24,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/dark.css">
+<link rel="stylesheet" href="/css/portfolio-ux.css">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -40,27 +41,32 @@
 </script>
 </head>
 <body class="dpage">
+<a class="skip-link" href="#portfolio-content">본문으로 건너뛰기</a>
 
 <video class="dbg-video" autoplay muted loop playsinline aria-hidden="true">
   <source src="/video/hero-ambient.mp4" type="video/mp4">
 </video>
 
-<nav class="dnav">
+<nav class="dnav" aria-label="포트폴리오 목차">
   <div class="dnav-in">
     <a class="name" href="#ai">조우형</a>
-    <ul>
-      <li><a href="#ai" data-sec="ai" class="active">AI 역량</a></li>
-      <li><a href="#planning" data-sec="planning">브랜드 성과</a></li>
-      <li><a href="#data" data-sec="data">가치탐험단</a></li>
-      <li><a href="#petbox" data-sec="petbox">펫박스</a></li>
-      <li><a href="#leadership" data-sec="leadership">마케팅팀장</a></li>
-      <li><a href="#career" data-sec="career">커리어</a></li>
-      <li><a href="#contact" data-sec="contact">Contact</a></li>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="portfolio-navigation" hidden>
+      <span data-current-section>AI 역량</span><span class="nav-toggle-icon" aria-hidden="true"></span><span class="sr-only">목차</span>
+    </button>
+    <ul id="portfolio-navigation">
+      <li><a href="#ai" data-sec="ai" data-step="01" class="active">AI 역량</a></li>
+      <li><a href="#planning" data-sec="planning" data-step="02">브랜드 성과</a></li>
+      <li><a href="#data" data-sec="data" data-step="03">가치탐험단</a></li>
+      <li><a href="#petbox" data-sec="petbox" data-step="04">펫박스</a></li>
+      <li><a href="#leadership" data-sec="leadership" data-step="05">마케팅팀장</a></li>
+      <li><a href="#career" data-sec="career" data-step="06">커리어</a></li>
+      <li><a href="#contact" data-sec="contact" data-step="07">Contact</a></li>
     </ul>
   </div>
+  <div class="reading-progress" aria-hidden="true"><span></span></div>
 </nav>
 
-<main class="dwrap">
+<main class="dwrap" id="portfolio-content" tabindex="-1">
 
   <section id="ai" class="dpagesec" data-num="01" data-label="AI 실무 역량">
     <div class="dorb tr"></div>
@@ -81,8 +87,15 @@
       </ul>
       <p class="ai-total">등 15종 업무 자동화</p>
     </section>
-    <figure class="ai-screenshot">
-      <img src="/img/shot-competitor.png" alt="경쟁사 광고 레퍼런스 자동 수집 화면" width="1312" height="899" loading="lazy">
+    <figure class="ai-screenshot studio-card">
+      <a class="studio-preview" href="/tools/meta-ads/" aria-label="메타 광고 수집 스튜디오 열기">
+        <img src="/img/shot-competitor.png" alt="경쟁사 광고 레퍼런스 자동 수집 화면" width="1312" height="899" loading="lazy">
+        <span class="studio-open-icon" aria-hidden="true">↗</span>
+      </a>
+      <figcaption class="studio-caption">
+        <div><span class="studio-kicker">META ADS LIBRARY</span><strong>메타 광고 수집 스튜디오</strong></div>
+        <a class="studio-link" href="/tools/meta-ads/">스튜디오 열기 <span aria-hidden="true">↗</span></a>
+      </figcaption>
     </figure>
   </section>
 
@@ -128,10 +141,70 @@
 
       <article class="brand-story" id="case-binusoap">
         <div class="brand-story-head"><div><span class="ecase-sub">02 / 천비누솝</span><h2>정안고 상세페이지 개선</h2></div><div class="brand-metrics"><div><strong>250%</strong><span>월평균 ROAS · 2026년</span></div></div></div>
+        <div class="comparison-tools" hidden>
+          <label class="comparison-sync"><input type="checkbox" data-comparison-sync><span>함께 스크롤</span><span class="sr-only">: 두 페이지를 같은 비율로 이동합니다.</span></label>
+          <button class="quiet-button" type="button" data-comparison-reset>맨 위로 ↑</button>
+        </div>
         <div class="brand-results-layout">
-          <div class="brand-product-result">
-            <div class="brand-detail-preview" role="region" tabindex="0" aria-label="정안고 상세페이지 미리보기. 화면 안을 스크롤해 볼 수 있습니다."><img src="/portfolio/2026_JG_new_01_01.jpg" alt="정안고 상세페이지 상단" width="860" height="6750" loading="lazy"><img src="/portfolio/2026_JG_new_01_02.gif" alt="정안고 상세페이지 중간" width="860" height="690" loading="lazy"><img src="/portfolio/2026_JG_new_01_03.jpg" alt="정안고 상세페이지 하단" width="860" height="5102" loading="lazy"></div>
-            <a class="brand-more" href="https://1000binusoap.com/product/detail.html?product_no=41&amp;cate_no=24&amp;display_group=1" target="_blank" rel="noopener noreferrer">정안고 상세페이지 더보기 ↗</a>
+          <div class="brand-product-result detail-comparison" role="group" aria-label="정안고 상세페이지 개선 전후 비교">
+            <div class="comparison-version comparison-before">
+              <div class="comparison-heading"><h3 id="jeongango-before-title">개선 전</h3><button class="quiet-button preview-expand" type="button" data-preview-open="before" aria-label="개선 전 상세페이지 크게 보기" hidden>크게 보기 <span aria-hidden="true">↗</span></button></div>
+              <div class="brand-detail-preview comparison-preview" role="region" tabindex="0" aria-labelledby="jeongango-before-title">
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/JG/260518/2026_ver2_JG_01_01.jpg" alt="정안고 개선 전 상세페이지 01" width="860" height="849" loading="lazy" decoding="async">
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/JG/260518/2026_ver2_JG_01_02.gif?v=1" alt="정안고 개선 전 상세페이지 02" width="640" height="854" loading="lazy" decoding="async">
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/JG/260518/2026_ver2_JG_01_03.jpg" alt="정안고 개선 전 상세페이지 03" width="860" height="3473" loading="lazy" decoding="async">
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/JG/260518/2026_ver2_JG_01_04.jpg" alt="정안고 개선 전 상세페이지 04" width="860" height="721" loading="lazy" decoding="async">
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/JG/260518/2026_ver2_JG_01_05.gif" alt="정안고 개선 전 상세페이지 05" width="860" height="680" loading="lazy" decoding="async">
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/JG/260518/2026_ver2_JG_01_06.gif" alt="정안고 개선 전 상세페이지 06" width="1920" height="1080" loading="lazy" decoding="async">
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/JG/260518/2026_ver2_JG_01_07.jpg" alt="정안고 개선 전 상세페이지 07" width="860" height="6634" loading="lazy" decoding="async">
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/JG/260518/2026_ver2_JG_02_01.jpg" alt="정안고 개선 전 상세페이지 08" width="860" height="1022" loading="lazy" decoding="async">
+                <div class="comparison-embed"><iframe src="https://www.youtube.com/embed/vLJ4J_T3-T0" title="정안고 개선 전 페이지의 장인 소개 영상" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/JG/260518/2026_ver2_JG_02_03.jpg?v=1" alt="정안고 개선 전 상세페이지 09" width="860" height="6698" loading="lazy" decoding="async">
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/JG/260518/2026_ver2_JG_02_04.jpg" alt="정안고 개선 전 상세페이지 10" width="860" height="6017" loading="lazy" decoding="async">
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/JG/260518/2026_ver2_JG_02_05.jpg" alt="정안고 개선 전 상세페이지 11" width="860" height="554" loading="lazy" decoding="async">
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/JG/260518/2026_ver2_JG_02_06.gif" alt="정안고 개선 전 상세페이지 12" width="860" height="1059" loading="lazy" decoding="async">
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/JG/260518/2026_ver2_JG_02_07.jpg" alt="정안고 개선 전 상세페이지 13" width="860" height="1339" loading="lazy" decoding="async">
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/banner/26_CH_JG_option.jpg?v=1" alt="정안고 개선 전 상세페이지 14" width="860" height="1763" loading="lazy" decoding="async">
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/JG/260518/2026_ver2_JG_03_01.jpg" alt="정안고 개선 전 상세페이지 15" width="860" height="6070" loading="lazy" decoding="async">
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/JG/260518/2026_ver2_JG_03_02.jpg" alt="정안고 개선 전 상세페이지 16" width="860" height="5318" loading="lazy" decoding="async">
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/JG/260518/2026_ver2_JG_03_03.jpg" alt="정안고 개선 전 상세페이지 17" width="860" height="4589" loading="lazy" decoding="async">
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/banner/youtube_intro_01.jpg" alt="정안고 개선 전 상세페이지 18" width="1000" height="671" loading="lazy" decoding="async">
+                <div class="comparison-embed"><iframe src="https://www.youtube.com/embed/xMg_8bEzjl4" title="정안고 개선 전 페이지의 제품 소개 영상" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                <a href="https://1000binusoap.com/article/notice/1/8004/" target="_blank" rel="noopener noreferrer"><img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/banner/review_event_01.jpg?v=4" alt="정안고 개선 전 상세페이지 19" width="860" height="694" loading="lazy" decoding="async"></a>
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/JG/260518/2026_ver2_JG_03_04.jpg" alt="정안고 개선 전 상세페이지 20" width="860" height="1442" loading="lazy" decoding="async">
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/banner/260130-notice.jpg" alt="정안고 개선 전 상세페이지 21" width="1001" height="1152" loading="lazy" decoding="async">
+              </div>
+            </div>
+            <div class="comparison-version comparison-after">
+              <div class="comparison-heading"><h3 id="jeongango-after-title">개선 후</h3><button class="quiet-button preview-expand" type="button" data-preview-open="after" aria-label="개선 후 상세페이지 크게 보기" hidden>크게 보기 <span aria-hidden="true">↗</span></button></div>
+              <div class="brand-detail-preview comparison-preview" role="region" tabindex="0" aria-labelledby="jeongango-after-title">
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/JG/260716/2026_JG_new_01_01.jpg?v=1" alt="정안고 개선 후 상세페이지 01" width="860" height="6750" loading="lazy" decoding="async">
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/JG/260716/2026_JG_new_01_02.gif?v=1" alt="정안고 개선 후 상세페이지 02" width="860" height="690" loading="lazy" decoding="async">
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/JG/260716/2026_JG_new_01_03.jpg?v=1" alt="정안고 개선 후 상세페이지 03" width="860" height="5102" loading="lazy" decoding="async">
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/JG/260716/2026_JG_new_01_04.gif?v=1" alt="정안고 개선 후 상세페이지 04" width="860" height="559" loading="lazy" decoding="async">
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/JG/260716/2026_JG_new_01_05.jpg?v=1" alt="정안고 개선 후 상세페이지 05" width="860" height="4019" loading="lazy" decoding="async">
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/JG/260716/2026_JG_new_02_01.jpg?v=2" alt="정안고 개선 후 상세페이지 06" width="860" height="3127" loading="lazy" decoding="async">
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/JG/260716/2026_JG_new_02_02.gif?v=2" alt="정안고 개선 후 상세페이지 07" width="860" height="442" loading="lazy" decoding="async">
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/JG/260716/2026_JG_new_02_03.jpg?v=2" alt="정안고 개선 후 상세페이지 08" width="860" height="10855" loading="lazy" decoding="async">
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/JG/260716/2026_JG_new_03.jpg?v=1" alt="정안고 개선 후 상세페이지 09" width="860" height="14024" loading="lazy" decoding="async">
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/JG/260716/2026_JG_new_04_00.gif?v=1" alt="정안고 개선 후 상세페이지 10" width="860" height="645" loading="lazy" decoding="async">
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/JG/260716/2026_JG_new_04_01.jpg?v=1" alt="정안고 개선 후 상세페이지 11" width="860" height="8355" loading="lazy" decoding="async">
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/JG/260716/2026_JG_new_04_02.gif?v=1" alt="정안고 개선 후 상세페이지 12" width="860" height="451" loading="lazy" decoding="async">
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/JG/260716/2026_JG_new_04_03.jpg?v=1" alt="정안고 개선 후 상세페이지 13" width="860" height="152" loading="lazy" decoding="async">
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/JG/260716/2026_JG_new_04_04.gif?v=1" alt="정안고 개선 후 상세페이지 14" width="860" height="451" loading="lazy" decoding="async">
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/JG/260716/2026_JG_new_04_05.jpg?v=1" alt="정안고 개선 후 상세페이지 15" width="860" height="149" loading="lazy" decoding="async">
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/JG/260716/2026_JG_new_04_06.gif?v=1" alt="정안고 개선 후 상세페이지 16" width="860" height="451" loading="lazy" decoding="async">
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/JG/260716/2026_JG_new_04_07.jpg?v=1" alt="정안고 개선 후 상세페이지 17" width="860" height="5693" loading="lazy" decoding="async">
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/JG/260716/2026_JG_new_05_01.jpg?v=1" alt="정안고 개선 후 상세페이지 18" width="860" height="11926" loading="lazy" decoding="async">
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/JG/260716/2026_JG_new_05_02.jpg?v=5" alt="정안고 개선 후 상세페이지 19" width="860" height="2260" loading="lazy" decoding="async">
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/JG/260716/2026_JG_new_05_03.jpg?v=1" alt="정안고 개선 후 상세페이지 20" width="860" height="8804" loading="lazy" decoding="async">
+                <a href="https://www.ibrandnews.com/news/articleView.html?idxno=13070" target="_blank" rel="noopener noreferrer"><img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/banner/260916_plogging_under.jpg" alt="정안고 개선 후 상세페이지 21" width="860" height="920" loading="lazy" decoding="async"></a>
+                <a href="https://1000binusoap.com/article/notice/1/8004/" target="_blank" rel="noopener noreferrer"><img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/banner/review_event_01.jpg?v=4" alt="정안고 개선 후 상세페이지 22" width="860" height="694" loading="lazy" decoding="async"></a>
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/JG/260518/2026_ver2_JG_03_04.jpg" alt="정안고 개선 후 상세페이지 23" width="860" height="1442" loading="lazy" decoding="async">
+                <img src="https://cheonbinusoap.cafe24.com/cheonbinusoap/banner/260130-notice.jpg" alt="정안고 개선 후 상세페이지 24" width="1001" height="1152" loading="lazy" decoding="async">
+              </div>
+              <a class="brand-more" href="https://1000binusoap.com/product/detail.html?product_no=41&amp;cate_no=24&amp;display_group=1" target="_blank" rel="noopener noreferrer">개선 후 상세페이지 더보기 ↗</a>
+            </div>
           </div>
           <div class="brand-sales-result">
             <figure class="brand-sales-chart">
@@ -141,16 +214,26 @@
                 <desc id="binusoap-sales-desc">5월 22억 원, 6월 23억 원, 상세페이지를 개선한 7월 37억 원, 8월 43억 원.</desc>
                 <line x1="20" y1="258" x2="540" y2="258" stroke="var(--border)"/>
                 <g fill="var(--muted)" fill-opacity=".35">
-                  <rect x="44" y="148" width="72" height="110" rx="5"/>
-                  <rect x="174" y="143" width="72" height="115" rx="5"/>
-                  <rect x="434" y="43" width="72" height="215" rx="5"/>
+                  <rect data-sales-month="5" x="44" y="148" width="72" height="110" rx="5"/>
+                  <rect data-sales-month="6" x="174" y="143" width="72" height="115" rx="5"/>
+                  <rect data-sales-month="8" x="434" y="43" width="72" height="215" rx="5"/>
                 </g>
-                <rect x="304" y="73" width="72" height="185" rx="5" fill="var(--accent)"/>
+                <rect data-sales-month="7" x="304" y="73" width="72" height="185" rx="5" fill="var(--accent)"/>
                 <path d="M80 148 L210 143 L340 73 L470 43" fill="none" stroke="var(--accent)" stroke-width="3"/>
                 <g fill="var(--accent)"><circle cx="80" cy="148" r="4"/><circle cx="210" cy="143" r="4"/><circle cx="340" cy="73" r="4"/><circle cx="470" cy="43" r="4"/></g>
                 <g text-anchor="middle" font-size="25" font-weight="800" fill="var(--ink)"><text x="80" y="131">22억</text><text x="210" y="126">23억</text><text x="340" y="56" fill="var(--accent)">37억</text><text x="470" y="26">43억</text></g>
                 <g text-anchor="middle" font-size="21" fill="var(--muted)"><text x="80" y="291">5월</text><text x="210" y="291">6월</text><text x="340" y="291" fill="var(--accent)" font-weight="700">7월 개선</text><text x="470" y="291">8월</text></g>
               </svg>
+
+              <div class="sales-controls" hidden>
+                <div class="sales-months" role="group" aria-label="월별 매출 선택">
+                  <button type="button" data-sales-select="5" aria-pressed="false">5월</button>
+                  <button type="button" data-sales-select="6" aria-pressed="false">6월</button>
+                  <button type="button" data-sales-select="7" aria-pressed="false">7월 개선</button>
+                  <button type="button" data-sales-select="8" aria-pressed="true">8월</button>
+                </div>
+                <p class="sales-readout" aria-live="polite" aria-atomic="true"><span data-sales-label>8월 매출</span><strong data-sales-value>43억 원</strong></p>
+              </div>
             </figure>
           </div>
         </div>
@@ -618,26 +701,12 @@
     });
   });
 
-  // scroll-spy: highlight nav item for section currently in view
-  var navLinks = Array.prototype.slice.call(document.querySelectorAll('.dnav a[data-sec]'));
-  var secEls = Array.prototype.slice.call(document.querySelectorAll('.dpagesec'));
-  var spy = new IntersectionObserver(function (entries) {
-    entries.forEach(function (e) {
-      var link = navLinks.filter(function (a) { return a.getAttribute('data-sec') === e.target.id; })[0];
-      if (!link) return;
-      if (e.isIntersecting) {
-        navLinks.forEach(function (a) { a.classList.remove('active'); });
-        link.classList.add('active');
-      }
-    });
-  }, { threshold: 0, rootMargin: '-45% 0px -50% 0px' });
-  secEls.forEach(function (el) { spy.observe(el); });
-
   if (location.hash) {
-    var target = document.querySelector(location.hash);
+    var target = document.getElementById(decodeURIComponent(location.hash.slice(1)));
     if (target) setTimeout(function () { target.scrollIntoView(); }, 0);
   }
 })();
 </script>
+<script src="/js/portfolio-ux.js" defer></script>
 </body>
 </html>

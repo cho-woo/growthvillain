@@ -1,0 +1,127 @@
+/* Focused interaction layer; the portfolio's accepted content and visual identity stay intact. */
+:root{--nav-height:76px;--focus-ring:#ffd0a1}
+[hidden]{display:none!important}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+:where(a,button,input,summary,[tabindex]):focus-visible{outline:3px solid var(--focus-ring);outline-offset:5px}
+button,input{font:inherit}
+button{touch-action:manipulation}
+.skip-link{position:fixed;top:10px;left:16px;z-index:200;padding:14px 20px;border-radius:10px;background:var(--ink);color:var(--bg);font-weight:700;transform:translateY(-150%)}
+.skip-link:focus{transform:none}
+#portfolio-content:focus{outline:none}
+.dnav{background:rgba(8,9,11,.94);box-shadow:0 12px 34px #0003}
+.dnav-in{height:var(--nav-height);gap:20px}
+.dnav .name{font-size:18px;letter-spacing:-.5px}
+.dnav .name::before{content:'';display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--accent);margin-right:10px;vertical-align:2px}
+.dnav ul{gap:2px;flex-wrap:nowrap}
+.dnav ul li a{position:relative;display:flex;align-items:center;gap:6px;min-height:44px;padding:10px;font-size:14px;font-weight:600;border:1px solid transparent;border-radius:10px}
+.dnav ul li a::before{content:attr(data-step);font-size:10px;letter-spacing:.5px;color:#7f8491;font-variant-numeric:tabular-nums}
+.dnav ul li a.active{color:var(--ink);border-color:rgba(255,82,51,.28);background:rgba(255,82,51,.1)}
+.dnav ul li a.active::before{color:var(--accent)}
+.reading-progress{height:2px;position:absolute;left:0;right:0;bottom:-1px;pointer-events:none}
+.reading-progress span{display:block;width:100%;height:100%;background:var(--accent);transform:scaleX(0);transform-origin:left;will-change:transform}
+.nav-toggle{display:none}
+.dpagesec,#planning .brand-story{scroll-margin-top:calc(var(--nav-height) + 24px)}
+.dhero{padding-top:100px}
+.deyebrow{letter-spacing:.6px}
+.dline{width:64px}
+.dlist li,.dlist.big li{font-size:16px;line-height:1.9}
+.edesc{font-size:17px;line-height:1.8}
+.studio-card{overflow:hidden;border:1px solid var(--border);border-radius:22px;background:#101114;box-shadow:0 24px 80px #0004}
+.studio-preview{display:block;position:relative;overflow:hidden}
+#ai .studio-preview img{border:0;border-radius:0;transition:transform .35s ease}
+.studio-open-icon{position:absolute;right:20px;top:20px;display:grid;place-items:center;width:46px;height:46px;border-radius:50%;background:#111318eb;border:1px solid #ffffff36;color:white;font-size:27px;transition:background .2s}
+.studio-preview:hover img{transform:scale(1.008)}
+.studio-preview:hover .studio-open-icon{background:var(--accent)}
+.studio-caption{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:28px 30px;border-top:1px solid var(--border)}
+.studio-kicker{display:block;color:var(--accent);font-size:11px;font-weight:700;letter-spacing:1.6px;margin-bottom:8px}
+.studio-caption strong{display:block;font-size:23px;font-weight:700;letter-spacing:-.6px;line-height:1.5}
+.studio-link{display:inline-flex;align-items:center;justify-content:center;gap:24px;flex-shrink:0;min-height:50px;padding:13px 22px;background:var(--accent);border-radius:12px;color:#111;font-size:16px;font-weight:800;transition:background .2s,transform .2s}
+.studio-link:hover{background:#ff785e;transform:translateY(-2px)}
+.studio-link span{font-size:21px;line-height:1}
+#planning .planning-index>a{min-height:64px;transition:color .2s,padding-left .2s}
+#planning .planning-index>a:hover{color:var(--accent);padding-left:6px}
+#planning .brand-creative{transition:border-color .2s,box-shadow .2s}
+#planning .brand-creative:focus-within{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
+#planning .brand-creative video:focus-visible{outline-offset:-4px}
+#planning .brand-creative figcaption span{font-size:14px}
+#planning .mogrami-ppl a{transition:border-color .2s,background .2s}
+#planning .mogrami-ppl a:hover{border-color:var(--accent);background:var(--card-1)}
+#planning .mogrami-ppl span{font-size:15px}
+.comparison-tools{display:flex;align-items:center;justify-content:space-between;gap:16px;margin:0 0 22px;padding:13px 16px;border:1px solid var(--border-soft);border-radius:12px;background:#101114}
+.comparison-sync{display:inline-flex;align-items:center;gap:10px;min-height:36px;font-size:15px;font-weight:600;cursor:pointer}
+.comparison-sync input{width:18px;height:18px;accent-color:var(--accent);cursor:pointer}
+.quiet-button{display:inline-flex;align-items:center;justify-content:center;gap:5px;min-height:40px;padding:8px 12px;background:transparent;border:1px solid var(--border);border-radius:9px;color:var(--muted-2);font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap;transition:color .2s,border-color .2s}
+.quiet-button:hover{color:var(--ink);border-color:var(--accent)}
+.comparison-heading{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:16px;min-height:40px}
+#planning .comparison-heading h3{font-size:24px;line-height:1.3;margin:0;color:var(--muted-2)}
+#planning .comparison-after .comparison-heading h3{color:var(--accent)}
+#planning #case-binusoap .brand-sales-result{padding-top:56px}
+.sales-controls{grid-column:1/-1;width:100%;margin-top:24px}
+.sales-months{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:5px}
+.sales-months button{border:1px solid var(--border);border-radius:8px;background:transparent;color:var(--muted);font-size:13px;min-height:40px;padding:6px 3px;cursor:pointer;white-space:nowrap}
+.sales-months button[aria-pressed=true]{border-color:var(--accent);background:var(--accent-soft);color:var(--ink);font-weight:700}
+.sales-readout{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-top:14px;padding:16px 2px 0;border-top:1px solid var(--border-soft)}
+.sales-readout span{font-size:14px;color:var(--muted)}
+.sales-readout strong{font-size:25px;color:var(--ink);font-variant-numeric:tabular-nums;letter-spacing:-1px}
+.brand-sales-chart [data-sales-month]{transition:fill .18s,fill-opacity .18s}
+.brand-sales-chart [data-sales-month].is-selected{fill:var(--accent);fill-opacity:1}
+.preview-dialog{width:min(960px,calc(100vw - 32px));height:min(940px,calc(100dvh - 40px));max-width:none;max-height:none;padding:0;border:1px solid #42454d;border-radius:18px;background:#101114;color:var(--ink);box-shadow:0 30px 100px #0009;overflow:hidden}
+.preview-dialog::backdrop{background:#040609df;backdrop-filter:blur(8px)}
+.preview-dialog-head{height:72px;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 22px;border-bottom:1px solid var(--border)}
+.preview-dialog-head h2{font-size:20px;margin:0}
+.preview-dialog-content{height:calc(100% - 72px);overflow:hidden;background:#fff}
+.preview-dialog .comparison-preview{display:block;max-width:860px;width:100%;height:100%;margin:0 auto;border:0;border-radius:0;overflow-y:auto;scrollbar-gutter:stable;background:#fff}
+.preview-dialog .comparison-preview img{display:block;width:100%;height:auto}
+.preview-dialog .comparison-embed{position:relative;width:100%;aspect-ratio:16/9;background:#101114}
+.preview-dialog .comparison-embed iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+body.preview-open{overflow:hidden}
+.lightbox{padding-top:76px}
+.lightbox-close{position:fixed;top:20px;right:24px;z-index:101;color:white;background:#15171bee;border-color:#727785}
+.dcontact-card a{display:inline-flex;align-items:center;min-height:44px;overflow-wrap:anywhere}
+.dcontact-card .mail{font-size:clamp(17px,2vw,22px)}
+@media(max-width:1100px){
+  .dnav ul li a{font-size:13px;padding:9px 7px}.dnav ul li a::before{display:none}
+  #planning #case-binusoap .brand-sales-result{padding-top:0}
+  #planning #case-binusoap .brand-sales-chart .sales-controls{margin-top:0}
+}
+@media(max-width:780px){
+  :root{--nav-height:66px}
+  .dnav-in{padding:0 20px;position:relative}
+  .dnav .name{font-size:17px}
+  .nav-toggle:not([hidden]){display:inline-flex;align-items:center;gap:12px;min-height:44px;max-width:66%;padding:8px 12px;border:1px solid var(--border);border-radius:9px;color:var(--muted-2);background:#13151b;font-size:13px;font-weight:600;cursor:pointer}
+  .nav-toggle-icon{width:14px;height:10px;border-top:1.5px solid currentColor;border-bottom:1.5px solid currentColor;position:relative}
+  .nav-toggle[aria-expanded=true] .nav-toggle-icon{border-bottom:0;transform:rotate(45deg);height:0}
+  .nav-toggle[aria-expanded=true] .nav-toggle-icon::after{content:'';position:absolute;top:-1.5px;left:0;width:14px;border-top:1.5px solid currentColor;transform:rotate(90deg)}
+  .dnav.enhanced ul{position:absolute;top:calc(100% + 9px);left:16px;right:16px;display:none;grid-template-columns:1fr 1fr;padding:10px;gap:4px;border:1px solid #383b44;border-radius:14px;background:#101115;box-shadow:0 20px 50px #0009;max-height:calc(100dvh - 92px);overflow-y:auto}
+  .dnav.enhanced.menu-open ul{display:grid}
+  .dnav ul li a{min-height:50px;padding:12px;font-size:14px}
+  .dnav ul li a::before{display:inline;color:#8b90a0;margin-right:3px}
+  .dwrap{padding:0 22px}
+  .dhero{padding-top:66px}
+  #ai .ai-overview .dh1{font-size:clamp(34px,7.4vw,50px);letter-spacing:-1.3px}
+  #ai .ai-cases{margin-top:24px}
+  #ai .ai-cases li{font-size:20px;padding:18px 0}
+  .studio-caption{padding:22px;gap:20px;align-items:flex-start;flex-direction:column}
+  .studio-caption strong{font-size:22px}
+  .studio-link{width:100%;justify-content:space-between}
+  .studio-open-icon{width:38px;height:38px;right:13px;top:13px;font-size:23px}
+  .dlist li,.dlist.big li{font-size:15px}
+  .comparison-tools{padding:10px 12px}
+  .comparison-sync{font-size:14px}
+  .comparison-heading .quiet-button{padding:7px 10px}
+  .preview-dialog{width:calc(100vw - 16px);height:calc(100dvh - 16px);border-radius:12px}
+  .preview-dialog-head{height:64px;padding:10px 14px}
+  .preview-dialog-content{height:calc(100% - 64px)}
+  .preview-dialog-head h2{font-size:18px}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto!important}
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+  .rv{opacity:1!important;transform:none!important}
+  .studio-preview:hover img,.studio-link:hover{transform:none}
+}
+@media print{
+  .dnav,.studio-open-icon,.comparison-tools,.preview-expand,.sales-controls,.skip-link{display:none!important}
+  .dhero{padding-top:32px}.rv{opacity:1;transform:none}
+}
+.dorb.tr{right:0}.dbg-video{opacity:.13}

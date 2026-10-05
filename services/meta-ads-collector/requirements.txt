@@ -1,0 +1,3 @@
+# Only the browser collector needs third-party packages; API/storage use Python stdlib.
+playwright>=1.49,<2
+requests>=2.32,<3

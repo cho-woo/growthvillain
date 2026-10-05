@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>광고 레퍼런스 스튜디오 · 조우형</title>
+  <meta name="description" content="메타 광고 레퍼런스를 검색하고, 소재를 비교하고, 필요한 광고를 저장하는 개인 광고 수집 스튜디오.">
+  <link rel="canonical" href="https://1jang2.netlify.app/tools/meta-ads/">
+  <link rel="stylesheet" href="./studio.css">
+  <script type="module" src="./studio.js"></script>
+</head>
+<body>
+<a href="#gallery" class="skip">광고 목록으로 이동</a>
+<header class="topbar"><a class="brand" href="/#ai"><span class="brand-mark">j.</span><span>JoWooHyung<span class="brand-sub">MARKETING × AUTOMATION</span></span></a><a class="back" href="/#ai">포트폴리오로 돌아가기 <span aria-hidden="true">↗</span></a></header>
+<main>
+  <section class="intro" aria-labelledby="page-title">
+    <div><p class="eyebrow">PERSONAL TOOL / 01</p><h1 id="page-title">광고 레퍼런스<br><span>스튜디오.</span></h1><p class="intro-copy">수집하고, 살펴보고, 다음 아이디어를 발견하세요.</p><div class="intro-actions"><a href="#gallery" class="button primary">소재 살펴보기 <span aria-hidden="true">↓</span></a><button id="manage-open" class="button secondary">수집 관리</button></div></div>
+    <div class="intro-visual" aria-hidden="true"><div class="flow-label"><span class="pulse"></span>COLLECT. FIND. CREATE.</div><div class="flow"><span>수집</span><i>→</i><span>분류</span><i>→</i><span>아이디어</span></div></div>
+  </section>
+  <div class="archive-notice"><span id="connection" class="status-pill">불러오는 중</span><p id="archive-note">저장된 공개 광고 자료를 확인하고 있습니다.</p><button class="text-button" id="refresh">새로고침 ↻</button></div>
+  <section class="workspace" id="gallery" aria-label="광고 레퍼런스 갤러리">
+    <div class="workspace-heading"><div><p class="eyebrow">AD LIBRARY</p><h2>소재 라이브러리 <span id="total-count">—</span></h2></div><button class="button compact" id="favorite-toggle" aria-pressed="false">☆ 저장한 광고 <span id="favorite-count">0</span></button></div>
+    <form id="search-form" class="search"><span aria-hidden="true">⌕</span><label class="sr-only" for="search">광고 검색</label><input id="search" type="search" placeholder="광고주, 광고 문구, 랜딩 도메인 검색" autocomplete="off"><button class="button primary" type="submit">검색</button></form>
+    <div class="filter-layout">
+      <aside class="filters" aria-label="광고 필터">
+        <div class="filter-title"><h3>필터 <button class="text-button" id="filters-toggle" aria-expanded="false">펼치기 +</button></h3><button type="button" class="text-button" id="reset">초기화</button></div>
+        <label for="keyword">수집 키워드</label><select id="keyword"><option value="">전체 키워드</option></select>
+        <label for="advertiser">광고주</label><select id="advertiser"><option value="">전체 광고주</option></select>
+        <label for="media-type">소재 유형</label><select id="media-type"><option value="">전체 소재</option><option value="video">영상</option><option value="image">이미지</option></select>
+        <label for="domain">랜딩 도메인</label><select id="domain"><option value="">전체 도메인</option></select>
+        <label for="days-min">수집 당시 최소 게재 일수</label><div class="days-field"><input id="days-min" type="number" min="0" max="3650" placeholder="0"><span>일 이상</span></div>
+        <p class="filter-note">게재 기간은 광고 시작일부터 수집일까지 계산합니다. 현재 집행 여부와 성과를 뜻하지 않습니다.</p>
+        <button class="text-button export-button" id="export">현재 목록 내보내기 ↓</button>
+      </aside>
+      <div class="results">
+        <div class="results-toolbar"><p id="result-count" role="status">광고 불러오는 중…</p><label class="sr-only" for="sort">광고 정렬</label><select id="sort"><option value="collected">최근 수집순</option><option value="newest">최근 시작순</option><option value="longest">게재 기간 긴 순</option></select></div>
+        <div class="cards" id="cards" aria-busy="true"><div class="loading">광고 소재를 불러오고 있습니다.</div></div>
+        <nav class="pagination" aria-label="광고 페이지"><button class="button compact" id="previous">← 이전</button><span id="page-info">1 / 1</span><button class="button compact" id="next">다음 →</button></nav>
+      </div>
+    </div>
+  </section>
+</main>
+<footer><a href="/#contact">함께 이야기해요 ↗</a><p>JoWooHyung, 2026 <span>·</span> 공개 광고 레퍼런스 아카이브</p></footer>
+<dialog id="detail" aria-labelledby="detail-title"><div class="dialog-bar"><span>AD REFERENCE</span><button class="icon-button" data-close="detail" aria-label="광고 상세 닫기">×</button></div><div id="detail-content"></div></dialog>
+<dialog id="manager" aria-labelledby="manager-title"><div class="dialog-bar"><span>COLLECTION</span><button class="icon-button" data-close="manager" aria-label="수집 관리 닫기">×</button></div><div class="manager-content"><p class="eyebrow">나만의 수집 목록</p><h2 id="manager-title">레퍼런스 수집 관리</h2><div id="manager-public"><p>공개 페이지에서는 저장된 광고를 검색하고 즐겨찾기에 담을 수 있습니다.</p><p>새 광고 수집은 개인 PC의 수집 프로그램에서 실행합니다. 수집한 자료를 사이트에 게시하면 이 페이지에도 반영됩니다.</p><ol><li>개발 폴더의 <strong>메타 광고 수집기</strong> 실행</li><li>키워드 등록 → 광고 수집</li><li>결과 확인 → 사이트 게시</li></ol><p class="muted">회사 계정이나 AWS 연결은 사용하지 않습니다.</p></div><div id="manager-local" hidden><div class="auto-row"><span><strong>주기적 자동 수집</strong><small>이 프로그램이 켜져 있을 때만 실행됩니다.</small></span><button id="auto-toggle" class="button compact" aria-pressed="false">꺼짐</button></div><form id="competitor-form"><label for="competitor-name">수집 목록 이름</label><input id="competitor-name" placeholder="예: 스킨케어 레퍼런스" maxlength="80" required><label for="competitor-keyword">메타 광고 검색 키워드</label><input id="competitor-keyword" placeholder="예: 마스크팩" maxlength="100" required><label for="competitor-domain">랜딩 도메인 (선택)</label><input id="competitor-domain" placeholder="예: example.com" maxlength="160"><label for="competitor-interval">자동 수집 간격</label><select id="competitor-interval"><option value="24">매일</option><option value="72">3일마다</option><option value="168">매주</option></select><button class="button primary" type="submit">수집 목록 추가 +</button></form><div id="competitor-list"></div><h3>수집 작업</h3><div id="job-list"></div></div><p id="manager-message" role="status"></p></div></dialog>
+<div id="toast" role="status" class="toast" hidden></div>
+</body>
+</html>

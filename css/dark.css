@@ -589,3 +589,22 @@ p{margin:0}
 #case-desillab .launch-results{display:grid;gap:6px;color:var(--accent);font-size:clamp(32px,3.7vw,52px);font-weight:900;line-height:1.25;letter-spacing:-1.2px}
 #case-desillab .launch-results p{margin:0;font:inherit;letter-spacing:inherit;white-space:nowrap}
 @media(max-width:850px){#case-desillab .launch-results{margin-top:24px}}
+
+/* Jeongango: the supplied before/after sources, each independently scrollable. */
+#planning #case-binusoap .brand-results-layout{grid-template-columns:minmax(0,2fr) minmax(320px,1fr);gap:24px}
+#planning .detail-comparison{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;align-items:start}
+#planning .comparison-version{min-width:0}
+#planning .comparison-version>h3{font-size:24px;line-height:1.3;margin:0 0 16px;color:var(--muted-2)}
+#planning .comparison-after>h3{color:var(--accent)}
+#planning .comparison-preview{width:100%;max-width:none;height:600px;scrollbar-gutter:stable;background:#fff;scrollbar-color:#858585 #f3f3f3}
+#planning .comparison-after .comparison-preview{border-color:var(--accent)}
+#planning .comparison-preview:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+#planning .comparison-preview>a{display:block}
+#planning .comparison-embed{position:relative;width:100%;aspect-ratio:16/9;background:#101114}
+#planning .comparison-embed iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+#planning #case-binusoap .brand-sales-result{padding-top:47px}
+#planning #case-binusoap .brand-sales-chart{min-height:600px;padding:26px 18px}
+#planning #case-binusoap .brand-sales-chart figcaption strong{font-size:clamp(28px,2.4vw,36px)}
+#planning #case-binusoap .brand-sales-chart h3{font-size:21px;line-height:1.5}
+@media(max-width:1100px){#planning #case-binusoap .brand-results-layout{grid-template-columns:1fr;gap:28px}#planning #case-binusoap .brand-sales-result{padding-top:0}#planning #case-binusoap .brand-sales-chart{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.35fr);align-items:center;gap:24px;min-height:0;max-width:none;padding:28px}#planning #case-binusoap .brand-sales-chart figcaption{margin:0}}
+@media(max-width:600px){#planning .detail-comparison{grid-template-columns:1fr;gap:28px}#planning .comparison-preview{height:450px}#planning #case-binusoap .brand-sales-chart{display:flex;padding:24px 14px;gap:0}#planning #case-binusoap .brand-sales-chart figcaption{margin-bottom:24px}#planning .comparison-version>h3{font-size:24px}}

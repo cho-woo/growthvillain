@@ -4,3 +4,24 @@ for = "/*"
 Access-Control-Allow-Origin = "*"
 Access-Control-Allow-Methods = "GET, POST, OPTIONS"
 Access-Control-Allow-Headers = "Content-Type"
+
+# The collector runs only on the owner's PC.
+[[redirects]]
+from = "/services/*"
+to = "/404.html"
+status = 404
+force = true
+
+[[redirects]]
+from = "/api/meta-ads/*"
+to = "/404.html"
+status = 404
+force = true
+
+[[headers]]
+for = "/tools/meta-ads/*"
+[headers.values]
+X-Content-Type-Options = "nosniff"
+Referrer-Policy = "strict-origin-when-cross-origin"
+Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+Content-Security-Policy = "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; media-src 'self'; connect-src 'self'; object-src 'none'; frame-ancestors 'self'; base-uri 'self'; form-action 'self'"
