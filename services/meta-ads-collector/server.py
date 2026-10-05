@@ -20,6 +20,7 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import urlsplit, unquote
 
 from catalog import now, inside, normalize_row, export_catalog, public_card
+from storage_config import resolve_data_dir, assert_storage_available, StorageUnavailable
 
 API = '/api/meta-ads'
 SERVICE_DIR = Path(__file__).resolve().parent
@@ -93,10 +94,12 @@ class Store:
         self.process_lockfile.close()
 
     def rows(self, sql, values=()):
+        assert_storage_available(self.root)
         with self.lock:
             return [dict(row) for row in self.db.execute(sql, values).fetchall()]
 
     def write(self, sql, values=()):
+        assert_storage_available(self.root)
         with self.lock:
             self.db.execute(sql, values)
             self.db.commit()
@@ -109,10 +112,12 @@ class Store:
         return {'version': 1, 'updatedAt': now(), 'mode': 'local', 'cards': [public_card(c) for c in self.cards()]}
 
     def export(self):
+        assert_storage_available(self.root)
         with self.lock:
             return export_catalog(self.cards(), self.assets, self.web_root)
 
     def import_file(self, jsonl):
+        assert_storage_available(self.root)
         jsonl = Path(jsonl).resolve()
         if not jsonl.is_file() or jsonl.name != 'cards.jsonl' or jsonl.stat().st_size > 20 * 1024 * 1024:
             raise ValueError('20MB 이하의 cards.jsonl 파일이 필요합니다.')
@@ -184,6 +189,7 @@ class Controller:
         self.current_job = None
         self.thread = None
         self.collector_ready = self.check_runtime()
+        self.last_card_count = len(self.store.cards())
 
     @staticmethod
     def check_runtime():
@@ -201,10 +207,14 @@ class Controller:
             return False
 
     def status(self):
-        count = len(self.store.cards())
+        available = self.store.root.is_dir()
+        if available:
+            self.last_card_count = len(self.store.cards())
         return {'mode': 'local', 'autoEnabled': self.auto_enabled, 'runningJobId': self.current_job,
-                'cardCount': count, 'collectorReady': self.collector_ready,
-                'message': '이 PC에서 실행 중 · 자동 수집은 앱이 켜져 있을 때만 동작합니다.'}
+                'cardCount': self.last_card_count, 'collectorReady': self.collector_ready,
+                'storagePath': str(self.store.root), 'storageAvailable': available,
+                'message': ('이 PC에서 실행 중 · 자동 수집은 앱이 켜져 있을 때만 동작합니다.' if available else
+                            '저장 드라이브에 접근할 수 없습니다. 외장 드라이브를 연결하세요. 다른 경로에 저장하지 않습니다.')}
 
     def start(self):
         self.thread = threading.Thread(target=self.run, name='meta-ads-worker', daemon=True)
@@ -248,6 +258,7 @@ class Controller:
     def run(self):
         while not self.stop_event.is_set():
             try:
+                assert_storage_available(self.store.root)
                 if self.auto_enabled:
                     for row in self.store.rows('SELECT * FROM competitors'):
                         conf = json.loads(row['payload'])
@@ -259,12 +270,16 @@ class Controller:
                 queued = self.store.rows("SELECT * FROM jobs WHERE status='queued' ORDER BY rowid LIMIT 1")
                 if queued:
                     self.execute(queued[0])
+            except StorageUnavailable:
+                self.auto_enabled = False
+                # Keep waiting for the same drive; never open a fallback database.
             except Exception as error:
                 # No raw DB paths, credential values or crawler content leave this process.
                 print('Worker error:', type(error).__name__, flush=True)
             self.stop_event.wait(1)
 
     def execute(self, job):
+        assert_storage_available(self.store.root)
         job_id = job['id']
         with self.process_lock:
             if self.stop_event.is_set() or self.store.rows('SELECT status FROM jobs WHERE id=?', (job_id,))[0]['status'] != 'queued':
@@ -274,12 +289,13 @@ class Controller:
                              (now(), 'Meta 광고 라이브러리에서 수집 중입니다.', job_id))
             self.store.write('UPDATE competitors SET last_attempt=? WHERE id=?', (time.time(), job['competitor_id']))
         runs = self.store.root / 'runs'
-        runs.mkdir(exist_ok=True)
         run_dir = runs / job_id
         command = [sys.executable, str(SERVICE_DIR / 'crawler.py'), '--keyword', job['keyword'],
                    '--domain', job['domain'], '--total', str(job['max_ads']), '--batch', str(min(10, job['max_ads'])),
                    '--run-id', job_id, '--output-dir', str(runs), '--headless']
         try:
+            assert_storage_available(self.store.root)
+            runs.mkdir(exist_ok=True)
             log = runs / (job_id + '.log')
             with log.open('wb') as output:
                 kwargs = {'creationflags': subprocess.CREATE_NO_WINDOW} if os.name == 'nt' else {'start_new_session': True}
@@ -516,8 +532,7 @@ class Server(ThreadingHTTPServer):
 def main():
     parser = argparse.ArgumentParser(description='개인용 Meta 광고 수집기')
     parser.add_argument('--web-root', default=os.environ.get('WEB_ROOT', str(SERVICE_DIR.parent.parent)))
-    default_data = Path(os.environ.get('LOCALAPPDATA', Path.home() / '.local/share')) / 'JoWooHyung/MetaAds'
-    parser.add_argument('--data-dir', default=os.environ.get('CRAWLER_DATA_DIR', str(default_data)))
+    parser.add_argument('--data-dir')
     parser.add_argument('--port', type=int, default=4177)
     parser.add_argument('--open', action='store_true')
     parser.add_argument('--import-jsonl', action='append', default=[])
@@ -525,7 +540,11 @@ def main():
     args = parser.parse_args()
     if not Path(args.web_root).is_dir():
         parser.error('웹사이트 폴더를 찾을 수 없습니다.')
-    store = Store(args.data_dir, args.web_root)
+    try:
+        data_dir = resolve_data_dir(args.data_dir)
+    except (ValueError, OSError) as error:
+        parser.error(str(error))
+    store = Store(data_dir, args.web_root)
     for source in args.import_jsonl:
         print('Imported new public ads:', store.import_file(source))
     if args.export_only:

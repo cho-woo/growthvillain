@@ -2,13 +2,14 @@ param(
     [int]$Port = 4177,
     [string]$WebRoot = '',
     [string]$DataDir = '',
-    [switch]$Setup
+    [switch]$Setup,
+    [switch]$NoBrowser
 )
 $ErrorActionPreference = 'Stop'
 $serviceRoot = $PSScriptRoot
 if (-not $WebRoot) { $WebRoot = [System.IO.Path]::GetFullPath((Join-Path $serviceRoot '../..')) }
-if (-not $DataDir) { $DataDir = Join-Path $env:LOCALAPPDATA 'JoWooHyung/MetaAds' }
-$venvRoot = Join-Path $DataDir 'runtime'
+$runtimeHome = Join-Path $env:LOCALAPPDATA 'JoWooHyung/MetaAds'
+$venvRoot = Join-Path $runtimeHome 'runtime'
 $runtimePython = Join-Path $venvRoot 'Scripts/python.exe'
 function Find-PersonalPython {
     $candidates = [System.Collections.Generic.List[string]]::new()
@@ -39,7 +40,7 @@ if (-not (Test-Path -LiteralPath $runtimePython)) {
         exit 1
     }
     $basePython = Find-PersonalPython
-    New-Item -ItemType Directory -Force -Path $DataDir | Out-Null
+    New-Item -ItemType Directory -Force -Path $runtimeHome | Out-Null
     & $basePython -m venv $venvRoot
     if ($LASTEXITCODE -ne 0) { throw 'Python 3.11 or newer is required.' }
 }
@@ -49,4 +50,12 @@ if ($Setup) {
     & $runtimePython -m playwright install chromium
     if ($LASTEXITCODE -ne 0) { throw 'Chromium installation failed.' }
 }
-& $runtimePython (Join-Path $serviceRoot 'server.py') --web-root $WebRoot --data-dir $DataDir --port $Port --open
+$resolveArguments = @((Join-Path $serviceRoot 'storage_config.py'), '--json')
+if ($DataDir) { $resolveArguments += @('--data-dir', $DataDir) }
+$resolvedStorage = & $runtimePython @resolveArguments
+if ($LASTEXITCODE -ne 0) { throw 'The configured storage folder is unavailable. Connect the selected drive and retry. No fallback folder was used.' }
+$DataDir = ($resolvedStorage | ConvertFrom-Json).dataDir
+Write-Host ('Ad storage: ' + $DataDir)
+$serverArguments = @((Join-Path $serviceRoot 'server.py'), '--web-root', $WebRoot, '--data-dir', $DataDir, '--port', $Port)
+if (-not $NoBrowser) { $serverArguments += '--open' }
+& $runtimePython @serverArguments

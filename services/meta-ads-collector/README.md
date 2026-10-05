@@ -29,13 +29,17 @@ Meta가 공개 페이지의 접근 방식이나 화면 구조를 바꾸면 수�
 | `catalog.py` | 공개 필드 허용 목록, 소재 복사·내보내기 |
 | `test_collector.py` | 경로·요청 보호·실패 처리 검증 |
 | `test_search_access.py` | 초기 응답과 실제 광고 로딩 상태 구분 검증 |
+| `storage_config.py` / `test_storage.py` | 개인 저장 위치 선택·외장 드라이브 연결 검증 |
 | `Launch-MetaAds.ps1` | Windows 시작 파일 |
 | `Publish-Archive.cmd` / `Publish-Archive.ps1` | 확인한 광고 자료만 GitHub에 게시 |
-| `%LOCALAPPDATA%/JoWooHyung/MetaAds/` | 개인 DB·수집 원본·로그·실행 환경 |
+| `%LOCALAPPDATA%/JoWooHyung/MetaAds/` | 실행 환경·개인 저장 위치 설정 (`settings.json`) |
+| 설정한 광고 저장 폴더 | 개인 DB·수집 원본·이미지·영상·로그 |
 | `../../tools/meta-ads/data/catalog.json` | 공개할 광고 목록 |
 | `../../tools/meta-ads/media/` | 목록에 사용된 광고 이미지·영상 |
 
-개인 데이터 폴더는 웹사이트 폴더 밖에 있어야 합니다. `CRAWLER_DATA_DIR`와 `WEB_ROOT` 환경 변수 또는 `--data-dir`, `--web-root` 인수로 위치를 변경할 수 있습니다. 수집 원본과 DB는 Git에 포함하지 않습니다.
+개인 데이터 폴더는 웹사이트 폴더 밖에 있어야 합니다. 저장 위치는 `--data-dir` 인수, `CRAWLER_DATA_DIR` 환경 변수, 개인 `settings.json`의 `dataDir`, 기본 LocalAppData 순서로 선택합니다. 설정 파일에는 절대 경로를 지정합니다. 설정된 외장 드라이브나 폴더가 없으면 다른 위치에 새 보관함을 만들지 않고 중단합니다. `WEB_ROOT` 또는 `--web-root`는 게시용 웹사이트 폴더를 지정합니다. 수집 원본과 DB는 Git에 포함하지 않습니다.
+
+실행용 Python 환경은 광고 저장 폴더와 별도로 LocalAppData에 유지됩니다. 저장 위치를 바꿔도 기존 `01_수집기_실행.cmd`를 그대로 사용합니다. 로컬 상태 응답의 `storagePath`·`storageAvailable`로 선택한 폴더와 연결 상태를 확인할 수 있습니다. 사이트 게시용 이미지·영상 사본은 기존 웹사이트 프로젝트에도 생성됩니다.
 
 ## 기존 공개 광고 가져오기
 
