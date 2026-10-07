@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-07T15:00:25+00:00",
+  "updatedAt": "2026-10-07T15:16:06+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-07T03:15:08+00:00",
@@ -23,10 +23,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 1,
-    "dailyRemaining": 4,
+    "dailyUsed": 2,
+    "dailyRemaining": 3,
     "pending": 0,
-    "nextDispatchAt": "2026-10-07T15:15:03+00:00",
+    "nextDispatchAt": "2026-10-07T15:30:05+00:00",
     "metaAutoEnabled": true,
     "enabled": true
   },
@@ -870,17 +870,252 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "done",
       "keywordId": "86a2c91334b2bbdd67f2a5dd18b59a27d762b940930a259898b5a93eab901001",
       "searchQuery": "흑염소진액",
       "adEvidence": {
         "query": "흑염소진액",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 20,
+        "adIds": [
+          "960815346462895",
+          "887085337703210",
+          "1760932618456586",
+          "1330024722438051",
+          "972075782604957",
+          "1878625413111642",
+          "1656638952559135",
+          "1369734944640967",
+          "2442450902915751",
+          "1985580978749051",
+          "2566101447188653",
+          "1718416316953495",
+          "1162183032734402",
+          "1131176822768648",
+          "2651239658642761",
+          "1017544991020625",
+          "1012076388016921",
+          "2880475662114026",
+          "1462988334854238",
+          "1345406700809065"
+        ],
+        "ads": [
+          {
+            "id": "960815346462895",
+            "advertiser": "천호엔케어",
+            "startedAt": "2026-10-02",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:19+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:19+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "887085337703210",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-10-01",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:19+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:19+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1760932618456586",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-10-01",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:19+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:19+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1330024722438051",
+            "advertiser": "홍동비책",
+            "startedAt": "2026-06-15",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:19+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "972075782604957",
+            "advertiser": "황금이네",
+            "startedAt": "2026-09-28",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:18+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1878625413111642",
+            "advertiser": "홍동비책",
+            "startedAt": "2026-08-24",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:18+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1656638952559135",
+            "advertiser": "황금이네",
+            "startedAt": "2026-09-29",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:18+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1369734944640967",
+            "advertiser": "금정산성 금성",
+            "startedAt": "2026-08-10",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:18+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2442450902915751",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-12",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:17+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1985580978749051",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-29",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:17+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2566101447188653",
+            "advertiser": "황금이네",
+            "startedAt": "2026-09-22",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:12+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1718416316953495",
+            "advertiser": "황금이네",
+            "startedAt": "2026-09-22",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:12+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1162183032734402",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-08",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:12+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1131176822768648",
+            "advertiser": "홍동비책",
+            "startedAt": "2026-09-19",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:12+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2651239658642761",
+            "advertiser": "황금이네",
+            "startedAt": "2026-09-22",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:11+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1017544991020625",
+            "advertiser": "홍동비책",
+            "startedAt": "2026-06-15",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:11+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1012076388016921",
+            "advertiser": "영화식품",
+            "startedAt": "2026-05-29",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:11+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2880475662114026",
+            "advertiser": "영농조합법인 한마음염소",
+            "startedAt": "2025-03-17",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:10+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1462988334854238",
+            "advertiser": "영농조합법인 한마음염소",
+            "startedAt": "2025-06-09",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:10+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1345406700809065",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:10+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:10+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-07T15:15:19+00:00",
+        "advertisers": [
+          {
+            "name": "황금이네",
+            "adCount": 5
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 4
+          },
+          {
+            "name": "홍동비책",
+            "adCount": 4
+          },
+          {
+            "name": "영농조합법인 한마음염소",
+            "adCount": 2
+          },
+          {
+            "name": "쿠팡 Coupang",
+            "adCount": 2
+          },
+          {
+            "name": "금정산성 금성",
+            "adCount": 1
+          },
+          {
+            "name": "영화식품",
+            "adCount": 1
+          },
+          {
+            "name": "천호엔케어",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
@@ -3681,17 +3916,252 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "backlog",
+      "state": "done",
       "keywordId": "86a2c91334b2bbdd67f2a5dd18b59a27d762b940930a259898b5a93eab901001",
       "searchQuery": "흑염소진액",
       "adEvidence": {
         "query": "흑염소진액",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 20,
+        "adIds": [
+          "960815346462895",
+          "887085337703210",
+          "1760932618456586",
+          "1330024722438051",
+          "972075782604957",
+          "1878625413111642",
+          "1656638952559135",
+          "1369734944640967",
+          "2442450902915751",
+          "1985580978749051",
+          "2566101447188653",
+          "1718416316953495",
+          "1162183032734402",
+          "1131176822768648",
+          "2651239658642761",
+          "1017544991020625",
+          "1012076388016921",
+          "2880475662114026",
+          "1462988334854238",
+          "1345406700809065"
+        ],
+        "ads": [
+          {
+            "id": "960815346462895",
+            "advertiser": "천호엔케어",
+            "startedAt": "2026-10-02",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:19+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:19+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "887085337703210",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-10-01",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:19+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:19+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1760932618456586",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-10-01",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:19+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:19+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1330024722438051",
+            "advertiser": "홍동비책",
+            "startedAt": "2026-06-15",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:19+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "972075782604957",
+            "advertiser": "황금이네",
+            "startedAt": "2026-09-28",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:18+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1878625413111642",
+            "advertiser": "홍동비책",
+            "startedAt": "2026-08-24",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:18+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1656638952559135",
+            "advertiser": "황금이네",
+            "startedAt": "2026-09-29",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:18+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1369734944640967",
+            "advertiser": "금정산성 금성",
+            "startedAt": "2026-08-10",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:18+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2442450902915751",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-12",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:17+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1985580978749051",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-29",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:17+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2566101447188653",
+            "advertiser": "황금이네",
+            "startedAt": "2026-09-22",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:12+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1718416316953495",
+            "advertiser": "황금이네",
+            "startedAt": "2026-09-22",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:12+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1162183032734402",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-08",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:12+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1131176822768648",
+            "advertiser": "홍동비책",
+            "startedAt": "2026-09-19",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:12+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2651239658642761",
+            "advertiser": "황금이네",
+            "startedAt": "2026-09-22",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:11+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1017544991020625",
+            "advertiser": "홍동비책",
+            "startedAt": "2026-06-15",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:11+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1012076388016921",
+            "advertiser": "영화식품",
+            "startedAt": "2026-05-29",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:11+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2880475662114026",
+            "advertiser": "영농조합법인 한마음염소",
+            "startedAt": "2025-03-17",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:10+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1462988334854238",
+            "advertiser": "영농조합법인 한마음염소",
+            "startedAt": "2025-06-09",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:10+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1345406700809065",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "흑염소진액",
+            "firstCollectedAt": "2026-10-07T15:15:10+00:00",
+            "lastCollectedAt": "2026-10-07T15:15:10+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-07T15:15:19+00:00",
+        "advertisers": [
+          {
+            "name": "황금이네",
+            "adCount": 5
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 4
+          },
+          {
+            "name": "홍동비책",
+            "adCount": 4
+          },
+          {
+            "name": "영농조합법인 한마음염소",
+            "adCount": 2
+          },
+          {
+            "name": "쿠팡 Coupang",
+            "adCount": 2
+          },
+          {
+            "name": "금정산성 금성",
+            "adCount": 1
+          },
+          {
+            "name": "영화식품",
+            "adCount": 1
+          },
+          {
+            "name": "천호엔케어",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
