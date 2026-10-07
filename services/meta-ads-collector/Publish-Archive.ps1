@@ -5,6 +5,11 @@ param(
 )
 # Public-only archive synchronization, manually or by the authorized local scheduler.
 $ErrorActionPreference = 'Stop'
+# Decode native Git output consistently when launched with CREATE_NO_WINDOW.
+# A legacy console code page otherwise corrupts Korean repository paths.
+$archiveUtf8 = New-Object System.Text.UTF8Encoding($false)
+[Console]::OutputEncoding = $archiveUtf8
+$OutputEncoding = $archiveUtf8
 try {
     if (-not $Repository) { $Repository = [System.IO.Path]::GetFullPath((Join-Path $PSScriptRoot '../..')) }
     $Repository = (Resolve-Path -LiteralPath $Repository).Path

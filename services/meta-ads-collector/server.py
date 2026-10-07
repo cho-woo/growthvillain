@@ -30,6 +30,15 @@ API = '/api/meta-ads'
 SERVICE_DIR = Path(__file__).resolve().parent
 
 
+def publication_snapshot(status):
+    result = {key: status.get(key) for key in ('state', 'lastAttemptAt', 'lastSuccessAt', 'error', 'enabled')}
+    # A static page cannot observe the end of the push carrying its own snapshot.
+    # Keep the last completed transfer visible instead of freezing "publishing".
+    if result['state'] == 'publishing':
+        result['state'] = 'synced' if result['lastSuccessAt'] else 'pending'
+    return result
+
+
 def integer(value, minimum, maximum, label):
     if isinstance(value, bool) or not isinstance(value, int) or not minimum <= value <= maximum:
         raise ValueError(f'{label}: {minimum}–{maximum} 범위의 정수가 필요합니다.')
@@ -316,7 +325,7 @@ class Controller:
                 allowed = ('id','name','enabled','running','state','nextRunAt','lastSuccessAt','lastAttemptAt','message',
                            'intervalSeconds','statusCheckIntervalSeconds','statusCheckBatchSize','nextStatusCheckAt')
                 public = {'mode':'snapshot', 'updatedAt':now(), 'automations':[
-                    {k:r.get(k) for k in allowed} for r in data['automations']], 'publication':data['publication']}
+                    {k:r.get(k) for k in allowed} for r in data['automations']], 'publication':publication_snapshot(data['publication'])}
                 with self.store.lock:
                     atomic_json(self.store.web_root / 'tools/meta-ads/data/automation.json', public)
                 self.publisher.tick()

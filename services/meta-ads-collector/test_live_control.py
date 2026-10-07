@@ -48,17 +48,34 @@ class LiveControlTests(unittest.TestCase):
     def test_archive_fingerprint_does_not_loop_on_its_own_success(self):
         p = self.web / 'tools/meta-ads/data'
         p.mkdir(parents=True)
-        status = {'automations':[{'id':'meta-ads','enabled':True}], 'updatedAt':'old','publication':{}}
+        status = {'automations':[{'id':'meta-ads','enabled':True}], 'updatedAt':'old',
+                  'publication':{'enabled':True,'lastSuccessAt':None,'error':None}}
         (p/'automation.json').write_text(json.dumps(status), encoding='utf-8')
         publisher = ArchivePublisher(self.store)
         with patch('archive_publisher.time.time', return_value=3601):
             before = publisher.fingerprint()
-            status.update(updatedAt='new', publication={'lastSuccessAt':'new'})
+            status.update(updatedAt='new', publication={'enabled':True,'lastSuccessAt':'first','error':None})
             (p/'automation.json').write_text(json.dumps(status), encoding='utf-8')
-            self.assertEqual(before, publisher.fingerprint())
+            first_success = publisher.fingerprint()
+            self.assertNotEqual(before, first_success)
+            status.update(updatedAt='newer', publication={'enabled':True,'lastSuccessAt':'second',
+                                                         'lastAttemptAt':'now','state':'publishing','error':None})
+            (p/'automation.json').write_text(json.dumps(status), encoding='utf-8')
+            self.assertEqual(first_success, publisher.fingerprint())
+            status['publication']['error'] = '게시 실패'
+            (p/'automation.json').write_text(json.dumps(status), encoding='utf-8')
+            failed = publisher.fingerprint()
+            self.assertNotEqual(first_success, failed)
+            status['publication']['error'] = None
+            (p/'automation.json').write_text(json.dumps(status), encoding='utf-8')
+            self.assertEqual(first_success, publisher.fingerprint())
+            status['publication']['enabled'] = False
+            (p/'automation.json').write_text(json.dumps(status), encoding='utf-8')
+            self.assertNotEqual(first_success, publisher.fingerprint())
+            status['publication']['enabled'] = True
             status['automations'][0]['enabled'] = False
             (p/'automation.json').write_text(json.dumps(status), encoding='utf-8')
-            self.assertNotEqual(before, publisher.fingerprint())
+            self.assertNotEqual(first_success, publisher.fingerprint())
 
     def test_trend_collection_obeys_meta_switch(self):
         c = Controller(self.store)
