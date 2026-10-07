@@ -284,16 +284,22 @@ class Controller:
         meta_state = 'running' if self.current_job or self.status_check_running else 'error' if status.get('lastError') else 'waiting' if self.auto_enabled else 'off'
         intervals = [c['intervalHours']*3600 for c in self.store.competitors() if not c.get('trendOnly')] if available else []
         next_check = self.store.setting('nextStatusCheck', 0) if available else 0
+        meta_message = status.get('lastError') or ('광고 라이브러리 수집 중' if self.current_job else
+                         '종료 여부 확인 중' if self.status_check_running else '광고 라이브러리 수집 예약')
+        if not available:
+            meta_message = 'D드라이브 연결 필요'
         result = [{'id':'meta-ads', 'name':'메타 광고', 'enabled':self.auto_enabled,
                    'running':bool(self.current_job or self.status_check_running), 'state':meta_state,
                    'nextRunAt':status['nextRunAt'], 'lastSuccessAt':status['lastSuccessAt'],
                    'lastAttemptAt':status['lastAttemptAt'], 'intervalSeconds':min(intervals) if intervals else 21600,
                    'statusCheckIntervalSeconds':3600, 'statusCheckBatchSize':10,
                    'nextStatusCheckAt':datetime.fromtimestamp(max(time.time(),next_check),timezone.utc).isoformat(timespec='seconds') if self.auto_enabled else None,
-                   'message':status.get('lastError') or ('D드라이브 연결됨' if status['storageAvailable'] else 'D드라이브 연결 필요'), 'controllable':True},
+                   'message':meta_message,
+                   'controllable':True},
                   {'id':'naver-trends', 'name':'네이버 급상승', 'enabled':trend['autoEnabled'],
                    'running':trend['scanning'], 'state':'running' if trend['scanning'] else 'error' if trend.get('error') else 'waiting' if trend['autoEnabled'] else 'off',
                    'nextRunAt':trend.get('nextRunAt'), 'lastSuccessAt':trend.get('lastSuccessAt') or trend.get('lastChecked'),
+                   'intervalSeconds':trend.get('intervalSeconds',3600),
                    'message':trend.get('error') or '1시간마다 확인 · 일간 순위 기준', 'controllable':True}]
         if self.automations:
             result.extend(self.automations.status()['automations'])

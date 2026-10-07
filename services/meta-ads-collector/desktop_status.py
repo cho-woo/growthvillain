@@ -13,7 +13,7 @@ from urllib.request import HTTPRedirectHandler, ProxyHandler, Request, build_ope
 import webbrowser
 
 EXPECTED = [('meta-ads', '메타 광고'), ('naver-trends', '네이버 급상승'),
-            ('food-blog', '맛집 블로그'), ('beauty-blog', '뷰티 블로그')]
+            ('food-blog', '맛집 블로그'), ('beauty-blog', '뷰티 블로그'), ('oliveyoung', '올리브영 순위')]
 KST_OFFSET_SECONDS = 9 * 3600
 
 
@@ -77,11 +77,15 @@ def row_view(row, online, current=None):
         detail = countdown(row.get('nextRunAt'), current)
         if not row.get('nextRunAt') and row.get('message'):
             detail = row['message']
-    if row.get('id') == 'meta-ads' and enabled and not running:
-        cadence = f"수집 {interval_label(row.get('intervalSeconds'))} · 상태 {row.get('statusCheckBatchSize', 10)}개/{interval_label(row.get('statusCheckIntervalSeconds'))}"
-        detail = cadence+' · '+detail
+    if row.get('id') == 'meta-ads' and enabled:
+        cadence = f"수집 {interval_label(row.get('intervalSeconds'))}마다 · 종료 점검 {row.get('statusCheckBatchSize', 10)}개/{interval_label(row.get('statusCheckIntervalSeconds'))}"
+        upcoming = countdown(row.get('nextRunAt'), current)
+        detail = cadence+'\n'+('현재 수집 중 · 다음 '+upcoming if running else detail)
+    if row.get('id') == 'oliveyoung' and state == 'waiting' and enabled:
+        detail = '뷰티 수집 연동 · '+countdown(row.get('nextRunAt'), current)
     return {'label': label, 'color': color, 'detail': str(detail),
-            'switch': '끄기' if enabled else '켜기', 'disabled': row.get('controllable') is not True}
+            'switch': '연동' if row.get('id') == 'oliveyoung' else '끄기' if enabled else '켜기',
+            'disabled': row.get('controllable') is not True}
 
 
 class NoRedirects(HTTPRedirectHandler):
@@ -143,7 +147,14 @@ class LocalClient:
             raise ValueError('Invalid automation switch')
         if not self.token:
             self.authenticate()
-        self.request('automations/'+automation_id, {'enabled': enabled})
+        try:
+            self.request('automations/'+automation_id, {'enabled': enabled})
+        except HTTPError as exc:
+            if exc.code not in (401, 403):
+                raise
+            self.token = None
+            self.authenticate()
+            self.request('automations/'+automation_id, {'enabled': enabled})
         return self.snapshot()
 
 
@@ -186,7 +197,8 @@ class StatusWindow:
             status = tk.Label(top, text='OFF', bg='#1b2532', fg='#a5afbf', font=('Malgun Gothic', 8))
             status.pack(side='right', padx=8)
             detail = tk.Label(frame, text='상태 확인 중', bg='#1b2532', fg='#aab7c7',
-                              font=('Malgun Gothic', 8), anchor='w')
+                              font=('Malgun Gothic', 8), anchor='w', justify='left', wraplength=330,
+                              height=2 if automation_id == 'meta-ads' else 1)
             detail.pack(fill='x', pady=(4, 0))
             self.widgets[automation_id] = (status, detail, button)
             for target in (status, detail):
@@ -204,7 +216,7 @@ class StatusWindow:
     @staticmethod
     def position():
         import tkinter as tk
-        width, height = 380, 352
+        width, height = 380, 438
         left, top, right, bottom = 0, 0, tk._default_root.winfo_screenwidth(), tk._default_root.winfo_screenheight()
         try:
             import ctypes
@@ -275,7 +287,7 @@ class StatusWindow:
             row = self.rows.get(automation_id, {})
             view = row_view(row, self.online and bool(row), time.time()+self.clock_delta)
             status.configure(text=view['label'], fg=view['color'])
-            detail.configure(text=view['detail'][:47])
+            detail.configure(text=view['detail'])
             button.configure(text=view['switch'], state='disabled' if self.busy or view['disabled'] else 'normal')
         if not self.busy and time.monotonic() >= self.next_poll:
             self.submit(self.client.snapshot)

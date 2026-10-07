@@ -6,7 +6,7 @@ from unittest.mock import patch
 
 from automation_bridge import (KST, cross_kind_ready, file_lock, publish_slot,
                                read_json, write_json, Heartbeat)
-from automation_manager import heartbeat_status, AutomationManager
+from automation_manager import heartbeat_status, oliveyoung_status, AutomationManager
 from beauty_scheduler import publication_time, next_collection, pending_article
 from desktop_status import countdown, row_view, LocalClient, interval_label
 
@@ -41,6 +41,13 @@ class DesktopStatusTests(unittest.TestCase):
                          'statusCheckIntervalSeconds':3600, 'statusCheckBatchSize':10}, True)
         self.assertIn('수집 6시간', view['detail'])
         self.assertIn('10개/1시간', view['detail'])
+        running = row_view({'id':'meta-ads', 'enabled':True, 'running':True, 'message':'D드라이브 연결됨',
+                            'intervalSeconds':21600, 'statusCheckIntervalSeconds':3600,
+                            'statusCheckBatchSize':10, 'nextRunAt':'2026-10-07T18:00:00+09:00'}, True)
+        self.assertIn('수집 6시간마다', running['detail'])
+        self.assertIn('종료 점검 10개/1시간', running['detail'])
+        self.assertIn('\n현재 수집 중 · 다음', running['detail'])
+        self.assertNotIn('D드라이브', running['detail'])
 
 
 class SchedulingTests(unittest.TestCase):
@@ -91,6 +98,42 @@ class SchedulingTests(unittest.TestCase):
         self.assertEqual(heartbeat_status('food-blog','Food',old,True,self.current)['state'],'offline')
         old['heartbeatAt']=self.current.isoformat()
         self.assertEqual(heartbeat_status('food-blog','Food',old,False,self.current)['state'],'stopping')
+
+    def test_food_naive_schedule_is_exported_with_kst_offset(self):
+        beat={'heartbeatAt':self.current.isoformat(),'state':'waiting','nextRunAt':'2026-10-07T18:44:10'}
+        value=heartbeat_status('food-blog','Food',beat,True,self.current)
+        self.assertEqual(value['nextRunAt'],'2026-10-07T18:44:10+09:00')
+
+    def test_oliveyoung_collection_state_is_separate_from_publication(self):
+        with TemporaryDirectory() as temporary:
+            root=Path(temporary)
+            write_json(root/'data/latest.json',{'collectedAt':self.current.isoformat(),'items':[{'rank':1}]})
+            write_json(root/'state/scheduler.json',{'collectionDate':'2026-10-07','lastCollectionOk':True})
+            beat={'heartbeatAt':self.current.isoformat(),'state':'running','running':True,'message':'확인된 뷰티 초안 발행 중'}
+            row=oliveyoung_status(root,True,beat,self.current)
+            self.assertFalse(row['running'])
+            self.assertEqual(row['state'],'waiting')
+            self.assertEqual(row['nextRunAt'],'2026-10-08T07:00:00+09:00')
+            self.assertEqual(row['lastSuccessAt'],self.current.isoformat(timespec='seconds'))
+            self.assertFalse(row['controllable'])
+            view=row_view(row,True,self.current.timestamp())
+            self.assertEqual(view['switch'],'연동')
+            self.assertTrue(view['disabled'])
+            beat['message']='공개 랭킹·공식 전성분 수집 중'
+            row=oliveyoung_status(root,True,beat,self.current)
+            self.assertTrue(row['running'])
+            self.assertIsNone(row['nextRunAt'])
+
+    def test_oliveyoung_missing_or_stale_process_never_claims_live(self):
+        with TemporaryDirectory() as temporary:
+            root=Path(temporary)
+            row=oliveyoung_status(root,True,{},self.current)
+            self.assertEqual(row['state'],'offline')
+            self.assertIsNone(row['lastSuccessAt'])
+            self.assertIsNone(row['nextRunAt'])
+            self.assertEqual(oliveyoung_status(root,False,{},self.current)['state'],'paused')
+            write_json(root/'data/latest.json',{'collectedAt':'2026-12-01T00:00:00+09:00','items':[{}]})
+            self.assertIsNone(oliveyoung_status(root,True,{},self.current)['lastSuccessAt'])
 
     def test_manager_off_is_cooperative_and_retains_flags(self):
         with TemporaryDirectory() as temporary:

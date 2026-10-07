@@ -28,7 +28,39 @@ def heartbeat_status(automation_id, name, heartbeat, enabled, current=None):
             value.update(state='paused', nextRunAt=None, message='예약 실행 OFF')
         elif not enabled and value['running']:
             value.update(state='stopping', message='현재 작업 완료 후 대기 · 다음 실행 OFF')
+    for field in ('nextRunAt', 'lastSuccessAt'):
+        parsed = parse_time(value.get(field))
+        value[field] = parsed.isoformat(timespec='seconds') if parsed else None
     return value
+
+
+def oliveyoung_status(beauty_root, enabled, heartbeat, current=None):
+    """Read-only view of ranking collection within the existing beauty worker."""
+    from beauty_scheduler import next_collection
+    current = current or datetime.now(KST)
+    root = Path(beauty_root)
+    ranking = read_json(root/'data/latest.json')
+    scheduler = read_json(root/'state/scheduler.json')
+    collected = parse_time(ranking.get('collectedAt'))
+    items = ranking.get('items')
+    valid = bool(collected and collected <= current and isinstance(items, list) and items and
+                 all(isinstance(item, dict) for item in items))
+    collection_running = heartbeat.get('running') is True and (
+        heartbeat.get('phase') == 'collection' or
+        '공개랭킹' in str(heartbeat.get('message', '')).replace(' ', ''))
+    adapted = dict(heartbeat, running=collection_running)
+    if adapted.get('state') != 'stopped':
+        adapted['state'] = ('running' if collection_running else
+                            'error' if scheduler.get('lastCollectionOk') is False else 'waiting')
+    adapted['nextRunAt'] = None if collection_running else next_collection(current, scheduler.get('collectionDate')).isoformat()
+    adapted['lastSuccessAt'] = collected.isoformat(timespec='seconds') if valid else None
+    summary = f'{len(items)}개' if valid else '저장된 순위 없음'
+    adapted['message'] = summary+' · 뷰티 수집 일정과 연동'
+    if scheduler.get('lastCollectionOk') is False and not collection_running:
+        adapted['message'] = '최근 수집 실패 · '+summary+' 보존'
+    row = heartbeat_status('oliveyoung', '올리브영 순위', adapted, enabled, current)
+    row.update(controllable=False, linkedAutomationId='beauty-blog', intervalSeconds=86400)
+    return row
 
 
 class AutomationManager:
@@ -57,6 +89,8 @@ class AutomationManager:
             if row['state'] == 'offline' and automation_id in self.launch_errors:
                 row['message'] = self.launch_errors[automation_id]
             rows.append(row)
+        rows.append(oliveyoung_status(self.projects['beauty-blog'][0], flags.get('beauty-blog') is True,
+                                     read_json(self.root/'beauty-blog-heartbeat.json')))
         return {'automations': rows, 'serverTime': stamp()}
 
     def set_enabled(self, automation_id, value):
