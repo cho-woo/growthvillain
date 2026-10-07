@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-07T15:30:22+00:00",
+  "updatedAt": "2026-10-07T15:45:40+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-07T03:15:08+00:00",
@@ -26,10 +26,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 3,
-    "dailyRemaining": 2,
+    "dailyUsed": 4,
+    "dailyRemaining": 1,
     "pending": 0,
-    "nextDispatchAt": "2026-10-07T15:45:08+00:00",
+    "nextDispatchAt": "2026-10-07T16:00:08+00:00",
     "metaAutoEnabled": true,
     "enabled": true
   },
@@ -1379,7 +1379,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "failed",
       "keywordId": "2ba930dc834a6f12749759986cd7d4408cf91fd748070e9df06a1ba9726af5e7",
       "searchQuery": "하이퍼셀코엔자임q10",
       "adEvidence": {
@@ -3701,7 +3701,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "backlog",
+      "state": "failed",
       "keywordId": "2ba930dc834a6f12749759986cd7d4408cf91fd748070e9df06a1ba9726af5e7",
       "searchQuery": "하이퍼셀코엔자임q10",
       "adEvidence": {
