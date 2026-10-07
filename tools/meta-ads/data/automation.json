@@ -1,6 +1,6 @@
 {
   "mode": "snapshot",
-  "updatedAt": "2026-10-07T21:24:14+00:00",
+  "updatedAt": "2026-10-07T22:01:06+00:00",
   "automations": [
     {
       "id": "meta-ads",
@@ -53,8 +53,8 @@
       "enabled": true,
       "running": false,
       "state": "waiting",
-      "nextRunAt": "2026-10-08T07:00:00+09:00",
-      "lastSuccessAt": "2026-10-07T12:15:44+09:00",
+      "nextRunAt": "2026-10-09T07:00:00+09:00",
+      "lastSuccessAt": "2026-10-08T07:00:10+09:00",
       "lastAttemptAt": null,
       "message": "수집 ON · 확인된 발행용 초안 0개",
       "intervalSeconds": null,
@@ -68,8 +68,8 @@
       "enabled": true,
       "running": false,
       "state": "waiting",
-      "nextRunAt": "2026-10-08T07:00:00+09:00",
-      "lastSuccessAt": "2026-10-07T12:15:44+09:00",
+      "nextRunAt": "2026-10-09T07:00:00+09:00",
+      "lastSuccessAt": "2026-10-08T07:00:09+09:00",
       "lastAttemptAt": null,
       "message": "50개 · 뷰티 수집 일정과 연동",
       "intervalSeconds": 86400,
@@ -80,8 +80,8 @@
   ],
   "publication": {
     "state": "synced",
-    "lastAttemptAt": "2026-10-07T21:22:33+00:00",
-    "lastSuccessAt": "2026-10-07T21:22:37+00:00",
+    "lastAttemptAt": "2026-10-07T21:24:14+00:00",
+    "lastSuccessAt": "2026-10-07T21:24:17+00:00",
     "error": null,
     "enabled": true
   }
