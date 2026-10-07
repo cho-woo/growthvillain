@@ -68,6 +68,47 @@ def run_child(script, *arguments):
                           cwd=ROOT, env=environment, check=False).returncode
 
 
+def publication_session_ready(root, config):
+    """Check the configured local session only; authentication belongs to the publisher."""
+    session_file = config.get('naver_session_file')
+    return bool(config.get('naver_blog_id') and session_file
+                and (root/str(session_file)).is_file())
+
+
+def publication_is_current(state, config):
+    # Receipts from the former shared blog have no target marker and stay historical.
+    blog_id = config.get('naver_blog_id')
+    return bool(blog_id and state.get('lastPublicationBlogId') == blog_id)
+
+
+def current_success_at(state, config):
+    """Do not present the former blog's successful post as this target's success."""
+    candidates = []
+    if state.get('lastCollectionOk') is True:
+        candidates.append(state.get('lastCollectionAt'))
+    if publication_is_current(state, config) and state.get('lastPublicationOk') is True:
+        candidates.append(state.get('lastPublicationAt'))
+    dated = [(parse_time(value), value) for value in candidates if parse_time(value)]
+    return max(dated, key=lambda item: item[0])[1] if dated else None
+
+
+def waiting_status(state, config, session_ready, article, current):
+    if not session_ready:
+        return 'blocked', f"{config.get('naver_blog_id') or '뷰티 블로그'} 로그인 필요 · 수집 ON"
+    if state.get('lastCollectionOk') is False:
+        return 'error', '최근 수집 실패 · 다음 일정에 재시도'
+    current_publication = publication_is_current(state, config)
+    if (current_publication and state.get('lastPublicationOk') is False
+            and state.get('publicationAttemptDate') == current.date().isoformat()):
+        return 'blocked', '발행 확인 필요 · 오늘 자동 재발행 보류'
+    if not article:
+        message = ('최근 뷰티 발행 완료 · 다음 수집 대기'
+                   if current_publication and state.get('lastPublicationOk') is True
+                   else '수집 ON · 확인된 발행용 초안 0개')
+        return 'waiting', message
+    return 'waiting', '맛집과 3시간 간격 · 하루 최대 1회 발행'
+
+
 def main():
     hub = hub_root()
     with file_lock(hub/'beauty-blog-process.lock') as singleton:
@@ -81,6 +122,8 @@ def main():
         try:
             while True:
                 current = datetime.now(KST)
+                # A newly saved account/session becomes available without a scheduler restart.
+                config = read_json(ROOT/'config.json')
                 if not enabled('beauty-blog'):
                     heartbeat.update(running=False, state='paused', nextRunAt=None, message='예약 실행 OFF')
                     time.sleep(5)
@@ -97,11 +140,12 @@ def main():
                     if result == 0:
                         state['lastSuccessAt'] = stamp()
                     write_json(state_path, state)
-                    heartbeat.update(running=False, lastSuccessAt=state.get('lastSuccessAt'))
+                    heartbeat.update(running=False, lastSuccessAt=current_success_at(state, config))
                     current = datetime.now(KST)
                     due = next_collection(current, state.get('collectionDate'))
                 article = pending_article(ROOT)
-                if article and state.get('publicationAttemptDate') != current.date().isoformat():
+                session_ready = publication_session_ready(ROOT, config)
+                if session_ready and article and state.get('publicationAttemptDate') != current.date().isoformat():
                     publish_at = publication_time(current, read_json(food/'scheduler_state.json'),
                                                   read_json(hub/'publication-ledger.json'))
                     if publish_at <= current and enabled('beauty-blog'):
@@ -113,25 +157,16 @@ def main():
                                 result = run_child('publish_beauty.py', article)
                                 state['lastPublicationAt'] = stamp()
                                 state['lastPublicationOk'] = result == 0
+                                state['lastPublicationBlogId'] = config['naver_blog_id']
                                 if result == 0:
                                     state['lastSuccessAt'] = stamp()
                                 write_json(state_path, state)
                         heartbeat.update(running=False)
                     else:
                         due = min(due, publish_at)
-                if state.get('lastCollectionOk') is False:
-                    state_name, message = 'error', '최근 수집 실패 · 다음 일정에 재시도'
-                elif state.get('lastPublicationOk') is False and state.get('publicationAttemptDate') == current.date().isoformat():
-                    state_name, message = 'blocked', '발행 확인 필요 · 오늘 자동 재발행 보류'
-                elif not article:
-                    state_name = 'waiting'
-                    message = ('최근 뷰티 발행 완료 · 다음 수집 대기'
-                               if state.get('lastPublicationOk') is True
-                               else '수집 ON · 확인된 발행용 초안 0개')
-                else:
-                    state_name, message = 'waiting', '맛집과 3시간 간격 · 하루 최대 1회 발행'
+                state_name, message = waiting_status(state, config, session_ready, article, current)
                 heartbeat.update(running=False, state=state_name, nextRunAt=due.isoformat(),
-                                 lastSuccessAt=state.get('lastSuccessAt'), message=message)
+                                 lastSuccessAt=current_success_at(state, config), message=message)
                 time.sleep(5)
         except KeyboardInterrupt:
             return 0
