@@ -75,7 +75,7 @@ class ArchivePublisher:
     def fingerprint(self):
         root = self.store.web_root / 'tools/meta-ads/data'
         digest = hashlib.sha256()
-        for name in ('catalog.json', 'trends.json'):
+        for name in ('catalog.json', 'trends.json', 'investigations.json'):
             path = root / name
             if path.is_file():
                 digest.update(name.encode())

@@ -146,8 +146,13 @@ def dispatch_key(category, day, brand_id):
     return hashlib.sha256(json.dumps(values, ensure_ascii=False, separators=(',', ':')).encode('utf-8')).hexdigest()
 
 
+def keyword_dispatch_key(category, day, keyword):
+    values = ['keyword', _text(category, '카테고리', 100), _date(day).isoformat(), normalize_keyword(keyword)]
+    return hashlib.sha256(json.dumps(values, ensure_ascii=False, separators=(',', ':')).encode('utf-8')).hexdigest()
+
+
 def compare_snapshots(current, previous, brands=(), *, minimum_rise=10,
-                      new_top=20, expected_count=100, lookback_days=7):
+                      new_top=20, expected_count=100, lookback_days=7, keyword_mode=False):
     """Return rising keyword candidates with optional confirmed brand identity.
 
     A candidate rises >= minimum_rise, or newly enters the compared window at
@@ -185,8 +190,10 @@ def compare_snapshots(current, previous, brands=(), *, minimum_rise=10,
             'previousRank': prior_rank, 'rankRise': rise, 'isNew': is_new,
             'brandId': brand['id'] if brand else None,
             'brandName': brand['name'] if brand else None,
-            'needsReview': brand is None,
-            'dispatchKey': dispatch_key(current['category'], current['date'], brand['id']) if brand else None,
+            'needsReview': False if keyword_mode else brand is None,
+            'searchQuery': row['keyword'],
+            'dispatchKey': keyword_dispatch_key(current['category'], current['date'], row['keyword']) if keyword_mode
+                           else dispatch_key(current['category'], current['date'], brand['id']) if brand else None,
         })
     candidates.sort(key=lambda item: (item['rankRise'] is None,
                                      -(item['rankRise'] or 0), item['currentRank'],
@@ -194,7 +201,7 @@ def compare_snapshots(current, previous, brands=(), *, minimum_rise=10,
     result, seen_brands = [], set()
     for candidate in candidates:
         brand_id = candidate['brandId']
-        if brand_id is not None:
+        if brand_id is not None and not keyword_mode:
             if brand_id in seen_brands:
                 continue
             seen_brands.add(brand_id)

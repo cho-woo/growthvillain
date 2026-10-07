@@ -10,6 +10,7 @@ import shutil
 from datetime import datetime, timezone
 from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
 from ad_lifecycle import delivery_fields
+from keyword_evidence import merge_query_fields
 
 MEDIA_EXTENSIONS = {'.jpg', '.jpeg', '.png', '.webp', '.gif', '.mp4'}
 MAX_MEDIA_BYTES = 100 * 1024 * 1024
@@ -107,7 +108,7 @@ def normalize_row(row, run_dir, asset_dir):
         'libraryUrl': 'https://www.facebook.com/ads/library/?id=' + ad_id,
         'startedAt': date_value(row.get('start_date')),
         'collectedAt': clean_text(row.get('_collected_at'), 80),
-        'keyword': clean_text(row.get('_keyword'), 100),
+        'keyword': clean_text(row.get('_keyword'), 200),
         'platforms': clean_text(row.get('platforms_raw'), 150), 'media': media,
         **delivery_fields(row.get('delivery_status'), row.get('start_date'), row.get('end_date'),
                           clean_text(row.get('_collected_at'), 80)),
@@ -119,6 +120,7 @@ def public_card(card):
                'collectedAt','keyword','platforms','firstSeenAt','lastSeenAt','statusCheckAttemptAt',
                'statusCheckOutcome')
     result = {key: card[key] for key in allowed if key in card}
+    result.update(merge_query_fields({}, card))
     result.update(delivery_fields(card.get('deliveryStatus'), card.get('startedAt'), card.get('endedAt'), card.get('statusCheckedAt'), ended_detected_at=card.get('endedDetectedAt')))
     result['media'] = []
     for media in card['media']:

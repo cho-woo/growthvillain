@@ -14,7 +14,7 @@
 <header class="topbar"><a class="brand" href="/#ai"><span class="brand-mark">j.</span><span>JoWooHyung<span class="brand-sub">MARKETING × AUTOMATION</span></span></a><a class="back" href="/#ai">포트폴리오로 돌아가기 <span aria-hidden="true">↗</span></a></header>
 <main>
   <section class="intro" aria-labelledby="page-title">
-    <div><p class="eyebrow">PERSONAL TOOL / 01</p><h1 id="page-title">광고 레퍼런스<br><span>스튜디오.</span></h1><p class="intro-copy">수집하고, 살펴보고, 다음 아이디어를 발견하세요.</p><div class="intro-actions"><a href="#gallery" class="button primary">소재 살펴보기 <span aria-hidden="true">↓</span></a><a href="#trends" class="button secondary">급상승 브랜드</a><button id="manage-open" class="button secondary">수집 관리</button></div></div>
+    <div><p class="eyebrow">PERSONAL TOOL / 01</p><h1 id="page-title">광고 레퍼런스<br><span>스튜디오.</span></h1><p class="intro-copy">수집하고, 살펴보고, 다음 아이디어를 발견하세요.</p><div class="intro-actions"><a href="#gallery" class="button primary">소재 살펴보기 <span aria-hidden="true">↓</span></a><a href="#trends" class="button secondary">급상승 키워드</a><button id="manage-open" class="button secondary">수집 관리</button></div></div>
     <div class="intro-visual" aria-hidden="true"><div class="flow-label"><span class="pulse"></span>COLLECT. FIND. CREATE.</div><div class="flow"><span>수집</span><i>→</i><span>분류</span><i>→</i><span>아이디어</span></div></div>
   </section>
   <div class="archive-notice"><span id="connection" class="status-pill">불러오는 중</span><p id="archive-note">저장된 공개 광고 자료를 확인하고 있습니다.</p><button class="text-button" id="refresh">새로고침 ↻</button></div>
@@ -25,24 +25,34 @@
     <p class="publication-state" id="publication-state"></p>
   </section>
   <section class="trend-workspace" id="trends" aria-labelledby="trend-title">
-    <div class="trend-heading"><div><p class="eyebrow">NAVER TREND → META ADS</p><h2 id="trend-title">급상승 브랜드 기록</h2><p class="trend-intro">몇 위에서 몇 위로 올랐는지, 비교 기간과 함께 쌓아갑니다.</p></div><a class="text-button" href="https://datalab.naver.com/shoppingInsight/sCategory.naver" target="_blank" rel="noopener noreferrer">네이버 데이터랩 ↗</a></div>
-    <div class="trend-metrics"><div><span>감지한 상승 후보</span><strong id="trend-candidate-count">—</strong></div><div><span>확인된 브랜드</span><strong id="trend-brand-count">—</strong></div><div><span>누적 상승 기록</span><strong id="trend-history-count">—</strong></div><div><span>최근 순위 기준일</span><strong class="date-metric" id="trend-source-date">—</strong></div></div>
+    <div class="trend-heading"><div><p class="eyebrow">NAVER TREND → META ADS</p><h2 id="trend-title">급상승 키워드 기록</h2><p class="trend-intro">검색 순위 변화에서 출발해, 키워드별 광고 소재와 시작 시점을 함께 살펴봅니다.</p></div><a class="text-button" href="https://datalab.naver.com/shoppingInsight/sCategory.naver" target="_blank" rel="noopener noreferrer">네이버 데이터랩 ↗</a></div>
+    <div class="trend-metrics"><div><span>감지한 상승 후보</span><strong id="trend-candidate-count">—</strong></div><div><span>광고가 연결된 키워드</span><strong id="trend-linked-count">—</strong></div><div><span>누적 상승 기록</span><strong id="trend-history-count">—</strong></div><div><span>최근 순위 기준일</span><strong class="date-metric" id="trend-source-date">—</strong></div></div>
     <div id="trend-public" class="trend-public"><p>게시된 순위 기록을 조회합니다. 네이버 일간 순위를 매시간 확인하며, 실시간 검색 순위가 아닙니다.</p><a href="http://127.0.0.1:4177/tools/meta-ads/#trends" class="button compact">내 PC에서 관리 ↗</a></div>
     <div id="trend-local" hidden>
       <form id="trend-settings" class="trend-settings"><label>관심 분야<select id="trend-category"><option value="50000023">건강식품 전체</option><option value="50001899">건강환·정 (알약형 식품)</option><option value="50001092">영양제</option><option value="50001090">비타민제</option><option value="50017220">효소</option><option value="50018919">건강분말</option><option value="50000024">다이어트식품</option><option value="50000006">식품 전체</option></select></label><label>7일 전보다 순위 상승<select id="trend-rise"><option value="5">5계단 이상</option><option value="10" selected>10계단 이상</option><option value="20">20계단 이상</option><option value="30">30계단 이상</option></select></label><label>새로 진입한 검색어<select id="trend-new"><option value="10">상위 10위 이내</option><option value="20" selected>상위 20위 이내</option><option value="50">상위 50위 이내</option></select></label><button type="submit" class="button secondary">기준 저장</button></form>
-      <div class="trend-actions"><button id="trend-scan" class="button primary">지금 순위 비교 ↗</button><div class="trend-auto"><span><strong>매시간 확인 · 광고 자동 수집</strong><small>일간 순위는 매시간 확인 · 확인한 브랜드만 광고 수집</small></span><button type="button" id="trend-auto" class="button compact" aria-pressed="false">꺼짐</button></div></div>
-      <details class="trend-help"><summary>수집 기준과 브랜드 관리</summary><p>분야별 인기검색어 상위 100개의 일간 순위를 7일 전과 비교합니다. 신규 진입은 이전 상위 100위에 없던 검색어입니다. 검색 관심도의 변화이며, 매출이나 광고 성과를 뜻하지 않습니다.</p><p>처음 발견한 검색어는 브랜드인지 한 번 확인해주세요. 확인한 브랜드만 이후 자동 수집하며, 하루 최대 5개 브랜드·브랜드당 광고 20개를 수집합니다. 광고주가 섞이지 않도록 등록 시 공식 쇼핑몰 도메인을 지정할 수 있습니다.</p><div id="trend-brands"></div></details>
+      <div class="trend-actions"><button id="trend-scan" class="button primary">지금 순위 비교 ↗</button><div class="trend-auto"><span><strong>매시간 확인 · 광고 자동 수집</strong><small>브랜드 구분 없이 급상승 키워드로 광고 검색</small></span><button type="button" id="trend-auto" class="button compact" aria-pressed="false">꺼짐</button></div></div>
+
     </div>
-    <div class="trend-tabs" role="tablist" aria-label="상승 기록 보기"><button id="trend-current-tab" role="tab" aria-selected="true" aria-controls="trend-results" type="button">최근 상승 후보</button><button id="trend-history-tab" role="tab" aria-selected="false" aria-controls="trend-history" type="button" tabindex="-1">누적 기록</button></div>
+      <details class="trend-help"><summary>키워드 수집과 조사 기준</summary><p>분야별 인기검색어 상위 100개의 일간 순위를 7일 전과 비교합니다. 브랜드명뿐 아니라 상품·성분·관심사 키워드도 검색 대상으로 연결합니다.</p><p id="trend-policy">광고 검색은 순차 실행합니다. 수집 간격과 당일 진행 상황을 확인하고 있습니다.</p><p>연결 광고는 해당 검색어로 수집된 결과입니다. 광고 문구의 일치와 시작 시점을 별도로 비교하며, 광고가 검색 상승을 일으켰다는 인과관계는 단정하지 않습니다.</p></details>
+    <div class="trend-tabs" role="tablist" aria-label="상승 기록 보기"><button id="trend-current-tab" role="tab" aria-selected="true" aria-controls="trend-results" type="button">최근 급상승 키워드</button><button id="trend-history-tab" role="tab" aria-selected="false" aria-controls="trend-history" type="button" tabindex="-1">누적 기록</button></div>
     <p id="trend-status" class="trend-status" role="status">순위 기록을 불러오고 있습니다.</p>
     <div id="trend-results" class="trend-results" role="tabpanel" aria-labelledby="trend-current-tab"></div>
-    <div id="trend-history" role="tabpanel" aria-labelledby="trend-history-tab" hidden><div class="trend-history-tools"><label for="trend-history-search">브랜드·검색어 찾기</label><input id="trend-history-search" type="search" placeholder="브랜드 또는 검색어"><button id="trend-history-export" class="button compact" type="button">기록 내보내기 ↓</button></div><div id="trend-history-results"></div></div>
-    <p class="trend-method-note">비교 기간 동안의 두 순위를 기록합니다. 정확히 언제 상승했는지는 다음 일간 데이터가 쌓이면서 확인할 수 있습니다. 브랜드 미확인 검색어는 별도로 표시합니다.</p>
+    <div id="trend-history" role="tabpanel" aria-labelledby="trend-history-tab" hidden><div class="trend-history-tools"><label for="trend-history-search">급상승 키워드 찾기</label><input id="trend-history-search" type="search" placeholder="키워드 검색"><button id="trend-history-export" class="button compact" type="button">기록 내보내기 ↓</button></div><div id="trend-history-results"></div></div>
+    <section class="keyword-investigation" id="keyword-investigation" aria-labelledby="keyword-investigation-title" hidden>
+      <div class="keyword-investigation-heading"><div><p class="eyebrow">KEYWORD CONTENT RESEARCH</p><h3 id="keyword-investigation-title" tabindex="-1">키워드 콘텐츠 조사</h3><p id="keyword-comparison" class="keyword-comparison"></p></div><div id="keyword-investigation-actions" class="keyword-investigation-actions"></div></div>
+      <p id="keyword-evidence-source" class="keyword-evidence-source"></p>
+      <div id="keyword-facts" class="keyword-facts"></div>
+      <div id="keyword-timing" class="keyword-timing"></div>
+      <div class="keyword-research-columns"><section aria-labelledby="keyword-observations-title"><p class="research-label">OBSERVED</p><h4 id="keyword-observations-title">수집 자료에서 확인한 사실</h4><div id="keyword-observations"></div></section><section aria-labelledby="keyword-hypotheses-title"><p class="research-label hypothesis">TO INVESTIGATE</p><h4 id="keyword-hypotheses-title">추가로 확인할 가설</h4><div id="keyword-hypotheses"></div></section></div>
+      <section id="keyword-notes" class="keyword-notes" aria-label="출처를 확인한 조사 메모" hidden></section>
+      <div class="keyword-creatives-heading"><h4>키워드로 찾은 이미지·영상·문구</h4><span id="keyword-creative-order"></span></div>
+      <div class="cards keyword-creatives" id="keyword-creatives"></div>
+      <div id="keyword-more" class="keyword-more"></div>
+    </section>
+    <p class="trend-method-note">두 기준일 사이의 순위 변화입니다. 광고 조회·소재·시작일은 관찰 사실이며, 상승의 원인을 확인하려면 광고 노출·집행비·다른 채널의 유입 자료를 함께 비교해야 합니다.</p>
     <p id="trend-error" class="trend-error" role="alert" hidden></p>
   </section>
-  <dialog id="trend-review" aria-labelledby="trend-review-title"><div class="dialog-bar"><span>BRAND CHECK</span><button type="button" id="trend-review-close" class="icon-button" aria-label="브랜드 확인 닫기">×</button></div><form id="trend-brand-form" class="manager-content"><p class="eyebrow">처음 한 번 확인</p><h2 id="trend-review-title">브랜드로 등록</h2><p id="trend-review-keyword" class="muted"></p><label for="trend-brand-name">정확한 브랜드명</label><input id="trend-brand-name" maxlength="80" required placeholder="일반 상품명 대신 브랜드를 입력하세요"><label for="trend-brand-aliases">다른 표기 (쉼표로 구분)</label><input id="trend-brand-aliases" maxlength="500" placeholder="예: 메디큐브, medicube"><label for="trend-brand-domain">공식 쇼핑몰 도메인 (선택)</label><input id="trend-brand-domain" maxlength="160" placeholder="예: example.com"><p class="trend-form-note">등록 후 이 브랜드로 인식합니다. 도메인을 비워두면 다른 광고주의 관련 광고가 포함될 수 있습니다.</p><p id="trend-review-error" role="alert" class="trend-error" hidden></p><button type="submit" class="button primary">브랜드 확인 · 등록</button></form></dialog>
-
-  <section class="workspace" id="gallery" aria-label="광고 레퍼런스 갤러리">
+<section class="workspace" id="gallery" aria-label="광고 레퍼런스 갤러리">
     <div class="workspace-heading"><div><p class="eyebrow">AD LIBRARY</p><h2>소재 라이브러리 <span id="total-count">—</span></h2></div><button class="button compact" id="favorite-toggle" aria-pressed="false">☆ 저장한 광고 <span id="favorite-count">0</span></button></div>
     <form id="search-form" class="search"><span aria-hidden="true">⌕</span><label class="sr-only" for="search">광고 검색</label><input id="search" type="search" placeholder="광고주, 광고 문구, 랜딩 도메인 검색" autocomplete="off"><button class="button primary" type="submit">검색</button></form>
     <div class="filter-layout">

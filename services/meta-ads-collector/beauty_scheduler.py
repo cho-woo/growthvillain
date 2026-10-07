@@ -124,7 +124,10 @@ def main():
                 elif state.get('lastPublicationOk') is False and state.get('publicationAttemptDate') == current.date().isoformat():
                     state_name, message = 'blocked', '발행 확인 필요 · 오늘 자동 재발행 보류'
                 elif not article:
-                    state_name, message = 'waiting', '수집 ON · 확인된 발행용 초안 0개'
+                    state_name = 'waiting'
+                    message = ('최근 뷰티 발행 완료 · 다음 수집 대기'
+                               if state.get('lastPublicationOk') is True
+                               else '수집 ON · 확인된 발행용 초안 0개')
                 else:
                     state_name, message = 'waiting', '맛집과 3시간 간격 · 하루 최대 1회 발행'
                 heartbeat.update(running=False, state=state_name, nextRunAt=due.isoformat(),

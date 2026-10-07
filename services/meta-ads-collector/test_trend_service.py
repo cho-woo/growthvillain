@@ -49,21 +49,19 @@ class TrendServiceTests(unittest.TestCase):
     def candidate(self):
         return next(c for c in self.service.candidates() if c['keyword'] == '검증브랜드')
 
-    def test_confirmation_required_and_dispatch_is_idempotent(self):
+    def test_generic_keyword_collects_without_brand_confirmation_and_is_idempotent(self):
         self.seed()
         candidate = self.candidate()
-        self.assertTrue(candidate['needsReview'])
-        self.assertIsNone(candidate['dispatchKey'])
+        self.assertFalse(candidate['needsReview'])
+        self.assertIsNotNone(candidate['dispatchKey'])
         with self.assertRaises(ValueError):
             self.service.collect('unconfirmed-brand')
-        self.confirm()
-        candidate = self.candidate()
-        self.assertFalse(candidate['needsReview'])
         first = self.service.collect(candidate['dispatchKey'])
         second = self.service.collect(candidate['dispatchKey'])
         self.assertEqual(first['id'], second['id'])
         self.assertEqual(len(self.store.jobs()), 1)
-        self.assertEqual(first['domain'], 'example.com')
+        self.assertEqual(first['domain'], '')
+        self.assertEqual(first['keyword'], '검증브랜드')
         self.assertEqual(first['limit'], 20)
 
     def test_full_queue_does_not_consume_dispatch_key(self):
@@ -116,17 +114,23 @@ class TrendServiceTests(unittest.TestCase):
             self.service.collect(self.candidate()['dispatchKey'])
         self.assertEqual(len(self.store.jobs()), 1)
 
-    def test_auto_is_opt_in_and_total_is_five_brands_per_day(self):
+    def test_auto_is_opt_in_one_at_a_time_and_total_is_five_keywords_per_day(self):
         names = tuple(f'브랜드{i}' for i in range(8))
         self.seed(names=names)
-        for name in names:
-            self.confirm(name)
         self.assertEqual(self.service.dispatch_ready(), 0)
         self.service.save_settings({'autoEnabled': True})
-        self.assertEqual(self.service.dispatch_ready(), 5)
-        self.store.write("UPDATE jobs SET status='done'")
-        self.assertEqual(self.service.dispatch_ready(), 0)
+        start = datetime.now(KST).replace(hour=12, minute=0, second=0).timestamp()
+        for number in range(5):
+            with patch('trend_service.time.time', return_value=start + number*900):
+                self.assertEqual(self.service.dispatch_ready(), 1)
+                self.assertEqual(self.service.dispatch_ready(), 0)
+                self.store.write("UPDATE jobs SET status='done'")
+                self.assertEqual(self.service.dispatch_ready(), 0)
+        with patch('trend_service.time.time', return_value=start+5000):
+            self.assertEqual(self.service.dispatch_ready(), 0)
         self.assertEqual(len(self.store.jobs()), 5)
+        self.assertEqual({j['keyword'] for j in self.store.jobs()}, set(names[:5]))
+        self.assertEqual(self.service.collection_policy()['dailyRemaining'], 0)
         other_instance = TrendService(self.store)
         self.assertTrue(other_instance.auto_enabled)
         other_instance.stop()
@@ -140,7 +144,7 @@ class TrendServiceTests(unittest.TestCase):
         self.assertEqual(len(self.store.rows('SELECT * FROM trend_snapshots')), 2)
 
     def test_stale_source_is_visible_but_cannot_dispatch(self):
-        self.seed(days_ago=3)
+        self.seed(days_ago=15)
         self.confirm()
         self.assertEqual(self.candidate()['state'], 'stale')
         with self.assertRaises(ValueError):

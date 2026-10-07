@@ -28,10 +28,24 @@ export function deliveryLabel(card) {
   if (card.deliveryStatus === 'active') return days === null ? '확인 당시 게재 중' : `${days}일째 · 확인 당시 게재 중`;
   return days === null ? '게재 상태 미확인' : `${days}일 경과 · 상태 미확인`;
 }
+export function normalizeKeyword(value) {
+  return typeof value === 'string' ? value.normalize('NFKC').trim().replace(/\s+/g,' ').toLocaleLowerCase() : '';
+}
+export function cardKeywords(card) {
+  const values=[card.keyword,...(Array.isArray(card.matchedKeywords)?card.matchedKeywords:[]),...(Array.isArray(card.queryEvidence)?card.queryEvidence.map(row=>row?.query):[])];
+  const unique=new Map();
+  for(const value of values){const key=normalizeKeyword(value);if(key&&!unique.has(key))unique.set(key,value.trim());}
+  return [...unique.values()];
+}
+export function matchesKeyword(card, keyword) {
+  const key=normalizeKeyword(keyword);
+  return Boolean(key)&&cardKeywords(card).some(value=>normalizeKeyword(value)===key);
+}
 export function filterCards(cards, filters, favorites = new Set()) {
   const q = (filters.q || '').trim().toLocaleLowerCase();
-  return cards.filter(card => (!q || [card.advertiser,card.text,card.domain,card.keyword].join(' ').toLocaleLowerCase().includes(q))
-    && (!filters.keyword || card.keyword === filters.keyword)
+  return cards.filter(card => (!q || [card.advertiser,card.text,card.domain,...cardKeywords(card)].join(' ').toLocaleLowerCase().includes(q))
+    && (!filters.ids || filters.ids.includes(card.id))
+    && (!filters.keyword || matchesKeyword(card,filters.keyword) || filters.keywordIds?.includes(card.id))
     && (!filters.advertiser || card.advertiser === filters.advertiser)
     && (!filters.domain || card.domain === filters.domain)
     && (!filters.delivery || (card.deliveryStatus || 'unknown') === filters.delivery)

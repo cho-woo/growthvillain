@@ -152,6 +152,9 @@ class Store:
                                 (card['id'], json.dumps(card, ensure_ascii=False)))
             self.db.commit()
             self.export()
+        on_import = getattr(self, 'on_import', None)
+        if on_import:
+            on_import()
         return len({c['id'] for c in prepared} - set(existing))
 
     def setting(self, key, default=None):
@@ -217,6 +220,7 @@ class Controller:
         self.collector_ready = self.check_runtime()
         self.last_card_count = len(self.store.cards())
         self.trends = TrendService(store)
+        self.store.on_import = self.trends.export
         self.trends.can_collect = lambda: self.auto_enabled
         self.publisher = ArchivePublisher(store)
         self.publisher.enabled = bool(store.setting('autoPublishEnabled', False))
@@ -488,6 +492,10 @@ class Controller:
             with self.process_lock:
                 self.process = None
                 self.current_job = None
+            try:
+                self.trends.export()
+            except (OSError, ValueError):
+                pass
 
 
 class Handler(BaseHTTPRequestHandler):

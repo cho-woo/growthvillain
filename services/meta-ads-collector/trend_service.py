@@ -1,4 +1,4 @@
-"""Private, opt-in Naver ranking discovery and confirmed-brand ad queueing."""
+"""Naver rising keywords, bounded exact-query ad collection and observed links."""
 from __future__ import annotations
 
 from datetime import datetime, timedelta, timezone
@@ -14,7 +14,8 @@ import threading
 import time
 
 from catalog import now
-from naver_trends import compare_snapshots, normalize_keyword, validate_brands, match_brand
+from naver_trends import compare_snapshots, normalize_keyword, validate_brands, match_brand, keyword_dispatch_key, dispatch_key as brand_dispatch_key
+from keyword_evidence import keyword_id, evidence_index, ad_evidence
 from storage_config import assert_storage_available
 
 SOURCE_URL = 'https://datalab.naver.com/shoppingInsight/sCategory.naver'
@@ -25,10 +26,15 @@ CATEGORIES = {'50000000', '50000001', '50000002', '50000003', '50000004',
 KST = timezone(timedelta(hours=9))
 INTERVAL_SECONDS = 3600
 COMPARISON_DAYS = 7
+DAILY_QUERY_LIMIT = 5
+ADS_PER_QUERY = 20
+DISPATCH_INTERVAL_SECONDS = 900
+BACKLOG_DAYS = 14
 PUBLIC_EVENT_FIELDS = ('id', 'category', 'date', 'currentDate', 'previousDate',
                        'sourceUrl', 'keyword', 'currentRank', 'previousRank', 'rankRise',
                        'isNew', 'brandId', 'brandName', 'needsReview', 'periodDays',
-                       'rankWindow', 'observedAt', 'lastObservedAt', 'state')
+                       'rankWindow', 'observedAt', 'lastObservedAt', 'state',
+                       'keywordId', 'searchQuery', 'adEvidence', 'sourceAgeDays', 'collectionReason')
 
 
 def _integer(value, low, high, label):
@@ -79,6 +85,21 @@ class TrendService:
                     payload TEXT NOT NULL);
             ''')
             store.db.execute('INSERT OR IGNORE INTO trend_settings(id,payload) VALUES(1,?)', (json.dumps(DEFAULTS),))
+            # Keep old brand dispatch history (including quota use), while new
+            # dispatches identify the actual query independently of a brand.
+            columns = {row['name'] for row in store.db.execute('PRAGMA table_info(trend_dispatches)')}
+            for name, definition in (('keyword', "TEXT NOT NULL DEFAULT ''"),
+                                     ('keyword_key', "TEXT NOT NULL DEFAULT ''"),
+                                     ('kind', "TEXT NOT NULL DEFAULT 'brand'")):
+                if name not in columns:
+                    store.db.execute(f'ALTER TABLE trend_dispatches ADD COLUMN {name} {definition}')
+            for row in store.db.execute("SELECT d.dispatch_key,j.keyword FROM trend_dispatches d JOIN jobs j ON j.id=d.job_id WHERE d.keyword_key='' ").fetchall():
+                try:
+                    key = _key(row['keyword'])
+                except ValueError:
+                    continue
+                store.db.execute('UPDATE trend_dispatches SET keyword=?,keyword_key=? WHERE dispatch_key=?',
+                                 (row['keyword'], key, row['dispatch_key']))
             store.db.commit()
         saved = store.rows('SELECT payload FROM trend_runtime WHERE id=1')
         if saved:
@@ -114,32 +135,48 @@ class TrendService:
         by_date = {row['date']: json.loads(row['payload']) for row in snapshots}
         return by_date.get(scan['current_date']), by_date.get(scan['previous_date']), scan['checked_at']
 
-    def candidates(self):
+    def candidates(self, evidence=None):
         settings = self.settings()
         current, previous, _ = self._snapshots(settings['category'])
         if current is None or previous is None:
             return []
-        ignored = {row['keyword'] for row in self.store.rows('SELECT keyword FROM trend_ignored')}
         candidates = compare_snapshots(current, previous, brands=self.brands(),
-                                       minimum_rise=settings['minimumRise'], new_top=settings['newTop'])
+                                       minimum_rise=settings['minimumRise'], new_top=settings['newTop'], keyword_mode=True)
+        return self._decorate_candidates(candidates, evidence)
+
+    def _decorate_candidates(self, candidates, evidence=None):
+        ignored = {row['keyword'] for row in self.store.rows('SELECT keyword FROM trend_ignored')}
         dispatches = {r['dispatch_key']: r for r in self.store.rows('SELECT * FROM trend_dispatches')}
-        last_by_brand = {}
+        last_by_keyword = {}
         for row in dispatches.values():
-            last_by_brand[row['brand_id']] = max(last_by_brand.get(row['brand_id'], 0), row['queued_at'])
+            key = row['keyword_key']
+            last_by_keyword[key] = max(last_by_keyword.get(key, 0), row['queued_at'])
         jobs = {r['id']: r['status'] for r in self.store.rows('SELECT id,status FROM jobs')}
+        evidence = evidence if evidence is not None else evidence_index(self.store.cards())
         result = []
         for raw in candidates:
             if _key(raw['keyword']) in ignored:
                 continue
-            item = dict(raw, state='needs-review' if raw['needsReview'] else 'ready')
+            age = (datetime.now(KST).date() - datetime.fromisoformat(raw['date']).date()).days
+            item = dict(raw, state='ready' if age == 1 else 'backlog', needsReview=False,
+                        sourceAgeDays=age, collectionReason='current' if age == 1 else 'historical-backlog',
+                        keywordId=keyword_id(raw['keyword']), searchQuery=raw['keyword'],
+                        dispatchKey=keyword_dispatch_key(raw['category'], raw['date'], raw['keyword']))
+            item['adEvidence'] = ad_evidence(item, evidence)
             dispatched = dispatches.get(item.get('dispatchKey'))
+            if not dispatched and item.get('brandId'):
+                legacy = dispatches.get(brand_dispatch_key(item['category'], item['date'], item['brandId']))
+                if legacy and legacy['keyword_key'] == _key(item['keyword']):
+                    dispatched = legacy
+                    # Keep a usable idempotency key for a legacy exact-query job.
+                    item['dispatchKey'] = legacy['dispatch_key']
             if dispatched:
                 job_status = jobs.get(dispatched['job_id'], 'unknown')
                 state = 'done' if job_status == 'done' else 'failed' if job_status in ('failed', 'canceled', 'unknown') else 'queued'
                 item.update(state=state, jobId=dispatched['job_id'], jobStatus=job_status)
-            elif item.get('brandId') and time.time() - last_by_brand.get(item['brandId'], 0) < 24 * 3600:
+            elif time.time() - last_by_keyword.get(_key(item['keyword']), 0) < 24 * 3600:
                 item['state'] = 'cooldown'
-            elif (datetime.now(KST).date() - datetime.fromisoformat(item['date']).date()).days > 2:
+            elif not 1 <= age <= BACKLOG_DAYS:
                 item['state'] = 'stale'
             result.append(item)
         return result
@@ -149,17 +186,37 @@ class TrendService:
         current, previous, checked_at = self._snapshots(settings['category'])
         next_run = (datetime.fromtimestamp(self.next_attempt, timezone.utc).isoformat(timespec='seconds')
                     if self.next_attempt else now()) if self.auto_enabled and not self.stop_event.is_set() else None
+        evidence = evidence_index(self.store.cards())
         return {'version': 1, 'updatedAt': now(), 'settings': settings, 'autoEnabled': self.auto_enabled, 'scanning': self.scanning,
-                'lastChecked': checked_at, 'error': self.error, 'candidates': self.candidates(),
-                'brands': self.brands(), 'sourceUrl': SOURCE_URL, 'history': self.history(),
+                'lastChecked': checked_at, 'error': self.error, 'candidates': self.candidates(evidence),
+                'brands': self.brands(), 'sourceUrl': SOURCE_URL, 'history': self.history(evidence=evidence),
                 'nextRunAt': next_run, 'intervalSeconds': INTERVAL_SECONDS,
                 'sourceCadence': 'daily', 'comparisonDays': COMPARISON_DAYS,
                 'sourceDate': current['date'] if current else None,
                 'previousSourceDate': previous['date'] if previous else None,
                 'lastAttemptAt': self.last_attempt_at, 'lastSuccessAt': self.last_success_at or checked_at,
-                'lastError': self.last_error}
+                'lastError': self.last_error, 'collectionPolicy': self.collection_policy()}
 
-    def history(self, limit=2000):
+    def collection_policy(self):
+        midnight = datetime.now(KST).replace(hour=0, minute=0, second=0, microsecond=0)
+        used = self.store.rows('SELECT COUNT(*) AS n FROM trend_dispatches WHERE automatic=1 AND queued_at>=?', (midnight.timestamp(),))[0]['n']
+        pending = self.store.rows("SELECT COUNT(*) AS n FROM trend_dispatches d JOIN jobs j ON j.id=d.job_id WHERE j.status IN ('queued','running')")[0]['n']
+        last = self.store.rows('SELECT MAX(queued_at) AS t FROM trend_dispatches WHERE automatic=1')[0]['t'] or 0
+        meta_enabled = bool(getattr(self, 'can_collect', lambda: True)())
+        next_at = None
+        if self.auto_enabled and meta_enabled and not self.stop_event.is_set() and not pending:
+            due = max(time.time(), last + DISPATCH_INTERVAL_SECONDS)
+            if used >= DAILY_QUERY_LIMIT:
+                due = max(due, (midnight + timedelta(days=1)).timestamp())
+            next_at = datetime.fromtimestamp(due, timezone.utc).isoformat(timespec='seconds')
+        return {'maxDailyQueries': DAILY_QUERY_LIMIT, 'maxAdsPerQuery': ADS_PER_QUERY, 'maxPending': 1,
+                'intervalSeconds': DISPATCH_INTERVAL_SECONDS, 'keywordCooldownSeconds': 86400,
+                'priority': 'uncollected-first-oldest-first', 'backlogDays': BACKLOG_DAYS,
+                'dailyUsed': used, 'dailyRemaining': max(0, DAILY_QUERY_LIMIT-used),
+                'pending': pending, 'nextDispatchAt': next_at, 'metaAutoEnabled': meta_enabled,
+                'enabled': self.auto_enabled and meta_enabled}
+
+    def history(self, limit=2000, evidence=None):
         """Durable observations; comparison interval is not an inferred climb time."""
         brands = self.brands()
         ignored = {row['keyword'] for row in self.store.rows('SELECT keyword FROM trend_ignored')}
@@ -171,9 +228,40 @@ class TrendService:
             brand = match_brand(item['keyword'], brands)
             item.update(id=row['id'], observedAt=row['observed_at'], lastObservedAt=row['last_observed_at'],
                         brandId=brand['id'] if brand else None, brandName=brand['name'] if brand else None,
-                        needsReview=brand is None)
+                        needsReview=False, keywordId=keyword_id(item['keyword']), searchQuery=item['keyword'])
             result.append(item)
-        return result
+        return self._decorate_candidates(result, evidence)
+
+    def collection_candidates(self, *, all_categories=False):
+        """A dated backlog prevents a five/day cap from starving older rises."""
+        evidence = evidence_index(self.store.cards())
+        combined = self.candidates(evidence) + self.history(evidence=evidence)
+        latest = {}
+        settings = self.settings()
+        category = settings['category']
+        for item in combined:
+            if not all_categories and item['category'] != category:
+                continue
+            if not 1 <= item['sourceAgeDays'] <= BACKLOG_DAYS:
+                continue
+            if not ((item['isNew'] and item['currentRank'] <= settings['newTop']) or
+                    (item['rankRise'] is not None and item['rankRise'] >= settings['minimumRise'])):
+                continue
+            key = _key(item['keyword'])
+            if key not in latest or item['date'] > latest[key]['date']:
+                latest[key] = item
+        last_attempt = {}
+        for row in self.store.rows('SELECT keyword_key,queued_at FROM trend_dispatches'):
+            last_attempt[row['keyword_key']] = max(last_attempt.get(row['keyword_key'], 0), row['queued_at'])
+        def priority(item):
+            last_collected = item['adEvidence']['lastCollectedAt']
+            last_collected = datetime.fromisoformat(last_collected).timestamp() if last_collected else 0
+            last_activity = max(last_collected, last_attempt.get(_key(item['keyword']), 0))
+            if not last_activity:
+                last_activity = datetime.fromisoformat(item['date']).replace(tzinfo=KST).timestamp()
+            return (item['adEvidence']['adCount'] > 0, last_activity, item['rankRise'] is None,
+                    -(item['rankRise'] or 0), item['currentRank'], _key(item['keyword']))
+        return sorted(latest.values(), key=priority)
 
     def export(self):
         """Export public rank evidence only; no queue IDs, local paths or raw logs."""
@@ -182,7 +270,7 @@ class TrendService:
             status = self.status()
             public = {key: status[key] for key in ('version', 'updatedAt', 'autoEnabled', 'scanning',
                       'lastChecked', 'error', 'sourceUrl', 'nextRunAt', 'intervalSeconds', 'sourceCadence',
-                      'comparisonDays', 'sourceDate', 'previousSourceDate', 'lastAttemptAt', 'lastSuccessAt', 'lastError')}
+                      'comparisonDays', 'sourceDate', 'previousSourceDate', 'lastAttemptAt', 'lastSuccessAt', 'lastError', 'collectionPolicy')}
             public['settings'] = dict(status['settings'])
             public['mode'] = 'public'
             for key in ('candidates', 'history'):
@@ -281,18 +369,18 @@ class TrendService:
                 'startedAt': row['started_at'], 'finishedAt': row['finished_at'], 'message': row['message'], 'imported': row['imported']}
 
     def collect(self, dispatch_key, limit=20, *, automatic=False):
-        limit = _integer(limit, 1, 20, '브랜드별 수집 수')
+        limit = _integer(limit, 1, ADS_PER_QUERY, '키워드별 수집 수')
         if not isinstance(dispatch_key, str) or not 1 <= len(dispatch_key) <= 500:
-            raise ValueError('확인된 급상승 브랜드를 선택하세요.')
+            raise ValueError('수집할 급상승 키워드를 선택하세요.')
         # The queue row and its idempotency record are committed together, under the
         # same lock used by the regular collector. A full queue never consumes a key.
         with self.lock, self.store.lock:
             assert_storage_available(self.store.root)
-            candidate = next((c for c in self.candidates() if c.get('dispatchKey') == dispatch_key), None)
+            candidate = next((c for c in self.candidates() + self.history() if c.get('dispatchKey') == dispatch_key), None)
             if automatic and not getattr(self, 'can_collect', lambda: True)():
                 raise ValueError('메타 광고 자동 수집이 OFF입니다.')
-            if not candidate or candidate['needsReview']:
-                raise ValueError('브랜드 여부를 먼저 확인하세요.')
+            if not candidate:
+                raise ValueError('현재 급상승 목록에서 키워드를 선택하세요.')
             existing = self.store.rows('SELECT job_id,automatic FROM trend_dispatches WHERE dispatch_key=?', (dispatch_key,))
             if existing:
                 job = self._job(existing[0]['job_id'])
@@ -301,51 +389,58 @@ class TrendService:
                 if automatic:
                     raise ValueError('실패한 작업은 확인 후 직접 다시 수집하세요.')
             age = (datetime.now(KST).date() - datetime.fromisoformat(candidate['date']).date()).days
-            if not 1 <= age <= 2:
+            if not 1 <= age <= BACKLOG_DAYS:
                 raise ValueError('오래된 순위입니다. 네이버 순위를 다시 확인하세요.')
-            if automatic and age != 1:
-                raise ValueError('자동 수집에는 전날 확정 순위만 사용합니다.')
-            brand_id = candidate['brandId']
-            recent = self.store.rows('SELECT queued_at FROM trend_dispatches WHERE brand_id=? AND dispatch_key!=? ORDER BY queued_at DESC LIMIT 1', (brand_id, dispatch_key))
+            query = candidate['keyword']
+            query_key = _key(query)
+            target_id = 'keyword-' + keyword_id(query)
+            recent = self.store.rows('SELECT queued_at FROM trend_dispatches WHERE keyword_key=? AND dispatch_key!=? ORDER BY queued_at DESC LIMIT 1', (query_key, dispatch_key))
             if recent and time.time() - recent[0]['queued_at'] < 24 * 3600:
-                raise ValueError('같은 브랜드는 24시간에 한 번 수집합니다.')
-            brand = next((b for b in self.brands() if b['id'] == brand_id), None)
-            if brand is None or not self.store.rows('SELECT id FROM competitors WHERE id=?', (brand['competitorId'],)):
-                raise ValueError('브랜드를 다시 확인해 등록하세요.')
-            busy = self.store.rows("SELECT competitor_id FROM jobs WHERE status IN ('queued','running')")
-            if any(row['competitor_id'] == brand['competitorId'] for row in busy):
-                raise ValueError('이 브랜드는 이미 수집 대기 중이거나 실행 중입니다.')
+                raise ValueError('같은 키워드는 24시간에 한 번 수집합니다.')
+            busy = self.store.rows("SELECT competitor_id,keyword FROM jobs WHERE status IN ('queued','running')")
+            if any(row['competitor_id'] == target_id or _key(row['keyword']) == query_key for row in busy):
+                raise ValueError('이 키워드는 이미 수집 대기 중이거나 실행 중입니다.')
             if len(busy) >= 20:
                 raise ValueError('대기 중인 작업은 최대 20개입니다.')
+            if automatic:
+                policy = self.collection_policy()
+                if not self.auto_enabled or policy['dailyRemaining'] <= 0 or policy['pending']:
+                    raise ValueError('자동 키워드 수집 한도 또는 실행 중인 작업을 확인하세요.')
+                last = self.store.rows('SELECT MAX(queued_at) AS t FROM trend_dispatches WHERE automatic=1')[0]['t'] or 0
+                if time.time() - last < DISPATCH_INTERVAL_SECONDS:
+                    raise ValueError('자동 키워드 수집은 최소 15분 간격으로 실행합니다.')
             job_id = secrets.token_hex(12)
             try:
                 self.store.db.execute('INSERT INTO jobs(id,competitor_id,name,keyword,domain,max_ads,status,requested_at) VALUES(?,?,?,?,?,?,?,?)',
-                                      (job_id, brand['competitorId'], brand['name'], brand['name'], brand['domain'], limit, 'queued', now()))
-                self.store.db.execute('INSERT INTO trend_dispatches(dispatch_key,brand_id,job_id,queued_at,automatic) VALUES(?,?,?,?,?) ON CONFLICT(dispatch_key) DO UPDATE SET job_id=excluded.job_id,queued_at=excluded.queued_at,automatic=MAX(trend_dispatches.automatic,excluded.automatic)',
-                                      (dispatch_key, brand_id, job_id, time.time(), int(automatic)))
+                                      (job_id, target_id, query, query, '', limit, 'queued', now()))
+                self.store.db.execute('INSERT INTO trend_dispatches(dispatch_key,brand_id,job_id,queued_at,automatic,keyword,keyword_key,kind) VALUES(?,?,?,?,?,?,?,?) ON CONFLICT(dispatch_key) DO UPDATE SET job_id=excluded.job_id,queued_at=excluded.queued_at,automatic=MAX(trend_dispatches.automatic,excluded.automatic),keyword=excluded.keyword,keyword_key=excluded.keyword_key,kind=excluded.kind',
+                                      (dispatch_key, target_id, job_id, time.time(), int(automatic), query, query_key, 'keyword'))
                 self.store.db.commit()
             except Exception:
                 self.store.db.rollback()
                 raise
+            self.export()
             return self._job(job_id)
 
     def dispatch_ready(self):
-        if not getattr(self, 'can_collect', lambda: True)():
+        with self.lock:
+            if not getattr(self, 'can_collect', lambda: True)() or not self.auto_enabled or self.stop_event.is_set():
+                return 0
+            policy = self.collection_policy()
+            if policy['dailyRemaining'] <= 0 or policy['pending']:
+                return 0
+            last = self.store.rows('SELECT MAX(queued_at) AS t FROM trend_dispatches WHERE automatic=1')[0]['t'] or 0
+            if time.time() - last < DISPATCH_INTERVAL_SECONDS:
+                return 0
+            for candidate in self.collection_candidates():
+                if candidate['state'] not in ('ready', 'backlog'):
+                    continue
+                try:
+                    self.collect(candidate['dispatchKey'], ADS_PER_QUERY, automatic=True)
+                    return 1
+                except ValueError:
+                    continue
             return 0
-        midnight = datetime.now(KST).replace(hour=0, minute=0, second=0, microsecond=0).timestamp()
-        used = self.store.rows('SELECT COUNT(*) AS n FROM trend_dispatches WHERE automatic=1 AND queued_at>=?', (midnight,))[0]['n']
-        queued = 0
-        for candidate in self.candidates():
-            if used + queued >= 5 or self.stop_event.is_set() or not self.auto_enabled:
-                break
-            if candidate['state'] != 'ready':
-                continue
-            try:
-                self.collect(candidate['dispatchKey'], 20, automatic=True)
-                queued += 1
-            except ValueError:
-                continue
-        return queued
 
     def record_snapshots(self, current, previous, category):
         if current.get('category') != category or previous.get('category') != category:
@@ -450,9 +545,14 @@ class TrendService:
                     pass
 
     def tick(self):
-        if not self.auto_enabled or self.scanning or time.time() < self.next_attempt or self.stop_event.is_set():
+        if not self.auto_enabled or self.scanning or self.stop_event.is_set():
             return
         assert_storage_available(self.store.root)
+        # Rank source polling remains hourly; bounded keyword dispatch can
+        # progress independently after the previous queued search has finished.
+        self.dispatch_ready()
+        if time.time() < self.next_attempt:
+            return
         current, _, _ = self._snapshots(self.settings()['category'])
         target_date = (datetime.now(KST).date() - timedelta(days=1)).isoformat()
         if current and current['date'] == target_date:

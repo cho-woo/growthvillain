@@ -6,6 +6,7 @@ HTTP errors or omission from keyword results never prove an end.
 """
 from datetime import date, datetime, timedelta, timezone
 import re
+from keyword_evidence import merge_query_fields
 
 KST = timezone(timedelta(hours=9))
 LIFECYCLE_FIELDS = ('deliveryStatus', 'endedAt', 'endedDetectedAt', 'durationDays',
@@ -150,6 +151,7 @@ def merge_status_observation(previous, observation):
 
 def merge_observation(previous, current):
     result = dict(current)
+    result.update(merge_query_fields(previous, current))
     result['firstSeenAt'] = previous.get('firstSeenAt') or previous.get('collectedAt') or current.get('collectedAt')
     result['lastSeenAt'] = current.get('collectedAt')
     if not iso_date(result.get('startedAt')):
