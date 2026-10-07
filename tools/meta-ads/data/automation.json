@@ -1,6 +1,6 @@
 {
   "mode": "snapshot",
-  "updatedAt": "2026-10-07T06:01:12+00:00",
+  "updatedAt": "2026-10-07T06:03:13+00:00",
   "automations": [
     {
       "id": "meta-ads",
@@ -52,11 +52,11 @@
       "name": "뷰티 블로그",
       "enabled": true,
       "running": false,
-      "state": "blocked",
+      "state": "waiting",
       "nextRunAt": "2026-10-08T07:00:00+09:00",
       "lastSuccessAt": "2026-10-07T12:15:44+09:00",
       "lastAttemptAt": null,
-      "message": "vwhdngud 로그인 필요 · 수집 ON",
+      "message": "수집 ON · 확인된 발행용 초안 0개",
       "intervalSeconds": null,
       "statusCheckIntervalSeconds": null,
       "statusCheckBatchSize": null,
@@ -80,8 +80,8 @@
   ],
   "publication": {
     "state": "synced",
-    "lastAttemptAt": "2026-10-07T05:36:25+00:00",
-    "lastSuccessAt": "2026-10-07T05:36:29+00:00",
+    "lastAttemptAt": "2026-10-07T06:01:12+00:00",
+    "lastSuccessAt": "2026-10-07T06:01:17+00:00",
     "error": null,
     "enabled": true
   }
