@@ -51,22 +51,36 @@ class ArchivePublisher:
         return digest.hexdigest()
 
     def tick(self):
-        if not self.enabled or (self.thread and self.thread.is_alive()):
-            return
-        stamp = time.time()
-        if stamp - self.last_tick < 20:
-            return
-        self.last_tick = stamp
-        fingerprint = self.fingerprint()
-        if fingerprint == self.state.get('publishedHash'):
-            self.pending_since = 0
-            return
-        if not self.pending_since:
-            self.pending_since = stamp
-        if stamp - self.pending_since < 60 or stamp < self.state.get('retryAfter', 0):
-            return
-        self.thread = threading.Thread(target=self.publish, args=(fingerprint,), name='archive-publisher', daemon=True)
-        self.thread.start()
+        # Both the monitor and an HTTP request may arrive here. Keep the
+        # decision and worker reservation atomic; publication itself stays on
+        # the worker, outside this lock during slow Git/network operations.
+        with self.lock:
+            if not self.enabled or (self.thread and self.thread.is_alive()):
+                return
+            stamp = time.time()
+            if stamp - self.last_tick < 20:
+                return
+            self.last_tick = stamp
+            fingerprint = self.fingerprint()
+            if fingerprint == self.state.get('publishedHash'):
+                self.pending_since = 0
+                return
+            if not self.pending_since:
+                self.pending_since = stamp
+            if stamp - self.pending_since < 60 or stamp < self.state.get('retryAfter', 0):
+                return
+            self.thread = threading.Thread(target=self.publish, args=(fingerprint,), name='archive-publisher', daemon=True)
+            self.thread.start()
+
+    def request_now(self):
+        with self.lock:
+            if not self.enabled:
+                raise ValueError('자동 사이트 게시를 먼저 켜세요.')
+            self.state['retryAfter'] = 0
+            self.pending_since = time.time()-61
+            self.last_tick = 0
+            self.tick()
+            return self.status()
 
     def publish(self, fingerprint):
         with self.lock:

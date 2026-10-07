@@ -46,8 +46,13 @@ class DesktopStatusTests(unittest.TestCase):
                             'statusCheckBatchSize':10, 'nextRunAt':'2026-10-07T18:00:00+09:00'}, True)
         self.assertIn('수집 6시간마다', running['detail'])
         self.assertIn('종료 점검 10개/1시간', running['detail'])
-        self.assertIn('\n현재 수집 중 · 다음', running['detail'])
+        self.assertIn('\n수집 중 · 다음', running['detail'])
         self.assertNotIn('D드라이브', running['detail'])
+        error = row_view({'id':'meta-ads','enabled':True,'state':'error','message':'매우 긴 오류 설명 '*100,
+                          'intervalSeconds':21600,'statusCheckIntervalSeconds':3600,'statusCheckBatchSize':10}, True)
+        self.assertEqual(error['detail'].count('\n'),1)
+        self.assertTrue(error['detail'].startswith('수집 6시간마다'))
+        self.assertLess(len(error['detail']),100)
 
 
 class SchedulingTests(unittest.TestCase):

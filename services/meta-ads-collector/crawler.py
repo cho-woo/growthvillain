@@ -393,7 +393,10 @@ async def get_visible_cards(page: Page):
                     node = node.parentElement;
                     depth++;
                 }
-                if (!node) continue;
+                // Exhausting the ancestor walk is not a matching card. Never
+                // let a page wrapper consume this ID before its actual DIV.
+                if (!node || node.tagName !== 'DIV' ||
+                    !(node.offsetWidth > 280 && node.offsetWidth < 700 && node.offsetHeight > 200)) continue;
                 const ids = [...new Set((node.innerText || '').match(/(?:라이브러리 ID|Library ID)[:\s]+\d+/g) || [])]
                     .map(text => text.match(/\d+$/)[0]);
                 if (new Set(ids).size !== 1) continue;

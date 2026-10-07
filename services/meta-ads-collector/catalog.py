@@ -13,6 +13,8 @@ from ad_lifecycle import delivery_fields
 
 MEDIA_EXTENSIONS = {'.jpg', '.jpeg', '.png', '.webp', '.gif', '.mp4'}
 MAX_MEDIA_BYTES = 100 * 1024 * 1024
+# Verified single-ad product catalogs can contain hundreds of creative images.
+MAX_MEDIA_ITEMS_PER_KIND = 1000
 
 
 def now():
@@ -85,8 +87,10 @@ def normalize_row(row, run_dir, asset_dir):
 
     def paths(key):
         values = row.get(key, [])
-        if not isinstance(values, list) or len(values) > 30:
+        if not isinstance(values, list):
             raise ValueError('소재 목록이 올바르지 않습니다.')
+        if len(values) > MAX_MEDIA_ITEMS_PER_KIND:
+            raise ValueError(f'광고 {ad_id}의 {key} 소재가 {len(values)}개입니다. 허용 한도는 {MAX_MEDIA_ITEMS_PER_KIND}개입니다.')
         return [copy_media(item) for item in values]
 
     images, videos, posters = paths('_saved_images'), paths('_saved_videos'), paths('_saved_posters')

@@ -84,6 +84,14 @@ async def inspect_ad(page, ad_id):
         except Exception:
             pass
         await check_access(page)
+        # The ID text can be present before the SPA's card boxes have layout.
+        # Let normal rendering settle before extracting geometry-based cards.
+        network_complete = True
+        try:
+            await page.wait_for_load_state('networkidle', timeout=3000)
+        except Exception:
+            network_complete = False
+        await check_access(page)
         for card in await get_visible_cards(page):
             text = await card.inner_text()
             if set(LIBRARY_ID.findall(text)) == {ad_id}:
@@ -94,7 +102,8 @@ async def inspect_ad(page, ad_id):
                 return item
         # A finished document alone does not prove the public SPA's request
         # completed. Failed XHR/fetch must never become an empty-result inference.
-        await page.wait_for_load_state('networkidle', timeout=3000)
+        if not network_complete:
+            return item
         if network_failures:
             if any(status in (401, 403, 429) for status in network_failures):
                 item['outcome'] = 'blocked'

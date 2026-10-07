@@ -80,9 +80,11 @@ def row_view(row, online, current=None):
     if row.get('id') == 'meta-ads' and enabled:
         cadence = f"수집 {interval_label(row.get('intervalSeconds'))}마다 · 종료 점검 {row.get('statusCheckBatchSize', 10)}개/{interval_label(row.get('statusCheckIntervalSeconds'))}"
         upcoming = countdown(row.get('nextRunAt'), current)
-        detail = cadence+'\n'+('현재 수집 중 · 다음 '+upcoming if running else detail)
+        current_status = '수집 중 · ' if running else '최근 오류 · ' if state in ('error','failed','blocked') else ''
+        detail = cadence+'\n'+current_status+'다음 수집 '+upcoming
     if row.get('id') == 'oliveyoung' and state == 'waiting' and enabled:
-        detail = '뷰티 수집 연동 · '+countdown(row.get('nextRunAt'), current)
+        count = re.match(r'\d+개', str(row.get('message', '')))
+        detail = (count[0]+' · ' if count else '')+'뷰티 연동 · '+countdown(row.get('nextRunAt'), current)
     return {'label': label, 'color': color, 'detail': str(detail),
             'switch': '연동' if row.get('id') == 'oliveyoung' else '끄기' if enabled else '켜기',
             'disabled': row.get('controllable') is not True}
@@ -197,7 +199,7 @@ class StatusWindow:
             status = tk.Label(top, text='OFF', bg='#1b2532', fg='#a5afbf', font=('Malgun Gothic', 8))
             status.pack(side='right', padx=8)
             detail = tk.Label(frame, text='상태 확인 중', bg='#1b2532', fg='#aab7c7',
-                              font=('Malgun Gothic', 8), anchor='w', justify='left', wraplength=330,
+                              font=('Malgun Gothic', 8), anchor='nw', justify='left', wraplength=330,
                               height=2 if automation_id == 'meta-ads' else 1)
             detail.pack(fill='x', pady=(4, 0))
             self.widgets[automation_id] = (status, detail, button)

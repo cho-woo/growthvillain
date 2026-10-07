@@ -10,3 +10,6 @@ __pycache__/
 services/meta-ads-collector/data/
 services/meta-ads-collector/output/
 services/meta-ads-collector/runtime/
+
+# Atomic snapshot temporary files are never published.
+tools/meta-ads/data/*.tmp

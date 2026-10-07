@@ -695,13 +695,18 @@ class Handler(BaseHTTPRequestHandler):
             if path == API + '/export' and self.command == 'POST':
                 exported = store.export()
                 return self.json({'ok': True, 'cardCount': len(exported['cards'])})
+            if path == API + '/publish' and self.command == 'POST':
+                return self.json(self.controller.publisher.request_now(), 202)
             # Browser import is restricted to a selected run inside the private runs folder.
             if path == API + '/import' and self.command == 'POST':
                 run_id = body.get('runId', '')
                 if not isinstance(run_id, str) or not re.fullmatch(r'[a-zA-Z0-9_-]{1,80}', run_id):
                     raise ValueError('올바르지 않은 실행 ID입니다.')
                 source = inside(store.root / 'runs', store.root / 'runs' / run_id / 'cards.jsonl')
-                return self.json({'imported': store.import_file(source)})
+                imported = store.import_file(source)
+                store.write("UPDATE jobs SET status='done',finished_at=?,imported=?,message=? WHERE id=? AND status='failed'",
+                            (now(), imported, f'저장된 원본에서 복구 완료 · 신규 광고 {imported}개', run_id))
+                return self.json({'imported': imported})
             return self.json({'error': '찾을 수 없는 작업입니다.'}, 404)
         except KeyError:
             return self.json({'error': '대상 또는 작업을 찾을 수 없습니다.'}, 404)
