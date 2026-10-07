@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-07T14:16:13+00:00",
+  "updatedAt": "2026-10-07T15:00:25+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-07T03:15:08+00:00",
@@ -23,10 +23,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 5,
-    "dailyRemaining": 0,
+    "dailyUsed": 1,
+    "dailyRemaining": 4,
     "pending": 0,
-    "nextDispatchAt": "2026-10-07T15:00:00+00:00",
+    "nextDispatchAt": "2026-10-07T15:15:03+00:00",
     "metaAutoEnabled": true,
     "enabled": true
   },
@@ -325,8 +325,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -600,8 +600,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -619,21 +619,240 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "done",
       "keywordId": "d7593230f77674f99d00a7061a1d725e37613aa445e7ff9da57f9dd91102657f",
       "searchQuery": "산양삼",
       "adEvidence": {
         "query": "산양삼",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 20,
+        "adIds": [
+          "1759860561918102",
+          "1643658043536491",
+          "1070518585539587",
+          "1359239209328875",
+          "1026157837065803",
+          "1739236847335781",
+          "2186705935226482",
+          "1582152249588491",
+          "936356706037148",
+          "2008747436454918",
+          "2247982379348221",
+          "1696980071456186",
+          "1481734752853181",
+          "1390557029666430",
+          "1536196150885370",
+          "1034126352862965",
+          "1353406266987598",
+          "1001880499534266",
+          "1414947680417831",
+          "1112236595310158"
+        ],
+        "ads": [
+          {
+            "id": "1759860561918102",
+            "advertiser": "Spaß",
+            "startedAt": "2026-09-28",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:22+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1643658043536491",
+            "advertiser": "지기원-ji gi won",
+            "startedAt": "2026-05-18",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:22+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1070518585539587",
+            "advertiser": "أماني",
+            "startedAt": "2026-07-12",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:22+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1359239209328875",
+            "advertiser": "Spaß",
+            "startedAt": "2026-09-28",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:21+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1026157837065803",
+            "advertiser": "أماني",
+            "startedAt": "2026-07-19",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:21+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1739236847335781",
+            "advertiser": "أماني",
+            "startedAt": "2026-09-06",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:20+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2186705935226482",
+            "advertiser": "أماني",
+            "startedAt": "2026-07-26",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:19+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1582152249588491",
+            "advertiser": "أماني",
+            "startedAt": "2026-09-27",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:19+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "936356706037148",
+            "advertiser": "지기원-ji gi won",
+            "startedAt": "2026-05-18",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:18+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2008747436454918",
+            "advertiser": "Spaß",
+            "startedAt": "2026-09-27",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:18+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2247982379348221",
+            "advertiser": "أماني",
+            "startedAt": "2026-07-12",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:13+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1696980071456186",
+            "advertiser": "지기원-ji gi won",
+            "startedAt": "2026-05-18",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:13+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1481734752853181",
+            "advertiser": "지기원-ji gi won",
+            "startedAt": "2026-05-18",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:13+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1390557029666430",
+            "advertiser": "Spaß",
+            "startedAt": "2026-07-19",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:12+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1536196150885370",
+            "advertiser": "أماني",
+            "startedAt": "2026-07-26",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:11+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1034126352862965",
+            "advertiser": "덕승재",
+            "startedAt": "2026-08-17",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:11+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1353406266987598",
+            "advertiser": "Spaß",
+            "startedAt": "2026-07-26",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:10+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1001880499534266",
+            "advertiser": "덕승재",
+            "startedAt": "2026-08-17",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:10+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1414947680417831",
+            "advertiser": "",
+            "startedAt": "2025-11-14",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:09+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1112236595310158",
+            "advertiser": "지기원-ji gi won",
+            "startedAt": "2026-05-18",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:09+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:09+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-07T15:00:22+00:00",
+        "advertisers": [
+          {
+            "name": "أماني",
+            "adCount": 7
+          },
+          {
+            "name": "Spaß",
+            "adCount": 5
+          },
+          {
+            "name": "지기원-ji gi won",
+            "adCount": 5
+          },
+          {
+            "name": "덕승재",
+            "adCount": 2
+          }
+        ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -651,7 +870,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "86a2c91334b2bbdd67f2a5dd18b59a27d762b940930a259898b5a93eab901001",
       "searchQuery": "흑염소진액",
       "adEvidence": {
@@ -664,8 +883,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -683,7 +902,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "f47080b596a394d8591b82daff5097ae52ec4b5e127b58b84f0db153556f5642",
       "searchQuery": "bnr17유산균",
       "adEvidence": {
@@ -696,8 +915,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -715,7 +934,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "2ba930dc834a6f12749759986cd7d4408cf91fd748070e9df06a1ba9726af5e7",
       "searchQuery": "하이퍼셀코엔자임q10",
       "adEvidence": {
@@ -728,8 +947,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -747,7 +966,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "d26f6c2a7b284ecb6f0394c33f5ddb0a834461b4e21c58b297bcffe307fc4047",
       "searchQuery": "매스틱",
       "adEvidence": {
@@ -760,8 +979,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -779,7 +998,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "631327d2f460dfbaccf4bcc4992e74327fd148471487e1b58724a418331fd626",
       "searchQuery": "nmn영양제",
       "adEvidence": {
@@ -792,8 +1011,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1039,8 +1258,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1058,7 +1277,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "664f0eee12a3e0cefc4d5005db47079e8dcfa3c97b12f7c025bc86ced3155352",
       "searchQuery": "고려은단비타민c1000",
       "adEvidence": {
@@ -1071,8 +1290,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1090,7 +1309,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "ac350355acb5234e41205aabc4ffbb8d4d5a7bee9403222137c36f265a5eafbb",
       "searchQuery": "코큐텐",
       "adEvidence": {
@@ -1103,8 +1322,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1122,7 +1341,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "94bb2907bbb070b2089b9e01de7d82c32d045c621462ddab52687c012f9f5a8f",
       "searchQuery": "뉴케어당플랜",
       "adEvidence": {
@@ -1135,8 +1354,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1154,7 +1373,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "32356e62f83ce1d1f3d4b4f88bdf6774392425a5e293a0ccd2e5afe770748bc6",
       "searchQuery": "폴리코사놀",
       "adEvidence": {
@@ -1167,8 +1386,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1186,7 +1405,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "a54110504b0a1643670e45d486c65b7171949fd91e46ca17830c9492da1efc70",
       "searchQuery": "덴마크유산균",
       "adEvidence": {
@@ -1199,8 +1418,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1218,7 +1437,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "01fba974d6f4559693cea16ca985fdf63102dfb7189a0ec1372c2d3f2e256637",
       "searchQuery": "삼백초추출물",
       "adEvidence": {
@@ -1231,8 +1450,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1250,7 +1469,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "84ed631f9dfe8b84b2751a391f5d3cf7bd30c997f78f46dbc584e776d5bc4dd3",
       "searchQuery": "코엔자임q10",
       "adEvidence": {
@@ -1263,8 +1482,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1282,7 +1501,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "7d3a25ba0db56e63aaf55083c0444b6d09a5b24549107ca377efbd59b73444b2",
       "searchQuery": "캡슐레이션효소",
       "adEvidence": {
@@ -1295,8 +1514,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1314,7 +1533,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "69a792bcfeeb96d89df2fd420cd02d9442f3b7965bc16cc92f44c047885e3f29",
       "searchQuery": "마그네슘영양제",
       "adEvidence": {
@@ -1327,8 +1546,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1346,7 +1565,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "1e3b3b9e6e27ef38804cbc95977f093a52a3080810b565284efe9b099a3a5756",
       "searchQuery": "젓산.마그네슘",
       "adEvidence": {
@@ -1359,8 +1578,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1378,7 +1597,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "c48ea6bb7818469d78f247e4d9f8e6cdc615c0a40da17b14b20f217eec43f33c",
       "searchQuery": "눈영양제",
       "adEvidence": {
@@ -1391,8 +1610,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1410,7 +1629,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "3b43f38712ae66a4038dc7888547dad253c166f83dd934cfb9ceb2a1847f8d64",
       "searchQuery": "마그네슘",
       "adEvidence": {
@@ -1423,8 +1642,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1442,7 +1661,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "cf7f5635a38ad217a8aa25f9be3a8a95c82f08486a73664657cd7a27cab9ede4",
       "searchQuery": "침향환",
       "adEvidence": {
@@ -1455,8 +1674,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1474,7 +1693,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "b0f620eba4f034500d56c31237f2fa64dc4c3b7b1e70cc285de4e24de5b2372c",
       "searchQuery": "유산균",
       "adEvidence": {
@@ -1487,8 +1706,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1506,7 +1725,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "240ae70942af000b8de87b17338225cf7eacfb4d3e7c71b26c903639705adc23",
       "searchQuery": "락토핏유산균",
       "adEvidence": {
@@ -1519,8 +1738,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1538,7 +1757,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "6e8daf20893dfe9e64bdd10227106919bd0a7ba4d48e630211f58be7278a2db3",
       "searchQuery": "비타민c",
       "adEvidence": {
@@ -1551,8 +1770,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1570,7 +1789,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "4a2742c7cecb67e22447e9b8480dbf32cb38811f835e5456dbcca95098b1a6d7",
       "searchQuery": "뉴케어구수한맛",
       "adEvidence": {
@@ -1583,8 +1802,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1826,8 +2045,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1845,7 +2064,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "7478199ee3e9cb574beebef253e0dabb6cd87b9b2daced39c97b8c1a7861c34c",
       "searchQuery": "포스파티딜세린",
       "adEvidence": {
@@ -1858,8 +2077,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1877,7 +2096,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "2b939f130ee0cf16fbaf53bf4e7d71eb0c2559636c1f02796b52107dad4b8f95",
       "searchQuery": "콘드로이친1200",
       "adEvidence": {
@@ -1890,8 +2109,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1909,7 +2128,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "49ada5a662db7c40131527993bcf3c91ea21cad434d75b56b85db1314f7aa0da",
       "searchQuery": "멜라토닌",
       "adEvidence": {
@@ -1922,8 +2141,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1941,7 +2160,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "d6d9e65a201af5824a82ea96ad2bf2231ad7afc0096d36364021d69faee259bf",
       "searchQuery": "카무트효소",
       "adEvidence": {
@@ -1954,8 +2173,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1973,7 +2192,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "0cade9ccd77cc1f1a61a564973aa8ccf3497584ee883070ebf706d8125f7da1c",
       "searchQuery": "콘드로이친",
       "adEvidence": {
@@ -1986,8 +2205,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -2005,7 +2224,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "44a4013b89a4c84efdb8335e33a74bce6e6ef47d0b639a78034c7e3b1e69f8b5",
       "searchQuery": "오미자",
       "adEvidence": {
@@ -2018,8 +2237,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     }
   ],
   "history": [
@@ -2042,7 +2261,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "c48ea6bb7818469d78f247e4d9f8e6cdc615c0a40da17b14b20f217eec43f33c",
       "searchQuery": "눈영양제",
       "adEvidence": {
@@ -2055,8 +2274,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "040c1a9cab6e8c83bafc51f028e432a68693e3829fad1d1616cdac4476b76239",
@@ -2077,7 +2296,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "a54110504b0a1643670e45d486c65b7171949fd91e46ca17830c9492da1efc70",
       "searchQuery": "덴마크유산균",
       "adEvidence": {
@@ -2090,8 +2309,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "0e2195ec27eaa236be546ef6282a4c7ea4249ef6535ad4d2e6dbc608dcede479",
@@ -2112,7 +2331,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "631327d2f460dfbaccf4bcc4992e74327fd148471487e1b58724a418331fd626",
       "searchQuery": "nmn영양제",
       "adEvidence": {
@@ -2125,8 +2344,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "23405b48bf7467f6d9f8702220252d9f194b1bbce9eb4c04fdf3433db185a4cc",
@@ -2147,7 +2366,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "7d3a25ba0db56e63aaf55083c0444b6d09a5b24549107ca377efbd59b73444b2",
       "searchQuery": "캡슐레이션효소",
       "adEvidence": {
@@ -2160,8 +2379,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "2d4adb7b8f92d14bf4ac683e9ce111971d3448cfdd4c8a3b8d01e86c98c118a5",
@@ -2182,7 +2401,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "44a4013b89a4c84efdb8335e33a74bce6e6ef47d0b639a78034c7e3b1e69f8b5",
       "searchQuery": "오미자",
       "adEvidence": {
@@ -2195,8 +2414,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "2d6606880cde1334bd2a6c8cb8ff3a1271fa9bef9200a05cd88c30364e50cb01",
@@ -2441,8 +2660,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "3912e545024ba82ce60f5ff984c49d7a2b2f75409b16c6e145ddad98e22c0081",
@@ -2463,7 +2682,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "4a2742c7cecb67e22447e9b8480dbf32cb38811f835e5456dbcca95098b1a6d7",
       "searchQuery": "뉴케어구수한맛",
       "adEvidence": {
@@ -2476,8 +2695,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "39f796d4aa4b14fc91492013fda0a8edf2a499a1b8bf2b61b5b0698931e4fa80",
@@ -2498,7 +2717,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "0cade9ccd77cc1f1a61a564973aa8ccf3497584ee883070ebf706d8125f7da1c",
       "searchQuery": "콘드로이친",
       "adEvidence": {
@@ -2511,8 +2730,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "3fe2918b5b39bcf2c7450bf89348c83c6c7948846d7604aaf8ff0b4c3f4b5301",
@@ -2533,7 +2752,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "b0f620eba4f034500d56c31237f2fa64dc4c3b7b1e70cc285de4e24de5b2372c",
       "searchQuery": "유산균",
       "adEvidence": {
@@ -2546,8 +2765,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "46c803399426a1c0de018ebd7b7a67c768823306db7c8b2a24508b408b8d5310",
@@ -2568,7 +2787,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "cf7f5635a38ad217a8aa25f9be3a8a95c82f08486a73664657cd7a27cab9ede4",
       "searchQuery": "침향환",
       "adEvidence": {
@@ -2581,8 +2800,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "4924429ca9dd98f425b9105646d722de54ead8979ae7267d39d61811183ce4d3",
@@ -2603,7 +2822,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "6e8daf20893dfe9e64bdd10227106919bd0a7ba4d48e630211f58be7278a2db3",
       "searchQuery": "비타민c",
       "adEvidence": {
@@ -2616,8 +2835,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "49c81e88c74fc987548bc94ab49ccf86312d0d6a1e3d8d4ad65c336b41a09d88",
@@ -2638,7 +2857,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "3b43f38712ae66a4038dc7888547dad253c166f83dd934cfb9ceb2a1847f8d64",
       "searchQuery": "마그네슘",
       "adEvidence": {
@@ -2651,8 +2870,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "53cb82adcc490b4d09b187313f2c993fbaef0d1187517c58c9026bf3bb1c48f7",
@@ -2945,8 +3164,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "5d3e8bac4b332dbfe0bb232d35692d776879966d4d0bb71a204f44c48dbf8455",
@@ -2967,7 +3186,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "49ada5a662db7c40131527993bcf3c91ea21cad434d75b56b85db1314f7aa0da",
       "searchQuery": "멜라토닌",
       "adEvidence": {
@@ -2980,8 +3199,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "6046b7a81d8fd893f9cf41a6ac0cca30b0d8f04e35ebdb81ccd2233ae38ccf2f",
@@ -3002,7 +3221,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "ac350355acb5234e41205aabc4ffbb8d4d5a7bee9403222137c36f265a5eafbb",
       "searchQuery": "코큐텐",
       "adEvidence": {
@@ -3015,8 +3234,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "6dda7b1d89da2b8b3a90ffb15e34e58517fea471d02b044160437f05c2ffbdb2",
@@ -3037,7 +3256,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "2ba930dc834a6f12749759986cd7d4408cf91fd748070e9df06a1ba9726af5e7",
       "searchQuery": "하이퍼셀코엔자임q10",
       "adEvidence": {
@@ -3050,8 +3269,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "707cb2aa71f12284d4a814e76cd21247f30f451cd249d6778051af6459c0e2ec",
@@ -3072,7 +3291,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "69a792bcfeeb96d89df2fd420cd02d9442f3b7965bc16cc92f44c047885e3f29",
       "searchQuery": "마그네슘영양제",
       "adEvidence": {
@@ -3085,8 +3304,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "7d4380bad864a58a5b6ecbba42d98a2a55e7ceb4a087b1e9e88d2a67d5609d8a",
@@ -3107,7 +3326,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "1e3b3b9e6e27ef38804cbc95977f093a52a3080810b565284efe9b099a3a5756",
       "searchQuery": "젓산.마그네슘",
       "adEvidence": {
@@ -3120,8 +3339,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "7eaa20af04c761afd51996faa34e4e4e4b013853db37fd6e8ec7ff5ea1f92071",
@@ -3370,8 +3589,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "8067d77c4b42ea365fe239a8c3506293fb69b746bee4f9582bce06c841d7dcd7",
@@ -3392,7 +3611,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "32356e62f83ce1d1f3d4b4f88bdf6774392425a5e293a0ccd2e5afe770748bc6",
       "searchQuery": "폴리코사놀",
       "adEvidence": {
@@ -3405,8 +3624,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "89a322f039fd9357f477658ab179c68cd1d0950020ce2de44920cb6aa6819740",
@@ -3427,7 +3646,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "240ae70942af000b8de87b17338225cf7eacfb4d3e7c71b26c903639705adc23",
       "searchQuery": "락토핏유산균",
       "adEvidence": {
@@ -3440,8 +3659,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "8b21385318e155c3c94afc275a80111e6d3f4d592744ba8ec6ef513dce7bdcc7",
@@ -3462,7 +3681,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "86a2c91334b2bbdd67f2a5dd18b59a27d762b940930a259898b5a93eab901001",
       "searchQuery": "흑염소진액",
       "adEvidence": {
@@ -3475,8 +3694,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "8ede0c5839f6d5b9ebf4bd26952a0940c58e5a65a5a39dc5d09da016f2cda3e6",
@@ -3497,7 +3716,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "01fba974d6f4559693cea16ca985fdf63102dfb7189a0ec1372c2d3f2e256637",
       "searchQuery": "삼백초추출물",
       "adEvidence": {
@@ -3510,8 +3729,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "93bbd28c4243037262b5f8a353566000bce5d9ce6d880808777a4f0988392f99",
@@ -3532,21 +3751,240 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "ready",
+      "state": "done",
       "keywordId": "d7593230f77674f99d00a7061a1d725e37613aa445e7ff9da57f9dd91102657f",
       "searchQuery": "산양삼",
       "adEvidence": {
         "query": "산양삼",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 20,
+        "adIds": [
+          "1759860561918102",
+          "1643658043536491",
+          "1070518585539587",
+          "1359239209328875",
+          "1026157837065803",
+          "1739236847335781",
+          "2186705935226482",
+          "1582152249588491",
+          "936356706037148",
+          "2008747436454918",
+          "2247982379348221",
+          "1696980071456186",
+          "1481734752853181",
+          "1390557029666430",
+          "1536196150885370",
+          "1034126352862965",
+          "1353406266987598",
+          "1001880499534266",
+          "1414947680417831",
+          "1112236595310158"
+        ],
+        "ads": [
+          {
+            "id": "1759860561918102",
+            "advertiser": "Spaß",
+            "startedAt": "2026-09-28",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:22+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1643658043536491",
+            "advertiser": "지기원-ji gi won",
+            "startedAt": "2026-05-18",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:22+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1070518585539587",
+            "advertiser": "أماني",
+            "startedAt": "2026-07-12",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:22+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1359239209328875",
+            "advertiser": "Spaß",
+            "startedAt": "2026-09-28",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:21+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1026157837065803",
+            "advertiser": "أماني",
+            "startedAt": "2026-07-19",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:21+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1739236847335781",
+            "advertiser": "أماني",
+            "startedAt": "2026-09-06",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:20+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2186705935226482",
+            "advertiser": "أماني",
+            "startedAt": "2026-07-26",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:19+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1582152249588491",
+            "advertiser": "أماني",
+            "startedAt": "2026-09-27",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:19+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "936356706037148",
+            "advertiser": "지기원-ji gi won",
+            "startedAt": "2026-05-18",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:18+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2008747436454918",
+            "advertiser": "Spaß",
+            "startedAt": "2026-09-27",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:18+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2247982379348221",
+            "advertiser": "أماني",
+            "startedAt": "2026-07-12",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:13+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1696980071456186",
+            "advertiser": "지기원-ji gi won",
+            "startedAt": "2026-05-18",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:13+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1481734752853181",
+            "advertiser": "지기원-ji gi won",
+            "startedAt": "2026-05-18",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:13+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1390557029666430",
+            "advertiser": "Spaß",
+            "startedAt": "2026-07-19",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:12+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1536196150885370",
+            "advertiser": "أماني",
+            "startedAt": "2026-07-26",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:11+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1034126352862965",
+            "advertiser": "덕승재",
+            "startedAt": "2026-08-17",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:11+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1353406266987598",
+            "advertiser": "Spaß",
+            "startedAt": "2026-07-26",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:10+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1001880499534266",
+            "advertiser": "덕승재",
+            "startedAt": "2026-08-17",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:10+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1414947680417831",
+            "advertiser": "",
+            "startedAt": "2025-11-14",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:09+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1112236595310158",
+            "advertiser": "지기원-ji gi won",
+            "startedAt": "2026-05-18",
+            "query": "산양삼",
+            "firstCollectedAt": "2026-10-07T15:00:09+00:00",
+            "lastCollectedAt": "2026-10-07T15:00:09+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-07T15:00:22+00:00",
+        "advertisers": [
+          {
+            "name": "أماني",
+            "adCount": 7
+          },
+          {
+            "name": "Spaß",
+            "adCount": 5
+          },
+          {
+            "name": "지기원-ji gi won",
+            "adCount": 5
+          },
+          {
+            "name": "덕승재",
+            "adCount": 2
+          }
+        ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "955d0b5ac5a873d88c34390ef026aa9049a072a0954d2d7f49d0026ac2466b41",
@@ -3567,7 +4005,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "d6d9e65a201af5824a82ea96ad2bf2231ad7afc0096d36364021d69faee259bf",
       "searchQuery": "카무트효소",
       "adEvidence": {
@@ -3580,8 +4018,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "a3dbbe9e366514067b19e0c702ed67a6f6e8cc17c943ff1dc0f60a0a5a367d04",
@@ -3858,8 +4296,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "a7ce07fd103a17f62c92f5036d775379b580d8d2d1a80bd88620964e4d60e28d",
@@ -3880,7 +4318,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "84ed631f9dfe8b84b2751a391f5d3cf7bd30c997f78f46dbc584e776d5bc4dd3",
       "searchQuery": "코엔자임q10",
       "adEvidence": {
@@ -3893,8 +4331,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "befbc91da52672bf1cd8f633bac18537abad5670920a30a68de3a2e8084184d0",
@@ -3915,7 +4353,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "94bb2907bbb070b2089b9e01de7d82c32d045c621462ddab52687c012f9f5a8f",
       "searchQuery": "뉴케어당플랜",
       "adEvidence": {
@@ -3928,8 +4366,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "c1c3137f76ec49e156e9df0e015ba604188ed5356a9d22b1c70161710a05a949",
@@ -3950,7 +4388,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "7478199ee3e9cb574beebef253e0dabb6cd87b9b2daced39c97b8c1a7861c34c",
       "searchQuery": "포스파티딜세린",
       "adEvidence": {
@@ -3963,8 +4401,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "e21d24f670b78a8cd894d9d1012c1a5a6e0992aed16068ef359f5042497ac1c4",
@@ -3985,7 +4423,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "d26f6c2a7b284ecb6f0394c33f5ddb0a834461b4e21c58b297bcffe307fc4047",
       "searchQuery": "매스틱",
       "adEvidence": {
@@ -3998,8 +4436,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "e75c507083fdd7a2d43c3614c846b9d341c0f620e6ba47059bcbaad101ba5acf",
@@ -4020,7 +4458,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "f47080b596a394d8591b82daff5097ae52ec4b5e127b58b84f0db153556f5642",
       "searchQuery": "bnr17유산균",
       "adEvidence": {
@@ -4033,8 +4471,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "eb8d2fc30497d81f63df41984f07a985089695b3bd17fdb6f2e2d7af65d707b3",
@@ -4055,7 +4493,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "664f0eee12a3e0cefc4d5005db47079e8dcfa3c97b12f7c025bc86ced3155352",
       "searchQuery": "고려은단비타민c1000",
       "adEvidence": {
@@ -4068,8 +4506,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "efc31d0d104387d586f7745e2c109df01fc3d1ce2d592f484a6a5a1c72b6b7b3",
@@ -4090,7 +4528,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "2b939f130ee0cf16fbaf53bf4e7d71eb0c2559636c1f02796b52107dad4b8f95",
       "searchQuery": "콘드로이친1200",
       "adEvidence": {
@@ -4103,8 +4541,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     }
   ],
   "brands": [
