@@ -1,6 +1,6 @@
 {
   "mode": "snapshot",
-  "updatedAt": "2026-10-07T04:23:45+00:00",
+  "updatedAt": "2026-10-07T04:44:29+00:00",
   "automations": [
     {
       "id": "meta-ads",
@@ -54,9 +54,9 @@
       "running": false,
       "state": "waiting",
       "nextRunAt": "2026-10-08T07:00:00+09:00",
-      "lastSuccessAt": "2026-10-07T12:15:44+09:00",
+      "lastSuccessAt": "2026-10-07T13:38:27+09:00",
       "lastAttemptAt": null,
-      "message": "수집 ON · 확인된 발행용 초안 0개",
+      "message": "최근 뷰티 발행 완료 · 다음 수집 대기",
       "intervalSeconds": null,
       "statusCheckIntervalSeconds": null,
       "statusCheckBatchSize": null,
@@ -80,8 +80,8 @@
   ],
   "publication": {
     "state": "synced",
-    "lastAttemptAt": "2026-10-07T04:22:25+00:00",
-    "lastSuccessAt": "2026-10-07T04:22:28+00:00",
+    "lastAttemptAt": "2026-10-07T04:23:45+00:00",
+    "lastSuccessAt": "2026-10-07T04:23:49+00:00",
     "error": null,
     "enabled": true
   }
