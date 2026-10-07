@@ -3,7 +3,7 @@ param(
     [string]$CommitMessage = 'Update public Meta ad archive',
     [switch]$Pause
 )
-# Run manually after reviewing collected public ads. Never called by the collector.
+# Public-only archive synchronization, manually or by the authorized local scheduler.
 $ErrorActionPreference = 'Stop'
 try {
     if (-not $Repository) { $Repository = [System.IO.Path]::GetFullPath((Join-Path $PSScriptRoot '../..')) }

@@ -19,8 +19,12 @@ import webbrowser
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import urlsplit, unquote
 
-from catalog import now, inside, normalize_row, export_catalog, public_card
+from catalog import now, inside, normalize_row, export_catalog, public_card, atomic_json
+from ad_lifecycle import merge_observation, merge_status_observation
+from archive_publisher import ArchivePublisher
+from datetime import datetime, timezone
 from storage_config import resolve_data_dir, assert_storage_available, StorageUnavailable
+from trend_service import TrendService
 
 API = '/api/meta-ads'
 SERVICE_DIR = Path(__file__).resolve().parent
@@ -43,7 +47,7 @@ def competitor_input(body):
     if domain and not re.fullmatch(r'(?=.{1,253}$)(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z]{2,63}', domain):
         raise ValueError('도메인은 example.com 형식으로 입력하세요.')
     result['domain'] = domain
-    result['intervalHours'] = integer(body.get('intervalHours', 24), 1, 168, '수집 주기')
+    result['intervalHours'] = integer(body.get('intervalHours', 6), 1, 168, '수집 주기')
     return result
 
 
@@ -78,6 +82,7 @@ class Store:
         self.db.row_factory = sqlite3.Row
         self.db.executescript('''
             CREATE TABLE IF NOT EXISTS ads (id TEXT PRIMARY KEY, payload TEXT NOT NULL);
+            CREATE TABLE IF NOT EXISTS collector_settings (key TEXT PRIMARY KEY, payload TEXT NOT NULL);
             CREATE TABLE IF NOT EXISTS competitors (id TEXT PRIMARY KEY, payload TEXT NOT NULL, last_attempt REAL DEFAULT 0);
             CREATE TABLE IF NOT EXISTS jobs (id TEXT PRIMARY KEY, competitor_id TEXT NOT NULL,
                 name TEXT NOT NULL, keyword TEXT NOT NULL, domain TEXT NOT NULL, max_ads INTEGER NOT NULL,
@@ -131,13 +136,22 @@ class Store:
         if not prepared:
             raise ValueError('가져올 광고가 없습니다.')
         with self.lock:
-            existing = {r['id'] for r in self.rows('SELECT id FROM ads')}
+            existing = {r['id']: json.loads(r['payload']) for r in self.rows('SELECT id,payload FROM ads')}
             for card in prepared:
+                card = merge_observation(existing.get(card['id'], {}), card)
                 self.db.execute('INSERT INTO ads(id,payload) VALUES(?,?) ON CONFLICT(id) DO UPDATE SET payload=excluded.payload',
                                 (card['id'], json.dumps(card, ensure_ascii=False)))
             self.db.commit()
             self.export()
-        return len({c['id'] for c in prepared} - existing)
+        return len({c['id'] for c in prepared} - set(existing))
+
+    def setting(self, key, default=None):
+        rows = self.rows('SELECT payload FROM collector_settings WHERE key=?', (key,))
+        return json.loads(rows[0]['payload']) if rows else default
+
+    def set_setting(self, key, value):
+        self.write('INSERT INTO collector_settings(key,payload) VALUES(?,?) ON CONFLICT(key) DO UPDATE SET payload=excluded.payload',
+                   (key, json.dumps(value)))
 
     def competitors(self):
         return [dict(json.loads(r['payload']), id=r['id']) for r in self.rows('SELECT * FROM competitors ORDER BY rowid')]
@@ -145,8 +159,11 @@ class Store:
     def save_competitor(self, body, competitor_id=None):
         value = competitor_input(body)
         if competitor_id:
-            if not self.rows('SELECT id FROM competitors WHERE id=?', (competitor_id,)):
+            existing = self.rows('SELECT payload FROM competitors WHERE id=?', (competitor_id,))
+            if not existing:
                 raise KeyError('대상을 찾을 수 없습니다.')
+            if json.loads(existing[0]['payload']).get('trendOnly'):
+                value['trendOnly'] = True
         else:
             if len(self.competitors()) >= 100:
                 raise ValueError('수집 대상은 최대 100개입니다.')
@@ -182,7 +199,7 @@ class Controller:
     def __init__(self, store):
         self.store = store
         self.token = secrets.token_urlsafe(32)
-        self.auto_enabled = False  # Explicit opt-in each time the local app starts.
+        self.auto_enabled = bool(store.setting('autoEnabled', False))
         self.stop_event = threading.Event()
         self.process_lock = threading.RLock()
         self.process = None
@@ -190,6 +207,30 @@ class Controller:
         self.thread = None
         self.collector_ready = self.check_runtime()
         self.last_card_count = len(self.store.cards())
+        self.trends = TrendService(store)
+        self.trends.can_collect = lambda: self.auto_enabled
+        self.publisher = ArchivePublisher(store)
+        self.publisher.enabled = bool(store.setting('autoPublishEnabled', False))
+        self.automations = None
+        self.monitor_thread = None
+        self.status_check_running = False
+
+    def set_auto(self, enabled):
+        with self.process_lock:
+            self.auto_enabled = enabled
+            self.store.set_setting('autoEnabled', enabled)
+            if not enabled:
+                # Complete an in-flight request, but do not start queued requests.
+                for job in self.store.jobs():
+                    if job['status'] == 'queued':
+                        self.cancel(job['id'])
+
+    def next_run_at(self):
+        if not self.auto_enabled:
+            return None
+        times = [r['last_attempt'] + json.loads(r['payload'])['intervalHours'] * 3600
+                 for r in self.store.rows('SELECT * FROM competitors') if not json.loads(r['payload']).get('trendOnly')]
+        return datetime.fromtimestamp(max(time.time(), min(times)), timezone.utc).isoformat(timespec='seconds') if times else None
 
     @staticmethod
     def check_runtime():
@@ -210,15 +251,72 @@ class Controller:
         available = self.store.root.is_dir()
         if available:
             self.last_card_count = len(self.store.cards())
+        jobs = self.store.jobs() if available else []
+        latest_success = next((j.get('finishedAt') for j in jobs if j['status'] == 'done'), None)
+        latest_attempt = next((j.get('startedAt') for j in jobs if j.get('startedAt')), None)
+        latest_failure = next((j.get('message') for j in jobs[:1] if j['status'] == 'failed'), None)
         return {'mode': 'local', 'autoEnabled': self.auto_enabled, 'runningJobId': self.current_job,
+                'nextRunAt': self.next_run_at() if available else None, 'lastSuccessAt': latest_success,
+                'lastAttemptAt': latest_attempt, 'lastError': latest_failure, 'serverTime': now(),
+                'statusCheckRunning': self.status_check_running, 'publication': self.publisher.status(),
                 'cardCount': self.last_card_count, 'collectorReady': self.collector_ready,
                 'storagePath': str(self.store.root), 'storageAvailable': available,
                 'message': ('이 PC에서 실행 중 · 자동 수집은 앱이 켜져 있을 때만 동작합니다.' if available else
                             '저장 드라이브에 접근할 수 없습니다. 외장 드라이브를 연결하세요. 다른 경로에 저장하지 않습니다.')}
 
     def start(self):
+        from automation_manager import AutomationManager
+        projects = self.store.web_root.parent
+        blog_python = os.environ.get('AUTOMATION_BLOG_PYTHON') or str(Path(os.environ.get('LOCALAPPDATA', ''))/'Programs/Python/Python312/python.exe')
+        self.automations = AutomationManager(self, food_root=projects/'Bolg_Agent_two',
+                                             beauty_root=projects/'Beauty_Blog_Agent', python=blog_python)
+        self.automations.start()
+        self.trends.export()
+        self.monitor_thread = threading.Thread(target=self.monitor, name='automation-monitor', daemon=True)
+        self.monitor_thread.start()
         self.thread = threading.Thread(target=self.run, name='meta-ads-worker', daemon=True)
         self.thread.start()
+
+    def automation_status(self):
+        status = self.status()
+        available = status['storageAvailable']
+        trend = self.trends.status() if available else {'autoEnabled':False,'scanning':False,'error':'D드라이브 연결 필요'}
+        meta_state = 'running' if self.current_job or self.status_check_running else 'error' if status.get('lastError') else 'waiting' if self.auto_enabled else 'off'
+        intervals = [c['intervalHours']*3600 for c in self.store.competitors() if not c.get('trendOnly')] if available else []
+        next_check = self.store.setting('nextStatusCheck', 0) if available else 0
+        result = [{'id':'meta-ads', 'name':'메타 광고', 'enabled':self.auto_enabled,
+                   'running':bool(self.current_job or self.status_check_running), 'state':meta_state,
+                   'nextRunAt':status['nextRunAt'], 'lastSuccessAt':status['lastSuccessAt'],
+                   'lastAttemptAt':status['lastAttemptAt'], 'intervalSeconds':min(intervals) if intervals else 21600,
+                   'statusCheckIntervalSeconds':3600, 'statusCheckBatchSize':10,
+                   'nextStatusCheckAt':datetime.fromtimestamp(max(time.time(),next_check),timezone.utc).isoformat(timespec='seconds') if self.auto_enabled else None,
+                   'message':status.get('lastError') or ('D드라이브 연결됨' if status['storageAvailable'] else 'D드라이브 연결 필요'), 'controllable':True},
+                  {'id':'naver-trends', 'name':'네이버 급상승', 'enabled':trend['autoEnabled'],
+                   'running':trend['scanning'], 'state':'running' if trend['scanning'] else 'error' if trend.get('error') else 'waiting' if trend['autoEnabled'] else 'off',
+                   'nextRunAt':trend.get('nextRunAt'), 'lastSuccessAt':trend.get('lastSuccessAt') or trend.get('lastChecked'),
+                   'message':trend.get('error') or '1시간마다 확인 · 일간 순위 기준', 'controllable':True}]
+        if self.automations:
+            result.extend(self.automations.status()['automations'])
+        return {'automations':result, 'serverTime':now(), 'publication':self.publisher.status()}
+
+    def monitor(self):
+        while not self.stop_event.is_set():
+            try:
+                assert_storage_available(self.store.root)
+                self.trends.tick()
+                data = self.automation_status()
+                # Only a public operational summary, never credentials, paths,
+                # process IDs, local article data, account names or session tokens.
+                allowed = ('id','name','enabled','running','state','nextRunAt','lastSuccessAt','lastAttemptAt','message',
+                           'intervalSeconds','statusCheckIntervalSeconds','statusCheckBatchSize','nextStatusCheckAt')
+                public = {'mode':'snapshot', 'updatedAt':now(), 'automations':[
+                    {k:r.get(k) for k in allowed} for r in data['automations']], 'publication':data['publication']}
+                with self.store.lock:
+                    atomic_json(self.store.web_root / 'tools/meta-ads/data/automation.json', public)
+                self.publisher.tick()
+            except Exception as error:
+                print('Monitor:', type(error).__name__, flush=True)
+            self.stop_event.wait(5)
 
     def kill_process(self):
         with self.process_lock:
@@ -250,33 +348,75 @@ class Controller:
 
     def stop(self):
         self.stop_event.set()
+        self.trends.stop()
+        if self.automations:
+            self.automations.stop()
         if self.current_job:
             self.cancel(self.current_job)
         if self.thread:
             self.thread.join(timeout=20)
+        if self.monitor_thread:
+            self.monitor_thread.join(timeout=6)
 
     def run(self):
         while not self.stop_event.is_set():
             try:
                 assert_storage_available(self.store.root)
-                if self.auto_enabled:
-                    for row in self.store.rows('SELECT * FROM competitors'):
-                        conf = json.loads(row['payload'])
-                        if time.time() - row['last_attempt'] >= conf['intervalHours'] * 3600:
-                            try:
-                                self.store.enqueue(row['id'], 20)
-                            except ValueError:
-                                pass
+                with self.process_lock:
+                    if self.auto_enabled:
+                        for row in self.store.rows('SELECT * FROM competitors'):
+                            conf = json.loads(row['payload'])
+                            if conf.get('trendOnly'):
+                                continue
+                            if time.time() - row['last_attempt'] >= conf['intervalHours'] * 3600:
+                                try:
+                                    self.store.enqueue(row['id'], 20)
+                                except ValueError:
+                                    pass
                 queued = self.store.rows("SELECT * FROM jobs WHERE status='queued' ORDER BY rowid LIMIT 1")
                 if queued:
                     self.execute(queued[0])
+                elif self.auto_enabled and time.time() >= self.store.setting('nextStatusCheck', 0):
+                    self.check_saved_ads()
             except StorageUnavailable:
                 self.auto_enabled = False
+                self.trends.auto_enabled = False
                 # Keep waiting for the same drive; never open a fallback database.
             except Exception as error:
                 # No raw DB paths, credential values or crawler content leave this process.
                 print('Worker error:', type(error).__name__, flush=True)
             self.stop_event.wait(1)
+
+    def check_saved_ads(self):
+        """Refresh the oldest saved status checks; missing ads stay unconfirmed."""
+        cards = sorted(self.store.cards(), key=lambda c:c.get('statusCheckAttemptAt') or c.get('statusCheckedAt') or '')
+        if not cards:
+            return
+        self.store.set_setting('nextStatusCheck', time.time()+3600)
+        selected = cards[:10]
+        attempted_at = now()
+        for card in selected:
+            card['statusCheckAttemptAt'] = attempted_at
+            card['statusCheckOutcome'] = 'unavailable'
+            self.store.write('UPDATE ads SET payload=? WHERE id=?', (json.dumps(card, ensure_ascii=False),card['id']))
+        output = self.store.root / 'runs' / ('status-' + secrets.token_hex(6) + '.json')
+        output.parent.mkdir(exist_ok=True)
+        self.status_check_running = True
+        options = {'creationflags':subprocess.CREATE_NO_WINDOW} if os.name == 'nt' else {}
+        try:
+            completed = subprocess.run([sys.executable, str(SERVICE_DIR/'check_ad_status.py'), '--ids', ','.join(c['id'] for c in selected), '--output', str(output)],
+                                       capture_output=True, timeout=480, **options)
+            if completed.returncode or not output.is_file():
+                return
+            for observation in json.loads(output.read_text(encoding='utf-8')).get('observations', []):
+                old = next((c for c in selected if c['id'] == observation.get('id')), None)
+                if not old:
+                    continue
+                old = merge_status_observation(old, observation)
+                self.store.write('UPDATE ads SET payload=? WHERE id=?', (json.dumps(old, ensure_ascii=False),old['id']))
+        finally:
+            self.status_check_running = False
+            self.store.export()
 
     def execute(self, job):
         assert_storage_available(self.store.root)
@@ -382,21 +522,34 @@ class Handler(BaseHTTPRequestHandler):
         self.json({'error': '교차 출처 요청은 허용하지 않습니다.'}, 403)
 
     def do_GET(self):
+        try:
+            return self.get_request()
+        except StorageUnavailable:
+            return self.json({'error': '저장 드라이브에 접근할 수 없습니다. 외장 드라이브를 연결하세요.'}, 503)
+        except Exception:
+            return self.json({'error': '요청을 완료하지 못했습니다. 로컬 앱을 확인하세요.'}, 500)
+
+    def get_request(self):
         if not self.trusted_request():
             return self.json({'error': '허용되지 않은 요청입니다.'}, 403)
         path = urlsplit(self.path).path
         store = self.controller.store
         if path == API + '/bootstrap':
             return self.json({'token': self.controller.token, 'status': self.controller.status(),
-                              'competitors': store.competitors(), 'jobs': store.jobs()})
+                              'competitors': store.competitors() if store.root.is_dir() else [],
+                              'jobs': store.jobs() if store.root.is_dir() else []})
         if path == API + '/status':
             return self.json(self.controller.status())
+        if path == API + '/automations':
+            return self.json(self.controller.automation_status())
         if path == API + '/cards':
             return self.json(store.catalog())
         if path == API + '/competitors':
             return self.json({'competitors': store.competitors()})
         if path == API + '/jobs':
             return self.json({'jobs': store.jobs()})
+        if path == API + '/trends':
+            return self.json(self.controller.trends.status())
         if path.startswith(API):
             return self.json({'error': '찾을 수 없는 API입니다.'}, 404)
         return self.serve_static(path)
@@ -477,6 +630,35 @@ class Handler(BaseHTTPRequestHandler):
                 raise ValueError('객체 형식의 요청이 필요합니다.')
             path = urlsplit(self.path).path
             store = self.controller.store
+            trends = self.controller.trends
+            auto_match = re.fullmatch(API + r'/automations/(meta-ads|naver-trends|food-blog|beauty-blog)', path)
+            if auto_match and self.command == 'POST':
+                if not isinstance(body.get('enabled'), bool):
+                    raise ValueError('enabled must be boolean')
+                key, enabled = auto_match[1], body['enabled']
+                if key == 'meta-ads':
+                    self.controller.set_auto(enabled)
+                elif key == 'naver-trends':
+                    trends.save_settings({'autoEnabled':enabled})
+                elif self.controller.automations:
+                    self.controller.automations.set_enabled(key, enabled)
+                else:
+                    raise ValueError('Automation manager is unavailable')
+                return self.json(self.controller.automation_status())
+            if path == API + '/trends/settings' and self.command == 'POST':
+                return self.json(trends.save_settings(body))
+            if path == API + '/trends/scan' and self.command == 'POST':
+                trends.scan()
+                return self.json(trends.status(), 202)
+            if path == API + '/trends/brands' and self.command == 'POST':
+                brand = trends.save_brand(body)
+                return self.json(dict(trends.status(), brand=brand), 201)
+            if path == API + '/trends/ignore' and self.command == 'POST':
+                trends.ignore(body.get('keyword'))
+                return self.json(dict(trends.status(), ok=True))
+            if path == API + '/trends/collect' and self.command == 'POST':
+                job = trends.collect(body.get('dispatchKey'), body.get('limit', 20))
+                return self.json(dict(trends.status(), job=job), 202)
             if path == API + '/competitors' and self.command == 'POST':
                 return self.json({'competitor': store.save_competitor(body)}, 201)
             match = re.fullmatch(API + r'/competitors/([a-f0-9]{16})', path)
@@ -497,7 +679,12 @@ class Handler(BaseHTTPRequestHandler):
             if path == API + '/settings' and self.command == 'POST':
                 if not isinstance(body.get('autoEnabled'), bool):
                     raise ValueError('autoEnabled는 true 또는 false여야 합니다.')
-                self.controller.auto_enabled = body['autoEnabled']
+                self.controller.set_auto(body['autoEnabled'])
+                if 'autoPublishEnabled' in body:
+                    if not isinstance(body['autoPublishEnabled'], bool):
+                        raise ValueError('autoPublishEnabled must be boolean')
+                    self.controller.publisher.enabled = body['autoPublishEnabled']
+                    store.set_setting('autoPublishEnabled', body['autoPublishEnabled'])
                 return self.json(self.controller.status())
             if path == API + '/export' and self.command == 'POST':
                 exported = store.export()
@@ -512,7 +699,11 @@ class Handler(BaseHTTPRequestHandler):
             return self.json({'error': '찾을 수 없는 작업입니다.'}, 404)
         except KeyError:
             return self.json({'error': '대상 또는 작업을 찾을 수 없습니다.'}, 404)
-        except (ValueError, TypeError):
+        except StorageUnavailable:
+            return self.json({'error': '저장 드라이브에 접근할 수 없습니다. 외장 드라이브를 연결하세요.'}, 503)
+        except (ValueError, TypeError) as error:
+            if locals().get('path', '').startswith(API + '/trends'):
+                return self.json({'error': str(error)[:240]}, 400)
             return self.json({'error': '입력값을 확인하세요. 중복 작업·허용 범위 밖 입력은 실행하지 않습니다.'}, 400)
         except Exception:
             return self.json({'error': '작업을 완료하지 못했습니다. 로컬 앱을 확인하세요.'}, 500)
@@ -555,7 +746,7 @@ def main():
     server = Server(args.port, controller)
     url = f'http://127.0.0.1:{server.server_port}/tools/meta-ads/'
     print('Personal Meta Ads:', url, flush=True)
-    print('Press Ctrl+C or close this window to stop. Automatic collection starts OFF.', flush=True)
+    print('Automation restores the saved ON/OFF settings. Public archive auto-sync is separately configured.', flush=True)
     if args.open:
         webbrowser.open(url)
     controller.start()

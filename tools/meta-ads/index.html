@@ -6,6 +6,7 @@
   <meta name="description" content="메타 광고 레퍼런스를 검색하고, 소재를 비교하고, 필요한 광고를 저장하는 개인 광고 수집 스튜디오.">
   <link rel="canonical" href="https://1jang2.netlify.app/tools/meta-ads/">
   <link rel="stylesheet" href="./studio.css">
+  <link rel="stylesheet" href="./trends.css">
   <script type="module" src="./studio.js"></script>
 </head>
 <body>
@@ -13,10 +14,34 @@
 <header class="topbar"><a class="brand" href="/#ai"><span class="brand-mark">j.</span><span>JoWooHyung<span class="brand-sub">MARKETING × AUTOMATION</span></span></a><a class="back" href="/#ai">포트폴리오로 돌아가기 <span aria-hidden="true">↗</span></a></header>
 <main>
   <section class="intro" aria-labelledby="page-title">
-    <div><p class="eyebrow">PERSONAL TOOL / 01</p><h1 id="page-title">광고 레퍼런스<br><span>스튜디오.</span></h1><p class="intro-copy">수집하고, 살펴보고, 다음 아이디어를 발견하세요.</p><div class="intro-actions"><a href="#gallery" class="button primary">소재 살펴보기 <span aria-hidden="true">↓</span></a><button id="manage-open" class="button secondary">수집 관리</button></div></div>
+    <div><p class="eyebrow">PERSONAL TOOL / 01</p><h1 id="page-title">광고 레퍼런스<br><span>스튜디오.</span></h1><p class="intro-copy">수집하고, 살펴보고, 다음 아이디어를 발견하세요.</p><div class="intro-actions"><a href="#gallery" class="button primary">소재 살펴보기 <span aria-hidden="true">↓</span></a><a href="#trends" class="button secondary">급상승 브랜드</a><button id="manage-open" class="button secondary">수집 관리</button></div></div>
     <div class="intro-visual" aria-hidden="true"><div class="flow-label"><span class="pulse"></span>COLLECT. FIND. CREATE.</div><div class="flow"><span>수집</span><i>→</i><span>분류</span><i>→</i><span>아이디어</span></div></div>
   </section>
   <div class="archive-notice"><span id="connection" class="status-pill">불러오는 중</span><p id="archive-note">저장된 공개 광고 자료를 확인하고 있습니다.</p><button class="text-button" id="refresh">새로고침 ↻</button></div>
+  <section class="automation-workspace" aria-labelledby="automation-title">
+    <div class="monitor-heading"><div><p class="eyebrow">AUTOMATION MONITOR</p><h2 id="automation-title">수집 현황</h2></div><div class="monitor-connection"><span id="automation-connection" class="monitor-pill">확인 중</span><span id="automation-updated"></span></div></div>
+    <div class="automation-cards" id="automation-cards"><p class="monitor-empty">자동화 상태를 확인하고 있습니다.</p></div>
+    <div class="monitor-footer"><p id="automation-note">프로그램 연결 상태와 다음 실행 일정을 확인합니다.</p><a class="text-button" href="http://127.0.0.1:4177/tools/meta-ads/">내 PC에서 ON/OFF 관리 ↗</a></div>
+    <p class="publication-state" id="publication-state"></p>
+  </section>
+  <section class="trend-workspace" id="trends" aria-labelledby="trend-title">
+    <div class="trend-heading"><div><p class="eyebrow">NAVER TREND → META ADS</p><h2 id="trend-title">급상승 브랜드 기록</h2><p class="trend-intro">몇 위에서 몇 위로 올랐는지, 비교 기간과 함께 쌓아갑니다.</p></div><a class="text-button" href="https://datalab.naver.com/shoppingInsight/sCategory.naver" target="_blank" rel="noopener noreferrer">네이버 데이터랩 ↗</a></div>
+    <div class="trend-metrics"><div><span>감지한 상승 후보</span><strong id="trend-candidate-count">—</strong></div><div><span>확인된 브랜드</span><strong id="trend-brand-count">—</strong></div><div><span>누적 상승 기록</span><strong id="trend-history-count">—</strong></div><div><span>최근 순위 기준일</span><strong class="date-metric" id="trend-source-date">—</strong></div></div>
+    <div id="trend-public" class="trend-public"><p>게시된 순위 기록을 조회합니다. 네이버 일간 순위를 매시간 확인하며, 실시간 검색 순위가 아닙니다.</p><a href="http://127.0.0.1:4177/tools/meta-ads/#trends" class="button compact">내 PC에서 관리 ↗</a></div>
+    <div id="trend-local" hidden>
+      <form id="trend-settings" class="trend-settings"><label>관심 분야<select id="trend-category"><option value="50000023">건강식품 전체</option><option value="50001899">건강환·정 (알약형 식품)</option><option value="50001092">영양제</option><option value="50001090">비타민제</option><option value="50017220">효소</option><option value="50018919">건강분말</option><option value="50000024">다이어트식품</option><option value="50000006">식품 전체</option></select></label><label>7일 전보다 순위 상승<select id="trend-rise"><option value="5">5계단 이상</option><option value="10" selected>10계단 이상</option><option value="20">20계단 이상</option><option value="30">30계단 이상</option></select></label><label>새로 진입한 검색어<select id="trend-new"><option value="10">상위 10위 이내</option><option value="20" selected>상위 20위 이내</option><option value="50">상위 50위 이내</option></select></label><button type="submit" class="button secondary">기준 저장</button></form>
+      <div class="trend-actions"><button id="trend-scan" class="button primary">지금 순위 비교 ↗</button><div class="trend-auto"><span><strong>매시간 확인 · 광고 자동 수집</strong><small>일간 순위는 매시간 확인 · 확인한 브랜드만 광고 수집</small></span><button type="button" id="trend-auto" class="button compact" aria-pressed="false">꺼짐</button></div></div>
+      <details class="trend-help"><summary>수집 기준과 브랜드 관리</summary><p>분야별 인기검색어 상위 100개의 일간 순위를 7일 전과 비교합니다. 신규 진입은 이전 상위 100위에 없던 검색어입니다. 검색 관심도의 변화이며, 매출이나 광고 성과를 뜻하지 않습니다.</p><p>처음 발견한 검색어는 브랜드인지 한 번 확인해주세요. 확인한 브랜드만 이후 자동 수집하며, 하루 최대 5개 브랜드·브랜드당 광고 20개를 수집합니다. 광고주가 섞이지 않도록 등록 시 공식 쇼핑몰 도메인을 지정할 수 있습니다.</p><div id="trend-brands"></div></details>
+    </div>
+    <div class="trend-tabs" role="tablist" aria-label="상승 기록 보기"><button id="trend-current-tab" role="tab" aria-selected="true" aria-controls="trend-results" type="button">최근 상승 후보</button><button id="trend-history-tab" role="tab" aria-selected="false" aria-controls="trend-history" type="button" tabindex="-1">누적 기록</button></div>
+    <p id="trend-status" class="trend-status" role="status">순위 기록을 불러오고 있습니다.</p>
+    <div id="trend-results" class="trend-results" role="tabpanel" aria-labelledby="trend-current-tab"></div>
+    <div id="trend-history" role="tabpanel" aria-labelledby="trend-history-tab" hidden><div class="trend-history-tools"><label for="trend-history-search">브랜드·검색어 찾기</label><input id="trend-history-search" type="search" placeholder="브랜드 또는 검색어"><button id="trend-history-export" class="button compact" type="button">기록 내보내기 ↓</button></div><div id="trend-history-results"></div></div>
+    <p class="trend-method-note">비교 기간 동안의 두 순위를 기록합니다. 정확히 언제 상승했는지는 다음 일간 데이터가 쌓이면서 확인할 수 있습니다. 브랜드 미확인 검색어는 별도로 표시합니다.</p>
+    <p id="trend-error" class="trend-error" role="alert" hidden></p>
+  </section>
+  <dialog id="trend-review" aria-labelledby="trend-review-title"><div class="dialog-bar"><span>BRAND CHECK</span><button type="button" id="trend-review-close" class="icon-button" aria-label="브랜드 확인 닫기">×</button></div><form id="trend-brand-form" class="manager-content"><p class="eyebrow">처음 한 번 확인</p><h2 id="trend-review-title">브랜드로 등록</h2><p id="trend-review-keyword" class="muted"></p><label for="trend-brand-name">정확한 브랜드명</label><input id="trend-brand-name" maxlength="80" required placeholder="일반 상품명 대신 브랜드를 입력하세요"><label for="trend-brand-aliases">다른 표기 (쉼표로 구분)</label><input id="trend-brand-aliases" maxlength="500" placeholder="예: 메디큐브, medicube"><label for="trend-brand-domain">공식 쇼핑몰 도메인 (선택)</label><input id="trend-brand-domain" maxlength="160" placeholder="예: example.com"><p class="trend-form-note">등록 후 이 브랜드로 인식합니다. 도메인을 비워두면 다른 광고주의 관련 광고가 포함될 수 있습니다.</p><p id="trend-review-error" role="alert" class="trend-error" hidden></p><button type="submit" class="button primary">브랜드 확인 · 등록</button></form></dialog>
+
   <section class="workspace" id="gallery" aria-label="광고 레퍼런스 갤러리">
     <div class="workspace-heading"><div><p class="eyebrow">AD LIBRARY</p><h2>소재 라이브러리 <span id="total-count">—</span></h2></div><button class="button compact" id="favorite-toggle" aria-pressed="false">☆ 저장한 광고 <span id="favorite-count">0</span></button></div>
     <form id="search-form" class="search"><span aria-hidden="true">⌕</span><label class="sr-only" for="search">광고 검색</label><input id="search" type="search" placeholder="광고주, 광고 문구, 랜딩 도메인 검색" autocomplete="off"><button class="button primary" type="submit">검색</button></form>
@@ -26,9 +51,10 @@
         <label for="keyword">수집 키워드</label><select id="keyword"><option value="">전체 키워드</option></select>
         <label for="advertiser">광고주</label><select id="advertiser"><option value="">전체 광고주</option></select>
         <label for="media-type">소재 유형</label><select id="media-type"><option value="">전체 소재</option><option value="video">영상</option><option value="image">이미지</option></select>
+        <label for="delivery-status">게재 상태</label><select id="delivery-status"><option value="">전체 상태</option><option value="active">확인 당시 게재 중</option><option value="ended">종료 확인</option><option value="unknown">상태 미확인</option></select>
         <label for="domain">랜딩 도메인</label><select id="domain"><option value="">전체 도메인</option></select>
-        <label for="days-min">수집 당시 최소 게재 일수</label><div class="days-field"><input id="days-min" type="number" min="0" max="3650" placeholder="0"><span>일 이상</span></div>
-        <p class="filter-note">게재 기간은 광고 시작일부터 수집일까지 계산합니다. 현재 집행 여부와 성과를 뜻하지 않습니다.</p>
+        <label for="days-min">최소 게재·경과 일수</label><div class="days-field"><input id="days-min" type="number" min="0" max="3650" placeholder="0"><span>일 이상</span></div>
+        <p class="filter-note">종료일이 확인된 광고는 시작·종료일을 포함합니다. 정확한 종료일이 없는 경우 감지일 기준으로 구분합니다. 상태 미확인 광고는 경과 일수입니다.</p>
         <button class="text-button export-button" id="export">현재 목록 내보내기 ↓</button>
       </aside>
       <div class="results">
@@ -41,7 +67,7 @@
 </main>
 <footer><a href="/#contact">함께 이야기해요 ↗</a><p>JoWooHyung, 2026 <span>·</span> 공개 광고 레퍼런스 아카이브</p></footer>
 <dialog id="detail" aria-labelledby="detail-title"><div class="dialog-bar"><span>AD REFERENCE</span><button class="icon-button" data-close="detail" aria-label="광고 상세 닫기">×</button></div><div id="detail-content"></div></dialog>
-<dialog id="manager" aria-labelledby="manager-title"><div class="dialog-bar"><span>COLLECTION</span><button class="icon-button" data-close="manager" aria-label="수집 관리 닫기">×</button></div><div class="manager-content"><p class="eyebrow">나만의 수집 목록</p><h2 id="manager-title">레퍼런스 수집 관리</h2><div id="manager-public"><p>공개 페이지에서는 저장된 광고를 검색하고 즐겨찾기에 담을 수 있습니다.</p><p>새 광고 수집은 개인 PC의 수집 프로그램에서 실행합니다. 수집한 자료를 사이트에 게시하면 이 페이지에도 반영됩니다.</p><ol><li>개발 폴더의 <strong>메타 광고 수집기</strong> 실행</li><li>키워드 등록 → 광고 수집</li><li>결과 확인 → 사이트 게시</li></ol><p class="muted">회사 계정이나 AWS 연결은 사용하지 않습니다.</p></div><div id="manager-local" hidden><div class="auto-row"><span><strong>주기적 자동 수집</strong><small>이 프로그램이 켜져 있을 때만 실행됩니다.</small></span><button id="auto-toggle" class="button compact" aria-pressed="false">꺼짐</button></div><form id="competitor-form"><label for="competitor-name">수집 목록 이름</label><input id="competitor-name" placeholder="예: 스킨케어 레퍼런스" maxlength="80" required><label for="competitor-keyword">메타 광고 검색 키워드</label><input id="competitor-keyword" placeholder="예: 마스크팩" maxlength="100" required><label for="competitor-domain">랜딩 도메인 (선택)</label><input id="competitor-domain" placeholder="예: example.com" maxlength="160"><label for="competitor-interval">자동 수집 간격</label><select id="competitor-interval"><option value="24">매일</option><option value="72">3일마다</option><option value="168">매주</option></select><button class="button primary" type="submit">수집 목록 추가 +</button></form><div id="competitor-list"></div><h3>수집 작업</h3><div id="job-list"></div></div><p id="manager-message" role="status"></p></div></dialog>
+<dialog id="manager" aria-labelledby="manager-title"><div class="dialog-bar"><span>COLLECTION</span><button class="icon-button" data-close="manager" aria-label="수집 관리 닫기">×</button></div><div class="manager-content"><p class="eyebrow">나만의 수집 목록</p><h2 id="manager-title">레퍼런스 수집 관리</h2><div id="manager-public"><p>공개 페이지에서는 저장된 광고를 검색하고 즐겨찾기에 담을 수 있습니다.</p><p>수집과 ON/OFF 제어는 내 PC에서 실행합니다. 저장된 이미지·영상과 수집 기록은 자동 게시가 성공하면 이 사이트에 반영됩니다.</p><ol><li>개발 폴더의 <strong>메타 광고 수집기</strong> 실행</li><li>키워드 등록 → 광고 수집</li><li>상단 수집 현황에서 사이트 게시 전송 시각 확인</li></ol><p class="muted">회사 계정이나 AWS 연결은 사용하지 않습니다.</p></div><div id="manager-local" hidden><div class="auto-row"><span><strong>주기적 자동 수집</strong><small>이 프로그램이 켜져 있을 때만 실행됩니다.</small></span><button id="auto-toggle" class="button compact" aria-pressed="false">꺼짐</button></div><form id="competitor-form"><label for="competitor-name">수집 목록 이름</label><input id="competitor-name" placeholder="예: 스킨케어 레퍼런스" maxlength="80" required><label for="competitor-keyword">메타 광고 검색 키워드</label><input id="competitor-keyword" placeholder="예: 마스크팩" maxlength="100" required><label for="competitor-domain">랜딩 도메인 (선택)</label><input id="competitor-domain" placeholder="예: example.com" maxlength="160"><label for="competitor-interval">자동 수집 간격</label><select id="competitor-interval"><option value="6" selected>6시간마다</option><option value="12">12시간마다</option><option value="24">매일</option><option value="72">3일마다</option><option value="168">매주</option></select><button class="button primary" type="submit">수집 목록 추가 +</button></form><div id="competitor-list"></div><h3>수집 작업</h3><div id="job-list"></div></div><p id="manager-message" role="status"></p></div></dialog>
 <div id="toast" role="status" class="toast" hidden></div>
 </body>
 </html>

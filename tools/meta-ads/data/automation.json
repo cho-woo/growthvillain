@@ -1,0 +1,73 @@
+{
+  "mode": "snapshot",
+  "updatedAt": "2026-10-07T03:20:17+00:00",
+  "automations": [
+    {
+      "id": "meta-ads",
+      "name": "메타 광고",
+      "enabled": true,
+      "running": true,
+      "state": "running",
+      "nextRunAt": "2026-10-07T09:15:41+00:00",
+      "lastSuccessAt": "2026-10-07T03:17:00+00:00",
+      "lastAttemptAt": "2026-10-07T03:17:01+00:00",
+      "message": "D드라이브 연결됨",
+      "intervalSeconds": 21600,
+      "statusCheckIntervalSeconds": 3600,
+      "statusCheckBatchSize": 10,
+      "nextStatusCheckAt": "2026-10-07T03:20:17+00:00"
+    },
+    {
+      "id": "naver-trends",
+      "name": "네이버 급상승",
+      "enabled": true,
+      "running": false,
+      "state": "waiting",
+      "nextRunAt": "2026-10-07T04:15:41+00:00",
+      "lastSuccessAt": "2026-10-07T03:15:08+00:00",
+      "lastAttemptAt": null,
+      "message": "1시간마다 확인 · 일간 순위 기준",
+      "intervalSeconds": null,
+      "statusCheckIntervalSeconds": null,
+      "statusCheckBatchSize": null,
+      "nextStatusCheckAt": null
+    },
+    {
+      "id": "food-blog",
+      "name": "맛집 블로그",
+      "enabled": true,
+      "running": false,
+      "state": "waiting",
+      "nextRunAt": "2026-10-07T18:44:10",
+      "lastSuccessAt": null,
+      "lastAttemptAt": null,
+      "message": "다음 맛집 발행 대기",
+      "intervalSeconds": null,
+      "statusCheckIntervalSeconds": null,
+      "statusCheckBatchSize": null,
+      "nextStatusCheckAt": null
+    },
+    {
+      "id": "beauty-blog",
+      "name": "뷰티 블로그",
+      "enabled": true,
+      "running": false,
+      "state": "waiting",
+      "nextRunAt": "2026-10-08T07:00:00+09:00",
+      "lastSuccessAt": "2026-10-07T12:15:44+09:00",
+      "lastAttemptAt": null,
+      "message": "수집 ON · 확인된 발행용 초안 0개",
+      "intervalSeconds": null,
+      "statusCheckIntervalSeconds": null,
+      "statusCheckBatchSize": null,
+      "nextStatusCheckAt": null
+    }
+  ],
+  "publication": {
+    "state": "idle",
+    "lastAttemptAt": null,
+    "lastSuccessAt": null,
+    "error": null,
+    "enabled": false
+  }
+}

@@ -152,7 +152,7 @@ async def check_access(page):
 
 
 async def setup_search(page, keyword, diagnostic_path=None):
-    url = BASE_URL + '?' + urlencode({'active_status': 'active', 'ad_type': 'all', 'country': 'KR', 'is_targeted_country': 'false', 'media_type': 'all', 'q': keyword, 'search_type': 'keyword_unordered'})
+    url = BASE_URL + '?' + urlencode({'active_status': 'all', 'ad_type': 'all', 'country': 'KR', 'is_targeted_country': 'false', 'media_type': 'all', 'q': keyword, 'search_type': 'keyword_unordered'})
     response = await page.goto(url, wait_until='domcontentloaded', timeout=NAV_TIMEOUT_MS)
     initial_status = response.status if response else None
     diagnostic = {'initialStatus': initial_status, 'outcome': 'waiting', 'adCount': 0}
@@ -229,6 +229,9 @@ async def extract_card_data(card: ElementHandle, page: Page) -> dict:
         m = re.search(r"Library ID[:\s]+(\d+)", txt)
     if m:
         data["library_id"] = m.group(1)
+
+    from ad_lifecycle import parse_delivery
+    data.update(parse_delivery(txt))
 
     # 게재 시작일 - 한국어 우선 ("2025. 7. 14.에 게재 시작함"),
     # 그 다음 영문 ("Started running on Jul 14, 2025") 폴백.
