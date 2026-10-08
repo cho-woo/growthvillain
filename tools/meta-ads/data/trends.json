@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T02:00:51+00:00",
+  "updatedAt": "2026-10-08T02:01:18+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-08T01:24:46+00:00",
@@ -43,8 +43,8 @@
     "backlogDays": 14,
     "dailyUsed": 8,
     "dailyRemaining": 280,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-08T02:05:51+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -5909,17 +5909,72 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "01fba974d6f4559693cea16ca985fdf63102dfb7189a0ec1372c2d3f2e256637",
       "searchQuery": "삼백초추출물",
       "adEvidence": {
         "query": "삼백초추출물",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 4,
+        "adIds": [
+          "2148238686047986",
+          "1058340173844835",
+          "2332052677565849",
+          "2102260711174258"
+        ],
+        "ads": [
+          {
+            "id": "2148238686047986",
+            "advertiser": "오늘도즐거워",
+            "startedAt": "2026-10-06",
+            "query": "삼백초추출물",
+            "firstCollectedAt": "2026-10-08T02:01:04+00:00",
+            "lastCollectedAt": "2026-10-08T02:01:04+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1058340173844835",
+            "advertiser": "",
+            "startedAt": "2026-10-04",
+            "query": "삼백초추출물",
+            "firstCollectedAt": "2026-10-08T02:01:04+00:00",
+            "lastCollectedAt": "2026-10-08T02:01:04+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2332052677565849",
+            "advertiser": "For is",
+            "startedAt": "2026-09-10",
+            "query": "삼백초추출물",
+            "firstCollectedAt": "2026-10-08T02:01:01+00:00",
+            "lastCollectedAt": "2026-10-08T02:01:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2102260711174258",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-16",
+            "query": "삼백초추출물",
+            "firstCollectedAt": "2026-10-08T02:01:01+00:00",
+            "lastCollectedAt": "2026-10-08T02:01:01+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T02:01:04+00:00",
+        "advertisers": [
+          {
+            "name": "For is",
+            "adCount": 1
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 1
+          },
+          {
+            "name": "오늘도즐거워",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
