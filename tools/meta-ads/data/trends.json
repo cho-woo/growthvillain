@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T22:01:15+00:00",
+  "updatedAt": "2026-10-08T22:03:26+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-08T22:01:15+00:00",
@@ -46,17 +46,17 @@
     "pending": 1,
     "nextDispatchAt": null,
     "metaAutoEnabled": true,
-    "enabled": false,
+    "enabled": true,
     "collectionGuard": {
-      "state": "failure",
-      "reason": "Meta 조회 오류 · 5분 대기 후 다음 작업 확인",
-      "nextAllowedAt": "2026-10-08T22:01:18+00:00",
+      "state": "ready",
+      "reason": null,
+      "nextAllowedAt": null,
       "blockedUntil": null,
-      "blockStreak": 1,
+      "blockStreak": 0,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": "Meta 조회 오류 · 5분 대기 후 다음 작업 확인"
+    "pausedReason": null
   },
   "settings": {
     "category": "50000023",
