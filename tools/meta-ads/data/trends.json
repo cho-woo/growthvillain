@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T02:41:07+00:00",
+  "updatedAt": "2026-10-08T02:45:10+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-08T01:24:46+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 15,
-    "dailyRemaining": 273,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-08T02:45:05+00:00",
+    "dailyUsed": 16,
+    "dailyRemaining": 272,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -9479,7 +9479,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "49ada5a662db7c40131527993bcf3c91ea21cad434d75b56b85db1314f7aa0da",
       "searchQuery": "멜라토닌",
       "adEvidence": {
