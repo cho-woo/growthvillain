@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T20:24:38+00:00",
+  "updatedAt": "2026-10-08T20:29:40+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-08T19:58:12+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 13,
-    "dailyRemaining": 275,
+    "dailyUsed": 14,
+    "dailyRemaining": 274,
     "pending": 0,
-    "nextDispatchAt": "2026-10-08T20:29:11+00:00",
+    "nextDispatchAt": "2026-10-08T20:34:14+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -7400,17 +7400,64 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "done",
       "keywordId": "9d03d97598352b3b6c4df3fdc56c2bf4dbd8022258ff0fb9c0d731b5addb89a8",
       "searchQuery": "하이뮨프로틴",
       "adEvidence": {
         "query": "하이뮨프로틴",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 4,
+        "adIds": [
+          "2045138699524307",
+          "1466930605248164",
+          "1435327951870567",
+          "4194684670821992"
+        ],
+        "ads": [
+          {
+            "id": "2045138699524307",
+            "advertiser": "하이뮨",
+            "startedAt": "2026-09-28",
+            "query": "하이뮨프로틴",
+            "firstCollectedAt": "2026-10-08T20:29:24+00:00",
+            "lastCollectedAt": "2026-10-08T20:29:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1466930605248164",
+            "advertiser": "하이뮨",
+            "startedAt": "2026-09-28",
+            "query": "하이뮨프로틴",
+            "firstCollectedAt": "2026-10-08T20:29:24+00:00",
+            "lastCollectedAt": "2026-10-08T20:29:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1435327951870567",
+            "advertiser": "하이뮨",
+            "startedAt": "2026-09-28",
+            "query": "하이뮨프로틴",
+            "firstCollectedAt": "2026-10-08T20:29:24+00:00",
+            "lastCollectedAt": "2026-10-08T20:29:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4194684670821992",
+            "advertiser": "하이뮨",
+            "startedAt": "2026-09-28",
+            "query": "하이뮨프로틴",
+            "firstCollectedAt": "2026-10-08T20:29:23+00:00",
+            "lastCollectedAt": "2026-10-08T20:29:23+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T20:29:24+00:00",
+        "advertisers": [
+          {
+            "name": "하이뮨",
+            "adCount": 4
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
@@ -9872,17 +9919,64 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T01:24:46+00:00",
       "lastObservedAt": "2026-10-08T19:58:12+00:00",
-      "state": "backlog",
+      "state": "done",
       "keywordId": "9d03d97598352b3b6c4df3fdc56c2bf4dbd8022258ff0fb9c0d731b5addb89a8",
       "searchQuery": "하이뮨프로틴",
       "adEvidence": {
         "query": "하이뮨프로틴",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 4,
+        "adIds": [
+          "2045138699524307",
+          "1466930605248164",
+          "1435327951870567",
+          "4194684670821992"
+        ],
+        "ads": [
+          {
+            "id": "2045138699524307",
+            "advertiser": "하이뮨",
+            "startedAt": "2026-09-28",
+            "query": "하이뮨프로틴",
+            "firstCollectedAt": "2026-10-08T20:29:24+00:00",
+            "lastCollectedAt": "2026-10-08T20:29:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1466930605248164",
+            "advertiser": "하이뮨",
+            "startedAt": "2026-09-28",
+            "query": "하이뮨프로틴",
+            "firstCollectedAt": "2026-10-08T20:29:24+00:00",
+            "lastCollectedAt": "2026-10-08T20:29:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1435327951870567",
+            "advertiser": "하이뮨",
+            "startedAt": "2026-09-28",
+            "query": "하이뮨프로틴",
+            "firstCollectedAt": "2026-10-08T20:29:24+00:00",
+            "lastCollectedAt": "2026-10-08T20:29:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4194684670821992",
+            "advertiser": "하이뮨",
+            "startedAt": "2026-09-28",
+            "query": "하이뮨프로틴",
+            "firstCollectedAt": "2026-10-08T20:29:23+00:00",
+            "lastCollectedAt": "2026-10-08T20:29:23+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T20:29:24+00:00",
+        "advertisers": [
+          {
+            "name": "하이뮨",
+            "adCount": 4
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
