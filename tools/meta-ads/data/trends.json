@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T02:33:23+00:00",
+  "updatedAt": "2026-10-08T02:41:07+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-08T01:24:46+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 14,
-    "dailyRemaining": 274,
+    "dailyUsed": 15,
+    "dailyRemaining": 273,
     "pending": 0,
-    "nextDispatchAt": "2026-10-08T02:36:16+00:00",
+    "nextDispatchAt": "2026-10-08T02:45:05+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -12732,17 +12732,376 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "backlog",
+      "state": "done",
       "keywordId": "2b939f130ee0cf16fbaf53bf4e7d71eb0c2559636c1f02796b52107dad4b8f95",
       "searchQuery": "콘드로이친1200",
       "adEvidence": {
         "query": "콘드로이친1200",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 32,
+        "adIds": [
+          "950897090811474",
+          "1812807616576425",
+          "4637645309812211",
+          "3436568186542679",
+          "1398884459123670",
+          "1324689336271609",
+          "4278430179114377",
+          "3633556343467088",
+          "28865014873095071",
+          "1483016586919489",
+          "1416786413955098",
+          "2961494314197167",
+          "2295454487871146",
+          "937520616077051",
+          "1713708586350587",
+          "2851845078534731",
+          "2292017494906442",
+          "1824590368703009",
+          "1046073208101438",
+          "1024559353664163",
+          "1622993862692980",
+          "1578450027410935",
+          "1571895157739301",
+          "1751790859260694",
+          "1744897966780240",
+          "1413365180928815",
+          "1071718685825769",
+          "1067967009203795",
+          "1056419517145306",
+          "2162644577647862",
+          "1294326555971229",
+          "1013257944498435"
+        ],
+        "ads": [
+          {
+            "id": "950897090811474",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-28",
+            "query": "콘드로이친1200",
+            "firstCollectedAt": "2026-10-08T02:40:53+00:00",
+            "lastCollectedAt": "2026-10-08T02:40:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1812807616576425",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-25",
+            "query": "콘드로이친1200",
+            "firstCollectedAt": "2026-10-08T02:40:53+00:00",
+            "lastCollectedAt": "2026-10-08T02:40:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4637645309812211",
+            "advertiser": "Jyns",
+            "startedAt": "2026-10-07",
+            "query": "콘드로이친1200",
+            "firstCollectedAt": "2026-10-08T02:40:41+00:00",
+            "lastCollectedAt": "2026-10-08T02:40:41+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "3436568186542679",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-09-21",
+            "query": "콘드로이친1200",
+            "firstCollectedAt": "2026-10-08T02:40:41+00:00",
+            "lastCollectedAt": "2026-10-08T02:40:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1398884459123670",
+            "advertiser": "메디트리",
+            "startedAt": "2026-09-30",
+            "query": "콘드로이친1200",
+            "firstCollectedAt": "2026-10-08T02:40:41+00:00",
+            "lastCollectedAt": "2026-10-08T02:40:41+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1324689336271609",
+            "advertiser": "메디트리",
+            "startedAt": "2026-09-30",
+            "query": "콘드로이친1200",
+            "firstCollectedAt": "2026-10-08T02:40:41+00:00",
+            "lastCollectedAt": "2026-10-08T02:40:41+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4278430179114377",
+            "advertiser": "메디트리",
+            "startedAt": "2026-09-30",
+            "query": "콘드로이친1200",
+            "firstCollectedAt": "2026-10-08T02:40:40+00:00",
+            "lastCollectedAt": "2026-10-08T02:40:40+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "3633556343467088",
+            "advertiser": "Thailoveshop",
+            "startedAt": "2026-09-03",
+            "query": "콘드로이친1200",
+            "firstCollectedAt": "2026-10-08T02:40:40+00:00",
+            "lastCollectedAt": "2026-10-08T02:40:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28865014873095071",
+            "advertiser": "메디트리",
+            "startedAt": "2026-09-30",
+            "query": "콘드로이친1200",
+            "firstCollectedAt": "2026-10-08T02:40:40+00:00",
+            "lastCollectedAt": "2026-10-08T02:40:40+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1483016586919489",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-09-23",
+            "query": "콘드로이친1200",
+            "firstCollectedAt": "2026-10-08T02:40:40+00:00",
+            "lastCollectedAt": "2026-10-08T02:40:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1416786413955098",
+            "advertiser": "NewOrigin 뉴오리진",
+            "startedAt": "2026-09-28",
+            "query": "콘드로이친1200",
+            "firstCollectedAt": "2026-10-08T02:40:40+00:00",
+            "lastCollectedAt": "2026-10-08T02:40:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2961494314197167",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-08-05",
+            "query": "콘드로이친1200",
+            "firstCollectedAt": "2026-10-08T02:40:24+00:00",
+            "lastCollectedAt": "2026-10-08T02:40:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2295454487871146",
+            "advertiser": "옐로우행거",
+            "startedAt": "2026-09-30",
+            "query": "콘드로이친1200",
+            "firstCollectedAt": "2026-10-08T02:40:18+00:00",
+            "lastCollectedAt": "2026-10-08T02:40:18+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "937520616077051",
+            "advertiser": "",
+            "startedAt": "2026-09-20",
+            "query": "콘드로이친1200",
+            "firstCollectedAt": "2026-10-08T02:40:17+00:00",
+            "lastCollectedAt": "2026-10-08T02:40:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1713708586350587",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-08-26",
+            "query": "콘드로이친1200",
+            "firstCollectedAt": "2026-10-08T02:40:17+00:00",
+            "lastCollectedAt": "2026-10-08T02:40:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2851845078534731",
+            "advertiser": "NewOrigin 뉴오리진",
+            "startedAt": "2026-09-28",
+            "query": "콘드로이친1200",
+            "firstCollectedAt": "2026-10-08T02:40:16+00:00",
+            "lastCollectedAt": "2026-10-08T02:40:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2292017494906442",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-09-19",
+            "query": "콘드로이친1200",
+            "firstCollectedAt": "2026-10-08T02:40:16+00:00",
+            "lastCollectedAt": "2026-10-08T02:40:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1824590368703009",
+            "advertiser": "NewOrigin 뉴오리진",
+            "startedAt": "2026-09-28",
+            "query": "콘드로이친1200",
+            "firstCollectedAt": "2026-10-08T02:40:16+00:00",
+            "lastCollectedAt": "2026-10-08T02:40:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1046073208101438",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-14",
+            "query": "콘드로이친1200",
+            "firstCollectedAt": "2026-10-08T02:40:16+00:00",
+            "lastCollectedAt": "2026-10-08T02:40:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1024559353664163",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-10",
+            "query": "콘드로이친1200",
+            "firstCollectedAt": "2026-10-08T02:40:16+00:00",
+            "lastCollectedAt": "2026-10-08T02:40:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1622993862692980",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-09-18",
+            "query": "콘드로이친1200",
+            "firstCollectedAt": "2026-10-08T02:40:15+00:00",
+            "lastCollectedAt": "2026-10-08T02:40:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1578450027410935",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "콘드로이친1200",
+            "firstCollectedAt": "2026-10-08T02:40:15+00:00",
+            "lastCollectedAt": "2026-10-08T02:40:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1571895157739301",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "콘드로이친1200",
+            "firstCollectedAt": "2026-10-08T02:40:11+00:00",
+            "lastCollectedAt": "2026-10-08T02:40:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1751790859260694",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "콘드로이친1200",
+            "firstCollectedAt": "2026-10-08T02:40:10+00:00",
+            "lastCollectedAt": "2026-10-08T02:40:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1744897966780240",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "콘드로이친1200",
+            "firstCollectedAt": "2026-10-08T02:40:10+00:00",
+            "lastCollectedAt": "2026-10-08T02:40:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1413365180928815",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-09-18",
+            "query": "콘드로이친1200",
+            "firstCollectedAt": "2026-10-08T02:40:10+00:00",
+            "lastCollectedAt": "2026-10-08T02:40:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1071718685825769",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "콘드로이친1200",
+            "firstCollectedAt": "2026-10-08T02:40:10+00:00",
+            "lastCollectedAt": "2026-10-08T02:40:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1067967009203795",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-09-18",
+            "query": "콘드로이친1200",
+            "firstCollectedAt": "2026-10-08T02:40:10+00:00",
+            "lastCollectedAt": "2026-10-08T02:40:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1056419517145306",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "콘드로이친1200",
+            "firstCollectedAt": "2026-10-08T02:40:10+00:00",
+            "lastCollectedAt": "2026-10-08T02:40:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2162644577647862",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-09-18",
+            "query": "콘드로이친1200",
+            "firstCollectedAt": "2026-10-08T02:40:09+00:00",
+            "lastCollectedAt": "2026-10-08T02:40:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1294326555971229",
+            "advertiser": "닥터린",
+            "startedAt": "2026-03-16",
+            "query": "콘드로이친1200",
+            "firstCollectedAt": "2026-10-08T02:40:09+00:00",
+            "lastCollectedAt": "2026-10-08T02:40:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1013257944498435",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "콘드로이친1200",
+            "firstCollectedAt": "2026-10-08T02:40:09+00:00",
+            "lastCollectedAt": "2026-10-08T02:40:09+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T02:40:53+00:00",
+        "advertisers": [
+          {
+            "name": "주영엔에스",
+            "adCount": 13
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 5
+          },
+          {
+            "name": "메디트리",
+            "adCount": 4
+          },
+          {
+            "name": "NewOrigin 뉴오리진",
+            "adCount": 3
+          },
+          {
+            "name": "종근당",
+            "adCount": 2
+          },
+          {
+            "name": "Jyns",
+            "adCount": 1
+          },
+          {
+            "name": "Thailoveshop",
+            "adCount": 1
+          },
+          {
+            "name": "닥터린",
+            "adCount": 1
+          },
+          {
+            "name": "옐로우행거",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
