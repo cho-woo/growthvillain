@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T15:21:59+00:00",
+  "updatedAt": "2026-10-08T15:24:59+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-08T01:24:46+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 2,
-    "dailyRemaining": 286,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-08T15:24:58+00:00",
+    "dailyUsed": 3,
+    "dailyRemaining": 285,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -1807,7 +1807,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "ac350355acb5234e41205aabc4ffbb8d4d5a7bee9403222137c36f265a5eafbb",
       "searchQuery": "코큐텐",
       "adEvidence": {
@@ -7555,7 +7555,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-08T01:24:15+00:00",
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "ac350355acb5234e41205aabc4ffbb8d4d5a7bee9403222137c36f265a5eafbb",
       "searchQuery": "코큐텐",
       "adEvidence": {
@@ -18560,7 +18560,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "backlog",
+      "state": "cooldown",
       "keywordId": "ac350355acb5234e41205aabc4ffbb8d4d5a7bee9403222137c36f265a5eafbb",
       "searchQuery": "코큐텐",
       "adEvidence": {
