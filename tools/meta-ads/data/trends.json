@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T02:07:38+00:00",
+  "updatedAt": "2026-10-08T02:11:35+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-08T01:24:46+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 9,
-    "dailyRemaining": 279,
+    "dailyUsed": 10,
+    "dailyRemaining": 278,
     "pending": 0,
-    "nextDispatchAt": "2026-10-08T02:10:55+00:00",
+    "nextDispatchAt": "2026-10-08T02:16:00+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -4324,17 +4324,238 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "backlog",
+      "state": "done",
       "keywordId": "7d3a25ba0db56e63aaf55083c0444b6d09a5b24549107ca377efbd59b73444b2",
       "searchQuery": "캡슐레이션효소",
       "adEvidence": {
         "query": "캡슐레이션효소",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 17,
+        "adIds": [
+          "1333983573127291",
+          "28717580071192731",
+          "1095204399683826",
+          "2277986546289115",
+          "1657251802167049",
+          "1819609919404625",
+          "1054552007033242",
+          "1591773805873597",
+          "1008019842034790",
+          "1793709781819564",
+          "1789010492126385",
+          "1676764920325523",
+          "951544627843898",
+          "2036603050584044",
+          "978440674614614",
+          "1012371851507192",
+          "1482053876491688"
+        ],
+        "ads": [
+          {
+            "id": "1333983573127291",
+            "advertiser": "슬기",
+            "startedAt": "2026-08-31",
+            "query": "캡슐레이션효소",
+            "firstCollectedAt": "2026-10-08T02:11:22+00:00",
+            "lastCollectedAt": "2026-10-08T02:11:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28717580071192731",
+            "advertiser": "주네르샵",
+            "startedAt": "2026-09-01",
+            "query": "캡슐레이션효소",
+            "firstCollectedAt": "2026-10-08T02:11:21+00:00",
+            "lastCollectedAt": "2026-10-08T02:11:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1095204399683826",
+            "advertiser": "그레인온",
+            "startedAt": "2026-09-07",
+            "query": "캡슐레이션효소",
+            "firstCollectedAt": "2026-10-08T02:11:21+00:00",
+            "lastCollectedAt": "2026-10-08T02:11:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2277986546289115",
+            "advertiser": "그레인온",
+            "startedAt": "2026-09-07",
+            "query": "캡슐레이션효소",
+            "firstCollectedAt": "2026-10-08T02:11:20+00:00",
+            "lastCollectedAt": "2026-10-08T02:11:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1657251802167049",
+            "advertiser": "Wuav",
+            "startedAt": "2026-06-02",
+            "query": "캡슐레이션효소",
+            "firstCollectedAt": "2026-10-08T02:11:20+00:00",
+            "lastCollectedAt": "2026-10-08T02:11:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1819609919404625",
+            "advertiser": "그레인온",
+            "startedAt": "2026-09-07",
+            "query": "캡슐레이션효소",
+            "firstCollectedAt": "2026-10-08T02:11:19+00:00",
+            "lastCollectedAt": "2026-10-08T02:11:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1054552007033242",
+            "advertiser": "추담",
+            "startedAt": "2026-07-27",
+            "query": "캡슐레이션효소",
+            "firstCollectedAt": "2026-10-08T02:11:19+00:00",
+            "lastCollectedAt": "2026-10-08T02:11:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1591773805873597",
+            "advertiser": "그레인온",
+            "startedAt": "2026-08-23",
+            "query": "캡슐레이션효소",
+            "firstCollectedAt": "2026-10-08T02:11:07+00:00",
+            "lastCollectedAt": "2026-10-08T02:11:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1008019842034790",
+            "advertiser": "Daily_simby",
+            "startedAt": "2026-07-27",
+            "query": "캡슐레이션효소",
+            "firstCollectedAt": "2026-10-08T02:11:07+00:00",
+            "lastCollectedAt": "2026-10-08T02:11:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1793709781819564",
+            "advertiser": "그레인온",
+            "startedAt": "2026-09-07",
+            "query": "캡슐레이션효소",
+            "firstCollectedAt": "2026-10-08T02:11:06+00:00",
+            "lastCollectedAt": "2026-10-08T02:11:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1789010492126385",
+            "advertiser": "그레인온",
+            "startedAt": "2026-09-07",
+            "query": "캡슐레이션효소",
+            "firstCollectedAt": "2026-10-08T02:11:06+00:00",
+            "lastCollectedAt": "2026-10-08T02:11:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1676764920325523",
+            "advertiser": "바니/Bunny",
+            "startedAt": "2026-06-16",
+            "query": "캡슐레이션효소",
+            "firstCollectedAt": "2026-10-08T02:11:06+00:00",
+            "lastCollectedAt": "2026-10-08T02:11:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "951544627843898",
+            "advertiser": "Im.seulgirowun",
+            "startedAt": "2026-04-22",
+            "query": "캡슐레이션효소",
+            "firstCollectedAt": "2026-10-08T02:11:05+00:00",
+            "lastCollectedAt": "2026-10-08T02:11:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2036603050584044",
+            "advertiser": "다연",
+            "startedAt": "2026-06-16",
+            "query": "캡슐레이션효소",
+            "firstCollectedAt": "2026-10-08T02:11:05+00:00",
+            "lastCollectedAt": "2026-10-08T02:11:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "978440674614614",
+            "advertiser": "서애쿠의 예쁜날",
+            "startedAt": "2026-04-01",
+            "query": "캡슐레이션효소",
+            "firstCollectedAt": "2026-10-08T02:11:04+00:00",
+            "lastCollectedAt": "2026-10-08T02:11:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1012371851507192",
+            "advertiser": "Marcella",
+            "startedAt": "2026-06-16",
+            "query": "캡슐레이션효소",
+            "firstCollectedAt": "2026-10-08T02:11:04+00:00",
+            "lastCollectedAt": "2026-10-08T02:11:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1482053876491688",
+            "advertiser": "Yul",
+            "startedAt": "2026-06-16",
+            "query": "캡슐레이션효소",
+            "firstCollectedAt": "2026-10-08T02:11:03+00:00",
+            "lastCollectedAt": "2026-10-08T02:11:03+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T02:11:22+00:00",
+        "advertisers": [
+          {
+            "name": "그레인온",
+            "adCount": 6
+          },
+          {
+            "name": "Daily_simby",
+            "adCount": 1
+          },
+          {
+            "name": "Im.seulgirowun",
+            "adCount": 1
+          },
+          {
+            "name": "Marcella",
+            "adCount": 1
+          },
+          {
+            "name": "Wuav",
+            "adCount": 1
+          },
+          {
+            "name": "Yul",
+            "adCount": 1
+          },
+          {
+            "name": "다연",
+            "adCount": 1
+          },
+          {
+            "name": "바니/Bunny",
+            "adCount": 1
+          },
+          {
+            "name": "서애쿠의 예쁜날",
+            "adCount": 1
+          },
+          {
+            "name": "슬기",
+            "adCount": 1
+          },
+          {
+            "name": "주네르샵",
+            "adCount": 1
+          },
+          {
+            "name": "추담",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
