@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T20:44:51+00:00",
+  "updatedAt": "2026-10-08T20:55:34+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-08T19:58:12+00:00",
@@ -41,22 +41,22 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 17,
-    "dailyRemaining": 271,
+    "dailyUsed": 18,
+    "dailyRemaining": 270,
     "pending": 0,
-    "nextDispatchAt": "2026-10-08T20:49:26+00:00",
+    "nextDispatchAt": "2026-10-08T21:55:28+00:00",
     "metaAutoEnabled": true,
-    "enabled": true,
+    "enabled": false,
     "collectionGuard": {
-      "state": "ready",
-      "reason": null,
-      "nextAllowedAt": null,
-      "blockedUntil": null,
-      "blockStreak": 0,
+      "state": "blocked",
+      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
+      "nextAllowedAt": "2026-10-08T21:55:28+00:00",
+      "blockedUntil": "2026-10-08T21:55:28+00:00",
+      "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": null
+    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
   },
   "settings": {
     "category": "50000023",
@@ -8456,17 +8456,708 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "done",
       "keywordId": "88be42e8ab1778f052eb397a9720641e47e8922dc93a536176204206626da4fb",
       "searchQuery": "ns프로틴",
       "adEvidence": {
         "query": "ns프로틴",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 60,
+        "adIds": [
+          "2525657031190471",
+          "1710072950100903",
+          "1529257292333489",
+          "5300748973396704",
+          "2592015337909459",
+          "1948193055850371",
+          "1566143604507245",
+          "1623523569136203",
+          "1108836885334731",
+          "1094022402987650",
+          "913325398378451",
+          "2164773530735425",
+          "2525603617862346",
+          "2411649562659771",
+          "1889701115321030",
+          "1316602263878266",
+          "27430482753239390",
+          "1283595406913598",
+          "1143843211307226",
+          "1750482846209196",
+          "2172091747057458",
+          "1522964262931656",
+          "1093789010291877",
+          "2376869273119572",
+          "1738323544386429",
+          "1589166789571997",
+          "1089431913823168",
+          "28635915029355043",
+          "1118551860743438",
+          "1058644423708096",
+          "1779867463042949",
+          "1472744811208636",
+          "1551399590333690",
+          "1082135927937966",
+          "1065759072969772",
+          "872453302539560",
+          "1392843735527511",
+          "959867883811853",
+          "4515339875371699",
+          "1871084513868113",
+          "2914073372292547",
+          "1391949779071109",
+          "1642053917438908",
+          "1578608710438958",
+          "1548234443162136",
+          "1094794749637538",
+          "1005340188795151",
+          "925806673110609",
+          "1062140306671812",
+          "1058290116891899",
+          "1782801936423592",
+          "1135681502083588",
+          "1944089266286581",
+          "1501380141722602",
+          "25853200801023391",
+          "1504353821176925",
+          "1350514173799442",
+          "977147104701434",
+          "1906116636690207",
+          "870825218747054"
+        ],
+        "ads": [
+          {
+            "id": "2525657031190471",
+            "advertiser": "정보 주머니",
+            "startedAt": "2026-08-14",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:22+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1710072950100903",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-09-10",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:22+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1529257292333489",
+            "advertiser": "입 벌려 보충제 들어간다",
+            "startedAt": "2026-08-18",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:22+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "5300748973396704",
+            "advertiser": "이 시대의 가장 완벽한 단백질",
+            "startedAt": "2026-09-29",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:21+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2592015337909459",
+            "advertiser": "입 벌려 보충제 들어간다",
+            "startedAt": "2026-09-29",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:21+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1948193055850371",
+            "advertiser": "등근육의 신",
+            "startedAt": "2026-09-04",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:21+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1566143604507245",
+            "advertiser": "3대 499.9kg 한계",
+            "startedAt": "2026-09-01",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:21+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1623523569136203",
+            "advertiser": "이 시대의 가장 완벽한 단백질",
+            "startedAt": "2026-09-29",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:20+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1108836885334731",
+            "advertiser": "오늘도 보충제",
+            "startedAt": "2026-09-22",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:20+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1094022402987650",
+            "advertiser": "오늘도 보충제",
+            "startedAt": "2026-09-22",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:20+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "913325398378451",
+            "advertiser": "1jun_first",
+            "startedAt": "2026-10-01",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:12+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:12+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2164773530735425",
+            "advertiser": "보충제업업",
+            "startedAt": "2026-09-17",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:12+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2525603617862346",
+            "advertiser": "DA",
+            "startedAt": "2026-10-01",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:11+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:11+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2411649562659771",
+            "advertiser": "⋌ㅏ줘ગ거",
+            "startedAt": "2026-05-22",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:11+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1889701115321030",
+            "advertiser": "입 벌려 보충제 들어간다",
+            "startedAt": "2026-08-14",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:11+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1316602263878266",
+            "advertiser": "입 벌려 보충제 들어간다",
+            "startedAt": "2026-08-14",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:11+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27430482753239390",
+            "advertiser": "⋌ㅏ줘ગ거",
+            "startedAt": "2026-06-12",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:10+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1283595406913598",
+            "advertiser": "나만 아는 근뿜 상식",
+            "startedAt": "2026-06-22",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:10+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1143843211307226",
+            "advertiser": "ㅇㄹㅇㄹ",
+            "startedAt": "2026-09-28",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:10+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1750482846209196",
+            "advertiser": "ㅇㄹㅇㄹ",
+            "startedAt": "2026-09-29",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:09+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2172091747057458",
+            "advertiser": "이 시대의 가장 완벽한 단백질",
+            "startedAt": "2026-09-29",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:01+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1522964262931656",
+            "advertiser": "등근육의 신",
+            "startedAt": "2026-09-28",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:01+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1093789010291877",
+            "advertiser": "NS_official",
+            "startedAt": "2026-09-28",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:00+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2376869273119572",
+            "advertiser": "BUP :: Beyond Your Power",
+            "startedAt": "2026-09-28",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:59+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1738323544386429",
+            "advertiser": "ㅇㄹㅇㄹ",
+            "startedAt": "2026-09-28",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:57+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1589166789571997",
+            "advertiser": "오늘도 보충제",
+            "startedAt": "2026-09-22",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:57+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1089431913823168",
+            "advertiser": "보충제업업",
+            "startedAt": "2026-09-16",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:57+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28635915029355043",
+            "advertiser": "근테크 끝판왕",
+            "startedAt": "2026-09-01",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:56+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1118551860743438",
+            "advertiser": "기몽기",
+            "startedAt": "2026-09-29",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:56+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1058644423708096",
+            "advertiser": "ㄴㅇ2ㄴ",
+            "startedAt": "2026-09-29",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:55+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1779867463042949",
+            "advertiser": "NS_official",
+            "startedAt": "2026-09-08",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:48+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1472744811208636",
+            "advertiser": "쨍쨍한 정보들",
+            "startedAt": "2026-07-05",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:48+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1551399590333690",
+            "advertiser": "ㄴㅇ2ㄴ",
+            "startedAt": "2026-09-17",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:47+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1082135927937966",
+            "advertiser": "DA",
+            "startedAt": "2026-09-08",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:46+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1065759072969772",
+            "advertiser": "NS_official",
+            "startedAt": "2026-09-10",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:46+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "872453302539560",
+            "advertiser": "도리도리맛도리",
+            "startedAt": "2026-05-21",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:45+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1392843735527511",
+            "advertiser": "쨍쨍한 정보들",
+            "startedAt": "2026-09-03",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:45+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "959867883811853",
+            "advertiser": "NS_official",
+            "startedAt": "2026-09-01",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:44+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4515339875371699",
+            "advertiser": "이 시대의 가장 완벽한 단백질",
+            "startedAt": "2026-09-22",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:43+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1871084513868113",
+            "advertiser": "NS_official",
+            "startedAt": "2026-09-02",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:43+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2914073372292547",
+            "advertiser": "이 시대의 가장 완벽한 단백질",
+            "startedAt": "2026-09-22",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:36+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1391949779071109",
+            "advertiser": "NS_official",
+            "startedAt": "2026-09-14",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:36+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1642053917438908",
+            "advertiser": "이 시대의 가장 완벽한 단백질",
+            "startedAt": "2026-09-03",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:35+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1578608710438958",
+            "advertiser": "이 시대의 가장 완벽한 단백질",
+            "startedAt": "2026-08-04",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:35+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1548234443162136",
+            "advertiser": "득근 딱 대",
+            "startedAt": "2026-09-04",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:35+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1094794749637538",
+            "advertiser": "쨍쨍한 정보들",
+            "startedAt": "2026-09-04",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:35+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1005340188795151",
+            "advertiser": "입 벌려 보충제 들어간다",
+            "startedAt": "2026-07-02",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:35+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "925806673110609",
+            "advertiser": "쨍쨍한 정보들",
+            "startedAt": "2026-07-27",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:34+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1062140306671812",
+            "advertiser": "쨍쨍한 정보들",
+            "startedAt": "2026-09-04",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:34+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1058290116891899",
+            "advertiser": "NS_official",
+            "startedAt": "2026-07-21",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:34+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1782801936423592",
+            "advertiser": "쨍쨍한 정보들",
+            "startedAt": "2026-06-01",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:29+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1135681502083588",
+            "advertiser": "당신은 행운아",
+            "startedAt": "2026-05-13",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:29+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1944089266286581",
+            "advertiser": "이 시대의 가장 완벽한 단백질",
+            "startedAt": "2026-05-22",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:27+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1501380141722602",
+            "advertiser": "NS_official",
+            "startedAt": "2026-04-27",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:27+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "25853200801023391",
+            "advertiser": "NS_official",
+            "startedAt": "2026-05-05",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:25+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1504353821176925",
+            "advertiser": "보충제업업",
+            "startedAt": "2026-06-02",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:24+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1350514173799442",
+            "advertiser": "NS_official",
+            "startedAt": "2026-05-10",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:23+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "977147104701434",
+            "advertiser": "NS_official",
+            "startedAt": "2026-05-19",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:22+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1906116636690207",
+            "advertiser": "입 벌려 보충제 들어간다",
+            "startedAt": "2026-04-16",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:22+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "870825218747054",
+            "advertiser": "NS_official",
+            "startedAt": "2025-11-25",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:20+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:20+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T20:55:22+00:00",
+        "advertisers": [
+          {
+            "name": "NS_official",
+            "adCount": 12
+          },
+          {
+            "name": "이 시대의 가장 완벽한 단백질",
+            "adCount": 8
+          },
+          {
+            "name": "입 벌려 보충제 들어간다",
+            "adCount": 6
+          },
+          {
+            "name": "쨍쨍한 정보들",
+            "adCount": 6
+          },
+          {
+            "name": "ㅇㄹㅇㄹ",
+            "adCount": 3
+          },
+          {
+            "name": "보충제업업",
+            "adCount": 3
+          },
+          {
+            "name": "오늘도 보충제",
+            "adCount": 3
+          },
+          {
+            "name": "DA",
+            "adCount": 2
+          },
+          {
+            "name": "⋌ㅏ줘ગ거",
+            "adCount": 2
+          },
+          {
+            "name": "ㄴㅇ2ㄴ",
+            "adCount": 2
+          },
+          {
+            "name": "등근육의 신",
+            "adCount": 2
+          },
+          {
+            "name": "1jun_first",
+            "adCount": 1
+          },
+          {
+            "name": "3대 499.9kg 한계",
+            "adCount": 1
+          },
+          {
+            "name": "BUP :: Beyond Your Power",
+            "adCount": 1
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 1
+          },
+          {
+            "name": "근테크 끝판왕",
+            "adCount": 1
+          },
+          {
+            "name": "기몽기",
+            "adCount": 1
+          },
+          {
+            "name": "나만 아는 근뿜 상식",
+            "adCount": 1
+          },
+          {
+            "name": "당신은 행운아",
+            "adCount": 1
+          },
+          {
+            "name": "도리도리맛도리",
+            "adCount": 1
+          },
+          {
+            "name": "득근 딱 대",
+            "adCount": 1
+          },
+          {
+            "name": "정보 주머니",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
@@ -10447,17 +11138,708 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T01:24:46+00:00",
       "lastObservedAt": "2026-10-08T19:58:12+00:00",
-      "state": "backlog",
+      "state": "done",
       "keywordId": "88be42e8ab1778f052eb397a9720641e47e8922dc93a536176204206626da4fb",
       "searchQuery": "ns프로틴",
       "adEvidence": {
         "query": "ns프로틴",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 60,
+        "adIds": [
+          "2525657031190471",
+          "1710072950100903",
+          "1529257292333489",
+          "5300748973396704",
+          "2592015337909459",
+          "1948193055850371",
+          "1566143604507245",
+          "1623523569136203",
+          "1108836885334731",
+          "1094022402987650",
+          "913325398378451",
+          "2164773530735425",
+          "2525603617862346",
+          "2411649562659771",
+          "1889701115321030",
+          "1316602263878266",
+          "27430482753239390",
+          "1283595406913598",
+          "1143843211307226",
+          "1750482846209196",
+          "2172091747057458",
+          "1522964262931656",
+          "1093789010291877",
+          "2376869273119572",
+          "1738323544386429",
+          "1589166789571997",
+          "1089431913823168",
+          "28635915029355043",
+          "1118551860743438",
+          "1058644423708096",
+          "1779867463042949",
+          "1472744811208636",
+          "1551399590333690",
+          "1082135927937966",
+          "1065759072969772",
+          "872453302539560",
+          "1392843735527511",
+          "959867883811853",
+          "4515339875371699",
+          "1871084513868113",
+          "2914073372292547",
+          "1391949779071109",
+          "1642053917438908",
+          "1578608710438958",
+          "1548234443162136",
+          "1094794749637538",
+          "1005340188795151",
+          "925806673110609",
+          "1062140306671812",
+          "1058290116891899",
+          "1782801936423592",
+          "1135681502083588",
+          "1944089266286581",
+          "1501380141722602",
+          "25853200801023391",
+          "1504353821176925",
+          "1350514173799442",
+          "977147104701434",
+          "1906116636690207",
+          "870825218747054"
+        ],
+        "ads": [
+          {
+            "id": "2525657031190471",
+            "advertiser": "정보 주머니",
+            "startedAt": "2026-08-14",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:22+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1710072950100903",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-09-10",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:22+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1529257292333489",
+            "advertiser": "입 벌려 보충제 들어간다",
+            "startedAt": "2026-08-18",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:22+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "5300748973396704",
+            "advertiser": "이 시대의 가장 완벽한 단백질",
+            "startedAt": "2026-09-29",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:21+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2592015337909459",
+            "advertiser": "입 벌려 보충제 들어간다",
+            "startedAt": "2026-09-29",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:21+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1948193055850371",
+            "advertiser": "등근육의 신",
+            "startedAt": "2026-09-04",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:21+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1566143604507245",
+            "advertiser": "3대 499.9kg 한계",
+            "startedAt": "2026-09-01",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:21+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1623523569136203",
+            "advertiser": "이 시대의 가장 완벽한 단백질",
+            "startedAt": "2026-09-29",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:20+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1108836885334731",
+            "advertiser": "오늘도 보충제",
+            "startedAt": "2026-09-22",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:20+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1094022402987650",
+            "advertiser": "오늘도 보충제",
+            "startedAt": "2026-09-22",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:20+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "913325398378451",
+            "advertiser": "1jun_first",
+            "startedAt": "2026-10-01",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:12+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:12+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2164773530735425",
+            "advertiser": "보충제업업",
+            "startedAt": "2026-09-17",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:12+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2525603617862346",
+            "advertiser": "DA",
+            "startedAt": "2026-10-01",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:11+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:11+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2411649562659771",
+            "advertiser": "⋌ㅏ줘ગ거",
+            "startedAt": "2026-05-22",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:11+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1889701115321030",
+            "advertiser": "입 벌려 보충제 들어간다",
+            "startedAt": "2026-08-14",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:11+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1316602263878266",
+            "advertiser": "입 벌려 보충제 들어간다",
+            "startedAt": "2026-08-14",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:11+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27430482753239390",
+            "advertiser": "⋌ㅏ줘ગ거",
+            "startedAt": "2026-06-12",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:10+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1283595406913598",
+            "advertiser": "나만 아는 근뿜 상식",
+            "startedAt": "2026-06-22",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:10+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1143843211307226",
+            "advertiser": "ㅇㄹㅇㄹ",
+            "startedAt": "2026-09-28",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:10+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1750482846209196",
+            "advertiser": "ㅇㄹㅇㄹ",
+            "startedAt": "2026-09-29",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:09+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2172091747057458",
+            "advertiser": "이 시대의 가장 완벽한 단백질",
+            "startedAt": "2026-09-29",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:01+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1522964262931656",
+            "advertiser": "등근육의 신",
+            "startedAt": "2026-09-28",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:01+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1093789010291877",
+            "advertiser": "NS_official",
+            "startedAt": "2026-09-28",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:55:00+00:00",
+            "lastCollectedAt": "2026-10-08T20:55:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2376869273119572",
+            "advertiser": "BUP :: Beyond Your Power",
+            "startedAt": "2026-09-28",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:59+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1738323544386429",
+            "advertiser": "ㅇㄹㅇㄹ",
+            "startedAt": "2026-09-28",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:57+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1589166789571997",
+            "advertiser": "오늘도 보충제",
+            "startedAt": "2026-09-22",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:57+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1089431913823168",
+            "advertiser": "보충제업업",
+            "startedAt": "2026-09-16",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:57+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28635915029355043",
+            "advertiser": "근테크 끝판왕",
+            "startedAt": "2026-09-01",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:56+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1118551860743438",
+            "advertiser": "기몽기",
+            "startedAt": "2026-09-29",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:56+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1058644423708096",
+            "advertiser": "ㄴㅇ2ㄴ",
+            "startedAt": "2026-09-29",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:55+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1779867463042949",
+            "advertiser": "NS_official",
+            "startedAt": "2026-09-08",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:48+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1472744811208636",
+            "advertiser": "쨍쨍한 정보들",
+            "startedAt": "2026-07-05",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:48+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1551399590333690",
+            "advertiser": "ㄴㅇ2ㄴ",
+            "startedAt": "2026-09-17",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:47+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1082135927937966",
+            "advertiser": "DA",
+            "startedAt": "2026-09-08",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:46+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1065759072969772",
+            "advertiser": "NS_official",
+            "startedAt": "2026-09-10",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:46+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "872453302539560",
+            "advertiser": "도리도리맛도리",
+            "startedAt": "2026-05-21",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:45+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1392843735527511",
+            "advertiser": "쨍쨍한 정보들",
+            "startedAt": "2026-09-03",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:45+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "959867883811853",
+            "advertiser": "NS_official",
+            "startedAt": "2026-09-01",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:44+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4515339875371699",
+            "advertiser": "이 시대의 가장 완벽한 단백질",
+            "startedAt": "2026-09-22",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:43+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1871084513868113",
+            "advertiser": "NS_official",
+            "startedAt": "2026-09-02",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:43+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2914073372292547",
+            "advertiser": "이 시대의 가장 완벽한 단백질",
+            "startedAt": "2026-09-22",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:36+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1391949779071109",
+            "advertiser": "NS_official",
+            "startedAt": "2026-09-14",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:36+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1642053917438908",
+            "advertiser": "이 시대의 가장 완벽한 단백질",
+            "startedAt": "2026-09-03",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:35+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1578608710438958",
+            "advertiser": "이 시대의 가장 완벽한 단백질",
+            "startedAt": "2026-08-04",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:35+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1548234443162136",
+            "advertiser": "득근 딱 대",
+            "startedAt": "2026-09-04",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:35+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1094794749637538",
+            "advertiser": "쨍쨍한 정보들",
+            "startedAt": "2026-09-04",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:35+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1005340188795151",
+            "advertiser": "입 벌려 보충제 들어간다",
+            "startedAt": "2026-07-02",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:35+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "925806673110609",
+            "advertiser": "쨍쨍한 정보들",
+            "startedAt": "2026-07-27",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:34+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1062140306671812",
+            "advertiser": "쨍쨍한 정보들",
+            "startedAt": "2026-09-04",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:34+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1058290116891899",
+            "advertiser": "NS_official",
+            "startedAt": "2026-07-21",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:34+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1782801936423592",
+            "advertiser": "쨍쨍한 정보들",
+            "startedAt": "2026-06-01",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:29+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1135681502083588",
+            "advertiser": "당신은 행운아",
+            "startedAt": "2026-05-13",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:29+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1944089266286581",
+            "advertiser": "이 시대의 가장 완벽한 단백질",
+            "startedAt": "2026-05-22",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:27+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1501380141722602",
+            "advertiser": "NS_official",
+            "startedAt": "2026-04-27",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:27+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "25853200801023391",
+            "advertiser": "NS_official",
+            "startedAt": "2026-05-05",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:25+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1504353821176925",
+            "advertiser": "보충제업업",
+            "startedAt": "2026-06-02",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:24+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1350514173799442",
+            "advertiser": "NS_official",
+            "startedAt": "2026-05-10",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:23+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "977147104701434",
+            "advertiser": "NS_official",
+            "startedAt": "2026-05-19",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:22+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1906116636690207",
+            "advertiser": "입 벌려 보충제 들어간다",
+            "startedAt": "2026-04-16",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:22+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "870825218747054",
+            "advertiser": "NS_official",
+            "startedAt": "2025-11-25",
+            "query": "ns프로틴",
+            "firstCollectedAt": "2026-10-08T20:54:20+00:00",
+            "lastCollectedAt": "2026-10-08T20:54:20+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T20:55:22+00:00",
+        "advertisers": [
+          {
+            "name": "NS_official",
+            "adCount": 12
+          },
+          {
+            "name": "이 시대의 가장 완벽한 단백질",
+            "adCount": 8
+          },
+          {
+            "name": "입 벌려 보충제 들어간다",
+            "adCount": 6
+          },
+          {
+            "name": "쨍쨍한 정보들",
+            "adCount": 6
+          },
+          {
+            "name": "ㅇㄹㅇㄹ",
+            "adCount": 3
+          },
+          {
+            "name": "보충제업업",
+            "adCount": 3
+          },
+          {
+            "name": "오늘도 보충제",
+            "adCount": 3
+          },
+          {
+            "name": "DA",
+            "adCount": 2
+          },
+          {
+            "name": "⋌ㅏ줘ગ거",
+            "adCount": 2
+          },
+          {
+            "name": "ㄴㅇ2ㄴ",
+            "adCount": 2
+          },
+          {
+            "name": "등근육의 신",
+            "adCount": 2
+          },
+          {
+            "name": "1jun_first",
+            "adCount": 1
+          },
+          {
+            "name": "3대 499.9kg 한계",
+            "adCount": 1
+          },
+          {
+            "name": "BUP :: Beyond Your Power",
+            "adCount": 1
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 1
+          },
+          {
+            "name": "근테크 끝판왕",
+            "adCount": 1
+          },
+          {
+            "name": "기몽기",
+            "adCount": 1
+          },
+          {
+            "name": "나만 아는 근뿜 상식",
+            "adCount": 1
+          },
+          {
+            "name": "당신은 행운아",
+            "adCount": 1
+          },
+          {
+            "name": "도리도리맛도리",
+            "adCount": 1
+          },
+          {
+            "name": "득근 딱 대",
+            "adCount": 1
+          },
+          {
+            "name": "정보 주머니",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
