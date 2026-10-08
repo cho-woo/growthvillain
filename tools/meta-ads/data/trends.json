@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T11:41:23+00:00",
+  "updatedAt": "2026-10-08T11:44:20+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-08T01:24:46+00:00",
@@ -41,8 +41,8 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 26,
-    "dailyRemaining": 262,
+    "dailyUsed": 27,
+    "dailyRemaining": 261,
     "pending": 1,
     "nextDispatchAt": null,
     "metaAutoEnabled": true,
@@ -457,17 +457,334 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "631327d2f460dfbaccf4bcc4992e74327fd148471487e1b58724a418331fd626",
       "searchQuery": "nmn영양제",
       "adEvidence": {
         "query": "nmn영양제",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 27,
+        "adIds": [
+          "1819363702869263",
+          "1733477991051594",
+          "1074444762250415",
+          "1829344558063910",
+          "1081973614837930",
+          "1418180780508531",
+          "961837873016463",
+          "2567096780463293",
+          "1450689676930502",
+          "1368005592173509",
+          "2172318910332731",
+          "1421341379374433",
+          "4019645134996362",
+          "4494053660909626",
+          "1756840202129260",
+          "3546117425551749",
+          "1598997611690139",
+          "1101419795704909",
+          "1524214326046715",
+          "1083422791327792",
+          "956167060528480",
+          "2418611388669539",
+          "1828522721639443",
+          "1582024153634982",
+          "2038468593764544",
+          "1851626029332206",
+          "1541113990861969"
+        ],
+        "ads": [
+          {
+            "id": "1819363702869263",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-10-07",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:59+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:59+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1733477991051594",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-10-08",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:59+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:59+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1074444762250415",
+            "advertiser": "EGA 에가",
+            "startedAt": "2026-10-07",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:59+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:59+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1829344558063910",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-10-08",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:58+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:58+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1081973614837930",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-10-08",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:58+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:58+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1418180780508531",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-10-08",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:57+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:57+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "961837873016463",
+            "advertiser": "Naaamyuuu",
+            "startedAt": "2026-10-06",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:56+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:56+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2567096780463293",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-10-07",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:45+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:45+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1450689676930502",
+            "advertiser": "Moreilil",
+            "startedAt": "2026-09-30",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:45+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1368005592173509",
+            "advertiser": "Life Heath 10001",
+            "startedAt": "2026-08-17",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:45+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2172318910332731",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-09-28",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:44+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1421341379374433",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-10-01",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:44+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:44+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4019645134996362",
+            "advertiser": "백살구",
+            "startedAt": "2026-10-02",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:43+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4494053660909626",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-09-23",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:42+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1756840202129260",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-09-18",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:42+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3546117425551749",
+            "advertiser": "ROKIT America",
+            "startedAt": "2026-07-29",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:41+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1598997611690139",
+            "advertiser": "EGA 에가",
+            "startedAt": "2026-09-11",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:41+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1101419795704909",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-10-01",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:37+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:37+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1524214326046715",
+            "advertiser": "Life Heath 10001",
+            "startedAt": "2026-08-12",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:36+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1083422791327792",
+            "advertiser": "Hej_j_1212",
+            "startedAt": "2026-09-16",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:36+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "956167060528480",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-01",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:35+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2418611388669539",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-09-10",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:35+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1828522721639443",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-09-11",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:35+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1582024153634982",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-07-08",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:35+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2038468593764544",
+            "advertiser": "건기남",
+            "startedAt": "2026-06-14",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:34+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1851626029332206",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-09-18",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:34+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1541113990861969",
+            "advertiser": "והב אותך",
+            "startedAt": "2026-05-28",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:33+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:33+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T11:43:59+00:00",
+        "advertisers": [
+          {
+            "name": "면역력 연구소",
+            "adCount": 15
+          },
+          {
+            "name": "EGA 에가",
+            "adCount": 2
+          },
+          {
+            "name": "Life Heath 10001",
+            "adCount": 2
+          },
+          {
+            "name": "Hej_j_1212",
+            "adCount": 1
+          },
+          {
+            "name": "Moreilil",
+            "adCount": 1
+          },
+          {
+            "name": "Naaamyuuu",
+            "adCount": 1
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 1
+          },
+          {
+            "name": "ROKIT America",
+            "adCount": 1
+          },
+          {
+            "name": "והב אותך",
+            "adCount": 1
+          },
+          {
+            "name": "건기남",
+            "adCount": 1
+          },
+          {
+            "name": "백살구",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -2031,7 +2348,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "queued",
       "keywordId": "2c6a8e2921165a5b58c932f9f52f9272c8f803d54ac24ff8bc25e9a0ce7416a9",
       "searchQuery": "오일만클렌즈",
       "adEvidence": {
@@ -2388,7 +2705,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T01:24:46+00:00",
       "lastObservedAt": "2026-10-08T01:24:46+00:00",
-      "state": "ready",
+      "state": "queued",
       "keywordId": "2c6a8e2921165a5b58c932f9f52f9272c8f803d54ac24ff8bc25e9a0ce7416a9",
       "searchQuery": "오일만클렌즈",
       "adEvidence": {
@@ -3839,17 +4156,334 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-08T01:24:15+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "631327d2f460dfbaccf4bcc4992e74327fd148471487e1b58724a418331fd626",
       "searchQuery": "nmn영양제",
       "adEvidence": {
         "query": "nmn영양제",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 27,
+        "adIds": [
+          "1819363702869263",
+          "1733477991051594",
+          "1074444762250415",
+          "1829344558063910",
+          "1081973614837930",
+          "1418180780508531",
+          "961837873016463",
+          "2567096780463293",
+          "1450689676930502",
+          "1368005592173509",
+          "2172318910332731",
+          "1421341379374433",
+          "4019645134996362",
+          "4494053660909626",
+          "1756840202129260",
+          "3546117425551749",
+          "1598997611690139",
+          "1101419795704909",
+          "1524214326046715",
+          "1083422791327792",
+          "956167060528480",
+          "2418611388669539",
+          "1828522721639443",
+          "1582024153634982",
+          "2038468593764544",
+          "1851626029332206",
+          "1541113990861969"
+        ],
+        "ads": [
+          {
+            "id": "1819363702869263",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-10-07",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:59+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:59+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1733477991051594",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-10-08",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:59+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:59+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1074444762250415",
+            "advertiser": "EGA 에가",
+            "startedAt": "2026-10-07",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:59+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:59+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1829344558063910",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-10-08",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:58+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:58+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1081973614837930",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-10-08",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:58+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:58+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1418180780508531",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-10-08",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:57+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:57+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "961837873016463",
+            "advertiser": "Naaamyuuu",
+            "startedAt": "2026-10-06",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:56+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:56+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2567096780463293",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-10-07",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:45+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:45+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1450689676930502",
+            "advertiser": "Moreilil",
+            "startedAt": "2026-09-30",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:45+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1368005592173509",
+            "advertiser": "Life Heath 10001",
+            "startedAt": "2026-08-17",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:45+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2172318910332731",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-09-28",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:44+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1421341379374433",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-10-01",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:44+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:44+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4019645134996362",
+            "advertiser": "백살구",
+            "startedAt": "2026-10-02",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:43+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4494053660909626",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-09-23",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:42+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1756840202129260",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-09-18",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:42+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3546117425551749",
+            "advertiser": "ROKIT America",
+            "startedAt": "2026-07-29",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:41+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1598997611690139",
+            "advertiser": "EGA 에가",
+            "startedAt": "2026-09-11",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:41+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1101419795704909",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-10-01",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:37+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:37+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1524214326046715",
+            "advertiser": "Life Heath 10001",
+            "startedAt": "2026-08-12",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:36+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1083422791327792",
+            "advertiser": "Hej_j_1212",
+            "startedAt": "2026-09-16",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:36+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "956167060528480",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-01",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:35+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2418611388669539",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-09-10",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:35+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1828522721639443",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-09-11",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:35+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1582024153634982",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-07-08",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:35+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2038468593764544",
+            "advertiser": "건기남",
+            "startedAt": "2026-06-14",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:34+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1851626029332206",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-09-18",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:34+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1541113990861969",
+            "advertiser": "והב אותך",
+            "startedAt": "2026-05-28",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:33+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:33+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T11:43:59+00:00",
+        "advertisers": [
+          {
+            "name": "면역력 연구소",
+            "adCount": 15
+          },
+          {
+            "name": "EGA 에가",
+            "adCount": 2
+          },
+          {
+            "name": "Life Heath 10001",
+            "adCount": 2
+          },
+          {
+            "name": "Hej_j_1212",
+            "adCount": 1
+          },
+          {
+            "name": "Moreilil",
+            "adCount": 1
+          },
+          {
+            "name": "Naaamyuuu",
+            "adCount": 1
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 1
+          },
+          {
+            "name": "ROKIT America",
+            "adCount": 1
+          },
+          {
+            "name": "והב אותך",
+            "adCount": 1
+          },
+          {
+            "name": "건기남",
+            "adCount": 1
+          },
+          {
+            "name": "백살구",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -5426,11 +6060,328 @@
       "adEvidence": {
         "query": "nmn영양제",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 27,
+        "adIds": [
+          "1819363702869263",
+          "1733477991051594",
+          "1074444762250415",
+          "1829344558063910",
+          "1081973614837930",
+          "1418180780508531",
+          "961837873016463",
+          "2567096780463293",
+          "1450689676930502",
+          "1368005592173509",
+          "2172318910332731",
+          "1421341379374433",
+          "4019645134996362",
+          "4494053660909626",
+          "1756840202129260",
+          "3546117425551749",
+          "1598997611690139",
+          "1101419795704909",
+          "1524214326046715",
+          "1083422791327792",
+          "956167060528480",
+          "2418611388669539",
+          "1828522721639443",
+          "1582024153634982",
+          "2038468593764544",
+          "1851626029332206",
+          "1541113990861969"
+        ],
+        "ads": [
+          {
+            "id": "1819363702869263",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-10-07",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:59+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:59+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1733477991051594",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-10-08",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:59+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:59+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1074444762250415",
+            "advertiser": "EGA 에가",
+            "startedAt": "2026-10-07",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:59+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:59+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1829344558063910",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-10-08",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:58+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:58+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1081973614837930",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-10-08",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:58+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:58+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1418180780508531",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-10-08",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:57+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:57+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "961837873016463",
+            "advertiser": "Naaamyuuu",
+            "startedAt": "2026-10-06",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:56+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:56+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2567096780463293",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-10-07",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:45+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:45+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1450689676930502",
+            "advertiser": "Moreilil",
+            "startedAt": "2026-09-30",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:45+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:45+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1368005592173509",
+            "advertiser": "Life Heath 10001",
+            "startedAt": "2026-08-17",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:45+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2172318910332731",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-09-28",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:44+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1421341379374433",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-10-01",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:44+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:44+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4019645134996362",
+            "advertiser": "백살구",
+            "startedAt": "2026-10-02",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:43+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4494053660909626",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-09-23",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:42+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1756840202129260",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-09-18",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:42+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3546117425551749",
+            "advertiser": "ROKIT America",
+            "startedAt": "2026-07-29",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:41+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1598997611690139",
+            "advertiser": "EGA 에가",
+            "startedAt": "2026-09-11",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:41+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1101419795704909",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-10-01",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:37+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:37+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1524214326046715",
+            "advertiser": "Life Heath 10001",
+            "startedAt": "2026-08-12",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:36+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1083422791327792",
+            "advertiser": "Hej_j_1212",
+            "startedAt": "2026-09-16",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:36+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "956167060528480",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-01",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:35+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2418611388669539",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-09-10",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:35+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1828522721639443",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-09-11",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:35+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1582024153634982",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-07-08",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:35+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2038468593764544",
+            "advertiser": "건기남",
+            "startedAt": "2026-06-14",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:34+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1851626029332206",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-09-18",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:34+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1541113990861969",
+            "advertiser": "והב אותך",
+            "startedAt": "2026-05-28",
+            "query": "nmn영양제",
+            "firstCollectedAt": "2026-10-08T11:43:33+00:00",
+            "lastCollectedAt": "2026-10-08T11:43:33+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T11:43:59+00:00",
+        "advertisers": [
+          {
+            "name": "면역력 연구소",
+            "adCount": 15
+          },
+          {
+            "name": "EGA 에가",
+            "adCount": 2
+          },
+          {
+            "name": "Life Heath 10001",
+            "adCount": 2
+          },
+          {
+            "name": "Hej_j_1212",
+            "adCount": 1
+          },
+          {
+            "name": "Moreilil",
+            "adCount": 1
+          },
+          {
+            "name": "Naaamyuuu",
+            "adCount": 1
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 1
+          },
+          {
+            "name": "ROKIT America",
+            "adCount": 1
+          },
+          {
+            "name": "והב אותך",
+            "adCount": 1
+          },
+          {
+            "name": "건기남",
+            "adCount": 1
+          },
+          {
+            "name": "백살구",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
