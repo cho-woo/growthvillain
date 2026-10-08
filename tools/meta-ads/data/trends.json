@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T13:50:37+00:00",
+  "updatedAt": "2026-10-08T13:55:37+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-08T01:24:46+00:00",
@@ -41,22 +41,22 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 29,
-    "dailyRemaining": 259,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-08T13:55:36+00:00",
+    "dailyUsed": 30,
+    "dailyRemaining": 258,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
-    "enabled": false,
+    "enabled": true,
     "collectionGuard": {
-      "state": "blocked",
-      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
-      "nextAllowedAt": "2026-10-08T13:55:36+00:00",
-      "blockedUntil": "2026-10-08T13:55:36+00:00",
+      "state": "ready",
+      "reason": null,
+      "nextAllowedAt": null,
+      "blockedUntil": null,
       "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
+    "pausedReason": null
   },
   "settings": {
     "category": "50000023",
@@ -838,7 +838,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "queued",
       "keywordId": "a33445ed53dfd0d017e06b28260c81930d5bc1168d1fe2413d32be8644302d2b",
       "searchQuery": "뼈엔엠비피mbp",
       "adEvidence": {
@@ -4508,7 +4508,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-08T01:24:15+00:00",
-      "state": "ready",
+      "state": "queued",
       "keywordId": "a33445ed53dfd0d017e06b28260c81930d5bc1168d1fe2413d32be8644302d2b",
       "searchQuery": "뼈엔엠비피mbp",
       "adEvidence": {
