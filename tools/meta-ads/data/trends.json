@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T16:33:41+00:00",
+  "updatedAt": "2026-10-08T16:36:54+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-08T15:52:05+00:00",
@@ -41,22 +41,22 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 5,
-    "dailyRemaining": 283,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "dailyUsed": 6,
+    "dailyRemaining": 282,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-08T17:36:54+00:00",
     "metaAutoEnabled": true,
-    "enabled": true,
+    "enabled": false,
     "collectionGuard": {
-      "state": "ready",
-      "reason": null,
-      "nextAllowedAt": null,
-      "blockedUntil": null,
-      "blockStreak": 0,
+      "state": "blocked",
+      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
+      "nextAllowedAt": "2026-10-08T17:36:54+00:00",
+      "blockedUntil": "2026-10-08T17:36:54+00:00",
+      "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": null
+    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
   },
   "settings": {
     "category": "50000023",
@@ -3133,17 +3133,86 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "bcf536dd1867b7bab597855a08ef29f72e5b6f42e81a4209905d4bcd3ee0a444",
       "searchQuery": "올록담올리브3",
       "adEvidence": {
         "query": "올록담올리브3",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 5,
+        "adIds": [
+          "2500331927082232",
+          "1853256589420708",
+          "3238127929690705",
+          "1406248940926679",
+          "1080270684886991"
+        ],
+        "ads": [
+          {
+            "id": "2500331927082232",
+            "advertiser": "올록담",
+            "startedAt": "2026-07-07",
+            "query": "올록담올리브3",
+            "firstCollectedAt": "2026-10-08T16:36:03+00:00",
+            "lastCollectedAt": "2026-10-08T16:36:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1853256589420708",
+            "advertiser": "20대 뭐 하지?",
+            "startedAt": "2026-09-20",
+            "query": "올록담올리브3",
+            "firstCollectedAt": "2026-10-08T16:36:02+00:00",
+            "lastCollectedAt": "2026-10-08T16:36:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3238127929690705",
+            "advertiser": "올록담",
+            "startedAt": "2026-07-31",
+            "query": "올록담올리브3",
+            "firstCollectedAt": "2026-10-08T16:36:01+00:00",
+            "lastCollectedAt": "2026-10-08T16:36:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1406248940926679",
+            "advertiser": "올리브 연구소",
+            "startedAt": "2026-09-22",
+            "query": "올록담올리브3",
+            "firstCollectedAt": "2026-10-08T16:36:00+00:00",
+            "lastCollectedAt": "2026-10-08T16:36:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1080270684886991",
+            "advertiser": "여름빵학",
+            "startedAt": "2026-09-28",
+            "query": "올록담올리브3",
+            "firstCollectedAt": "2026-10-08T16:36:00+00:00",
+            "lastCollectedAt": "2026-10-08T16:36:00+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T16:36:03+00:00",
+        "advertisers": [
+          {
+            "name": "올록담",
+            "adCount": 2
+          },
+          {
+            "name": "20대 뭐 하지?",
+            "adCount": 1
+          },
+          {
+            "name": "여름빵학",
+            "adCount": 1
+          },
+          {
+            "name": "올리브 연구소",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
@@ -3404,7 +3473,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "failed",
       "keywordId": "f154eb3cad43de08e0ec36fd379c1210359a737f7257fddbdfb7b66535eb7a78",
       "searchQuery": "애터미헤모힘",
       "adEvidence": {
@@ -8535,17 +8604,86 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-08T15:51:22+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "bcf536dd1867b7bab597855a08ef29f72e5b6f42e81a4209905d4bcd3ee0a444",
       "searchQuery": "올록담올리브3",
       "adEvidence": {
         "query": "올록담올리브3",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 5,
+        "adIds": [
+          "2500331927082232",
+          "1853256589420708",
+          "3238127929690705",
+          "1406248940926679",
+          "1080270684886991"
+        ],
+        "ads": [
+          {
+            "id": "2500331927082232",
+            "advertiser": "올록담",
+            "startedAt": "2026-07-07",
+            "query": "올록담올리브3",
+            "firstCollectedAt": "2026-10-08T16:36:03+00:00",
+            "lastCollectedAt": "2026-10-08T16:36:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1853256589420708",
+            "advertiser": "20대 뭐 하지?",
+            "startedAt": "2026-09-20",
+            "query": "올록담올리브3",
+            "firstCollectedAt": "2026-10-08T16:36:02+00:00",
+            "lastCollectedAt": "2026-10-08T16:36:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3238127929690705",
+            "advertiser": "올록담",
+            "startedAt": "2026-07-31",
+            "query": "올록담올리브3",
+            "firstCollectedAt": "2026-10-08T16:36:01+00:00",
+            "lastCollectedAt": "2026-10-08T16:36:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1406248940926679",
+            "advertiser": "올리브 연구소",
+            "startedAt": "2026-09-22",
+            "query": "올록담올리브3",
+            "firstCollectedAt": "2026-10-08T16:36:00+00:00",
+            "lastCollectedAt": "2026-10-08T16:36:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1080270684886991",
+            "advertiser": "여름빵학",
+            "startedAt": "2026-09-28",
+            "query": "올록담올리브3",
+            "firstCollectedAt": "2026-10-08T16:36:00+00:00",
+            "lastCollectedAt": "2026-10-08T16:36:00+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T16:36:03+00:00",
+        "advertisers": [
+          {
+            "name": "올록담",
+            "adCount": 2
+          },
+          {
+            "name": "20대 뭐 하지?",
+            "adCount": 1
+          },
+          {
+            "name": "여름빵학",
+            "adCount": 1
+          },
+          {
+            "name": "올리브 연구소",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
@@ -11798,7 +11936,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-08T15:51:22+00:00",
-      "state": "backlog",
+      "state": "failed",
       "keywordId": "f154eb3cad43de08e0ec36fd379c1210359a737f7257fddbdfb7b66535eb7a78",
       "searchQuery": "애터미헤모힘",
       "adEvidence": {
