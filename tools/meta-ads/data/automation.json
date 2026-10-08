@@ -1,36 +1,46 @@
 {
   "mode": "snapshot",
-  "updatedAt": "2026-10-08T01:26:34+00:00",
+  "updatedAt": "2026-10-08T01:50:06+00:00",
   "automations": [
     {
       "id": "meta-ads",
       "name": "메타 광고",
-      "enabled": true,
+      "enabled": false,
       "running": false,
-      "state": "waiting",
-      "nextRunAt": "2026-10-08T03:15:43+00:00",
+      "state": "off",
+      "nextRunAt": null,
       "lastSuccessAt": "2026-10-07T21:16:29+00:00",
       "lastAttemptAt": "2026-10-07T21:16:09+00:00",
       "message": "광고 라이브러리 수집 예약",
-      "intervalSeconds": 21600,
-      "statusCheckIntervalSeconds": 3600,
+      "intervalSeconds": 3600,
+      "statusCheckIntervalSeconds": 900,
       "statusCheckBatchSize": 10,
-      "nextStatusCheckAt": "2026-10-08T02:21:30+00:00"
+      "nextStatusCheckAt": null,
+      "collectionGuard": {
+        "state": "ready",
+        "reason": null,
+        "nextAllowedAt": null,
+        "blockedUntil": null,
+        "blockStreak": 0,
+        "storageReady": true,
+        "minimumFreeBytes": 5368709120
+      }
     },
     {
       "id": "naver-trends",
       "name": "네이버 급상승",
-      "enabled": true,
+      "enabled": false,
       "running": false,
-      "state": "waiting",
-      "nextRunAt": "2026-10-08T02:25:13+00:00",
+      "state": "off",
+      "nextRunAt": null,
       "lastSuccessAt": "2026-10-08T01:24:46+00:00",
       "lastAttemptAt": null,
       "message": "1시간마다 확인 · 일간 순위 기준",
       "intervalSeconds": 3600,
       "statusCheckIntervalSeconds": null,
       "statusCheckBatchSize": null,
-      "nextStatusCheckAt": null
+      "nextStatusCheckAt": null,
+      "collectionGuard": null
     },
     {
       "id": "food-blog",
@@ -45,7 +55,8 @@
       "intervalSeconds": null,
       "statusCheckIntervalSeconds": null,
       "statusCheckBatchSize": null,
-      "nextStatusCheckAt": null
+      "nextStatusCheckAt": null,
+      "collectionGuard": null
     },
     {
       "id": "beauty-blog",
@@ -60,7 +71,8 @@
       "intervalSeconds": null,
       "statusCheckIntervalSeconds": null,
       "statusCheckBatchSize": null,
-      "nextStatusCheckAt": null
+      "nextStatusCheckAt": null,
+      "collectionGuard": null
     },
     {
       "id": "lifestyle-blog",
@@ -75,7 +87,8 @@
       "intervalSeconds": null,
       "statusCheckIntervalSeconds": null,
       "statusCheckBatchSize": null,
-      "nextStatusCheckAt": null
+      "nextStatusCheckAt": null,
+      "collectionGuard": null
     },
     {
       "id": "oliveyoung",
@@ -90,14 +103,15 @@
       "intervalSeconds": 86400,
       "statusCheckIntervalSeconds": null,
       "statusCheckBatchSize": null,
-      "nextStatusCheckAt": null
+      "nextStatusCheckAt": null,
+      "collectionGuard": null
     }
   ],
   "publication": {
-    "state": "synced",
-    "lastAttemptAt": "2026-10-08T01:25:11+00:00",
-    "lastSuccessAt": "2026-10-08T01:25:15+00:00",
+    "state": "idle",
+    "lastAttemptAt": "2026-10-08T01:26:34+00:00",
+    "lastSuccessAt": "2026-10-08T01:26:38+00:00",
     "error": null,
-    "enabled": true
+    "enabled": false
   }
 }
