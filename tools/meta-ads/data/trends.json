@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T23:02:44+00:00",
+  "updatedAt": "2026-10-08T23:06:14+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-08T23:02:44+00:00",
@@ -41,22 +41,22 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 19,
-    "dailyRemaining": 269,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-08T23:06:09+00:00",
+    "dailyUsed": 20,
+    "dailyRemaining": 268,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
-    "enabled": false,
+    "enabled": true,
     "collectionGuard": {
-      "state": "blocked",
-      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
-      "nextAllowedAt": "2026-10-08T23:06:09+00:00",
-      "blockedUntil": "2026-10-08T23:06:09+00:00",
+      "state": "ready",
+      "reason": null,
+      "nextAllowedAt": null,
+      "blockedUntil": null,
       "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
+    "pausedReason": null
   },
   "settings": {
     "category": "50000023",
@@ -5832,7 +5832,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "94bb2907bbb070b2089b9e01de7d82c32d045c621462ddab52687c012f9f5a8f",
       "searchQuery": "뉴케어당플랜",
       "adEvidence": {
@@ -16705,7 +16705,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-08T23:02:01+00:00",
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "94bb2907bbb070b2089b9e01de7d82c32d045c621462ddab52687c012f9f5a8f",
       "searchQuery": "뉴케어당플랜",
       "adEvidence": {
@@ -30703,7 +30703,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "backlog",
+      "state": "cooldown",
       "keywordId": "94bb2907bbb070b2089b9e01de7d82c32d045c621462ddab52687c012f9f5a8f",
       "searchQuery": "뉴케어당플랜",
       "adEvidence": {
