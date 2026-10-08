@@ -1,3 +1,4 @@
+import {collectionPolicyText} from './trend-policy.mjs';
 import {categoryName,scopeRows,observationKey,categorySources,fixedSettings,notesForCategory} from './trend-scope.mjs';
 import {periodDays,rankChange} from './monitoring.mjs';
 import {linkedAds,summarizeKeyword,startTiming,copyMentionsKeyword,metaSearchUrl,matchingInvestigation} from './keyword-evidence.mjs';
@@ -54,7 +55,7 @@ function render(value){
   const connected=rows.filter(c=>(c.adEvidence?.adCount||linkedAds(getCards(),c).length)>0).length;
   $('#trend-candidate-count').textContent=rows.length;$('#trend-linked-count').textContent=connected;$('#trend-history-count').textContent=history.length;
   const policy=value.collectionPolicy;
-  $('#trend-policy').textContent=policy?`미수집 키워드부터 순차 검색 · ${policy.maxDailyQueries}개/일 · 키워드당 최대 ${policy.maxAdsPerQuery}개 광고 · 최소 ${Math.round(policy.intervalSeconds/60)}분 간격 · 오늘 ${policy.dailyUsed||0}개 진행 / ${policy.dailyRemaining??'—'}개 남음${policy.nextDispatchAt?` · 다음 검색 ${datetime(policy.nextDispatchAt)}`:''}${policy.metaAutoEnabled===false?' · 메타 자동 수집 OFF':''}`:'급상승 키워드를 순서대로 수집합니다. 수집한 결과부터 소재가 연결됩니다.';
+  $('#trend-policy').textContent=collectionPolicyText(policy,{trendEnabled:value.autoEnabled,formatTime:datetime});
   const sources=categorySources(value);
   $('#trend-source-date').textContent=sources.map(source=>`${source.categoryName} ${source.sourceDate||'수집 대기'}`).join('\n');
   const sourceStatus=$('#trend-source-status');sourceStatus.replaceChildren();
@@ -77,7 +78,7 @@ function render(value){
     const direct=el('a','text-button','Meta 검색 ↗');direct.href=metaSearchUrl(c.searchQuery||c.keyword);direct.target='_blank';direct.rel='noopener noreferrer';actions.append(direct);
     const labels={queued:'광고 검색 대기·진행 중',cooldown:'최근 검색한 키워드',done:'광고 검색 완료',failed:'광고 검색 실패',stale:'순위 갱신 필요',ready:'자동 검색 차례 대기',backlog:'과거 상승 · 수집 대기'};
     if(c.state)actions.append(el('span','trend-state',labels[c.state]||c.state));
-    if(local){const b=button(c.state==='failed'?'광고 다시 수집':'지금 광고 수집',()=>action('/trends/collect',{dispatchKey:c.dispatchKey,limit:20}),true);b.disabled=['queued','cooldown','done','stale'].includes(c.state)||!c.dispatchKey;actions.append(b);}
+    if(local){const b=button(c.state==='failed'?'광고 다시 수집':'지금 광고 수집',()=>action('/trends/collect',{dispatchKey:c.dispatchKey,limit:100}),true);b.disabled=['queued','cooldown','done','stale'].includes(c.state)||!c.dispatchKey;actions.append(b);}
     row.append(identity,rank,actions);container.append(row);
   }
   if(!rows.length)container.append(el('div','trend-empty',last?'이번 비교에서 기준을 충족한 상승 후보가 없습니다. 누적 기록은 계속 보관됩니다.':'첫 수집이 완료되면 이전·현재 순위를 비교해 표시합니다.'));
@@ -126,7 +127,7 @@ function renderInvestigation(){
   const actions=$('#keyword-investigation-actions');actions.replaceChildren();
   const search=el('a','button compact','Meta에서 이 키워드 검색 ↗');search.href=metaSearchUrl(summary.query);search.target='_blank';search.rel='noopener noreferrer';actions.append(search);
   if(summary.ads.length)actions.append(researchButton(`연결 광고 ${summary.ads.length}개 전체 보기 ↓`,()=>showAds(selected)));
-  if(local&&selected.dispatchKey&&['ready','backlog','failed'].includes(selected.state))actions.append(researchButton('이 키워드 광고 수집',()=>action('/trends/collect',{dispatchKey:selected.dispatchKey,limit:20})));
+  if(local&&selected.dispatchKey&&['ready','backlog','failed'].includes(selected.state))actions.append(researchButton('이 키워드 광고 수집',()=>action('/trends/collect',{dispatchKey:selected.dispatchKey,limit:100})));
   const dates=summary.ads.map(card=>card.collectedAt).filter(Boolean).sort();
   const collectedAt=selected.adEvidence?.lastCollectedAt||dates.at(-1);
   $('#keyword-evidence-source').textContent=`검색어 “${summary.query}”로 수집된 광고 · 최근 수집 ${datetime(collectedAt)} · 검색 결과 연결이며 상승 원인으로 확정된 자료는 아닙니다.`;

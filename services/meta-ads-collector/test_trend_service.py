@@ -114,7 +114,8 @@ class TrendServiceTests(unittest.TestCase):
             self.service.collect(self.candidate()['dispatchKey'])
         self.assertEqual(len(self.store.jobs()), 1)
 
-    def test_auto_is_opt_in_one_at_a_time_and_total_is_five_keywords_per_day(self):
+    @patch('trend_service.DAILY_QUERY_LIMIT', 5)
+    def test_auto_is_opt_in_one_at_a_time_and_respects_configured_daily_cap(self):
         names = tuple(f'브랜드{i}' for i in range(8))
         self.seed(names=names)
         self.assertEqual(self.service.dispatch_ready(), 0)
@@ -604,7 +605,7 @@ class TrendServiceTests(unittest.TestCase):
         with patch.object(self.store, 'enqueue', wraps=self.store.enqueue) as enqueue, \
              patch.object(controller, 'execute'), patch.object(controller.stop_event, 'wait', side_effect=finish_iteration):
             controller.run()
-            enqueue.assert_called_once_with(manual['id'], 20)
+            enqueue.assert_called_once_with(manual['id'], 100)
         controller.stop()
         comp = self.store.competitors()[0]
         self.store.save_competitor({'name': comp['name'], 'keyword': comp['keyword']}, comp['id'])

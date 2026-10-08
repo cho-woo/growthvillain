@@ -27,9 +27,9 @@ CATEGORY_NAMES = {'50000023': '건강식품', '50000024': '다이어트식품', 
 KST = timezone(timedelta(hours=9))
 INTERVAL_SECONDS = 3600
 COMPARISON_DAYS = 7
-DAILY_QUERY_LIMIT = 5
-ADS_PER_QUERY = 20
-DISPATCH_INTERVAL_SECONDS = 900
+DAILY_QUERY_LIMIT = 288
+ADS_PER_QUERY = 100
+DISPATCH_INTERVAL_SECONDS = 300
 BACKLOG_DAYS = 14
 MAX_SOURCE_AGE_DAYS = 3
 PUBLIC_EVENT_FIELDS = ('id', 'category', 'date', 'currentDate', 'previousDate',
@@ -270,9 +270,13 @@ class TrendService:
         pending = self.store.rows("SELECT COUNT(*) AS n FROM trend_dispatches d JOIN jobs j ON j.id=d.job_id WHERE j.status IN ('queued','running')")[0]['n']
         last = self.store.rows('SELECT MAX(queued_at) AS t FROM trend_dispatches WHERE automatic=1')[0]['t'] or 0
         meta_enabled = bool(getattr(self, 'can_collect', lambda: True)())
+        guard = getattr(self, 'collection_guard', lambda: {'state': 'ready', 'storageReady': True})()
+        ready = guard['state'] == 'ready'
         next_at = None
-        if self.auto_enabled and meta_enabled and not self.stop_event.is_set() and not pending:
+        if self.auto_enabled and meta_enabled and guard['storageReady'] and not self.stop_event.is_set() and not pending:
             due = max(time.time(), last + DISPATCH_INTERVAL_SECONDS)
+            if guard.get('nextAllowedAt'):
+                due = max(due, datetime.fromisoformat(guard['nextAllowedAt']).timestamp())
             if used >= DAILY_QUERY_LIMIT:
                 due = max(due, (midnight + timedelta(days=1)).timestamp())
             next_at = datetime.fromtimestamp(due, timezone.utc).isoformat(timespec='seconds')
@@ -281,7 +285,8 @@ class TrendService:
                 'priority': 'uncollected-first-oldest-first', 'backlogDays': BACKLOG_DAYS,
                 'dailyUsed': used, 'dailyRemaining': max(0, DAILY_QUERY_LIMIT-used),
                 'pending': pending, 'nextDispatchAt': next_at, 'metaAutoEnabled': meta_enabled,
-                'enabled': self.auto_enabled and meta_enabled}
+                'enabled': self.auto_enabled and meta_enabled and ready,
+                'collectionGuard': guard, 'pausedReason': guard.get('reason')}
 
     def history(self, limit=2000, evidence=None, *, since_date=None):
         """Selected-category observations; other categories stay in the database."""
@@ -318,7 +323,7 @@ class TrendService:
         return self.history(limit=None, evidence=evidence, since_date=cutoff)
 
     def collection_candidates(self, *, all_categories=False):
-        """A dated backlog prevents a five/day cap from starving older rises."""
+        """A dated backlog keeps older uncollected rises eligible."""
         evidence = evidence_index(self.store.cards())
         combined = self.candidates(evidence) + self._backlog_history(evidence)
         latest = {}
@@ -467,6 +472,9 @@ class TrendService:
             assert_storage_available(self.store.root)
             categories = self.settings()['categories']
             candidate = next((c for c in self.candidates() + self._backlog_history() if c.get('dispatchKey') == dispatch_key), None)
+            guard = getattr(self, 'collection_guard', lambda: {'state': 'ready'})()
+            if guard['state'] != 'ready':
+                raise ValueError(guard.get('reason') or '광고 수집 대기 중입니다.')
             if automatic and not getattr(self, 'can_collect', lambda: True)():
                 raise ValueError('메타 광고 자동 수집이 OFF입니다.')
             if not candidate or candidate.get('category') not in categories:
@@ -498,7 +506,7 @@ class TrendService:
                     raise ValueError('자동 키워드 수집 한도 또는 실행 중인 작업을 확인하세요.')
                 last = self.store.rows('SELECT MAX(queued_at) AS t FROM trend_dispatches WHERE automatic=1')[0]['t'] or 0
                 if time.time() - last < DISPATCH_INTERVAL_SECONDS:
-                    raise ValueError('자동 키워드 수집은 최소 15분 간격으로 실행합니다.')
+                    raise ValueError('자동 키워드 수집은 최소 5분 간격으로 실행합니다.')
             job_id = secrets.token_hex(12)
             try:
                 self.store.db.execute('INSERT INTO jobs(id,competitor_id,name,keyword,domain,max_ads,status,requested_at) VALUES(?,?,?,?,?,?,?,?)',
@@ -517,7 +525,7 @@ class TrendService:
             if not getattr(self, 'can_collect', lambda: True)() or not self.auto_enabled or self.stop_event.is_set():
                 return 0
             policy = self.collection_policy()
-            if policy['dailyRemaining'] <= 0 or policy['pending']:
+            if not policy['enabled'] or policy['dailyRemaining'] <= 0 or policy['pending']:
                 return 0
             last = self.store.rows('SELECT MAX(queued_at) AS t FROM trend_dispatches WHERE automatic=1')[0]['t'] or 0
             if time.time() - last < DISPATCH_INTERVAL_SECONDS:

@@ -123,7 +123,7 @@ class KeywordQueueTests(unittest.TestCase):
             self.assertEqual(candidate['state'],'done')
             self.assertEqual(restarted.collect(key)['id'],'legacy-job')
             self.assertEqual(restarted.collection_policy()['dailyUsed'],1)
-            self.assertEqual(restarted.collection_policy()['dailyRemaining'],4)
+            self.assertEqual(restarted.collection_policy()['dailyRemaining'],287)
             self.assertEqual(self.store.rows('SELECT keyword FROM trend_dispatches')[0]['keyword'],'센트룸')
         finally:
             restarted.stop()

@@ -28,6 +28,7 @@ import asyncio
 import json
 import os
 import re
+import shutil
 import sys
 import time
 from datetime import datetime, timezone
@@ -59,6 +60,8 @@ HEADLESS = False  # 처음엔 False로 두고 동작 확인 후 True 로 바꿔�
 NAV_TIMEOUT_MS = 60_000
 SCROLL_WAIT_MS = 1500
 CARD_WAIT_MS = 8000
+DEFAULT_RUNTIME_BUDGET_SECONDS = 840
+DEFAULT_MIN_FREE_BYTES = 5 * 1024 ** 3
 
 
 # ---------- 유틸 ----------
@@ -96,6 +99,56 @@ class CollectionBlocked(RuntimeError):
     pass
 
 
+def runtime_stop_reason(deadline, run_dir, min_free_bytes):
+    """Soft checkpoints; the parent process must also impose a hard timeout."""
+    if deadline is not None and time.monotonic() >= deadline:
+        return "time_budget"
+    if min_free_bytes > 0 and shutil.disk_usage(run_dir).free <= min_free_bytes:
+        return "storage_low"
+    return None
+
+
+def append_completed_card(path, data):
+    # A terminating LF commits one complete card. Only finished media paths
+    # are referenced; interrupted downloads retain a separate .part suffix.
+    payload = (json.dumps(data, ensure_ascii=False) + "\n").encode("utf-8")
+    with Path(path).open("ab") as stream:
+        stream.write(payload)
+        stream.flush()
+        os.fsync(stream.fileno())
+
+
+def write_completion(run_dir, reason, saved_count, examined_count, target_count, started):
+    metadata = {
+        "reason": reason,
+        "complete": reason in ("target_reached", "results_exhausted"),
+        "savedCount": saved_count,
+        "examinedCount": examined_count,
+        "targetCount": target_count,
+        "elapsedSeconds": round(time.monotonic() - started, 3),
+    }
+    temporary = run_dir / "completion.json.tmp"
+    temporary.write_text(json.dumps(metadata, ensure_ascii=False, indent=2), encoding="utf-8")
+    os.replace(temporary, run_dir / "completion.json")
+
+
+async def quick_library_id(card):
+    """Skip previously examined cards before expensive creative extraction."""
+    try:
+        cached = await card.get_attribute("data-crawl-library-id")
+        if cached and re.fullmatch(r"\d{5,40}", cached):
+            return cached
+    except Exception:
+        pass
+    try:
+        text = await card.inner_text()
+        match = re.search(r"(?:라이브러리 ID|Library ID)[:\s]+(\d{5,40})(?!\d)", text, re.I)
+        return match.group(1) if match else ""
+    except Exception:
+        # Older DOM handles can still use the full extractor's normal checks.
+        return ""
+
+
 def allowed_media_url(url):
     try:
         parsed = urlparse(url)
@@ -109,6 +162,7 @@ def download_media(url, dest_path, headers=None):
     # Public Meta CDN media only. Never follow redirects to arbitrary hosts.
     if not allowed_media_url(url):
         return False
+    temporary = dest_path.with_name(dest_path.name + ".part")
     try:
         for _ in range(4):
             with requests.get(url, stream=True, timeout=(15, 45), allow_redirects=False) as response:
@@ -123,18 +177,46 @@ def download_media(url, dest_path, headers=None):
                     return False
                 dest_path.parent.mkdir(parents=True, exist_ok=True)
                 size = 0
-                with dest_path.open('wb') as output:
+                with temporary.open('wb') as output:
                     for chunk in response.iter_content(65536):
                         size += len(chunk)
                         if size > 100 * 1024 * 1024:
                             raise ValueError('Media exceeds 100MB')
                         output.write(chunk)
-                return size > 0
+                if size <= 0:
+                    temporary.unlink(missing_ok=True)
+                    return False
+                os.replace(temporary, dest_path)
+                return True
     except Exception:
-        if dest_path.exists():
-            dest_path.unlink()
+        temporary.unlink(missing_ok=True)
         print('[!] A media download failed; no remote URL is published.')
     return False
+
+
+def download_card_media(data, card_media_dir, run_dir, deadline, min_free_bytes):
+    saved = {"images": [], "videos": [], "posters": []}
+    for key, urls_key, prefix, default_ext in (
+        ("images", "image_urls", "image", ".jpg"),
+        ("videos", "video_urls", "video", ".mp4"),
+        ("posters", "video_poster_urls", "poster", ".jpg"),
+    ):
+        for index, url in enumerate(data[urls_key], 1):
+            stop = runtime_stop_reason(deadline, run_dir, min_free_bytes)
+            if stop:
+                # The current card is not committed if only some of its files
+                # were attempted. Previous committed cards stay importable.
+                return saved, stop
+            extension = default_ext
+            if key == "images":
+                if ".png" in url.lower():
+                    extension = ".png"
+                elif ".webp" in url.lower():
+                    extension = ".webp"
+            destination = card_media_dir / f"{prefix}_{index}{extension}"
+            if download_media(url, destination):
+                saved[key].append(str(destination.relative_to(run_dir)))
+    return saved, None
 
 
 async def check_access(page):
@@ -408,6 +490,7 @@ async def get_visible_cards(page: Page):
                 if (!node.dataset.crawlId) {
                     node.dataset.crawlId = 'card_' + Math.random().toString(36).slice(2, 10);
                 }
+                node.dataset.crawlLibraryId = key;
                 out.push(node.dataset.crawlId);
             }
             return out;
@@ -421,7 +504,7 @@ async def get_visible_cards(page: Page):
     return handles
 
 
-async def scroll_until_enough(page: Page, target_count: int, already_seen_ids: set, max_scrolls: int = None):
+async def scroll_until_enough(page: Page, target_count: int, already_seen_ids: set, max_scrolls: int = None, deadline=None):
     """무한 스크롤. 새로운 카드가 target_count 만큼 모일 때까지 스크롤."""
     # 배치 크기에 비례해서 스크롤 한도 조정 (10개당 약 8회 스크롤, 최소 40 최대 200)
     if max_scrolls is None:
@@ -429,18 +512,15 @@ async def scroll_until_enough(page: Page, target_count: int, already_seen_ids: s
     last_h = 0
     same_h_count = 0
     for i in range(max_scrolls):
+        if deadline is not None and time.monotonic() >= deadline:
+            return
         await check_access(page)
         cards = await get_visible_cards(page)
         new_ids = set()
         for c in cards:
-            # 임시로 library_id 만 빠르게 추출해서 중복 체크
-            try:
-                txt = await c.inner_text()
-            except Exception:
-                continue
-            m = re.search(r"라이브러리 ID[:\s]+(\d+)", txt) or re.search(r"Library ID[:\s]+(\d+)", txt)
-            if m and m.group(1) not in already_seen_ids:
-                new_ids.add(m.group(1))
+            library_id = await quick_library_id(c)
+            if library_id and library_id not in already_seen_ids:
+                new_ids.add(library_id)
         if len(new_ids) >= target_count:
             return
         # 스크롤
@@ -491,6 +571,8 @@ async def run(
     auto: bool = False,
     headless: bool | None = None,
     browser_channel: str = 'chromium',
+    runtime_budget_seconds: int = DEFAULT_RUNTIME_BUDGET_SECONDS,
+    min_free_bytes: int = DEFAULT_MIN_FREE_BYTES,
 ):
     """크롤링 본체.
 
@@ -498,6 +580,11 @@ async def run(
     auto: True면 첫 배치 후 도메인 필터 질문도 스킵.
     headless: 전역 HEADLESS 대신 명시적 지정.
     """
+    if not 30 <= runtime_budget_seconds <= 7200 or min_free_bytes < 0:
+        raise ValueError("Invalid runtime or storage budget")
+    started = time.monotonic()
+    deadline = started + runtime_budget_seconds
+    stop_reason = None
     media_dir = run_dir / "media"
     media_dir.mkdir(parents=True, exist_ok=True)
     cards_jsonl = run_dir / "cards.jsonl"
@@ -520,12 +607,18 @@ async def run(
         batch_num = 0
 
         while True:
+            stop_reason = runtime_stop_reason(deadline, run_dir, min_free_bytes)
+            if stop_reason:
+                break
             await check_access(page)
             batch_num += 1
             print(f"\n========== 배치 #{batch_num} ==========")
 
             # 카드 충분히 로드될 때까지 스크롤
-            await scroll_until_enough(page, batch_size, seen_ids)
+            await scroll_until_enough(page, batch_size, seen_ids, deadline=deadline)
+            stop_reason = runtime_stop_reason(deadline, run_dir, min_free_bytes)
+            if stop_reason:
+                break
             cards = await get_visible_cards(page)
             print(f"[*] 화면에 잡힌 카드: {len(cards)}개 (누적 처리: {len(seen_ids)}개)")
 
@@ -534,6 +627,11 @@ async def run(
             for card in cards:
                 if collected_this_batch >= batch_size or (total_target is not None and total_saved >= total_target):
                     break
+                stop_reason = runtime_stop_reason(deadline, run_dir, min_free_bytes)
+                if stop_reason:
+                    break
+                if await quick_library_id(card) in seen_ids:
+                    continue
 
                 try:
                     data = await extract_card_data(card, page)
@@ -556,27 +654,10 @@ async def run(
 
                 # 미디어 다운로드
                 card_media_dir = media_dir / lib_id
-                saved_images, saved_videos, saved_posters = [], [], []
-
-                for idx, img_url in enumerate(data["image_urls"], 1):
-                    ext = ".jpg"
-                    if ".png" in img_url.lower():
-                        ext = ".png"
-                    elif ".webp" in img_url.lower():
-                        ext = ".webp"
-                    dest = card_media_dir / f"image_{idx}{ext}"
-                    if download_media(img_url, dest):
-                        saved_images.append(str(dest.relative_to(run_dir)))
-
-                for idx, v_url in enumerate(data["video_urls"], 1):
-                    dest = card_media_dir / f"video_{idx}.mp4"
-                    if download_media(v_url, dest):
-                        saved_videos.append(str(dest.relative_to(run_dir)))
-
-                for idx, pst in enumerate(data["video_poster_urls"], 1):
-                    dest = card_media_dir / f"poster_{idx}.jpg"
-                    if download_media(pst, dest):
-                        saved_posters.append(str(dest.relative_to(run_dir)))
+                saved, stop_reason = download_card_media(data, card_media_dir, run_dir, deadline, min_free_bytes)
+                if stop_reason:
+                    break
+                saved_images, saved_videos, saved_posters = saved["images"], saved["videos"], saved["posters"]
 
                 if not saved_images and not saved_videos:
                     if not saved_posters:
@@ -592,8 +673,7 @@ async def run(
                 data["_keyword"] = keyword
                 data["_collected_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
 
-                with open(cards_jsonl, "a", encoding="utf-8") as f:
-                    f.write(json.dumps(data, ensure_ascii=False) + "\n")
+                append_completed_card(cards_jsonl, data)
 
                 total_saved += 1
                 collected_this_batch += 1
@@ -604,14 +684,18 @@ async def run(
 
             print(f"\n[*] 배치 #{batch_num} 완료: 이번에 {collected_this_batch}건 저장 / 총 {total_saved}건")
 
+            if stop_reason:
+                break
             # 목표 도달 시 자동 종료
             if total_target is not None and total_saved >= total_target:
                 print(f"[*] 목표 {total_target}건 도달, 자동 종료")
+                stop_reason = "target_reached"
                 break
 
             # Filtered or unavailable media must not hide later search results.
             if examined_this_batch == 0:
                 print("[*] 추가 스크롤 후에도 새로운 광고 ID가 없어 자동 종료")
+                stop_reason = "results_exhausted"
                 break
 
             # Fixed pacing limits request volume; no evasion or identity spoofing.
@@ -629,9 +713,12 @@ async def run(
             if total_target is not None or auto:
                 continue
             if not prompt_continue():
+                stop_reason = "user_stopped"
                 break
 
-        await check_access(page)
+        if stop_reason not in ("time_budget", "storage_low"):
+            await check_access(page)
+        write_completion(run_dir, stop_reason, total_saved, len(seen_ids), total_target, started)
         await browser.close()
         if total_saved == 0:
             raise RuntimeError("No usable ads collected. There may be no results, a login gate, or the page layout changed.")
@@ -656,6 +743,8 @@ def parse_args():
     parser.add_argument("--headless", action="store_true", help="브라우저 헤드리스 모드")
     parser.add_argument("--browser-channel", choices=['chromium', 'chrome', 'msedge'], default='chromium',
                         help="실제 브라우저 엔진 (기본 chromium, 새 헤드리스 모드 지원)")
+    parser.add_argument("--runtime-budget-seconds", type=int, default=DEFAULT_RUNTIME_BUDGET_SECONDS,
+                        help="완료된 광고를 보존하고 중단하는 소프트 시간 예산 (기본 840초; 별도 프로세스 제한 필요)")
     return parser.parse_args()
 
 
@@ -693,6 +782,8 @@ def main():
         raise ValueError("Specify --total between 1 and 100")
     if args.run_id and not re.fullmatch(r"[A-Za-z0-9_-]{1,80}", args.run_id):
         raise ValueError("Invalid run ID")
+    if not 30 <= args.runtime_budget_seconds <= 7200:
+        raise ValueError("Runtime budget must be between 30 and 7200 seconds")
     if dom_in.startswith("www."):
         dom_in = dom_in[4:]
 
@@ -716,6 +807,7 @@ def main():
             auto=non_interactive,
             headless=args.headless if non_interactive else None,
             browser_channel=args.browser_channel,
+            runtime_budget_seconds=args.runtime_budget_seconds,
         )
     )
 

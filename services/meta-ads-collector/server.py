@@ -25,9 +25,13 @@ from archive_publisher import ArchivePublisher
 from datetime import datetime, timezone
 from storage_config import resolve_data_dir, assert_storage_available, StorageUnavailable
 from trend_service import TrendService
+from collection_guard import CollectionGuard
 
 API = '/api/meta-ads'
 SERVICE_DIR = Path(__file__).resolve().parent
+AUTOMATIC_AD_LIMIT = 100
+STATUS_CHECK_INTERVAL = 900
+STATUS_CHECK_BATCH_SIZE = 10
 
 
 def publication_snapshot(status):
@@ -130,18 +134,23 @@ class Store:
         with self.lock:
             return export_catalog(self.cards(), self.assets, self.web_root)
 
-    def import_file(self, jsonl):
+    def import_file(self, jsonl, *, complete_only=False):
         assert_storage_available(self.root)
         jsonl = Path(jsonl).resolve()
         if not jsonl.is_file() or jsonl.name != 'cards.jsonl' or jsonl.stat().st_size > 20 * 1024 * 1024:
             raise ValueError('20MB 이하의 cards.jsonl 파일이 필요합니다.')
         prepared = []
-        with jsonl.open(encoding='utf-8-sig') as stream:
-            for line in stream:
-                if line.strip():
-                    if len(prepared) >= 5000:
-                        raise ValueError('한 번에 5,000개까지 가져올 수 있습니다.')
-                    prepared.append(normalize_row(json.loads(line), jsonl.parent, self.assets))
+        if complete_only:
+            from completed_cards import read_completed_jsonl
+            rows = read_completed_jsonl(jsonl)['rows']
+            prepared = [normalize_row(row, jsonl.parent, self.assets) for row in rows]
+        else:
+            with jsonl.open(encoding='utf-8-sig') as stream:
+                for line in stream:
+                    if line.strip():
+                        if len(prepared) >= 5000:
+                            raise ValueError('한 번에 5,000개까지 가져올 수 있습니다.')
+                        prepared.append(normalize_row(json.loads(line), jsonl.parent, self.assets))
         if not prepared:
             raise ValueError('가져올 광고가 없습니다.')
         with self.lock:
@@ -220,13 +229,21 @@ class Controller:
         self.collector_ready = self.check_runtime()
         self.last_card_count = len(self.store.cards())
         self.trends = TrendService(store)
+        self.collection_guard = CollectionGuard(store)
         self.store.on_import = self.trends.export
         self.trends.can_collect = lambda: self.auto_enabled
+        self.trends.collection_guard = self.collection_guard.status
         self.publisher = ArchivePublisher(store)
         self.publisher.enabled = bool(store.setting('autoPublishEnabled', False))
         self.automations = None
         self.monitor_thread = None
         self.status_check_running = False
+        # Upgrade an older hourly appointment without forcing an immediate
+        # browser request, and preserve any appointment already due sooner.
+        old_status_check = store.setting('nextStatusCheck', 0)
+        next_status_window = time.time() + STATUS_CHECK_INTERVAL
+        if isinstance(old_status_check, (int, float)) and old_status_check > next_status_window:
+            store.set_setting('nextStatusCheck', next_status_window)
 
     def set_auto(self, enabled):
         with self.process_lock:
@@ -241,9 +258,15 @@ class Controller:
     def next_run_at(self):
         if not self.auto_enabled:
             return None
+        guard = self.collection_guard.status()
+        if not guard['storageReady']:
+            return None
         times = [r['last_attempt'] + json.loads(r['payload'])['intervalHours'] * 3600
                  for r in self.store.rows('SELECT * FROM competitors') if not json.loads(r['payload']).get('trendOnly')]
-        return datetime.fromtimestamp(max(time.time(), min(times)), timezone.utc).isoformat(timespec='seconds') if times else None
+        due = max(time.time(), min(times)) if times else None
+        if due is not None and guard.get('nextAllowedAt'):
+            due = max(due, datetime.fromisoformat(guard['nextAllowedAt']).timestamp())
+        return datetime.fromtimestamp(due, timezone.utc).isoformat(timespec='seconds') if due is not None else None
 
     @staticmethod
     def check_runtime():
@@ -272,6 +295,7 @@ class Controller:
                 'nextRunAt': self.next_run_at() if available else None, 'lastSuccessAt': latest_success,
                 'lastAttemptAt': latest_attempt, 'lastError': latest_failure, 'serverTime': now(),
                 'statusCheckRunning': self.status_check_running, 'publication': self.publisher.status(),
+                'collectionGuard': self.collection_guard.status(),
                 'cardCount': self.last_card_count, 'collectorReady': self.collector_ready,
                 'storagePath': str(self.store.root), 'storageAvailable': available,
                 'message': ('이 PC에서 실행 중 · 자동 수집은 앱이 켜져 있을 때만 동작합니다.' if available else
@@ -298,16 +322,23 @@ class Controller:
         meta_state = 'running' if self.current_job or self.status_check_running else 'error' if status.get('lastError') else 'waiting' if self.auto_enabled else 'off'
         intervals = [c['intervalHours']*3600 for c in self.store.competitors() if not c.get('trendOnly')] if available else []
         next_check = self.store.setting('nextStatusCheck', 0) if available else 0
+        guard = status['collectionGuard']
+        if guard.get('nextAllowedAt'):
+            next_check = max(next_check, datetime.fromisoformat(guard['nextAllowedAt']).timestamp())
         meta_message = status.get('lastError') or ('광고 라이브러리 수집 중' if self.current_job else
                          '종료 여부 확인 중' if self.status_check_running else '광고 라이브러리 수집 예약')
         if not available:
             meta_message = 'D드라이브 연결 필요'
+        elif self.auto_enabled and guard['reason'] and not self.current_job and not self.status_check_running:
+            meta_state = 'waiting'
+            meta_message = guard['reason']
         result = [{'id':'meta-ads', 'name':'메타 광고', 'enabled':self.auto_enabled,
                    'running':bool(self.current_job or self.status_check_running), 'state':meta_state,
                    'nextRunAt':status['nextRunAt'], 'lastSuccessAt':status['lastSuccessAt'],
                    'lastAttemptAt':status['lastAttemptAt'], 'intervalSeconds':min(intervals) if intervals else 21600,
-                   'statusCheckIntervalSeconds':3600, 'statusCheckBatchSize':10,
+                   'statusCheckIntervalSeconds':STATUS_CHECK_INTERVAL, 'statusCheckBatchSize':STATUS_CHECK_BATCH_SIZE,
                    'nextStatusCheckAt':datetime.fromtimestamp(max(time.time(),next_check),timezone.utc).isoformat(timespec='seconds') if self.auto_enabled else None,
+                   'collectionGuard':guard,
                    'message':meta_message,
                    'controllable':True},
                   {'id':'naver-trends', 'name':'네이버 급상승', 'enabled':trend['autoEnabled'],
@@ -328,7 +359,7 @@ class Controller:
                 # Only a public operational summary, never credentials, paths,
                 # process IDs, local article data, account names or session tokens.
                 allowed = ('id','name','enabled','running','state','nextRunAt','lastSuccessAt','lastAttemptAt','message',
-                           'intervalSeconds','statusCheckIntervalSeconds','statusCheckBatchSize','nextStatusCheckAt')
+                           'intervalSeconds','statusCheckIntervalSeconds','statusCheckBatchSize','nextStatusCheckAt','collectionGuard')
                 public = {'mode':'snapshot', 'updatedAt':now(), 'automations':[
                     {k:r.get(k) for k in allowed} for r in data['automations']], 'publication':publication_snapshot(data['publication'])}
                 with self.store.lock:
@@ -378,26 +409,35 @@ class Controller:
         if self.monitor_thread:
             self.monitor_thread.join(timeout=6)
 
+    def run_once(self):
+        assert_storage_available(self.store.root)
+        with self.process_lock:
+            if self.auto_enabled and self.collection_guard.allowed():
+                for row in self.store.rows('SELECT * FROM competitors'):
+                    conf = json.loads(row['payload'])
+                    if conf.get('trendOnly'):
+                        continue
+                    if time.time() - row['last_attempt'] >= conf['intervalHours'] * 3600:
+                        try:
+                            self.store.enqueue(row['id'], AUTOMATIC_AD_LIMIT)
+                        except ValueError:
+                            pass
+        # One worker owns Meta navigation. Once due, an exact-ID status batch
+        # runs after the current collection and before another queued search.
+        if (self.auto_enabled and self.collection_guard.allowed(media=False)
+                and time.time() >= self.store.setting('nextStatusCheck', 0)
+                and self.store.cards()):
+            self.check_saved_ads()
+            return
+        if self.collection_guard.allowed():
+            queued = self.store.rows("SELECT * FROM jobs WHERE status='queued' ORDER BY rowid LIMIT 1")
+            if queued:
+                self.execute(queued[0])
+
     def run(self):
         while not self.stop_event.is_set():
             try:
-                assert_storage_available(self.store.root)
-                with self.process_lock:
-                    if self.auto_enabled:
-                        for row in self.store.rows('SELECT * FROM competitors'):
-                            conf = json.loads(row['payload'])
-                            if conf.get('trendOnly'):
-                                continue
-                            if time.time() - row['last_attempt'] >= conf['intervalHours'] * 3600:
-                                try:
-                                    self.store.enqueue(row['id'], 20)
-                                except ValueError:
-                                    pass
-                queued = self.store.rows("SELECT * FROM jobs WHERE status='queued' ORDER BY rowid LIMIT 1")
-                if queued:
-                    self.execute(queued[0])
-                elif self.auto_enabled and time.time() >= self.store.setting('nextStatusCheck', 0):
-                    self.check_saved_ads()
+                self.run_once()
             except StorageUnavailable:
                 self.auto_enabled = False
                 self.trends.auto_enabled = False
@@ -409,11 +449,13 @@ class Controller:
 
     def check_saved_ads(self):
         """Refresh the oldest saved status checks; missing ads stay unconfirmed."""
+        if self.stop_event.is_set() or not self.collection_guard.allowed(media=False):
+            return
         cards = sorted(self.store.cards(), key=lambda c:c.get('statusCheckAttemptAt') or c.get('statusCheckedAt') or '')
         if not cards:
             return
-        self.store.set_setting('nextStatusCheck', time.time()+3600)
-        selected = cards[:10]
+        self.store.set_setting('nextStatusCheck', time.time()+STATUS_CHECK_INTERVAL)
+        selected = cards[:STATUS_CHECK_BATCH_SIZE]
         attempted_at = now()
         for card in selected:
             card['statusCheckAttemptAt'] = attempted_at
@@ -427,13 +469,25 @@ class Controller:
             completed = subprocess.run([sys.executable, str(SERVICE_DIR/'check_ad_status.py'), '--ids', ','.join(c['id'] for c in selected), '--output', str(output)],
                                        capture_output=True, timeout=480, **options)
             if completed.returncode or not output.is_file():
+                self.collection_guard.failed()
                 return
-            for observation in json.loads(output.read_text(encoding='utf-8')).get('observations', []):
+            observations = json.loads(output.read_text(encoding='utf-8')).get('observations', [])
+            outcomes = []
+            for observation in observations:
                 old = next((c for c in selected if c['id'] == observation.get('id')), None)
                 if not old:
                     continue
+                outcomes.append(observation.get('outcome'))
                 old = merge_status_observation(old, observation)
                 self.store.write('UPDATE ads SET payload=? WHERE id=?', (json.dumps(old, ensure_ascii=False),old['id']))
+            if 'blocked' in outcomes:
+                self.collection_guard.blocked()
+            elif outcomes and all(value in ('confirmed', 'not_found') for value in outcomes):
+                self.collection_guard.succeeded(reset_blocks=False)
+            else:
+                self.collection_guard.failed()
+        except Exception:
+            self.collection_guard.failed()
         finally:
             self.status_check_running = False
             self.store.export()
@@ -444,6 +498,8 @@ class Controller:
         with self.process_lock:
             if self.stop_event.is_set() or self.store.rows('SELECT status FROM jobs WHERE id=?', (job_id,))[0]['status'] != 'queued':
                 return
+            if not self.collection_guard.allowed():
+                return
             self.current_job = job_id
             self.store.write("UPDATE jobs SET status='running',started_at=?,message=? WHERE id=?",
                              (now(), 'Meta 광고 라이브러리에서 수집 중입니다.', job_id))
@@ -452,7 +508,8 @@ class Controller:
         run_dir = runs / job_id
         command = [sys.executable, str(SERVICE_DIR / 'crawler.py'), '--keyword', job['keyword'],
                    '--domain', job['domain'], '--total', str(job['max_ads']), '--batch', str(min(10, job['max_ads'])),
-                   '--run-id', job_id, '--output-dir', str(runs), '--headless']
+                   '--run-id', job_id, '--output-dir', str(runs), '--headless', '--runtime-budget-seconds', '840']
+        failure = None
         try:
             assert_storage_available(self.store.root)
             runs.mkdir(exist_ok=True)
@@ -465,30 +522,57 @@ class Controller:
                     process_environment = dict(os.environ, PYTHONIOENCODING='utf-8', PYTHONUTF8='1')
                     self.process = subprocess.Popen(command, stdout=output, stderr=subprocess.STDOUT,
                                                     cwd=SERVICE_DIR, env=process_environment, **kwargs)
-                deadline = time.monotonic() + 600
+                deadline = time.monotonic() + 900
                 while self.process.poll() is None:
                     if self.stop_event.wait(.25) or time.monotonic() > deadline:
                         self.kill_process()
-                        raise RuntimeError('timeout')
+                        failure = 'timeout'
+                        break
                 code = self.process.returncode
             state = self.store.rows('SELECT status FROM jobs WHERE id=?', (job_id,))[0]['status']
             if state == 'canceled':
                 return
             if code == 20:
-                self.store.write("UPDATE jobs SET status='failed',finished_at=?,message=? WHERE id=? AND status!='canceled'",
-                                 (now(), 'Meta가 수집 요청을 차단했습니다(접근 제한). 저장된 광고는 유지됩니다.', job_id))
-                return
-            if code != 0:
-                raise RuntimeError('crawler')
+                self.collection_guard.blocked()
+                failure = 'blocked'
+            elif failure or code != 0:
+                failure = failure or 'crawler'
+                self.collection_guard.failed()
+            completion = run_dir / 'completion.json'
+            soft_partial = False
+            storage_partial = False
+            if completion.is_file() and completion.stat().st_size <= 32000:
+                try:
+                    completion_reason = json.loads(completion.read_text(encoding='utf-8')).get('reason')
+                    soft_partial = completion_reason == 'time_budget'
+                    storage_partial = completion_reason == 'storage_low'
+                except (OSError, ValueError, AttributeError):
+                    pass
             with self.process_lock:
                 if self.store.rows('SELECT status FROM jobs WHERE id=?', (job_id,))[0]['status'] == 'canceled':
                     return
-                imported = self.store.import_file(run_dir / 'cards.jsonl')
+                if not self.collection_guard.status()['storageReady']:
+                    self.store.write("UPDATE jobs SET status='failed',finished_at=?,message=? WHERE id=?",
+                                     (now(), '저장 공간 부족으로 사이트 반영 보류 · 수집한 원본은 보존되어 있습니다.', job_id))
+                    return
+                imported = self.store.import_file(run_dir / 'cards.jsonl', complete_only=bool(failure or soft_partial or storage_partial))
+                partial = bool(failure or soft_partial or storage_partial)
+                suffix = (' · Meta 접근 제한으로 중단, 자동 대기' if failure == 'blocked' else
+                          ' · 실행 시간 제한으로 중단' if failure == 'timeout' or soft_partial else
+                          ' · 저장 공간 부족으로 중단' if storage_partial else
+                          ' · 조회 오류로 중단' if failure else '')
+                message = f"{'일부 수집' if partial else '수집 완료'} · 신규 광고 {imported}개{suffix}"
                 self.store.write("UPDATE jobs SET status='done',finished_at=?,message=?,imported=? WHERE id=?",
-                                 (now(), f'수집 완료 · 신규 광고 {imported}개', imported, job_id))
+                                 (now(), message, imported, job_id))
+                if not failure and not soft_partial and not storage_partial:
+                    self.collection_guard.succeeded()
         except Exception:
+            if failure != 'blocked':
+                self.collection_guard.failed()
+            message = ('Meta가 수집 요청을 차단했습니다(접근 제한). 저장된 광고는 유지됩니다.' if failure == 'blocked' else
+                       '수집하지 못했습니다. Meta 접근 제한·로그인 요구·검색 결과 없음 또는 수집 도구 설치 상태를 확인하세요. 저장된 광고는 유지됩니다.')
             self.store.write("UPDATE jobs SET status='failed',finished_at=?,message=? WHERE id=? AND status!='canceled'",
-                             (now(), '수집하지 못했습니다. Meta 접근 제한·로그인 요구·검색 결과 없음 또는 수집 도구 설치 상태를 확인하세요. 저장된 광고는 유지됩니다.', job_id))
+                             (now(), message, job_id))
         finally:
             with self.process_lock:
                 self.process = None
