@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T02:45:10+00:00",
+  "updatedAt": "2026-10-08T02:47:16+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-08T01:24:46+00:00",
@@ -43,8 +43,8 @@
     "backlogDays": 14,
     "dailyUsed": 16,
     "dailyRemaining": 272,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-08T02:50:10+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -9479,17 +9479,1140 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "49ada5a662db7c40131527993bcf3c91ea21cad434d75b56b85db1314f7aa0da",
       "searchQuery": "멜라토닌",
       "adEvidence": {
         "query": "멜라토닌",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 100,
+        "adIds": [
+          "1697803548501318",
+          "972162438786555",
+          "1114641114368204",
+          "1110560958041987",
+          "974087972072453",
+          "2320531312081960",
+          "1440609108028426",
+          "1066783272970163",
+          "1318764183405487",
+          "2447535912440227",
+          "1500500878438035",
+          "1100430802444357",
+          "869684182428921",
+          "3584045711755366",
+          "2430074080855658",
+          "1072194439046304",
+          "2718779145183385",
+          "2133430547571161",
+          "1052157344465828",
+          "875012945405065",
+          "940076962054011",
+          "4528272330734945",
+          "1956813184997782",
+          "1405222465038281",
+          "911957498227602",
+          "3887531138045509",
+          "1570401911254830",
+          "1083811334373482",
+          "27877696548498869",
+          "1404423598298132",
+          "2416301102190984",
+          "1451313443534894",
+          "4600641690166875",
+          "1789433498933251",
+          "1615444633617691",
+          "2056228225284831",
+          "1289460453342297",
+          "1052680497459972",
+          "2583147345523252",
+          "1077847228428720",
+          "1071955189118954",
+          "1619721386237061",
+          "1519027622800214",
+          "1424711096226237",
+          "2547854598970866",
+          "1816987075970574",
+          "1039894328746337",
+          "3243111312555767",
+          "1199945005443763",
+          "1759202935421645",
+          "1567807234896422",
+          "3741623172646391",
+          "3478665422301415",
+          "2565366213936666",
+          "2503591920154416",
+          "1679134276503631",
+          "1543525973905946",
+          "2104225137640192",
+          "1464340368348287",
+          "1357993639809226",
+          "1638353738075674",
+          "1433052732070593",
+          "1398354709170190",
+          "1121139777535214",
+          "1588065992880325",
+          "1507192757799513",
+          "1046327158317969",
+          "1489217783009521",
+          "1443884621262398",
+          "1408954811192261",
+          "1647643113628038",
+          "1047693527794268",
+          "843179388351791",
+          "2141983293392956",
+          "1431076745616525",
+          "1342173491429634",
+          "955322894215141",
+          "3406266252867130",
+          "2169712576933061",
+          "1385325596896803",
+          "28308607808789908",
+          "1518323700063137",
+          "1001761412881439",
+          "1522791932277610",
+          "1356102443168319",
+          "820021351181612",
+          "1686997355829684",
+          "1098501065902711",
+          "1060845906662751",
+          "1781859863259143",
+          "3656996647788109",
+          "1607682811069632",
+          "1406032171591944",
+          "1402834415323027",
+          "2008233483130935",
+          "1567758284834589",
+          "1391097245990058",
+          "1113904181192333",
+          "1076263328210738",
+          "1040279022146221"
+        ],
+        "ads": [
+          {
+            "id": "1697803548501318",
+            "advertiser": "에이브랩",
+            "startedAt": "2026-07-31",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:47:10+00:00",
+            "lastCollectedAt": "2026-10-08T02:47:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "972162438786555",
+            "advertiser": "뉴트리플랜트",
+            "startedAt": "2026-06-03",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:47:09+00:00",
+            "lastCollectedAt": "2026-10-08T02:47:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1114641114368204",
+            "advertiser": "리뷰신",
+            "startedAt": "2026-08-12",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:47:09+00:00",
+            "lastCollectedAt": "2026-10-08T02:47:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1110560958041987",
+            "advertiser": "hattke",
+            "startedAt": "2026-09-21",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:47:09+00:00",
+            "lastCollectedAt": "2026-10-08T02:47:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "974087972072453",
+            "advertiser": "뉴트리플랜트",
+            "startedAt": "2026-05-31",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:47:08+00:00",
+            "lastCollectedAt": "2026-10-08T02:47:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2320531312081960",
+            "advertiser": "CJ웰케어",
+            "startedAt": "2026-09-15",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:47:08+00:00",
+            "lastCollectedAt": "2026-10-08T02:47:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1440609108028426",
+            "advertiser": "꿈꾸미",
+            "startedAt": "2026-09-22",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:47:08+00:00",
+            "lastCollectedAt": "2026-10-08T02:47:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1066783272970163",
+            "advertiser": "Nutriforu",
+            "startedAt": "2026-07-27",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:47:08+00:00",
+            "lastCollectedAt": "2026-10-08T02:47:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1318764183405487",
+            "advertiser": "",
+            "startedAt": "2026-04-02",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:47:07+00:00",
+            "lastCollectedAt": "2026-10-08T02:47:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2447535912440227",
+            "advertiser": "CJ웰케어",
+            "startedAt": "2026-09-02",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:47:06+00:00",
+            "lastCollectedAt": "2026-10-08T02:47:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1500500878438035",
+            "advertiser": "뉴트리플랜트",
+            "startedAt": "2026-05-31",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:57+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1100430802444357",
+            "advertiser": "리뷰신",
+            "startedAt": "2026-09-09",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:57+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "869684182428921",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-01",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:56+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3584045711755366",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-30",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:56+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:56+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2430074080855658",
+            "advertiser": "CJ웰케어",
+            "startedAt": "2026-09-29",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:56+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1072194439046304",
+            "advertiser": "CJ웰케어",
+            "startedAt": "2026-09-22",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:56+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2718779145183385",
+            "advertiser": "162.48",
+            "startedAt": "2026-08-23",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:55+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2133430547571161",
+            "advertiser": "클룹 - CLOOP",
+            "startedAt": "2026-08-03",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:55+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1052157344465828",
+            "advertiser": "CJ웰케어",
+            "startedAt": "2026-09-05",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:55+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "875012945405065",
+            "advertiser": "리뷰신",
+            "startedAt": "2026-08-02",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:54+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "940076962054011",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-30",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:45+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:45+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4528272330734945",
+            "advertiser": "리뷰신",
+            "startedAt": "2026-08-13",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:45+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1956813184997782",
+            "advertiser": "CJ웰케어",
+            "startedAt": "2026-09-15",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:44+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1405222465038281",
+            "advertiser": "클룹 - CLOOP",
+            "startedAt": "2026-08-03",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:44+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "911957498227602",
+            "advertiser": "162.48",
+            "startedAt": "2026-08-06",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:43+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3887531138045509",
+            "advertiser": "잘밤",
+            "startedAt": "2026-05-20",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:43+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1570401911254830",
+            "advertiser": "뉴트리플랜트",
+            "startedAt": "2026-08-02",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:42+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1083811334373482",
+            "advertiser": "아임제로",
+            "startedAt": "2026-09-17",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:42+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27877696548498869",
+            "advertiser": "뉴트리플랜트",
+            "startedAt": "2026-05-31",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:41+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1404423598298132",
+            "advertiser": "162.48",
+            "startedAt": "2026-08-28",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:41+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2416301102190984",
+            "advertiser": "셀럽들의 뷰티레시피",
+            "startedAt": "2026-06-15",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:33+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1451313443534894",
+            "advertiser": "꿈꾸미",
+            "startedAt": "2026-09-22",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:33+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4600641690166875",
+            "advertiser": "CJ웰케어",
+            "startedAt": "2026-09-02",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:32+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1789433498933251",
+            "advertiser": "CJ웰케어",
+            "startedAt": "2026-09-10",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:32+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1615444633617691",
+            "advertiser": "클룹 - CLOOP",
+            "startedAt": "2026-08-02",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:32+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2056228225284831",
+            "advertiser": "뉴트리플랜트",
+            "startedAt": "2026-08-10",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:31+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1289460453342297",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-01",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:31+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1052680497459972",
+            "advertiser": "클룹 - CLOOP",
+            "startedAt": "2026-08-12",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:31+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2583147345523252",
+            "advertiser": "이로아 비타민",
+            "startedAt": "2026-08-11",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:30+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1077847228428720",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-30",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:30+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:30+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1071955189118954",
+            "advertiser": "162.48",
+            "startedAt": "2026-08-06",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:23+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1619721386237061",
+            "advertiser": "리뷰신",
+            "startedAt": "2026-08-12",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:22+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1519027622800214",
+            "advertiser": "162.48",
+            "startedAt": "2026-08-04",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:22+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1424711096226237",
+            "advertiser": "CJ웰케어",
+            "startedAt": "2026-08-27",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:22+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2547854598970866",
+            "advertiser": "클룹 - CLOOP",
+            "startedAt": "2026-08-13",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:21+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1816987075970574",
+            "advertiser": "CJ웰케어",
+            "startedAt": "2026-09-22",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:21+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1039894328746337",
+            "advertiser": "리뷰신",
+            "startedAt": "2026-08-12",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:21+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3243111312555767",
+            "advertiser": "편돌맨",
+            "startedAt": "2026-08-24",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:20+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1199945005443763",
+            "advertiser": "looki.official",
+            "startedAt": "2025-12-29",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:20+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1759202935421645",
+            "advertiser": "클룹 - CLOOP",
+            "startedAt": "2026-08-14",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:19+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1567807234896422",
+            "advertiser": "클룹 - CLOOP",
+            "startedAt": "2026-08-12",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:10+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3741623172646391",
+            "advertiser": "송재인",
+            "startedAt": "2026-05-20",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:09+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3478665422301415",
+            "advertiser": "리뷰신",
+            "startedAt": "2026-09-22",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:09+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2565366213936666",
+            "advertiser": "Нега",
+            "startedAt": "2026-08-13",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:09+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2503591920154416",
+            "advertiser": "CJ웰케어",
+            "startedAt": "2026-09-02",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:09+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1679134276503631",
+            "advertiser": "광동병원",
+            "startedAt": "2026-07-30",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:08+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1543525973905946",
+            "advertiser": "162.48",
+            "startedAt": "2026-08-02",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:08+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2104225137640192",
+            "advertiser": "리뷰신",
+            "startedAt": "2026-08-12",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:07+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1464340368348287",
+            "advertiser": "뉴트리플랜트",
+            "startedAt": "2026-05-31",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:07+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1357993639809226",
+            "advertiser": "셀럽들의 뷰티레시피",
+            "startedAt": "2026-07-07",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:07+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1638353738075674",
+            "advertiser": "클룹 - CLOOP",
+            "startedAt": "2026-09-14",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:00+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1433052732070593",
+            "advertiser": "Darcie",
+            "startedAt": "2026-09-18",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:46:00+00:00",
+            "lastCollectedAt": "2026-10-08T02:46:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1398354709170190",
+            "advertiser": "클룹 - CLOOP",
+            "startedAt": "2026-09-02",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:45:59+00:00",
+            "lastCollectedAt": "2026-10-08T02:45:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1121139777535214",
+            "advertiser": "162.48",
+            "startedAt": "2026-08-26",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:45:59+00:00",
+            "lastCollectedAt": "2026-10-08T02:45:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1588065992880325",
+            "advertiser": "웰로리아",
+            "startedAt": "2026-06-18",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:45:58+00:00",
+            "lastCollectedAt": "2026-10-08T02:45:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1507192757799513",
+            "advertiser": "수면과학",
+            "startedAt": "2026-06-09",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:45:58+00:00",
+            "lastCollectedAt": "2026-10-08T02:45:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1046327158317969",
+            "advertiser": "Nong Moonoii",
+            "startedAt": "2026-08-24",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:45:57+00:00",
+            "lastCollectedAt": "2026-10-08T02:45:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1489217783009521",
+            "advertiser": "리뷰신",
+            "startedAt": "2026-09-09",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:45:44+00:00",
+            "lastCollectedAt": "2026-10-08T02:45:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1443884621262398",
+            "advertiser": "에스더포뮬러",
+            "startedAt": "2026-09-20",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:45:44+00:00",
+            "lastCollectedAt": "2026-10-08T02:45:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1408954811192261",
+            "advertiser": "클룹 - CLOOP",
+            "startedAt": "2026-09-03",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:45:44+00:00",
+            "lastCollectedAt": "2026-10-08T02:45:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1647643113628038",
+            "advertiser": "CJ웰케어",
+            "startedAt": "2026-09-02",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:45:36+00:00",
+            "lastCollectedAt": "2026-10-08T02:45:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1047693527794268",
+            "advertiser": "셀럽들의 뷰티레시피",
+            "startedAt": "2026-07-07",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:45:36+00:00",
+            "lastCollectedAt": "2026-10-08T02:45:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "843179388351791",
+            "advertiser": "잘밤",
+            "startedAt": "2026-05-19",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:45:35+00:00",
+            "lastCollectedAt": "2026-10-08T02:45:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2141983293392956",
+            "advertiser": "Dwmallofficial",
+            "startedAt": "2026-09-20",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:45:35+00:00",
+            "lastCollectedAt": "2026-10-08T02:45:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1431076745616525",
+            "advertiser": "Dwmallofficial",
+            "startedAt": "2026-09-23",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:45:34+00:00",
+            "lastCollectedAt": "2026-10-08T02:45:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1342173491429634",
+            "advertiser": "뉴트리플랜트",
+            "startedAt": "2026-07-22",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:45:34+00:00",
+            "lastCollectedAt": "2026-10-08T02:45:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "955322894215141",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-04",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:45:33+00:00",
+            "lastCollectedAt": "2026-10-08T02:45:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3406266252867130",
+            "advertiser": "클룹 - CLOOP",
+            "startedAt": "2026-08-13",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:45:33+00:00",
+            "lastCollectedAt": "2026-10-08T02:45:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2169712576933061",
+            "advertiser": "리뷰신",
+            "startedAt": "2026-08-02",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:45:33+00:00",
+            "lastCollectedAt": "2026-10-08T02:45:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1385325596896803",
+            "advertiser": "클룹 - CLOOP",
+            "startedAt": "2026-08-06",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:45:32+00:00",
+            "lastCollectedAt": "2026-10-08T02:45:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28308607808789908",
+            "advertiser": "Dwmallofficial",
+            "startedAt": "2026-09-20",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:45:27+00:00",
+            "lastCollectedAt": "2026-10-08T02:45:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1518323700063137",
+            "advertiser": "클룹 - CLOOP",
+            "startedAt": "2026-08-04",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:45:27+00:00",
+            "lastCollectedAt": "2026-10-08T02:45:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1001761412881439",
+            "advertiser": "리뷰신",
+            "startedAt": "2026-08-28",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:45:27+00:00",
+            "lastCollectedAt": "2026-10-08T02:45:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1522791932277610",
+            "advertiser": "Lucier",
+            "startedAt": "2025-12-27",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:45:26+00:00",
+            "lastCollectedAt": "2026-10-08T02:45:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1356102443168319",
+            "advertiser": "클룹 - CLOOP",
+            "startedAt": "2026-08-12",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:45:26+00:00",
+            "lastCollectedAt": "2026-10-08T02:45:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "820021351181612",
+            "advertiser": "잘밤",
+            "startedAt": "2026-05-21",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:45:25+00:00",
+            "lastCollectedAt": "2026-10-08T02:45:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1686997355829684",
+            "advertiser": "건기남",
+            "startedAt": "2026-05-29",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:45:25+00:00",
+            "lastCollectedAt": "2026-10-08T02:45:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1098501065902711",
+            "advertiser": "Dwmallofficial",
+            "startedAt": "2026-09-19",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:45:25+00:00",
+            "lastCollectedAt": "2026-10-08T02:45:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1060845906662751",
+            "advertiser": "리뷰신",
+            "startedAt": "2026-08-12",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:45:25+00:00",
+            "lastCollectedAt": "2026-10-08T02:45:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1781859863259143",
+            "advertiser": "뉴트리플랜트",
+            "startedAt": "2026-07-21",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:45:24+00:00",
+            "lastCollectedAt": "2026-10-08T02:45:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3656996647788109",
+            "advertiser": "클룹 - CLOOP",
+            "startedAt": "2026-09-08",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:45:19+00:00",
+            "lastCollectedAt": "2026-10-08T02:45:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1607682811069632",
+            "advertiser": "리뷰신",
+            "startedAt": "2026-08-12",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:45:19+00:00",
+            "lastCollectedAt": "2026-10-08T02:45:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1406032171591944",
+            "advertiser": "클룹 - CLOOP",
+            "startedAt": "2026-08-02",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:45:18+00:00",
+            "lastCollectedAt": "2026-10-08T02:45:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1402834415323027",
+            "advertiser": "리뷰신",
+            "startedAt": "2026-08-14",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:45:18+00:00",
+            "lastCollectedAt": "2026-10-08T02:45:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2008233483130935",
+            "advertiser": "Chachahaus",
+            "startedAt": "2026-06-30",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:45:17+00:00",
+            "lastCollectedAt": "2026-10-08T02:45:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1567758284834589",
+            "advertiser": "162.48",
+            "startedAt": "2026-08-06",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:45:17+00:00",
+            "lastCollectedAt": "2026-10-08T02:45:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1391097245990058",
+            "advertiser": "클룹 - CLOOP",
+            "startedAt": "2026-09-08",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:45:17+00:00",
+            "lastCollectedAt": "2026-10-08T02:45:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1113904181192333",
+            "advertiser": "클룹 - CLOOP",
+            "startedAt": "2026-09-18",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:45:16+00:00",
+            "lastCollectedAt": "2026-10-08T02:45:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1076263328210738",
+            "advertiser": "닥터가",
+            "startedAt": "2026-08-24",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:45:15+00:00",
+            "lastCollectedAt": "2026-10-08T02:45:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1040279022146221",
+            "advertiser": "클룹 - CLOOP",
+            "startedAt": "2026-08-20",
+            "query": "멜라토닌",
+            "firstCollectedAt": "2026-10-08T02:45:15+00:00",
+            "lastCollectedAt": "2026-10-08T02:45:15+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T02:47:10+00:00",
+        "advertisers": [
+          {
+            "name": "클룹 - CLOOP",
+            "adCount": 19
+          },
+          {
+            "name": "리뷰신",
+            "adCount": 14
+          },
+          {
+            "name": "CJ웰케어",
+            "adCount": 12
+          },
+          {
+            "name": "뉴트리플랜트",
+            "adCount": 9
+          },
+          {
+            "name": "162.48",
+            "adCount": 8
+          },
+          {
+            "name": "Dwmallofficial",
+            "adCount": 4
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 3
+          },
+          {
+            "name": "셀럽들의 뷰티레시피",
+            "adCount": 3
+          },
+          {
+            "name": "잘밤",
+            "adCount": 3
+          },
+          {
+            "name": "종근당",
+            "adCount": 3
+          },
+          {
+            "name": "꿈꾸미",
+            "adCount": 2
+          },
+          {
+            "name": "Chachahaus",
+            "adCount": 1
+          },
+          {
+            "name": "Darcie",
+            "adCount": 1
+          },
+          {
+            "name": "Lucier",
+            "adCount": 1
+          },
+          {
+            "name": "Nong Moonoii",
+            "adCount": 1
+          },
+          {
+            "name": "Nutriforu",
+            "adCount": 1
+          },
+          {
+            "name": "hattke",
+            "adCount": 1
+          },
+          {
+            "name": "looki.official",
+            "adCount": 1
+          },
+          {
+            "name": "Нега",
+            "adCount": 1
+          },
+          {
+            "name": "건기남",
+            "adCount": 1
+          },
+          {
+            "name": "광동병원",
+            "adCount": 1
+          },
+          {
+            "name": "닥터가",
+            "adCount": 1
+          },
+          {
+            "name": "송재인",
+            "adCount": 1
+          },
+          {
+            "name": "수면과학",
+            "adCount": 1
+          },
+          {
+            "name": "아임제로",
+            "adCount": 1
+          },
+          {
+            "name": "에스더포뮬러",
+            "adCount": 1
+          },
+          {
+            "name": "에이브랩",
+            "adCount": 1
+          },
+          {
+            "name": "웰로리아",
+            "adCount": 1
+          },
+          {
+            "name": "이로아 비타민",
+            "adCount": 1
+          },
+          {
+            "name": "편돌맨",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
