@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T15:24:59+00:00",
+  "updatedAt": "2026-10-08T15:26:52+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-08T01:24:46+00:00",
@@ -43,8 +43,8 @@
     "backlogDays": 14,
     "dailyUsed": 3,
     "dailyRemaining": 285,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-08T15:29:59+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -1807,17 +1807,1032 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "ac350355acb5234e41205aabc4ffbb8d4d5a7bee9403222137c36f265a5eafbb",
       "searchQuery": "코큐텐",
       "adEvidence": {
         "query": "코큐텐",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 84,
+        "adIds": [
+          "1616105706626251",
+          "961980616404435",
+          "1467730315224067",
+          "1671307797902256",
+          "3285520768324148",
+          "1590529908640321",
+          "1386938976816296",
+          "1092315917017840",
+          "1082590711042656",
+          "2497283994089044",
+          "1780862783217876",
+          "29453906224210832",
+          "2095915635138189",
+          "28095065763452856",
+          "2838026903326551",
+          "1730393704700233",
+          "1563525568909446",
+          "1079654931203703",
+          "906847848637672",
+          "888963454182188",
+          "2990102511353623",
+          "2257214038347043",
+          "1402719819585912",
+          "1667687154939092",
+          "1604425664522318",
+          "1073435032201016",
+          "27903746892636598",
+          "2443285096158979",
+          "2191416154751060",
+          "1119875520600752",
+          "739494045154892",
+          "3183794838425071",
+          "3096652270759137",
+          "1697223094674911",
+          "2526930391067876",
+          "1347404447201979",
+          "2284584432315860",
+          "1795918241448665",
+          "1488200119813988",
+          "2148198575733112",
+          "1625451962372274",
+          "2277326993010367",
+          "1719323012427805",
+          "1122833550077143",
+          "4499689240310217",
+          "23951268127802994",
+          "2310782459706365",
+          "1747269276329489",
+          "1114534940938142",
+          "847643595035959",
+          "1760130595141894",
+          "1063832032916380",
+          "2631367567206708",
+          "1700198834351854",
+          "1445941114126852",
+          "1117588267446374",
+          "1084846960952234",
+          "1056303346957974",
+          "28173690558903608",
+          "1818220729352500",
+          "1488596879138747",
+          "1402833885128797",
+          "1041648135270010",
+          "28093534440298553",
+          "27893348540343687",
+          "27411255188509682",
+          "1623670892459388",
+          "1344782080953215",
+          "3553868041437182",
+          "2561628907671234",
+          "1484267833457697",
+          "1036932988913984",
+          "1665084455326384",
+          "1113358084486400",
+          "979514584318443",
+          "936893462175980",
+          "27370736499186071",
+          "1780689502967746",
+          "743155548370283",
+          "27374194088909049",
+          "1785869325741684",
+          "25669572835997020",
+          "1607778220736860",
+          "1061117426784145"
+        ],
+        "ads": [
+          {
+            "id": "1616105706626251",
+            "advertiser": "엔웰스",
+            "startedAt": "2026-10-07",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:33+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:33+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "961980616404435",
+            "advertiser": "",
+            "startedAt": "2026-10-07",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:32+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:32+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1467730315224067",
+            "advertiser": "정담건강",
+            "startedAt": "2026-10-08",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:32+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:32+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1671307797902256",
+            "advertiser": "댕냥이는사랑",
+            "startedAt": "2026-08-18",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:31+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3285520768324148",
+            "advertiser": "더l일己l헬스노트",
+            "startedAt": "2026-10-07",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:17+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:17+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1590529908640321",
+            "advertiser": "나우푸드",
+            "startedAt": "2026-10-01",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:16+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:16+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1386938976816296",
+            "advertiser": "Dobiyaksa",
+            "startedAt": "2026-10-06",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:16+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:16+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1092315917017840",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-09-27",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:16+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1082590711042656",
+            "advertiser": "건강꿀팁",
+            "startedAt": "2026-10-06",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:16+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:16+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2497283994089044",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-09-28",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:15+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1780862783217876",
+            "advertiser": "Lactiv.official",
+            "startedAt": "2026-10-06",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:15+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:15+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "29453906224210832",
+            "advertiser": "wntmd09",
+            "startedAt": "2026-10-06",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:14+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:14+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2095915635138189",
+            "advertiser": "올영세일추천템",
+            "startedAt": "2026-07-16",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:14+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28095065763452856",
+            "advertiser": "멍스타그램",
+            "startedAt": "2026-07-22",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:13+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2838026903326551",
+            "advertiser": "멍스타그램",
+            "startedAt": "2026-09-30",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:05+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1730393704700233",
+            "advertiser": "엔웰스",
+            "startedAt": "2026-10-07",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:05+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:05+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1563525568909446",
+            "advertiser": "안국건강",
+            "startedAt": "2026-10-01",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:04+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:04+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1079654931203703",
+            "advertiser": "littlepaw",
+            "startedAt": "2026-09-02",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:04+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "906847848637672",
+            "advertiser": "더l일己l밸런스",
+            "startedAt": "2026-08-08",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:03+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "888963454182188",
+            "advertiser": "에너지스쿱",
+            "startedAt": "2026-10-07",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:03+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:03+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2990102511353623",
+            "advertiser": "더l일己l밸런스",
+            "startedAt": "2026-10-06",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:01+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:01+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2257214038347043",
+            "advertiser": "더l일己l밸런스",
+            "startedAt": "2026-10-06",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:01+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:01+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1402719819585912",
+            "advertiser": "Dobiyaksa",
+            "startedAt": "2026-10-06",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:01+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:01+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1667687154939092",
+            "advertiser": "건강ㅁı뿜뿜",
+            "startedAt": "2026-10-01",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:00+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:00+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1604425664522318",
+            "advertiser": "체력 살己lブl",
+            "startedAt": "2026-09-19",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:55+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1073435032201016",
+            "advertiser": "O.rr",
+            "startedAt": "2026-10-08",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:55+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:55+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "27903746892636598",
+            "advertiser": "나우푸드",
+            "startedAt": "2026-09-30",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:54+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2443285096158979",
+            "advertiser": "펫스타그램",
+            "startedAt": "2026-08-18",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:54+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2191416154751060",
+            "advertiser": "건강꿀팁",
+            "startedAt": "2026-10-06",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:54+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1119875520600752",
+            "advertiser": "더l일己l밸런스",
+            "startedAt": "2026-10-06",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:54+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "739494045154892",
+            "advertiser": "강아지건강상식",
+            "startedAt": "2025-07-14",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:53+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3183794838425071",
+            "advertiser": "고양이건강상식",
+            "startedAt": "2025-07-14",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:53+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3096652270759137",
+            "advertiser": "조선몰 오늘 입고",
+            "startedAt": "2026-10-06",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:53+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:53+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1697223094674911",
+            "advertiser": "행복ㅎŁ 건강으l 흐름",
+            "startedAt": "2026-10-04",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:53+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:53+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2526930391067876",
+            "advertiser": "건강ㅎŁ 하루를 우ι해",
+            "startedAt": "2026-07-11",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:43+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1347404447201979",
+            "advertiser": "littlepaw",
+            "startedAt": "2026-09-14",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:43+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2284584432315860",
+            "advertiser": "펫스타그램",
+            "startedAt": "2026-08-18",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:42+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1795918241448665",
+            "advertiser": "클라리온",
+            "startedAt": "2026-09-30",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:42+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1488200119813988",
+            "advertiser": "Lactiv.official",
+            "startedAt": "2026-10-02",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:42+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:42+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2148198575733112",
+            "advertiser": "Herbalife",
+            "startedAt": "2026-10-07",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:41+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:41+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1625451962372274",
+            "advertiser": "쥬혜",
+            "startedAt": "2026-10-04",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:41+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:41+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2277326993010367",
+            "advertiser": "올영세일추천템",
+            "startedAt": "2026-06-12",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:40+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1719323012427805",
+            "advertiser": "올영세일추천템",
+            "startedAt": "2026-06-18",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:40+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1122833550077143",
+            "advertiser": "나우푸드",
+            "startedAt": "2026-10-01",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:40+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:40+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4499689240310217",
+            "advertiser": "건강ㅎŁ 하루를 우ι해",
+            "startedAt": "2026-07-11",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:33+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "23951268127802994",
+            "advertiser": "강아지건강상식",
+            "startedAt": "2025-06-16",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:33+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2310782459706365",
+            "advertiser": "아빠의 마음으로 만든, 쁘띠앤",
+            "startedAt": "2026-09-21",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:32+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1747269276329489",
+            "advertiser": "ᴬᴺᴳᴱᴸ",
+            "startedAt": "2026-10-02",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:32+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:32+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1114534940938142",
+            "advertiser": "묘약사",
+            "startedAt": "2026-09-25",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:32+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "847643595035959",
+            "advertiser": "아빠의 마음으로 만든, 쁘띠앤",
+            "startedAt": "2026-09-21",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:30+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1760130595141894",
+            "advertiser": "건강ㅎŁ 하루를 우ι해",
+            "startedAt": "2026-07-11",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:30+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1063832032916380",
+            "advertiser": "올영세일추천템",
+            "startedAt": "2026-08-17",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:30+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2631367567206708",
+            "advertiser": "올영세일추천템",
+            "startedAt": "2025-09-12",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:29+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1700198834351854",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-31",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:29+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1445941114126852",
+            "advertiser": "UNA:N",
+            "startedAt": "2026-09-13",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:22+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1117588267446374",
+            "advertiser": "나우푸드",
+            "startedAt": "2026-09-30",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:22+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1084846960952234",
+            "advertiser": "UNA:N",
+            "startedAt": "2026-09-13",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:22+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1056303346957974",
+            "advertiser": "올영세일추천템",
+            "startedAt": "2026-07-03",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:22+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28173690558903608",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-14",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:21+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1818220729352500",
+            "advertiser": "littlepaw",
+            "startedAt": "2026-09-01",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:21+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1488596879138747",
+            "advertiser": "나우푸드",
+            "startedAt": "2026-06-26",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:21+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1402833885128797",
+            "advertiser": "저스트글로우",
+            "startedAt": "2026-08-26",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:21+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1041648135270010",
+            "advertiser": "고양이건강상식",
+            "startedAt": "2026-08-17",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:21+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28093534440298553",
+            "advertiser": "더l일己l헬스노트",
+            "startedAt": "2026-08-31",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:20+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27893348540343687",
+            "advertiser": "Nutricore",
+            "startedAt": "2026-09-22",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:14+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27411255188509682",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-06-15",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:13+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1623670892459388",
+            "advertiser": "littlepaw",
+            "startedAt": "2026-06-29",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:13+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1344782080953215",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-06",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:13+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3553868041437182",
+            "advertiser": "클라리온",
+            "startedAt": "2026-09-04",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:12+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2561628907671234",
+            "advertiser": "펫스타그램",
+            "startedAt": "2026-08-17",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:12+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1484267833457697",
+            "advertiser": "yaksamom",
+            "startedAt": "2026-09-23",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:12+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1036932988913984",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-06-15",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:12+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1665084455326384",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-09-30",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:11+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1113358084486400",
+            "advertiser": "체력 살己lブl",
+            "startedAt": "2026-09-19",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:11+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "979514584318443",
+            "advertiser": "강아지건강상식",
+            "startedAt": "2025-09-16",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:07+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "936893462175980",
+            "advertiser": "iHerb.com Korean",
+            "startedAt": "2026-03-13",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:06+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27370736499186071",
+            "advertiser": "건기남",
+            "startedAt": "2026-03-20",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:06+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1780689502967746",
+            "advertiser": "체력 살己lブl",
+            "startedAt": "2026-09-19",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:06+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "743155548370283",
+            "advertiser": "엣츠",
+            "startedAt": "2025-06-16",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:05+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27374194088909049",
+            "advertiser": "건강ㅎŁ 하루를 우ι해",
+            "startedAt": "2026-07-11",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:05+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1785869325741684",
+            "advertiser": "Yejin",
+            "startedAt": "2026-08-18",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:05+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "25669572835997020",
+            "advertiser": "약사남",
+            "startedAt": "2026-01-26",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:04+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1607778220736860",
+            "advertiser": "ખ 건강 ન딨ન",
+            "startedAt": "2026-09-07",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:04+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1061117426784145",
+            "advertiser": "건강ㅎŁ 하루를 우ι해",
+            "startedAt": "2026-08-31",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:04+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:04+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T15:26:33+00:00",
+        "advertisers": [
+          {
+            "name": "올영세일추천템",
+            "adCount": 6
+          },
+          {
+            "name": "건강ㅎŁ 하루를 우ι해",
+            "adCount": 5
+          },
+          {
+            "name": "나우푸드",
+            "adCount": 5
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 4
+          },
+          {
+            "name": "littlepaw",
+            "adCount": 4
+          },
+          {
+            "name": "더l일己l밸런스",
+            "adCount": 4
+          },
+          {
+            "name": "강아지건강상식",
+            "adCount": 3
+          },
+          {
+            "name": "체력 살己lブl",
+            "adCount": 3
+          },
+          {
+            "name": "펫스타그램",
+            "adCount": 3
+          },
+          {
+            "name": "Dobiyaksa",
+            "adCount": 2
+          },
+          {
+            "name": "Lactiv.official",
+            "adCount": 2
+          },
+          {
+            "name": "UNA:N",
+            "adCount": 2
+          },
+          {
+            "name": "건강꿀팁",
+            "adCount": 2
+          },
+          {
+            "name": "고양이건강상식",
+            "adCount": 2
+          },
+          {
+            "name": "내츄럴플러스",
+            "adCount": 2
+          },
+          {
+            "name": "더l일己l헬스노트",
+            "adCount": 2
+          },
+          {
+            "name": "멍스타그램",
+            "adCount": 2
+          },
+          {
+            "name": "아빠의 마음으로 만든, 쁘띠앤",
+            "adCount": 2
+          },
+          {
+            "name": "얼라이브 ALIVE",
+            "adCount": 2
+          },
+          {
+            "name": "엔웰스",
+            "adCount": 2
+          },
+          {
+            "name": "클라리온",
+            "adCount": 2
+          },
+          {
+            "name": "Herbalife",
+            "adCount": 1
+          },
+          {
+            "name": "Nutricore",
+            "adCount": 1
+          },
+          {
+            "name": "O.rr",
+            "adCount": 1
+          },
+          {
+            "name": "Yejin",
+            "adCount": 1
+          },
+          {
+            "name": "iHerb.com Korean",
+            "adCount": 1
+          },
+          {
+            "name": "wntmd09",
+            "adCount": 1
+          },
+          {
+            "name": "yaksamom",
+            "adCount": 1
+          },
+          {
+            "name": "ખ 건강 ન딨ન",
+            "adCount": 1
+          },
+          {
+            "name": "ᴬᴺᴳᴱᴸ",
+            "adCount": 1
+          },
+          {
+            "name": "건강ㅁı뿜뿜",
+            "adCount": 1
+          },
+          {
+            "name": "건기남",
+            "adCount": 1
+          },
+          {
+            "name": "댕냥이는사랑",
+            "adCount": 1
+          },
+          {
+            "name": "묘약사",
+            "adCount": 1
+          },
+          {
+            "name": "안국건강",
+            "adCount": 1
+          },
+          {
+            "name": "약사남",
+            "adCount": 1
+          },
+          {
+            "name": "에너지스쿱",
+            "adCount": 1
+          },
+          {
+            "name": "엣츠",
+            "adCount": 1
+          },
+          {
+            "name": "저스트글로우",
+            "adCount": 1
+          },
+          {
+            "name": "정담건강",
+            "adCount": 1
+          },
+          {
+            "name": "조선몰 오늘 입고",
+            "adCount": 1
+          },
+          {
+            "name": "쥬혜",
+            "adCount": 1
+          },
+          {
+            "name": "행복ㅎŁ 건강으l 흐름",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
@@ -7555,17 +8570,1032 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-08T01:24:15+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "ac350355acb5234e41205aabc4ffbb8d4d5a7bee9403222137c36f265a5eafbb",
       "searchQuery": "코큐텐",
       "adEvidence": {
         "query": "코큐텐",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 84,
+        "adIds": [
+          "1616105706626251",
+          "961980616404435",
+          "1467730315224067",
+          "1671307797902256",
+          "3285520768324148",
+          "1590529908640321",
+          "1386938976816296",
+          "1092315917017840",
+          "1082590711042656",
+          "2497283994089044",
+          "1780862783217876",
+          "29453906224210832",
+          "2095915635138189",
+          "28095065763452856",
+          "2838026903326551",
+          "1730393704700233",
+          "1563525568909446",
+          "1079654931203703",
+          "906847848637672",
+          "888963454182188",
+          "2990102511353623",
+          "2257214038347043",
+          "1402719819585912",
+          "1667687154939092",
+          "1604425664522318",
+          "1073435032201016",
+          "27903746892636598",
+          "2443285096158979",
+          "2191416154751060",
+          "1119875520600752",
+          "739494045154892",
+          "3183794838425071",
+          "3096652270759137",
+          "1697223094674911",
+          "2526930391067876",
+          "1347404447201979",
+          "2284584432315860",
+          "1795918241448665",
+          "1488200119813988",
+          "2148198575733112",
+          "1625451962372274",
+          "2277326993010367",
+          "1719323012427805",
+          "1122833550077143",
+          "4499689240310217",
+          "23951268127802994",
+          "2310782459706365",
+          "1747269276329489",
+          "1114534940938142",
+          "847643595035959",
+          "1760130595141894",
+          "1063832032916380",
+          "2631367567206708",
+          "1700198834351854",
+          "1445941114126852",
+          "1117588267446374",
+          "1084846960952234",
+          "1056303346957974",
+          "28173690558903608",
+          "1818220729352500",
+          "1488596879138747",
+          "1402833885128797",
+          "1041648135270010",
+          "28093534440298553",
+          "27893348540343687",
+          "27411255188509682",
+          "1623670892459388",
+          "1344782080953215",
+          "3553868041437182",
+          "2561628907671234",
+          "1484267833457697",
+          "1036932988913984",
+          "1665084455326384",
+          "1113358084486400",
+          "979514584318443",
+          "936893462175980",
+          "27370736499186071",
+          "1780689502967746",
+          "743155548370283",
+          "27374194088909049",
+          "1785869325741684",
+          "25669572835997020",
+          "1607778220736860",
+          "1061117426784145"
+        ],
+        "ads": [
+          {
+            "id": "1616105706626251",
+            "advertiser": "엔웰스",
+            "startedAt": "2026-10-07",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:33+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:33+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "961980616404435",
+            "advertiser": "",
+            "startedAt": "2026-10-07",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:32+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:32+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1467730315224067",
+            "advertiser": "정담건강",
+            "startedAt": "2026-10-08",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:32+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:32+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1671307797902256",
+            "advertiser": "댕냥이는사랑",
+            "startedAt": "2026-08-18",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:31+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3285520768324148",
+            "advertiser": "더l일己l헬스노트",
+            "startedAt": "2026-10-07",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:17+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:17+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1590529908640321",
+            "advertiser": "나우푸드",
+            "startedAt": "2026-10-01",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:16+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:16+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1386938976816296",
+            "advertiser": "Dobiyaksa",
+            "startedAt": "2026-10-06",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:16+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:16+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1092315917017840",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-09-27",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:16+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1082590711042656",
+            "advertiser": "건강꿀팁",
+            "startedAt": "2026-10-06",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:16+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:16+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2497283994089044",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-09-28",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:15+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1780862783217876",
+            "advertiser": "Lactiv.official",
+            "startedAt": "2026-10-06",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:15+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:15+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "29453906224210832",
+            "advertiser": "wntmd09",
+            "startedAt": "2026-10-06",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:14+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:14+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2095915635138189",
+            "advertiser": "올영세일추천템",
+            "startedAt": "2026-07-16",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:14+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28095065763452856",
+            "advertiser": "멍스타그램",
+            "startedAt": "2026-07-22",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:13+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2838026903326551",
+            "advertiser": "멍스타그램",
+            "startedAt": "2026-09-30",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:05+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1730393704700233",
+            "advertiser": "엔웰스",
+            "startedAt": "2026-10-07",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:05+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:05+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1563525568909446",
+            "advertiser": "안국건강",
+            "startedAt": "2026-10-01",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:04+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:04+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1079654931203703",
+            "advertiser": "littlepaw",
+            "startedAt": "2026-09-02",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:04+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "906847848637672",
+            "advertiser": "더l일己l밸런스",
+            "startedAt": "2026-08-08",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:03+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "888963454182188",
+            "advertiser": "에너지스쿱",
+            "startedAt": "2026-10-07",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:03+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:03+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2990102511353623",
+            "advertiser": "더l일己l밸런스",
+            "startedAt": "2026-10-06",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:01+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:01+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2257214038347043",
+            "advertiser": "더l일己l밸런스",
+            "startedAt": "2026-10-06",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:01+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:01+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1402719819585912",
+            "advertiser": "Dobiyaksa",
+            "startedAt": "2026-10-06",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:01+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:01+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1667687154939092",
+            "advertiser": "건강ㅁı뿜뿜",
+            "startedAt": "2026-10-01",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:00+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:00+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1604425664522318",
+            "advertiser": "체력 살己lブl",
+            "startedAt": "2026-09-19",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:55+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1073435032201016",
+            "advertiser": "O.rr",
+            "startedAt": "2026-10-08",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:55+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:55+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "27903746892636598",
+            "advertiser": "나우푸드",
+            "startedAt": "2026-09-30",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:54+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2443285096158979",
+            "advertiser": "펫스타그램",
+            "startedAt": "2026-08-18",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:54+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2191416154751060",
+            "advertiser": "건강꿀팁",
+            "startedAt": "2026-10-06",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:54+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1119875520600752",
+            "advertiser": "더l일己l밸런스",
+            "startedAt": "2026-10-06",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:54+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "739494045154892",
+            "advertiser": "강아지건강상식",
+            "startedAt": "2025-07-14",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:53+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3183794838425071",
+            "advertiser": "고양이건강상식",
+            "startedAt": "2025-07-14",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:53+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3096652270759137",
+            "advertiser": "조선몰 오늘 입고",
+            "startedAt": "2026-10-06",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:53+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:53+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1697223094674911",
+            "advertiser": "행복ㅎŁ 건강으l 흐름",
+            "startedAt": "2026-10-04",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:53+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:53+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2526930391067876",
+            "advertiser": "건강ㅎŁ 하루를 우ι해",
+            "startedAt": "2026-07-11",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:43+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1347404447201979",
+            "advertiser": "littlepaw",
+            "startedAt": "2026-09-14",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:43+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2284584432315860",
+            "advertiser": "펫스타그램",
+            "startedAt": "2026-08-18",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:42+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1795918241448665",
+            "advertiser": "클라리온",
+            "startedAt": "2026-09-30",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:42+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1488200119813988",
+            "advertiser": "Lactiv.official",
+            "startedAt": "2026-10-02",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:42+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:42+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2148198575733112",
+            "advertiser": "Herbalife",
+            "startedAt": "2026-10-07",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:41+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:41+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1625451962372274",
+            "advertiser": "쥬혜",
+            "startedAt": "2026-10-04",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:41+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:41+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2277326993010367",
+            "advertiser": "올영세일추천템",
+            "startedAt": "2026-06-12",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:40+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1719323012427805",
+            "advertiser": "올영세일추천템",
+            "startedAt": "2026-06-18",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:40+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1122833550077143",
+            "advertiser": "나우푸드",
+            "startedAt": "2026-10-01",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:40+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:40+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4499689240310217",
+            "advertiser": "건강ㅎŁ 하루를 우ι해",
+            "startedAt": "2026-07-11",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:33+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "23951268127802994",
+            "advertiser": "강아지건강상식",
+            "startedAt": "2025-06-16",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:33+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2310782459706365",
+            "advertiser": "아빠의 마음으로 만든, 쁘띠앤",
+            "startedAt": "2026-09-21",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:32+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1747269276329489",
+            "advertiser": "ᴬᴺᴳᴱᴸ",
+            "startedAt": "2026-10-02",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:32+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:32+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1114534940938142",
+            "advertiser": "묘약사",
+            "startedAt": "2026-09-25",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:32+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "847643595035959",
+            "advertiser": "아빠의 마음으로 만든, 쁘띠앤",
+            "startedAt": "2026-09-21",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:30+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1760130595141894",
+            "advertiser": "건강ㅎŁ 하루를 우ι해",
+            "startedAt": "2026-07-11",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:30+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1063832032916380",
+            "advertiser": "올영세일추천템",
+            "startedAt": "2026-08-17",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:30+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2631367567206708",
+            "advertiser": "올영세일추천템",
+            "startedAt": "2025-09-12",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:29+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1700198834351854",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-31",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:29+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1445941114126852",
+            "advertiser": "UNA:N",
+            "startedAt": "2026-09-13",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:22+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1117588267446374",
+            "advertiser": "나우푸드",
+            "startedAt": "2026-09-30",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:22+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1084846960952234",
+            "advertiser": "UNA:N",
+            "startedAt": "2026-09-13",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:22+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1056303346957974",
+            "advertiser": "올영세일추천템",
+            "startedAt": "2026-07-03",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:22+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28173690558903608",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-14",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:21+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1818220729352500",
+            "advertiser": "littlepaw",
+            "startedAt": "2026-09-01",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:21+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1488596879138747",
+            "advertiser": "나우푸드",
+            "startedAt": "2026-06-26",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:21+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1402833885128797",
+            "advertiser": "저스트글로우",
+            "startedAt": "2026-08-26",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:21+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1041648135270010",
+            "advertiser": "고양이건강상식",
+            "startedAt": "2026-08-17",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:21+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28093534440298553",
+            "advertiser": "더l일己l헬스노트",
+            "startedAt": "2026-08-31",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:20+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27893348540343687",
+            "advertiser": "Nutricore",
+            "startedAt": "2026-09-22",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:14+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27411255188509682",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-06-15",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:13+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1623670892459388",
+            "advertiser": "littlepaw",
+            "startedAt": "2026-06-29",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:13+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1344782080953215",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-06",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:13+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3553868041437182",
+            "advertiser": "클라리온",
+            "startedAt": "2026-09-04",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:12+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2561628907671234",
+            "advertiser": "펫스타그램",
+            "startedAt": "2026-08-17",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:12+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1484267833457697",
+            "advertiser": "yaksamom",
+            "startedAt": "2026-09-23",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:12+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1036932988913984",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-06-15",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:12+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1665084455326384",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-09-30",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:11+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1113358084486400",
+            "advertiser": "체력 살己lブl",
+            "startedAt": "2026-09-19",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:11+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "979514584318443",
+            "advertiser": "강아지건강상식",
+            "startedAt": "2025-09-16",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:07+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "936893462175980",
+            "advertiser": "iHerb.com Korean",
+            "startedAt": "2026-03-13",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:06+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27370736499186071",
+            "advertiser": "건기남",
+            "startedAt": "2026-03-20",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:06+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1780689502967746",
+            "advertiser": "체력 살己lブl",
+            "startedAt": "2026-09-19",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:06+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "743155548370283",
+            "advertiser": "엣츠",
+            "startedAt": "2025-06-16",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:05+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27374194088909049",
+            "advertiser": "건강ㅎŁ 하루를 우ι해",
+            "startedAt": "2026-07-11",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:05+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1785869325741684",
+            "advertiser": "Yejin",
+            "startedAt": "2026-08-18",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:05+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "25669572835997020",
+            "advertiser": "약사남",
+            "startedAt": "2026-01-26",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:04+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1607778220736860",
+            "advertiser": "ખ 건강 ન딨ન",
+            "startedAt": "2026-09-07",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:04+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1061117426784145",
+            "advertiser": "건강ㅎŁ 하루를 우ι해",
+            "startedAt": "2026-08-31",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:04+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:04+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T15:26:33+00:00",
+        "advertisers": [
+          {
+            "name": "올영세일추천템",
+            "adCount": 6
+          },
+          {
+            "name": "건강ㅎŁ 하루를 우ι해",
+            "adCount": 5
+          },
+          {
+            "name": "나우푸드",
+            "adCount": 5
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 4
+          },
+          {
+            "name": "littlepaw",
+            "adCount": 4
+          },
+          {
+            "name": "더l일己l밸런스",
+            "adCount": 4
+          },
+          {
+            "name": "강아지건강상식",
+            "adCount": 3
+          },
+          {
+            "name": "체력 살己lブl",
+            "adCount": 3
+          },
+          {
+            "name": "펫스타그램",
+            "adCount": 3
+          },
+          {
+            "name": "Dobiyaksa",
+            "adCount": 2
+          },
+          {
+            "name": "Lactiv.official",
+            "adCount": 2
+          },
+          {
+            "name": "UNA:N",
+            "adCount": 2
+          },
+          {
+            "name": "건강꿀팁",
+            "adCount": 2
+          },
+          {
+            "name": "고양이건강상식",
+            "adCount": 2
+          },
+          {
+            "name": "내츄럴플러스",
+            "adCount": 2
+          },
+          {
+            "name": "더l일己l헬스노트",
+            "adCount": 2
+          },
+          {
+            "name": "멍스타그램",
+            "adCount": 2
+          },
+          {
+            "name": "아빠의 마음으로 만든, 쁘띠앤",
+            "adCount": 2
+          },
+          {
+            "name": "얼라이브 ALIVE",
+            "adCount": 2
+          },
+          {
+            "name": "엔웰스",
+            "adCount": 2
+          },
+          {
+            "name": "클라리온",
+            "adCount": 2
+          },
+          {
+            "name": "Herbalife",
+            "adCount": 1
+          },
+          {
+            "name": "Nutricore",
+            "adCount": 1
+          },
+          {
+            "name": "O.rr",
+            "adCount": 1
+          },
+          {
+            "name": "Yejin",
+            "adCount": 1
+          },
+          {
+            "name": "iHerb.com Korean",
+            "adCount": 1
+          },
+          {
+            "name": "wntmd09",
+            "adCount": 1
+          },
+          {
+            "name": "yaksamom",
+            "adCount": 1
+          },
+          {
+            "name": "ખ 건강 ન딨ન",
+            "adCount": 1
+          },
+          {
+            "name": "ᴬᴺᴳᴱᴸ",
+            "adCount": 1
+          },
+          {
+            "name": "건강ㅁı뿜뿜",
+            "adCount": 1
+          },
+          {
+            "name": "건기남",
+            "adCount": 1
+          },
+          {
+            "name": "댕냥이는사랑",
+            "adCount": 1
+          },
+          {
+            "name": "묘약사",
+            "adCount": 1
+          },
+          {
+            "name": "안국건강",
+            "adCount": 1
+          },
+          {
+            "name": "약사남",
+            "adCount": 1
+          },
+          {
+            "name": "에너지스쿱",
+            "adCount": 1
+          },
+          {
+            "name": "엣츠",
+            "adCount": 1
+          },
+          {
+            "name": "저스트글로우",
+            "adCount": 1
+          },
+          {
+            "name": "정담건강",
+            "adCount": 1
+          },
+          {
+            "name": "조선몰 오늘 입고",
+            "adCount": 1
+          },
+          {
+            "name": "쥬혜",
+            "adCount": 1
+          },
+          {
+            "name": "행복ㅎŁ 건강으l 흐름",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
@@ -18566,11 +20596,1026 @@
       "adEvidence": {
         "query": "코큐텐",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 84,
+        "adIds": [
+          "1616105706626251",
+          "961980616404435",
+          "1467730315224067",
+          "1671307797902256",
+          "3285520768324148",
+          "1590529908640321",
+          "1386938976816296",
+          "1092315917017840",
+          "1082590711042656",
+          "2497283994089044",
+          "1780862783217876",
+          "29453906224210832",
+          "2095915635138189",
+          "28095065763452856",
+          "2838026903326551",
+          "1730393704700233",
+          "1563525568909446",
+          "1079654931203703",
+          "906847848637672",
+          "888963454182188",
+          "2990102511353623",
+          "2257214038347043",
+          "1402719819585912",
+          "1667687154939092",
+          "1604425664522318",
+          "1073435032201016",
+          "27903746892636598",
+          "2443285096158979",
+          "2191416154751060",
+          "1119875520600752",
+          "739494045154892",
+          "3183794838425071",
+          "3096652270759137",
+          "1697223094674911",
+          "2526930391067876",
+          "1347404447201979",
+          "2284584432315860",
+          "1795918241448665",
+          "1488200119813988",
+          "2148198575733112",
+          "1625451962372274",
+          "2277326993010367",
+          "1719323012427805",
+          "1122833550077143",
+          "4499689240310217",
+          "23951268127802994",
+          "2310782459706365",
+          "1747269276329489",
+          "1114534940938142",
+          "847643595035959",
+          "1760130595141894",
+          "1063832032916380",
+          "2631367567206708",
+          "1700198834351854",
+          "1445941114126852",
+          "1117588267446374",
+          "1084846960952234",
+          "1056303346957974",
+          "28173690558903608",
+          "1818220729352500",
+          "1488596879138747",
+          "1402833885128797",
+          "1041648135270010",
+          "28093534440298553",
+          "27893348540343687",
+          "27411255188509682",
+          "1623670892459388",
+          "1344782080953215",
+          "3553868041437182",
+          "2561628907671234",
+          "1484267833457697",
+          "1036932988913984",
+          "1665084455326384",
+          "1113358084486400",
+          "979514584318443",
+          "936893462175980",
+          "27370736499186071",
+          "1780689502967746",
+          "743155548370283",
+          "27374194088909049",
+          "1785869325741684",
+          "25669572835997020",
+          "1607778220736860",
+          "1061117426784145"
+        ],
+        "ads": [
+          {
+            "id": "1616105706626251",
+            "advertiser": "엔웰스",
+            "startedAt": "2026-10-07",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:33+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:33+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "961980616404435",
+            "advertiser": "",
+            "startedAt": "2026-10-07",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:32+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:32+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1467730315224067",
+            "advertiser": "정담건강",
+            "startedAt": "2026-10-08",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:32+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:32+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1671307797902256",
+            "advertiser": "댕냥이는사랑",
+            "startedAt": "2026-08-18",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:31+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3285520768324148",
+            "advertiser": "더l일己l헬스노트",
+            "startedAt": "2026-10-07",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:17+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:17+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1590529908640321",
+            "advertiser": "나우푸드",
+            "startedAt": "2026-10-01",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:16+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:16+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1386938976816296",
+            "advertiser": "Dobiyaksa",
+            "startedAt": "2026-10-06",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:16+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:16+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1092315917017840",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-09-27",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:16+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1082590711042656",
+            "advertiser": "건강꿀팁",
+            "startedAt": "2026-10-06",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:16+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:16+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2497283994089044",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-09-28",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:15+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1780862783217876",
+            "advertiser": "Lactiv.official",
+            "startedAt": "2026-10-06",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:15+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:15+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "29453906224210832",
+            "advertiser": "wntmd09",
+            "startedAt": "2026-10-06",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:14+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:14+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2095915635138189",
+            "advertiser": "올영세일추천템",
+            "startedAt": "2026-07-16",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:14+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28095065763452856",
+            "advertiser": "멍스타그램",
+            "startedAt": "2026-07-22",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:13+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2838026903326551",
+            "advertiser": "멍스타그램",
+            "startedAt": "2026-09-30",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:05+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:05+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1730393704700233",
+            "advertiser": "엔웰스",
+            "startedAt": "2026-10-07",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:05+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:05+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1563525568909446",
+            "advertiser": "안국건강",
+            "startedAt": "2026-10-01",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:04+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:04+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1079654931203703",
+            "advertiser": "littlepaw",
+            "startedAt": "2026-09-02",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:04+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "906847848637672",
+            "advertiser": "더l일己l밸런스",
+            "startedAt": "2026-08-08",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:03+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "888963454182188",
+            "advertiser": "에너지스쿱",
+            "startedAt": "2026-10-07",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:03+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:03+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "2990102511353623",
+            "advertiser": "더l일己l밸런스",
+            "startedAt": "2026-10-06",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:01+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:01+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2257214038347043",
+            "advertiser": "더l일己l밸런스",
+            "startedAt": "2026-10-06",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:01+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:01+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1402719819585912",
+            "advertiser": "Dobiyaksa",
+            "startedAt": "2026-10-06",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:01+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:01+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1667687154939092",
+            "advertiser": "건강ㅁı뿜뿜",
+            "startedAt": "2026-10-01",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:26:00+00:00",
+            "lastCollectedAt": "2026-10-08T15:26:00+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1604425664522318",
+            "advertiser": "체력 살己lブl",
+            "startedAt": "2026-09-19",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:55+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1073435032201016",
+            "advertiser": "O.rr",
+            "startedAt": "2026-10-08",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:55+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:55+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "27903746892636598",
+            "advertiser": "나우푸드",
+            "startedAt": "2026-09-30",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:54+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2443285096158979",
+            "advertiser": "펫스타그램",
+            "startedAt": "2026-08-18",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:54+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2191416154751060",
+            "advertiser": "건강꿀팁",
+            "startedAt": "2026-10-06",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:54+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1119875520600752",
+            "advertiser": "더l일己l밸런스",
+            "startedAt": "2026-10-06",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:54+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "739494045154892",
+            "advertiser": "강아지건강상식",
+            "startedAt": "2025-07-14",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:53+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3183794838425071",
+            "advertiser": "고양이건강상식",
+            "startedAt": "2025-07-14",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:53+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3096652270759137",
+            "advertiser": "조선몰 오늘 입고",
+            "startedAt": "2026-10-06",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:53+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:53+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1697223094674911",
+            "advertiser": "행복ㅎŁ 건강으l 흐름",
+            "startedAt": "2026-10-04",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:53+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:53+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2526930391067876",
+            "advertiser": "건강ㅎŁ 하루를 우ι해",
+            "startedAt": "2026-07-11",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:43+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1347404447201979",
+            "advertiser": "littlepaw",
+            "startedAt": "2026-09-14",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:43+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2284584432315860",
+            "advertiser": "펫스타그램",
+            "startedAt": "2026-08-18",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:42+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1795918241448665",
+            "advertiser": "클라리온",
+            "startedAt": "2026-09-30",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:42+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:42+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1488200119813988",
+            "advertiser": "Lactiv.official",
+            "startedAt": "2026-10-02",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:42+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:42+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2148198575733112",
+            "advertiser": "Herbalife",
+            "startedAt": "2026-10-07",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:41+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:41+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1625451962372274",
+            "advertiser": "쥬혜",
+            "startedAt": "2026-10-04",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:41+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:41+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2277326993010367",
+            "advertiser": "올영세일추천템",
+            "startedAt": "2026-06-12",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:40+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1719323012427805",
+            "advertiser": "올영세일추천템",
+            "startedAt": "2026-06-18",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:40+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1122833550077143",
+            "advertiser": "나우푸드",
+            "startedAt": "2026-10-01",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:40+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:40+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4499689240310217",
+            "advertiser": "건강ㅎŁ 하루를 우ι해",
+            "startedAt": "2026-07-11",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:33+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "23951268127802994",
+            "advertiser": "강아지건강상식",
+            "startedAt": "2025-06-16",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:33+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2310782459706365",
+            "advertiser": "아빠의 마음으로 만든, 쁘띠앤",
+            "startedAt": "2026-09-21",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:32+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1747269276329489",
+            "advertiser": "ᴬᴺᴳᴱᴸ",
+            "startedAt": "2026-10-02",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:32+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:32+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1114534940938142",
+            "advertiser": "묘약사",
+            "startedAt": "2026-09-25",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:32+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "847643595035959",
+            "advertiser": "아빠의 마음으로 만든, 쁘띠앤",
+            "startedAt": "2026-09-21",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:30+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1760130595141894",
+            "advertiser": "건강ㅎŁ 하루를 우ι해",
+            "startedAt": "2026-07-11",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:30+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1063832032916380",
+            "advertiser": "올영세일추천템",
+            "startedAt": "2026-08-17",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:30+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2631367567206708",
+            "advertiser": "올영세일추천템",
+            "startedAt": "2025-09-12",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:29+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1700198834351854",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-31",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:29+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1445941114126852",
+            "advertiser": "UNA:N",
+            "startedAt": "2026-09-13",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:22+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1117588267446374",
+            "advertiser": "나우푸드",
+            "startedAt": "2026-09-30",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:22+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:22+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1084846960952234",
+            "advertiser": "UNA:N",
+            "startedAt": "2026-09-13",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:22+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1056303346957974",
+            "advertiser": "올영세일추천템",
+            "startedAt": "2026-07-03",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:22+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28173690558903608",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-14",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:21+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1818220729352500",
+            "advertiser": "littlepaw",
+            "startedAt": "2026-09-01",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:21+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1488596879138747",
+            "advertiser": "나우푸드",
+            "startedAt": "2026-06-26",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:21+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1402833885128797",
+            "advertiser": "저스트글로우",
+            "startedAt": "2026-08-26",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:21+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1041648135270010",
+            "advertiser": "고양이건강상식",
+            "startedAt": "2026-08-17",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:21+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28093534440298553",
+            "advertiser": "더l일己l헬스노트",
+            "startedAt": "2026-08-31",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:20+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27893348540343687",
+            "advertiser": "Nutricore",
+            "startedAt": "2026-09-22",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:14+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27411255188509682",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-06-15",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:13+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1623670892459388",
+            "advertiser": "littlepaw",
+            "startedAt": "2026-06-29",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:13+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1344782080953215",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-06",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:13+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3553868041437182",
+            "advertiser": "클라리온",
+            "startedAt": "2026-09-04",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:12+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2561628907671234",
+            "advertiser": "펫스타그램",
+            "startedAt": "2026-08-17",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:12+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1484267833457697",
+            "advertiser": "yaksamom",
+            "startedAt": "2026-09-23",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:12+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1036932988913984",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-06-15",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:12+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1665084455326384",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-09-30",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:11+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:11+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1113358084486400",
+            "advertiser": "체력 살己lブl",
+            "startedAt": "2026-09-19",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:11+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "979514584318443",
+            "advertiser": "강아지건강상식",
+            "startedAt": "2025-09-16",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:07+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "936893462175980",
+            "advertiser": "iHerb.com Korean",
+            "startedAt": "2026-03-13",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:06+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27370736499186071",
+            "advertiser": "건기남",
+            "startedAt": "2026-03-20",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:06+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1780689502967746",
+            "advertiser": "체력 살己lブl",
+            "startedAt": "2026-09-19",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:06+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "743155548370283",
+            "advertiser": "엣츠",
+            "startedAt": "2025-06-16",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:05+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27374194088909049",
+            "advertiser": "건강ㅎŁ 하루를 우ι해",
+            "startedAt": "2026-07-11",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:05+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1785869325741684",
+            "advertiser": "Yejin",
+            "startedAt": "2026-08-18",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:05+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "25669572835997020",
+            "advertiser": "약사남",
+            "startedAt": "2026-01-26",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:04+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1607778220736860",
+            "advertiser": "ખ 건강 ન딨ન",
+            "startedAt": "2026-09-07",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:04+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1061117426784145",
+            "advertiser": "건강ㅎŁ 하루를 우ι해",
+            "startedAt": "2026-08-31",
+            "query": "코큐텐",
+            "firstCollectedAt": "2026-10-08T15:25:04+00:00",
+            "lastCollectedAt": "2026-10-08T15:25:04+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T15:26:33+00:00",
+        "advertisers": [
+          {
+            "name": "올영세일추천템",
+            "adCount": 6
+          },
+          {
+            "name": "건강ㅎŁ 하루를 우ι해",
+            "adCount": 5
+          },
+          {
+            "name": "나우푸드",
+            "adCount": 5
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 4
+          },
+          {
+            "name": "littlepaw",
+            "adCount": 4
+          },
+          {
+            "name": "더l일己l밸런스",
+            "adCount": 4
+          },
+          {
+            "name": "강아지건강상식",
+            "adCount": 3
+          },
+          {
+            "name": "체력 살己lブl",
+            "adCount": 3
+          },
+          {
+            "name": "펫스타그램",
+            "adCount": 3
+          },
+          {
+            "name": "Dobiyaksa",
+            "adCount": 2
+          },
+          {
+            "name": "Lactiv.official",
+            "adCount": 2
+          },
+          {
+            "name": "UNA:N",
+            "adCount": 2
+          },
+          {
+            "name": "건강꿀팁",
+            "adCount": 2
+          },
+          {
+            "name": "고양이건강상식",
+            "adCount": 2
+          },
+          {
+            "name": "내츄럴플러스",
+            "adCount": 2
+          },
+          {
+            "name": "더l일己l헬스노트",
+            "adCount": 2
+          },
+          {
+            "name": "멍스타그램",
+            "adCount": 2
+          },
+          {
+            "name": "아빠의 마음으로 만든, 쁘띠앤",
+            "adCount": 2
+          },
+          {
+            "name": "얼라이브 ALIVE",
+            "adCount": 2
+          },
+          {
+            "name": "엔웰스",
+            "adCount": 2
+          },
+          {
+            "name": "클라리온",
+            "adCount": 2
+          },
+          {
+            "name": "Herbalife",
+            "adCount": 1
+          },
+          {
+            "name": "Nutricore",
+            "adCount": 1
+          },
+          {
+            "name": "O.rr",
+            "adCount": 1
+          },
+          {
+            "name": "Yejin",
+            "adCount": 1
+          },
+          {
+            "name": "iHerb.com Korean",
+            "adCount": 1
+          },
+          {
+            "name": "wntmd09",
+            "adCount": 1
+          },
+          {
+            "name": "yaksamom",
+            "adCount": 1
+          },
+          {
+            "name": "ખ 건강 ન딨ન",
+            "adCount": 1
+          },
+          {
+            "name": "ᴬᴺᴳᴱᴸ",
+            "adCount": 1
+          },
+          {
+            "name": "건강ㅁı뿜뿜",
+            "adCount": 1
+          },
+          {
+            "name": "건기남",
+            "adCount": 1
+          },
+          {
+            "name": "댕냥이는사랑",
+            "adCount": 1
+          },
+          {
+            "name": "묘약사",
+            "adCount": 1
+          },
+          {
+            "name": "안국건강",
+            "adCount": 1
+          },
+          {
+            "name": "약사남",
+            "adCount": 1
+          },
+          {
+            "name": "에너지스쿱",
+            "adCount": 1
+          },
+          {
+            "name": "엣츠",
+            "adCount": 1
+          },
+          {
+            "name": "저스트글로우",
+            "adCount": 1
+          },
+          {
+            "name": "정담건강",
+            "adCount": 1
+          },
+          {
+            "name": "조선몰 오늘 입고",
+            "adCount": 1
+          },
+          {
+            "name": "쥬혜",
+            "adCount": 1
+          },
+          {
+            "name": "행복ㅎŁ 건강으l 흐름",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 3,
