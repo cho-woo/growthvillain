@@ -16,6 +16,7 @@ import time
 
 from automation_bridge import (KST, Heartbeat, enabled, file_lock, hub_root,
                                parse_time, publish_slot, read_json, stamp, write_json)
+from naver_auth_hold import publication_auth_hold, auth_hold_message
 
 ROOT = Path(__file__).resolve().parent
 
@@ -70,6 +71,8 @@ def run_child(script, *arguments):
 
 def publication_session_ready(root, config):
     """Check the configured local session only; authentication belongs to the publisher."""
+    if publication_auth_hold(root, config.get('naver_blog_id')):
+        return False
     session_file = config.get('naver_session_file')
     return bool(config.get('naver_blog_id') and session_file
                 and (root/str(session_file)).is_file())
@@ -92,7 +95,9 @@ def current_success_at(state, config):
     return max(dated, key=lambda item: item[0])[1] if dated else None
 
 
-def waiting_status(state, config, session_ready, article, current):
+def waiting_status(state, config, session_ready, article, current, auth_hold=None):
+    if auth_hold:
+        return 'blocked', auth_hold_message(auth_hold) + ' · 수집 ON'
     if not session_ready:
         return 'blocked', f"{config.get('naver_blog_id') or '뷰티 블로그'} 로그인 필요 · 수집 ON"
     if state.get('lastCollectionOk') is False:
@@ -164,7 +169,9 @@ def main():
                         heartbeat.update(running=False)
                     else:
                         due = min(due, publish_at)
-                state_name, message = waiting_status(state, config, session_ready, article, current)
+                state_name, message = waiting_status(
+                    state, config, session_ready, article, current,
+                    publication_auth_hold(ROOT, config.get('naver_blog_id')))
                 heartbeat.update(running=False, state=state_name, nextRunAt=due.isoformat(),
                                  lastSuccessAt=current_success_at(state, config), message=message)
                 time.sleep(5)
