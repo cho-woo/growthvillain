@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T03:06:06+00:00",
+  "updatedAt": "2026-10-08T03:10:48+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-08T01:24:46+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 20,
-    "dailyRemaining": 268,
+    "dailyUsed": 21,
+    "dailyRemaining": 267,
     "pending": 0,
-    "nextDispatchAt": "2026-10-08T03:10:23+00:00",
+    "nextDispatchAt": "2026-10-08T03:15:25+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -85,17 +85,34 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "done",
       "keywordId": "1e3b3b9e6e27ef38804cbc95977f093a52a3080810b565284efe9b099a3a5756",
       "searchQuery": "젓산.마그네슘",
       "adEvidence": {
         "query": "젓산.마그네슘",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 1,
+        "adIds": [
+          "2717560121974995"
+        ],
+        "ads": [
+          {
+            "id": "2717560121974995",
+            "advertiser": "팜얼라이브 pharmalive",
+            "startedAt": "2026-08-22",
+            "query": "젓산.마그네슘",
+            "firstCollectedAt": "2026-10-08T03:10:34+00:00",
+            "lastCollectedAt": "2026-10-08T03:10:34+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T03:10:34+00:00",
+        "advertisers": [
+          {
+            "name": "팜얼라이브 pharmalive",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -3138,17 +3155,34 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-08T01:24:15+00:00",
-      "state": "ready",
+      "state": "done",
       "keywordId": "1e3b3b9e6e27ef38804cbc95977f093a52a3080810b565284efe9b099a3a5756",
       "searchQuery": "젓산.마그네슘",
       "adEvidence": {
         "query": "젓산.마그네슘",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 1,
+        "adIds": [
+          "2717560121974995"
+        ],
+        "ads": [
+          {
+            "id": "2717560121974995",
+            "advertiser": "팜얼라이브 pharmalive",
+            "startedAt": "2026-08-22",
+            "query": "젓산.마그네슘",
+            "firstCollectedAt": "2026-10-08T03:10:34+00:00",
+            "lastCollectedAt": "2026-10-08T03:10:34+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T03:10:34+00:00",
+        "advertisers": [
+          {
+            "name": "팜얼라이브 pharmalive",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -12884,17 +12918,34 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "backlog",
+      "state": "cooldown",
       "keywordId": "1e3b3b9e6e27ef38804cbc95977f093a52a3080810b565284efe9b099a3a5756",
       "searchQuery": "젓산.마그네슘",
       "adEvidence": {
         "query": "젓산.마그네슘",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 1,
+        "adIds": [
+          "2717560121974995"
+        ],
+        "ads": [
+          {
+            "id": "2717560121974995",
+            "advertiser": "팜얼라이브 pharmalive",
+            "startedAt": "2026-08-22",
+            "query": "젓산.마그네슘",
+            "firstCollectedAt": "2026-10-08T03:10:34+00:00",
+            "lastCollectedAt": "2026-10-08T03:10:34+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T03:10:34+00:00",
+        "advertisers": [
+          {
+            "name": "팜얼라이브 pharmalive",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
