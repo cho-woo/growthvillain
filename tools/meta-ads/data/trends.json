@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T15:19:58+00:00",
+  "updatedAt": "2026-10-08T15:21:59+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-08T01:24:46+00:00",
@@ -43,8 +43,8 @@
     "backlogDays": 14,
     "dailyUsed": 2,
     "dailyRemaining": 286,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-08T15:24:58+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -870,17 +870,922 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "e6277fc18b38355e5b8a7fb8407c886077ee1ee7805a826b014783c553932769",
       "searchQuery": "철분제",
       "adEvidence": {
         "query": "철분제",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 77,
+        "adIds": [
+          "2300514467393146",
+          "1831567238006448",
+          "2652048695227751",
+          "1129610606414817",
+          "1739736170897208",
+          "1732948134476588",
+          "1100712739488841",
+          "1414381470875770",
+          "4435865463407322",
+          "1149546730838342",
+          "1103066472103156",
+          "2021735768485869",
+          "1678435060364092",
+          "1121715110810041",
+          "2833325197045171",
+          "1612308097068475",
+          "1118918693916927",
+          "991666200138311",
+          "3345641782288257",
+          "1903097803989170",
+          "1338764798421152",
+          "1977200989658890",
+          "1853072232804725",
+          "1518418073651585",
+          "2880750725623687",
+          "1527345846078201",
+          "1019825430480966",
+          "1763432194804836",
+          "872008169280029",
+          "3430415777139922",
+          "2378221066042411",
+          "1141064598360331",
+          "1457058422971188",
+          "1315883997341068",
+          "1872842144098217",
+          "1695901261444377",
+          "1443952897841076",
+          "1771175041096110",
+          "37465014779813088",
+          "2243237779846470",
+          "2161618207759091",
+          "1716424759470061",
+          "4260215920912040",
+          "1191527193092284",
+          "1102121946100193",
+          "881907634791363",
+          "1981970122726396",
+          "1451458600124939",
+          "1824550795547770",
+          "1474629427797558",
+          "1268396352150962",
+          "1534412945388797",
+          "2066226194193300",
+          "1111163071351727",
+          "970526465348724",
+          "2282289489248039",
+          "1777997819768125",
+          "2279863986115224",
+          "1062639063068457",
+          "1626449529093362",
+          "989796320756503",
+          "27786390717657256",
+          "1528828662332868",
+          "982200517857490",
+          "28941505825441965",
+          "1861242805259558",
+          "1232659502235250",
+          "2073439733256424",
+          "2023375998563256",
+          "892622223847280",
+          "1345851224067991",
+          "1051851400840869",
+          "2787425408297135",
+          "2264610750728678",
+          "25669572835997020",
+          "2385601145267407",
+          "992543860083545"
+        ],
+        "ads": [
+          {
+            "id": "2300514467393146",
+            "advertiser": "Vital Habit",
+            "startedAt": "2026-10-05",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:35+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:35+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1831567238006448",
+            "advertiser": "O.rr",
+            "startedAt": "2026-09-03",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:35+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2652048695227751",
+            "advertiser": "Vital Habit",
+            "startedAt": "2026-10-05",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:34+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:34+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1129610606414817",
+            "advertiser": "시데랄",
+            "startedAt": "2026-10-07",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:34+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:34+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1739736170897208",
+            "advertiser": "베이비빌리",
+            "startedAt": "2026-09-30",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:33+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1732948134476588",
+            "advertiser": "탑헬스_official",
+            "startedAt": "2026-10-06",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:33+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:33+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1100712739488841",
+            "advertiser": "아빠의 마음으로 만든, 쁘띠앤",
+            "startedAt": "2026-10-07",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:33+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:33+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1414381470875770",
+            "advertiser": "",
+            "startedAt": "2026-10-07",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:18+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:18+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4435865463407322",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-27",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:15+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1149546730838342",
+            "advertiser": "탑헬스_official",
+            "startedAt": "2026-10-06",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:15+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:15+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1103066472103156",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-27",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:15+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2021735768485869",
+            "advertiser": "Vital Habit",
+            "startedAt": "2026-10-05",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:14+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:14+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1678435060364092",
+            "advertiser": "Vital Habit",
+            "startedAt": "2026-10-05",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:14+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:14+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1121715110810041",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-27",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:14+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2833325197045171",
+            "advertiser": "홈스윗홈",
+            "startedAt": "2026-08-13",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:13+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1612308097068475",
+            "advertiser": "Vital Habit",
+            "startedAt": "2026-10-05",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:13+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:13+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1118918693916927",
+            "advertiser": "탑헬스_official",
+            "startedAt": "2026-10-06",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:13+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:13+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "991666200138311",
+            "advertiser": "성장건강꿀팁",
+            "startedAt": "2026-06-23",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:04+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3345641782288257",
+            "advertiser": "Lactiv.official",
+            "startedAt": "2026-09-28",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:04+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1903097803989170",
+            "advertiser": "Geniedrinkslove",
+            "startedAt": "2026-10-07",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:03+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:03+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1338764798421152",
+            "advertiser": "star01951",
+            "startedAt": "2026-08-13",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:01+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1977200989658890",
+            "advertiser": "O.rr",
+            "startedAt": "2026-08-27",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:00+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1853072232804725",
+            "advertiser": "마미앤대디",
+            "startedAt": "2026-10-07",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:00+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:00+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1518418073651585",
+            "advertiser": "MJ",
+            "startedAt": "2026-09-28",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:00+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2880750725623687",
+            "advertiser": "마미앤대디",
+            "startedAt": "2026-10-07",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:59+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:59+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1527345846078201",
+            "advertiser": "탑헬스_official",
+            "startedAt": "2026-09-28",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:59+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1019825430480966",
+            "advertiser": "이쑤쑤딩",
+            "startedAt": "2026-05-28",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:58+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1763432194804836",
+            "advertiser": "탑헬스_official",
+            "startedAt": "2026-09-28",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:51+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "872008169280029",
+            "advertiser": "성장건강꿀팁",
+            "startedAt": "2026-06-23",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:50+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3430415777139922",
+            "advertiser": "",
+            "startedAt": "2026-10-02",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:50+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:50+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2378221066042411",
+            "advertiser": "마미앤대디",
+            "startedAt": "2026-10-07",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:49+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:49+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1141064598360331",
+            "advertiser": "에스더마켓",
+            "startedAt": "2026-10-06",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:49+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:49+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1457058422971188",
+            "advertiser": "MJ",
+            "startedAt": "2026-09-28",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:48+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1315883997341068",
+            "advertiser": "Daily_simby",
+            "startedAt": "2026-05-28",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:48+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1872842144098217",
+            "advertiser": "마미앤대디",
+            "startedAt": "2026-10-07",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:47+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:47+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1695901261444377",
+            "advertiser": "뷰티블로거 미니비쥬",
+            "startedAt": "2026-05-28",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:47+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1443952897841076",
+            "advertiser": "약사남",
+            "startedAt": "2026-10-06",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:46+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:46+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1771175041096110",
+            "advertiser": "네추럴라이즈 키즈",
+            "startedAt": "2026-09-18",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:37+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "37465014779813088",
+            "advertiser": "강아지건강상식",
+            "startedAt": "2026-08-13",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:36+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2243237779846470",
+            "advertiser": "하잇",
+            "startedAt": "2026-07-21",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:36+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2161618207759091",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-09-30",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:36+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1716424759470061",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-09-04",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:36+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4260215920912040",
+            "advertiser": "탑헬스_official",
+            "startedAt": "2025-12-29",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:35+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1191527193092284",
+            "advertiser": "탑헬스_official",
+            "startedAt": "2025-12-29",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:35+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1102121946100193",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-08-30",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:35+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "881907634791363",
+            "advertiser": "탑헬스_official",
+            "startedAt": "2025-12-28",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:34+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1981970122726396",
+            "advertiser": "탑헬스_official",
+            "startedAt": "2025-12-29",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:34+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1451458600124939",
+            "advertiser": "비비뷰티",
+            "startedAt": "2026-07-10",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:26+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1824550795547770",
+            "advertiser": "탑헬스_official",
+            "startedAt": "2026-09-28",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:25+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1474629427797558",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-05",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:25+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1268396352150962",
+            "advertiser": "",
+            "startedAt": "2026-04-30",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:25+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1534412945388797",
+            "advertiser": "유니약사",
+            "startedAt": "2026-10-01",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:23+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:23+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2066226194193300",
+            "advertiser": "탑헬스_official",
+            "startedAt": "2025-12-28",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:21+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1111163071351727",
+            "advertiser": "요헤미티",
+            "startedAt": "2026-10-01",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:21+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:21+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "970526465348724",
+            "advertiser": "Lactiv.official",
+            "startedAt": "2026-09-28",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:20+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2282289489248039",
+            "advertiser": "영영이",
+            "startedAt": "2026-07-26",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:20+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1777997819768125",
+            "advertiser": "탑헬스_official",
+            "startedAt": "2026-09-30",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:20+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2279863986115224",
+            "advertiser": "올리브 연구소",
+            "startedAt": "2026-08-31",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:15+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1062639063068457",
+            "advertiser": "시데랄",
+            "startedAt": "2026-09-14",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:15+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1626449529093362",
+            "advertiser": "",
+            "startedAt": "2026-09-01",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:14+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "989796320756503",
+            "advertiser": "요미라운지",
+            "startedAt": "2026-08-13",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:13+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27786390717657256",
+            "advertiser": "탑헬스_official",
+            "startedAt": "2026-07-14",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:13+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1528828662332868",
+            "advertiser": "마미앤대디",
+            "startedAt": "2026-09-21",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:13+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "982200517857490",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-28",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:12+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28941505825441965",
+            "advertiser": "Lactiv.official",
+            "startedAt": "2026-09-17",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:12+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1861242805259558",
+            "advertiser": "탑헬스_official",
+            "startedAt": "2026-07-12",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:12+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1232659502235250",
+            "advertiser": "탑헬스_official",
+            "startedAt": "2026-07-12",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:12+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2073439733256424",
+            "advertiser": "시유안",
+            "startedAt": "2026-08-13",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:07+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2023375998563256",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-04-07",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:07+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "892622223847280",
+            "advertiser": "보비쌤",
+            "startedAt": "2026-05-28",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:06+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1345851224067991",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:06+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1051851400840869",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-30",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:06+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2787425408297135",
+            "advertiser": "은핏",
+            "startedAt": "2026-07-21",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:05+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2264610750728678",
+            "advertiser": "건기남",
+            "startedAt": "2025-12-11",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:05+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "25669572835997020",
+            "advertiser": "약사남",
+            "startedAt": "2026-01-26",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:04+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2385601145267407",
+            "advertiser": "탑헬스_official",
+            "startedAt": "2026-05-28",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:04+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "992543860083545",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-20",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:03+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:03+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T15:21:35+00:00",
+        "advertisers": [
+          {
+            "name": "탑헬스_official",
+            "adCount": 16
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 7
+          },
+          {
+            "name": "Vital Habit",
+            "adCount": 5
+          },
+          {
+            "name": "마미앤대디",
+            "adCount": 5
+          },
+          {
+            "name": "키즈텐",
+            "adCount": 5
+          },
+          {
+            "name": "Lactiv.official",
+            "adCount": 3
+          },
+          {
+            "name": "MJ",
+            "adCount": 2
+          },
+          {
+            "name": "O.rr",
+            "adCount": 2
+          },
+          {
+            "name": "성장건강꿀팁",
+            "adCount": 2
+          },
+          {
+            "name": "시데랄",
+            "adCount": 2
+          },
+          {
+            "name": "약사남",
+            "adCount": 2
+          },
+          {
+            "name": "Daily_simby",
+            "adCount": 1
+          },
+          {
+            "name": "Geniedrinkslove",
+            "adCount": 1
+          },
+          {
+            "name": "star01951",
+            "adCount": 1
+          },
+          {
+            "name": "강아지건강상식",
+            "adCount": 1
+          },
+          {
+            "name": "건기남",
+            "adCount": 1
+          },
+          {
+            "name": "네추럴라이즈 키즈",
+            "adCount": 1
+          },
+          {
+            "name": "베이비빌리",
+            "adCount": 1
+          },
+          {
+            "name": "보비쌤",
+            "adCount": 1
+          },
+          {
+            "name": "뷰티블로거 미니비쥬",
+            "adCount": 1
+          },
+          {
+            "name": "비비뷰티",
+            "adCount": 1
+          },
+          {
+            "name": "시유안",
+            "adCount": 1
+          },
+          {
+            "name": "아빠의 마음으로 만든, 쁘띠앤",
+            "adCount": 1
+          },
+          {
+            "name": "에스더마켓",
+            "adCount": 1
+          },
+          {
+            "name": "영영이",
+            "adCount": 1
+          },
+          {
+            "name": "올리브 연구소",
+            "adCount": 1
+          },
+          {
+            "name": "요미라운지",
+            "adCount": 1
+          },
+          {
+            "name": "요헤미티",
+            "adCount": 1
+          },
+          {
+            "name": "유니약사",
+            "adCount": 1
+          },
+          {
+            "name": "은핏",
+            "adCount": 1
+          },
+          {
+            "name": "이쑤쑤딩",
+            "adCount": 1
+          },
+          {
+            "name": "하잇",
+            "adCount": 1
+          },
+          {
+            "name": "홈스윗홈",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
@@ -7384,17 +8289,922 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-08T01:24:15+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "e6277fc18b38355e5b8a7fb8407c886077ee1ee7805a826b014783c553932769",
       "searchQuery": "철분제",
       "adEvidence": {
         "query": "철분제",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 77,
+        "adIds": [
+          "2300514467393146",
+          "1831567238006448",
+          "2652048695227751",
+          "1129610606414817",
+          "1739736170897208",
+          "1732948134476588",
+          "1100712739488841",
+          "1414381470875770",
+          "4435865463407322",
+          "1149546730838342",
+          "1103066472103156",
+          "2021735768485869",
+          "1678435060364092",
+          "1121715110810041",
+          "2833325197045171",
+          "1612308097068475",
+          "1118918693916927",
+          "991666200138311",
+          "3345641782288257",
+          "1903097803989170",
+          "1338764798421152",
+          "1977200989658890",
+          "1853072232804725",
+          "1518418073651585",
+          "2880750725623687",
+          "1527345846078201",
+          "1019825430480966",
+          "1763432194804836",
+          "872008169280029",
+          "3430415777139922",
+          "2378221066042411",
+          "1141064598360331",
+          "1457058422971188",
+          "1315883997341068",
+          "1872842144098217",
+          "1695901261444377",
+          "1443952897841076",
+          "1771175041096110",
+          "37465014779813088",
+          "2243237779846470",
+          "2161618207759091",
+          "1716424759470061",
+          "4260215920912040",
+          "1191527193092284",
+          "1102121946100193",
+          "881907634791363",
+          "1981970122726396",
+          "1451458600124939",
+          "1824550795547770",
+          "1474629427797558",
+          "1268396352150962",
+          "1534412945388797",
+          "2066226194193300",
+          "1111163071351727",
+          "970526465348724",
+          "2282289489248039",
+          "1777997819768125",
+          "2279863986115224",
+          "1062639063068457",
+          "1626449529093362",
+          "989796320756503",
+          "27786390717657256",
+          "1528828662332868",
+          "982200517857490",
+          "28941505825441965",
+          "1861242805259558",
+          "1232659502235250",
+          "2073439733256424",
+          "2023375998563256",
+          "892622223847280",
+          "1345851224067991",
+          "1051851400840869",
+          "2787425408297135",
+          "2264610750728678",
+          "25669572835997020",
+          "2385601145267407",
+          "992543860083545"
+        ],
+        "ads": [
+          {
+            "id": "2300514467393146",
+            "advertiser": "Vital Habit",
+            "startedAt": "2026-10-05",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:35+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:35+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1831567238006448",
+            "advertiser": "O.rr",
+            "startedAt": "2026-09-03",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:35+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2652048695227751",
+            "advertiser": "Vital Habit",
+            "startedAt": "2026-10-05",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:34+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:34+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1129610606414817",
+            "advertiser": "시데랄",
+            "startedAt": "2026-10-07",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:34+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:34+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1739736170897208",
+            "advertiser": "베이비빌리",
+            "startedAt": "2026-09-30",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:33+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1732948134476588",
+            "advertiser": "탑헬스_official",
+            "startedAt": "2026-10-06",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:33+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:33+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1100712739488841",
+            "advertiser": "아빠의 마음으로 만든, 쁘띠앤",
+            "startedAt": "2026-10-07",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:33+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:33+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1414381470875770",
+            "advertiser": "",
+            "startedAt": "2026-10-07",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:18+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:18+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4435865463407322",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-27",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:15+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1149546730838342",
+            "advertiser": "탑헬스_official",
+            "startedAt": "2026-10-06",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:15+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:15+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1103066472103156",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-27",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:15+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2021735768485869",
+            "advertiser": "Vital Habit",
+            "startedAt": "2026-10-05",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:14+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:14+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1678435060364092",
+            "advertiser": "Vital Habit",
+            "startedAt": "2026-10-05",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:14+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:14+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1121715110810041",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-27",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:14+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2833325197045171",
+            "advertiser": "홈스윗홈",
+            "startedAt": "2026-08-13",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:13+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1612308097068475",
+            "advertiser": "Vital Habit",
+            "startedAt": "2026-10-05",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:13+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:13+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1118918693916927",
+            "advertiser": "탑헬스_official",
+            "startedAt": "2026-10-06",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:13+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:13+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "991666200138311",
+            "advertiser": "성장건강꿀팁",
+            "startedAt": "2026-06-23",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:04+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3345641782288257",
+            "advertiser": "Lactiv.official",
+            "startedAt": "2026-09-28",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:04+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1903097803989170",
+            "advertiser": "Geniedrinkslove",
+            "startedAt": "2026-10-07",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:03+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:03+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1338764798421152",
+            "advertiser": "star01951",
+            "startedAt": "2026-08-13",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:01+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1977200989658890",
+            "advertiser": "O.rr",
+            "startedAt": "2026-08-27",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:00+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1853072232804725",
+            "advertiser": "마미앤대디",
+            "startedAt": "2026-10-07",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:00+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:00+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1518418073651585",
+            "advertiser": "MJ",
+            "startedAt": "2026-09-28",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:21:00+00:00",
+            "lastCollectedAt": "2026-10-08T15:21:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2880750725623687",
+            "advertiser": "마미앤대디",
+            "startedAt": "2026-10-07",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:59+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:59+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1527345846078201",
+            "advertiser": "탑헬스_official",
+            "startedAt": "2026-09-28",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:59+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1019825430480966",
+            "advertiser": "이쑤쑤딩",
+            "startedAt": "2026-05-28",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:58+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1763432194804836",
+            "advertiser": "탑헬스_official",
+            "startedAt": "2026-09-28",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:51+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "872008169280029",
+            "advertiser": "성장건강꿀팁",
+            "startedAt": "2026-06-23",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:50+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3430415777139922",
+            "advertiser": "",
+            "startedAt": "2026-10-02",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:50+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:50+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2378221066042411",
+            "advertiser": "마미앤대디",
+            "startedAt": "2026-10-07",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:49+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:49+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1141064598360331",
+            "advertiser": "에스더마켓",
+            "startedAt": "2026-10-06",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:49+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:49+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1457058422971188",
+            "advertiser": "MJ",
+            "startedAt": "2026-09-28",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:48+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1315883997341068",
+            "advertiser": "Daily_simby",
+            "startedAt": "2026-05-28",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:48+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1872842144098217",
+            "advertiser": "마미앤대디",
+            "startedAt": "2026-10-07",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:47+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:47+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1695901261444377",
+            "advertiser": "뷰티블로거 미니비쥬",
+            "startedAt": "2026-05-28",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:47+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1443952897841076",
+            "advertiser": "약사남",
+            "startedAt": "2026-10-06",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:46+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:46+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1771175041096110",
+            "advertiser": "네추럴라이즈 키즈",
+            "startedAt": "2026-09-18",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:37+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "37465014779813088",
+            "advertiser": "강아지건강상식",
+            "startedAt": "2026-08-13",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:36+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2243237779846470",
+            "advertiser": "하잇",
+            "startedAt": "2026-07-21",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:36+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2161618207759091",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-09-30",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:36+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1716424759470061",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-09-04",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:36+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4260215920912040",
+            "advertiser": "탑헬스_official",
+            "startedAt": "2025-12-29",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:35+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1191527193092284",
+            "advertiser": "탑헬스_official",
+            "startedAt": "2025-12-29",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:35+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1102121946100193",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-08-30",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:35+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "881907634791363",
+            "advertiser": "탑헬스_official",
+            "startedAt": "2025-12-28",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:34+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1981970122726396",
+            "advertiser": "탑헬스_official",
+            "startedAt": "2025-12-29",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:34+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1451458600124939",
+            "advertiser": "비비뷰티",
+            "startedAt": "2026-07-10",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:26+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1824550795547770",
+            "advertiser": "탑헬스_official",
+            "startedAt": "2026-09-28",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:25+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1474629427797558",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-05",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:25+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1268396352150962",
+            "advertiser": "",
+            "startedAt": "2026-04-30",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:25+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1534412945388797",
+            "advertiser": "유니약사",
+            "startedAt": "2026-10-01",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:23+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:23+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2066226194193300",
+            "advertiser": "탑헬스_official",
+            "startedAt": "2025-12-28",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:21+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1111163071351727",
+            "advertiser": "요헤미티",
+            "startedAt": "2026-10-01",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:21+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:21+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "970526465348724",
+            "advertiser": "Lactiv.official",
+            "startedAt": "2026-09-28",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:20+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2282289489248039",
+            "advertiser": "영영이",
+            "startedAt": "2026-07-26",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:20+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1777997819768125",
+            "advertiser": "탑헬스_official",
+            "startedAt": "2026-09-30",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:20+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2279863986115224",
+            "advertiser": "올리브 연구소",
+            "startedAt": "2026-08-31",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:15+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1062639063068457",
+            "advertiser": "시데랄",
+            "startedAt": "2026-09-14",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:15+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1626449529093362",
+            "advertiser": "",
+            "startedAt": "2026-09-01",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:14+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "989796320756503",
+            "advertiser": "요미라운지",
+            "startedAt": "2026-08-13",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:13+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27786390717657256",
+            "advertiser": "탑헬스_official",
+            "startedAt": "2026-07-14",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:13+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1528828662332868",
+            "advertiser": "마미앤대디",
+            "startedAt": "2026-09-21",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:13+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "982200517857490",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-28",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:12+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28941505825441965",
+            "advertiser": "Lactiv.official",
+            "startedAt": "2026-09-17",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:12+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1861242805259558",
+            "advertiser": "탑헬스_official",
+            "startedAt": "2026-07-12",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:12+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1232659502235250",
+            "advertiser": "탑헬스_official",
+            "startedAt": "2026-07-12",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:12+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2073439733256424",
+            "advertiser": "시유안",
+            "startedAt": "2026-08-13",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:07+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2023375998563256",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-04-07",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:07+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "892622223847280",
+            "advertiser": "보비쌤",
+            "startedAt": "2026-05-28",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:06+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1345851224067991",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:06+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1051851400840869",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-30",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:06+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2787425408297135",
+            "advertiser": "은핏",
+            "startedAt": "2026-07-21",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:05+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2264610750728678",
+            "advertiser": "건기남",
+            "startedAt": "2025-12-11",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:05+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "25669572835997020",
+            "advertiser": "약사남",
+            "startedAt": "2026-01-26",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:04+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2385601145267407",
+            "advertiser": "탑헬스_official",
+            "startedAt": "2026-05-28",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:04+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "992543860083545",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-20",
+            "query": "철분제",
+            "firstCollectedAt": "2026-10-08T15:20:03+00:00",
+            "lastCollectedAt": "2026-10-08T15:20:03+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T15:21:35+00:00",
+        "advertisers": [
+          {
+            "name": "탑헬스_official",
+            "adCount": 16
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 7
+          },
+          {
+            "name": "Vital Habit",
+            "adCount": 5
+          },
+          {
+            "name": "마미앤대디",
+            "adCount": 5
+          },
+          {
+            "name": "키즈텐",
+            "adCount": 5
+          },
+          {
+            "name": "Lactiv.official",
+            "adCount": 3
+          },
+          {
+            "name": "MJ",
+            "adCount": 2
+          },
+          {
+            "name": "O.rr",
+            "adCount": 2
+          },
+          {
+            "name": "성장건강꿀팁",
+            "adCount": 2
+          },
+          {
+            "name": "시데랄",
+            "adCount": 2
+          },
+          {
+            "name": "약사남",
+            "adCount": 2
+          },
+          {
+            "name": "Daily_simby",
+            "adCount": 1
+          },
+          {
+            "name": "Geniedrinkslove",
+            "adCount": 1
+          },
+          {
+            "name": "star01951",
+            "adCount": 1
+          },
+          {
+            "name": "강아지건강상식",
+            "adCount": 1
+          },
+          {
+            "name": "건기남",
+            "adCount": 1
+          },
+          {
+            "name": "네추럴라이즈 키즈",
+            "adCount": 1
+          },
+          {
+            "name": "베이비빌리",
+            "adCount": 1
+          },
+          {
+            "name": "보비쌤",
+            "adCount": 1
+          },
+          {
+            "name": "뷰티블로거 미니비쥬",
+            "adCount": 1
+          },
+          {
+            "name": "비비뷰티",
+            "adCount": 1
+          },
+          {
+            "name": "시유안",
+            "adCount": 1
+          },
+          {
+            "name": "아빠의 마음으로 만든, 쁘띠앤",
+            "adCount": 1
+          },
+          {
+            "name": "에스더마켓",
+            "adCount": 1
+          },
+          {
+            "name": "영영이",
+            "adCount": 1
+          },
+          {
+            "name": "올리브 연구소",
+            "adCount": 1
+          },
+          {
+            "name": "요미라운지",
+            "adCount": 1
+          },
+          {
+            "name": "요헤미티",
+            "adCount": 1
+          },
+          {
+            "name": "유니약사",
+            "adCount": 1
+          },
+          {
+            "name": "은핏",
+            "adCount": 1
+          },
+          {
+            "name": "이쑤쑤딩",
+            "adCount": 1
+          },
+          {
+            "name": "하잇",
+            "adCount": 1
+          },
+          {
+            "name": "홈스윗홈",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
