@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T20:15:31+00:00",
+  "updatedAt": "2026-10-08T20:24:38+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-08T19:58:12+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 12,
-    "dailyRemaining": 276,
+    "dailyUsed": 13,
+    "dailyRemaining": 275,
     "pending": 0,
-    "nextDispatchAt": "2026-10-08T20:19:56+00:00",
+    "nextDispatchAt": "2026-10-08T20:29:11+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -4966,17 +4966,90 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "done",
       "keywordId": "69a792bcfeeb96d89df2fd420cd02d9442f3b7965bc16cc92f44c047885e3f29",
       "searchQuery": "마그네슘영양제",
       "adEvidence": {
         "query": "마그네슘영양제",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 5,
+        "adIds": [
+          "1639943357854075",
+          "1119677760538104",
+          "1083618490696222",
+          "1764152341390233",
+          "28699517156405429"
+        ],
+        "ads": [
+          {
+            "id": "1639943357854075",
+            "advertiser": "�hingyoyo 힝요요",
+            "startedAt": "2026-10-05",
+            "query": "마그네슘영양제",
+            "firstCollectedAt": "2026-10-08T20:24:23+00:00",
+            "lastCollectedAt": "2026-10-08T20:24:23+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1119677760538104",
+            "advertiser": "탤뷰",
+            "startedAt": "2026-09-16",
+            "query": "마그네슘영양제",
+            "firstCollectedAt": "2026-10-08T20:24:22+00:00",
+            "lastCollectedAt": "2026-10-08T20:24:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1083618490696222",
+            "advertiser": "Rewviewcreator",
+            "startedAt": "2026-09-16",
+            "query": "마그네슘영양제",
+            "firstCollectedAt": "2026-10-08T20:24:22+00:00",
+            "lastCollectedAt": "2026-10-08T20:24:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1764152341390233",
+            "advertiser": "큐큐",
+            "startedAt": "2026-09-16",
+            "query": "마그네슘영양제",
+            "firstCollectedAt": "2026-10-08T20:24:21+00:00",
+            "lastCollectedAt": "2026-10-08T20:24:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28699517156405429",
+            "advertiser": "탑헬스_official",
+            "startedAt": "2026-09-22",
+            "query": "마그네슘영양제",
+            "firstCollectedAt": "2026-10-08T20:24:20+00:00",
+            "lastCollectedAt": "2026-10-08T20:24:20+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T20:24:23+00:00",
+        "advertisers": [
+          {
+            "name": "Rewviewcreator",
+            "adCount": 1
+          },
+          {
+            "name": "큐큐",
+            "adCount": 1
+          },
+          {
+            "name": "탑헬스_official",
+            "adCount": 1
+          },
+          {
+            "name": "탤뷰",
+            "adCount": 1
+          },
+          {
+            "name": "�hingyoyo 힝요요",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
@@ -14426,17 +14499,90 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-08T19:57:29+00:00",
-      "state": "backlog",
+      "state": "done",
       "keywordId": "69a792bcfeeb96d89df2fd420cd02d9442f3b7965bc16cc92f44c047885e3f29",
       "searchQuery": "마그네슘영양제",
       "adEvidence": {
         "query": "마그네슘영양제",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 5,
+        "adIds": [
+          "1639943357854075",
+          "1119677760538104",
+          "1083618490696222",
+          "1764152341390233",
+          "28699517156405429"
+        ],
+        "ads": [
+          {
+            "id": "1639943357854075",
+            "advertiser": "�hingyoyo 힝요요",
+            "startedAt": "2026-10-05",
+            "query": "마그네슘영양제",
+            "firstCollectedAt": "2026-10-08T20:24:23+00:00",
+            "lastCollectedAt": "2026-10-08T20:24:23+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1119677760538104",
+            "advertiser": "탤뷰",
+            "startedAt": "2026-09-16",
+            "query": "마그네슘영양제",
+            "firstCollectedAt": "2026-10-08T20:24:22+00:00",
+            "lastCollectedAt": "2026-10-08T20:24:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1083618490696222",
+            "advertiser": "Rewviewcreator",
+            "startedAt": "2026-09-16",
+            "query": "마그네슘영양제",
+            "firstCollectedAt": "2026-10-08T20:24:22+00:00",
+            "lastCollectedAt": "2026-10-08T20:24:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1764152341390233",
+            "advertiser": "큐큐",
+            "startedAt": "2026-09-16",
+            "query": "마그네슘영양제",
+            "firstCollectedAt": "2026-10-08T20:24:21+00:00",
+            "lastCollectedAt": "2026-10-08T20:24:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28699517156405429",
+            "advertiser": "탑헬스_official",
+            "startedAt": "2026-09-22",
+            "query": "마그네슘영양제",
+            "firstCollectedAt": "2026-10-08T20:24:20+00:00",
+            "lastCollectedAt": "2026-10-08T20:24:20+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T20:24:23+00:00",
+        "advertisers": [
+          {
+            "name": "Rewviewcreator",
+            "adCount": 1
+          },
+          {
+            "name": "큐큐",
+            "adCount": 1
+          },
+          {
+            "name": "탑헬스_official",
+            "adCount": 1
+          },
+          {
+            "name": "탤뷰",
+            "adCount": 1
+          },
+          {
+            "name": "�hingyoyo 힝요요",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
@@ -24533,17 +24679,90 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "backlog",
+      "state": "cooldown",
       "keywordId": "69a792bcfeeb96d89df2fd420cd02d9442f3b7965bc16cc92f44c047885e3f29",
       "searchQuery": "마그네슘영양제",
       "adEvidence": {
         "query": "마그네슘영양제",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 5,
+        "adIds": [
+          "1639943357854075",
+          "1119677760538104",
+          "1083618490696222",
+          "1764152341390233",
+          "28699517156405429"
+        ],
+        "ads": [
+          {
+            "id": "1639943357854075",
+            "advertiser": "�hingyoyo 힝요요",
+            "startedAt": "2026-10-05",
+            "query": "마그네슘영양제",
+            "firstCollectedAt": "2026-10-08T20:24:23+00:00",
+            "lastCollectedAt": "2026-10-08T20:24:23+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1119677760538104",
+            "advertiser": "탤뷰",
+            "startedAt": "2026-09-16",
+            "query": "마그네슘영양제",
+            "firstCollectedAt": "2026-10-08T20:24:22+00:00",
+            "lastCollectedAt": "2026-10-08T20:24:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1083618490696222",
+            "advertiser": "Rewviewcreator",
+            "startedAt": "2026-09-16",
+            "query": "마그네슘영양제",
+            "firstCollectedAt": "2026-10-08T20:24:22+00:00",
+            "lastCollectedAt": "2026-10-08T20:24:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1764152341390233",
+            "advertiser": "큐큐",
+            "startedAt": "2026-09-16",
+            "query": "마그네슘영양제",
+            "firstCollectedAt": "2026-10-08T20:24:21+00:00",
+            "lastCollectedAt": "2026-10-08T20:24:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28699517156405429",
+            "advertiser": "탑헬스_official",
+            "startedAt": "2026-09-22",
+            "query": "마그네슘영양제",
+            "firstCollectedAt": "2026-10-08T20:24:20+00:00",
+            "lastCollectedAt": "2026-10-08T20:24:20+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T20:24:23+00:00",
+        "advertisers": [
+          {
+            "name": "Rewviewcreator",
+            "adCount": 1
+          },
+          {
+            "name": "큐큐",
+            "adCount": 1
+          },
+          {
+            "name": "탑헬스_official",
+            "adCount": 1
+          },
+          {
+            "name": "탤뷰",
+            "adCount": 1
+          },
+          {
+            "name": "�hingyoyo 힝요요",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 3,
