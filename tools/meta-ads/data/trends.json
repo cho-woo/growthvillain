@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T02:50:12+00:00",
+  "updatedAt": "2026-10-08T02:52:34+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-08T01:24:46+00:00",
@@ -43,8 +43,8 @@
     "backlogDays": 14,
     "dailyUsed": 17,
     "dailyRemaining": 271,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-08T02:55:11+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -11711,17 +11711,106 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "d6d9e65a201af5824a82ea96ad2bf2231ad7afc0096d36364021d69faee259bf",
       "searchQuery": "카무트효소",
       "adEvidence": {
         "query": "카무트효소",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 7,
+        "adIds": [
+          "944220088744727",
+          "1960805297974111",
+          "1800283367890728",
+          "1547216313669750",
+          "982895701386241",
+          "901749355543578",
+          "1789010492126385"
+        ],
+        "ads": [
+          {
+            "id": "944220088744727",
+            "advertiser": "유한양행 버들장터",
+            "startedAt": "2026-09-30",
+            "query": "카무트효소",
+            "firstCollectedAt": "2026-10-08T02:52:20+00:00",
+            "lastCollectedAt": "2026-10-08T02:52:20+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1960805297974111",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-04",
+            "query": "카무트효소",
+            "firstCollectedAt": "2026-10-08T02:52:20+00:00",
+            "lastCollectedAt": "2026-10-08T02:52:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1800283367890728",
+            "advertiser": "유한양행 버들장터",
+            "startedAt": "2026-09-30",
+            "query": "카무트효소",
+            "firstCollectedAt": "2026-10-08T02:52:20+00:00",
+            "lastCollectedAt": "2026-10-08T02:52:20+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1547216313669750",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "카무트효소",
+            "firstCollectedAt": "2026-10-08T02:52:20+00:00",
+            "lastCollectedAt": "2026-10-08T02:52:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "982895701386241",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "카무트효소",
+            "firstCollectedAt": "2026-10-08T02:52:19+00:00",
+            "lastCollectedAt": "2026-10-08T02:52:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "901749355543578",
+            "advertiser": "대장사랑",
+            "startedAt": "2026-01-29",
+            "query": "카무트효소",
+            "firstCollectedAt": "2026-10-08T02:52:19+00:00",
+            "lastCollectedAt": "2026-10-08T02:52:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1789010492126385",
+            "advertiser": "그레인온",
+            "startedAt": "2026-09-07",
+            "query": "카무트효소",
+            "firstCollectedAt": "2026-10-08T02:52:19+00:00",
+            "lastCollectedAt": "2026-10-08T02:52:19+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T02:52:20+00:00",
+        "advertisers": [
+          {
+            "name": "Naverplus.store",
+            "adCount": 3
+          },
+          {
+            "name": "유한양행 버들장터",
+            "adCount": 2
+          },
+          {
+            "name": "그레인온",
+            "adCount": 1
+          },
+          {
+            "name": "대장사랑",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
