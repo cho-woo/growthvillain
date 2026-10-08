@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T02:01:18+00:00",
+  "updatedAt": "2026-10-08T02:05:55+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-08T01:24:46+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 8,
-    "dailyRemaining": 280,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-08T02:05:51+00:00",
+    "dailyUsed": 9,
+    "dailyRemaining": 279,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -6566,7 +6566,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "84ed631f9dfe8b84b2751a391f5d3cf7bd30c997f78f46dbc584e776d5bc4dd3",
       "searchQuery": "코엔자임q10",
       "adEvidence": {
