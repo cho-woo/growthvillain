@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T03:01:13+00:00",
+  "updatedAt": "2026-10-08T03:05:23+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-08T01:24:46+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 19,
-    "dailyRemaining": 269,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-08T03:05:18+00:00",
+    "dailyUsed": 20,
+    "dailyRemaining": 268,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -1534,7 +1534,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "queued",
       "keywordId": "1ceb09eb2f2ed9fc0c05455a35bdf4b06afcfc3725d0703a0d2d2c1aea878654",
       "searchQuery": "마이프로틴",
       "adEvidence": {
@@ -2474,7 +2474,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T01:24:46+00:00",
       "lastObservedAt": "2026-10-08T01:24:46+00:00",
-      "state": "ready",
+      "state": "queued",
       "keywordId": "1ceb09eb2f2ed9fc0c05455a35bdf4b06afcfc3725d0703a0d2d2c1aea878654",
       "searchQuery": "마이프로틴",
       "adEvidence": {
