@@ -1,6 +1,6 @@
 {
   "mode": "snapshot",
-  "updatedAt": "2026-10-08T21:56:49+00:00",
+  "updatedAt": "2026-10-08T22:00:55+00:00",
   "automations": [
     {
       "id": "meta-ads",
@@ -30,10 +30,10 @@
       "id": "naver-trends",
       "name": "네이버 급상승",
       "enabled": true,
-      "running": false,
-      "state": "waiting",
-      "nextRunAt": "2026-10-08T21:59:44+00:00",
-      "lastSuccessAt": "2026-10-08T20:59:44+00:00",
+      "running": true,
+      "state": "running",
+      "nextRunAt": "2026-10-08T22:59:48+00:00",
+      "lastSuccessAt": "2026-10-08T22:00:32+00:00",
       "lastAttemptAt": null,
       "message": "1시간마다 확인 · 일간 순위 기준",
       "intervalSeconds": 3600,
@@ -64,8 +64,8 @@
       "enabled": true,
       "running": false,
       "state": "blocked",
-      "nextRunAt": "2026-10-09T07:00:00+09:00",
-      "lastSuccessAt": "2026-10-08T07:00:10+09:00",
+      "nextRunAt": "2026-10-10T07:00:00+09:00",
+      "lastSuccessAt": "2026-10-09T07:00:07+09:00",
       "lastAttemptAt": null,
       "message": "보호조치 인증 횟수 초과 · 발행 보류 · 수집 ON",
       "intervalSeconds": null,
@@ -96,8 +96,8 @@
       "enabled": true,
       "running": false,
       "state": "waiting",
-      "nextRunAt": "2026-10-09T07:00:00+09:00",
-      "lastSuccessAt": "2026-10-08T07:00:09+09:00",
+      "nextRunAt": "2026-10-10T07:00:00+09:00",
+      "lastSuccessAt": "2026-10-09T07:00:06+09:00",
       "lastAttemptAt": null,
       "message": "50개 · 뷰티 수집 일정과 연동",
       "intervalSeconds": 86400,
@@ -109,8 +109,8 @@
   ],
   "publication": {
     "state": "synced",
-    "lastAttemptAt": "2026-10-08T21:01:01+00:00",
-    "lastSuccessAt": "2026-10-08T21:01:05+00:00",
+    "lastAttemptAt": "2026-10-08T21:56:49+00:00",
+    "lastSuccessAt": "2026-10-08T21:56:55+00:00",
     "error": null,
     "enabled": true
   }
