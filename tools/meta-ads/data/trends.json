@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T03:10:48+00:00",
+  "updatedAt": "2026-10-08T03:15:55+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-08T01:24:46+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 21,
-    "dailyRemaining": 267,
+    "dailyUsed": 22,
+    "dailyRemaining": 266,
     "pending": 0,
-    "nextDispatchAt": "2026-10-08T03:15:25+00:00",
+    "nextDispatchAt": "2026-10-08T03:20:27+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -617,7 +617,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "cooldown",
+      "state": "ready",
       "keywordId": "180b44d1b67a0b128e02b64df7d951f6a8b792d04fb2207ee984433e0dd7d211",
       "searchQuery": "락토핏",
       "adEvidence": {
@@ -1880,17 +1880,72 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "done",
       "keywordId": "bc7639df3dee6f6e5b7fcfaaacd8d58a81c60d3b2df2987e0b1e664b47d246de",
       "searchQuery": "산양유단백질",
       "adEvidence": {
         "query": "산양유단백질",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 4,
+        "adIds": [
+          "1315229174078417",
+          "1036007959486472",
+          "1861054515060384",
+          "1671708740616131"
+        ],
+        "ads": [
+          {
+            "id": "1315229174078417",
+            "advertiser": "자신있는 약상담ㅣ자신약사",
+            "startedAt": "2026-10-07",
+            "query": "산양유단백질",
+            "firstCollectedAt": "2026-10-08T03:15:41+00:00",
+            "lastCollectedAt": "2026-10-08T03:15:41+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1036007959486472",
+            "advertiser": "자신있는 약상담ㅣ자신약사",
+            "startedAt": "2026-10-07",
+            "query": "산양유단백질",
+            "firstCollectedAt": "2026-10-08T03:15:39+00:00",
+            "lastCollectedAt": "2026-10-08T03:15:39+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1861054515060384",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-09-30",
+            "query": "산양유단백질",
+            "firstCollectedAt": "2026-10-08T03:15:37+00:00",
+            "lastCollectedAt": "2026-10-08T03:15:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1671708740616131",
+            "advertiser": "건강한범벨이",
+            "startedAt": "2026-06-21",
+            "query": "산양유단백질",
+            "firstCollectedAt": "2026-10-08T03:15:37+00:00",
+            "lastCollectedAt": "2026-10-08T03:15:37+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T03:15:41+00:00",
+        "advertisers": [
+          {
+            "name": "자신있는 약상담ㅣ자신약사",
+            "adCount": 2
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 1
+          },
+          {
+            "name": "건강한범벨이",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -2473,17 +2528,72 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T01:24:46+00:00",
       "lastObservedAt": "2026-10-08T01:24:46+00:00",
-      "state": "ready",
+      "state": "done",
       "keywordId": "bc7639df3dee6f6e5b7fcfaaacd8d58a81c60d3b2df2987e0b1e664b47d246de",
       "searchQuery": "산양유단백질",
       "adEvidence": {
         "query": "산양유단백질",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 4,
+        "adIds": [
+          "1315229174078417",
+          "1036007959486472",
+          "1861054515060384",
+          "1671708740616131"
+        ],
+        "ads": [
+          {
+            "id": "1315229174078417",
+            "advertiser": "자신있는 약상담ㅣ자신약사",
+            "startedAt": "2026-10-07",
+            "query": "산양유단백질",
+            "firstCollectedAt": "2026-10-08T03:15:41+00:00",
+            "lastCollectedAt": "2026-10-08T03:15:41+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1036007959486472",
+            "advertiser": "자신있는 약상담ㅣ자신약사",
+            "startedAt": "2026-10-07",
+            "query": "산양유단백질",
+            "firstCollectedAt": "2026-10-08T03:15:39+00:00",
+            "lastCollectedAt": "2026-10-08T03:15:39+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1861054515060384",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-09-30",
+            "query": "산양유단백질",
+            "firstCollectedAt": "2026-10-08T03:15:37+00:00",
+            "lastCollectedAt": "2026-10-08T03:15:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1671708740616131",
+            "advertiser": "건강한범벨이",
+            "startedAt": "2026-06-21",
+            "query": "산양유단백질",
+            "firstCollectedAt": "2026-10-08T03:15:37+00:00",
+            "lastCollectedAt": "2026-10-08T03:15:37+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T03:15:41+00:00",
+        "advertisers": [
+          {
+            "name": "자신있는 약상담ㅣ자신약사",
+            "adCount": 2
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 1
+          },
+          {
+            "name": "건강한범벨이",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -4408,7 +4518,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-08T01:24:15+00:00",
-      "state": "cooldown",
+      "state": "ready",
       "keywordId": "180b44d1b67a0b128e02b64df7d951f6a8b792d04fb2207ee984433e0dd7d211",
       "searchQuery": "락토핏",
       "adEvidence": {
