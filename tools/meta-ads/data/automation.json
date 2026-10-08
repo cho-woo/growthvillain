@@ -1,6 +1,6 @@
 {
   "mode": "snapshot",
-  "updatedAt": "2026-10-08T15:01:18+00:00",
+  "updatedAt": "2026-10-08T15:02:39+00:00",
   "automations": [
     {
       "id": "meta-ads",
@@ -48,7 +48,7 @@
       "enabled": true,
       "running": false,
       "state": "waiting",
-      "nextRunAt": null,
+      "nextRunAt": "2026-10-09T16:49:27+09:00",
       "lastSuccessAt": "2026-10-08T14:29:06+09:00",
       "lastAttemptAt": null,
       "message": "다음 맛집 발행 대기",
@@ -109,8 +109,8 @@
   ],
   "publication": {
     "state": "synced",
-    "lastAttemptAt": "2026-10-08T14:51:49+00:00",
-    "lastSuccessAt": "2026-10-08T14:51:55+00:00",
+    "lastAttemptAt": "2026-10-08T15:01:18+00:00",
+    "lastSuccessAt": "2026-10-08T15:01:23+00:00",
     "error": null,
     "enabled": true
   }
