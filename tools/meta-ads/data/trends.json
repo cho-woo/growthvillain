@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T02:17:02+00:00",
+  "updatedAt": "2026-10-08T02:21:07+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-08T01:24:46+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 11,
-    "dailyRemaining": 277,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-08T02:21:03+00:00",
+    "dailyUsed": 12,
+    "dailyRemaining": 276,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -5429,7 +5429,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "3b43f38712ae66a4038dc7888547dad253c166f83dd934cfb9ceb2a1847f8d64",
       "searchQuery": "마그네슘",
       "adEvidence": {
