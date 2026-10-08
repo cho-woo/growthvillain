@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T01:52:44+00:00",
+  "updatedAt": "2026-10-08T01:56:32+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-08T01:24:46+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 6,
-    "dailyRemaining": 282,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "dailyUsed": 7,
+    "dailyRemaining": 281,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-08T02:00:48+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -4097,17 +4097,174 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "backlog",
+      "state": "done",
       "keywordId": "a54110504b0a1643670e45d486c65b7171949fd91e46ca17830c9492da1efc70",
       "searchQuery": "덴마크유산균",
       "adEvidence": {
         "query": "덴마크유산균",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 11,
+        "adIds": [
+          "29245068415099543",
+          "1336701151704337",
+          "863191070092793",
+          "1968683280398367",
+          "2752845968450480",
+          "1827198995370874",
+          "1847514319751706",
+          "2414463782414034",
+          "2241266550162030",
+          "2563676980735974",
+          "1086997047351563"
+        ],
+        "ads": [
+          {
+            "id": "29245068415099543",
+            "advertiser": "다온 beauty",
+            "startedAt": "2026-10-01",
+            "query": "덴마크유산균",
+            "firstCollectedAt": "2026-10-08T01:56:19+00:00",
+            "lastCollectedAt": "2026-10-08T01:56:19+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1336701151704337",
+            "advertiser": "탤뷰",
+            "startedAt": "2026-10-01",
+            "query": "덴마크유산균",
+            "firstCollectedAt": "2026-10-08T01:56:08+00:00",
+            "lastCollectedAt": "2026-10-08T01:56:08+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "863191070092793",
+            "advertiser": "Thailoveshop",
+            "startedAt": "2026-09-03",
+            "query": "덴마크유산균",
+            "firstCollectedAt": "2026-10-08T01:56:07+00:00",
+            "lastCollectedAt": "2026-10-08T01:56:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1968683280398367",
+            "advertiser": "foodmin123",
+            "startedAt": "2026-10-01",
+            "query": "덴마크유산균",
+            "firstCollectedAt": "2026-10-08T01:55:57+00:00",
+            "lastCollectedAt": "2026-10-08T01:55:57+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2752845968450480",
+            "advertiser": "Smsm",
+            "startedAt": "2026-09-11",
+            "query": "덴마크유산균",
+            "firstCollectedAt": "2026-10-08T01:55:56+00:00",
+            "lastCollectedAt": "2026-10-08T01:55:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1827198995370874",
+            "advertiser": "Ehcl15",
+            "startedAt": "2026-10-02",
+            "query": "덴마크유산균",
+            "firstCollectedAt": "2026-10-08T01:55:56+00:00",
+            "lastCollectedAt": "2026-10-08T01:55:56+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1847514319751706",
+            "advertiser": "_linsun__",
+            "startedAt": "2026-10-01",
+            "query": "덴마크유산균",
+            "firstCollectedAt": "2026-10-08T01:55:55+00:00",
+            "lastCollectedAt": "2026-10-08T01:55:55+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2414463782414034",
+            "advertiser": "탑헬스_official",
+            "startedAt": "2026-09-11",
+            "query": "덴마크유산균",
+            "firstCollectedAt": "2026-10-08T01:55:54+00:00",
+            "lastCollectedAt": "2026-10-08T01:55:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2241266550162030",
+            "advertiser": "여름빵학",
+            "startedAt": "2026-07-26",
+            "query": "덴마크유산균",
+            "firstCollectedAt": "2026-10-08T01:55:54+00:00",
+            "lastCollectedAt": "2026-10-08T01:55:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2563676980735974",
+            "advertiser": "뷰티",
+            "startedAt": "2026-07-26",
+            "query": "덴마크유산균",
+            "firstCollectedAt": "2026-10-08T01:55:53+00:00",
+            "lastCollectedAt": "2026-10-08T01:55:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1086997047351563",
+            "advertiser": "비비뷰티",
+            "startedAt": "2026-09-11",
+            "query": "덴마크유산균",
+            "firstCollectedAt": "2026-10-08T01:55:53+00:00",
+            "lastCollectedAt": "2026-10-08T01:55:53+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T01:56:19+00:00",
+        "advertisers": [
+          {
+            "name": "Ehcl15",
+            "adCount": 1
+          },
+          {
+            "name": "Smsm",
+            "adCount": 1
+          },
+          {
+            "name": "Thailoveshop",
+            "adCount": 1
+          },
+          {
+            "name": "_linsun__",
+            "adCount": 1
+          },
+          {
+            "name": "foodmin123",
+            "adCount": 1
+          },
+          {
+            "name": "다온 beauty",
+            "adCount": 1
+          },
+          {
+            "name": "뷰티",
+            "adCount": 1
+          },
+          {
+            "name": "비비뷰티",
+            "adCount": 1
+          },
+          {
+            "name": "여름빵학",
+            "adCount": 1
+          },
+          {
+            "name": "탑헬스_official",
+            "adCount": 1
+          },
+          {
+            "name": "탤뷰",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
@@ -5412,7 +5569,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "queued",
+      "state": "failed",
       "keywordId": "32356e62f83ce1d1f3d4b4f88bdf6774392425a5e293a0ccd2e5afe770748bc6",
       "searchQuery": "폴리코사놀",
       "adEvidence": {
