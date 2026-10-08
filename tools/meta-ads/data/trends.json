@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T20:35:58+00:00",
+  "updatedAt": "2026-10-08T20:40:01+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-08T19:58:12+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 15,
-    "dailyRemaining": 273,
+    "dailyUsed": 16,
+    "dailyRemaining": 272,
     "pending": 0,
-    "nextDispatchAt": "2026-10-08T20:39:18+00:00",
+    "nextDispatchAt": "2026-10-08T20:44:22+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -8176,17 +8176,216 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "done",
       "keywordId": "7d183d61379ce5999750670c666635cfbda807c6a266d8ada12e19b991e6a751",
       "searchQuery": "프로틴음료",
       "adEvidence": {
         "query": "프로틴음료",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 18,
+        "adIds": [
+          "1897334161644454",
+          "1474889367809868",
+          "1391775925869284",
+          "1676295723854193",
+          "1616778463184532",
+          "1368233762047797",
+          "2092125948080266",
+          "1616192373546040",
+          "1107248441863939",
+          "973242002475912",
+          "915551231237917",
+          "1747642526444453",
+          "1691882772608316",
+          "1561794989012380",
+          "2193595197874552",
+          "1504677314805331",
+          "1007387942309128",
+          "28284038831262412"
+        ],
+        "ads": [
+          {
+            "id": "1897334161644454",
+            "advertiser": "하림",
+            "startedAt": "2026-10-07",
+            "query": "프로틴음료",
+            "firstCollectedAt": "2026-10-08T20:39:45+00:00",
+            "lastCollectedAt": "2026-10-08T20:39:45+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1474889367809868",
+            "advertiser": "남양유업",
+            "startedAt": "2026-09-21",
+            "query": "프로틴음료",
+            "firstCollectedAt": "2026-10-08T20:39:44+00:00",
+            "lastCollectedAt": "2026-10-08T20:39:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1391775925869284",
+            "advertiser": "남양유업",
+            "startedAt": "2026-09-21",
+            "query": "프로틴음료",
+            "firstCollectedAt": "2026-10-08T20:39:44+00:00",
+            "lastCollectedAt": "2026-10-08T20:39:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1676295723854193",
+            "advertiser": "남양유업",
+            "startedAt": "2026-09-10",
+            "query": "프로틴음료",
+            "firstCollectedAt": "2026-10-08T20:39:43+00:00",
+            "lastCollectedAt": "2026-10-08T20:39:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1616778463184532",
+            "advertiser": "남양유업",
+            "startedAt": "2026-09-21",
+            "query": "프로틴음료",
+            "firstCollectedAt": "2026-10-08T20:39:43+00:00",
+            "lastCollectedAt": "2026-10-08T20:39:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1368233762047797",
+            "advertiser": "남양유업",
+            "startedAt": "2026-09-21",
+            "query": "프로틴음료",
+            "firstCollectedAt": "2026-10-08T20:39:43+00:00",
+            "lastCollectedAt": "2026-10-08T20:39:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2092125948080266",
+            "advertiser": "남양유업",
+            "startedAt": "2026-09-21",
+            "query": "프로틴음료",
+            "firstCollectedAt": "2026-10-08T20:39:42+00:00",
+            "lastCollectedAt": "2026-10-08T20:39:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1616192373546040",
+            "advertiser": "남양유업",
+            "startedAt": "2026-09-10",
+            "query": "프로틴음료",
+            "firstCollectedAt": "2026-10-08T20:39:42+00:00",
+            "lastCollectedAt": "2026-10-08T20:39:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1107248441863939",
+            "advertiser": "남양유업",
+            "startedAt": "2026-09-10",
+            "query": "프로틴음료",
+            "firstCollectedAt": "2026-10-08T20:39:31+00:00",
+            "lastCollectedAt": "2026-10-08T20:39:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "973242002475912",
+            "advertiser": "남양유업",
+            "startedAt": "2026-09-21",
+            "query": "프로틴음료",
+            "firstCollectedAt": "2026-10-08T20:39:30+00:00",
+            "lastCollectedAt": "2026-10-08T20:39:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "915551231237917",
+            "advertiser": "남양유업",
+            "startedAt": "2026-09-10",
+            "query": "프로틴음료",
+            "firstCollectedAt": "2026-10-08T20:39:30+00:00",
+            "lastCollectedAt": "2026-10-08T20:39:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1747642526444453",
+            "advertiser": "남양유업",
+            "startedAt": "2026-09-08",
+            "query": "프로틴음료",
+            "firstCollectedAt": "2026-10-08T20:39:29+00:00",
+            "lastCollectedAt": "2026-10-08T20:39:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1691882772608316",
+            "advertiser": "남양유업",
+            "startedAt": "2026-09-08",
+            "query": "프로틴음료",
+            "firstCollectedAt": "2026-10-08T20:39:29+00:00",
+            "lastCollectedAt": "2026-10-08T20:39:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1561794989012380",
+            "advertiser": "푸디버디",
+            "startedAt": "2026-07-21",
+            "query": "프로틴음료",
+            "firstCollectedAt": "2026-10-08T20:39:28+00:00",
+            "lastCollectedAt": "2026-10-08T20:39:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2193595197874552",
+            "advertiser": "다신샵&다이어트신 - 다이어트 맛있게 관리하자",
+            "startedAt": "2026-09-09",
+            "query": "프로틴음료",
+            "firstCollectedAt": "2026-10-08T20:39:27+00:00",
+            "lastCollectedAt": "2026-10-08T20:39:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1504677314805331",
+            "advertiser": "남양유업",
+            "startedAt": "2026-09-10",
+            "query": "프로틴음료",
+            "firstCollectedAt": "2026-10-08T20:39:27+00:00",
+            "lastCollectedAt": "2026-10-08T20:39:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1007387942309128",
+            "advertiser": "남양유업",
+            "startedAt": "2026-09-08",
+            "query": "프로틴음료",
+            "firstCollectedAt": "2026-10-08T20:39:27+00:00",
+            "lastCollectedAt": "2026-10-08T20:39:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28284038831262412",
+            "advertiser": "남양유업",
+            "startedAt": "2026-09-10",
+            "query": "프로틴음료",
+            "firstCollectedAt": "2026-10-08T20:39:26+00:00",
+            "lastCollectedAt": "2026-10-08T20:39:26+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T20:39:45+00:00",
+        "advertisers": [
+          {
+            "name": "남양유업",
+            "adCount": 15
+          },
+          {
+            "name": "다신샵&다이어트신 - 다이어트 맛있게 관리하자",
+            "adCount": 1
+          },
+          {
+            "name": "푸디버디",
+            "adCount": 1
+          },
+          {
+            "name": "하림",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
@@ -10249,17 +10448,216 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T01:24:46+00:00",
       "lastObservedAt": "2026-10-08T19:58:12+00:00",
-      "state": "backlog",
+      "state": "done",
       "keywordId": "7d183d61379ce5999750670c666635cfbda807c6a266d8ada12e19b991e6a751",
       "searchQuery": "프로틴음료",
       "adEvidence": {
         "query": "프로틴음료",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 18,
+        "adIds": [
+          "1897334161644454",
+          "1474889367809868",
+          "1391775925869284",
+          "1676295723854193",
+          "1616778463184532",
+          "1368233762047797",
+          "2092125948080266",
+          "1616192373546040",
+          "1107248441863939",
+          "973242002475912",
+          "915551231237917",
+          "1747642526444453",
+          "1691882772608316",
+          "1561794989012380",
+          "2193595197874552",
+          "1504677314805331",
+          "1007387942309128",
+          "28284038831262412"
+        ],
+        "ads": [
+          {
+            "id": "1897334161644454",
+            "advertiser": "하림",
+            "startedAt": "2026-10-07",
+            "query": "프로틴음료",
+            "firstCollectedAt": "2026-10-08T20:39:45+00:00",
+            "lastCollectedAt": "2026-10-08T20:39:45+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1474889367809868",
+            "advertiser": "남양유업",
+            "startedAt": "2026-09-21",
+            "query": "프로틴음료",
+            "firstCollectedAt": "2026-10-08T20:39:44+00:00",
+            "lastCollectedAt": "2026-10-08T20:39:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1391775925869284",
+            "advertiser": "남양유업",
+            "startedAt": "2026-09-21",
+            "query": "프로틴음료",
+            "firstCollectedAt": "2026-10-08T20:39:44+00:00",
+            "lastCollectedAt": "2026-10-08T20:39:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1676295723854193",
+            "advertiser": "남양유업",
+            "startedAt": "2026-09-10",
+            "query": "프로틴음료",
+            "firstCollectedAt": "2026-10-08T20:39:43+00:00",
+            "lastCollectedAt": "2026-10-08T20:39:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1616778463184532",
+            "advertiser": "남양유업",
+            "startedAt": "2026-09-21",
+            "query": "프로틴음료",
+            "firstCollectedAt": "2026-10-08T20:39:43+00:00",
+            "lastCollectedAt": "2026-10-08T20:39:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1368233762047797",
+            "advertiser": "남양유업",
+            "startedAt": "2026-09-21",
+            "query": "프로틴음료",
+            "firstCollectedAt": "2026-10-08T20:39:43+00:00",
+            "lastCollectedAt": "2026-10-08T20:39:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2092125948080266",
+            "advertiser": "남양유업",
+            "startedAt": "2026-09-21",
+            "query": "프로틴음료",
+            "firstCollectedAt": "2026-10-08T20:39:42+00:00",
+            "lastCollectedAt": "2026-10-08T20:39:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1616192373546040",
+            "advertiser": "남양유업",
+            "startedAt": "2026-09-10",
+            "query": "프로틴음료",
+            "firstCollectedAt": "2026-10-08T20:39:42+00:00",
+            "lastCollectedAt": "2026-10-08T20:39:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1107248441863939",
+            "advertiser": "남양유업",
+            "startedAt": "2026-09-10",
+            "query": "프로틴음료",
+            "firstCollectedAt": "2026-10-08T20:39:31+00:00",
+            "lastCollectedAt": "2026-10-08T20:39:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "973242002475912",
+            "advertiser": "남양유업",
+            "startedAt": "2026-09-21",
+            "query": "프로틴음료",
+            "firstCollectedAt": "2026-10-08T20:39:30+00:00",
+            "lastCollectedAt": "2026-10-08T20:39:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "915551231237917",
+            "advertiser": "남양유업",
+            "startedAt": "2026-09-10",
+            "query": "프로틴음료",
+            "firstCollectedAt": "2026-10-08T20:39:30+00:00",
+            "lastCollectedAt": "2026-10-08T20:39:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1747642526444453",
+            "advertiser": "남양유업",
+            "startedAt": "2026-09-08",
+            "query": "프로틴음료",
+            "firstCollectedAt": "2026-10-08T20:39:29+00:00",
+            "lastCollectedAt": "2026-10-08T20:39:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1691882772608316",
+            "advertiser": "남양유업",
+            "startedAt": "2026-09-08",
+            "query": "프로틴음료",
+            "firstCollectedAt": "2026-10-08T20:39:29+00:00",
+            "lastCollectedAt": "2026-10-08T20:39:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1561794989012380",
+            "advertiser": "푸디버디",
+            "startedAt": "2026-07-21",
+            "query": "프로틴음료",
+            "firstCollectedAt": "2026-10-08T20:39:28+00:00",
+            "lastCollectedAt": "2026-10-08T20:39:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2193595197874552",
+            "advertiser": "다신샵&다이어트신 - 다이어트 맛있게 관리하자",
+            "startedAt": "2026-09-09",
+            "query": "프로틴음료",
+            "firstCollectedAt": "2026-10-08T20:39:27+00:00",
+            "lastCollectedAt": "2026-10-08T20:39:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1504677314805331",
+            "advertiser": "남양유업",
+            "startedAt": "2026-09-10",
+            "query": "프로틴음료",
+            "firstCollectedAt": "2026-10-08T20:39:27+00:00",
+            "lastCollectedAt": "2026-10-08T20:39:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1007387942309128",
+            "advertiser": "남양유업",
+            "startedAt": "2026-09-08",
+            "query": "프로틴음료",
+            "firstCollectedAt": "2026-10-08T20:39:27+00:00",
+            "lastCollectedAt": "2026-10-08T20:39:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28284038831262412",
+            "advertiser": "남양유업",
+            "startedAt": "2026-09-10",
+            "query": "프로틴음료",
+            "firstCollectedAt": "2026-10-08T20:39:26+00:00",
+            "lastCollectedAt": "2026-10-08T20:39:26+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T20:39:45+00:00",
+        "advertisers": [
+          {
+            "name": "남양유업",
+            "adCount": 15
+          },
+          {
+            "name": "다신샵&다이어트신 - 다이어트 맛있게 관리하자",
+            "adCount": 1
+          },
+          {
+            "name": "푸디버디",
+            "adCount": 1
+          },
+          {
+            "name": "하림",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
