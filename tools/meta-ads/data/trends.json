@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T20:12:15+00:00",
+  "updatedAt": "2026-10-08T20:15:31+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-08T19:58:12+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 11,
-    "dailyRemaining": 277,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "dailyUsed": 12,
+    "dailyRemaining": 276,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-08T20:19:56+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -4917,17 +4917,34 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "done",
       "keywordId": "664f0eee12a3e0cefc4d5005db47079e8dcfa3c97b12f7c025bc86ced3155352",
       "searchQuery": "고려은단비타민c1000",
       "adEvidence": {
         "query": "고려은단비타민c1000",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 1,
+        "adIds": [
+          "1737454970672476"
+        ],
+        "ads": [
+          {
+            "id": "1737454970672476",
+            "advertiser": "Thailoveshop",
+            "startedAt": "2026-09-29",
+            "query": "고려은단비타민c1000",
+            "firstCollectedAt": "2026-10-08T20:15:15+00:00",
+            "lastCollectedAt": "2026-10-08T20:15:15+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T20:15:15+00:00",
+        "advertisers": [
+          {
+            "name": "Thailoveshop",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
@@ -7251,17 +7268,44 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "929a3c4e0e160cd3f806ce8025c010ef8cd8b9f62a884e3243902c14cebb270f",
       "searchQuery": "아미노바이탈",
       "adEvidence": {
         "query": "아미노바이탈",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 2,
+        "adIds": [
+          "4432572390329567",
+          "1402675952037902"
+        ],
+        "ads": [
+          {
+            "id": "4432572390329567",
+            "advertiser": "아미노바이탈",
+            "startedAt": "2026-10-08",
+            "query": "아미노바이탈",
+            "firstCollectedAt": "2026-10-08T20:14:35+00:00",
+            "lastCollectedAt": "2026-10-08T20:14:35+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1402675952037902",
+            "advertiser": "아미노바이탈",
+            "startedAt": "2026-10-08",
+            "query": "아미노바이탈",
+            "firstCollectedAt": "2026-10-08T20:14:35+00:00",
+            "lastCollectedAt": "2026-10-08T20:14:35+00:00",
+            "startTiming": "after-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T20:14:35+00:00",
+        "advertisers": [
+          {
+            "name": "아미노바이탈",
+            "adCount": 2
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
@@ -9291,17 +9335,44 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T01:24:46+00:00",
       "lastObservedAt": "2026-10-08T19:58:12+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "929a3c4e0e160cd3f806ce8025c010ef8cd8b9f62a884e3243902c14cebb270f",
       "searchQuery": "아미노바이탈",
       "adEvidence": {
         "query": "아미노바이탈",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 2,
+        "adIds": [
+          "4432572390329567",
+          "1402675952037902"
+        ],
+        "ads": [
+          {
+            "id": "4432572390329567",
+            "advertiser": "아미노바이탈",
+            "startedAt": "2026-10-08",
+            "query": "아미노바이탈",
+            "firstCollectedAt": "2026-10-08T20:14:35+00:00",
+            "lastCollectedAt": "2026-10-08T20:14:35+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1402675952037902",
+            "advertiser": "아미노바이탈",
+            "startedAt": "2026-10-08",
+            "query": "아미노바이탈",
+            "firstCollectedAt": "2026-10-08T20:14:35+00:00",
+            "lastCollectedAt": "2026-10-08T20:14:35+00:00",
+            "startTiming": "after-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T20:14:35+00:00",
+        "advertisers": [
+          {
+            "name": "아미노바이탈",
+            "adCount": 2
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
@@ -11316,17 +11387,34 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-08T19:57:29+00:00",
-      "state": "backlog",
+      "state": "done",
       "keywordId": "664f0eee12a3e0cefc4d5005db47079e8dcfa3c97b12f7c025bc86ced3155352",
       "searchQuery": "고려은단비타민c1000",
       "adEvidence": {
         "query": "고려은단비타민c1000",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 1,
+        "adIds": [
+          "1737454970672476"
+        ],
+        "ads": [
+          {
+            "id": "1737454970672476",
+            "advertiser": "Thailoveshop",
+            "startedAt": "2026-09-29",
+            "query": "고려은단비타민c1000",
+            "firstCollectedAt": "2026-10-08T20:15:15+00:00",
+            "lastCollectedAt": "2026-10-08T20:15:15+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T20:15:15+00:00",
+        "advertisers": [
+          {
+            "name": "Thailoveshop",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
@@ -27664,17 +27752,34 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "backlog",
+      "state": "cooldown",
       "keywordId": "664f0eee12a3e0cefc4d5005db47079e8dcfa3c97b12f7c025bc86ced3155352",
       "searchQuery": "고려은단비타민c1000",
       "adEvidence": {
         "query": "고려은단비타민c1000",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 1,
+        "adIds": [
+          "1737454970672476"
+        ],
+        "ads": [
+          {
+            "id": "1737454970672476",
+            "advertiser": "Thailoveshop",
+            "startedAt": "2026-09-29",
+            "query": "고려은단비타민c1000",
+            "firstCollectedAt": "2026-10-08T20:15:15+00:00",
+            "lastCollectedAt": "2026-10-08T20:15:15+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T20:15:15+00:00",
+        "advertisers": [
+          {
+            "name": "Thailoveshop",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 3,
