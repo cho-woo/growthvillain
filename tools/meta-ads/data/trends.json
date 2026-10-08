@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T22:03:26+00:00",
+  "updatedAt": "2026-10-08T22:06:09+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-08T22:01:15+00:00",
@@ -43,20 +43,20 @@
     "backlogDays": 14,
     "dailyUsed": 19,
     "dailyRemaining": 269,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-08T23:06:09+00:00",
     "metaAutoEnabled": true,
-    "enabled": true,
+    "enabled": false,
     "collectionGuard": {
-      "state": "ready",
-      "reason": null,
-      "nextAllowedAt": null,
-      "blockedUntil": null,
-      "blockStreak": 0,
+      "state": "blocked",
+      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
+      "nextAllowedAt": "2026-10-08T23:06:09+00:00",
+      "blockedUntil": "2026-10-08T23:06:09+00:00",
+      "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": null
+    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
   },
   "settings": {
     "category": "50000023",
@@ -5800,7 +5800,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "failed",
       "keywordId": "4a2742c7cecb67e22447e9b8480dbf32cb38811f835e5456dbcca95098b1a6d7",
       "searchQuery": "뉴케어구수한맛",
       "adEvidence": {
@@ -12599,7 +12599,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-08T22:00:32+00:00",
-      "state": "queued",
+      "state": "failed",
       "keywordId": "4a2742c7cecb67e22447e9b8480dbf32cb38811f835e5456dbcca95098b1a6d7",
       "searchQuery": "뉴케어구수한맛",
       "adEvidence": {
