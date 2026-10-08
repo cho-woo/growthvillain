@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T11:44:20+00:00",
+  "updatedAt": "2026-10-08T11:44:51+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-08T01:24:46+00:00",
@@ -43,8 +43,8 @@
     "backlogDays": 14,
     "dailyUsed": 27,
     "dailyRemaining": 261,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-08T11:49:20+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -2348,17 +2348,228 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "2c6a8e2921165a5b58c932f9f52f9272c8f803d54ac24ff8bc25e9a0ce7416a9",
       "searchQuery": "오일만클렌즈",
       "adEvidence": {
         "query": "오일만클렌즈",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 20,
+        "adIds": [
+          "1135016722515873",
+          "941546722119573",
+          "1113504298098054",
+          "2098610527429683",
+          "1344122391215884",
+          "1325510719787251",
+          "2338229770338383",
+          "1428006609077620",
+          "3518402868342108",
+          "1320885483564839",
+          "1853369368982491",
+          "1305146491678727",
+          "1854834278732926",
+          "1494279962746336",
+          "1588443706287260",
+          "1526759682156082",
+          "1332126981606051",
+          "849633568030387",
+          "1004710135643516",
+          "1711825646757380"
+        ],
+        "ads": [
+          {
+            "id": "1135016722515873",
+            "advertiser": "할인혜택발견단",
+            "startedAt": "2026-10-05",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:36+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:36+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "941546722119573",
+            "advertiser": "할인혜택발견단",
+            "startedAt": "2026-08-04",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:35+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1113504298098054",
+            "advertiser": "할인혜택발견단",
+            "startedAt": "2026-10-02",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:35+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:35+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2098610527429683",
+            "advertiser": "할인혜택발견단",
+            "startedAt": "2026-08-04",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:34+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1344122391215884",
+            "advertiser": "할인혜택발견단",
+            "startedAt": "2026-07-19",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:34+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1325510719787251",
+            "advertiser": "명예로운 네이트판",
+            "startedAt": "2026-06-29",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:34+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2338229770338383",
+            "advertiser": "할인혜택발견단",
+            "startedAt": "2026-09-14",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:33+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1428006609077620",
+            "advertiser": "할인혜택발견단",
+            "startedAt": "2026-04-21",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:33+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3518402868342108",
+            "advertiser": "할인혜택발견단",
+            "startedAt": "2026-09-18",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:32+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1320885483564839",
+            "advertiser": "명예로운 네이트판",
+            "startedAt": "2026-06-29",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:32+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1853369368982491",
+            "advertiser": "명예로운 네이트판",
+            "startedAt": "2026-09-10",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:27+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1305146491678727",
+            "advertiser": "명예로운 네이트판",
+            "startedAt": "2026-09-28",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:27+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1854834278732926",
+            "advertiser": "명예로운 네이트판",
+            "startedAt": "2026-09-28",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:26+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1494279962746336",
+            "advertiser": "할인혜택발견단",
+            "startedAt": "2026-09-11",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:26+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1588443706287260",
+            "advertiser": "명예로운 네이트판",
+            "startedAt": "2026-08-26",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:25+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1526759682156082",
+            "advertiser": "명예로운 네이트판",
+            "startedAt": "2026-07-12",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:25+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1332126981606051",
+            "advertiser": "할인혜택발견단",
+            "startedAt": "2026-06-11",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:25+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "849633568030387",
+            "advertiser": "명예로운 네이트판",
+            "startedAt": "2026-07-13",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:24+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1004710135643516",
+            "advertiser": "할인혜택발견단",
+            "startedAt": "2026-07-02",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:24+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1711825646757380",
+            "advertiser": "할인혜택발견단",
+            "startedAt": "2026-07-02",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:23+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:23+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T11:44:36+00:00",
+        "advertisers": [
+          {
+            "name": "할인혜택발견단",
+            "adCount": 12
+          },
+          {
+            "name": "명예로운 네이트판",
+            "adCount": 8
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -2705,17 +2916,228 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T01:24:46+00:00",
       "lastObservedAt": "2026-10-08T01:24:46+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "2c6a8e2921165a5b58c932f9f52f9272c8f803d54ac24ff8bc25e9a0ce7416a9",
       "searchQuery": "오일만클렌즈",
       "adEvidence": {
         "query": "오일만클렌즈",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 20,
+        "adIds": [
+          "1135016722515873",
+          "941546722119573",
+          "1113504298098054",
+          "2098610527429683",
+          "1344122391215884",
+          "1325510719787251",
+          "2338229770338383",
+          "1428006609077620",
+          "3518402868342108",
+          "1320885483564839",
+          "1853369368982491",
+          "1305146491678727",
+          "1854834278732926",
+          "1494279962746336",
+          "1588443706287260",
+          "1526759682156082",
+          "1332126981606051",
+          "849633568030387",
+          "1004710135643516",
+          "1711825646757380"
+        ],
+        "ads": [
+          {
+            "id": "1135016722515873",
+            "advertiser": "할인혜택발견단",
+            "startedAt": "2026-10-05",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:36+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:36+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "941546722119573",
+            "advertiser": "할인혜택발견단",
+            "startedAt": "2026-08-04",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:35+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1113504298098054",
+            "advertiser": "할인혜택발견단",
+            "startedAt": "2026-10-02",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:35+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:35+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2098610527429683",
+            "advertiser": "할인혜택발견단",
+            "startedAt": "2026-08-04",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:34+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1344122391215884",
+            "advertiser": "할인혜택발견단",
+            "startedAt": "2026-07-19",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:34+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1325510719787251",
+            "advertiser": "명예로운 네이트판",
+            "startedAt": "2026-06-29",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:34+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2338229770338383",
+            "advertiser": "할인혜택발견단",
+            "startedAt": "2026-09-14",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:33+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1428006609077620",
+            "advertiser": "할인혜택발견단",
+            "startedAt": "2026-04-21",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:33+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3518402868342108",
+            "advertiser": "할인혜택발견단",
+            "startedAt": "2026-09-18",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:32+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1320885483564839",
+            "advertiser": "명예로운 네이트판",
+            "startedAt": "2026-06-29",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:32+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1853369368982491",
+            "advertiser": "명예로운 네이트판",
+            "startedAt": "2026-09-10",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:27+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1305146491678727",
+            "advertiser": "명예로운 네이트판",
+            "startedAt": "2026-09-28",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:27+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1854834278732926",
+            "advertiser": "명예로운 네이트판",
+            "startedAt": "2026-09-28",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:26+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1494279962746336",
+            "advertiser": "할인혜택발견단",
+            "startedAt": "2026-09-11",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:26+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1588443706287260",
+            "advertiser": "명예로운 네이트판",
+            "startedAt": "2026-08-26",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:25+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1526759682156082",
+            "advertiser": "명예로운 네이트판",
+            "startedAt": "2026-07-12",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:25+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1332126981606051",
+            "advertiser": "할인혜택발견단",
+            "startedAt": "2026-06-11",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:25+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "849633568030387",
+            "advertiser": "명예로운 네이트판",
+            "startedAt": "2026-07-13",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:24+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1004710135643516",
+            "advertiser": "할인혜택발견단",
+            "startedAt": "2026-07-02",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:24+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1711825646757380",
+            "advertiser": "할인혜택발견단",
+            "startedAt": "2026-07-02",
+            "query": "오일만클렌즈",
+            "firstCollectedAt": "2026-10-08T11:44:23+00:00",
+            "lastCollectedAt": "2026-10-08T11:44:23+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T11:44:36+00:00",
+        "advertisers": [
+          {
+            "name": "할인혜택발견단",
+            "adCount": 12
+          },
+          {
+            "name": "명예로운 네이트판",
+            "adCount": 8
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
