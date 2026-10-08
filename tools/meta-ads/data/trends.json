@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T20:40:01+00:00",
+  "updatedAt": "2026-10-08T20:44:51+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-08T19:58:12+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 16,
-    "dailyRemaining": 272,
+    "dailyUsed": 17,
+    "dailyRemaining": 271,
     "pending": 0,
-    "nextDispatchAt": "2026-10-08T20:44:22+00:00",
+    "nextDispatchAt": "2026-10-08T20:49:26+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -8407,17 +8407,34 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "done",
       "keywordId": "0848b332728aefe953cc6b345b4ab1a4bd47eccb4c93aac44901be7f150b7e85",
       "searchQuery": "루노미",
       "adEvidence": {
         "query": "루노미",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 1,
+        "adIds": [
+          "1612110370559067"
+        ],
+        "ads": [
+          {
+            "id": "1612110370559067",
+            "advertiser": "Āmirew",
+            "startedAt": "2026-09-18",
+            "query": "루노미",
+            "firstCollectedAt": "2026-10-08T20:44:36+00:00",
+            "lastCollectedAt": "2026-10-08T20:44:36+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T20:44:36+00:00",
+        "advertisers": [
+          {
+            "name": "Āmirew",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
@@ -10316,17 +10333,34 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T01:24:46+00:00",
       "lastObservedAt": "2026-10-08T19:58:12+00:00",
-      "state": "backlog",
+      "state": "done",
       "keywordId": "0848b332728aefe953cc6b345b4ab1a4bd47eccb4c93aac44901be7f150b7e85",
       "searchQuery": "루노미",
       "adEvidence": {
         "query": "루노미",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 1,
+        "adIds": [
+          "1612110370559067"
+        ],
+        "ads": [
+          {
+            "id": "1612110370559067",
+            "advertiser": "Āmirew",
+            "startedAt": "2026-09-18",
+            "query": "루노미",
+            "firstCollectedAt": "2026-10-08T20:44:36+00:00",
+            "lastCollectedAt": "2026-10-08T20:44:36+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T20:44:36+00:00",
+        "advertisers": [
+          {
+            "name": "Āmirew",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
