@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T19:58:12+00:00",
+  "updatedAt": "2026-10-08T20:03:24+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-08T19:58:12+00:00",
@@ -41,22 +41,22 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 10,
-    "dailyRemaining": 278,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-08T20:03:22+00:00",
+    "dailyUsed": 11,
+    "dailyRemaining": 277,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
-    "enabled": false,
+    "enabled": true,
     "collectionGuard": {
-      "state": "blocked",
-      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
-      "nextAllowedAt": "2026-10-08T20:03:22+00:00",
-      "blockedUntil": "2026-10-08T20:03:22+00:00",
+      "state": "ready",
+      "reason": null,
+      "nextAllowedAt": null,
+      "blockedUntil": null,
       "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
+    "pausedReason": null
   },
   "settings": {
     "category": "50000023",
@@ -7251,7 +7251,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "929a3c4e0e160cd3f806ce8025c010ef8cd8b9f62a884e3243902c14cebb270f",
       "searchQuery": "아미노바이탈",
       "adEvidence": {
@@ -9291,7 +9291,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T01:24:46+00:00",
       "lastObservedAt": "2026-10-08T19:58:12+00:00",
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "929a3c4e0e160cd3f806ce8025c010ef8cd8b9f62a884e3243902c14cebb270f",
       "searchQuery": "아미노바이탈",
       "adEvidence": {
