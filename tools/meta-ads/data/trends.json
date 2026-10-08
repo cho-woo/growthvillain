@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T10:36:14+00:00",
+  "updatedAt": "2026-10-08T10:38:27+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-08T01:24:46+00:00",
@@ -43,20 +43,20 @@
     "backlogDays": 14,
     "dailyUsed": 25,
     "dailyRemaining": 263,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-08T11:38:27+00:00",
     "metaAutoEnabled": true,
-    "enabled": true,
+    "enabled": false,
     "collectionGuard": {
-      "state": "ready",
-      "reason": null,
-      "nextAllowedAt": null,
-      "blockedUntil": null,
-      "blockStreak": 0,
+      "state": "blocked",
+      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
+      "nextAllowedAt": "2026-10-08T11:38:27+00:00",
+      "blockedUntil": "2026-10-08T11:38:27+00:00",
+      "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": null
+    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
   },
   "settings": {
     "category": "50000023",
@@ -425,7 +425,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "failed",
       "keywordId": "13906ae6ceefbdada590a5cfe574571aa65601a3a3560cd1c52e992a0a245738",
       "searchQuery": "보스웰리아",
       "adEvidence": {
@@ -3804,7 +3804,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-08T01:24:15+00:00",
-      "state": "queued",
+      "state": "failed",
       "keywordId": "13906ae6ceefbdada590a5cfe574571aa65601a3a3560cd1c52e992a0a245738",
       "searchQuery": "보스웰리아",
       "adEvidence": {
