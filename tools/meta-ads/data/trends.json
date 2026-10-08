@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T14:50:38+00:00",
+  "updatedAt": "2026-10-08T15:06:58+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-08T01:24:46+00:00",
@@ -41,22 +41,22 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 30,
-    "dailyRemaining": 258,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-08T15:06:53+00:00",
+    "dailyUsed": 1,
+    "dailyRemaining": 287,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
-    "enabled": false,
+    "enabled": true,
     "collectionGuard": {
-      "state": "blocked",
-      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
-      "nextAllowedAt": "2026-10-08T15:06:53+00:00",
-      "blockedUntil": "2026-10-08T15:06:53+00:00",
+      "state": "ready",
+      "reason": null,
+      "nextAllowedAt": null,
+      "blockedUntil": null,
       "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
+    "pausedReason": null
   },
   "settings": {
     "category": "50000023",
@@ -115,8 +115,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -134,7 +134,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "9dbfa34f6897fba10ad761c65ee65ad9f2e2690ba93c2150b04e76403dcadcd8",
       "searchQuery": "인삼",
       "adEvidence": {
@@ -406,8 +406,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -438,8 +438,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -787,8 +787,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -819,8 +819,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -851,8 +851,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -870,7 +870,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "e6277fc18b38355e5b8a7fb8407c886077ee1ee7805a826b014783c553932769",
       "searchQuery": "철분제",
       "adEvidence": {
@@ -883,8 +883,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -902,7 +902,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "ac350355acb5234e41205aabc4ffbb8d4d5a7bee9403222137c36f265a5eafbb",
       "searchQuery": "코큐텐",
       "adEvidence": {
@@ -915,8 +915,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -934,7 +934,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "180b44d1b67a0b128e02b64df7d951f6a8b792d04fb2207ee984433e0dd7d211",
       "searchQuery": "락토핏",
       "adEvidence": {
@@ -1194,8 +1194,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1213,7 +1213,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "bcf536dd1867b7bab597855a08ef29f72e5b6f42e81a4209905d4bcd3ee0a444",
       "searchQuery": "올록담올리브3",
       "adEvidence": {
@@ -1226,8 +1226,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1465,8 +1465,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1484,7 +1484,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "f154eb3cad43de08e0ec36fd379c1210359a737f7257fddbdfb7b66535eb7a78",
       "searchQuery": "애터미헤모힘",
       "adEvidence": {
@@ -1497,8 +1497,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1516,7 +1516,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "d0ac929f6d260ce3d5fd02cb1b31c34716c644fcc0b91bcd17f7b4e2370654fd",
       "searchQuery": "멀티비타민",
       "adEvidence": {
@@ -1529,8 +1529,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1548,7 +1548,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "7103eab06a979f606df6aac8e96d82cd17f121b79ec2c304e9e48593f120f6ba",
       "searchQuery": "담백하루오메가3",
       "adEvidence": {
@@ -1561,8 +1561,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1580,7 +1580,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "a74801c9b2b725545c0ec5965656e59a4a38aa54eac4195ceef6d3799e9ea924",
       "searchQuery": "프로폴리스스프레이",
       "adEvidence": {
@@ -1593,8 +1593,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1612,7 +1612,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "664f0eee12a3e0cefc4d5005db47079e8dcfa3c97b12f7c025bc86ced3155352",
       "searchQuery": "고려은단비타민c1000",
       "adEvidence": {
@@ -1625,8 +1625,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1644,7 +1644,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "69a792bcfeeb96d89df2fd420cd02d9442f3b7965bc16cc92f44c047885e3f29",
       "searchQuery": "마그네슘영양제",
       "adEvidence": {
@@ -1657,8 +1657,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1676,7 +1676,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "7478199ee3e9cb574beebef253e0dabb6cd87b9b2daced39c97b8c1a7861c34c",
       "searchQuery": "포스파티딜세린",
       "adEvidence": {
@@ -1689,8 +1689,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1708,7 +1708,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "4a2742c7cecb67e22447e9b8480dbf32cb38811f835e5456dbcca95098b1a6d7",
       "searchQuery": "뉴케어구수한맛",
       "adEvidence": {
@@ -1721,8 +1721,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1740,7 +1740,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "94bb2907bbb070b2089b9e01de7d82c32d045c621462ddab52687c012f9f5a8f",
       "searchQuery": "뉴케어당플랜",
       "adEvidence": {
@@ -1753,8 +1753,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1772,7 +1772,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "0dc3160ca2edbe2c1d5513195cf90d486a0c41086b748f94f74ebe44a5c50186",
       "searchQuery": "베르베린",
       "adEvidence": {
@@ -1785,8 +1785,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1804,7 +1804,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "0acd2b2f2a45e603976c6cce33216ea0d24b33d6e9d18e26a7029354923987f5",
       "searchQuery": "루테인",
       "adEvidence": {
@@ -1817,8 +1817,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1836,7 +1836,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "cf7f5635a38ad217a8aa25f9be3a8a95c82f08486a73664657cd7a27cab9ede4",
       "searchQuery": "침향환",
       "adEvidence": {
@@ -1849,8 +1849,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -2178,8 +2178,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -2265,8 +2265,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -2297,8 +2297,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -2329,8 +2329,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -2572,8 +2572,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -2604,8 +2604,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -2623,7 +2623,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "queued",
       "keywordId": "d4a4eaed75e38796ebe581811b4cb34bb3d4eb214e985cfb2e85ad4e91558802",
       "searchQuery": "식이섬유",
       "adEvidence": {
@@ -2636,8 +2636,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -2655,7 +2655,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "01ca69a1fbbefb09b075344ca5258c5ab6b76639806307d8ede36ad84463f328",
       "searchQuery": "경성포유틴",
       "adEvidence": {
@@ -2668,8 +2668,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -2687,7 +2687,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "3501c40f1106cfc2be0036eea0c11f4e3a0d49f2a869e711bba16e96333434a7",
       "searchQuery": "라이필더마콜라겐",
       "adEvidence": {
@@ -2700,8 +2700,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -2719,7 +2719,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "929a3c4e0e160cd3f806ce8025c010ef8cd8b9f62a884e3243902c14cebb270f",
       "searchQuery": "아미노바이탈",
       "adEvidence": {
@@ -2732,8 +2732,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -2751,7 +2751,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "9d03d97598352b3b6c4df3fdc56c2bf4dbd8022258ff0fb9c0d731b5addb89a8",
       "searchQuery": "하이뮨프로틴",
       "adEvidence": {
@@ -2764,8 +2764,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -2783,7 +2783,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "7d183d61379ce5999750670c666635cfbda807c6a266d8ada12e19b991e6a751",
       "searchQuery": "프로틴음료",
       "adEvidence": {
@@ -2796,8 +2796,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -2815,7 +2815,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "0848b332728aefe953cc6b345b4ab1a4bd47eccb4c93aac44901be7f150b7e85",
       "searchQuery": "루노미",
       "adEvidence": {
@@ -2828,8 +2828,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -2847,7 +2847,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "88be42e8ab1778f052eb397a9720641e47e8922dc93a536176204206626da4fb",
       "searchQuery": "ns프로틴",
       "adEvidence": {
@@ -2860,8 +2860,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -2879,7 +2879,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "cbe4a466bde7087be0a93e0c90ab49daa94946829503ef87e7165429493f2c18",
       "searchQuery": "콜라겐아마빌레라이프",
       "adEvidence": {
@@ -2892,8 +2892,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     }
   ],
   "history": [
@@ -3140,8 +3140,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "427878df05422382e5fe18f09b38ca546f8cae80a6b7ae04784b87f5581b6f79",
@@ -3162,7 +3162,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T01:24:46+00:00",
       "lastObservedAt": "2026-10-08T01:24:46+00:00",
-      "state": "ready",
+      "state": "queued",
       "keywordId": "d4a4eaed75e38796ebe581811b4cb34bb3d4eb214e985cfb2e85ad4e91558802",
       "searchQuery": "식이섬유",
       "adEvidence": {
@@ -3175,8 +3175,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "42947bd22b074e64665abfe0c6ac025bc3a180541f166b41535843a084e56ebf",
@@ -3197,7 +3197,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T01:24:46+00:00",
       "lastObservedAt": "2026-10-08T01:24:46+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "3501c40f1106cfc2be0036eea0c11f4e3a0d49f2a869e711bba16e96333434a7",
       "searchQuery": "라이필더마콜라겐",
       "adEvidence": {
@@ -3210,8 +3210,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "51fdaeef795db5ff749bd7ab1658b365c0d9ce3e9a8b0a91089c03a2cbb0b662",
@@ -3245,8 +3245,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "55b0067abc95f9e708c6a718dccde51e3bd80c51e71e72461f46a31f16e7340e",
@@ -3335,8 +3335,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "6f14a0de147c0c97695907e656b5158d59d2b596f6f5a2f9ed24426abe346f68",
@@ -3357,7 +3357,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T01:24:46+00:00",
       "lastObservedAt": "2026-10-08T01:24:46+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "01ca69a1fbbefb09b075344ca5258c5ab6b76639806307d8ede36ad84463f328",
       "searchQuery": "경성포유틴",
       "adEvidence": {
@@ -3370,8 +3370,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "77d0a03981969984f99c47eaed9634800779a5bd015f422b3534a5addc28d550",
@@ -3405,8 +3405,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "b698378b2bfeabef17d0dd5758f9be582e9ac83f93414dbade82a7a5098eea0e",
@@ -3440,8 +3440,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "b75c5f74bcb12cdb91cbc36f394e95ea4264d7c278530040dce2ce273c773782",
@@ -3462,7 +3462,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T01:24:46+00:00",
       "lastObservedAt": "2026-10-08T01:24:46+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "cbe4a466bde7087be0a93e0c90ab49daa94946829503ef87e7165429493f2c18",
       "searchQuery": "콜라겐아마빌레라이프",
       "adEvidence": {
@@ -3475,8 +3475,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "b7adb6743b3281fee4798a4b476a703f4924dc7dafe2bbcb22d2b6bd906debc1",
@@ -3497,7 +3497,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T01:24:46+00:00",
       "lastObservedAt": "2026-10-08T01:24:46+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "0848b332728aefe953cc6b345b4ab1a4bd47eccb4c93aac44901be7f150b7e85",
       "searchQuery": "루노미",
       "adEvidence": {
@@ -3510,8 +3510,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "bb78eb23623b9dc0b391d77d674ee04ef6baabc3042e5a45582a9a9f544f56d4",
@@ -3532,7 +3532,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T01:24:46+00:00",
       "lastObservedAt": "2026-10-08T01:24:46+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "929a3c4e0e160cd3f806ce8025c010ef8cd8b9f62a884e3243902c14cebb270f",
       "searchQuery": "아미노바이탈",
       "adEvidence": {
@@ -3545,8 +3545,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "c64001ca5974605b8ba7689dca09b4783760db6233767fb9b82bba4b862eaa39",
@@ -3567,7 +3567,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T01:24:46+00:00",
       "lastObservedAt": "2026-10-08T01:24:46+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "88be42e8ab1778f052eb397a9720641e47e8922dc93a536176204206626da4fb",
       "searchQuery": "ns프로틴",
       "adEvidence": {
@@ -3580,8 +3580,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "c8d2b1440f00319e47ceae3f78c6df98fe714882a1e3e557c4da3da4af3682ab",
@@ -3602,7 +3602,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T01:24:46+00:00",
       "lastObservedAt": "2026-10-08T01:24:46+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "7d183d61379ce5999750670c666635cfbda807c6a266d8ada12e19b991e6a751",
       "searchQuery": "프로틴음료",
       "adEvidence": {
@@ -3615,8 +3615,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "cd99137075d4c3b45a4bdf37ca92ac65cd8f0e78cfa7e8f2632dfaf3af50a459",
@@ -3947,8 +3947,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "d6b513f86ba5119d68ef689b6583dedf3388ee8219ea6302581d372411a2c2be",
@@ -3969,7 +3969,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T01:24:46+00:00",
       "lastObservedAt": "2026-10-08T01:24:46+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "9d03d97598352b3b6c4df3fdc56c2bf4dbd8022258ff0fb9c0d731b5addb89a8",
       "searchQuery": "하이뮨프로틴",
       "adEvidence": {
@@ -3982,8 +3982,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "02e22c1c5bde1894ce80cca1e0d3e639b494efe3515a5bf17b4a3a6a381a6ae0",
@@ -4034,8 +4034,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "04800b5434cc1df1b5c5e8385460e595db2f971abe58e587d798f4c284d756c7",
@@ -4056,7 +4056,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-08T01:24:15+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "cf7f5635a38ad217a8aa25f9be3a8a95c82f08486a73664657cd7a27cab9ede4",
       "searchQuery": "침향환",
       "adEvidence": {
@@ -4069,8 +4069,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "0520a48f3f122a624af8818f9b08d539d2d803e304a0175cbe1fe07bc9329c3a",
@@ -4091,7 +4091,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-08T01:24:15+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "4a2742c7cecb67e22447e9b8480dbf32cb38811f835e5456dbcca95098b1a6d7",
       "searchQuery": "뉴케어구수한맛",
       "adEvidence": {
@@ -4104,8 +4104,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "140c9919fbac822a4be8c7d075c027ac6ed8a641e10f42e3d114fc555c33b556",
@@ -4126,7 +4126,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-08T01:24:15+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "7103eab06a979f606df6aac8e96d82cd17f121b79ec2c304e9e48593f120f6ba",
       "searchQuery": "담백하루오메가3",
       "adEvidence": {
@@ -4139,8 +4139,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "22331a0c71d7a2b5ffaed18ff4985e881c162564032714daf1ee85facf2d024f",
@@ -4161,7 +4161,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-08T01:24:15+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "bcf536dd1867b7bab597855a08ef29f72e5b6f42e81a4209905d4bcd3ee0a444",
       "searchQuery": "올록담올리브3",
       "adEvidence": {
@@ -4174,8 +4174,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "393e789fb686f98b3891ce78bb875ca1f16c1a974bac93c09b860312f0c1150f",
@@ -4196,7 +4196,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-08T01:24:15+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "ac350355acb5234e41205aabc4ffbb8d4d5a7bee9403222137c36f265a5eafbb",
       "searchQuery": "코큐텐",
       "adEvidence": {
@@ -4209,8 +4209,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "3f9ed603a2dcf8306cd28b6cea4660a159f8d66e8878a3aa9d1d3786903afd50",
@@ -4451,8 +4451,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "5adac5826cd1274dab6a381c8d5f0d0eddad78cd31205e132f3454c27359c108",
@@ -4473,7 +4473,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-08T01:24:15+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "664f0eee12a3e0cefc4d5005db47079e8dcfa3c97b12f7c025bc86ced3155352",
       "searchQuery": "고려은단비타민c1000",
       "adEvidence": {
@@ -4486,8 +4486,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "5ecc9c6b62fa7ce05579aec10d76a58744277e50118cbb031f96871bb35dab61",
@@ -4521,8 +4521,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "799eec4b41095f62b39ce676a4a3c04b7b1a43dac426002f999888683696a5bb",
@@ -4556,8 +4556,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "7d6ee4a270f757d3a76863d63f9ffc7c42ea36349d198ae474f35bc96b171d95",
@@ -4908,8 +4908,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "81dcd3cb3452c27ac33d133be4425f96561ce6fb0a93ec51e7fe002a9b8476d7",
@@ -4930,7 +4930,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-08T01:24:15+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "e6277fc18b38355e5b8a7fb8407c886077ee1ee7805a826b014783c553932769",
       "searchQuery": "철분제",
       "adEvidence": {
@@ -4943,8 +4943,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "8d75e9a3db82ed458814a8d464887f3d60073a923a224fa47dc74893c3e0ad5e",
@@ -4965,7 +4965,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-08T01:24:15+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "d0ac929f6d260ce3d5fd02cb1b31c34716c644fcc0b91bcd17f7b4e2370654fd",
       "searchQuery": "멀티비타민",
       "adEvidence": {
@@ -4978,8 +4978,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "9b9d57d917dcc8f20cfccf6edbf894f716be587094114f6959d2585a442d9a2b",
@@ -5000,7 +5000,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-08T01:24:15+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "94bb2907bbb070b2089b9e01de7d82c32d045c621462ddab52687c012f9f5a8f",
       "searchQuery": "뉴케어당플랜",
       "adEvidence": {
@@ -5013,8 +5013,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "9cff5f3365cf5097cf8bc22541e61c7e836f7123f4c9e6bce50ec30145ea0ff1",
@@ -5035,7 +5035,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-08T01:24:15+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "9dbfa34f6897fba10ad761c65ee65ad9f2e2690ba93c2150b04e76403dcadcd8",
       "searchQuery": "인삼",
       "adEvidence": {
@@ -5307,8 +5307,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "a1c6f41f3cc9457a520156462c7dff7821c16eb1f31f67fd58602cf838f38a64",
@@ -5329,7 +5329,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-08T01:24:15+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "7478199ee3e9cb574beebef253e0dabb6cd87b9b2daced39c97b8c1a7861c34c",
       "searchQuery": "포스파티딜세린",
       "adEvidence": {
@@ -5342,8 +5342,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "b5366967ff9c9c1e8e979da503935885bc9b4c9073543ce015b1a26c2877bc77",
@@ -5364,7 +5364,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-08T01:24:15+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "0acd2b2f2a45e603976c6cce33216ea0d24b33d6e9d18e26a7029354923987f5",
       "searchQuery": "루테인",
       "adEvidence": {
@@ -5377,8 +5377,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "ba589a0187a86e270e73e24a73681e6609338f824e3a54ba8dc53872edaf7e71",
@@ -5399,7 +5399,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-08T01:24:15+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "69a792bcfeeb96d89df2fd420cd02d9442f3b7965bc16cc92f44c047885e3f29",
       "searchQuery": "마그네슘영양제",
       "adEvidence": {
@@ -5412,8 +5412,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "bdddb9af651d949f2f6ced41f573f6195350c8fafccdbdb090bf6701459ed6b7",
@@ -5447,8 +5447,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "c54b095d262dd6d135c2f28537a5b1e2b8290913c57f8ac36f2ba307901dae3e",
@@ -5469,7 +5469,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-08T01:24:15+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "0dc3160ca2edbe2c1d5513195cf90d486a0c41086b748f94f74ebe44a5c50186",
       "searchQuery": "베르베린",
       "adEvidence": {
@@ -5482,8 +5482,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "c6ab45a7090320832023ed139879f6717641fbd326616dae8bd0d0d9579cb461",
@@ -5504,7 +5504,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-08T01:24:15+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "f154eb3cad43de08e0ec36fd379c1210359a737f7257fddbdfb7b66535eb7a78",
       "searchQuery": "애터미헤모힘",
       "adEvidence": {
@@ -5517,8 +5517,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "def8c4fc5da99a24a7a05417fcd90058411304069b96bddc0197ef3051cc53f7",
@@ -5539,7 +5539,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-08T01:24:15+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "a74801c9b2b725545c0ec5965656e59a4a38aa54eac4195ceef6d3799e9ea924",
       "searchQuery": "프로폴리스스프레이",
       "adEvidence": {
@@ -5552,8 +5552,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "ea546429747d49347b7f46fd49d9d31052d217eb802be73e16d9bb407553f109",
@@ -5574,7 +5574,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-08T01:24:15+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "180b44d1b67a0b128e02b64df7d951f6a8b792d04fb2207ee984433e0dd7d211",
       "searchQuery": "락토핏",
       "adEvidence": {
@@ -5834,8 +5834,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "03072bebc12ad01f6e700ebf0f25375bd154dd90365314d1f6fc619d3fc7f2f0",
@@ -6262,7 +6262,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -6454,7 +6454,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -6806,7 +6806,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -7062,7 +7062,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -7526,7 +7526,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -7772,7 +7772,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -7807,7 +7807,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -8961,7 +8961,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -10235,7 +10235,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -10270,7 +10270,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -11576,7 +11576,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -12822,7 +12822,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -13116,7 +13116,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -14274,7 +14274,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -14309,7 +14309,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -14344,7 +14344,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -14379,7 +14379,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -14431,7 +14431,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -14681,7 +14681,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -14716,7 +14716,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -14751,7 +14751,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -15021,7 +15021,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -15111,7 +15111,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -15365,7 +15365,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -15489,7 +15489,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -15767,7 +15767,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -16993,7 +16993,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -17028,7 +17028,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -17063,7 +17063,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -17321,7 +17321,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -17563,7 +17563,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -17598,7 +17598,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -17992,7 +17992,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     }
   ],
