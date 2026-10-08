@@ -1,6 +1,6 @@
 {
   "mode": "snapshot",
-  "updatedAt": "2026-10-08T21:01:01+00:00",
+  "updatedAt": "2026-10-08T21:56:49+00:00",
   "automations": [
     {
       "id": "meta-ads",
@@ -8,19 +8,19 @@
       "enabled": true,
       "running": false,
       "state": "waiting",
-      "nextRunAt": "2026-10-08T21:55:28+00:00",
+      "nextRunAt": "2026-10-08T22:01:18+00:00",
       "lastSuccessAt": "2026-10-08T20:55:34+00:00",
       "lastAttemptAt": "2026-10-08T20:54:15+00:00",
-      "message": "Meta 접근 제한 · 다음 자동 시도까지 대기",
+      "message": "Meta 조회 오류 · 5분 대기 후 다음 작업 확인",
       "intervalSeconds": 3600,
       "statusCheckIntervalSeconds": 900,
       "statusCheckBatchSize": 10,
-      "nextStatusCheckAt": "2026-10-08T21:55:28+00:00",
+      "nextStatusCheckAt": "2026-10-08T22:10:32+00:00",
       "collectionGuard": {
-        "state": "blocked",
-        "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
-        "nextAllowedAt": "2026-10-08T21:55:28+00:00",
-        "blockedUntil": "2026-10-08T21:55:28+00:00",
+        "state": "failure",
+        "reason": "Meta 조회 오류 · 5분 대기 후 다음 작업 확인",
+        "nextAllowedAt": "2026-10-08T22:01:18+00:00",
+        "blockedUntil": null,
         "blockStreak": 1,
         "storageReady": true,
         "minimumFreeBytes": 5368709120
@@ -109,8 +109,8 @@
   ],
   "publication": {
     "state": "synced",
-    "lastAttemptAt": "2026-10-08T20:59:19+00:00",
-    "lastSuccessAt": "2026-10-08T20:59:23+00:00",
+    "lastAttemptAt": "2026-10-08T21:01:01+00:00",
+    "lastSuccessAt": "2026-10-08T21:01:05+00:00",
     "error": null,
     "enabled": true
   }
