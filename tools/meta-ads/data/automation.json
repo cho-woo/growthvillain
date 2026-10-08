@@ -1,6 +1,6 @@
 {
   "mode": "snapshot",
-  "updatedAt": "2026-10-08T00:22:36+00:00",
+  "updatedAt": "2026-10-08T00:52:58+00:00",
   "automations": [
     {
       "id": "meta-ads",
@@ -63,6 +63,21 @@
       "nextStatusCheckAt": null
     },
     {
+      "id": "lifestyle-blog",
+      "name": "일상 블로그",
+      "enabled": true,
+      "running": false,
+      "state": "blocked",
+      "nextRunAt": "2026-10-08T23:10:00+09:00",
+      "lastSuccessAt": null,
+      "lastAttemptAt": null,
+      "message": "보호조치 인증 횟수 초과 · 발행 보류 · 수집 일정 유지",
+      "intervalSeconds": null,
+      "statusCheckIntervalSeconds": null,
+      "statusCheckBatchSize": null,
+      "nextStatusCheckAt": null
+    },
+    {
       "id": "oliveyoung",
       "name": "올리브영 순위",
       "enabled": true,
@@ -80,8 +95,8 @@
   ],
   "publication": {
     "state": "synced",
-    "lastAttemptAt": "2026-10-08T00:20:35+00:00",
-    "lastSuccessAt": "2026-10-08T00:20:39+00:00",
+    "lastAttemptAt": "2026-10-08T00:52:57+00:00",
+    "lastSuccessAt": "2026-10-08T00:22:40+00:00",
     "error": null,
     "enabled": true
   }
