@@ -1,10 +1,11 @@
+import {categoryName,scopeRows,observationKey,categorySources,fixedSettings,notesForCategory} from './trend-scope.mjs';
 import {periodDays,rankChange} from './monitoring.mjs';
 import {linkedAds,summarizeKeyword,startTiming,copyMentionsKeyword,metaSearchUrl,matchingInvestigation} from './keyword-evidence.mjs';
 import {safeUrl} from './catalog.mjs';
 const $ = selector => document.querySelector(selector);
 const el = (tag, cls, text) => {const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n;};
 let request,local=false,data=null,initialized=false,pending=false,timer=null,formInitialized=false;
-let visibleCount=8,historyLimit=30,selected=null,researchSignature='';
+let visibleCount=8,historyLimit=30,selected=null,researchSignature='',viewCategory='all';
 let getCards=()=>[],renderCard=null;
 let investigations={entries:[]},lastNotesFetch=0;
 const datetime=value=>{const d=new Date(value);return value&&!Number.isNaN(d.getTime())?d.toLocaleString('ko-KR',{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'}):'기록 없음';};
@@ -37,39 +38,41 @@ async function action(path,body={}){
   try{const result=await request(path,'POST',body);if(result.settings)render(result);await refresh();return true;}
   catch(error){showError(error);return false;}finally{pending=false;}
 }
-function settings(){return {category:$('#trend-category').value,minimumRise:Number($('#trend-rise').value),newTop:Number($('#trend-new').value)};}
+function settings(){return fixedSettings($('#trend-rise').value,$('#trend-new').value);}
 function periodLabel(row){const n=periodDays(row);return n?`${n}일 비교`:'비교 기간 미확인';}
 function render(value){
   const completed=(value.candidates||[]).some(c=>c.state==='done'&&data?.candidates?.some(old=>old.dispatchKey===c.dispatchKey&&old.state==='queued'));
   data=value;
   if(completed)window.dispatchEvent(new CustomEvent('meta-ads-trend-complete'));
-  if(!formInitialized&&value.settings){$('#trend-category').value=value.settings.category;$('#trend-rise').value=String(value.settings.minimumRise);$('#trend-new').value=String(value.settings.newTop);formInitialized=true;}
+  if(!formInitialized&&value.settings){$('#trend-rise').value=String(value.settings.minimumRise);$('#trend-new').value=String(value.settings.newTop);formInitialized=true;}
   $('#trend-auto').textContent=value.autoEnabled?'켜짐':'꺼짐';$('#trend-auto').setAttribute('aria-pressed',String(Boolean(value.autoEnabled)));
   $('#trend-scan').disabled=Boolean(value.scanning);$('#trend-scan').textContent=value.scanning?'네이버 순위 비교 중…':'지금 순위 비교 ↗';
   $('#trend-settings').querySelectorAll('select,button').forEach(control=>control.disabled=Boolean(value.scanning));
   $('#trend-results').setAttribute('aria-busy',String(Boolean(value.scanning)));
-  const rows=[...(value.candidates||[])].sort((a,b)=>(Number(b.rankRise)||0)-(Number(a.rankRise)||0)||(Number(a.currentRank)||100)-(Number(b.currentRank)||100));
-  const history=Array.isArray(value.history)?value.history:[];
+  const rows=scopeRows(value.candidates,viewCategory).sort((a,b)=>(Number(b.rankRise)||0)-(Number(a.rankRise)||0)||(Number(a.currentRank)||100)-(Number(b.currentRank)||100));
+  const history=scopeRows(value.history,viewCategory);
   const connected=rows.filter(c=>(c.adEvidence?.adCount||linkedAds(getCards(),c).length)>0).length;
   $('#trend-candidate-count').textContent=rows.length;$('#trend-linked-count').textContent=connected;$('#trend-history-count').textContent=history.length;
   const policy=value.collectionPolicy;
   $('#trend-policy').textContent=policy?`미수집 키워드부터 순차 검색 · ${policy.maxDailyQueries}개/일 · 키워드당 최대 ${policy.maxAdsPerQuery}개 광고 · 최소 ${Math.round(policy.intervalSeconds/60)}분 간격 · 오늘 ${policy.dailyUsed||0}개 진행 / ${policy.dailyRemaining??'—'}개 남음${policy.nextDispatchAt?` · 다음 검색 ${datetime(policy.nextDispatchAt)}`:''}${policy.metaAutoEnabled===false?' · 메타 자동 수집 OFF':''}`:'급상승 키워드를 순서대로 수집합니다. 수집한 결과부터 소재가 연결됩니다.';
-  const dates=[value.sourceDate,value.latestDate,...rows.map(c=>c.currentDate||c.date),...history.map(c=>c.currentDate||c.date)].filter(v=>typeof v==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(v)).sort();
-  $('#trend-source-date').textContent=dates.at(-1)||'수집 대기';
-  const categoryName=[...$('#trend-category').options].find(o=>o.value===value.settings?.category)?.textContent||'선택 분야';
+  const sources=categorySources(value);
+  $('#trend-source-date').textContent=sources.map(source=>`${source.categoryName} ${source.sourceDate||'수집 대기'}`).join('\n');
+  const sourceStatus=$('#trend-source-status');sourceStatus.replaceChildren();
+  for(const source of sources){const item=el('li');item.append(el('strong','',source.categoryName),el('span','',source.sourceDate?`${source.previousSourceDate||'?'} → ${source.sourceDate}`:'첫 순위 기록 대기'));if(source.lastChecked)item.append(el('small','',`확인 ${datetime(source.lastChecked)}`));if(source.error)item.append(el('small','source-error',`확인 필요 · ${source.error}`));sourceStatus.append(item);}
+  const selectedCategoryName=viewCategory==='all'?'건강식품 · 다이어트식품':categoryName(viewCategory);
   const last=value.lastSuccessAt||value.lastChecked;
-  $('#trend-status').textContent=value.scanning&&local?'두 날짜의 일간 순위를 확인하고 있습니다.':value.error?value.error:last?`${categoryName} · 마지막 비교 ${datetime(last)}${local?' · 일간 순위 / 매시간 확인':` · 게시 ${datetime(value.updatedAt)}`}`:'첫 일간 순위 비교를 기다리고 있습니다.';
+  $('#trend-status').textContent=value.scanning&&local?'두 분야의 일간 순위를 확인하고 있습니다.':value.error?value.error:last?`${selectedCategoryName} · 일간 순위 / 매시간 확인${local?'':` · 게시 ${datetime(value.updatedAt)}`}`:'두 분야의 첫 일간 순위 비교를 기다리고 있습니다.';
   const container=$('#trend-results'),focusKey=document.activeElement?.dataset?.trendFocus;
   container.replaceChildren();
   for(const c of rows.slice(0,visibleCount)){
     const row=el('article','trend-candidate'),identity=el('div','trend-identity');
     const count=c.adEvidence?.adCount||linkedAds(getCards(),c).length;
-    identity.append(el('span',count?'trend-tag confirmed':'trend-tag',count?`연결 광고 ${count}개`:'콘텐츠 수집 대기'),el('h3','',c.keyword));
+    identity.append(el('span','trend-category-badge',categoryName(c.category)),el('span',count?'trend-tag confirmed':'trend-tag',count?`연결 광고 ${count}개`:'콘텐츠 수집 대기'),el('h3','',c.keyword));
     if(c.collectionReason==='historical-backlog')identity.append(el('p','trend-keyword',`과거 상승 기록 · ${c.sourceAgeDays}일 전 기준`));
     if(c.brandName)identity.append(el('p','trend-keyword',`참고 광고주·브랜드명 · ${c.brandName}`));
     const rank=el('div','trend-rank');rank.append(el('strong','',rankChange(c)),el('span','rank-movement',c.isNew?'상위권 신규 진입':`↑ ${c.rankRise}계단 상승`),el('small','',`${periodLabel(c)} · ${c.previousDate||'?'} → ${c.currentDate||c.date||'?'}`));
     const actions=el('div','trend-row-actions');
-    const button=(label,handler,secondary=false)=>{const b=el('button',secondary?'text-button':'button compact',label);b.type='button';b.dataset.trendFocus=`${c.keyword}:${label}`;b.addEventListener('click',handler);return b;};
+    const button=(label,handler,secondary=false)=>{const b=el('button',secondary?'text-button':'button compact',label);b.type='button';b.dataset.trendFocus=`${observationKey(c)}:${label}`;b.addEventListener('click',handler);return b;};
     actions.append(button('콘텐츠 조사 →',()=>selectKeyword(c)));
     const direct=el('a','text-button','Meta 검색 ↗');direct.href=metaSearchUrl(c.searchQuery||c.keyword);direct.target='_blank';direct.rel='noopener noreferrer';actions.append(direct);
     const labels={queued:'광고 검색 대기·진행 중',cooldown:'최근 검색한 키워드',done:'광고 검색 완료',failed:'광고 검색 실패',stale:'순위 갱신 필요',ready:'자동 검색 차례 대기',backlog:'과거 상승 · 수집 대기'};
@@ -80,13 +83,13 @@ function render(value){
   if(!rows.length)container.append(el('div','trend-empty',last?'이번 비교에서 기준을 충족한 상승 후보가 없습니다. 누적 기록은 계속 보관됩니다.':'첫 수집이 완료되면 이전·현재 순위를 비교해 표시합니다.'));
   if(rows.length>visibleCount){const more=el('button','button compact',`상승 후보 ${rows.length-visibleCount}개 더 보기 ↓`);more.type='button';more.addEventListener('click',()=>{visibleCount+=8;render(data);});container.append(more);}
   if(focusKey)[...container.querySelectorAll('button')].find(b=>b.dataset.trendFocus===focusKey)?.focus({preventScroll:true});
-  if(selected)selected=[...rows,...history].find(row=>row.keyword===selected.keyword&&(row.currentDate||row.date)===(selected.currentDate||selected.date)&&row.category===selected.category)||selected;
+  if(selected)selected=[...rows,...history].find(row=>observationKey(row)===observationKey(selected))||selected;
   if(!selected&&rows.length)selected=rows.find(row=>linkedAds(getCards(),row).length)||rows[0];
   renderHistory();
   renderInvestigation();
 }
 function showAds(candidate,filters={}){window.dispatchEvent(new CustomEvent('meta-ads-filter',{detail:{keyword:candidate.searchQuery||candidate.keyword,ids:linkedAds(getCards(),candidate).map(card=>card.id),...filters}}));$('#gallery').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});}
-function historyRows(){const q=$('#trend-history-search').value.trim().toLocaleLowerCase();return [...(data?.history||[])].filter(row=>!q||String(row.keyword||'').toLocaleLowerCase().includes(q)).sort((a,b)=>(Date.parse(b.currentDate||b.date)||0)-(Date.parse(a.currentDate||a.date)||0)||(Number(b.rankRise)||0)-(Number(a.rankRise)||0));}
+function historyRows(){const q=$('#trend-history-search').value.trim().toLocaleLowerCase();return scopeRows(data?.history,viewCategory).filter(row=>!q||String(row.keyword||'').toLocaleLowerCase().includes(q)).sort((a,b)=>(Date.parse(b.currentDate||b.date)||0)-(Date.parse(a.currentDate||a.date)||0)||(Number(b.rankRise)||0)-(Number(a.rankRise)||0));}
 function renderHistory(){
   const container=$('#trend-history-results'),rows=historyRows();container.replaceChildren();
   $('#trend-history-export').disabled=!rows.length;
@@ -97,7 +100,7 @@ function renderHistory(){
   const body=el('tbody');
   for(const row of rows.slice(0,historyLimit)){
     const tr=el('tr'),identity=el('td'),rank=el('td','history-rank',rankChange(row)),rise=el('td','history-rise',row.isNew?'신규 진입':`↑ ${row.rankRise}계단`),period=el('td'),recorded=el('td','history-recorded');
-    const choose=el('button','history-keyword',row.keyword);choose.type='button';choose.addEventListener('click',()=>selectKeyword(row));identity.append(choose,el('small','',`광고 ${row.adEvidence?.adCount||linkedAds(getCards(),row).length}개 · 콘텐츠 조사 ↗`));
+    const choose=el('button','history-keyword',row.keyword);choose.type='button';choose.addEventListener('click',()=>selectKeyword(row));identity.append(el('span','trend-category-badge',categoryName(row.category)),choose,el('small','',`광고 ${row.adEvidence?.adCount||linkedAds(getCards(),row).length}개 · 콘텐츠 조사 ↗`));
     period.append(el('span','',periodLabel(row)),el('small','',`${row.previousDate||'?'} — ${row.currentDate||row.date||'?'}`));
     recorded.append(el('span','',datetime(row.observedAt||row.lastObservedAt)));
     tr.append(identity,rank,rise,period,recorded);body.append(tr);
@@ -115,11 +118,11 @@ function researchButton(label,handler,cls='button compact'){
 }
 function renderInvestigation(){
   if(!selected)return;
-  const summary=summarizeKeyword(getCards(),selected),note=matchingInvestigation(investigations.entries,selected),signature=JSON.stringify({selected,ads:summary.ads,note});
+  const summary=summarizeKeyword(getCards(),selected),note=matchingInvestigation(notesForCategory(investigations.entries,selected.category),selected),signature=JSON.stringify({selected,ads:summary.ads,note});
   if(signature===researchSignature)return;researchSignature=signature;
   $('#keyword-investigation').hidden=false;
   $('#keyword-investigation-title').textContent=`“${selected.keyword}” 콘텐츠 조사`;
-  $('#keyword-comparison').textContent=`${rankChange(selected)} · ${periodLabel(selected)} · ${selected.previousDate||'?'} → ${selected.currentDate||selected.date||'?'}`;
+  $('#keyword-comparison').textContent=`${categoryName(selected.category)} · ${rankChange(selected)} · ${periodLabel(selected)} · ${selected.previousDate||'?'} → ${selected.currentDate||selected.date||'?'}`;
   const actions=$('#keyword-investigation-actions');actions.replaceChildren();
   const search=el('a','button compact','Meta에서 이 키워드 검색 ↗');search.href=metaSearchUrl(summary.query);search.target='_blank';search.rel='noopener noreferrer';actions.append(search);
   if(summary.ads.length)actions.append(researchButton(`연결 광고 ${summary.ads.length}개 전체 보기 ↓`,()=>showAds(selected)));
@@ -187,6 +190,7 @@ function renderInvestigationNote(note){
 }
 function chooseTab(id){for(const tab of document.querySelectorAll('.trend-tabs [role=tab]')){const selected=tab.id===id;tab.setAttribute('aria-selected',String(selected));tab.tabIndex=selected?0:-1;$('#'+tab.getAttribute('aria-controls')).hidden=!selected;}}
 function bind(){
+  $('#trend-view-category').addEventListener('change',()=>{viewCategory=$('#trend-view-category').value;visibleCount=8;historyLimit=30;selected=null;researchSignature='';$('#keyword-investigation').hidden=true;if(data)render(data);});
   $('#trend-settings').addEventListener('submit',e=>{e.preventDefault();action('/trends/settings',settings());});
   $('#trend-scan').addEventListener('click',async()=>{if(await action('/trends/settings',settings()))await action('/trends/scan');});
   $('#trend-auto').addEventListener('click',()=>action('/trends/settings',{autoEnabled:!data?.autoEnabled}));

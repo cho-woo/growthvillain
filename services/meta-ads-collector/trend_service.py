@@ -19,10 +19,11 @@ from keyword_evidence import keyword_id, evidence_index, ad_evidence
 from storage_config import assert_storage_available
 
 SOURCE_URL = 'https://datalab.naver.com/shoppingInsight/sCategory.naver'
-DEFAULTS = {'category': '50000023', 'minimumRise': 10, 'newTop': 20}
+DEFAULTS = {'category': '50000023', 'categories': ['50000023', '50000024'], 'minimumRise': 10, 'newTop': 20}
 CATEGORIES = {'50000000', '50000001', '50000002', '50000003', '50000004',
               '50000005', '50000006', '50000007', '50000008', '50000009', '50000010', '50005542',
               '50000023', '50001899', '50001090', '50001092', '50017220', '50018919', '50000024'}
+CATEGORY_NAMES = {'50000023': '건강식품', '50000024': '다이어트식품', '50001092': '영양제'}
 KST = timezone(timedelta(hours=9))
 INTERVAL_SECONDS = 3600
 COMPARISON_DAYS = 7
@@ -30,6 +31,7 @@ DAILY_QUERY_LIMIT = 5
 ADS_PER_QUERY = 20
 DISPATCH_INTERVAL_SECONDS = 900
 BACKLOG_DAYS = 14
+MAX_SOURCE_AGE_DAYS = 3
 PUBLIC_EVENT_FIELDS = ('id', 'category', 'date', 'currentDate', 'previousDate',
                        'sourceUrl', 'keyword', 'currentRank', 'previousRank', 'rankRise',
                        'isNew', 'brandId', 'brandName', 'needsReview', 'periodDays',
@@ -53,6 +55,29 @@ def _key(value):
     return normalize_keyword(value)
 
 
+def _categories(value):
+    if (not isinstance(value, list) or not 1 <= len(value) <= 2
+            or any(not isinstance(item, str) or item not in CATEGORIES for item in value)
+            or len(set(value)) != len(value)):
+        raise ValueError('지원되는 네이버 쇼핑 카테고리를 중복 없이 1~2개 선택하세요.')
+    return list(value)
+
+
+def validate_recent_source_date(value, current=None):
+    """The public source may lag; never relabel its date as yesterday."""
+    if not isinstance(value, str) or not re.fullmatch(r'\d{4}-\d{2}-\d{2}', value):
+        raise ValueError('invalid source date')
+    source_day = datetime.fromisoformat(value).date()
+    today = (current or datetime.now(KST)).astimezone(KST).date()
+    if not 1 <= (today-source_day).days <= MAX_SOURCE_AGE_DAYS:
+        raise ValueError('source date is not a recent completed day')
+    return source_day
+
+
+class SourceDateRegression(ValueError):
+    """A completed older day cannot replace the latest confirmed snapshot."""
+
+
 class TrendService:
     def __init__(self, store):
         self.store = store
@@ -67,6 +92,7 @@ class TrendService:
         self.last_attempt_at = None
         self.last_success_at = None
         self.last_error = None
+        self.source_errors = {}
         assert_storage_available(store.root)
         with store.lock:
             store.db.executescript('''
@@ -109,17 +135,50 @@ class TrendService:
             self.last_attempt_at = runtime.get('lastAttemptAt')
             self.last_success_at = runtime.get('lastSuccessAt')
             self.last_error = runtime.get('lastError')
-            self.error = self.last_error.get('message') if self.last_error else None
+            errors = runtime.get('sourceErrors')
+            if isinstance(errors, dict):
+                self.source_errors = {key: value for key, value in errors.items()
+                                      if key in CATEGORIES and isinstance(value, dict)
+                                      and isinstance(value.get('message'), str)}
+            elif isinstance(self.last_error, dict):
+                # A legacy single-category error still belongs to its original
+                # category; it must not contaminate a newly selected category.
+                self.source_errors[self.settings()['category']] = self.last_error
+            self._refresh_error()
 
     def _persist_runtime(self):
         payload = {'autoEnabled': self.auto_enabled, 'nextAttempt': self.next_attempt,
                    'lastAttemptAt': self.last_attempt_at, 'lastSuccessAt': self.last_success_at,
-                   'lastError': self.last_error}
+                   'lastError': self.last_error, 'sourceErrors': self.source_errors}
         self.store.write('INSERT INTO trend_runtime(id,payload) VALUES(1,?) ON CONFLICT(id) DO UPDATE SET payload=excluded.payload',
                          (json.dumps(payload, ensure_ascii=False),))
 
     def settings(self):
-        return json.loads(self.store.rows('SELECT payload FROM trend_settings WHERE id=1')[0]['payload'])
+        stored = json.loads(self.store.rows('SELECT payload FROM trend_settings WHERE id=1')[0]['payload'])
+        categories = _categories(stored.get('categories', [stored['category']]))
+        return dict(stored, category=categories[0], categories=categories)
+
+    def _refresh_error(self):
+        issues = [(category, self.source_errors[category]) for category in self.settings()['categories']
+                  if category in self.source_errors]
+        if not issues:
+            self.error, self.last_error = None, None
+            return
+        names = ', '.join(CATEGORY_NAMES.get(category, category) for category, _ in issues)
+        self.error = names+' 순위를 확인하지 못했습니다. 해당 분야의 이전 확인 결과는 유지됩니다.'
+        self.last_error = {'at': max((str(value.get('at') or '') for _, value in issues), default='') or None,
+                           'message': self.error, 'categories': [category for category, _ in issues]}
+
+    def source_summaries(self):
+        result = []
+        for category in self.settings()['categories']:
+            current, previous, checked_at = self._snapshots(category)
+            result.append({'category': category, 'categoryName': CATEGORY_NAMES.get(category, category),
+                           'sourceDate': current['date'] if current else None,
+                           'previousSourceDate': previous['date'] if previous else None,
+                           'lastChecked': checked_at,
+                           'error': (self.source_errors.get(category) or {}).get('message')})
+        return result
 
     def brands(self):
         return [dict(json.loads(row['payload']), id=row['id'])
@@ -137,11 +196,13 @@ class TrendService:
 
     def candidates(self, evidence=None):
         settings = self.settings()
-        current, previous, _ = self._snapshots(settings['category'])
-        if current is None or previous is None:
-            return []
-        candidates = compare_snapshots(current, previous, brands=self.brands(),
-                                       minimum_rise=settings['minimumRise'], new_top=settings['newTop'], keyword_mode=True)
+        candidates = []
+        brands = self.brands()
+        for category in settings['categories']:
+            current, previous, _ = self._snapshots(category)
+            if current is not None and previous is not None:
+                candidates.extend(compare_snapshots(current, previous, brands=brands,
+                    minimum_rise=settings['minimumRise'], new_top=settings['newTop'], keyword_mode=True))
         return self._decorate_candidates(candidates, evidence)
 
     def _decorate_candidates(self, candidates, evidence=None):
@@ -183,7 +244,13 @@ class TrendService:
 
     def status(self):
         settings = self.settings()
-        current, previous, checked_at = self._snapshots(settings['category'])
+        summaries = self.source_summaries()
+        # Keep the single-source fields as first-category compatibility fields;
+        # clients rendering both categories use sourceSummaries instead.
+        first_source = summaries[0]
+        checked_times = [item['lastChecked'] for item in summaries if item['lastChecked']]
+        checked_at = max(checked_times, key=lambda value: datetime.fromisoformat(value.replace('Z', '+00:00'))) if checked_times else None
+        self._refresh_error()
         next_run = (datetime.fromtimestamp(self.next_attempt, timezone.utc).isoformat(timespec='seconds')
                     if self.next_attempt else now()) if self.auto_enabled and not self.stop_event.is_set() else None
         evidence = evidence_index(self.store.cards())
@@ -192,9 +259,9 @@ class TrendService:
                 'brands': self.brands(), 'sourceUrl': SOURCE_URL, 'history': self.history(evidence=evidence),
                 'nextRunAt': next_run, 'intervalSeconds': INTERVAL_SECONDS,
                 'sourceCadence': 'daily', 'comparisonDays': COMPARISON_DAYS,
-                'sourceDate': current['date'] if current else None,
-                'previousSourceDate': previous['date'] if previous else None,
-                'lastAttemptAt': self.last_attempt_at, 'lastSuccessAt': self.last_success_at or checked_at,
+                'sourceDate': first_source['sourceDate'], 'previousSourceDate': first_source['previousSourceDate'],
+                'sourceSummaries': summaries,
+                'lastAttemptAt': self.last_attempt_at, 'lastSuccessAt': checked_at,
                 'lastError': self.last_error, 'collectionPolicy': self.collection_policy()}
 
     def collection_policy(self):
@@ -216,14 +283,27 @@ class TrendService:
                 'pending': pending, 'nextDispatchAt': next_at, 'metaAutoEnabled': meta_enabled,
                 'enabled': self.auto_enabled and meta_enabled}
 
-    def history(self, limit=2000, evidence=None):
-        """Durable observations; comparison interval is not an inferred climb time."""
+    def history(self, limit=2000, evidence=None, *, since_date=None):
+        """Selected-category observations; other categories stay in the database."""
         brands = self.brands()
+        categories = self.settings()['categories']
         ignored = {row['keyword'] for row in self.store.rows('SELECT keyword FROM trend_ignored')}
         result = []
-        for row in self.store.rows('SELECT * FROM trend_events ORDER BY current_date DESC, observed_at DESC, id LIMIT ?', (limit,)):
+        # Filter before LIMIT so newer records in another category cannot crowd
+        # this category's history out of the dashboard or dispatch backlog.
+        placeholders = ','.join('?' for _ in categories)
+        query = f'SELECT * FROM trend_events WHERE category IN ({placeholders})'
+        parameters = list(categories)
+        if since_date is not None:
+            query += ' AND trend_events.current_date>=?'
+            parameters.append(since_date)
+        query += ' ORDER BY trend_events.current_date DESC, observed_at DESC, id'
+        if limit is not None:
+            query += ' LIMIT ?'
+            parameters.append(limit)
+        for row in self.store.rows(query, parameters):
             item = json.loads(row['payload'])
-            if _key(item['keyword']) in ignored:
+            if item.get('category') not in categories or _key(item['keyword']) in ignored:
                 continue
             brand = match_brand(item['keyword'], brands)
             item.update(id=row['id'], observedAt=row['observed_at'], lastObservedAt=row['last_observed_at'],
@@ -232,15 +312,20 @@ class TrendService:
             result.append(item)
         return self._decorate_candidates(result, evidence)
 
+    def _backlog_history(self, evidence=None):
+        # The UI cap must not truncate two categories' full 14-day queue.
+        cutoff = (datetime.now(KST).date() - timedelta(days=BACKLOG_DAYS)).isoformat()
+        return self.history(limit=None, evidence=evidence, since_date=cutoff)
+
     def collection_candidates(self, *, all_categories=False):
         """A dated backlog prevents a five/day cap from starving older rises."""
         evidence = evidence_index(self.store.cards())
-        combined = self.candidates(evidence) + self.history(evidence=evidence)
+        combined = self.candidates(evidence) + self._backlog_history(evidence)
         latest = {}
         settings = self.settings()
-        category = settings['category']
+        categories = settings['categories']
         for item in combined:
-            if not all_categories and item['category'] != category:
+            if not all_categories and item['category'] not in categories:
                 continue
             if not 1 <= item['sourceAgeDays'] <= BACKLOG_DAYS:
                 continue
@@ -270,7 +355,7 @@ class TrendService:
             status = self.status()
             public = {key: status[key] for key in ('version', 'updatedAt', 'autoEnabled', 'scanning',
                       'lastChecked', 'error', 'sourceUrl', 'nextRunAt', 'intervalSeconds', 'sourceCadence',
-                      'comparisonDays', 'sourceDate', 'previousSourceDate', 'lastAttemptAt', 'lastSuccessAt', 'lastError', 'collectionPolicy')}
+                      'comparisonDays', 'sourceDate', 'previousSourceDate', 'sourceSummaries', 'lastAttemptAt', 'lastSuccessAt', 'lastError', 'collectionPolicy')}
             public['settings'] = dict(status['settings'])
             public['mode'] = 'public'
             for key in ('candidates', 'history'):
@@ -287,10 +372,11 @@ class TrendService:
     def save_settings(self, body):
         with self.lock:
             settings = self.settings()
-            category = body.get('category', settings['category'])
-            if not isinstance(category, str) or category not in CATEGORIES:
-                raise ValueError('지원되는 네이버 쇼핑 카테고리를 선택하세요.')
-            updated = {'category': category,
+            categories = _categories(body['categories'] if 'categories' in body else
+                                     [body['category']] if 'category' in body else settings['categories'])
+            if 'categories' in body and 'category' in body and body['category'] != categories[0]:
+                raise ValueError('category는 categories의 첫 번째 항목과 같아야 합니다.')
+            updated = {'category': categories[0], 'categories': categories,
                        'minimumRise': _integer(body.get('minimumRise', settings['minimumRise']), 1, 99, '상승 순위'),
                        'newTop': _integer(body.get('newTop', settings['newTop']), 1, 100, '신규 진입 순위')}
             if 'autoEnabled' in body and not isinstance(body['autoEnabled'], bool):
@@ -303,6 +389,9 @@ class TrendService:
                 self.auto_enabled = body['autoEnabled']
                 if self.auto_enabled and changed:
                     self.next_attempt = 0
+            if self.auto_enabled and categories != settings['categories']:
+                self.next_attempt = 0
+            self._refresh_error()
             self._persist_runtime()
             self.export()
             return self.status()
@@ -376,11 +465,12 @@ class TrendService:
         # same lock used by the regular collector. A full queue never consumes a key.
         with self.lock, self.store.lock:
             assert_storage_available(self.store.root)
-            candidate = next((c for c in self.candidates() + self.history() if c.get('dispatchKey') == dispatch_key), None)
+            categories = self.settings()['categories']
+            candidate = next((c for c in self.candidates() + self._backlog_history() if c.get('dispatchKey') == dispatch_key), None)
             if automatic and not getattr(self, 'can_collect', lambda: True)():
                 raise ValueError('메타 광고 자동 수집이 OFF입니다.')
-            if not candidate:
-                raise ValueError('현재 급상승 목록에서 키워드를 선택하세요.')
+            if not candidate or candidate.get('category') not in categories:
+                raise ValueError('현재 선택된 카테고리의 급상승 목록에서 키워드를 선택하세요.')
             existing = self.store.rows('SELECT job_id,automatic FROM trend_dispatches WHERE dispatch_key=?', (dispatch_key,))
             if existing:
                 job = self._job(existing[0]['job_id'])
@@ -473,8 +563,8 @@ class TrendService:
                 self.store.db.rollback()
                 raise
         self.last_success_at = observed_at
-        self.last_error = None
-        self.error = None
+        self.source_errors.pop(category, None)
+        self._refresh_error()
         self._persist_runtime()
         self.export()
 
@@ -496,53 +586,73 @@ class TrendService:
             self.thread.start()
 
     def _scan(self, settings):
+        categories = _categories(settings.get('categories', [settings['category']]))
+        succeeded = False
         try:
-            assert_storage_available(self.store.root)
-            run = self.store.root / 'trends' / secrets.token_hex(12)
-            run.mkdir(parents=True)
-            output_path = run / 'ranks.json'
-            date = (datetime.now(KST).date() - timedelta(days=1)).isoformat()
-            service_dir = Path(__file__).resolve().parent
-            command = [sys.executable, str(service_dir / 'naver_rank_crawler.py'), '--category', settings['category'],
-                       '--date', date, '--output', str(output_path)]
-            options = {'creationflags': subprocess.CREATE_NO_WINDOW} if os.name == 'nt' else {'start_new_session': True}
-            with (run / 'scan.log').open('wb') as log:
-                with self.lock:
+            for category in categories:
+                if self.stop_event.is_set():
+                    break
+                try:
+                    self._scan_category(category)
+                    succeeded = True
+                except Exception as error:
                     if self.stop_event.is_set():
-                        return
-                    self.process = subprocess.Popen(command, cwd=service_dir, stdout=log, stderr=subprocess.STDOUT,
-                                                    env=dict(os.environ, PYTHONIOENCODING='utf-8', PYTHONUTF8='1'), **options)
-                deadline = time.monotonic() + 180
-                while self.process.poll() is None:
-                    if self.stop_event.wait(.25) or time.monotonic() >= deadline:
-                        self._kill_process()
-                        raise RuntimeError('scan timed out')
-                if self.process.returncode != 0:
-                    raise RuntimeError('source ranks unavailable')
-            assert_storage_available(self.store.root)
-            if not output_path.is_file() or output_path.stat().st_size > 2 * 1024 * 1024:
-                raise ValueError('invalid rank data')
-            result = json.loads(output_path.read_text(encoding='utf-8-sig'))
-            if result['current']['date'] != date:
-                raise ValueError('source returned another date')
-            self.record_snapshots(result['current'], result['previous'], settings['category'])
-            if self.auto_enabled and self.settings() == settings:
+                        break
+                    message = ('더 이전 날짜가 반환되어 이 분야의 최신 확인 자료를 유지합니다.'
+                               if isinstance(error, SourceDateRegression) else
+                               '네이버 순위를 확인하지 못했습니다. 이 분야의 이전 확인 결과는 유지됩니다.')
+                    self.source_errors[category] = {'at': now(), 'message': message}
+                    self._refresh_error()
+                finally:
+                    with self.lock:
+                        self.process = None
+            if succeeded and self.auto_enabled and self.settings() == settings and not self.stop_event.is_set():
                 self.dispatch_ready()
-            self.next_attempt = time.time() + INTERVAL_SECONDS
-        except Exception:
-            self.error = '네이버 순위를 확인하지 못했습니다. 이전 확인 결과는 유지됩니다. 잠시 후 다시 시도하세요.'
-            self.last_error = {'at': now(), 'message': self.error}
-            self.next_attempt = time.time() + INTERVAL_SECONDS
         finally:
             with self.lock:
+                self.next_attempt = time.time() + INTERVAL_SECONDS
                 self.process = None
                 self.scanning = False
+                self._refresh_error()
                 try:
                     self._persist_runtime()
                     self.export()
                 except OSError:
                     # A disconnected archive must not redirect state onto C:.
                     pass
+
+    def _scan_category(self, category):
+        """One bounded child per category; successful categories commit separately."""
+        assert_storage_available(self.store.root)
+        run = self.store.root / 'trends' / secrets.token_hex(12)
+        run.mkdir(parents=True)
+        output_path = run / 'ranks.json'
+        service_dir = Path(__file__).resolve().parent
+        command = [sys.executable, str(service_dir / 'naver_rank_crawler.py'), '--category', category,
+                   '--output', str(output_path)]
+        options = {'creationflags': subprocess.CREATE_NO_WINDOW} if os.name == 'nt' else {'start_new_session': True}
+        with (run / 'scan.log').open('wb') as log:
+            with self.lock:
+                if self.stop_event.is_set():
+                    raise RuntimeError('scan stopped')
+                self.process = subprocess.Popen(command, cwd=service_dir, stdout=log, stderr=subprocess.STDOUT,
+                                                env=dict(os.environ, PYTHONIOENCODING='utf-8', PYTHONUTF8='1'), **options)
+            deadline = time.monotonic() + 180
+            while self.process.poll() is None:
+                if self.stop_event.wait(.25) or time.monotonic() >= deadline:
+                    self._kill_process()
+                    raise RuntimeError('scan timed out')
+            if self.process.returncode != 0:
+                raise RuntimeError('source ranks unavailable')
+        assert_storage_available(self.store.root)
+        if not output_path.is_file() or output_path.stat().st_size > 2 * 1024 * 1024:
+            raise ValueError('invalid rank data')
+        result = json.loads(output_path.read_text(encoding='utf-8-sig'))
+        validate_recent_source_date(result['current']['date'])
+        current, _, _ = self._snapshots(category)
+        if current and result['current']['date'] < current['date']:
+            raise SourceDateRegression('source date regressed')
+        self.record_snapshots(result['current'], result['previous'], category)
 
     def tick(self):
         if not self.auto_enabled or self.scanning or self.stop_event.is_set():
@@ -553,9 +663,9 @@ class TrendService:
         self.dispatch_ready()
         if time.time() < self.next_attempt:
             return
-        current, _, _ = self._snapshots(self.settings()['category'])
         target_date = (datetime.now(KST).date() - timedelta(days=1)).isoformat()
-        if current and current['date'] == target_date:
+        current_snapshots = [self._snapshots(category)[0] for category in self.settings()['categories']]
+        if all(current and current['date'] == target_date for current in current_snapshots):
             self.dispatch_ready()
             self.next_attempt = time.time() + INTERVAL_SECONDS
             self._persist_runtime()
