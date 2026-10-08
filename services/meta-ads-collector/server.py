@@ -282,7 +282,8 @@ class Controller:
         projects = self.store.web_root.parent
         blog_python = os.environ.get('AUTOMATION_BLOG_PYTHON') or str(Path(os.environ.get('LOCALAPPDATA', ''))/'Programs/Python/Python312/python.exe')
         self.automations = AutomationManager(self, food_root=projects/'Bolg_Agent_two',
-                                             beauty_root=projects/'Beauty_Blog_Agent', python=blog_python)
+                                             beauty_root=projects/'Beauty_Blog_Agent',
+                                             lifestyle_root=projects/'Lifestyle_Blog_Agent', python=blog_python)
         self.automations.start()
         self.trends.export()
         self.monitor_thread = threading.Thread(target=self.monitor, name='automation-monitor', daemon=True)
@@ -654,7 +655,7 @@ class Handler(BaseHTTPRequestHandler):
             path = urlsplit(self.path).path
             store = self.controller.store
             trends = self.controller.trends
-            auto_match = re.fullmatch(API + r'/automations/(meta-ads|naver-trends|food-blog|beauty-blog)', path)
+            auto_match = re.fullmatch(API + r'/automations/(meta-ads|naver-trends|food-blog|beauty-blog|lifestyle-blog)', path)
             if auto_match and self.command == 'POST':
                 if not isinstance(body.get('enabled'), bool):
                     raise ValueError('enabled must be boolean')

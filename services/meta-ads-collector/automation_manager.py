@@ -1,4 +1,4 @@
-"""Manage only the two explicitly configured local blog schedulers."""
+"""Manage only the explicitly configured local blog schedulers."""
 from __future__ import annotations
 
 from datetime import datetime
@@ -64,13 +64,14 @@ def oliveyoung_status(beauty_root, enabled, heartbeat, current=None):
 
 
 class AutomationManager:
-    def __init__(self, controller=None, food_root=None, beauty_root=None, *, root=None, python=None):
+    def __init__(self, controller=None, food_root=None, beauty_root=None, lifestyle_root=None, *, root=None, python=None):
         self.controller = controller
         self.root = Path(root) if root else hub_root()
         projects = Path.home() / 'Desktop/codex/개발'
         self.projects = {
             'food-blog': (Path(food_root or projects/'Bolg_Agent_two'), 'run_scheduler.py', '맛집 블로그'),
             'beauty-blog': (Path(beauty_root or projects/'Beauty_Blog_Agent'), 'beauty_scheduler.py', '뷰티 블로그'),
+            'lifestyle-blog': (Path(lifestyle_root or projects/'Lifestyle_Blog_Agent'), 'lifestyle_scheduler.py', '일상 블로그'),
         }
         self.python = str(python or os.environ.get('AUTOMATION_BLOG_PYTHON') or sys.executable)
         self.children = {}

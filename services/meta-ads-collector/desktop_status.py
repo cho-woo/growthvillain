@@ -15,7 +15,8 @@ from urllib.request import HTTPRedirectHandler, ProxyHandler, Request, build_ope
 import webbrowser
 
 EXPECTED = [('meta-ads', '메타 광고'), ('naver-trends', '네이버 급상승'),
-            ('food-blog', '맛집 블로그'), ('beauty-blog', '뷰티 블로그'), ('oliveyoung', '올리브영 순위')]
+            ('food-blog', '맛집 블로그'), ('beauty-blog', '뷰티 블로그'),
+            ('lifestyle-blog', '일상 블로그'), ('oliveyoung', '올리브영 순위')]
 KST_OFFSET_SECONDS = 9 * 3600
 DEFAULT_NOTICE = '5초 갱신 · X는 트레이로 숨김'
 
@@ -113,6 +114,8 @@ def row_view(row, online, current=None):
     if row.get('id') == 'oliveyoung' and state == 'waiting' and enabled:
         count = re.match(r'\d+개', str(row.get('message', '')))
         detail = (count[0]+' · ' if count else '')+'뷰티 연동 · '+countdown(row.get('nextRunAt'), current)
+    if row.get('id') == 'lifestyle-blog' and state == 'waiting' and enabled:
+        detail = '매일 23:10 · '+countdown(row.get('nextRunAt'), current)
     return {'label': label, 'color': color, 'detail': str(detail),
             'switch': '연동' if row.get('id') == 'oliveyoung' else '끄기' if enabled else '켜기',
             'disabled': row.get('controllable') is not True}
@@ -281,7 +284,7 @@ class StatusWindow:
     @staticmethod
     def position():
         import tkinter as tk
-        width, height = 380, 474
+        width, height = 380, 544
         left, top, right, bottom = 0, 0, tk._default_root.winfo_screenwidth(), tk._default_root.winfo_screenheight()
         try:
             import ctypes

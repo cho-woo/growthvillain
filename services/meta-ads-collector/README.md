@@ -16,7 +16,7 @@ powershell -ExecutionPolicy Bypass -File .\Launch-MetaAds.ps1 -Setup
 python .\launch_hub.py --widget
 ```
 
-상태창은 Meta 광고, 네이버 급상승, 맛집 블로그, 뷰티 블로그, 올리브영 순위의 ON/OFF, 실행·대기·오류 상태, 다음 일정과 남은 시간을 표시합니다. 5초마다 로컬 서버의 응답을 확인하며, 오래된 응답은 연결 끊김으로 표시합니다. 하단 슬라이더에서 불투명도를 30~100%로 조절할 수 있으며 다음 실행에도 유지됩니다. X 버튼은 창을 시스템 트레이로 숨깁니다. 트레이 아이콘을 더블 클릭하거나 우클릭 메뉴의 현황판 열기로 복원하고, 현황판 종료를 선택하면 상태창만 종료합니다. 수집기와 블로그 자동화는 유지됩니다. 트레이 등록에 실패하면 작업 표시줄로 최소화하며 창의 ⋯ 메뉴에서도 종료할 수 있습니다. 완전히 종료한 상태창을 다시 열려면 `python .\launch_hub.py --widget`을 실행합니다.
+상태창은 Meta 광고, 네이버 급상승, 맛집 블로그, 뷰티 블로그, 일상 블로그, 올리브영 순위의 ON/OFF, 실행·대기·오류 상태, 다음 일정과 남은 시간을 표시합니다. 5초마다 로컬 서버의 응답을 확인하며, 오래된 응답은 연결 끊김으로 표시합니다. 하단 슬라이더에서 불투명도를 30~100%로 조절할 수 있으며 다음 실행에도 유지됩니다. X 버튼은 창을 시스템 트레이로 숨깁니다. 트레이 아이콘을 더블 클릭하거나 우클릭 메뉴의 현황판 열기로 복원하고, 현황판 종료를 선택하면 상태창만 종료합니다. 수집기와 블로그 자동화는 유지됩니다. 트레이 등록에 실패하면 작업 표시줄로 최소화하며 창의 ⋯ 메뉴에서도 종료할 수 있습니다. 완전히 종료한 상태창을 다시 열려면 `python .\launch_hub.py --widget`을 실행합니다.
 
 ON/OFF 설정은 저장되어 재실행 후에도 유지됩니다. OFF는 다음 자동 실행을 중지하는 설정입니다. 이미 진행 중인 블로그 작업은 강제 종료하지 않고 완료 후 대기합니다. PC가 켜져 있고 로그인되어 있으며 해당 프로그램이 동작해야 실행됩니다.
 
@@ -37,6 +37,7 @@ powershell -ExecutionPolicy Bypass -File .\Install-AutomationHub.ps1
 | 네이버 인기검색어 | 매시간 공개된 최신 일간 순위를 확인하고 7일 전 일간 순위와 비교 |
 | 뷰티 블로그 | 첫 활성화 시 당일 수집, 이후 한국 시간 07:00 수집. 확인된 발행용 초안만 하루 최대 1회 발행 |
 | 맛집 블로그 | 기존 맛집 스케줄러의 일정을 유지하며 상태·ON/OFF를 연결 |
+| 일상 블로그 | 한국 시간 23:10에 생활 키워드 수집·검토된 원고 작성. 로그인과 근거를 확인한 초안만 하루 최대 1회 발행 |
 
 광고가 60개라면 상태 확인은 정상 처리 기준 약 6시간에 한 바퀴입니다. 매시간 모든 광고를 확인하는 방식이 아니며, 차단·오류·PC 중단 시 더 오래 걸릴 수 있습니다. 새 수집과 상태 확인 작업은 겹치지 않게 순서대로 처리합니다.
 
@@ -92,7 +93,7 @@ powershell -ExecutionPolicy Bypass -File .\Install-AutomationHub.ps1
 
 - `GET /bootstrap`: 로컬 세션 토큰과 초기 상태
 - `GET /status`, `/automations`, `/cards`, `/competitors`, `/jobs`, `/trends`
-- `POST /automations/{meta-ads|naver-trends|food-blog|beauty-blog}`: `{ "enabled": true }`
+- `POST /automations/{meta-ads|naver-trends|food-blog|beauty-blog|lifestyle-blog}`: `{ "enabled": true }`
 - `POST /settings`: `{ "autoEnabled": true, "autoPublishEnabled": true }`
 - `POST /competitors`, `PUT /competitors/{id}`, `DELETE /competitors/{id}`
 - `POST /collect`, `POST /jobs/{id}/cancel`, `POST /export`, `POST /import`
@@ -110,3 +111,9 @@ node --test ../../tools/meta-ads/tests/catalog.test.mjs
 ```
 
 자동 테스트는 실제 광고 수집이나 블로그 발행을 수행하지 않습니다. 수집 사이트의 화면 변경, 로그인 요구, 접근 제한은 실제 실행에서 별도로 확인해야 합니다. 접근 제한이나 보안 확인이 나오면 중단하고 기존 자료를 유지합니다.
+
+## 일상 블로그 연결
+
+일상 프로젝트는 형제 폴더 `Lifestyle_Blog_Agent`에 설치합니다. `lifestyle_scheduler.py`와 `automation_bridge.py`가 필요하며, 수집·작성은 `lifestyle_agent.py run`, 발행은 `publish_lifestyle.py`가 담당합니다. 세션과 계정은 맛집·뷰티와 분리합니다. 매일 23:10에 실행하며 발행은 공통 잠금과 3시간 간격을 적용합니다. 당일 수동 발행이나 결과 불명 기록도 그날 1회에 포함합니다. 재시작 시 놓친 일정을 몰아서 실행하지 않습니다.
+
+기본 연결은 `ehfvnd2007`, 일상 카테고리 15번, 일상·생각 주제입니다. 검토한 공식 자료가 있는 새 키워드만 작성하며 해당 자료가 없으면 대기합니다. `state/generation.json`의 작성 오류와 로그인 보호조치 상태를 현황판에 표시합니다. 보호조치·인증 횟수 제한 중에는 공개 자료 수집 일정은 유지해도 로그인·발행은 차단합니다. 계정·쿠키·API 키·원고는 이 공개 저장소에 올리지 않습니다.
