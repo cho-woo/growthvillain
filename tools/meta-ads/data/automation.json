@@ -1,6 +1,6 @@
 {
   "mode": "snapshot",
-  "updatedAt": "2026-10-08T10:35:15+00:00",
+  "updatedAt": "2026-10-08T10:36:39+00:00",
   "automations": [
     {
       "id": "meta-ads",
@@ -8,9 +8,9 @@
       "enabled": true,
       "running": true,
       "state": "running",
-      "nextRunAt": "2026-10-08T10:35:15+00:00",
-      "lastSuccessAt": "2026-10-08T03:15:55+00:00",
-      "lastAttemptAt": "2026-10-08T10:34:04+00:00",
+      "nextRunAt": "2026-10-08T11:34:04+00:00",
+      "lastSuccessAt": "2026-10-08T10:36:13+00:00",
+      "lastAttemptAt": "2026-10-08T10:36:15+00:00",
       "message": "광고 라이브러리 수집 중",
       "intervalSeconds": 3600,
       "statusCheckIntervalSeconds": 900,
@@ -21,7 +21,7 @@
         "reason": null,
         "nextAllowedAt": null,
         "blockedUntil": null,
-        "blockStreak": 2,
+        "blockStreak": 0,
         "storageReady": true,
         "minimumFreeBytes": 5368709120
       }
@@ -109,8 +109,8 @@
   ],
   "publication": {
     "state": "synced",
-    "lastAttemptAt": "2026-10-08T10:30:10+00:00",
-    "lastSuccessAt": "2026-10-08T10:30:15+00:00",
+    "lastAttemptAt": "2026-10-08T10:35:15+00:00",
+    "lastSuccessAt": "2026-10-08T10:35:21+00:00",
     "error": null,
     "enabled": true
   }
