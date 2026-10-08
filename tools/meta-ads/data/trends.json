@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T02:57:10+00:00",
+  "updatedAt": "2026-10-08T03:01:13+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-08T01:24:46+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 18,
-    "dailyRemaining": 270,
+    "dailyUsed": 19,
+    "dailyRemaining": 269,
     "pending": 0,
-    "nextDispatchAt": "2026-10-08T03:00:16+00:00",
+    "nextDispatchAt": "2026-10-08T03:05:18+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -4973,17 +4973,446 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "backlog",
+      "state": "done",
       "keywordId": "44a4013b89a4c84efdb8335e33a74bce6e6ef47d0b639a78034c7e3b1e69f8b5",
       "searchQuery": "오미자",
       "adEvidence": {
         "query": "오미자",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 35,
+        "adIds": [
+          "2247040662810719",
+          "1382861260231104",
+          "1097995102929263",
+          "1716797286284700",
+          "1098198822715584",
+          "1632137915088106",
+          "1571269347936885",
+          "1529017848984218",
+          "1477862677596699",
+          "1063324616604614",
+          "2060459087898703",
+          "1338093781554360",
+          "2925572221131779",
+          "1888511392312950",
+          "1047056968159103",
+          "941222031395388",
+          "1560918598613047",
+          "1423042463105999",
+          "1365153349035341",
+          "3164172013974312",
+          "1727758141745963",
+          "952591421246493",
+          "39268805232733318",
+          "1609711750367534",
+          "1267095382151692",
+          "1564450564709682",
+          "3474598516034569",
+          "1754015765905482",
+          "1676957331098877",
+          "2525029541350011",
+          "1097581126007093",
+          "1042284091767546",
+          "2782581655434014",
+          "1712694842615570",
+          "1303419508671996"
+        ],
+        "ads": [
+          {
+            "id": "2247040662810719",
+            "advertiser": "Maeum method",
+            "startedAt": "2026-10-07",
+            "query": "오미자",
+            "firstCollectedAt": "2026-10-08T03:00:58+00:00",
+            "lastCollectedAt": "2026-10-08T03:00:58+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1382861260231104",
+            "advertiser": "비체담 G케어",
+            "startedAt": "2026-10-02",
+            "query": "오미자",
+            "firstCollectedAt": "2026-10-08T03:00:57+00:00",
+            "lastCollectedAt": "2026-10-08T03:00:57+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1097995102929263",
+            "advertiser": "muckkabii",
+            "startedAt": "2026-10-07",
+            "query": "오미자",
+            "firstCollectedAt": "2026-10-08T03:00:57+00:00",
+            "lastCollectedAt": "2026-10-08T03:00:57+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1716797286284700",
+            "advertiser": "ESTROGROW",
+            "startedAt": "2026-09-18",
+            "query": "오미자",
+            "firstCollectedAt": "2026-10-08T03:00:56+00:00",
+            "lastCollectedAt": "2026-10-08T03:00:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1098198822715584",
+            "advertiser": "ESTROGROW",
+            "startedAt": "2026-09-18",
+            "query": "오미자",
+            "firstCollectedAt": "2026-10-08T03:00:56+00:00",
+            "lastCollectedAt": "2026-10-08T03:00:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1632137915088106",
+            "advertiser": "ESTROGROW",
+            "startedAt": "2026-09-18",
+            "query": "오미자",
+            "firstCollectedAt": "2026-10-08T03:00:44+00:00",
+            "lastCollectedAt": "2026-10-08T03:00:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1571269347936885",
+            "advertiser": "Doget",
+            "startedAt": "2026-08-27",
+            "query": "오미자",
+            "firstCollectedAt": "2026-10-08T03:00:44+00:00",
+            "lastCollectedAt": "2026-10-08T03:00:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1529017848984218",
+            "advertiser": "ESTROGROW",
+            "startedAt": "2026-09-18",
+            "query": "오미자",
+            "firstCollectedAt": "2026-10-08T03:00:44+00:00",
+            "lastCollectedAt": "2026-10-08T03:00:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1477862677596699",
+            "advertiser": "마시랑게",
+            "startedAt": "2026-10-07",
+            "query": "오미자",
+            "firstCollectedAt": "2026-10-08T03:00:44+00:00",
+            "lastCollectedAt": "2026-10-08T03:00:44+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1063324616604614",
+            "advertiser": "Bebe Holding Company Inc.",
+            "startedAt": "2026-10-06",
+            "query": "오미자",
+            "firstCollectedAt": "2026-10-08T03:00:43+00:00",
+            "lastCollectedAt": "2026-10-08T03:00:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2060459087898703",
+            "advertiser": "ESTROGROW",
+            "startedAt": "2026-09-18",
+            "query": "오미자",
+            "firstCollectedAt": "2026-10-08T03:00:42+00:00",
+            "lastCollectedAt": "2026-10-08T03:00:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1338093781554360",
+            "advertiser": "비체담 G케어",
+            "startedAt": "2026-10-02",
+            "query": "오미자",
+            "firstCollectedAt": "2026-10-08T03:00:42+00:00",
+            "lastCollectedAt": "2026-10-08T03:00:42+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2925572221131779",
+            "advertiser": "이트/yeet_official",
+            "startedAt": "2026-10-06",
+            "query": "오미자",
+            "firstCollectedAt": "2026-10-08T03:00:41+00:00",
+            "lastCollectedAt": "2026-10-08T03:00:41+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1888511392312950",
+            "advertiser": "쌍계명차",
+            "startedAt": "2026-10-01",
+            "query": "오미자",
+            "firstCollectedAt": "2026-10-08T03:00:41+00:00",
+            "lastCollectedAt": "2026-10-08T03:00:41+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1047056968159103",
+            "advertiser": "ESTROGROW",
+            "startedAt": "2026-09-18",
+            "query": "오미자",
+            "firstCollectedAt": "2026-10-08T03:00:41+00:00",
+            "lastCollectedAt": "2026-10-08T03:00:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "941222031395388",
+            "advertiser": "강아지건강상식",
+            "startedAt": "2025-06-17",
+            "query": "오미자",
+            "firstCollectedAt": "2026-10-08T03:00:35+00:00",
+            "lastCollectedAt": "2026-10-08T03:00:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1560918598613047",
+            "advertiser": "ESTROGROW",
+            "startedAt": "2026-09-18",
+            "query": "오미자",
+            "firstCollectedAt": "2026-10-08T03:00:34+00:00",
+            "lastCollectedAt": "2026-10-08T03:00:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1423042463105999",
+            "advertiser": "",
+            "startedAt": "2026-09-29",
+            "query": "오미자",
+            "firstCollectedAt": "2026-10-08T03:00:34+00:00",
+            "lastCollectedAt": "2026-10-08T03:00:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1365153349035341",
+            "advertiser": "Megacoffee",
+            "startedAt": "2026-09-08",
+            "query": "오미자",
+            "firstCollectedAt": "2026-10-08T03:00:34+00:00",
+            "lastCollectedAt": "2026-10-08T03:00:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3164172013974312",
+            "advertiser": "ESTROGROW",
+            "startedAt": "2026-09-18",
+            "query": "오미자",
+            "firstCollectedAt": "2026-10-08T03:00:33+00:00",
+            "lastCollectedAt": "2026-10-08T03:00:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1727758141745963",
+            "advertiser": "Bebe Holding Company Inc.",
+            "startedAt": "2026-06-30",
+            "query": "오미자",
+            "firstCollectedAt": "2026-10-08T03:00:33+00:00",
+            "lastCollectedAt": "2026-10-08T03:00:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "952591421246493",
+            "advertiser": "Allofoodlab ad",
+            "startedAt": "2026-09-30",
+            "query": "오미자",
+            "firstCollectedAt": "2026-10-08T03:00:32+00:00",
+            "lastCollectedAt": "2026-10-08T03:00:32+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "39268805232733318",
+            "advertiser": "한국경제tv와우넷",
+            "startedAt": "2026-09-09",
+            "query": "오미자",
+            "firstCollectedAt": "2026-10-08T03:00:32+00:00",
+            "lastCollectedAt": "2026-10-08T03:00:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1609711750367534",
+            "advertiser": "아워홈",
+            "startedAt": "2026-10-02",
+            "query": "오미자",
+            "firstCollectedAt": "2026-10-08T03:00:31+00:00",
+            "lastCollectedAt": "2026-10-08T03:00:31+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1267095382151692",
+            "advertiser": "VITABON.Bio",
+            "startedAt": "2026-09-01",
+            "query": "오미자",
+            "firstCollectedAt": "2026-10-08T03:00:30+00:00",
+            "lastCollectedAt": "2026-10-08T03:00:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1564450564709682",
+            "advertiser": "",
+            "startedAt": "2025-12-05",
+            "query": "오미자",
+            "firstCollectedAt": "2026-10-08T03:00:25+00:00",
+            "lastCollectedAt": "2026-10-08T03:00:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3474598516034569",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-08-28",
+            "query": "오미자",
+            "firstCollectedAt": "2026-10-08T03:00:24+00:00",
+            "lastCollectedAt": "2026-10-08T03:00:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1754015765905482",
+            "advertiser": "ESTROGROW",
+            "startedAt": "2026-09-18",
+            "query": "오미자",
+            "firstCollectedAt": "2026-10-08T03:00:24+00:00",
+            "lastCollectedAt": "2026-10-08T03:00:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1676957331098877",
+            "advertiser": "VITABON.Bio",
+            "startedAt": "2026-07-30",
+            "query": "오미자",
+            "firstCollectedAt": "2026-10-08T03:00:24+00:00",
+            "lastCollectedAt": "2026-10-08T03:00:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2525029541350011",
+            "advertiser": "씨드앤스푼",
+            "startedAt": "2026-09-21",
+            "query": "오미자",
+            "firstCollectedAt": "2026-10-08T03:00:23+00:00",
+            "lastCollectedAt": "2026-10-08T03:00:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1097581126007093",
+            "advertiser": "쌍계명차",
+            "startedAt": "2026-09-23",
+            "query": "오미자",
+            "firstCollectedAt": "2026-10-08T03:00:23+00:00",
+            "lastCollectedAt": "2026-10-08T03:00:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1042284091767546",
+            "advertiser": "Doget",
+            "startedAt": "2026-08-27",
+            "query": "오미자",
+            "firstCollectedAt": "2026-10-08T03:00:23+00:00",
+            "lastCollectedAt": "2026-10-08T03:00:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2782581655434014",
+            "advertiser": "오나한",
+            "startedAt": "2026-05-29",
+            "query": "오미자",
+            "firstCollectedAt": "2026-10-08T03:00:22+00:00",
+            "lastCollectedAt": "2026-10-08T03:00:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1712694842615570",
+            "advertiser": "탐나도다 굿메모리",
+            "startedAt": "2025-03-28",
+            "query": "오미자",
+            "firstCollectedAt": "2026-10-08T03:00:22+00:00",
+            "lastCollectedAt": "2026-10-08T03:00:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1303419508671996",
+            "advertiser": "Allofoodlab ad",
+            "startedAt": "2026-07-21",
+            "query": "오미자",
+            "firstCollectedAt": "2026-10-08T03:00:22+00:00",
+            "lastCollectedAt": "2026-10-08T03:00:22+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T03:00:58+00:00",
+        "advertisers": [
+          {
+            "name": "ESTROGROW",
+            "adCount": 9
+          },
+          {
+            "name": "Allofoodlab ad",
+            "adCount": 2
+          },
+          {
+            "name": "Bebe Holding Company Inc.",
+            "adCount": 2
+          },
+          {
+            "name": "Doget",
+            "adCount": 2
+          },
+          {
+            "name": "VITABON.Bio",
+            "adCount": 2
+          },
+          {
+            "name": "비체담 G케어",
+            "adCount": 2
+          },
+          {
+            "name": "쌍계명차",
+            "adCount": 2
+          },
+          {
+            "name": "Maeum method",
+            "adCount": 1
+          },
+          {
+            "name": "Megacoffee",
+            "adCount": 1
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 1
+          },
+          {
+            "name": "muckkabii",
+            "adCount": 1
+          },
+          {
+            "name": "강아지건강상식",
+            "adCount": 1
+          },
+          {
+            "name": "마시랑게",
+            "adCount": 1
+          },
+          {
+            "name": "씨드앤스푼",
+            "adCount": 1
+          },
+          {
+            "name": "아워홈",
+            "adCount": 1
+          },
+          {
+            "name": "오나한",
+            "adCount": 1
+          },
+          {
+            "name": "이트/yeet_official",
+            "adCount": 1
+          },
+          {
+            "name": "탐나도다 굿메모리",
+            "adCount": 1
+          },
+          {
+            "name": "한국경제tv와우넷",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
