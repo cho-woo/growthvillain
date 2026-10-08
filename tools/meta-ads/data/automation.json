@@ -1,6 +1,6 @@
 {
   "mode": "snapshot",
-  "updatedAt": "2026-10-08T00:20:35+00:00",
+  "updatedAt": "2026-10-08T00:22:36+00:00",
   "automations": [
     {
       "id": "meta-ads",
@@ -15,7 +15,7 @@
       "intervalSeconds": 21600,
       "statusCheckIntervalSeconds": 3600,
       "statusCheckBatchSize": 10,
-      "nextStatusCheckAt": "2026-10-08T00:21:29+00:00"
+      "nextStatusCheckAt": "2026-10-08T01:21:30+00:00"
     },
     {
       "id": "naver-trends",
@@ -80,8 +80,8 @@
   ],
   "publication": {
     "state": "synced",
-    "lastAttemptAt": "2026-10-08T00:06:09+00:00",
-    "lastSuccessAt": "2026-10-08T00:06:13+00:00",
+    "lastAttemptAt": "2026-10-08T00:20:35+00:00",
+    "lastSuccessAt": "2026-10-08T00:20:39+00:00",
     "error": null,
     "enabled": true
   }
