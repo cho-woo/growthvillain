@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T19:00:07+00:00",
+  "updatedAt": "2026-10-08T19:03:22+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-08T18:56:38+00:00",
@@ -41,22 +41,22 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 9,
-    "dailyRemaining": 279,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "dailyUsed": 10,
+    "dailyRemaining": 278,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-08T20:03:22+00:00",
     "metaAutoEnabled": true,
-    "enabled": true,
+    "enabled": false,
     "collectionGuard": {
-      "state": "ready",
-      "reason": null,
-      "nextAllowedAt": null,
-      "blockedUntil": null,
-      "blockStreak": 0,
+      "state": "blocked",
+      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
+      "nextAllowedAt": "2026-10-08T20:03:22+00:00",
+      "blockedUntil": "2026-10-08T20:03:22+00:00",
+      "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": null
+    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
   },
   "settings": {
     "category": "50000023",
@@ -4760,17 +4760,142 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "a74801c9b2b725545c0ec5965656e59a4a38aa54eac4195ceef6d3799e9ea924",
       "searchQuery": "프로폴리스스프레이",
       "adEvidence": {
         "query": "프로폴리스스프레이",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 9,
+        "adIds": [
+          "1838771734133876",
+          "1621676006170283",
+          "1609505767642554",
+          "4184268175043896",
+          "1724682082597468",
+          "1114841084336470",
+          "2253116865503544",
+          "1094450502918835",
+          "1472099081491122"
+        ],
+        "ads": [
+          {
+            "id": "1838771734133876",
+            "advertiser": "서울프로폴리스 Seoul Propolis Co., Ltd",
+            "startedAt": "2026-10-01",
+            "query": "프로폴리스스프레이",
+            "firstCollectedAt": "2026-10-08T19:02:29+00:00",
+            "lastCollectedAt": "2026-10-08T19:02:29+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1621676006170283",
+            "advertiser": "Royal Canadian Supplement",
+            "startedAt": "2026-10-07",
+            "query": "프로폴리스스프레이",
+            "firstCollectedAt": "2026-10-08T19:02:29+00:00",
+            "lastCollectedAt": "2026-10-08T19:02:29+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1609505767642554",
+            "advertiser": "한살림",
+            "startedAt": "2026-10-07",
+            "query": "프로폴리스스프레이",
+            "firstCollectedAt": "2026-10-08T19:02:29+00:00",
+            "lastCollectedAt": "2026-10-08T19:02:29+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4184268175043896",
+            "advertiser": "마더네스트",
+            "startedAt": "2026-10-01",
+            "query": "프로폴리스스프레이",
+            "firstCollectedAt": "2026-10-08T19:02:28+00:00",
+            "lastCollectedAt": "2026-10-08T19:02:28+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1724682082597468",
+            "advertiser": "Cenovis_official",
+            "startedAt": "2026-10-04",
+            "query": "프로폴리스스프레이",
+            "firstCollectedAt": "2026-10-08T19:02:28+00:00",
+            "lastCollectedAt": "2026-10-08T19:02:28+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1114841084336470",
+            "advertiser": "29CM",
+            "startedAt": "2026-10-01",
+            "query": "프로폴리스스프레이",
+            "firstCollectedAt": "2026-10-08T19:02:28+00:00",
+            "lastCollectedAt": "2026-10-08T19:02:28+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2253116865503544",
+            "advertiser": "Yellow AU",
+            "startedAt": "2026-07-04",
+            "query": "프로폴리스스프레이",
+            "firstCollectedAt": "2026-10-08T19:02:27+00:00",
+            "lastCollectedAt": "2026-10-08T19:02:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1094450502918835",
+            "advertiser": "BEE WITH YOU.KR",
+            "startedAt": "2026-08-26",
+            "query": "프로폴리스스프레이",
+            "firstCollectedAt": "2026-10-08T19:02:27+00:00",
+            "lastCollectedAt": "2026-10-08T19:02:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1472099081491122",
+            "advertiser": "Cenovis_official",
+            "startedAt": "2026-10-04",
+            "query": "프로폴리스스프레이",
+            "firstCollectedAt": "2026-10-08T19:02:25+00:00",
+            "lastCollectedAt": "2026-10-08T19:02:25+00:00",
+            "startTiming": "during-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T19:02:29+00:00",
+        "advertisers": [
+          {
+            "name": "Cenovis_official",
+            "adCount": 2
+          },
+          {
+            "name": "29CM",
+            "adCount": 1
+          },
+          {
+            "name": "BEE WITH YOU.KR",
+            "adCount": 1
+          },
+          {
+            "name": "Royal Canadian Supplement",
+            "adCount": 1
+          },
+          {
+            "name": "Yellow AU",
+            "adCount": 1
+          },
+          {
+            "name": "마더네스트",
+            "adCount": 1
+          },
+          {
+            "name": "서울프로폴리스 Seoul Propolis Co., Ltd",
+            "adCount": 1
+          },
+          {
+            "name": "한살림",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
@@ -7094,7 +7219,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "failed",
       "keywordId": "3501c40f1106cfc2be0036eea0c11f4e3a0d49f2a869e711bba16e96333434a7",
       "searchQuery": "라이필더마콜라겐",
       "adEvidence": {
@@ -8831,7 +8956,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T01:24:46+00:00",
       "lastObservedAt": "2026-10-08T18:56:38+00:00",
-      "state": "backlog",
+      "state": "failed",
       "keywordId": "3501c40f1106cfc2be0036eea0c11f4e3a0d49f2a869e711bba16e96333434a7",
       "searchQuery": "라이필더마콜라겐",
       "adEvidence": {
@@ -14353,17 +14478,142 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-08T18:55:54+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "a74801c9b2b725545c0ec5965656e59a4a38aa54eac4195ceef6d3799e9ea924",
       "searchQuery": "프로폴리스스프레이",
       "adEvidence": {
         "query": "프로폴리스스프레이",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 9,
+        "adIds": [
+          "1838771734133876",
+          "1621676006170283",
+          "1609505767642554",
+          "4184268175043896",
+          "1724682082597468",
+          "1114841084336470",
+          "2253116865503544",
+          "1094450502918835",
+          "1472099081491122"
+        ],
+        "ads": [
+          {
+            "id": "1838771734133876",
+            "advertiser": "서울프로폴리스 Seoul Propolis Co., Ltd",
+            "startedAt": "2026-10-01",
+            "query": "프로폴리스스프레이",
+            "firstCollectedAt": "2026-10-08T19:02:29+00:00",
+            "lastCollectedAt": "2026-10-08T19:02:29+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1621676006170283",
+            "advertiser": "Royal Canadian Supplement",
+            "startedAt": "2026-10-07",
+            "query": "프로폴리스스프레이",
+            "firstCollectedAt": "2026-10-08T19:02:29+00:00",
+            "lastCollectedAt": "2026-10-08T19:02:29+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1609505767642554",
+            "advertiser": "한살림",
+            "startedAt": "2026-10-07",
+            "query": "프로폴리스스프레이",
+            "firstCollectedAt": "2026-10-08T19:02:29+00:00",
+            "lastCollectedAt": "2026-10-08T19:02:29+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4184268175043896",
+            "advertiser": "마더네스트",
+            "startedAt": "2026-10-01",
+            "query": "프로폴리스스프레이",
+            "firstCollectedAt": "2026-10-08T19:02:28+00:00",
+            "lastCollectedAt": "2026-10-08T19:02:28+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1724682082597468",
+            "advertiser": "Cenovis_official",
+            "startedAt": "2026-10-04",
+            "query": "프로폴리스스프레이",
+            "firstCollectedAt": "2026-10-08T19:02:28+00:00",
+            "lastCollectedAt": "2026-10-08T19:02:28+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1114841084336470",
+            "advertiser": "29CM",
+            "startedAt": "2026-10-01",
+            "query": "프로폴리스스프레이",
+            "firstCollectedAt": "2026-10-08T19:02:28+00:00",
+            "lastCollectedAt": "2026-10-08T19:02:28+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2253116865503544",
+            "advertiser": "Yellow AU",
+            "startedAt": "2026-07-04",
+            "query": "프로폴리스스프레이",
+            "firstCollectedAt": "2026-10-08T19:02:27+00:00",
+            "lastCollectedAt": "2026-10-08T19:02:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1094450502918835",
+            "advertiser": "BEE WITH YOU.KR",
+            "startedAt": "2026-08-26",
+            "query": "프로폴리스스프레이",
+            "firstCollectedAt": "2026-10-08T19:02:27+00:00",
+            "lastCollectedAt": "2026-10-08T19:02:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1472099081491122",
+            "advertiser": "Cenovis_official",
+            "startedAt": "2026-10-04",
+            "query": "프로폴리스스프레이",
+            "firstCollectedAt": "2026-10-08T19:02:25+00:00",
+            "lastCollectedAt": "2026-10-08T19:02:25+00:00",
+            "startTiming": "during-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-08T19:02:29+00:00",
+        "advertisers": [
+          {
+            "name": "Cenovis_official",
+            "adCount": 2
+          },
+          {
+            "name": "29CM",
+            "adCount": 1
+          },
+          {
+            "name": "BEE WITH YOU.KR",
+            "adCount": 1
+          },
+          {
+            "name": "Royal Canadian Supplement",
+            "adCount": 1
+          },
+          {
+            "name": "Yellow AU",
+            "adCount": 1
+          },
+          {
+            "name": "마더네스트",
+            "adCount": 1
+          },
+          {
+            "name": "서울프로폴리스 Seoul Propolis Co., Ltd",
+            "adCount": 1
+          },
+          {
+            "name": "한살림",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
