@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T01:38:17+00:00",
+  "updatedAt": "2026-10-09T02:05:27+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-09T01:05:24+00:00",
   "error": null,
   "sourceUrl": "https://datalab.naver.com/shoppingInsight/sCategory.naver",
-  "nextRunAt": "2026-10-09T02:05:24+00:00",
+  "nextRunAt": "2026-10-09T03:05:27+00:00",
   "intervalSeconds": 3600,
   "sourceCadence": "daily",
   "comparisonDays": 7,
@@ -46,17 +46,17 @@
     "pending": 1,
     "nextDispatchAt": null,
     "metaAutoEnabled": true,
-    "enabled": true,
+    "enabled": false,
     "collectionGuard": {
-      "state": "ready",
-      "reason": null,
-      "nextAllowedAt": null,
-      "blockedUntil": null,
-      "blockStreak": 1,
+      "state": "blocked",
+      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
+      "nextAllowedAt": "2026-10-09T07:38:45+00:00",
+      "blockedUntil": "2026-10-09T07:38:45+00:00",
+      "blockStreak": 2,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": null
+    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
   },
   "settings": {
     "category": "50000023",
@@ -3013,7 +3013,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "cooldown",
+      "state": "ready",
       "keywordId": "32356e62f83ce1d1f3d4b4f88bdf6774392425a5e293a0ccd2e5afe770748bc6",
       "searchQuery": "폴리코사놀",
       "adEvidence": {
@@ -4162,7 +4162,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "cooldown",
+      "state": "ready",
       "keywordId": "01fba974d6f4559693cea16ca985fdf63102dfb7189a0ec1372c2d3f2e256637",
       "searchQuery": "삼백초추출물",
       "adEvidence": {
@@ -11349,7 +11349,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:04:53+00:00",
       "lastObservedAt": "2026-10-09T01:04:53+00:00",
-      "state": "cooldown",
+      "state": "ready",
       "keywordId": "32356e62f83ce1d1f3d4b4f88bdf6774392425a5e293a0ccd2e5afe770748bc6",
       "searchQuery": "폴리코사놀",
       "adEvidence": {
@@ -12903,7 +12903,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:04:53+00:00",
       "lastObservedAt": "2026-10-09T01:04:53+00:00",
-      "state": "cooldown",
+      "state": "ready",
       "keywordId": "01fba974d6f4559693cea16ca985fdf63102dfb7189a0ec1372c2d3f2e256637",
       "searchQuery": "삼백초추출물",
       "adEvidence": {
