@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T00:23:55+00:00",
+  "updatedAt": "2026-10-09T00:30:41+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-09T00:04:15+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 22,
-    "dailyRemaining": 266,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "dailyUsed": 23,
+    "dailyRemaining": 265,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-09T00:34:48+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -7035,17 +7035,1200 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "0acd2b2f2a45e603976c6cce33216ea0d24b33d6e9d18e26a7029354923987f5",
       "searchQuery": "루테인",
       "adEvidence": {
         "query": "루테인",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 100,
+        "adIds": [
+          "28637216395913793",
+          "4614822242138054",
+          "3301093713427400",
+          "2044728646298809",
+          "1351041997242018",
+          "1065322276487139",
+          "1726495585099594",
+          "1586829026398442",
+          "1389949649183829",
+          "1022709630602964",
+          "2933744210158917",
+          "1760130595141894",
+          "1050086217852770",
+          "876953882144395",
+          "1791674315309430",
+          "1449800050067033",
+          "1322029226178886",
+          "4347322952079579",
+          "1626593889090889",
+          "1091438376759651",
+          "1071867942288763",
+          "1834451364380975",
+          "1592685488389699",
+          "1588640835521568",
+          "1069809512604371",
+          "4855912214694003",
+          "1532989521850694",
+          "1430884655647135",
+          "1739530823934589",
+          "841813755688998",
+          "1057487583786291",
+          "2548779548880788",
+          "1732410258885639",
+          "1037597292493227",
+          "1759794741663161",
+          "1350299980649328",
+          "2183193679301214",
+          "1044043138534049",
+          "28173690558903608",
+          "1979514399404253",
+          "1747508013040270",
+          "1715409463084173",
+          "1542617624566159",
+          "4608676599366641",
+          "1716496689255187",
+          "1045923715054971",
+          "1051790914440636",
+          "28093534440298553",
+          "1729563144816141",
+          "1041979162035099",
+          "2234450307332022",
+          "1046073208101438",
+          "882045661336130",
+          "27411255188509682",
+          "2441758216322556",
+          "1557051529150581",
+          "2201761340622961",
+          "1036932988913984",
+          "1339897377969243",
+          "1318720620473120",
+          "1576027963952397",
+          "28551138091148145",
+          "1933014171005974",
+          "1404171441889305",
+          "1095874572764996",
+          "4543254509334783",
+          "4311879359139633",
+          "1654515939570726",
+          "1104377195408109",
+          "1008129881986597",
+          "2730177954034929",
+          "2112451802951545",
+          "1372035114504748",
+          "2132279950997393",
+          "1623413685973056",
+          "1392559062492766",
+          "3330485063791277",
+          "1635163254829940",
+          "1000935846156936",
+          "2623357321439457",
+          "3628660414109566",
+          "1421970463222215",
+          "1052866280672156",
+          "958036063958491",
+          "821807007057546",
+          "25004121099263335",
+          "1751833122767564",
+          "1401153861836035",
+          "1051332814336445",
+          "1633166981815022",
+          "1490283939525637",
+          "1492611899076028",
+          "1299470145324751",
+          "1061117426784145",
+          "27421764250750538",
+          "1989271378357447",
+          "1064013226583209",
+          "1674296753619826",
+          "1367895915181576",
+          "1559202799066544"
+        ],
+        "ads": [
+          {
+            "id": "28637216395913793",
+            "advertiser": "익스트림 Extreme",
+            "startedAt": "2026-09-21",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:32+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4614822242138054",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-06-15",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:31+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3301093713427400",
+            "advertiser": "퍼니트",
+            "startedAt": "2026-09-09",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:31+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2044728646298809",
+            "advertiser": "안국건강",
+            "startedAt": "2025-10-14",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:31+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1351041997242018",
+            "advertiser": "Mondaypotionofficial",
+            "startedAt": "2026-08-12",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:31+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1065322276487139",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-20",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:31+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1726495585099594",
+            "advertiser": "GC 녹십자웰빙",
+            "startedAt": "2026-09-28",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:30+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1586829026398442",
+            "advertiser": "퍼니트",
+            "startedAt": "2026-08-12",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:30+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1389949649183829",
+            "advertiser": "데이팩",
+            "startedAt": "2026-09-03",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:30+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1022709630602964",
+            "advertiser": "데이팩",
+            "startedAt": "2026-08-31",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:30+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2933744210158917",
+            "advertiser": "강아지건강상식",
+            "startedAt": "2025-09-10",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:17+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1760130595141894",
+            "advertiser": "건강ㅎŁ 하루를 우ι해",
+            "startedAt": "2026-07-11",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:17+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1050086217852770",
+            "advertiser": "에이엠코스메틱.Official",
+            "startedAt": "2026-09-27",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:17+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "876953882144395",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-06-16",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:16+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1791674315309430",
+            "advertiser": "GC 녹십자웰빙",
+            "startedAt": "2026-09-28",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:16+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1449800050067033",
+            "advertiser": "안국건강",
+            "startedAt": "2026-01-29",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:16+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1322029226178886",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-06-15",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:16+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4347322952079579",
+            "advertiser": "Eʏᴇ.T",
+            "startedAt": "2026-09-30",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:15+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1626593889090889",
+            "advertiser": "링티",
+            "startedAt": "2026-09-28",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:15+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1091438376759651",
+            "advertiser": "안국약품",
+            "startedAt": "2026-09-27",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:15+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1071867942288763",
+            "advertiser": "뉴트리원",
+            "startedAt": "2026-09-27",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:06+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1834451364380975",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-27",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:05+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1592685488389699",
+            "advertiser": "안국건강",
+            "startedAt": "2025-11-20",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:05+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1588640835521568",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-02-19",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:05+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1069809512604371",
+            "advertiser": "마뻠",
+            "startedAt": "2026-09-17",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:05+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4855912214694003",
+            "advertiser": "로이델메디카",
+            "startedAt": "2026-09-26",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:04+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1532989521850694",
+            "advertiser": "데이팩",
+            "startedAt": "2026-09-14",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:04+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1430884655647135",
+            "advertiser": "เครื่องสำอางค์ไทย ในเกาหลี",
+            "startedAt": "2026-09-28",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:03+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1739530823934589",
+            "advertiser": "Thailoveshop",
+            "startedAt": "2026-09-03",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:28:03+00:00",
+            "lastCollectedAt": "2026-10-09T00:28:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "841813755688998",
+            "advertiser": "สินค้าไทย ยาไทย พร้อมส่งในเกาหลี",
+            "startedAt": "2026-09-28",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:27:47+00:00",
+            "lastCollectedAt": "2026-10-09T00:27:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1057487583786291",
+            "advertiser": "할인",
+            "startedAt": "2026-10-07",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:26:40+00:00",
+            "lastCollectedAt": "2026-10-09T00:26:40+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2548779548880788",
+            "advertiser": "7-11เซเว่นไทย ในเกาหลี - เพจใหม่",
+            "startedAt": "2026-09-28",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:26:39+00:00",
+            "lastCollectedAt": "2026-10-09T00:26:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1732410258885639",
+            "advertiser": "더l일己l헬스노트",
+            "startedAt": "2026-09-25",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:42+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1037597292493227",
+            "advertiser": "퍼니트",
+            "startedAt": "2026-08-12",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:42+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1759794741663161",
+            "advertiser": "안국건강",
+            "startedAt": "2026-04-23",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:41+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1350299980649328",
+            "advertiser": "Soda‘s forest",
+            "startedAt": "2026-08-13",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:41+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2183193679301214",
+            "advertiser": "Mondaypotionofficial",
+            "startedAt": "2026-09-13",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:39+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1044043138534049",
+            "advertiser": "리뷰찾아삼만리",
+            "startedAt": "2026-09-08",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:39+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28173690558903608",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-14",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:38+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1979514399404253",
+            "advertiser": "익스트림 Extreme",
+            "startedAt": "2026-09-21",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:38+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1747508013040270",
+            "advertiser": "데이팩",
+            "startedAt": "2026-09-14",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:29+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1715409463084173",
+            "advertiser": "리뷰찾아삼만리",
+            "startedAt": "2026-09-09",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:29+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1542617624566159",
+            "advertiser": "데이팩",
+            "startedAt": "2026-09-14",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:29+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4608676599366641",
+            "advertiser": "사랑이란10",
+            "startedAt": "2026-09-14",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:28+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1716496689255187",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-06-15",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:28+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1045923715054971",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-07-13",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:28+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1051790914440636",
+            "advertiser": "헬んı프己l티",
+            "startedAt": "2026-08-08",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:27+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28093534440298553",
+            "advertiser": "더l일己l헬스노트",
+            "startedAt": "2026-08-31",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:26+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1729563144816141",
+            "advertiser": "데이팩",
+            "startedAt": "2026-09-15",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:26+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1041979162035099",
+            "advertiser": "Eyes Today",
+            "startedAt": "2026-08-12",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:25+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2234450307332022",
+            "advertiser": "에이엠코스메틱.Official",
+            "startedAt": "2026-08-07",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:18+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1046073208101438",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-14",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:18+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "882045661336130",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-02-19",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:17+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27411255188509682",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-06-15",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:17+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2441758216322556",
+            "advertiser": "강아지건강상식",
+            "startedAt": "2026-06-12",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:17+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1557051529150581",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-11",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:17+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2201761340622961",
+            "advertiser": "ร้านอารินช๊อป아린샵เสื้อผ้าแฟชั้นแดกูชางกิดง",
+            "startedAt": "2026-07-08",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:16+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1036932988913984",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-06-15",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:16+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1339897377969243",
+            "advertiser": "C.o",
+            "startedAt": "2026-09-12",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:44+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1318720620473120",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-07-13",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:44+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1576027963952397",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:37+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28551138091148145",
+            "advertiser": "안국건강",
+            "startedAt": "2026-09-09",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:36+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1933014171005974",
+            "advertiser": "성장건강꿀팁",
+            "startedAt": "2026-09-07",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:36+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1404171441889305",
+            "advertiser": "안국약품",
+            "startedAt": "2026-09-27",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:36+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1095874572764996",
+            "advertiser": "메리네동물백과",
+            "startedAt": "2026-06-22",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:36+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4543254509334783",
+            "advertiser": "มารีน เฮลท์ช้อป",
+            "startedAt": "2026-08-30",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:35+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4311879359139633",
+            "advertiser": "데이팩",
+            "startedAt": "2026-03-06",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:33+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1654515939570726",
+            "advertiser": "Eyes Today",
+            "startedAt": "2026-07-30",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:33+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1104377195408109",
+            "advertiser": "Mondaypotionofficial",
+            "startedAt": "2026-08-24",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:32+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1008129881986597",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-07-13",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:32+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2730177954034929",
+            "advertiser": "키즈 건강 꿀팁",
+            "startedAt": "2026-05-14",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:25+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2112451802951545",
+            "advertiser": "건강지식백과",
+            "startedAt": "2026-03-29",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:25+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1372035114504748",
+            "advertiser": "",
+            "startedAt": "2025-11-18",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:24+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2132279950997393",
+            "advertiser": "Eyes Today",
+            "startedAt": "2026-07-29",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:22+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1623413685973056",
+            "advertiser": "데이팩",
+            "startedAt": "2026-09-03",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:22+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1392559062492766",
+            "advertiser": "데이팩",
+            "startedAt": "2026-09-15",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:22+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3330485063791277",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-07-13",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:21+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1635163254829940",
+            "advertiser": "Hey Greeny",
+            "startedAt": "2026-09-17",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:21+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1000935846156936",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-07-13",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:21+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2623357321439457",
+            "advertiser": "멍스타그램",
+            "startedAt": "2026-07-27",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:20+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3628660414109566",
+            "advertiser": "안국건강",
+            "startedAt": "2025-07-24",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:14+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1421970463222215",
+            "advertiser": "데이팩",
+            "startedAt": "2026-09-15",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:14+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1052866280672156",
+            "advertiser": "Eyes Today",
+            "startedAt": "2026-08-11",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:14+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "958036063958491",
+            "advertiser": "웰로리아",
+            "startedAt": "2026-06-21",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:13+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "821807007057546",
+            "advertiser": "โสมเกาหลี บ้านน้องอินเตอร์",
+            "startedAt": "2026-04-09",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:13+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "25004121099263335",
+            "advertiser": "건기남",
+            "startedAt": "2026-02-02",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:09+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1751833122767564",
+            "advertiser": "건강口ざㅇlŁйパㅔバ6",
+            "startedAt": "2026-09-12",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:08+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1401153861836035",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:08+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1051332814336445",
+            "advertiser": "건강 ズl키ㅁl",
+            "startedAt": "2026-09-02",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:08+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1633166981815022",
+            "advertiser": "리뷰찾아삼만리",
+            "startedAt": "2026-09-08",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:07+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1490283939525637",
+            "advertiser": "For is",
+            "startedAt": "2026-09-05",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:03+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1492611899076028",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:02+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1299470145324751",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-02-19",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:02+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1061117426784145",
+            "advertiser": "건강ㅎŁ 하루를 우ι해",
+            "startedAt": "2026-08-31",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:02+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27421764250750538",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:01+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1989271378357447",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:01+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1064013226583209",
+            "advertiser": "Eyes Today",
+            "startedAt": "2026-08-11",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:01+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1674296753619826",
+            "advertiser": "Eyes Today",
+            "startedAt": "2026-06-16",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:00+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1367895915181576",
+            "advertiser": "Łй건강을부탁ぁĦ",
+            "startedAt": "2026-06-04",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:00+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1559202799066544",
+            "advertiser": "더l일己l헬스노트",
+            "startedAt": "2026-07-15",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:23:59+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:59+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-09T00:29:32+00:00",
+        "advertisers": [
+          {
+            "name": "내츄럴플러스",
+            "adCount": 14
+          },
+          {
+            "name": "데이팩",
+            "adCount": 10
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 8
+          },
+          {
+            "name": "Eyes Today",
+            "adCount": 6
+          },
+          {
+            "name": "안국건강",
+            "adCount": 6
+          },
+          {
+            "name": "Mondaypotionofficial",
+            "adCount": 3
+          },
+          {
+            "name": "더l일己l헬스노트",
+            "adCount": 3
+          },
+          {
+            "name": "리뷰찾아삼만리",
+            "adCount": 3
+          },
+          {
+            "name": "퍼니트",
+            "adCount": 3
+          },
+          {
+            "name": "GC 녹십자웰빙",
+            "adCount": 2
+          },
+          {
+            "name": "강아지건강상식",
+            "adCount": 2
+          },
+          {
+            "name": "건강ㅎŁ 하루를 우ι해",
+            "adCount": 2
+          },
+          {
+            "name": "안국약품",
+            "adCount": 2
+          },
+          {
+            "name": "에이엠코스메틱.Official",
+            "adCount": 2
+          },
+          {
+            "name": "익스트림 Extreme",
+            "adCount": 2
+          },
+          {
+            "name": "키즈텐",
+            "adCount": 2
+          },
+          {
+            "name": "7-11เซเว่นไทย ในเกาหลี - เพจใหม่",
+            "adCount": 1
+          },
+          {
+            "name": "C.o",
+            "adCount": 1
+          },
+          {
+            "name": "Eʏᴇ.T",
+            "adCount": 1
+          },
+          {
+            "name": "For is",
+            "adCount": 1
+          },
+          {
+            "name": "Hey Greeny",
+            "adCount": 1
+          },
+          {
+            "name": "Soda‘s forest",
+            "adCount": 1
+          },
+          {
+            "name": "Thailoveshop",
+            "adCount": 1
+          },
+          {
+            "name": "Łй건강을부탁ぁĦ",
+            "adCount": 1
+          },
+          {
+            "name": "มารีน เฮลท์ช้อป",
+            "adCount": 1
+          },
+          {
+            "name": "ร้านอารินช๊อป아린샵เสื้อผ้าแฟชั้นแดกูชางกิดง",
+            "adCount": 1
+          },
+          {
+            "name": "สินค้าไทย ยาไทย พร้อมส่งในเกาหลี",
+            "adCount": 1
+          },
+          {
+            "name": "เครื่องสำอางค์ไทย ในเกาหลี",
+            "adCount": 1
+          },
+          {
+            "name": "โสมเกาหลี บ้านน้องอินเตอร์",
+            "adCount": 1
+          },
+          {
+            "name": "건강 ズl키ㅁl",
+            "adCount": 1
+          },
+          {
+            "name": "건강口ざㅇlŁйパㅔバ6",
+            "adCount": 1
+          },
+          {
+            "name": "건강지식백과",
+            "adCount": 1
+          },
+          {
+            "name": "건기남",
+            "adCount": 1
+          },
+          {
+            "name": "뉴트리원",
+            "adCount": 1
+          },
+          {
+            "name": "로이델메디카",
+            "adCount": 1
+          },
+          {
+            "name": "링티",
+            "adCount": 1
+          },
+          {
+            "name": "마뻠",
+            "adCount": 1
+          },
+          {
+            "name": "멍스타그램",
+            "adCount": 1
+          },
+          {
+            "name": "메리네동물백과",
+            "adCount": 1
+          },
+          {
+            "name": "사랑이란10",
+            "adCount": 1
+          },
+          {
+            "name": "성장건강꿀팁",
+            "adCount": 1
+          },
+          {
+            "name": "웰로리아",
+            "adCount": 1
+          },
+          {
+            "name": "키즈 건강 꿀팁",
+            "adCount": 1
+          },
+          {
+            "name": "할인",
+            "adCount": 1
+          },
+          {
+            "name": "헬んı프己l티",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
@@ -7067,17 +8250,434 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "done",
       "keywordId": "cf7f5635a38ad217a8aa25f9be3a8a95c82f08486a73664657cd7a27cab9ede4",
       "searchQuery": "침향환",
       "adEvidence": {
         "query": "침향환",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 37,
+        "adIds": [
+          "2294845428006454",
+          "1631954731664489",
+          "1394013727124700",
+          "1140933961787063",
+          "2003991684337455",
+          "1801361140953547",
+          "1760675671892000",
+          "2063574917664778",
+          "1969287627079000",
+          "1045273544934028",
+          "2995579087448748",
+          "1663895741911350",
+          "4527306947514380",
+          "29157164603972272",
+          "1434780324866008",
+          "1035974762868086",
+          "1062130026828199",
+          "1462384749039964",
+          "1670051234733189",
+          "1660622885048359",
+          "859702577168985",
+          "4092463721054625",
+          "1635043911395506",
+          "1272268551645368",
+          "1098205022950656",
+          "1786960288886806",
+          "1598460718726052",
+          "1344520917648366",
+          "2207854309771714",
+          "1718661182680475",
+          "1043212184933681",
+          "739933079116652",
+          "27788306264140233",
+          "2468978510274334",
+          "27166657842976079",
+          "2194590560945407",
+          "1008758698224010"
+        ],
+        "ads": [
+          {
+            "id": "2294845428006454",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:23+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1631954731664489",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:23+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1394013727124700",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:23+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1140933961787063",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:23+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2003991684337455",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:22+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1801361140953547",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:22+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1760675671892000",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:22+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2063574917664778",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:10+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1969287627079000",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:10+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1045273544934028",
+            "advertiser": "늘푸른케어",
+            "startedAt": "2026-08-26",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2995579087448748",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:09+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:09+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1663895741911350",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:09+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:09+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4527306947514380",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:08+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "29157164603972272",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:08+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1434780324866008",
+            "advertiser": "YNA 플랫폼",
+            "startedAt": "2026-10-05",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:08+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1035974762868086",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:08+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1062130026828199",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:07+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:07+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1462384749039964",
+            "advertiser": "ក្រុមហ៊ុនស៊ូជីនអុីនហ្វីនិធីsujininfinity Company",
+            "startedAt": "2026-10-05",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:03+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:03+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1670051234733189",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-08",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:02+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:02+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1660622885048359",
+            "advertiser": "늘푸른케어",
+            "startedAt": "2026-06-24",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:02+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "859702577168985",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:01+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4092463721054625",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-08",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:01+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1635043911395506",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-08",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:01+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1272268551645368",
+            "advertiser": "조선비책",
+            "startedAt": "2026-06-17",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1098205022950656",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-08",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:01+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1786960288886806",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-08",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:00+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:00+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1598460718726052",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-01",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:00+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:00+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1344520917648366",
+            "advertiser": "늘푸른케어",
+            "startedAt": "2026-06-29",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:56+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2207854309771714",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-30",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1718661182680475",
+            "advertiser": "조선비책",
+            "startedAt": "2026-06-16",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1043212184933681",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-30",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "739933079116652",
+            "advertiser": "오나한",
+            "startedAt": "2025-11-25",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27788306264140233",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-03",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2468978510274334",
+            "advertiser": "한약사가 만드는 한방식품 - 설아래",
+            "startedAt": "2026-08-13",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27166657842976079",
+            "advertiser": "조선비책",
+            "startedAt": "2026-06-16",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2194590560945407",
+            "advertiser": "홍동비책",
+            "startedAt": "2026-06-10",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1008758698224010",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:53+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-09T00:30:23+00:00",
+        "advertisers": [
+          {
+            "name": "비타민마을",
+            "adCount": 8
+          },
+          {
+            "name": "익수제약",
+            "adCount": 8
+          },
+          {
+            "name": "종근당",
+            "adCount": 7
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 3
+          },
+          {
+            "name": "늘푸른케어",
+            "adCount": 3
+          },
+          {
+            "name": "조선비책",
+            "adCount": 3
+          },
+          {
+            "name": "YNA 플랫폼",
+            "adCount": 1
+          },
+          {
+            "name": "ក្រុមហ៊ុនស៊ូជីនអុីនហ្វីនិធីsujininfinity Company",
+            "adCount": 1
+          },
+          {
+            "name": "오나한",
+            "adCount": 1
+          },
+          {
+            "name": "한약사가 만드는 한방식품 - 설아래",
+            "adCount": 1
+          },
+          {
+            "name": "홍동비책",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
@@ -13703,17 +15303,434 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-09T00:03:32+00:00",
-      "state": "backlog",
+      "state": "done",
       "keywordId": "cf7f5635a38ad217a8aa25f9be3a8a95c82f08486a73664657cd7a27cab9ede4",
       "searchQuery": "침향환",
       "adEvidence": {
         "query": "침향환",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 37,
+        "adIds": [
+          "2294845428006454",
+          "1631954731664489",
+          "1394013727124700",
+          "1140933961787063",
+          "2003991684337455",
+          "1801361140953547",
+          "1760675671892000",
+          "2063574917664778",
+          "1969287627079000",
+          "1045273544934028",
+          "2995579087448748",
+          "1663895741911350",
+          "4527306947514380",
+          "29157164603972272",
+          "1434780324866008",
+          "1035974762868086",
+          "1062130026828199",
+          "1462384749039964",
+          "1670051234733189",
+          "1660622885048359",
+          "859702577168985",
+          "4092463721054625",
+          "1635043911395506",
+          "1272268551645368",
+          "1098205022950656",
+          "1786960288886806",
+          "1598460718726052",
+          "1344520917648366",
+          "2207854309771714",
+          "1718661182680475",
+          "1043212184933681",
+          "739933079116652",
+          "27788306264140233",
+          "2468978510274334",
+          "27166657842976079",
+          "2194590560945407",
+          "1008758698224010"
+        ],
+        "ads": [
+          {
+            "id": "2294845428006454",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:23+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1631954731664489",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:23+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1394013727124700",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:23+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1140933961787063",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:23+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2003991684337455",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:22+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1801361140953547",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:22+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1760675671892000",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:22+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2063574917664778",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:10+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1969287627079000",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:10+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1045273544934028",
+            "advertiser": "늘푸른케어",
+            "startedAt": "2026-08-26",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2995579087448748",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:09+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:09+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1663895741911350",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:09+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:09+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4527306947514380",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:08+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "29157164603972272",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:08+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1434780324866008",
+            "advertiser": "YNA 플랫폼",
+            "startedAt": "2026-10-05",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:08+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1035974762868086",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:08+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1062130026828199",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:07+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:07+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1462384749039964",
+            "advertiser": "ក្រុមហ៊ុនស៊ូជីនអុីនហ្វីនិធីsujininfinity Company",
+            "startedAt": "2026-10-05",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:03+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:03+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1670051234733189",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-08",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:02+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:02+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1660622885048359",
+            "advertiser": "늘푸른케어",
+            "startedAt": "2026-06-24",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:02+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "859702577168985",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:01+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4092463721054625",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-08",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:01+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1635043911395506",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-08",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:01+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1272268551645368",
+            "advertiser": "조선비책",
+            "startedAt": "2026-06-17",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1098205022950656",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-08",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:01+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1786960288886806",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-08",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:00+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:00+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1598460718726052",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-01",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:00+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:00+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1344520917648366",
+            "advertiser": "늘푸른케어",
+            "startedAt": "2026-06-29",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:56+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2207854309771714",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-30",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1718661182680475",
+            "advertiser": "조선비책",
+            "startedAt": "2026-06-16",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1043212184933681",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-30",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "739933079116652",
+            "advertiser": "오나한",
+            "startedAt": "2025-11-25",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27788306264140233",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-03",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2468978510274334",
+            "advertiser": "한약사가 만드는 한방식품 - 설아래",
+            "startedAt": "2026-08-13",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27166657842976079",
+            "advertiser": "조선비책",
+            "startedAt": "2026-06-16",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2194590560945407",
+            "advertiser": "홍동비책",
+            "startedAt": "2026-06-10",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1008758698224010",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:53+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-09T00:30:23+00:00",
+        "advertisers": [
+          {
+            "name": "비타민마을",
+            "adCount": 8
+          },
+          {
+            "name": "익수제약",
+            "adCount": 8
+          },
+          {
+            "name": "종근당",
+            "adCount": 7
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 3
+          },
+          {
+            "name": "늘푸른케어",
+            "adCount": 3
+          },
+          {
+            "name": "조선비책",
+            "adCount": 3
+          },
+          {
+            "name": "YNA 플랫폼",
+            "adCount": 1
+          },
+          {
+            "name": "ក្រុមហ៊ុនស៊ូជីនអុីនហ្វីនិធីsujininfinity Company",
+            "adCount": 1
+          },
+          {
+            "name": "오나한",
+            "adCount": 1
+          },
+          {
+            "name": "한약사가 만드는 한방식품 - 설아래",
+            "adCount": 1
+          },
+          {
+            "name": "홍동비책",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
@@ -18905,17 +20922,1200 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-09T00:03:32+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "0acd2b2f2a45e603976c6cce33216ea0d24b33d6e9d18e26a7029354923987f5",
       "searchQuery": "루테인",
       "adEvidence": {
         "query": "루테인",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 100,
+        "adIds": [
+          "28637216395913793",
+          "4614822242138054",
+          "3301093713427400",
+          "2044728646298809",
+          "1351041997242018",
+          "1065322276487139",
+          "1726495585099594",
+          "1586829026398442",
+          "1389949649183829",
+          "1022709630602964",
+          "2933744210158917",
+          "1760130595141894",
+          "1050086217852770",
+          "876953882144395",
+          "1791674315309430",
+          "1449800050067033",
+          "1322029226178886",
+          "4347322952079579",
+          "1626593889090889",
+          "1091438376759651",
+          "1071867942288763",
+          "1834451364380975",
+          "1592685488389699",
+          "1588640835521568",
+          "1069809512604371",
+          "4855912214694003",
+          "1532989521850694",
+          "1430884655647135",
+          "1739530823934589",
+          "841813755688998",
+          "1057487583786291",
+          "2548779548880788",
+          "1732410258885639",
+          "1037597292493227",
+          "1759794741663161",
+          "1350299980649328",
+          "2183193679301214",
+          "1044043138534049",
+          "28173690558903608",
+          "1979514399404253",
+          "1747508013040270",
+          "1715409463084173",
+          "1542617624566159",
+          "4608676599366641",
+          "1716496689255187",
+          "1045923715054971",
+          "1051790914440636",
+          "28093534440298553",
+          "1729563144816141",
+          "1041979162035099",
+          "2234450307332022",
+          "1046073208101438",
+          "882045661336130",
+          "27411255188509682",
+          "2441758216322556",
+          "1557051529150581",
+          "2201761340622961",
+          "1036932988913984",
+          "1339897377969243",
+          "1318720620473120",
+          "1576027963952397",
+          "28551138091148145",
+          "1933014171005974",
+          "1404171441889305",
+          "1095874572764996",
+          "4543254509334783",
+          "4311879359139633",
+          "1654515939570726",
+          "1104377195408109",
+          "1008129881986597",
+          "2730177954034929",
+          "2112451802951545",
+          "1372035114504748",
+          "2132279950997393",
+          "1623413685973056",
+          "1392559062492766",
+          "3330485063791277",
+          "1635163254829940",
+          "1000935846156936",
+          "2623357321439457",
+          "3628660414109566",
+          "1421970463222215",
+          "1052866280672156",
+          "958036063958491",
+          "821807007057546",
+          "25004121099263335",
+          "1751833122767564",
+          "1401153861836035",
+          "1051332814336445",
+          "1633166981815022",
+          "1490283939525637",
+          "1492611899076028",
+          "1299470145324751",
+          "1061117426784145",
+          "27421764250750538",
+          "1989271378357447",
+          "1064013226583209",
+          "1674296753619826",
+          "1367895915181576",
+          "1559202799066544"
+        ],
+        "ads": [
+          {
+            "id": "28637216395913793",
+            "advertiser": "익스트림 Extreme",
+            "startedAt": "2026-09-21",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:32+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4614822242138054",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-06-15",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:31+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3301093713427400",
+            "advertiser": "퍼니트",
+            "startedAt": "2026-09-09",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:31+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2044728646298809",
+            "advertiser": "안국건강",
+            "startedAt": "2025-10-14",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:31+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1351041997242018",
+            "advertiser": "Mondaypotionofficial",
+            "startedAt": "2026-08-12",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:31+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1065322276487139",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-20",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:31+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1726495585099594",
+            "advertiser": "GC 녹십자웰빙",
+            "startedAt": "2026-09-28",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:30+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1586829026398442",
+            "advertiser": "퍼니트",
+            "startedAt": "2026-08-12",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:30+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1389949649183829",
+            "advertiser": "데이팩",
+            "startedAt": "2026-09-03",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:30+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1022709630602964",
+            "advertiser": "데이팩",
+            "startedAt": "2026-08-31",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:30+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2933744210158917",
+            "advertiser": "강아지건강상식",
+            "startedAt": "2025-09-10",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:17+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1760130595141894",
+            "advertiser": "건강ㅎŁ 하루를 우ι해",
+            "startedAt": "2026-07-11",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:17+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1050086217852770",
+            "advertiser": "에이엠코스메틱.Official",
+            "startedAt": "2026-09-27",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:17+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "876953882144395",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-06-16",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:16+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1791674315309430",
+            "advertiser": "GC 녹십자웰빙",
+            "startedAt": "2026-09-28",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:16+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1449800050067033",
+            "advertiser": "안국건강",
+            "startedAt": "2026-01-29",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:16+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1322029226178886",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-06-15",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:16+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4347322952079579",
+            "advertiser": "Eʏᴇ.T",
+            "startedAt": "2026-09-30",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:15+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1626593889090889",
+            "advertiser": "링티",
+            "startedAt": "2026-09-28",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:15+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1091438376759651",
+            "advertiser": "안국약품",
+            "startedAt": "2026-09-27",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:15+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1071867942288763",
+            "advertiser": "뉴트리원",
+            "startedAt": "2026-09-27",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:06+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1834451364380975",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-27",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:05+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1592685488389699",
+            "advertiser": "안국건강",
+            "startedAt": "2025-11-20",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:05+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1588640835521568",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-02-19",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:05+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1069809512604371",
+            "advertiser": "마뻠",
+            "startedAt": "2026-09-17",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:05+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4855912214694003",
+            "advertiser": "로이델메디카",
+            "startedAt": "2026-09-26",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:04+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1532989521850694",
+            "advertiser": "데이팩",
+            "startedAt": "2026-09-14",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:04+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1430884655647135",
+            "advertiser": "เครื่องสำอางค์ไทย ในเกาหลี",
+            "startedAt": "2026-09-28",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:29:03+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1739530823934589",
+            "advertiser": "Thailoveshop",
+            "startedAt": "2026-09-03",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:28:03+00:00",
+            "lastCollectedAt": "2026-10-09T00:28:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "841813755688998",
+            "advertiser": "สินค้าไทย ยาไทย พร้อมส่งในเกาหลี",
+            "startedAt": "2026-09-28",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:27:47+00:00",
+            "lastCollectedAt": "2026-10-09T00:27:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1057487583786291",
+            "advertiser": "할인",
+            "startedAt": "2026-10-07",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:26:40+00:00",
+            "lastCollectedAt": "2026-10-09T00:26:40+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2548779548880788",
+            "advertiser": "7-11เซเว่นไทย ในเกาหลี - เพจใหม่",
+            "startedAt": "2026-09-28",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:26:39+00:00",
+            "lastCollectedAt": "2026-10-09T00:26:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1732410258885639",
+            "advertiser": "더l일己l헬스노트",
+            "startedAt": "2026-09-25",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:42+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1037597292493227",
+            "advertiser": "퍼니트",
+            "startedAt": "2026-08-12",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:42+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1759794741663161",
+            "advertiser": "안국건강",
+            "startedAt": "2026-04-23",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:41+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1350299980649328",
+            "advertiser": "Soda‘s forest",
+            "startedAt": "2026-08-13",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:41+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2183193679301214",
+            "advertiser": "Mondaypotionofficial",
+            "startedAt": "2026-09-13",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:39+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1044043138534049",
+            "advertiser": "리뷰찾아삼만리",
+            "startedAt": "2026-09-08",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:39+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28173690558903608",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-14",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:38+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1979514399404253",
+            "advertiser": "익스트림 Extreme",
+            "startedAt": "2026-09-21",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:38+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1747508013040270",
+            "advertiser": "데이팩",
+            "startedAt": "2026-09-14",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:29+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1715409463084173",
+            "advertiser": "리뷰찾아삼만리",
+            "startedAt": "2026-09-09",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:29+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1542617624566159",
+            "advertiser": "데이팩",
+            "startedAt": "2026-09-14",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:29+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4608676599366641",
+            "advertiser": "사랑이란10",
+            "startedAt": "2026-09-14",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:28+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1716496689255187",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-06-15",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:28+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1045923715054971",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-07-13",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:28+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1051790914440636",
+            "advertiser": "헬んı프己l티",
+            "startedAt": "2026-08-08",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:27+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28093534440298553",
+            "advertiser": "더l일己l헬스노트",
+            "startedAt": "2026-08-31",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:26+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1729563144816141",
+            "advertiser": "데이팩",
+            "startedAt": "2026-09-15",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:26+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1041979162035099",
+            "advertiser": "Eyes Today",
+            "startedAt": "2026-08-12",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:25+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2234450307332022",
+            "advertiser": "에이엠코스메틱.Official",
+            "startedAt": "2026-08-07",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:18+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1046073208101438",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-14",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:18+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "882045661336130",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-02-19",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:17+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27411255188509682",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-06-15",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:17+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2441758216322556",
+            "advertiser": "강아지건강상식",
+            "startedAt": "2026-06-12",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:17+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1557051529150581",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-11",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:17+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2201761340622961",
+            "advertiser": "ร้านอารินช๊อป아린샵เสื้อผ้าแฟชั้นแดกูชางกิดง",
+            "startedAt": "2026-07-08",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:16+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1036932988913984",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-06-15",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:25:16+00:00",
+            "lastCollectedAt": "2026-10-09T00:25:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1339897377969243",
+            "advertiser": "C.o",
+            "startedAt": "2026-09-12",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:44+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1318720620473120",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-07-13",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:44+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1576027963952397",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:37+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28551138091148145",
+            "advertiser": "안국건강",
+            "startedAt": "2026-09-09",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:36+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1933014171005974",
+            "advertiser": "성장건강꿀팁",
+            "startedAt": "2026-09-07",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:36+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1404171441889305",
+            "advertiser": "안국약품",
+            "startedAt": "2026-09-27",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:36+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1095874572764996",
+            "advertiser": "메리네동물백과",
+            "startedAt": "2026-06-22",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:36+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4543254509334783",
+            "advertiser": "มารีน เฮลท์ช้อป",
+            "startedAt": "2026-08-30",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:35+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4311879359139633",
+            "advertiser": "데이팩",
+            "startedAt": "2026-03-06",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:33+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1654515939570726",
+            "advertiser": "Eyes Today",
+            "startedAt": "2026-07-30",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:33+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1104377195408109",
+            "advertiser": "Mondaypotionofficial",
+            "startedAt": "2026-08-24",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:32+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1008129881986597",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-07-13",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:32+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2730177954034929",
+            "advertiser": "키즈 건강 꿀팁",
+            "startedAt": "2026-05-14",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:25+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2112451802951545",
+            "advertiser": "건강지식백과",
+            "startedAt": "2026-03-29",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:25+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1372035114504748",
+            "advertiser": "",
+            "startedAt": "2025-11-18",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:24+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2132279950997393",
+            "advertiser": "Eyes Today",
+            "startedAt": "2026-07-29",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:22+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1623413685973056",
+            "advertiser": "데이팩",
+            "startedAt": "2026-09-03",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:22+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1392559062492766",
+            "advertiser": "데이팩",
+            "startedAt": "2026-09-15",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:22+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3330485063791277",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-07-13",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:21+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1635163254829940",
+            "advertiser": "Hey Greeny",
+            "startedAt": "2026-09-17",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:21+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1000935846156936",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-07-13",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:21+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2623357321439457",
+            "advertiser": "멍스타그램",
+            "startedAt": "2026-07-27",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:20+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3628660414109566",
+            "advertiser": "안국건강",
+            "startedAt": "2025-07-24",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:14+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1421970463222215",
+            "advertiser": "데이팩",
+            "startedAt": "2026-09-15",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:14+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1052866280672156",
+            "advertiser": "Eyes Today",
+            "startedAt": "2026-08-11",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:14+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "958036063958491",
+            "advertiser": "웰로리아",
+            "startedAt": "2026-06-21",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:13+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "821807007057546",
+            "advertiser": "โสมเกาหลี บ้านน้องอินเตอร์",
+            "startedAt": "2026-04-09",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:13+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "25004121099263335",
+            "advertiser": "건기남",
+            "startedAt": "2026-02-02",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:09+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1751833122767564",
+            "advertiser": "건강口ざㅇlŁйパㅔバ6",
+            "startedAt": "2026-09-12",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:08+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1401153861836035",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:08+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1051332814336445",
+            "advertiser": "건강 ズl키ㅁl",
+            "startedAt": "2026-09-02",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:08+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1633166981815022",
+            "advertiser": "리뷰찾아삼만리",
+            "startedAt": "2026-09-08",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:07+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1490283939525637",
+            "advertiser": "For is",
+            "startedAt": "2026-09-05",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:03+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1492611899076028",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:02+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1299470145324751",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-02-19",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:02+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1061117426784145",
+            "advertiser": "건강ㅎŁ 하루를 우ι해",
+            "startedAt": "2026-08-31",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:02+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27421764250750538",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:01+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1989271378357447",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:01+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1064013226583209",
+            "advertiser": "Eyes Today",
+            "startedAt": "2026-08-11",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:01+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1674296753619826",
+            "advertiser": "Eyes Today",
+            "startedAt": "2026-06-16",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:00+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1367895915181576",
+            "advertiser": "Łй건강을부탁ぁĦ",
+            "startedAt": "2026-06-04",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:24:00+00:00",
+            "lastCollectedAt": "2026-10-09T00:24:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1559202799066544",
+            "advertiser": "더l일己l헬스노트",
+            "startedAt": "2026-07-15",
+            "query": "루테인",
+            "firstCollectedAt": "2026-10-09T00:23:59+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:59+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-09T00:29:32+00:00",
+        "advertisers": [
+          {
+            "name": "내츄럴플러스",
+            "adCount": 14
+          },
+          {
+            "name": "데이팩",
+            "adCount": 10
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 8
+          },
+          {
+            "name": "Eyes Today",
+            "adCount": 6
+          },
+          {
+            "name": "안국건강",
+            "adCount": 6
+          },
+          {
+            "name": "Mondaypotionofficial",
+            "adCount": 3
+          },
+          {
+            "name": "더l일己l헬스노트",
+            "adCount": 3
+          },
+          {
+            "name": "리뷰찾아삼만리",
+            "adCount": 3
+          },
+          {
+            "name": "퍼니트",
+            "adCount": 3
+          },
+          {
+            "name": "GC 녹십자웰빙",
+            "adCount": 2
+          },
+          {
+            "name": "강아지건강상식",
+            "adCount": 2
+          },
+          {
+            "name": "건강ㅎŁ 하루를 우ι해",
+            "adCount": 2
+          },
+          {
+            "name": "안국약품",
+            "adCount": 2
+          },
+          {
+            "name": "에이엠코스메틱.Official",
+            "adCount": 2
+          },
+          {
+            "name": "익스트림 Extreme",
+            "adCount": 2
+          },
+          {
+            "name": "키즈텐",
+            "adCount": 2
+          },
+          {
+            "name": "7-11เซเว่นไทย ในเกาหลี - เพจใหม่",
+            "adCount": 1
+          },
+          {
+            "name": "C.o",
+            "adCount": 1
+          },
+          {
+            "name": "Eʏᴇ.T",
+            "adCount": 1
+          },
+          {
+            "name": "For is",
+            "adCount": 1
+          },
+          {
+            "name": "Hey Greeny",
+            "adCount": 1
+          },
+          {
+            "name": "Soda‘s forest",
+            "adCount": 1
+          },
+          {
+            "name": "Thailoveshop",
+            "adCount": 1
+          },
+          {
+            "name": "Łй건강을부탁ぁĦ",
+            "adCount": 1
+          },
+          {
+            "name": "มารีน เฮลท์ช้อป",
+            "adCount": 1
+          },
+          {
+            "name": "ร้านอารินช๊อป아린샵เสื้อผ้าแฟชั้นแดกูชางกิดง",
+            "adCount": 1
+          },
+          {
+            "name": "สินค้าไทย ยาไทย พร้อมส่งในเกาหลี",
+            "adCount": 1
+          },
+          {
+            "name": "เครื่องสำอางค์ไทย ในเกาหลี",
+            "adCount": 1
+          },
+          {
+            "name": "โสมเกาหลี บ้านน้องอินเตอร์",
+            "adCount": 1
+          },
+          {
+            "name": "건강 ズl키ㅁl",
+            "adCount": 1
+          },
+          {
+            "name": "건강口ざㅇlŁйパㅔバ6",
+            "adCount": 1
+          },
+          {
+            "name": "건강지식백과",
+            "adCount": 1
+          },
+          {
+            "name": "건기남",
+            "adCount": 1
+          },
+          {
+            "name": "뉴트리원",
+            "adCount": 1
+          },
+          {
+            "name": "로이델메디카",
+            "adCount": 1
+          },
+          {
+            "name": "링티",
+            "adCount": 1
+          },
+          {
+            "name": "마뻠",
+            "adCount": 1
+          },
+          {
+            "name": "멍스타그램",
+            "adCount": 1
+          },
+          {
+            "name": "메리네동물백과",
+            "adCount": 1
+          },
+          {
+            "name": "사랑이란10",
+            "adCount": 1
+          },
+          {
+            "name": "성장건강꿀팁",
+            "adCount": 1
+          },
+          {
+            "name": "웰로리아",
+            "adCount": 1
+          },
+          {
+            "name": "키즈 건강 꿀팁",
+            "adCount": 1
+          },
+          {
+            "name": "할인",
+            "adCount": 1
+          },
+          {
+            "name": "헬んı프己l티",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
@@ -25135,17 +28335,434 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "backlog",
+      "state": "cooldown",
       "keywordId": "cf7f5635a38ad217a8aa25f9be3a8a95c82f08486a73664657cd7a27cab9ede4",
       "searchQuery": "침향환",
       "adEvidence": {
         "query": "침향환",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 37,
+        "adIds": [
+          "2294845428006454",
+          "1631954731664489",
+          "1394013727124700",
+          "1140933961787063",
+          "2003991684337455",
+          "1801361140953547",
+          "1760675671892000",
+          "2063574917664778",
+          "1969287627079000",
+          "1045273544934028",
+          "2995579087448748",
+          "1663895741911350",
+          "4527306947514380",
+          "29157164603972272",
+          "1434780324866008",
+          "1035974762868086",
+          "1062130026828199",
+          "1462384749039964",
+          "1670051234733189",
+          "1660622885048359",
+          "859702577168985",
+          "4092463721054625",
+          "1635043911395506",
+          "1272268551645368",
+          "1098205022950656",
+          "1786960288886806",
+          "1598460718726052",
+          "1344520917648366",
+          "2207854309771714",
+          "1718661182680475",
+          "1043212184933681",
+          "739933079116652",
+          "27788306264140233",
+          "2468978510274334",
+          "27166657842976079",
+          "2194590560945407",
+          "1008758698224010"
+        ],
+        "ads": [
+          {
+            "id": "2294845428006454",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:23+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1631954731664489",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:23+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1394013727124700",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:23+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1140933961787063",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:23+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2003991684337455",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:22+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1801361140953547",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:22+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1760675671892000",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:22+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2063574917664778",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:10+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1969287627079000",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:10+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1045273544934028",
+            "advertiser": "늘푸른케어",
+            "startedAt": "2026-08-26",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2995579087448748",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:09+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:09+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1663895741911350",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:09+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:09+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4527306947514380",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:08+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "29157164603972272",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:08+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1434780324866008",
+            "advertiser": "YNA 플랫폼",
+            "startedAt": "2026-10-05",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:08+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1035974762868086",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:08+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1062130026828199",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:07+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:07+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1462384749039964",
+            "advertiser": "ក្រុមហ៊ុនស៊ូជីនអុីនហ្វីនិធីsujininfinity Company",
+            "startedAt": "2026-10-05",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:03+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:03+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1670051234733189",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-08",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:02+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:02+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1660622885048359",
+            "advertiser": "늘푸른케어",
+            "startedAt": "2026-06-24",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:02+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "859702577168985",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:01+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4092463721054625",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-08",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:01+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1635043911395506",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-08",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:01+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1272268551645368",
+            "advertiser": "조선비책",
+            "startedAt": "2026-06-17",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1098205022950656",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-08",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:01+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1786960288886806",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-08",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:00+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:00+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1598460718726052",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-01",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:00+00:00",
+            "lastCollectedAt": "2026-10-09T00:30:00+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1344520917648366",
+            "advertiser": "늘푸른케어",
+            "startedAt": "2026-06-29",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:56+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2207854309771714",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-30",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:55+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1718661182680475",
+            "advertiser": "조선비책",
+            "startedAt": "2026-06-16",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1043212184933681",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-30",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "739933079116652",
+            "advertiser": "오나한",
+            "startedAt": "2025-11-25",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27788306264140233",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-03",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2468978510274334",
+            "advertiser": "한약사가 만드는 한방식품 - 설아래",
+            "startedAt": "2026-08-13",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27166657842976079",
+            "advertiser": "조선비책",
+            "startedAt": "2026-06-16",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2194590560945407",
+            "advertiser": "홍동비책",
+            "startedAt": "2026-06-10",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1008758698224010",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
+            "lastCollectedAt": "2026-10-09T00:29:53+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-09T00:30:23+00:00",
+        "advertisers": [
+          {
+            "name": "비타민마을",
+            "adCount": 8
+          },
+          {
+            "name": "익수제약",
+            "adCount": 8
+          },
+          {
+            "name": "종근당",
+            "adCount": 7
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 3
+          },
+          {
+            "name": "늘푸른케어",
+            "adCount": 3
+          },
+          {
+            "name": "조선비책",
+            "adCount": 3
+          },
+          {
+            "name": "YNA 플랫폼",
+            "adCount": 1
+          },
+          {
+            "name": "ក្រុមហ៊ុនស៊ូជីនអុីនហ្វីនិធីsujininfinity Company",
+            "adCount": 1
+          },
+          {
+            "name": "오나한",
+            "adCount": 1
+          },
+          {
+            "name": "한약사가 만드는 한방식품 - 설아래",
+            "adCount": 1
+          },
+          {
+            "name": "홍동비책",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 3,
