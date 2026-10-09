@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T21:10:41+00:00",
+  "updatedAt": "2026-10-09T21:14:04+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-09T20:15:02+00:00",
@@ -41,22 +41,22 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 11,
-    "dailyRemaining": 277,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "dailyUsed": 12,
+    "dailyRemaining": 276,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-09T22:14:04+00:00",
     "metaAutoEnabled": true,
-    "enabled": true,
+    "enabled": false,
     "collectionGuard": {
-      "state": "ready",
-      "reason": null,
-      "nextAllowedAt": null,
-      "blockedUntil": null,
-      "blockStreak": 0,
+      "state": "blocked",
+      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
+      "nextAllowedAt": "2026-10-09T22:14:04+00:00",
+      "blockedUntil": "2026-10-09T22:14:04+00:00",
+      "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": null
+    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
   },
   "settings": {
     "category": "50000023",
@@ -4232,17 +4232,48 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "32356e62f83ce1d1f3d4b4f88bdf6774392425a5e293a0ccd2e5afe770748bc6",
       "searchQuery": "폴리코사놀",
       "adEvidence": {
         "query": "폴리코사놀",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 2,
+        "adIds": [
+          "1708412730271791",
+          "1066153326061434"
+        ],
+        "ads": [
+          {
+            "id": "1708412730271791",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-08-06",
+            "query": "폴리코사놀",
+            "firstCollectedAt": "2026-10-09T21:13:09+00:00",
+            "lastCollectedAt": "2026-10-09T21:13:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1066153326061434",
+            "advertiser": "kkkye_",
+            "startedAt": "2026-09-03",
+            "query": "폴리코사놀",
+            "firstCollectedAt": "2026-10-09T21:13:09+00:00",
+            "lastCollectedAt": "2026-10-09T21:13:09+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-09T21:13:09+00:00",
+        "advertisers": [
+          {
+            "name": "Naverplus.store",
+            "adCount": 1
+          },
+          {
+            "name": "kkkye_",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
@@ -8613,7 +8644,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "failed",
       "keywordId": "01ca69a1fbbefb09b075344ca5258c5ab6b76639806307d8ede36ad84463f328",
       "searchQuery": "경성포유틴",
       "adEvidence": {
@@ -14901,7 +14932,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:05:24+00:00",
       "lastObservedAt": "2026-10-09T20:15:02+00:00",
-      "state": "backlog",
+      "state": "failed",
       "keywordId": "01ca69a1fbbefb09b075344ca5258c5ab6b76639806307d8ede36ad84463f328",
       "searchQuery": "경성포유틴",
       "adEvidence": {
@@ -22407,17 +22438,48 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:04:53+00:00",
       "lastObservedAt": "2026-10-09T20:14:19+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "32356e62f83ce1d1f3d4b4f88bdf6774392425a5e293a0ccd2e5afe770748bc6",
       "searchQuery": "폴리코사놀",
       "adEvidence": {
         "query": "폴리코사놀",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 2,
+        "adIds": [
+          "1708412730271791",
+          "1066153326061434"
+        ],
+        "ads": [
+          {
+            "id": "1708412730271791",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-08-06",
+            "query": "폴리코사놀",
+            "firstCollectedAt": "2026-10-09T21:13:09+00:00",
+            "lastCollectedAt": "2026-10-09T21:13:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1066153326061434",
+            "advertiser": "kkkye_",
+            "startedAt": "2026-09-03",
+            "query": "폴리코사놀",
+            "firstCollectedAt": "2026-10-09T21:13:09+00:00",
+            "lastCollectedAt": "2026-10-09T21:13:09+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-09T21:13:09+00:00",
+        "advertisers": [
+          {
+            "name": "Naverplus.store",
+            "adCount": 1
+          },
+          {
+            "name": "kkkye_",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
@@ -48737,11 +48799,42 @@
       "adEvidence": {
         "query": "폴리코사놀",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 2,
+        "adIds": [
+          "1708412730271791",
+          "1066153326061434"
+        ],
+        "ads": [
+          {
+            "id": "1708412730271791",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-08-06",
+            "query": "폴리코사놀",
+            "firstCollectedAt": "2026-10-09T21:13:09+00:00",
+            "lastCollectedAt": "2026-10-09T21:13:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1066153326061434",
+            "advertiser": "kkkye_",
+            "startedAt": "2026-09-03",
+            "query": "폴리코사놀",
+            "firstCollectedAt": "2026-10-09T21:13:09+00:00",
+            "lastCollectedAt": "2026-10-09T21:13:09+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-09T21:13:09+00:00",
+        "advertisers": [
+          {
+            "name": "Naverplus.store",
+            "adCount": 1
+          },
+          {
+            "name": "kkkye_",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 4,
