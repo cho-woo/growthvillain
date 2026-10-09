@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T21:16:33+00:00",
+  "updatedAt": "2026-10-09T22:14:08+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-09T21:16:33+00:00",
@@ -41,22 +41,22 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 12,
-    "dailyRemaining": 276,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-09T22:14:04+00:00",
+    "dailyUsed": 13,
+    "dailyRemaining": 275,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
-    "enabled": false,
+    "enabled": true,
     "collectionGuard": {
-      "state": "blocked",
-      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
-      "nextAllowedAt": "2026-10-09T22:14:04+00:00",
-      "blockedUntil": "2026-10-09T22:14:04+00:00",
+      "state": "ready",
+      "reason": null,
+      "nextAllowedAt": null,
+      "blockedUntil": null,
       "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
+    "pausedReason": null
   },
   "settings": {
     "category": "50000023",
@@ -38159,7 +38159,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-09T00:03:32+00:00",
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "180b44d1b67a0b128e02b64df7d951f6a8b792d04fb2207ee984433e0dd7d211",
       "searchQuery": "락토핏",
       "adEvidence": {
@@ -40379,7 +40379,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "cooldown",
+      "state": "backlog",
       "keywordId": "4a2742c7cecb67e22447e9b8480dbf32cb38811f835e5456dbcca95098b1a6d7",
       "searchQuery": "뉴케어구수한맛",
       "adEvidence": {
