@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T00:30:41+00:00",
+  "updatedAt": "2026-10-09T00:38:16+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-09T00:04:15+00:00",
@@ -41,22 +41,22 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 23,
-    "dailyRemaining": 265,
+    "dailyUsed": 24,
+    "dailyRemaining": 264,
     "pending": 0,
-    "nextDispatchAt": "2026-10-09T00:34:48+00:00",
+    "nextDispatchAt": "2026-10-09T01:38:16+00:00",
     "metaAutoEnabled": true,
-    "enabled": true,
+    "enabled": false,
     "collectionGuard": {
-      "state": "ready",
-      "reason": null,
-      "nextAllowedAt": null,
-      "blockedUntil": null,
-      "blockStreak": 0,
+      "state": "blocked",
+      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
+      "nextAllowedAt": "2026-10-09T01:38:16+00:00",
+      "blockedUntil": "2026-10-09T01:38:16+00:00",
+      "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": null
+    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
   },
   "settings": {
     "category": "50000023",
@@ -11918,7 +11918,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "failed",
       "keywordId": "cbe4a466bde7087be0a93e0c90ab49daa94946829503ef87e7165429493f2c18",
       "searchQuery": "콜라겐아마빌레라이프",
       "adEvidence": {
@@ -13728,7 +13728,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T01:24:46+00:00",
       "lastObservedAt": "2026-10-09T00:04:15+00:00",
-      "state": "backlog",
+      "state": "failed",
       "keywordId": "cbe4a466bde7087be0a93e0c90ab49daa94946829503ef87e7165429493f2c18",
       "searchQuery": "콜라겐아마빌레라이프",
       "adEvidence": {
