@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T22:24:43+00:00",
+  "updatedAt": "2026-10-09T22:28:25+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-09T22:18:05+00:00",
@@ -43,8 +43,8 @@
     "backlogDays": 14,
     "dailyUsed": 14,
     "dailyRemaining": 274,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-09T22:29:43+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -34403,30 +34403,111 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-09T00:03:32+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "9dbfa34f6897fba10ad761c65ee65ad9f2e2690ba93c2150b04e76403dcadcd8",
       "searchQuery": "인삼",
       "adEvidence": {
         "query": "인삼",
         "matchType": "collected-with-query",
-        "adCount": 20,
+        "adCount": 101,
         "adIds": [
-          "1010074622045934",
+          "1047332164345634",
+          "2309026949948969",
+          "1978616096148357",
+          "1675333837542652",
+          "29599832289642299",
+          "1003969528900943",
+          "1635822578120925",
+          "2102260711174258",
+          "1073051958776008",
+          "4340741399535000",
+          "1497532221774065",
+          "25380611768243429",
+          "1542038250695795",
+          "1888249399207592",
+          "1902678767783308",
+          "1721887512233148",
+          "1619392552623191",
+          "1145725954462336",
+          "1776801173651935",
+          "1434277751946336",
+          "1537605130742128",
+          "29116549607929426",
+          "1089454753533670",
+          "2671723806553615",
+          "1692507155758948",
+          "1353620496590351",
+          "1535580567528146",
+          "921478374063947",
+          "2293410224794330",
+          "1396176855464313",
+          "28549664501319205",
+          "39021866074078428",
+          "1902492257263264",
+          "4980321885440078",
+          "4462756800650796",
+          "2083923498880549",
+          "1421959386777547",
+          "1305757804860713",
+          "762216513445801",
+          "1058340757097698",
+          "4339415413045459",
+          "2354179208731761",
+          "1566084381394760",
+          "1155176996602178",
+          "1390194229190864",
+          "957274314100054",
+          "1815256196491141",
+          "2227788757782463",
+          "1139513108333891",
+          "1007646558587752",
+          "1505637114926713",
+          "2902368876775495",
+          "1423815809957414",
+          "1404987958485930",
+          "2921395631524868",
+          "2051092058945435",
+          "1065235846278592",
+          "1236377634932576",
+          "1667413198224157",
+          "1711716819920907",
+          "1425642262442700",
+          "1103580838850913",
+          "1866435631372714",
+          "1703064357425809",
+          "993964609901862",
+          "1259673409549489",
+          "38338999712380358",
+          "1054849573833128",
+          "1792064575137856",
+          "1761837285025208",
+          "2415279415547255",
+          "2017169828918759",
+          "2866063127062517",
+          "1620395739756041",
+          "1648993113427272",
+          "1611682370582402",
+          "894225430295279",
+          "1135294758003288",
+          "1840143586941569",
+          "1078816741289841",
+          "1331301788801888",
           "3480339308802621",
-          "1050138431399186",
           "2244158139705516",
-          "1028506776906377",
-          "2083844715558079",
-          "1798890287950534",
+          "1010074622045934",
           "1077465838470138",
+          "1050138431399186",
+          "1028506776906377",
           "950901374719527",
           "1054304913692481",
-          "1326859076036566",
           "2523412911365616",
-          "976892641798579",
+          "2083844715558079",
+          "1326859076036566",
           "1472714507310985",
           "1415709907154934",
+          "976892641798579",
           "2782581655434014",
+          "1798890287950534",
           "1815937749401620",
           "1319823716364256",
           "27844081548532427",
@@ -34434,12 +34515,732 @@
         ],
         "ads": [
           {
-            "id": "1010074622045934",
+            "id": "1047332164345634",
+            "advertiser": "Saya at emosyon sa bawat kwento",
+            "startedAt": "2026-08-11",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:28:07+00:00",
+            "lastCollectedAt": "2026-10-09T22:28:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2309026949948969",
+            "advertiser": "증평인삼골축제",
+            "startedAt": "2026-09-29",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:28:02+00:00",
+            "lastCollectedAt": "2026-10-09T22:28:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1978616096148357",
+            "advertiser": "ekke.now",
+            "startedAt": "2026-10-05",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:28:01+00:00",
+            "lastCollectedAt": "2026-10-09T22:28:01+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1675333837542652",
+            "advertiser": "yeori_yeori",
+            "startedAt": "2026-09-16",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:28:01+00:00",
+            "lastCollectedAt": "2026-10-09T22:28:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "29599832289642299",
+            "advertiser": "",
+            "startedAt": "2026-10-02",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:28:00+00:00",
+            "lastCollectedAt": "2026-10-09T22:28:00+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1003969528900943",
+            "advertiser": "NS-boyu-19",
+            "startedAt": "2026-07-02",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:27:59+00:00",
+            "lastCollectedAt": "2026-10-09T22:27:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1635822578120925",
+            "advertiser": "하늘마켓",
+            "startedAt": "2026-10-05",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:27:53+00:00",
+            "lastCollectedAt": "2026-10-09T22:27:53+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2102260711174258",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-16",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:27:52+00:00",
+            "lastCollectedAt": "2026-10-09T22:27:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1073051958776008",
+            "advertiser": "月光劇場",
+            "startedAt": "2026-07-31",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:27:52+00:00",
+            "lastCollectedAt": "2026-10-09T22:27:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4340741399535000",
+            "advertiser": "Dramawave: Latest Dramas",
+            "startedAt": "2026-03-06",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:27:45+00:00",
+            "lastCollectedAt": "2026-10-09T22:27:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1497532221774065",
+            "advertiser": "Vigloo Short Drama",
+            "startedAt": "2026-01-21",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:27:32+00:00",
+            "lastCollectedAt": "2026-10-09T22:27:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "25380611768243429",
+            "advertiser": "",
+            "startedAt": "2025-11-08",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:27:28+00:00",
+            "lastCollectedAt": "2026-10-09T22:27:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1542038250695795",
+            "advertiser": "미니 드라마 극장",
+            "startedAt": "2026-07-11",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:27:23+00:00",
+            "lastCollectedAt": "2026-10-09T22:27:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1888249399207592",
+            "advertiser": "하늘마켓",
+            "startedAt": "2026-10-05",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:27:18+00:00",
+            "lastCollectedAt": "2026-10-09T22:27:18+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1902678767783308",
+            "advertiser": "DA EFFECT",
+            "startedAt": "2026-10-02",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:27:17+00:00",
+            "lastCollectedAt": "2026-10-09T22:27:17+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1721887512233148",
+            "advertiser": "yoooooung___",
+            "startedAt": "2026-10-01",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:27:17+00:00",
+            "lastCollectedAt": "2026-10-09T22:27:17+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1619392552623191",
+            "advertiser": "QuickSpark Tales",
+            "startedAt": "2026-04-29",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:27:17+00:00",
+            "lastCollectedAt": "2026-10-09T22:27:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1145725954462336",
+            "advertiser": "TIGHT 사주",
+            "startedAt": "2026-10-03",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:27:11+00:00",
+            "lastCollectedAt": "2026-10-09T22:27:11+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1776801173651935",
+            "advertiser": "설화수",
+            "startedAt": "2026-09-28",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:27:09+00:00",
+            "lastCollectedAt": "2026-10-09T22:27:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1434277751946336",
+            "advertiser": "BeBreeze",
+            "startedAt": "2026-09-13",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:27:09+00:00",
+            "lastCollectedAt": "2026-10-09T22:27:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1537605130742128",
+            "advertiser": "Flick-CC",
+            "startedAt": "2025-10-07",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:27:03+00:00",
+            "lastCollectedAt": "2026-10-09T22:27:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "29116549607929426",
+            "advertiser": "설화수",
+            "startedAt": "2026-09-28",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:58+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1089454753533670",
+            "advertiser": "자라나라",
+            "startedAt": "2026-09-07",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:58+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2671723806553615",
+            "advertiser": "",
+            "startedAt": "2026-01-04",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:57+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1692507155758948",
+            "advertiser": "",
+            "startedAt": "2026-09-29",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:53+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1353620496590351",
+            "advertiser": "설화수",
+            "startedAt": "2026-09-28",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:53+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1535580567528146",
+            "advertiser": "Vigloo",
+            "startedAt": "2026-02-17",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:52+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "921478374063947",
+            "advertiser": "조경문닭강정",
+            "startedAt": "2026-09-28",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:50+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2293410224794330",
+            "advertiser": "설화수",
+            "startedAt": "2026-09-28",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:50+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1396176855464313",
+            "advertiser": "설화수",
+            "startedAt": "2026-09-28",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:49+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28549664501319205",
+            "advertiser": "설화수",
+            "startedAt": "2026-09-28",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:39+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "39021866074078428",
+            "advertiser": "",
+            "startedAt": "2026-09-14",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:38+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1902492257263264",
+            "advertiser": "한성인삼",
+            "startedAt": "2026-05-31",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:38+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4980321885440078",
+            "advertiser": "산진담 페이지계정",
+            "startedAt": "2026-09-29",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:37+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4462756800650796",
+            "advertiser": "DramaBox - short drama7",
+            "startedAt": "2026-04-15",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:37+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2083923498880549",
+            "advertiser": "다시생각남",
+            "startedAt": "2026-09-04",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:37+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1421959386777547",
+            "advertiser": "비공식캔따개",
+            "startedAt": "2026-09-09",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:31+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1305757804860713",
+            "advertiser": "써니온더힐",
+            "startedAt": "2026-09-23",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:31+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "762216513445801",
+            "advertiser": "",
+            "startedAt": "2025-10-15",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:30+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1058340757097698",
+            "advertiser": "진실한 사람이 좋다.",
+            "startedAt": "2026-09-15",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:24+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4339415413045459",
+            "advertiser": "Cast by Hein",
+            "startedAt": "2025-12-19",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:16+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2354179208731761",
+            "advertiser": "한성인삼",
+            "startedAt": "2026-09-12",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:10+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1566084381394760",
+            "advertiser": "DA EFFECT",
+            "startedAt": "2026-09-30",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:10+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1155176996602178",
+            "advertiser": "",
+            "startedAt": "2025-12-19",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:09+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1390194229190864",
+            "advertiser": "오나한",
+            "startedAt": "2026-08-30",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:05+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "957274314100054",
+            "advertiser": "비공식캔따개",
+            "startedAt": "2026-09-30",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:04+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1815256196491141",
+            "advertiser": "자라나라",
+            "startedAt": "2026-09-17",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:04+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2227788757782463",
+            "advertiser": "써니온더힐",
+            "startedAt": "2026-09-23",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:03+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1139513108333891",
+            "advertiser": "미미테이블 mimitable",
+            "startedAt": "2026-05-11",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:03+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1007646558587752",
+            "advertiser": "미미테이블 mimitable",
+            "startedAt": "2026-05-11",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:02+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1505637114926713",
+            "advertiser": "DA EFFECT",
+            "startedAt": "2026-09-30",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:56+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2902368876775495",
+            "advertiser": "BeBreeze",
+            "startedAt": "2026-09-09",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:55+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1423815809957414",
+            "advertiser": "설화수",
+            "startedAt": "2026-09-28",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:55+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1404987958485930",
+            "advertiser": "설화수",
+            "startedAt": "2026-09-28",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:55+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2921395631524868",
+            "advertiser": "",
+            "startedAt": "2026-02-14",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:54+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2051092058945435",
+            "advertiser": "BeBreeze",
+            "startedAt": "2026-09-30",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:54+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1065235846278592",
+            "advertiser": "BeBreeze",
+            "startedAt": "2026-09-13",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:54+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1236377634932576",
+            "advertiser": "Meowtimes",
+            "startedAt": "2026-04-15",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:49+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1667413198224157",
+            "advertiser": "Tổng Kho Sỉ Lẻ Sâm Nấm Geumsan Korea",
+            "startedAt": "2026-10-05",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:48+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:48+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1711716819920907",
+            "advertiser": "경북나드리",
+            "startedAt": "2026-09-30",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:46+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1425642262442700",
+            "advertiser": "Vorda Skincare วอร์ด้า สกินแคร์ บริษัทหลัก ส่งออกทั่วโลก",
+            "startedAt": "2026-02-01",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:35+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1103580838850913",
+            "advertiser": "yeori_yeori",
+            "startedAt": "2026-09-03",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:35+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1866435631372714",
             "advertiser": "TIGHT 사주",
             "startedAt": "2026-09-20",
             "query": "인삼",
-            "firstCollectedAt": "2026-10-07T04:54:07+00:00",
-            "lastCollectedAt": "2026-10-07T04:54:07+00:00",
+            "firstCollectedAt": "2026-10-09T22:25:34+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1703064357425809",
+            "advertiser": "카밍의아뜰리에",
+            "startedAt": "2026-05-10",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:33+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "993964609901862",
+            "advertiser": "",
+            "startedAt": "2026-06-22",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:32+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1259673409549489",
+            "advertiser": "",
+            "startedAt": "2026-08-18",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:30+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "38338999712380358",
+            "advertiser": "",
+            "startedAt": "2026-08-19",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:29+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1054849573833128",
+            "advertiser": "설화수",
+            "startedAt": "2026-09-02",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:29+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1792064575137856",
+            "advertiser": "TIGHT 사주",
+            "startedAt": "2026-09-20",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:28+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1761837285025208",
+            "advertiser": "설화수",
+            "startedAt": "2026-09-28",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:27+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2415279415547255",
+            "advertiser": "설화수",
+            "startedAt": "2026-09-28",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:18+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2017169828918759",
+            "advertiser": "뷰티꿀팁",
+            "startedAt": "2026-07-20",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:18+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2866063127062517",
+            "advertiser": "",
+            "startedAt": "2026-05-26",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:17+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1620395739756041",
+            "advertiser": "설화수",
+            "startedAt": "2026-09-23",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:17+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1648993113427272",
+            "advertiser": "TIGHT 사주",
+            "startedAt": "2026-09-20",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:16+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1611682370582402",
+            "advertiser": "설화수",
+            "startedAt": "2026-09-02",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:16+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "894225430295279",
+            "advertiser": "설화수",
+            "startedAt": "2026-09-28",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:14+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1135294758003288",
+            "advertiser": "탈모예방클리닉",
+            "startedAt": "2025-01-14",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:14+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1840143586941569",
+            "advertiser": "한성인삼",
+            "startedAt": "2026-06-02",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:13+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1078816741289841",
+            "advertiser": "설화수",
+            "startedAt": "2026-09-02",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:13+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1331301788801888",
+            "advertiser": "한성인삼",
+            "startedAt": "2026-08-09",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:07+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:07+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34448,16 +35249,7 @@
             "startedAt": "2026-08-21",
             "query": "인삼",
             "firstCollectedAt": "2026-10-07T04:54:05+00:00",
-            "lastCollectedAt": "2026-10-07T04:54:05+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1050138431399186",
-            "advertiser": "으누",
-            "startedAt": "2026-09-20",
-            "query": "인삼",
-            "firstCollectedAt": "2026-10-07T04:54:02+00:00",
-            "lastCollectedAt": "2026-10-07T04:54:02+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:06+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34466,34 +35258,16 @@
             "startedAt": "2026-05-21",
             "query": "인삼",
             "firstCollectedAt": "2026-10-07T04:54:01+00:00",
-            "lastCollectedAt": "2026-10-07T04:54:01+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:04+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1028506776906377",
-            "advertiser": "설화수",
-            "startedAt": "2026-09-23",
-            "query": "인삼",
-            "firstCollectedAt": "2026-10-07T04:54:01+00:00",
-            "lastCollectedAt": "2026-10-07T04:54:01+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2083844715558079",
-            "advertiser": "써니온더힐",
+            "id": "1010074622045934",
+            "advertiser": "TIGHT 사주",
             "startedAt": "2026-09-20",
             "query": "인삼",
-            "firstCollectedAt": "2026-10-07T04:54:00+00:00",
-            "lastCollectedAt": "2026-10-07T04:54:00+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1798890287950534",
-            "advertiser": "설화수",
-            "startedAt": "2026-09-23",
-            "query": "인삼",
-            "firstCollectedAt": "2026-10-07T04:54:00+00:00",
-            "lastCollectedAt": "2026-10-07T04:54:00+00:00",
+            "firstCollectedAt": "2026-10-07T04:54:07+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:03+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34502,7 +35276,25 @@
             "startedAt": "2026-09-02",
             "query": "인삼",
             "firstCollectedAt": "2026-10-07T04:54:00+00:00",
-            "lastCollectedAt": "2026-10-07T04:54:00+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1050138431399186",
+            "advertiser": "으누",
+            "startedAt": "2026-09-20",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-07T04:54:02+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1028506776906377",
+            "advertiser": "설화수",
+            "startedAt": "2026-09-23",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-07T04:54:01+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:01+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34511,7 +35303,7 @@
             "startedAt": "2026-09-02",
             "query": "인삼",
             "firstCollectedAt": "2026-10-07T04:53:59+00:00",
-            "lastCollectedAt": "2026-10-07T04:53:59+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:00+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34520,16 +35312,7 @@
             "startedAt": "2026-06-25",
             "query": "인삼",
             "firstCollectedAt": "2026-10-07T04:53:59+00:00",
-            "lastCollectedAt": "2026-10-07T04:53:59+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1326859076036566",
-            "advertiser": "오나한",
-            "startedAt": "2026-05-29",
-            "query": "인삼",
-            "firstCollectedAt": "2026-10-07T04:53:54+00:00",
-            "lastCollectedAt": "2026-10-07T04:53:54+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:00+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34538,16 +35321,25 @@
             "startedAt": "2025-12-24",
             "query": "인삼",
             "firstCollectedAt": "2026-10-07T04:53:53+00:00",
-            "lastCollectedAt": "2026-10-07T04:53:53+00:00",
+            "lastCollectedAt": "2026-10-09T22:24:59+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "976892641798579",
-            "advertiser": "자연누리",
-            "startedAt": "2026-06-12",
+            "id": "2083844715558079",
+            "advertiser": "써니온더힐",
+            "startedAt": "2026-09-20",
             "query": "인삼",
-            "firstCollectedAt": "2026-10-07T04:53:52+00:00",
-            "lastCollectedAt": "2026-10-07T04:53:52+00:00",
+            "firstCollectedAt": "2026-10-07T04:54:00+00:00",
+            "lastCollectedAt": "2026-10-09T22:24:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1326859076036566",
+            "advertiser": "오나한",
+            "startedAt": "2026-05-29",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-07T04:53:54+00:00",
+            "lastCollectedAt": "2026-10-09T22:24:54+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34556,7 +35348,7 @@
             "startedAt": "2026-05-27",
             "query": "인삼",
             "firstCollectedAt": "2026-10-07T04:53:52+00:00",
-            "lastCollectedAt": "2026-10-07T04:53:52+00:00",
+            "lastCollectedAt": "2026-10-09T22:24:53+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34565,7 +35357,16 @@
             "startedAt": "2026-09-06",
             "query": "인삼",
             "firstCollectedAt": "2026-10-07T04:53:52+00:00",
-            "lastCollectedAt": "2026-10-07T04:53:52+00:00",
+            "lastCollectedAt": "2026-10-09T22:24:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "976892641798579",
+            "advertiser": "자연누리",
+            "startedAt": "2026-06-12",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-07T04:53:52+00:00",
+            "lastCollectedAt": "2026-10-09T22:24:52+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34574,7 +35375,16 @@
             "startedAt": "2026-05-29",
             "query": "인삼",
             "firstCollectedAt": "2026-10-07T04:53:51+00:00",
-            "lastCollectedAt": "2026-10-07T04:53:51+00:00",
+            "lastCollectedAt": "2026-10-09T22:24:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1798890287950534",
+            "advertiser": "설화수",
+            "startedAt": "2026-09-23",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-07T04:54:00+00:00",
+            "lastCollectedAt": "2026-10-09T22:24:52+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34583,7 +35393,7 @@
             "startedAt": "2026-09-24",
             "query": "인삼",
             "firstCollectedAt": "2026-10-07T04:53:51+00:00",
-            "lastCollectedAt": "2026-10-07T04:53:51+00:00",
+            "lastCollectedAt": "2026-10-09T22:24:51+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34592,7 +35402,7 @@
             "startedAt": "2026-06-15",
             "query": "인삼",
             "firstCollectedAt": "2026-10-07T04:53:49+00:00",
-            "lastCollectedAt": "2026-10-07T04:53:49+00:00",
+            "lastCollectedAt": "2026-10-09T22:24:49+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34601,7 +35411,7 @@
             "startedAt": "2026-06-15",
             "query": "인삼",
             "firstCollectedAt": "2026-10-07T04:53:48+00:00",
-            "lastCollectedAt": "2026-10-07T04:53:48+00:00",
+            "lastCollectedAt": "2026-10-09T22:24:48+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34614,18 +35424,54 @@
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-07T04:54:07+00:00",
+        "lastCollectedAt": "2026-10-09T22:28:07+00:00",
         "advertisers": [
           {
             "name": "설화수",
-            "adCount": 3
+            "adCount": 18
           },
           {
             "name": "TIGHT 사주",
-            "adCount": 2
+            "adCount": 6
+          },
+          {
+            "name": "BeBreeze",
+            "adCount": 4
+          },
+          {
+            "name": "한성인삼",
+            "adCount": 4
+          },
+          {
+            "name": "DA EFFECT",
+            "adCount": 3
+          },
+          {
+            "name": "써니온더힐",
+            "adCount": 3
           },
           {
             "name": "오나한",
+            "adCount": 3
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 2
+          },
+          {
+            "name": "yeori_yeori",
+            "adCount": 2
+          },
+          {
+            "name": "미미테이블 mimitable",
+            "adCount": 2
+          },
+          {
+            "name": "비공식캔따개",
+            "adCount": 2
+          },
+          {
+            "name": "자라나라",
             "adCount": 2
           },
           {
@@ -34633,11 +35479,79 @@
             "adCount": 2
           },
           {
-            "name": "Naverplus.store",
+            "name": "하늘마켓",
+            "adCount": 2
+          },
+          {
+            "name": "Cast by Hein",
+            "adCount": 1
+          },
+          {
+            "name": "DramaBox - short drama7",
+            "adCount": 1
+          },
+          {
+            "name": "Dramawave: Latest Dramas",
+            "adCount": 1
+          },
+          {
+            "name": "Flick-CC",
+            "adCount": 1
+          },
+          {
+            "name": "Meowtimes",
+            "adCount": 1
+          },
+          {
+            "name": "NS-boyu-19",
+            "adCount": 1
+          },
+          {
+            "name": "QuickSpark Tales",
+            "adCount": 1
+          },
+          {
+            "name": "Saya at emosyon sa bawat kwento",
+            "adCount": 1
+          },
+          {
+            "name": "Tổng Kho Sỉ Lẻ Sâm Nấm Geumsan Korea",
+            "adCount": 1
+          },
+          {
+            "name": "Vigloo",
+            "adCount": 1
+          },
+          {
+            "name": "Vigloo Short Drama",
+            "adCount": 1
+          },
+          {
+            "name": "Vorda Skincare วอร์ด้า สกินแคร์ บริษัทหลัก ส่งออกทั่วโลก",
+            "adCount": 1
+          },
+          {
+            "name": "ekke.now",
+            "adCount": 1
+          },
+          {
+            "name": "yoooooung___",
             "adCount": 1
           },
           {
             "name": "સ브템찾았어",
+            "adCount": 1
+          },
+          {
+            "name": "月光劇場",
+            "adCount": 1
+          },
+          {
+            "name": "경북나드리",
+            "adCount": 1
+          },
+          {
+            "name": "다시생각남",
             "adCount": 1
           },
           {
@@ -34649,11 +35563,19 @@
             "adCount": 1
           },
           {
-            "name": "샘표(Sempio Foods Company)",
+            "name": "미니 드라마 극장",
             "adCount": 1
           },
           {
-            "name": "써니온더힐",
+            "name": "뷰티꿀팁",
+            "adCount": 1
+          },
+          {
+            "name": "산진담 페이지계정",
+            "adCount": 1
+          },
+          {
+            "name": "샘표(Sempio Foods Company)",
             "adCount": 1
           },
           {
@@ -34665,7 +35587,27 @@
             "adCount": 1
           },
           {
+            "name": "조경문닭강정",
+            "adCount": 1
+          },
+          {
+            "name": "증평인삼골축제",
+            "adCount": 1
+          },
+          {
             "name": "직장인의 모든것",
+            "adCount": 1
+          },
+          {
+            "name": "진실한 사람이 좋다.",
+            "adCount": 1
+          },
+          {
+            "name": "카밍의아뜰리에",
+            "adCount": 1
+          },
+          {
+            "name": "탈모예방클리닉",
             "adCount": 1
           },
           {
@@ -46264,24 +47206,105 @@
       "adEvidence": {
         "query": "인삼",
         "matchType": "collected-with-query",
-        "adCount": 20,
+        "adCount": 101,
         "adIds": [
-          "1010074622045934",
+          "1047332164345634",
+          "2309026949948969",
+          "1978616096148357",
+          "1675333837542652",
+          "29599832289642299",
+          "1003969528900943",
+          "1635822578120925",
+          "2102260711174258",
+          "1073051958776008",
+          "4340741399535000",
+          "1497532221774065",
+          "25380611768243429",
+          "1542038250695795",
+          "1888249399207592",
+          "1902678767783308",
+          "1721887512233148",
+          "1619392552623191",
+          "1145725954462336",
+          "1776801173651935",
+          "1434277751946336",
+          "1537605130742128",
+          "29116549607929426",
+          "1089454753533670",
+          "2671723806553615",
+          "1692507155758948",
+          "1353620496590351",
+          "1535580567528146",
+          "921478374063947",
+          "2293410224794330",
+          "1396176855464313",
+          "28549664501319205",
+          "39021866074078428",
+          "1902492257263264",
+          "4980321885440078",
+          "4462756800650796",
+          "2083923498880549",
+          "1421959386777547",
+          "1305757804860713",
+          "762216513445801",
+          "1058340757097698",
+          "4339415413045459",
+          "2354179208731761",
+          "1566084381394760",
+          "1155176996602178",
+          "1390194229190864",
+          "957274314100054",
+          "1815256196491141",
+          "2227788757782463",
+          "1139513108333891",
+          "1007646558587752",
+          "1505637114926713",
+          "2902368876775495",
+          "1423815809957414",
+          "1404987958485930",
+          "2921395631524868",
+          "2051092058945435",
+          "1065235846278592",
+          "1236377634932576",
+          "1667413198224157",
+          "1711716819920907",
+          "1425642262442700",
+          "1103580838850913",
+          "1866435631372714",
+          "1703064357425809",
+          "993964609901862",
+          "1259673409549489",
+          "38338999712380358",
+          "1054849573833128",
+          "1792064575137856",
+          "1761837285025208",
+          "2415279415547255",
+          "2017169828918759",
+          "2866063127062517",
+          "1620395739756041",
+          "1648993113427272",
+          "1611682370582402",
+          "894225430295279",
+          "1135294758003288",
+          "1840143586941569",
+          "1078816741289841",
+          "1331301788801888",
           "3480339308802621",
-          "1050138431399186",
           "2244158139705516",
-          "1028506776906377",
-          "2083844715558079",
-          "1798890287950534",
+          "1010074622045934",
           "1077465838470138",
+          "1050138431399186",
+          "1028506776906377",
           "950901374719527",
           "1054304913692481",
-          "1326859076036566",
           "2523412911365616",
-          "976892641798579",
+          "2083844715558079",
+          "1326859076036566",
           "1472714507310985",
           "1415709907154934",
+          "976892641798579",
           "2782581655434014",
+          "1798890287950534",
           "1815937749401620",
           "1319823716364256",
           "27844081548532427",
@@ -46289,12 +47312,732 @@
         ],
         "ads": [
           {
-            "id": "1010074622045934",
+            "id": "1047332164345634",
+            "advertiser": "Saya at emosyon sa bawat kwento",
+            "startedAt": "2026-08-11",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:28:07+00:00",
+            "lastCollectedAt": "2026-10-09T22:28:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2309026949948969",
+            "advertiser": "증평인삼골축제",
+            "startedAt": "2026-09-29",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:28:02+00:00",
+            "lastCollectedAt": "2026-10-09T22:28:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1978616096148357",
+            "advertiser": "ekke.now",
+            "startedAt": "2026-10-05",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:28:01+00:00",
+            "lastCollectedAt": "2026-10-09T22:28:01+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1675333837542652",
+            "advertiser": "yeori_yeori",
+            "startedAt": "2026-09-16",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:28:01+00:00",
+            "lastCollectedAt": "2026-10-09T22:28:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "29599832289642299",
+            "advertiser": "",
+            "startedAt": "2026-10-02",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:28:00+00:00",
+            "lastCollectedAt": "2026-10-09T22:28:00+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1003969528900943",
+            "advertiser": "NS-boyu-19",
+            "startedAt": "2026-07-02",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:27:59+00:00",
+            "lastCollectedAt": "2026-10-09T22:27:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1635822578120925",
+            "advertiser": "하늘마켓",
+            "startedAt": "2026-10-05",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:27:53+00:00",
+            "lastCollectedAt": "2026-10-09T22:27:53+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2102260711174258",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-16",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:27:52+00:00",
+            "lastCollectedAt": "2026-10-09T22:27:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1073051958776008",
+            "advertiser": "月光劇場",
+            "startedAt": "2026-07-31",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:27:52+00:00",
+            "lastCollectedAt": "2026-10-09T22:27:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4340741399535000",
+            "advertiser": "Dramawave: Latest Dramas",
+            "startedAt": "2026-03-06",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:27:45+00:00",
+            "lastCollectedAt": "2026-10-09T22:27:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1497532221774065",
+            "advertiser": "Vigloo Short Drama",
+            "startedAt": "2026-01-21",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:27:32+00:00",
+            "lastCollectedAt": "2026-10-09T22:27:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "25380611768243429",
+            "advertiser": "",
+            "startedAt": "2025-11-08",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:27:28+00:00",
+            "lastCollectedAt": "2026-10-09T22:27:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1542038250695795",
+            "advertiser": "미니 드라마 극장",
+            "startedAt": "2026-07-11",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:27:23+00:00",
+            "lastCollectedAt": "2026-10-09T22:27:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1888249399207592",
+            "advertiser": "하늘마켓",
+            "startedAt": "2026-10-05",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:27:18+00:00",
+            "lastCollectedAt": "2026-10-09T22:27:18+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1902678767783308",
+            "advertiser": "DA EFFECT",
+            "startedAt": "2026-10-02",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:27:17+00:00",
+            "lastCollectedAt": "2026-10-09T22:27:17+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1721887512233148",
+            "advertiser": "yoooooung___",
+            "startedAt": "2026-10-01",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:27:17+00:00",
+            "lastCollectedAt": "2026-10-09T22:27:17+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1619392552623191",
+            "advertiser": "QuickSpark Tales",
+            "startedAt": "2026-04-29",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:27:17+00:00",
+            "lastCollectedAt": "2026-10-09T22:27:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1145725954462336",
+            "advertiser": "TIGHT 사주",
+            "startedAt": "2026-10-03",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:27:11+00:00",
+            "lastCollectedAt": "2026-10-09T22:27:11+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1776801173651935",
+            "advertiser": "설화수",
+            "startedAt": "2026-09-28",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:27:09+00:00",
+            "lastCollectedAt": "2026-10-09T22:27:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1434277751946336",
+            "advertiser": "BeBreeze",
+            "startedAt": "2026-09-13",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:27:09+00:00",
+            "lastCollectedAt": "2026-10-09T22:27:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1537605130742128",
+            "advertiser": "Flick-CC",
+            "startedAt": "2025-10-07",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:27:03+00:00",
+            "lastCollectedAt": "2026-10-09T22:27:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "29116549607929426",
+            "advertiser": "설화수",
+            "startedAt": "2026-09-28",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:58+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1089454753533670",
+            "advertiser": "자라나라",
+            "startedAt": "2026-09-07",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:58+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2671723806553615",
+            "advertiser": "",
+            "startedAt": "2026-01-04",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:57+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1692507155758948",
+            "advertiser": "",
+            "startedAt": "2026-09-29",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:53+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1353620496590351",
+            "advertiser": "설화수",
+            "startedAt": "2026-09-28",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:53+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1535580567528146",
+            "advertiser": "Vigloo",
+            "startedAt": "2026-02-17",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:52+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "921478374063947",
+            "advertiser": "조경문닭강정",
+            "startedAt": "2026-09-28",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:50+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2293410224794330",
+            "advertiser": "설화수",
+            "startedAt": "2026-09-28",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:50+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1396176855464313",
+            "advertiser": "설화수",
+            "startedAt": "2026-09-28",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:49+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28549664501319205",
+            "advertiser": "설화수",
+            "startedAt": "2026-09-28",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:39+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "39021866074078428",
+            "advertiser": "",
+            "startedAt": "2026-09-14",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:38+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1902492257263264",
+            "advertiser": "한성인삼",
+            "startedAt": "2026-05-31",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:38+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4980321885440078",
+            "advertiser": "산진담 페이지계정",
+            "startedAt": "2026-09-29",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:37+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4462756800650796",
+            "advertiser": "DramaBox - short drama7",
+            "startedAt": "2026-04-15",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:37+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2083923498880549",
+            "advertiser": "다시생각남",
+            "startedAt": "2026-09-04",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:37+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1421959386777547",
+            "advertiser": "비공식캔따개",
+            "startedAt": "2026-09-09",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:31+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1305757804860713",
+            "advertiser": "써니온더힐",
+            "startedAt": "2026-09-23",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:31+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "762216513445801",
+            "advertiser": "",
+            "startedAt": "2025-10-15",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:30+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1058340757097698",
+            "advertiser": "진실한 사람이 좋다.",
+            "startedAt": "2026-09-15",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:24+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4339415413045459",
+            "advertiser": "Cast by Hein",
+            "startedAt": "2025-12-19",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:16+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2354179208731761",
+            "advertiser": "한성인삼",
+            "startedAt": "2026-09-12",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:10+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1566084381394760",
+            "advertiser": "DA EFFECT",
+            "startedAt": "2026-09-30",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:10+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:10+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1155176996602178",
+            "advertiser": "",
+            "startedAt": "2025-12-19",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:09+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1390194229190864",
+            "advertiser": "오나한",
+            "startedAt": "2026-08-30",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:05+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "957274314100054",
+            "advertiser": "비공식캔따개",
+            "startedAt": "2026-09-30",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:04+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:04+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1815256196491141",
+            "advertiser": "자라나라",
+            "startedAt": "2026-09-17",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:04+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2227788757782463",
+            "advertiser": "써니온더힐",
+            "startedAt": "2026-09-23",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:03+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1139513108333891",
+            "advertiser": "미미테이블 mimitable",
+            "startedAt": "2026-05-11",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:03+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1007646558587752",
+            "advertiser": "미미테이블 mimitable",
+            "startedAt": "2026-05-11",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:26:02+00:00",
+            "lastCollectedAt": "2026-10-09T22:26:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1505637114926713",
+            "advertiser": "DA EFFECT",
+            "startedAt": "2026-09-30",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:56+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:56+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2902368876775495",
+            "advertiser": "BeBreeze",
+            "startedAt": "2026-09-09",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:55+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1423815809957414",
+            "advertiser": "설화수",
+            "startedAt": "2026-09-28",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:55+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1404987958485930",
+            "advertiser": "설화수",
+            "startedAt": "2026-09-28",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:55+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2921395631524868",
+            "advertiser": "",
+            "startedAt": "2026-02-14",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:54+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2051092058945435",
+            "advertiser": "BeBreeze",
+            "startedAt": "2026-09-30",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:54+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1065235846278592",
+            "advertiser": "BeBreeze",
+            "startedAt": "2026-09-13",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:54+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1236377634932576",
+            "advertiser": "Meowtimes",
+            "startedAt": "2026-04-15",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:49+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1667413198224157",
+            "advertiser": "Tổng Kho Sỉ Lẻ Sâm Nấm Geumsan Korea",
+            "startedAt": "2026-10-05",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:48+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:48+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1711716819920907",
+            "advertiser": "경북나드리",
+            "startedAt": "2026-09-30",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:46+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:46+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1425642262442700",
+            "advertiser": "Vorda Skincare วอร์ด้า สกินแคร์ บริษัทหลัก ส่งออกทั่วโลก",
+            "startedAt": "2026-02-01",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:35+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1103580838850913",
+            "advertiser": "yeori_yeori",
+            "startedAt": "2026-09-03",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:35+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1866435631372714",
             "advertiser": "TIGHT 사주",
             "startedAt": "2026-09-20",
             "query": "인삼",
-            "firstCollectedAt": "2026-10-07T04:54:07+00:00",
-            "lastCollectedAt": "2026-10-07T04:54:07+00:00",
+            "firstCollectedAt": "2026-10-09T22:25:34+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1703064357425809",
+            "advertiser": "카밍의아뜰리에",
+            "startedAt": "2026-05-10",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:33+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "993964609901862",
+            "advertiser": "",
+            "startedAt": "2026-06-22",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:32+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1259673409549489",
+            "advertiser": "",
+            "startedAt": "2026-08-18",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:30+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "38338999712380358",
+            "advertiser": "",
+            "startedAt": "2026-08-19",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:29+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1054849573833128",
+            "advertiser": "설화수",
+            "startedAt": "2026-09-02",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:29+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1792064575137856",
+            "advertiser": "TIGHT 사주",
+            "startedAt": "2026-09-20",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:28+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1761837285025208",
+            "advertiser": "설화수",
+            "startedAt": "2026-09-28",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:27+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2415279415547255",
+            "advertiser": "설화수",
+            "startedAt": "2026-09-28",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:18+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2017169828918759",
+            "advertiser": "뷰티꿀팁",
+            "startedAt": "2026-07-20",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:18+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2866063127062517",
+            "advertiser": "",
+            "startedAt": "2026-05-26",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:17+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1620395739756041",
+            "advertiser": "설화수",
+            "startedAt": "2026-09-23",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:17+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1648993113427272",
+            "advertiser": "TIGHT 사주",
+            "startedAt": "2026-09-20",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:16+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1611682370582402",
+            "advertiser": "설화수",
+            "startedAt": "2026-09-02",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:16+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "894225430295279",
+            "advertiser": "설화수",
+            "startedAt": "2026-09-28",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:14+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1135294758003288",
+            "advertiser": "탈모예방클리닉",
+            "startedAt": "2025-01-14",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:14+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1840143586941569",
+            "advertiser": "한성인삼",
+            "startedAt": "2026-06-02",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:13+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1078816741289841",
+            "advertiser": "설화수",
+            "startedAt": "2026-09-02",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:13+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1331301788801888",
+            "advertiser": "한성인삼",
+            "startedAt": "2026-08-09",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-09T22:25:07+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:07+00:00",
             "startTiming": "before-window"
           },
           {
@@ -46303,16 +48046,7 @@
             "startedAt": "2026-08-21",
             "query": "인삼",
             "firstCollectedAt": "2026-10-07T04:54:05+00:00",
-            "lastCollectedAt": "2026-10-07T04:54:05+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1050138431399186",
-            "advertiser": "으누",
-            "startedAt": "2026-09-20",
-            "query": "인삼",
-            "firstCollectedAt": "2026-10-07T04:54:02+00:00",
-            "lastCollectedAt": "2026-10-07T04:54:02+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:06+00:00",
             "startTiming": "before-window"
           },
           {
@@ -46321,34 +48055,16 @@
             "startedAt": "2026-05-21",
             "query": "인삼",
             "firstCollectedAt": "2026-10-07T04:54:01+00:00",
-            "lastCollectedAt": "2026-10-07T04:54:01+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:04+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1028506776906377",
-            "advertiser": "설화수",
-            "startedAt": "2026-09-23",
-            "query": "인삼",
-            "firstCollectedAt": "2026-10-07T04:54:01+00:00",
-            "lastCollectedAt": "2026-10-07T04:54:01+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2083844715558079",
-            "advertiser": "써니온더힐",
+            "id": "1010074622045934",
+            "advertiser": "TIGHT 사주",
             "startedAt": "2026-09-20",
             "query": "인삼",
-            "firstCollectedAt": "2026-10-07T04:54:00+00:00",
-            "lastCollectedAt": "2026-10-07T04:54:00+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1798890287950534",
-            "advertiser": "설화수",
-            "startedAt": "2026-09-23",
-            "query": "인삼",
-            "firstCollectedAt": "2026-10-07T04:54:00+00:00",
-            "lastCollectedAt": "2026-10-07T04:54:00+00:00",
+            "firstCollectedAt": "2026-10-07T04:54:07+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:03+00:00",
             "startTiming": "before-window"
           },
           {
@@ -46357,7 +48073,25 @@
             "startedAt": "2026-09-02",
             "query": "인삼",
             "firstCollectedAt": "2026-10-07T04:54:00+00:00",
-            "lastCollectedAt": "2026-10-07T04:54:00+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1050138431399186",
+            "advertiser": "으누",
+            "startedAt": "2026-09-20",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-07T04:54:02+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1028506776906377",
+            "advertiser": "설화수",
+            "startedAt": "2026-09-23",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-07T04:54:01+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:01+00:00",
             "startTiming": "before-window"
           },
           {
@@ -46366,7 +48100,7 @@
             "startedAt": "2026-09-02",
             "query": "인삼",
             "firstCollectedAt": "2026-10-07T04:53:59+00:00",
-            "lastCollectedAt": "2026-10-07T04:53:59+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:00+00:00",
             "startTiming": "before-window"
           },
           {
@@ -46375,16 +48109,7 @@
             "startedAt": "2026-06-25",
             "query": "인삼",
             "firstCollectedAt": "2026-10-07T04:53:59+00:00",
-            "lastCollectedAt": "2026-10-07T04:53:59+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1326859076036566",
-            "advertiser": "오나한",
-            "startedAt": "2026-05-29",
-            "query": "인삼",
-            "firstCollectedAt": "2026-10-07T04:53:54+00:00",
-            "lastCollectedAt": "2026-10-07T04:53:54+00:00",
+            "lastCollectedAt": "2026-10-09T22:25:00+00:00",
             "startTiming": "before-window"
           },
           {
@@ -46393,16 +48118,25 @@
             "startedAt": "2025-12-24",
             "query": "인삼",
             "firstCollectedAt": "2026-10-07T04:53:53+00:00",
-            "lastCollectedAt": "2026-10-07T04:53:53+00:00",
+            "lastCollectedAt": "2026-10-09T22:24:59+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "976892641798579",
-            "advertiser": "자연누리",
-            "startedAt": "2026-06-12",
+            "id": "2083844715558079",
+            "advertiser": "써니온더힐",
+            "startedAt": "2026-09-20",
             "query": "인삼",
-            "firstCollectedAt": "2026-10-07T04:53:52+00:00",
-            "lastCollectedAt": "2026-10-07T04:53:52+00:00",
+            "firstCollectedAt": "2026-10-07T04:54:00+00:00",
+            "lastCollectedAt": "2026-10-09T22:24:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1326859076036566",
+            "advertiser": "오나한",
+            "startedAt": "2026-05-29",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-07T04:53:54+00:00",
+            "lastCollectedAt": "2026-10-09T22:24:54+00:00",
             "startTiming": "before-window"
           },
           {
@@ -46411,7 +48145,7 @@
             "startedAt": "2026-05-27",
             "query": "인삼",
             "firstCollectedAt": "2026-10-07T04:53:52+00:00",
-            "lastCollectedAt": "2026-10-07T04:53:52+00:00",
+            "lastCollectedAt": "2026-10-09T22:24:53+00:00",
             "startTiming": "before-window"
           },
           {
@@ -46420,7 +48154,16 @@
             "startedAt": "2026-09-06",
             "query": "인삼",
             "firstCollectedAt": "2026-10-07T04:53:52+00:00",
-            "lastCollectedAt": "2026-10-07T04:53:52+00:00",
+            "lastCollectedAt": "2026-10-09T22:24:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "976892641798579",
+            "advertiser": "자연누리",
+            "startedAt": "2026-06-12",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-07T04:53:52+00:00",
+            "lastCollectedAt": "2026-10-09T22:24:52+00:00",
             "startTiming": "before-window"
           },
           {
@@ -46429,7 +48172,16 @@
             "startedAt": "2026-05-29",
             "query": "인삼",
             "firstCollectedAt": "2026-10-07T04:53:51+00:00",
-            "lastCollectedAt": "2026-10-07T04:53:51+00:00",
+            "lastCollectedAt": "2026-10-09T22:24:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1798890287950534",
+            "advertiser": "설화수",
+            "startedAt": "2026-09-23",
+            "query": "인삼",
+            "firstCollectedAt": "2026-10-07T04:54:00+00:00",
+            "lastCollectedAt": "2026-10-09T22:24:52+00:00",
             "startTiming": "before-window"
           },
           {
@@ -46438,7 +48190,7 @@
             "startedAt": "2026-09-24",
             "query": "인삼",
             "firstCollectedAt": "2026-10-07T04:53:51+00:00",
-            "lastCollectedAt": "2026-10-07T04:53:51+00:00",
+            "lastCollectedAt": "2026-10-09T22:24:51+00:00",
             "startTiming": "before-window"
           },
           {
@@ -46447,7 +48199,7 @@
             "startedAt": "2026-06-15",
             "query": "인삼",
             "firstCollectedAt": "2026-10-07T04:53:49+00:00",
-            "lastCollectedAt": "2026-10-07T04:53:49+00:00",
+            "lastCollectedAt": "2026-10-09T22:24:49+00:00",
             "startTiming": "before-window"
           },
           {
@@ -46456,7 +48208,7 @@
             "startedAt": "2026-06-15",
             "query": "인삼",
             "firstCollectedAt": "2026-10-07T04:53:48+00:00",
-            "lastCollectedAt": "2026-10-07T04:53:48+00:00",
+            "lastCollectedAt": "2026-10-09T22:24:48+00:00",
             "startTiming": "before-window"
           },
           {
@@ -46469,18 +48221,54 @@
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-07T04:54:07+00:00",
+        "lastCollectedAt": "2026-10-09T22:28:07+00:00",
         "advertisers": [
           {
             "name": "설화수",
-            "adCount": 3
+            "adCount": 18
           },
           {
             "name": "TIGHT 사주",
-            "adCount": 2
+            "adCount": 6
+          },
+          {
+            "name": "BeBreeze",
+            "adCount": 4
+          },
+          {
+            "name": "한성인삼",
+            "adCount": 4
+          },
+          {
+            "name": "DA EFFECT",
+            "adCount": 3
+          },
+          {
+            "name": "써니온더힐",
+            "adCount": 3
           },
           {
             "name": "오나한",
+            "adCount": 3
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 2
+          },
+          {
+            "name": "yeori_yeori",
+            "adCount": 2
+          },
+          {
+            "name": "미미테이블 mimitable",
+            "adCount": 2
+          },
+          {
+            "name": "비공식캔따개",
+            "adCount": 2
+          },
+          {
+            "name": "자라나라",
             "adCount": 2
           },
           {
@@ -46488,11 +48276,79 @@
             "adCount": 2
           },
           {
-            "name": "Naverplus.store",
+            "name": "하늘마켓",
+            "adCount": 2
+          },
+          {
+            "name": "Cast by Hein",
+            "adCount": 1
+          },
+          {
+            "name": "DramaBox - short drama7",
+            "adCount": 1
+          },
+          {
+            "name": "Dramawave: Latest Dramas",
+            "adCount": 1
+          },
+          {
+            "name": "Flick-CC",
+            "adCount": 1
+          },
+          {
+            "name": "Meowtimes",
+            "adCount": 1
+          },
+          {
+            "name": "NS-boyu-19",
+            "adCount": 1
+          },
+          {
+            "name": "QuickSpark Tales",
+            "adCount": 1
+          },
+          {
+            "name": "Saya at emosyon sa bawat kwento",
+            "adCount": 1
+          },
+          {
+            "name": "Tổng Kho Sỉ Lẻ Sâm Nấm Geumsan Korea",
+            "adCount": 1
+          },
+          {
+            "name": "Vigloo",
+            "adCount": 1
+          },
+          {
+            "name": "Vigloo Short Drama",
+            "adCount": 1
+          },
+          {
+            "name": "Vorda Skincare วอร์ด้า สกินแคร์ บริษัทหลัก ส่งออกทั่วโลก",
+            "adCount": 1
+          },
+          {
+            "name": "ekke.now",
+            "adCount": 1
+          },
+          {
+            "name": "yoooooung___",
             "adCount": 1
           },
           {
             "name": "સ브템찾았어",
+            "adCount": 1
+          },
+          {
+            "name": "月光劇場",
+            "adCount": 1
+          },
+          {
+            "name": "경북나드리",
+            "adCount": 1
+          },
+          {
+            "name": "다시생각남",
             "adCount": 1
           },
           {
@@ -46504,11 +48360,19 @@
             "adCount": 1
           },
           {
-            "name": "샘표(Sempio Foods Company)",
+            "name": "미니 드라마 극장",
             "adCount": 1
           },
           {
-            "name": "써니온더힐",
+            "name": "뷰티꿀팁",
+            "adCount": 1
+          },
+          {
+            "name": "산진담 페이지계정",
+            "adCount": 1
+          },
+          {
+            "name": "샘표(Sempio Foods Company)",
             "adCount": 1
           },
           {
@@ -46520,7 +48384,27 @@
             "adCount": 1
           },
           {
+            "name": "조경문닭강정",
+            "adCount": 1
+          },
+          {
+            "name": "증평인삼골축제",
+            "adCount": 1
+          },
+          {
             "name": "직장인의 모든것",
+            "adCount": 1
+          },
+          {
+            "name": "진실한 사람이 좋다.",
+            "adCount": 1
+          },
+          {
+            "name": "카밍의아뜰리에",
+            "adCount": 1
+          },
+          {
+            "name": "탈모예방클리닉",
             "adCount": 1
           },
           {
