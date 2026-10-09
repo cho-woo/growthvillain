@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T15:01:33+00:00",
+  "updatedAt": "2026-10-09T15:04:23+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-09T01:05:24+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 0,
-    "dailyRemaining": 288,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-09T15:04:18+00:00",
+    "dailyUsed": 1,
+    "dailyRemaining": 287,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -8907,7 +8907,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "801c2d114967f06587f5916bf441d0f18e2e3c0e48bfa5e00af94b4bb15191f4",
       "searchQuery": "다이마타이즈iso100",
       "adEvidence": {
@@ -11286,7 +11286,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:05:24+00:00",
       "lastObservedAt": "2026-10-09T01:05:24+00:00",
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "801c2d114967f06587f5916bf441d0f18e2e3c0e48bfa5e00af94b4bb15191f4",
       "searchQuery": "다이마타이즈iso100",
       "adEvidence": {
