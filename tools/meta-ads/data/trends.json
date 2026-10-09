@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T22:35:39+00:00",
+  "updatedAt": "2026-10-09T22:40:24+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-09T22:18:05+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 16,
-    "dailyRemaining": 272,
+    "dailyUsed": 17,
+    "dailyRemaining": 271,
     "pending": 0,
-    "nextDispatchAt": "2026-10-09T22:39:53+00:00",
+    "nextDispatchAt": "2026-10-09T22:44:56+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -7892,7 +7892,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "done",
       "keywordId": "01fba974d6f4559693cea16ca985fdf63102dfb7189a0ec1372c2d3f2e256637",
       "searchQuery": "삼백초추출물",
       "adEvidence": {
@@ -7901,9 +7901,9 @@
         "adCount": 4,
         "adIds": [
           "2148238686047986",
-          "1058340173844835",
           "2332052677565849",
-          "2102260711174258"
+          "2102260711174258",
+          "1058340173844835"
         ],
         "ads": [
           {
@@ -7912,8 +7912,26 @@
             "startedAt": "2026-10-06",
             "query": "삼백초추출물",
             "firstCollectedAt": "2026-10-08T02:01:04+00:00",
-            "lastCollectedAt": "2026-10-08T02:01:04+00:00",
+            "lastCollectedAt": "2026-10-09T22:40:07+00:00",
             "startTiming": "during-window"
+          },
+          {
+            "id": "2332052677565849",
+            "advertiser": "For is",
+            "startedAt": "2026-09-10",
+            "query": "삼백초추출물",
+            "firstCollectedAt": "2026-10-08T02:01:01+00:00",
+            "lastCollectedAt": "2026-10-09T22:40:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2102260711174258",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-16",
+            "query": "삼백초추출물",
+            "firstCollectedAt": "2026-10-08T02:01:01+00:00",
+            "lastCollectedAt": "2026-10-09T22:40:06+00:00",
+            "startTiming": "before-window"
           },
           {
             "id": "1058340173844835",
@@ -7923,27 +7941,9 @@
             "firstCollectedAt": "2026-10-08T02:01:04+00:00",
             "lastCollectedAt": "2026-10-08T02:01:04+00:00",
             "startTiming": "during-window"
-          },
-          {
-            "id": "2332052677565849",
-            "advertiser": "For is",
-            "startedAt": "2026-09-10",
-            "query": "삼백초추출물",
-            "firstCollectedAt": "2026-10-08T02:01:01+00:00",
-            "lastCollectedAt": "2026-10-08T02:01:01+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2102260711174258",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-07-16",
-            "query": "삼백초추출물",
-            "firstCollectedAt": "2026-10-08T02:01:01+00:00",
-            "lastCollectedAt": "2026-10-08T02:01:01+00:00",
-            "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-08T02:01:04+00:00",
+        "lastCollectedAt": "2026-10-09T22:40:07+00:00",
         "advertisers": [
           {
             "name": "For is",
@@ -25366,7 +25366,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:04:53+00:00",
       "lastObservedAt": "2026-10-09T22:17:21+00:00",
-      "state": "backlog",
+      "state": "done",
       "keywordId": "01fba974d6f4559693cea16ca985fdf63102dfb7189a0ec1372c2d3f2e256637",
       "searchQuery": "삼백초추출물",
       "adEvidence": {
@@ -25375,9 +25375,9 @@
         "adCount": 4,
         "adIds": [
           "2148238686047986",
-          "1058340173844835",
           "2332052677565849",
-          "2102260711174258"
+          "2102260711174258",
+          "1058340173844835"
         ],
         "ads": [
           {
@@ -25386,8 +25386,26 @@
             "startedAt": "2026-10-06",
             "query": "삼백초추출물",
             "firstCollectedAt": "2026-10-08T02:01:04+00:00",
-            "lastCollectedAt": "2026-10-08T02:01:04+00:00",
+            "lastCollectedAt": "2026-10-09T22:40:07+00:00",
             "startTiming": "during-window"
+          },
+          {
+            "id": "2332052677565849",
+            "advertiser": "For is",
+            "startedAt": "2026-09-10",
+            "query": "삼백초추출물",
+            "firstCollectedAt": "2026-10-08T02:01:01+00:00",
+            "lastCollectedAt": "2026-10-09T22:40:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2102260711174258",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-16",
+            "query": "삼백초추출물",
+            "firstCollectedAt": "2026-10-08T02:01:01+00:00",
+            "lastCollectedAt": "2026-10-09T22:40:06+00:00",
+            "startTiming": "before-window"
           },
           {
             "id": "1058340173844835",
@@ -25397,27 +25415,9 @@
             "firstCollectedAt": "2026-10-08T02:01:04+00:00",
             "lastCollectedAt": "2026-10-08T02:01:04+00:00",
             "startTiming": "during-window"
-          },
-          {
-            "id": "2332052677565849",
-            "advertiser": "For is",
-            "startedAt": "2026-09-10",
-            "query": "삼백초추출물",
-            "firstCollectedAt": "2026-10-08T02:01:01+00:00",
-            "lastCollectedAt": "2026-10-08T02:01:01+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2102260711174258",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-07-16",
-            "query": "삼백초추출물",
-            "firstCollectedAt": "2026-10-08T02:01:01+00:00",
-            "lastCollectedAt": "2026-10-08T02:01:01+00:00",
-            "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-08T02:01:04+00:00",
+        "lastCollectedAt": "2026-10-09T22:40:07+00:00",
         "advertisers": [
           {
             "name": "For is",
@@ -51743,9 +51743,9 @@
         "adCount": 4,
         "adIds": [
           "2148238686047986",
-          "1058340173844835",
           "2332052677565849",
-          "2102260711174258"
+          "2102260711174258",
+          "1058340173844835"
         ],
         "ads": [
           {
@@ -51754,8 +51754,26 @@
             "startedAt": "2026-10-06",
             "query": "삼백초추출물",
             "firstCollectedAt": "2026-10-08T02:01:04+00:00",
-            "lastCollectedAt": "2026-10-08T02:01:04+00:00",
+            "lastCollectedAt": "2026-10-09T22:40:07+00:00",
             "startTiming": "during-window"
+          },
+          {
+            "id": "2332052677565849",
+            "advertiser": "For is",
+            "startedAt": "2026-09-10",
+            "query": "삼백초추출물",
+            "firstCollectedAt": "2026-10-08T02:01:01+00:00",
+            "lastCollectedAt": "2026-10-09T22:40:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2102260711174258",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-16",
+            "query": "삼백초추출물",
+            "firstCollectedAt": "2026-10-08T02:01:01+00:00",
+            "lastCollectedAt": "2026-10-09T22:40:06+00:00",
+            "startTiming": "before-window"
           },
           {
             "id": "1058340173844835",
@@ -51765,27 +51783,9 @@
             "firstCollectedAt": "2026-10-08T02:01:04+00:00",
             "lastCollectedAt": "2026-10-08T02:01:04+00:00",
             "startTiming": "during-window"
-          },
-          {
-            "id": "2332052677565849",
-            "advertiser": "For is",
-            "startedAt": "2026-09-10",
-            "query": "삼백초추출물",
-            "firstCollectedAt": "2026-10-08T02:01:01+00:00",
-            "lastCollectedAt": "2026-10-08T02:01:01+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2102260711174258",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-07-16",
-            "query": "삼백초추출물",
-            "firstCollectedAt": "2026-10-08T02:01:01+00:00",
-            "lastCollectedAt": "2026-10-08T02:01:01+00:00",
-            "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-08T02:01:04+00:00",
+        "lastCollectedAt": "2026-10-09T22:40:07+00:00",
         "advertisers": [
           {
             "name": "For is",
