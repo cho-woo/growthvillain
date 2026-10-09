@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T18:50:21+00:00",
+  "updatedAt": "2026-10-09T18:53:40+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-09T18:12:03+00:00",
@@ -41,22 +41,22 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 7,
-    "dailyRemaining": 281,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "dailyUsed": 8,
+    "dailyRemaining": 280,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-09T19:53:39+00:00",
     "metaAutoEnabled": true,
-    "enabled": true,
+    "enabled": false,
     "collectionGuard": {
-      "state": "ready",
-      "reason": null,
-      "nextAllowedAt": null,
-      "blockedUntil": null,
-      "blockStreak": 0,
+      "state": "blocked",
+      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
+      "nextAllowedAt": "2026-10-09T19:53:39+00:00",
+      "blockedUntil": "2026-10-09T19:53:39+00:00",
+      "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": null
+    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
   },
   "settings": {
     "category": "50000023",
@@ -11798,17 +11798,62 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "4fe9bee668ae83190f9d9a3b4f79cc2546237f4e56b2f597bdd54cc98975bd15",
       "searchQuery": "러닝에너지젤",
       "adEvidence": {
         "query": "러닝에너지젤",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 3,
+        "adIds": [
+          "1431986809132598",
+          "28243883805314710",
+          "2276477779799736"
+        ],
+        "ads": [
+          {
+            "id": "1431986809132598",
+            "advertiser": "Uandi킴승",
+            "startedAt": "2026-10-07",
+            "query": "러닝에너지젤",
+            "firstCollectedAt": "2026-10-09T18:52:44+00:00",
+            "lastCollectedAt": "2026-10-09T18:52:44+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "28243883805314710",
+            "advertiser": "하이뮨 액티브",
+            "startedAt": "2026-09-30",
+            "query": "러닝에너지젤",
+            "firstCollectedAt": "2026-10-09T18:52:43+00:00",
+            "lastCollectedAt": "2026-10-09T18:52:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2276477779799736",
+            "advertiser": "아미노트리",
+            "startedAt": "2026-10-05",
+            "query": "러닝에너지젤",
+            "firstCollectedAt": "2026-10-09T18:52:43+00:00",
+            "lastCollectedAt": "2026-10-09T18:52:43+00:00",
+            "startTiming": "during-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-09T18:52:44+00:00",
+        "advertisers": [
+          {
+            "name": "Uandi킴승",
+            "adCount": 1
+          },
+          {
+            "name": "아미노트리",
+            "adCount": 1
+          },
+          {
+            "name": "하이뮨 액티브",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
@@ -11830,7 +11875,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "failed",
       "keywordId": "b7e87edd21f0ad81dbaf5aaafe5ce37fe2bcc2e3102c155bf1b200efd068852c",
       "searchQuery": "류신로이신",
       "adEvidence": {
@@ -12661,7 +12706,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:05:24+00:00",
       "lastObservedAt": "2026-10-09T18:12:03+00:00",
-      "state": "backlog",
+      "state": "failed",
       "keywordId": "b7e87edd21f0ad81dbaf5aaafe5ce37fe2bcc2e3102c155bf1b200efd068852c",
       "searchQuery": "류신로이신",
       "adEvidence": {
@@ -14208,17 +14253,62 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:05:24+00:00",
       "lastObservedAt": "2026-10-09T18:12:03+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "4fe9bee668ae83190f9d9a3b4f79cc2546237f4e56b2f597bdd54cc98975bd15",
       "searchQuery": "러닝에너지젤",
       "adEvidence": {
         "query": "러닝에너지젤",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 3,
+        "adIds": [
+          "1431986809132598",
+          "28243883805314710",
+          "2276477779799736"
+        ],
+        "ads": [
+          {
+            "id": "1431986809132598",
+            "advertiser": "Uandi킴승",
+            "startedAt": "2026-10-07",
+            "query": "러닝에너지젤",
+            "firstCollectedAt": "2026-10-09T18:52:44+00:00",
+            "lastCollectedAt": "2026-10-09T18:52:44+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "28243883805314710",
+            "advertiser": "하이뮨 액티브",
+            "startedAt": "2026-09-30",
+            "query": "러닝에너지젤",
+            "firstCollectedAt": "2026-10-09T18:52:43+00:00",
+            "lastCollectedAt": "2026-10-09T18:52:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2276477779799736",
+            "advertiser": "아미노트리",
+            "startedAt": "2026-10-05",
+            "query": "러닝에너지젤",
+            "firstCollectedAt": "2026-10-09T18:52:43+00:00",
+            "lastCollectedAt": "2026-10-09T18:52:43+00:00",
+            "startTiming": "during-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-09T18:52:44+00:00",
+        "advertisers": [
+          {
+            "name": "Uandi킴승",
+            "adCount": 1
+          },
+          {
+            "name": "아미노트리",
+            "adCount": 1
+          },
+          {
+            "name": "하이뮨 액티브",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
