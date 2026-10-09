@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T22:55:55+00:00",
+  "updatedAt": "2026-10-09T23:00:10+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-09T22:18:05+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 20,
-    "dailyRemaining": 268,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-09T23:00:08+00:00",
+    "dailyUsed": 21,
+    "dailyRemaining": 267,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -8201,7 +8201,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "bc7639df3dee6f6e5b7fcfaaacd8d58a81c60d3b2df2987e0b1e664b47d246de",
       "searchQuery": "산양유단백질",
       "adEvidence": {
@@ -15174,7 +15174,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:05:24+00:00",
       "lastObservedAt": "2026-10-09T22:18:05+00:00",
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "bc7639df3dee6f6e5b7fcfaaacd8d58a81c60d3b2df2987e0b1e664b47d246de",
       "searchQuery": "산양유단백질",
       "adEvidence": {
