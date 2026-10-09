@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T09:05:46+00:00",
+  "updatedAt": "2026-10-09T09:12:43+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-09T01:05:24+00:00",
@@ -41,22 +41,22 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 28,
-    "dailyRemaining": 260,
+    "dailyUsed": 29,
+    "dailyRemaining": 259,
     "pending": 0,
-    "nextDispatchAt": "2026-10-09T09:08:12+00:00",
+    "nextDispatchAt": "2026-10-09T10:12:43+00:00",
     "metaAutoEnabled": true,
-    "enabled": true,
+    "enabled": false,
     "collectionGuard": {
-      "state": "ready",
-      "reason": null,
-      "nextAllowedAt": null,
-      "blockedUntil": null,
-      "blockStreak": 0,
+      "state": "blocked",
+      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
+      "nextAllowedAt": "2026-10-09T10:12:43+00:00",
+      "blockedUntil": "2026-10-09T10:12:43+00:00",
+      "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": null
+    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
   },
   "settings": {
     "category": "50000023",
@@ -6191,7 +6191,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "failed",
       "keywordId": "f32e464bf7c702b0c227a1eeae9de15223c1aacb491a7d1160eeea7a42df9ef7",
       "searchQuery": "맥스컷프로",
       "adEvidence": {
@@ -8861,7 +8861,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:05:24+00:00",
       "lastObservedAt": "2026-10-09T01:05:24+00:00",
-      "state": "ready",
+      "state": "failed",
       "keywordId": "f32e464bf7c702b0c227a1eeae9de15223c1aacb491a7d1160eeea7a42df9ef7",
       "searchQuery": "맥스컷프로",
       "adEvidence": {
