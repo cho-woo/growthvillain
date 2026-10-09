@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T22:19:19+00:00",
+  "updatedAt": "2026-10-09T22:24:43+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-09T22:18:05+00:00",
@@ -41,8 +41,8 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 13,
-    "dailyRemaining": 275,
+    "dailyUsed": 14,
+    "dailyRemaining": 274,
     "pending": 1,
     "nextDispatchAt": null,
     "metaAutoEnabled": true,
@@ -34403,7 +34403,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-09T00:03:32+00:00",
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "9dbfa34f6897fba10ad761c65ee65ad9f2e2690ba93c2150b04e76403dcadcd8",
       "searchQuery": "인삼",
       "adEvidence": {
@@ -38159,21 +38159,61 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-09T00:03:32+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "180b44d1b67a0b128e02b64df7d951f6a8b792d04fb2207ee984433e0dd7d211",
       "searchQuery": "락토핏",
       "adEvidence": {
         "query": "락토핏",
         "matchType": "collected-with-query",
-        "adCount": 20,
+        "adCount": 58,
         "adIds": [
-          "1086917614035492",
+          "4520692188205312",
+          "3217184198465681",
+          "1673185093743628",
+          "1069421592745765",
+          "2433525357056898",
+          "1410135703897769",
+          "2647464065690082",
+          "1988015905176535",
+          "28261197546913722",
+          "1619090199589872",
+          "1083575901324486",
+          "1080906971477828",
+          "1086605227547080",
+          "1095096003031917",
+          "1458158232845449",
+          "1109834311980388",
+          "955372360452396",
+          "4654017414829413",
+          "1785689499383604",
+          "2015618699156473",
+          "1888400672527091",
+          "1858653501822868",
+          "1613197490541586",
+          "2523839181425777",
+          "1129174589768325",
+          "1076367508573223",
+          "1064312243268335",
+          "1583948576758917",
+          "1580359667230815",
+          "1807883600419400",
           "1030378596675415",
+          "945800318241104",
+          "1807393667099930",
+          "934398149339480",
           "2548779548880788",
           "1826499055199054",
           "1488354293342805",
           "1067043736331669",
-          "1583948576758917",
+          "3658500397642592",
+          "1744735230131991",
+          "1620320429499017",
+          "1380297994268690",
+          "1482381090369619",
+          "3089019388105813",
+          "1499972095498930",
+          "1110527834760284",
+          "1086917614035492",
           "28444944718447887",
           "1125281576754805",
           "1429001379140842",
@@ -38183,19 +38223,278 @@
           "1070391082461613",
           "2025447758117754",
           "1118116457324824",
-          "1380297994268690",
-          "1499972095498930",
           "1625829418982690",
           "3578643888968992"
         ],
         "ads": [
           {
-            "id": "1086917614035492",
-            "advertiser": "롯데면세점",
+            "id": "4520692188205312",
+            "advertiser": "리라랩 ReLa.LAB",
+            "startedAt": "2026-10-06",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-09T22:24:15+00:00",
+            "lastCollectedAt": "2026-10-09T22:24:15+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "3217184198465681",
+            "advertiser": "리라랩 ReLa.LAB",
+            "startedAt": "2026-09-30",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-09T22:24:15+00:00",
+            "lastCollectedAt": "2026-10-09T22:24:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1673185093743628",
+            "advertiser": "온누리쇼핑",
+            "startedAt": "2026-08-31",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-09T22:24:15+00:00",
+            "lastCollectedAt": "2026-10-09T22:24:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1069421592745765",
+            "advertiser": "리라랩 ReLa.LAB",
+            "startedAt": "2026-10-06",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-09T22:24:15+00:00",
+            "lastCollectedAt": "2026-10-09T22:24:15+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2433525357056898",
+            "advertiser": "종근당건강",
+            "startedAt": "2026-10-06",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-09T22:24:14+00:00",
+            "lastCollectedAt": "2026-10-09T22:24:14+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1410135703897769",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-30",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-09T22:24:14+00:00",
+            "lastCollectedAt": "2026-10-09T22:24:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2647464065690082",
+            "advertiser": "종근당건강",
+            "startedAt": "2026-10-06",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-09T22:24:02+00:00",
+            "lastCollectedAt": "2026-10-09T22:24:02+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1988015905176535",
+            "advertiser": "LACTOFIT_official",
+            "startedAt": "2026-10-07",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-09T22:24:02+00:00",
+            "lastCollectedAt": "2026-10-09T22:24:02+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "28261197546913722",
+            "advertiser": "종근당건강",
+            "startedAt": "2026-10-06",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-09T22:24:01+00:00",
+            "lastCollectedAt": "2026-10-09T22:24:01+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1619090199589872",
+            "advertiser": "종근당건강",
+            "startedAt": "2026-10-06",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-09T22:24:01+00:00",
+            "lastCollectedAt": "2026-10-09T22:24:01+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1083575901324486",
+            "advertiser": "종근당건강",
+            "startedAt": "2026-10-07",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-09T22:24:01+00:00",
+            "lastCollectedAt": "2026-10-09T22:24:01+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1080906971477828",
+            "advertiser": "LACTOFIT_official",
+            "startedAt": "2026-10-07",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-09T22:24:01+00:00",
+            "lastCollectedAt": "2026-10-09T22:24:01+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1086605227547080",
+            "advertiser": "상품",
+            "startedAt": "2026-10-08",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-09T22:24:00+00:00",
+            "lastCollectedAt": "2026-10-09T22:24:00+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1095096003031917",
+            "advertiser": "ร้านอารินช๊อป아린샵เสื้อผ้าแฟชั้นแดกูชางกิดง",
             "startedAt": "2026-10-01",
             "query": "락토핏",
-            "firstCollectedAt": "2026-10-07T03:21:18+00:00",
-            "lastCollectedAt": "2026-10-07T03:21:18+00:00",
+            "firstCollectedAt": "2026-10-09T22:23:59+00:00",
+            "lastCollectedAt": "2026-10-09T22:23:59+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1458158232845449",
+            "advertiser": "종근당건강",
+            "startedAt": "2026-10-06",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-09T22:23:29+00:00",
+            "lastCollectedAt": "2026-10-09T22:23:29+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1109834311980388",
+            "advertiser": "ร้านอารินช๊อป아린샵เสื้อผ้าแฟชั้นแดกูชางกิดง",
+            "startedAt": "2026-10-01",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-09T22:23:29+00:00",
+            "lastCollectedAt": "2026-10-09T22:23:29+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "955372360452396",
+            "advertiser": "투스이즈실버",
+            "startedAt": "2026-10-08",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-09T22:22:38+00:00",
+            "lastCollectedAt": "2026-10-09T22:22:38+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "4654017414829413",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-09-10",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-09T22:22:38+00:00",
+            "lastCollectedAt": "2026-10-09T22:22:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1785689499383604",
+            "advertiser": "종근당건강",
+            "startedAt": "2026-10-07",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-09T22:22:38+00:00",
+            "lastCollectedAt": "2026-10-09T22:22:38+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2015618699156473",
+            "advertiser": "장수빈",
+            "startedAt": "2026-10-05",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-09T22:22:37+00:00",
+            "lastCollectedAt": "2026-10-09T22:22:37+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1888400672527091",
+            "advertiser": "종근당건강",
+            "startedAt": "2026-10-06",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-09T22:22:37+00:00",
+            "lastCollectedAt": "2026-10-09T22:22:37+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1858653501822868",
+            "advertiser": "종근당건강",
+            "startedAt": "2026-10-05",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-09T22:22:37+00:00",
+            "lastCollectedAt": "2026-10-09T22:22:37+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1613197490541586",
+            "advertiser": "종근당건강",
+            "startedAt": "2026-10-06",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-09T22:22:37+00:00",
+            "lastCollectedAt": "2026-10-09T22:22:37+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2523839181425777",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-30",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-09T22:22:36+00:00",
+            "lastCollectedAt": "2026-10-09T22:22:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1129174589768325",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-30",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-09T22:22:36+00:00",
+            "lastCollectedAt": "2026-10-09T22:22:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1076367508573223",
+            "advertiser": "Love.review",
+            "startedAt": "2026-10-03",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-09T22:22:34+00:00",
+            "lastCollectedAt": "2026-10-09T22:22:34+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1064312243268335",
+            "advertiser": "종근당건강",
+            "startedAt": "2026-10-06",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-09T22:22:27+00:00",
+            "lastCollectedAt": "2026-10-09T22:22:27+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1583948576758917",
+            "advertiser": "Thailoveshop",
+            "startedAt": "2026-08-20",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-07T03:18:22+00:00",
+            "lastCollectedAt": "2026-10-09T22:22:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1580359667230815",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-30",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-09T22:22:26+00:00",
+            "lastCollectedAt": "2026-10-09T22:22:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1807883600419400",
+            "advertiser": "종근당건강",
+            "startedAt": "2026-10-07",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-09T22:22:23+00:00",
+            "lastCollectedAt": "2026-10-09T22:22:23+00:00",
             "startTiming": "during-window"
           },
           {
@@ -38204,7 +38503,34 @@
             "startedAt": "2026-09-30",
             "query": "락토핏",
             "firstCollectedAt": "2026-10-07T03:21:18+00:00",
-            "lastCollectedAt": "2026-10-07T03:21:18+00:00",
+            "lastCollectedAt": "2026-10-09T22:22:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "945800318241104",
+            "advertiser": "종근당건강",
+            "startedAt": "2026-10-08",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-09T22:22:22+00:00",
+            "lastCollectedAt": "2026-10-09T22:22:22+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1807393667099930",
+            "advertiser": "LACTOFIT_official",
+            "startedAt": "2026-09-30",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-09T22:22:22+00:00",
+            "lastCollectedAt": "2026-10-09T22:22:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "934398149339480",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-30",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-09T22:22:21+00:00",
+            "lastCollectedAt": "2026-10-09T22:22:21+00:00",
             "startTiming": "before-window"
           },
           {
@@ -38213,7 +38539,7 @@
             "startedAt": "2026-09-28",
             "query": "락토핏",
             "firstCollectedAt": "2026-10-07T03:21:17+00:00",
-            "lastCollectedAt": "2026-10-07T03:21:17+00:00",
+            "lastCollectedAt": "2026-10-09T22:22:21+00:00",
             "startTiming": "before-window"
           },
           {
@@ -38222,7 +38548,7 @@
             "startedAt": "2026-09-28",
             "query": "락토핏",
             "firstCollectedAt": "2026-10-07T03:20:20+00:00",
-            "lastCollectedAt": "2026-10-07T03:20:20+00:00",
+            "lastCollectedAt": "2026-10-09T22:21:27+00:00",
             "startTiming": "before-window"
           },
           {
@@ -38231,7 +38557,7 @@
             "startedAt": "2026-09-30",
             "query": "락토핏",
             "firstCollectedAt": "2026-10-07T03:20:20+00:00",
-            "lastCollectedAt": "2026-10-07T03:20:20+00:00",
+            "lastCollectedAt": "2026-10-09T22:20:27+00:00",
             "startTiming": "before-window"
           },
           {
@@ -38240,17 +38566,89 @@
             "startedAt": "2026-09-28",
             "query": "락토핏",
             "firstCollectedAt": "2026-10-07T03:19:22+00:00",
-            "lastCollectedAt": "2026-10-07T03:19:22+00:00",
+            "lastCollectedAt": "2026-10-09T22:20:27+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1583948576758917",
-            "advertiser": "Thailoveshop",
-            "startedAt": "2026-08-20",
+            "id": "3658500397642592",
+            "advertiser": "종근당건강",
+            "startedAt": "2026-09-09",
             "query": "락토핏",
-            "firstCollectedAt": "2026-10-07T03:18:22+00:00",
-            "lastCollectedAt": "2026-10-07T03:18:22+00:00",
+            "firstCollectedAt": "2026-10-09T22:19:31+00:00",
+            "lastCollectedAt": "2026-10-09T22:19:31+00:00",
             "startTiming": "before-window"
+          },
+          {
+            "id": "1744735230131991",
+            "advertiser": "종근당건강",
+            "startedAt": "2026-09-01",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-09T22:19:31+00:00",
+            "lastCollectedAt": "2026-10-09T22:19:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1620320429499017",
+            "advertiser": "종근당건강",
+            "startedAt": "2026-10-05",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-09T22:19:31+00:00",
+            "lastCollectedAt": "2026-10-09T22:19:31+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1380297994268690",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-30",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-07T03:17:11+00:00",
+            "lastCollectedAt": "2026-10-09T22:19:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1482381090369619",
+            "advertiser": "LACTOFIT_official",
+            "startedAt": "2026-09-30",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-09T22:19:29+00:00",
+            "lastCollectedAt": "2026-10-09T22:19:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3089019388105813",
+            "advertiser": "종근당건강",
+            "startedAt": "2026-10-05",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-09T22:19:28+00:00",
+            "lastCollectedAt": "2026-10-09T22:19:28+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1499972095498930",
+            "advertiser": "온누리쇼핑",
+            "startedAt": "2026-08-31",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-07T03:17:10+00:00",
+            "lastCollectedAt": "2026-10-09T22:19:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1110527834760284",
+            "advertiser": "종근당건강",
+            "startedAt": "2026-09-09",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-09T22:19:25+00:00",
+            "lastCollectedAt": "2026-10-09T22:19:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1086917614035492",
+            "advertiser": "롯데면세점",
+            "startedAt": "2026-10-01",
+            "query": "락토핏",
+            "firstCollectedAt": "2026-10-07T03:21:18+00:00",
+            "lastCollectedAt": "2026-10-07T03:21:18+00:00",
+            "startTiming": "during-window"
           },
           {
             "id": "28444944718447887",
@@ -38334,24 +38732,6 @@
             "startTiming": "before-window"
           },
           {
-            "id": "1380297994268690",
-            "advertiser": "쿠팡 Coupang",
-            "startedAt": "2026-09-30",
-            "query": "락토핏",
-            "firstCollectedAt": "2026-10-07T03:17:11+00:00",
-            "lastCollectedAt": "2026-10-07T03:17:11+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1499972095498930",
-            "advertiser": "온누리쇼핑",
-            "startedAt": "2026-08-31",
-            "query": "락토핏",
-            "firstCollectedAt": "2026-10-07T03:17:10+00:00",
-            "lastCollectedAt": "2026-10-07T03:17:10+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "1625829418982690",
             "advertiser": "종근당건강",
             "startedAt": "2026-09-30",
@@ -38370,15 +38750,31 @@
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-07T03:21:18+00:00",
+        "lastCollectedAt": "2026-10-09T22:24:15+00:00",
         "advertisers": [
           {
             "name": "종근당건강",
-            "adCount": 8
+            "adCount": 26
           },
           {
             "name": "쿠팡 Coupang",
+            "adCount": 8
+          },
+          {
+            "name": "LACTOFIT_official",
+            "adCount": 4
+          },
+          {
+            "name": "리라랩 ReLa.LAB",
             "adCount": 3
+          },
+          {
+            "name": "ร้านอารินช๊อป아린샵เสื้อผ้าแฟชั้นแดกูชางกิดง",
+            "adCount": 2
+          },
+          {
+            "name": "온누리쇼핑",
+            "adCount": 2
           },
           {
             "name": "7-11เซเว่นไทย ในเกาหลี - เพจใหม่",
@@ -38390,6 +38786,14 @@
           },
           {
             "name": "Jiae.ss",
+            "adCount": 1
+          },
+          {
+            "name": "Love.review",
+            "adCount": 1
+          },
+          {
+            "name": "Naverplus.store",
             "adCount": 1
           },
           {
@@ -38409,11 +38813,19 @@
             "adCount": 1
           },
           {
-            "name": "온누리쇼핑",
+            "name": "상품",
+            "adCount": 1
+          },
+          {
+            "name": "장수빈",
             "adCount": 1
           },
           {
             "name": "종근당건강 아이커",
+            "adCount": 1
+          },
+          {
+            "name": "투스이즈실버",
             "adCount": 1
           }
         ],
