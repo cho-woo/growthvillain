@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T10:20:50+00:00",
+  "updatedAt": "2026-10-09T10:23:35+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-09T01:05:24+00:00",
@@ -43,20 +43,20 @@
     "backlogDays": 14,
     "dailyUsed": 30,
     "dailyRemaining": 258,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-09T11:23:35+00:00",
     "metaAutoEnabled": true,
-    "enabled": true,
+    "enabled": false,
     "collectionGuard": {
-      "state": "ready",
-      "reason": null,
-      "nextAllowedAt": null,
-      "blockedUntil": null,
-      "blockStreak": 0,
+      "state": "blocked",
+      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
+      "nextAllowedAt": "2026-10-09T11:23:35+00:00",
+      "blockedUntil": "2026-10-09T11:23:35+00:00",
+      "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": null
+    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
   },
   "settings": {
     "category": "50000023",
@@ -6255,7 +6255,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "failed",
       "keywordId": "1fea3b66e9cf32c350f443cebd2424e5686b7881bc5c18b205b3abf9dce2deef",
       "searchQuery": "무궁화핏600x",
       "adEvidence": {
@@ -10640,7 +10640,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:05:24+00:00",
       "lastObservedAt": "2026-10-09T01:05:24+00:00",
-      "state": "queued",
+      "state": "failed",
       "keywordId": "1fea3b66e9cf32c350f443cebd2424e5686b7881bc5c18b205b3abf9dce2deef",
       "searchQuery": "무궁화핏600x",
       "adEvidence": {
