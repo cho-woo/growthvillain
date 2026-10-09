@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T00:21:57+00:00",
+  "updatedAt": "2026-10-09T00:23:55+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-09T00:04:15+00:00",
@@ -41,8 +41,8 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 21,
-    "dailyRemaining": 267,
+    "dailyUsed": 22,
+    "dailyRemaining": 266,
     "pending": 1,
     "nextDispatchAt": null,
     "metaAutoEnabled": true,
@@ -5864,17 +5864,1156 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "0dc3160ca2edbe2c1d5513195cf90d486a0c41086b748f94f74ebe44a5c50186",
       "searchQuery": "베르베린",
       "adEvidence": {
         "query": "베르베린",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 100,
+        "adIds": [
+          "1550142560471098",
+          "1359289062714826",
+          "1121074883815161",
+          "4808387092780383",
+          "1567504571364403",
+          "1838634453930750",
+          "1437954284972236",
+          "1636118031283252",
+          "1459556622738265",
+          "1401024351657131",
+          "1128402559528650",
+          "1137277822202291",
+          "1037923529286462",
+          "1335073838552537",
+          "1119635523924874",
+          "1102379265612575",
+          "1713416589764051",
+          "4627523564127450",
+          "1068706495979121",
+          "1062772420094032",
+          "2348420275962551",
+          "1619192926665247",
+          "1088206704109598",
+          "2015828419095039",
+          "1738045213979468",
+          "1092315917017840",
+          "1586758369065309",
+          "1487625006535990",
+          "2497283994089044",
+          "1062428429931253",
+          "1549312630213788",
+          "1123493670198917",
+          "1117179827428175",
+          "1002110439575862",
+          "1816171873140595",
+          "1624796239033951",
+          "1149270547455293",
+          "2843198666080764",
+          "1632080285081794",
+          "1106562205358303",
+          "996793676771717",
+          "29008773628728010",
+          "1129914626052960",
+          "1103886405838559",
+          "28153987674303032",
+          "1534103695403260",
+          "2496288040883511",
+          "1755966542186982",
+          "924912027089706",
+          "1405198511770403",
+          "1854681745565942",
+          "965539543258583",
+          "2351799312228111",
+          "1781382656435463",
+          "4685513008355924",
+          "2313499292895298",
+          "1435614495053069",
+          "1089653640370256",
+          "2055271918425984",
+          "1633244405170668",
+          "2866861667014258",
+          "1816902942880268",
+          "1036889659369286",
+          "28456702887343987",
+          "1720678866731296",
+          "1062926866350046",
+          "1804186890772754",
+          "1398933199062214",
+          "1077761008440153",
+          "1061590526767050",
+          "2685176658546117",
+          "2878606922518696",
+          "3988763488085643",
+          "2914796552209918",
+          "1065671282758465",
+          "1742645504527935",
+          "1695692264843957",
+          "1481640847078181",
+          "3006013706397566",
+          "2251268665449162",
+          "3530096340501501",
+          "2575772996187237",
+          "1431725938891499",
+          "1085205450932098",
+          "1660017772310730",
+          "1535889367761022",
+          "1344782080953215",
+          "27805109772491476",
+          "1759206815289510",
+          "1071256588874652",
+          "4454245354845654",
+          "1761849821620247",
+          "1059098256886049",
+          "2395461430982535",
+          "1709829856768455",
+          "1568620331323621",
+          "936893462175980",
+          "2203338063730515",
+          "1635183857770768",
+          "1474508780892153"
+        ],
+        "ads": [
+          {
+            "id": "1550142560471098",
+            "advertiser": "바디라인연구소",
+            "startedAt": "2026-10-08",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:42+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:42+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1359289062714826",
+            "advertiser": "바인스튜디오 Binestudio",
+            "startedAt": "2026-10-07",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:42+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:42+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1121074883815161",
+            "advertiser": "Breeze Living Mart",
+            "startedAt": "2026-10-03",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:42+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:42+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4808387092780383",
+            "advertiser": "حِمْيَةيم",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:41+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1567504571364403",
+            "advertiser": "Breeze Living Mart",
+            "startedAt": "2026-10-02",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:41+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:41+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1838634453930750",
+            "advertiser": "더블디 바이오",
+            "startedAt": "2026-10-01",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:40+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:40+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1437954284972236",
+            "advertiser": "And i",
+            "startedAt": "2026-10-08",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:40+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:40+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1636118031283252",
+            "advertiser": "حِمْيَةيم",
+            "startedAt": "2026-10-07",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:39+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:39+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1459556622738265",
+            "advertiser": "حِمْيَةيم",
+            "startedAt": "2026-09-29",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:39+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1401024351657131",
+            "advertiser": "바디라인연구소",
+            "startedAt": "2026-10-07",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:39+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:39+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1128402559528650",
+            "advertiser": "And i",
+            "startedAt": "2026-10-08",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:30+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:30+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1137277822202291",
+            "advertiser": "حِمْيَةيم",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:29+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1037923529286462",
+            "advertiser": "바디라인연구소",
+            "startedAt": "2026-10-07",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:29+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:29+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1335073838552537",
+            "advertiser": "",
+            "startedAt": "2026-10-07",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:28+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:28+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1119635523924874",
+            "advertiser": "바디라인연구소",
+            "startedAt": "2026-10-07",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:28+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:28+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1102379265612575",
+            "advertiser": "Breeze Living Mart",
+            "startedAt": "2026-10-02",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:28+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:28+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1713416589764051",
+            "advertiser": "And i",
+            "startedAt": "2026-10-05",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:27+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:27+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4627523564127450",
+            "advertiser": "حِمْيَةيم",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:26+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1068706495979121",
+            "advertiser": "GC 녹십자웰빙",
+            "startedAt": "2026-10-07",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:26+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:26+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1062772420094032",
+            "advertiser": "더블디 바이오",
+            "startedAt": "2026-10-01",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:26+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:26+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2348420275962551",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:17+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1619192926665247",
+            "advertiser": "Breeze Living Mart",
+            "startedAt": "2026-10-01",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:17+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:17+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1088206704109598",
+            "advertiser": "더블디 바이오",
+            "startedAt": "2026-10-01",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:17+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:17+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2015828419095039",
+            "advertiser": "حِمْيَةيم",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:16+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1738045213979468",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:16+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1092315917017840",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-09-27",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:16+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1586758369065309",
+            "advertiser": "Breeze Living Mart",
+            "startedAt": "2026-10-01",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:15+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:15+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1487625006535990",
+            "advertiser": "حِمْيَةيم",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:15+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2497283994089044",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:14+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1062428429931253",
+            "advertiser": "And i",
+            "startedAt": "2026-10-05",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:14+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:14+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1549312630213788",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:06+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1123493670198917",
+            "advertiser": "효효",
+            "startedAt": "2026-10-07",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:06+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:06+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1117179827428175",
+            "advertiser": "셀럽들의 건강꿀팁",
+            "startedAt": "2026-10-07",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:05+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:05+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1002110439575862",
+            "advertiser": "And i",
+            "startedAt": "2026-10-05",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:05+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:05+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1816171873140595",
+            "advertiser": "Breeze Living Mart",
+            "startedAt": "2026-10-01",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:04+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:04+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1624796239033951",
+            "advertiser": "피코링",
+            "startedAt": "2026-10-08",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:04+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:04+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1149270547455293",
+            "advertiser": "And i",
+            "startedAt": "2026-10-05",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:04+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:04+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2843198666080764",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:03+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1632080285081794",
+            "advertiser": "와디즈 펀딩",
+            "startedAt": "2026-10-08",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:03+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:03+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1106562205358303",
+            "advertiser": "Buildus 빌더스",
+            "startedAt": "2026-10-06",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:03+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:03+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "996793676771717",
+            "advertiser": "건강연구소 그루비어스",
+            "startedAt": "2026-10-06",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:55+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:55+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "29008773628728010",
+            "advertiser": "And i",
+            "startedAt": "2026-09-21",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:55+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1129914626052960",
+            "advertiser": "생활의달인",
+            "startedAt": "2026-10-06",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:54+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1103886405838559",
+            "advertiser": "여우들의 비밀정보",
+            "startedAt": "2026-10-08",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:54+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:54+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "28153987674303032",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:53+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1534103695403260",
+            "advertiser": "Breeze Living Mart",
+            "startedAt": "2026-10-01",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:53+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:53+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2496288040883511",
+            "advertiser": "셀럽들의 건강꿀팁",
+            "startedAt": "2026-10-07",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:52+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:52+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1755966542186982",
+            "advertiser": "러브약사",
+            "startedAt": "2026-10-06",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:52+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:52+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "924912027089706",
+            "advertiser": "And i",
+            "startedAt": "2026-10-05",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:51+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:51+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1405198511770403",
+            "advertiser": "김약사TV",
+            "startedAt": "2026-10-07",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:50+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:50+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1854681745565942",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:43+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "965539543258583",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:42+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2351799312228111",
+            "advertiser": "웰니스 픽",
+            "startedAt": "2026-09-29",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:42+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1781382656435463",
+            "advertiser": "와디즈 펀딩",
+            "startedAt": "2026-10-08",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:42+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:42+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "4685513008355924",
+            "advertiser": "ꔌપય",
+            "startedAt": "2026-08-11",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:41+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2313499292895298",
+            "advertiser": "저스트글로우",
+            "startedAt": "2026-09-08",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:41+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1435614495053069",
+            "advertiser": "Sand Orchid Mart",
+            "startedAt": "2026-08-15",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:41+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1089653640370256",
+            "advertiser": "spring_pharmy",
+            "startedAt": "2026-10-06",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:40+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:40+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2055271918425984",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:38+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1633244405170668",
+            "advertiser": "와디즈 펀딩",
+            "startedAt": "2026-10-08",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:38+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:38+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "2866861667014258",
+            "advertiser": "프로리뷰어",
+            "startedAt": "2026-08-26",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:31+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1816902942880268",
+            "advertiser": "건강연구소 그루비어스",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:31+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1036889659369286",
+            "advertiser": "하루건강",
+            "startedAt": "2026-09-30",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:30+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28456702887343987",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-09-27",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:29+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1720678866731296",
+            "advertiser": "Yaksasum Connected Page",
+            "startedAt": "2026-10-06",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:29+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:29+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1062926866350046",
+            "advertiser": "حِمْيَةيم",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:29+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1804186890772754",
+            "advertiser": "바디라인연구소",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:28+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1398933199062214",
+            "advertiser": "더블디 바이오",
+            "startedAt": "2026-10-01",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:28+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:28+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1077761008440153",
+            "advertiser": "yaksamom",
+            "startedAt": "2026-09-30",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:28+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1061590526767050",
+            "advertiser": "프로리뷰어",
+            "startedAt": "2026-09-01",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:27+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2685176658546117",
+            "advertiser": "웰니스 픽",
+            "startedAt": "2026-09-29",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:21+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2878606922518696",
+            "advertiser": "And i",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:20+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3988763488085643",
+            "advertiser": "Dîdaofficial",
+            "startedAt": "2026-09-21",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:19+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2914796552209918",
+            "advertiser": "Sand Orchid Mart",
+            "startedAt": "2026-08-15",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:19+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1065671282758465",
+            "advertiser": "웰니스 픽",
+            "startedAt": "2026-09-29",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:19+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1742645504527935",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:18+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1695692264843957",
+            "advertiser": "저스트글로우",
+            "startedAt": "2026-08-26",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:18+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1481640847078181",
+            "advertiser": "Wispharmacist Connected Page",
+            "startedAt": "2026-09-30",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:18+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3006013706397566",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:17+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2251268665449162",
+            "advertiser": "저스트글로우",
+            "startedAt": "2026-09-11",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:17+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3530096340501501",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-09-27",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:13+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2575772996187237",
+            "advertiser": "저스트글로우",
+            "startedAt": "2026-08-26",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:12+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1431725938891499",
+            "advertiser": "GC 녹십자웰빙",
+            "startedAt": "2026-09-30",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:12+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1085205450932098",
+            "advertiser": "약사가만든 브랜드, 영롱",
+            "startedAt": "2026-09-30",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:12+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1660017772310730",
+            "advertiser": "저스트글로우",
+            "startedAt": "2026-09-11",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:11+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1535889367761022",
+            "advertiser": "저스트글로우",
+            "startedAt": "2026-08-26",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:11+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1344782080953215",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-06",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:11+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27805109772491476",
+            "advertiser": "뷰니스 Beauness",
+            "startedAt": "2026-08-24",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:10+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1759206815289510",
+            "advertiser": "저스트글로우",
+            "startedAt": "2026-08-26",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:10+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1071256588874652",
+            "advertiser": "더블디 바이오",
+            "startedAt": "2026-10-03",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:10+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:10+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4454245354845654",
+            "advertiser": "내 몸 사용설명서 2.0",
+            "startedAt": "2026-07-22",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:05+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1761849821620247",
+            "advertiser": "",
+            "startedAt": "2026-08-20",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:05+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1059098256886049",
+            "advertiser": "저스트글로우",
+            "startedAt": "2026-09-16",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:05+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2395461430982535",
+            "advertiser": "Dîdaofficial",
+            "startedAt": "2026-09-16",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:04+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1709829856768455",
+            "advertiser": "저스트글로우",
+            "startedAt": "2026-08-26",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:04+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1568620331323621",
+            "advertiser": "내 몸 사용설명서 2.0",
+            "startedAt": "2026-07-14",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:04+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "936893462175980",
+            "advertiser": "iHerb.com Korean",
+            "startedAt": "2026-03-13",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:03+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2203338063730515",
+            "advertiser": "Dîdaofficial",
+            "startedAt": "2026-09-16",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:03+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1635183857770768",
+            "advertiser": "내 몸 사용설명서 2.0",
+            "startedAt": "2026-05-19",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:03+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1474508780892153",
+            "advertiser": "저스트글로우",
+            "startedAt": "2026-08-26",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:02+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:02+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-09T00:23:42+00:00",
+        "advertisers": [
+          {
+            "name": "얼라이브 ALIVE",
+            "adCount": 14
+          },
+          {
+            "name": "저스트글로우",
+            "adCount": 10
+          },
+          {
+            "name": "And i",
+            "adCount": 9
+          },
+          {
+            "name": "حِمْيَةيم",
+            "adCount": 8
+          },
+          {
+            "name": "Breeze Living Mart",
+            "adCount": 7
+          },
+          {
+            "name": "더블디 바이오",
+            "adCount": 5
+          },
+          {
+            "name": "바디라인연구소",
+            "adCount": 5
+          },
+          {
+            "name": "Dîdaofficial",
+            "adCount": 3
+          },
+          {
+            "name": "내 몸 사용설명서 2.0",
+            "adCount": 3
+          },
+          {
+            "name": "와디즈 펀딩",
+            "adCount": 3
+          },
+          {
+            "name": "웰니스 픽",
+            "adCount": 3
+          },
+          {
+            "name": "GC 녹십자웰빙",
+            "adCount": 2
+          },
+          {
+            "name": "Sand Orchid Mart",
+            "adCount": 2
+          },
+          {
+            "name": "건강연구소 그루비어스",
+            "adCount": 2
+          },
+          {
+            "name": "셀럽들의 건강꿀팁",
+            "adCount": 2
+          },
+          {
+            "name": "프로리뷰어",
+            "adCount": 2
+          },
+          {
+            "name": "Buildus 빌더스",
+            "adCount": 1
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 1
+          },
+          {
+            "name": "Wispharmacist Connected Page",
+            "adCount": 1
+          },
+          {
+            "name": "Yaksasum Connected Page",
+            "adCount": 1
+          },
+          {
+            "name": "iHerb.com Korean",
+            "adCount": 1
+          },
+          {
+            "name": "spring_pharmy",
+            "adCount": 1
+          },
+          {
+            "name": "yaksamom",
+            "adCount": 1
+          },
+          {
+            "name": "ꔌપય",
+            "adCount": 1
+          },
+          {
+            "name": "김약사TV",
+            "adCount": 1
+          },
+          {
+            "name": "러브약사",
+            "adCount": 1
+          },
+          {
+            "name": "바인스튜디오 Binestudio",
+            "adCount": 1
+          },
+          {
+            "name": "뷰니스 Beauness",
+            "adCount": 1
+          },
+          {
+            "name": "생활의달인",
+            "adCount": 1
+          },
+          {
+            "name": "약사가만든 브랜드, 영롱",
+            "adCount": 1
+          },
+          {
+            "name": "여우들의 비밀정보",
+            "adCount": 1
+          },
+          {
+            "name": "피코링",
+            "adCount": 1
+          },
+          {
+            "name": "하루건강",
+            "adCount": 1
+          },
+          {
+            "name": "효효",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
@@ -5896,7 +7035,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "0acd2b2f2a45e603976c6cce33216ea0d24b33d6e9d18e26a7029354923987f5",
       "searchQuery": "루테인",
       "adEvidence": {
@@ -17766,7 +18905,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-09T00:03:32+00:00",
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "0acd2b2f2a45e603976c6cce33216ea0d24b33d6e9d18e26a7029354923987f5",
       "searchQuery": "루테인",
       "adEvidence": {
@@ -17944,17 +19083,1156 @@
       "rankWindow": 100,
       "observedAt": "2026-10-08T00:20:01+00:00",
       "lastObservedAt": "2026-10-09T00:03:32+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "0dc3160ca2edbe2c1d5513195cf90d486a0c41086b748f94f74ebe44a5c50186",
       "searchQuery": "베르베린",
       "adEvidence": {
         "query": "베르베린",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 100,
+        "adIds": [
+          "1550142560471098",
+          "1359289062714826",
+          "1121074883815161",
+          "4808387092780383",
+          "1567504571364403",
+          "1838634453930750",
+          "1437954284972236",
+          "1636118031283252",
+          "1459556622738265",
+          "1401024351657131",
+          "1128402559528650",
+          "1137277822202291",
+          "1037923529286462",
+          "1335073838552537",
+          "1119635523924874",
+          "1102379265612575",
+          "1713416589764051",
+          "4627523564127450",
+          "1068706495979121",
+          "1062772420094032",
+          "2348420275962551",
+          "1619192926665247",
+          "1088206704109598",
+          "2015828419095039",
+          "1738045213979468",
+          "1092315917017840",
+          "1586758369065309",
+          "1487625006535990",
+          "2497283994089044",
+          "1062428429931253",
+          "1549312630213788",
+          "1123493670198917",
+          "1117179827428175",
+          "1002110439575862",
+          "1816171873140595",
+          "1624796239033951",
+          "1149270547455293",
+          "2843198666080764",
+          "1632080285081794",
+          "1106562205358303",
+          "996793676771717",
+          "29008773628728010",
+          "1129914626052960",
+          "1103886405838559",
+          "28153987674303032",
+          "1534103695403260",
+          "2496288040883511",
+          "1755966542186982",
+          "924912027089706",
+          "1405198511770403",
+          "1854681745565942",
+          "965539543258583",
+          "2351799312228111",
+          "1781382656435463",
+          "4685513008355924",
+          "2313499292895298",
+          "1435614495053069",
+          "1089653640370256",
+          "2055271918425984",
+          "1633244405170668",
+          "2866861667014258",
+          "1816902942880268",
+          "1036889659369286",
+          "28456702887343987",
+          "1720678866731296",
+          "1062926866350046",
+          "1804186890772754",
+          "1398933199062214",
+          "1077761008440153",
+          "1061590526767050",
+          "2685176658546117",
+          "2878606922518696",
+          "3988763488085643",
+          "2914796552209918",
+          "1065671282758465",
+          "1742645504527935",
+          "1695692264843957",
+          "1481640847078181",
+          "3006013706397566",
+          "2251268665449162",
+          "3530096340501501",
+          "2575772996187237",
+          "1431725938891499",
+          "1085205450932098",
+          "1660017772310730",
+          "1535889367761022",
+          "1344782080953215",
+          "27805109772491476",
+          "1759206815289510",
+          "1071256588874652",
+          "4454245354845654",
+          "1761849821620247",
+          "1059098256886049",
+          "2395461430982535",
+          "1709829856768455",
+          "1568620331323621",
+          "936893462175980",
+          "2203338063730515",
+          "1635183857770768",
+          "1474508780892153"
+        ],
+        "ads": [
+          {
+            "id": "1550142560471098",
+            "advertiser": "바디라인연구소",
+            "startedAt": "2026-10-08",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:42+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:42+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1359289062714826",
+            "advertiser": "바인스튜디오 Binestudio",
+            "startedAt": "2026-10-07",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:42+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:42+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1121074883815161",
+            "advertiser": "Breeze Living Mart",
+            "startedAt": "2026-10-03",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:42+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:42+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4808387092780383",
+            "advertiser": "حِمْيَةيم",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:41+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1567504571364403",
+            "advertiser": "Breeze Living Mart",
+            "startedAt": "2026-10-02",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:41+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:41+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1838634453930750",
+            "advertiser": "더블디 바이오",
+            "startedAt": "2026-10-01",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:40+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:40+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1437954284972236",
+            "advertiser": "And i",
+            "startedAt": "2026-10-08",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:40+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:40+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1636118031283252",
+            "advertiser": "حِمْيَةيم",
+            "startedAt": "2026-10-07",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:39+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:39+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1459556622738265",
+            "advertiser": "حِمْيَةيم",
+            "startedAt": "2026-09-29",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:39+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1401024351657131",
+            "advertiser": "바디라인연구소",
+            "startedAt": "2026-10-07",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:39+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:39+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1128402559528650",
+            "advertiser": "And i",
+            "startedAt": "2026-10-08",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:30+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:30+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1137277822202291",
+            "advertiser": "حِمْيَةيم",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:29+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1037923529286462",
+            "advertiser": "바디라인연구소",
+            "startedAt": "2026-10-07",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:29+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:29+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1335073838552537",
+            "advertiser": "",
+            "startedAt": "2026-10-07",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:28+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:28+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1119635523924874",
+            "advertiser": "바디라인연구소",
+            "startedAt": "2026-10-07",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:28+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:28+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1102379265612575",
+            "advertiser": "Breeze Living Mart",
+            "startedAt": "2026-10-02",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:28+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:28+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1713416589764051",
+            "advertiser": "And i",
+            "startedAt": "2026-10-05",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:27+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:27+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4627523564127450",
+            "advertiser": "حِمْيَةيم",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:26+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1068706495979121",
+            "advertiser": "GC 녹십자웰빙",
+            "startedAt": "2026-10-07",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:26+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:26+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1062772420094032",
+            "advertiser": "더블디 바이오",
+            "startedAt": "2026-10-01",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:26+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:26+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2348420275962551",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:17+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1619192926665247",
+            "advertiser": "Breeze Living Mart",
+            "startedAt": "2026-10-01",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:17+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:17+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1088206704109598",
+            "advertiser": "더블디 바이오",
+            "startedAt": "2026-10-01",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:17+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:17+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2015828419095039",
+            "advertiser": "حِمْيَةيم",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:16+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1738045213979468",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:16+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1092315917017840",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-09-27",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:16+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1586758369065309",
+            "advertiser": "Breeze Living Mart",
+            "startedAt": "2026-10-01",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:15+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:15+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1487625006535990",
+            "advertiser": "حِمْيَةيم",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:15+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2497283994089044",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:14+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1062428429931253",
+            "advertiser": "And i",
+            "startedAt": "2026-10-05",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:14+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:14+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1549312630213788",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:06+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1123493670198917",
+            "advertiser": "효효",
+            "startedAt": "2026-10-07",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:06+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:06+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1117179827428175",
+            "advertiser": "셀럽들의 건강꿀팁",
+            "startedAt": "2026-10-07",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:05+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:05+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1002110439575862",
+            "advertiser": "And i",
+            "startedAt": "2026-10-05",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:05+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:05+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1816171873140595",
+            "advertiser": "Breeze Living Mart",
+            "startedAt": "2026-10-01",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:04+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:04+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1624796239033951",
+            "advertiser": "피코링",
+            "startedAt": "2026-10-08",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:04+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:04+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1149270547455293",
+            "advertiser": "And i",
+            "startedAt": "2026-10-05",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:04+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:04+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2843198666080764",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:03+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1632080285081794",
+            "advertiser": "와디즈 펀딩",
+            "startedAt": "2026-10-08",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:03+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:03+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1106562205358303",
+            "advertiser": "Buildus 빌더스",
+            "startedAt": "2026-10-06",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:23:03+00:00",
+            "lastCollectedAt": "2026-10-09T00:23:03+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "996793676771717",
+            "advertiser": "건강연구소 그루비어스",
+            "startedAt": "2026-10-06",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:55+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:55+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "29008773628728010",
+            "advertiser": "And i",
+            "startedAt": "2026-09-21",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:55+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1129914626052960",
+            "advertiser": "생활의달인",
+            "startedAt": "2026-10-06",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:54+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1103886405838559",
+            "advertiser": "여우들의 비밀정보",
+            "startedAt": "2026-10-08",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:54+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:54+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "28153987674303032",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:53+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1534103695403260",
+            "advertiser": "Breeze Living Mart",
+            "startedAt": "2026-10-01",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:53+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:53+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2496288040883511",
+            "advertiser": "셀럽들의 건강꿀팁",
+            "startedAt": "2026-10-07",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:52+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:52+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1755966542186982",
+            "advertiser": "러브약사",
+            "startedAt": "2026-10-06",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:52+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:52+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "924912027089706",
+            "advertiser": "And i",
+            "startedAt": "2026-10-05",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:51+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:51+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1405198511770403",
+            "advertiser": "김약사TV",
+            "startedAt": "2026-10-07",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:50+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:50+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1854681745565942",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:43+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "965539543258583",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:42+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2351799312228111",
+            "advertiser": "웰니스 픽",
+            "startedAt": "2026-09-29",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:42+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1781382656435463",
+            "advertiser": "와디즈 펀딩",
+            "startedAt": "2026-10-08",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:42+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:42+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "4685513008355924",
+            "advertiser": "ꔌપય",
+            "startedAt": "2026-08-11",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:41+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2313499292895298",
+            "advertiser": "저스트글로우",
+            "startedAt": "2026-09-08",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:41+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1435614495053069",
+            "advertiser": "Sand Orchid Mart",
+            "startedAt": "2026-08-15",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:41+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1089653640370256",
+            "advertiser": "spring_pharmy",
+            "startedAt": "2026-10-06",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:40+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:40+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2055271918425984",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:38+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1633244405170668",
+            "advertiser": "와디즈 펀딩",
+            "startedAt": "2026-10-08",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:38+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:38+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "2866861667014258",
+            "advertiser": "프로리뷰어",
+            "startedAt": "2026-08-26",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:31+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1816902942880268",
+            "advertiser": "건강연구소 그루비어스",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:31+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1036889659369286",
+            "advertiser": "하루건강",
+            "startedAt": "2026-09-30",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:30+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28456702887343987",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-09-27",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:29+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1720678866731296",
+            "advertiser": "Yaksasum Connected Page",
+            "startedAt": "2026-10-06",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:29+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:29+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1062926866350046",
+            "advertiser": "حِمْيَةيم",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:29+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1804186890772754",
+            "advertiser": "바디라인연구소",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:28+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1398933199062214",
+            "advertiser": "더블디 바이오",
+            "startedAt": "2026-10-01",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:28+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:28+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1077761008440153",
+            "advertiser": "yaksamom",
+            "startedAt": "2026-09-30",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:28+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1061590526767050",
+            "advertiser": "프로리뷰어",
+            "startedAt": "2026-09-01",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:27+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2685176658546117",
+            "advertiser": "웰니스 픽",
+            "startedAt": "2026-09-29",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:21+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2878606922518696",
+            "advertiser": "And i",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:20+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3988763488085643",
+            "advertiser": "Dîdaofficial",
+            "startedAt": "2026-09-21",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:19+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2914796552209918",
+            "advertiser": "Sand Orchid Mart",
+            "startedAt": "2026-08-15",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:19+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1065671282758465",
+            "advertiser": "웰니스 픽",
+            "startedAt": "2026-09-29",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:19+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1742645504527935",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:18+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1695692264843957",
+            "advertiser": "저스트글로우",
+            "startedAt": "2026-08-26",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:18+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1481640847078181",
+            "advertiser": "Wispharmacist Connected Page",
+            "startedAt": "2026-09-30",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:18+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3006013706397566",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-09-28",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:17+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2251268665449162",
+            "advertiser": "저스트글로우",
+            "startedAt": "2026-09-11",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:17+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3530096340501501",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-09-27",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:13+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2575772996187237",
+            "advertiser": "저스트글로우",
+            "startedAt": "2026-08-26",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:12+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1431725938891499",
+            "advertiser": "GC 녹십자웰빙",
+            "startedAt": "2026-09-30",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:12+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1085205450932098",
+            "advertiser": "약사가만든 브랜드, 영롱",
+            "startedAt": "2026-09-30",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:12+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1660017772310730",
+            "advertiser": "저스트글로우",
+            "startedAt": "2026-09-11",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:11+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1535889367761022",
+            "advertiser": "저스트글로우",
+            "startedAt": "2026-08-26",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:11+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1344782080953215",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-06",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:11+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27805109772491476",
+            "advertiser": "뷰니스 Beauness",
+            "startedAt": "2026-08-24",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:10+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1759206815289510",
+            "advertiser": "저스트글로우",
+            "startedAt": "2026-08-26",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:10+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1071256588874652",
+            "advertiser": "더블디 바이오",
+            "startedAt": "2026-10-03",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:10+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:10+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4454245354845654",
+            "advertiser": "내 몸 사용설명서 2.0",
+            "startedAt": "2026-07-22",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:05+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1761849821620247",
+            "advertiser": "",
+            "startedAt": "2026-08-20",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:05+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1059098256886049",
+            "advertiser": "저스트글로우",
+            "startedAt": "2026-09-16",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:05+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2395461430982535",
+            "advertiser": "Dîdaofficial",
+            "startedAt": "2026-09-16",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:04+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1709829856768455",
+            "advertiser": "저스트글로우",
+            "startedAt": "2026-08-26",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:04+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1568620331323621",
+            "advertiser": "내 몸 사용설명서 2.0",
+            "startedAt": "2026-07-14",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:04+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "936893462175980",
+            "advertiser": "iHerb.com Korean",
+            "startedAt": "2026-03-13",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:03+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2203338063730515",
+            "advertiser": "Dîdaofficial",
+            "startedAt": "2026-09-16",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:03+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1635183857770768",
+            "advertiser": "내 몸 사용설명서 2.0",
+            "startedAt": "2026-05-19",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:03+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1474508780892153",
+            "advertiser": "저스트글로우",
+            "startedAt": "2026-08-26",
+            "query": "베르베린",
+            "firstCollectedAt": "2026-10-09T00:22:02+00:00",
+            "lastCollectedAt": "2026-10-09T00:22:02+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-09T00:23:42+00:00",
+        "advertisers": [
+          {
+            "name": "얼라이브 ALIVE",
+            "adCount": 14
+          },
+          {
+            "name": "저스트글로우",
+            "adCount": 10
+          },
+          {
+            "name": "And i",
+            "adCount": 9
+          },
+          {
+            "name": "حِمْيَةيم",
+            "adCount": 8
+          },
+          {
+            "name": "Breeze Living Mart",
+            "adCount": 7
+          },
+          {
+            "name": "더블디 바이오",
+            "adCount": 5
+          },
+          {
+            "name": "바디라인연구소",
+            "adCount": 5
+          },
+          {
+            "name": "Dîdaofficial",
+            "adCount": 3
+          },
+          {
+            "name": "내 몸 사용설명서 2.0",
+            "adCount": 3
+          },
+          {
+            "name": "와디즈 펀딩",
+            "adCount": 3
+          },
+          {
+            "name": "웰니스 픽",
+            "adCount": 3
+          },
+          {
+            "name": "GC 녹십자웰빙",
+            "adCount": 2
+          },
+          {
+            "name": "Sand Orchid Mart",
+            "adCount": 2
+          },
+          {
+            "name": "건강연구소 그루비어스",
+            "adCount": 2
+          },
+          {
+            "name": "셀럽들의 건강꿀팁",
+            "adCount": 2
+          },
+          {
+            "name": "프로리뷰어",
+            "adCount": 2
+          },
+          {
+            "name": "Buildus 빌더스",
+            "adCount": 1
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 1
+          },
+          {
+            "name": "Wispharmacist Connected Page",
+            "adCount": 1
+          },
+          {
+            "name": "Yaksasum Connected Page",
+            "adCount": 1
+          },
+          {
+            "name": "iHerb.com Korean",
+            "adCount": 1
+          },
+          {
+            "name": "spring_pharmy",
+            "adCount": 1
+          },
+          {
+            "name": "yaksamom",
+            "adCount": 1
+          },
+          {
+            "name": "ꔌપય",
+            "adCount": 1
+          },
+          {
+            "name": "김약사TV",
+            "adCount": 1
+          },
+          {
+            "name": "러브약사",
+            "adCount": 1
+          },
+          {
+            "name": "바인스튜디오 Binestudio",
+            "adCount": 1
+          },
+          {
+            "name": "뷰니스 Beauness",
+            "adCount": 1
+          },
+          {
+            "name": "생활의달인",
+            "adCount": 1
+          },
+          {
+            "name": "약사가만든 브랜드, 영롱",
+            "adCount": 1
+          },
+          {
+            "name": "여우들의 비밀정보",
+            "adCount": 1
+          },
+          {
+            "name": "피코링",
+            "adCount": 1
+          },
+          {
+            "name": "하루건강",
+            "adCount": 1
+          },
+          {
+            "name": "효효",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
