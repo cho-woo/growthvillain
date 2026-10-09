@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T14:06:04+00:00",
+  "updatedAt": "2026-10-09T14:48:33+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-09T01:05:24+00:00",
@@ -41,22 +41,22 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 34,
-    "dailyRemaining": 254,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-09T14:48:29+00:00",
+    "dailyUsed": 35,
+    "dailyRemaining": 253,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
-    "enabled": false,
+    "enabled": true,
     "collectionGuard": {
-      "state": "blocked",
-      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
-      "nextAllowedAt": "2026-10-09T14:48:29+00:00",
-      "blockedUntil": "2026-10-09T14:48:29+00:00",
+      "state": "ready",
+      "reason": null,
+      "nextAllowedAt": null,
+      "blockedUntil": null,
       "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
+    "pausedReason": null
   },
   "settings": {
     "category": "50000023",
@@ -7579,7 +7579,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "queued",
       "keywordId": "88b9a603831dab58a65f5b55a806fea82ecadaad2c7076a9975206832424d42f",
       "searchQuery": "모발콜라겐",
       "adEvidence": {
@@ -11493,7 +11493,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:05:24+00:00",
       "lastObservedAt": "2026-10-09T01:05:24+00:00",
-      "state": "ready",
+      "state": "queued",
       "keywordId": "88b9a603831dab58a65f5b55a806fea82ecadaad2c7076a9975206832424d42f",
       "searchQuery": "모발콜라겐",
       "adEvidence": {
