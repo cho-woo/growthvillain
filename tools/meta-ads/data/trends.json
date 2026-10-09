@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T17:31:30+00:00",
+  "updatedAt": "2026-10-09T17:33:33+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-09T17:10:35+00:00",
@@ -43,8 +43,8 @@
     "backlogDays": 14,
     "dailyUsed": 4,
     "dailyRemaining": 284,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-09T17:36:30+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -6005,17 +6005,1180 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "411a9642a4f535a890a20e9c08c13fcc7c8ca227df1d41bb704b4f448940231e",
       "searchQuery": "맥주효모",
       "adEvidence": {
         "query": "맥주효모",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 100,
+        "adIds": [
+          "1560918598613047",
+          "1412734011005481",
+          "1266142945663549",
+          "1103654392413204",
+          "1083333684672689",
+          "3256173884543927",
+          "2478287852654635",
+          "2027356621277544",
+          "1095769156381734",
+          "1573389057625820",
+          "3377154029250715",
+          "1388967303249250",
+          "1374613827809680",
+          "1066497742943512",
+          "28359807180277687",
+          "1388915002685680",
+          "1042420745419348",
+          "3164172013974312",
+          "2257684688352327",
+          "1410961347850654",
+          "2305710200186665",
+          "2297685084397583",
+          "1400608548144780",
+          "1776796876864387",
+          "1493940139154545",
+          "4609872412628386",
+          "1241626195702346",
+          "1964631137827837",
+          "1082761177937423",
+          "1428931085854850",
+          "1722281848878363",
+          "2354203578652393",
+          "1604521800617501",
+          "28976074658650734",
+          "1379307034369135",
+          "2243690966422499",
+          "1075138431727005",
+          "1069873299159956",
+          "1247304724227393",
+          "1056926997104844",
+          "1113154517947318",
+          "1233153102362988",
+          "1073903988688496",
+          "1815406586470407",
+          "1420289810034478",
+          "1019016970517074",
+          "1693393028878128",
+          "1583188296515337",
+          "1061037813180227",
+          "955738053719500",
+          "1747447189914816",
+          "1632724015097377",
+          "1346841837207813",
+          "1091432750051594",
+          "3166571620201251",
+          "28964116433189990",
+          "2176342143288064",
+          "1309804717725974",
+          "1022948423752739",
+          "1118667760857297",
+          "1699819577983520",
+          "1052266841003098",
+          "1597763262012468",
+          "28786638840970765",
+          "1754015765905482",
+          "1534616172036562",
+          "1280464957576855",
+          "27842855328739189",
+          "1803643840820924",
+          "1733037557738499",
+          "1622688255868963",
+          "2481899545648555",
+          "1946293679350125",
+          "1560392992086695",
+          "3420061504824238",
+          "1644994286798214",
+          "1632968211562175",
+          "1568559215015757",
+          "1536344764730853",
+          "2395750177898774",
+          "1772363003572032",
+          "1527853932455329",
+          "1060337746782682",
+          "2332120107589485",
+          "1543890790771125",
+          "1135502699418524",
+          "880462158481801",
+          "1036539169057714",
+          "3938659743108614",
+          "1352533350256820",
+          "945988608451011",
+          "4489618677975825",
+          "2464884384035019",
+          "1109189054905992",
+          "2496794527465658",
+          "1378635480381508",
+          "2222645378517605",
+          "1813443413372644",
+          "1008716101914919",
+          "26511485725218939"
+        ],
+        "ads": [
+          {
+            "id": "1560918598613047",
+            "advertiser": "ESTROGROW",
+            "startedAt": "2026-09-18",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:24+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1412734011005481",
+            "advertiser": "바이브랩",
+            "startedAt": "2026-09-29",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:24+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1266142945663549",
+            "advertiser": "바이브랩",
+            "startedAt": "2026-09-29",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:23+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1103654392413204",
+            "advertiser": "천연약용식물 솔루션, yakdamcho",
+            "startedAt": "2026-10-06",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:23+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:23+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1083333684672689",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-10-08",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:23+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:23+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "3256173884543927",
+            "advertiser": "Dr.RAPHA-R",
+            "startedAt": "2026-06-30",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:22+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2478287852654635",
+            "advertiser": "Naaamyuuu",
+            "startedAt": "2026-10-06",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:22+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:22+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2027356621277544",
+            "advertiser": "Raip",
+            "startedAt": "2026-10-02",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:22+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:22+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1095769156381734",
+            "advertiser": "Haumstyle",
+            "startedAt": "2026-10-07",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:22+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:22+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1573389057625820",
+            "advertiser": "나인밀라",
+            "startedAt": "2026-08-04",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:21+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3377154029250715",
+            "advertiser": "쿤달 - Kundal",
+            "startedAt": "2026-09-30",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:09+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1388967303249250",
+            "advertiser": "뷰링",
+            "startedAt": "2026-08-24",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:09+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1374613827809680",
+            "advertiser": "에스트린750",
+            "startedAt": "2026-10-01",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:09+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1066497742943512",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-04",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:09+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28359807180277687",
+            "advertiser": "나인밀라",
+            "startedAt": "2026-08-18",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:08+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1388915002685680",
+            "advertiser": "Goldmmune",
+            "startedAt": "2026-09-02",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:08+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1042420745419348",
+            "advertiser": "바이브랩",
+            "startedAt": "2026-09-29",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:08+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3164172013974312",
+            "advertiser": "ESTROGROW",
+            "startedAt": "2026-09-18",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:07+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2257684688352327",
+            "advertiser": "Goldmmune",
+            "startedAt": "2026-09-03",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:07+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1410961347850654",
+            "advertiser": "Wellnessgirl12",
+            "startedAt": "2026-09-27",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:06+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2305710200186665",
+            "advertiser": "나인밀라",
+            "startedAt": "2026-09-29",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:58+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2297685084397583",
+            "advertiser": "나인밀라",
+            "startedAt": "2026-09-29",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:58+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1400608548144780",
+            "advertiser": "Raip",
+            "startedAt": "2026-09-08",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:58+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1776796876864387",
+            "advertiser": "헤어보톡스",
+            "startedAt": "2026-10-06",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:57+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:57+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1493940139154545",
+            "advertiser": "나인밀라",
+            "startedAt": "2026-08-07",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:57+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4609872412628386",
+            "advertiser": "나인밀라",
+            "startedAt": "2026-09-29",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:56+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1241626195702346",
+            "advertiser": "yoonkki_zalzal",
+            "startedAt": "2026-08-11",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:56+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1964631137827837",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-05",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:54+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1082761177937423",
+            "advertiser": "티타드 TITAD",
+            "startedAt": "2026-10-08",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:54+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1428931085854850",
+            "advertiser": "Naaamyuuu",
+            "startedAt": "2026-10-06",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:53+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:53+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1722281848878363",
+            "advertiser": "Essentera",
+            "startedAt": "2026-10-04",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:45+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:45+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2354203578652393",
+            "advertiser": "건강케어 전문가 케이세라퓨틱스-락토500",
+            "startedAt": "2026-09-21",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:44+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1604521800617501",
+            "advertiser": "투데이픽",
+            "startedAt": "2026-06-01",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:44+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28976074658650734",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-05",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:43+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1379307034369135",
+            "advertiser": "라누보La_nouvo",
+            "startedAt": "2026-09-20",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:43+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2243690966422499",
+            "advertiser": "",
+            "startedAt": "2026-09-29",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:42+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1075138431727005",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-04",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:42+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1069873299159956",
+            "advertiser": "나라모",
+            "startedAt": "2026-09-21",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:42+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1247304724227393",
+            "advertiser": "جمال طبيعي",
+            "startedAt": "2026-09-30",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:41+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1056926997104844",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-05",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:40+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1113154517947318",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-05",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:33+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1233153102362988",
+            "advertiser": "جمال طبيعي",
+            "startedAt": "2026-09-30",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:32+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1073903988688496",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-05",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:32+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1815406586470407",
+            "advertiser": "나인밀라",
+            "startedAt": "2026-09-14",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:31+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1420289810034478",
+            "advertiser": "베지어트",
+            "startedAt": "2026-10-02",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:31+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:31+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1019016970517074",
+            "advertiser": "Dr.RAPHA-R",
+            "startedAt": "2026-06-30",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:31+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1693393028878128",
+            "advertiser": "",
+            "startedAt": "2026-09-20",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:30+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1583188296515337",
+            "advertiser": "티타드 TITAD",
+            "startedAt": "2026-10-01",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:30+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1061037813180227",
+            "advertiser": "너만 모르는",
+            "startedAt": "2026-08-12",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:30+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "955738053719500",
+            "advertiser": "Essentera",
+            "startedAt": "2026-10-04",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:29+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:29+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1747447189914816",
+            "advertiser": "이것저것 리뷰",
+            "startedAt": "2026-08-12",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:21+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1632724015097377",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-10-08",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:21+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:21+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1346841837207813",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-08-26",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:20+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1091432750051594",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-04",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:20+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3166571620201251",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-05",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:19+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28964116433189990",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-05",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:19+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2176342143288064",
+            "advertiser": "جمال طبيعي",
+            "startedAt": "2026-10-02",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:18+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:18+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1309804717725974",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-04",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:18+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1022948423752739",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-09",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:18+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1118667760857297",
+            "advertiser": "Phm",
+            "startedAt": "2026-10-04",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:17+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:17+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1699819577983520",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-04",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:09+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1052266841003098",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-04",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:09+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1597763262012468",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-05",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:08+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28786638840970765",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-21",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:07+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1754015765905482",
+            "advertiser": "ESTROGROW",
+            "startedAt": "2026-09-18",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:07+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1534616172036562",
+            "advertiser": "정담건강",
+            "startedAt": "2026-09-20",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:07+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1280464957576855",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-28",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:07+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27842855328739189",
+            "advertiser": "이떠떠",
+            "startedAt": "2026-08-15",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:06+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1803643840820924",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-04",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:06+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1733037557738499",
+            "advertiser": "포뷰트-두피앰플",
+            "startedAt": "2026-07-21",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:06+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1622688255868963",
+            "advertiser": "정약사의 건강나눔",
+            "startedAt": "2026-09-29",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:59+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2481899545648555",
+            "advertiser": "Dr.RAPHA-R",
+            "startedAt": "2026-06-30",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:58+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1946293679350125",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-05",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:58+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1560392992086695",
+            "advertiser": "테크 인사이트",
+            "startedAt": "2026-06-29",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:58+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3420061504824238",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-09-28",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:57+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1644994286798214",
+            "advertiser": "이것저것 리뷰",
+            "startedAt": "2026-06-29",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:57+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1632968211562175",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-21",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:57+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1568559215015757",
+            "advertiser": "나인밀라",
+            "startedAt": "2026-08-04",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:57+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1536344764730853",
+            "advertiser": "투데이픽",
+            "startedAt": "2026-05-18",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:57+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2395750177898774",
+            "advertiser": "yoonkki_zalzal",
+            "startedAt": "2026-09-08",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:56+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1772363003572032",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-04",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:50+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1527853932455329",
+            "advertiser": "비웰",
+            "startedAt": "2026-06-22",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:50+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1060337746782682",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-05",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:50+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2332120107589485",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-21",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:49+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1543890790771125",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:49+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1135502699418524",
+            "advertiser": "",
+            "startedAt": "2026-09-22",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:49+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "880462158481801",
+            "advertiser": "나인밀라",
+            "startedAt": "2026-08-20",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:48+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1036539169057714",
+            "advertiser": "비웰",
+            "startedAt": "2026-06-22",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:48+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3938659743108614",
+            "advertiser": "투데이픽",
+            "startedAt": "2026-06-01",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:47+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1352533350256820",
+            "advertiser": "오제닉스",
+            "startedAt": "2026-08-26",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:47+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "945988608451011",
+            "advertiser": "Mozilab",
+            "startedAt": "2026-06-21",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:42+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4489618677975825",
+            "advertiser": "채은",
+            "startedAt": "2026-08-05",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:40+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2464884384035019",
+            "advertiser": "소소한푸념",
+            "startedAt": "2026-09-14",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:40+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1109189054905992",
+            "advertiser": "요즘핫한",
+            "startedAt": "2026-08-24",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:38+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2496794527465658",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-04",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:37+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1378635480381508",
+            "advertiser": "Essentera",
+            "startedAt": "2026-08-21",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:37+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2222645378517605",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-05",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:35+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1813443413372644",
+            "advertiser": "",
+            "startedAt": "2026-06-05",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:35+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1008716101914919",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:35+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "26511485725218939",
+            "advertiser": "힘가네",
+            "startedAt": "2026-05-16",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:34+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:34+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-09T17:33:24+00:00",
+        "advertisers": [
+          {
+            "name": "Ashrolen 애쉬로렌",
+            "adCount": 24
+          },
+          {
+            "name": "나인밀라",
+            "adCount": 9
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 7
+          },
+          {
+            "name": "Dr.RAPHA-R",
+            "adCount": 3
+          },
+          {
+            "name": "ESTROGROW",
+            "adCount": 3
+          },
+          {
+            "name": "Essentera",
+            "adCount": 3
+          },
+          {
+            "name": "جمال طبيعي",
+            "adCount": 3
+          },
+          {
+            "name": "바이브랩",
+            "adCount": 3
+          },
+          {
+            "name": "투데이픽",
+            "adCount": 3
+          },
+          {
+            "name": "Goldmmune",
+            "adCount": 2
+          },
+          {
+            "name": "Naaamyuuu",
+            "adCount": 2
+          },
+          {
+            "name": "Raip",
+            "adCount": 2
+          },
+          {
+            "name": "yoonkki_zalzal",
+            "adCount": 2
+          },
+          {
+            "name": "비웰",
+            "adCount": 2
+          },
+          {
+            "name": "이것저것 리뷰",
+            "adCount": 2
+          },
+          {
+            "name": "티타드 TITAD",
+            "adCount": 2
+          },
+          {
+            "name": "Haumstyle",
+            "adCount": 1
+          },
+          {
+            "name": "Mozilab",
+            "adCount": 1
+          },
+          {
+            "name": "Phm",
+            "adCount": 1
+          },
+          {
+            "name": "Wellnessgirl12",
+            "adCount": 1
+          },
+          {
+            "name": "건강케어 전문가 케이세라퓨틱스-락토500",
+            "adCount": 1
+          },
+          {
+            "name": "나라모",
+            "adCount": 1
+          },
+          {
+            "name": "너만 모르는",
+            "adCount": 1
+          },
+          {
+            "name": "라누보La_nouvo",
+            "adCount": 1
+          },
+          {
+            "name": "베지어트",
+            "adCount": 1
+          },
+          {
+            "name": "뷰링",
+            "adCount": 1
+          },
+          {
+            "name": "소소한푸념",
+            "adCount": 1
+          },
+          {
+            "name": "에스트린750",
+            "adCount": 1
+          },
+          {
+            "name": "오제닉스",
+            "adCount": 1
+          },
+          {
+            "name": "요즘핫한",
+            "adCount": 1
+          },
+          {
+            "name": "이떠떠",
+            "adCount": 1
+          },
+          {
+            "name": "정담건강",
+            "adCount": 1
+          },
+          {
+            "name": "정약사의 건강나눔",
+            "adCount": 1
+          },
+          {
+            "name": "채은",
+            "adCount": 1
+          },
+          {
+            "name": "천연약용식물 솔루션, yakdamcho",
+            "adCount": 1
+          },
+          {
+            "name": "쿤달 - Kundal",
+            "adCount": 1
+          },
+          {
+            "name": "테크 인사이트",
+            "adCount": 1
+          },
+          {
+            "name": "포뷰트-두피앰플",
+            "adCount": 1
+          },
+          {
+            "name": "헤어보톡스",
+            "adCount": 1
+          },
+          {
+            "name": "힘가네",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
@@ -20245,17 +21408,1180 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:04:53+00:00",
       "lastObservedAt": "2026-10-09T17:09:52+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "411a9642a4f535a890a20e9c08c13fcc7c8ca227df1d41bb704b4f448940231e",
       "searchQuery": "맥주효모",
       "adEvidence": {
         "query": "맥주효모",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 100,
+        "adIds": [
+          "1560918598613047",
+          "1412734011005481",
+          "1266142945663549",
+          "1103654392413204",
+          "1083333684672689",
+          "3256173884543927",
+          "2478287852654635",
+          "2027356621277544",
+          "1095769156381734",
+          "1573389057625820",
+          "3377154029250715",
+          "1388967303249250",
+          "1374613827809680",
+          "1066497742943512",
+          "28359807180277687",
+          "1388915002685680",
+          "1042420745419348",
+          "3164172013974312",
+          "2257684688352327",
+          "1410961347850654",
+          "2305710200186665",
+          "2297685084397583",
+          "1400608548144780",
+          "1776796876864387",
+          "1493940139154545",
+          "4609872412628386",
+          "1241626195702346",
+          "1964631137827837",
+          "1082761177937423",
+          "1428931085854850",
+          "1722281848878363",
+          "2354203578652393",
+          "1604521800617501",
+          "28976074658650734",
+          "1379307034369135",
+          "2243690966422499",
+          "1075138431727005",
+          "1069873299159956",
+          "1247304724227393",
+          "1056926997104844",
+          "1113154517947318",
+          "1233153102362988",
+          "1073903988688496",
+          "1815406586470407",
+          "1420289810034478",
+          "1019016970517074",
+          "1693393028878128",
+          "1583188296515337",
+          "1061037813180227",
+          "955738053719500",
+          "1747447189914816",
+          "1632724015097377",
+          "1346841837207813",
+          "1091432750051594",
+          "3166571620201251",
+          "28964116433189990",
+          "2176342143288064",
+          "1309804717725974",
+          "1022948423752739",
+          "1118667760857297",
+          "1699819577983520",
+          "1052266841003098",
+          "1597763262012468",
+          "28786638840970765",
+          "1754015765905482",
+          "1534616172036562",
+          "1280464957576855",
+          "27842855328739189",
+          "1803643840820924",
+          "1733037557738499",
+          "1622688255868963",
+          "2481899545648555",
+          "1946293679350125",
+          "1560392992086695",
+          "3420061504824238",
+          "1644994286798214",
+          "1632968211562175",
+          "1568559215015757",
+          "1536344764730853",
+          "2395750177898774",
+          "1772363003572032",
+          "1527853932455329",
+          "1060337746782682",
+          "2332120107589485",
+          "1543890790771125",
+          "1135502699418524",
+          "880462158481801",
+          "1036539169057714",
+          "3938659743108614",
+          "1352533350256820",
+          "945988608451011",
+          "4489618677975825",
+          "2464884384035019",
+          "1109189054905992",
+          "2496794527465658",
+          "1378635480381508",
+          "2222645378517605",
+          "1813443413372644",
+          "1008716101914919",
+          "26511485725218939"
+        ],
+        "ads": [
+          {
+            "id": "1560918598613047",
+            "advertiser": "ESTROGROW",
+            "startedAt": "2026-09-18",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:24+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1412734011005481",
+            "advertiser": "바이브랩",
+            "startedAt": "2026-09-29",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:24+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1266142945663549",
+            "advertiser": "바이브랩",
+            "startedAt": "2026-09-29",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:23+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1103654392413204",
+            "advertiser": "천연약용식물 솔루션, yakdamcho",
+            "startedAt": "2026-10-06",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:23+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:23+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1083333684672689",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-10-08",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:23+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:23+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "3256173884543927",
+            "advertiser": "Dr.RAPHA-R",
+            "startedAt": "2026-06-30",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:22+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2478287852654635",
+            "advertiser": "Naaamyuuu",
+            "startedAt": "2026-10-06",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:22+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:22+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2027356621277544",
+            "advertiser": "Raip",
+            "startedAt": "2026-10-02",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:22+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:22+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1095769156381734",
+            "advertiser": "Haumstyle",
+            "startedAt": "2026-10-07",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:22+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:22+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1573389057625820",
+            "advertiser": "나인밀라",
+            "startedAt": "2026-08-04",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:21+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3377154029250715",
+            "advertiser": "쿤달 - Kundal",
+            "startedAt": "2026-09-30",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:09+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1388967303249250",
+            "advertiser": "뷰링",
+            "startedAt": "2026-08-24",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:09+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1374613827809680",
+            "advertiser": "에스트린750",
+            "startedAt": "2026-10-01",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:09+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1066497742943512",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-04",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:09+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28359807180277687",
+            "advertiser": "나인밀라",
+            "startedAt": "2026-08-18",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:08+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1388915002685680",
+            "advertiser": "Goldmmune",
+            "startedAt": "2026-09-02",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:08+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1042420745419348",
+            "advertiser": "바이브랩",
+            "startedAt": "2026-09-29",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:08+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3164172013974312",
+            "advertiser": "ESTROGROW",
+            "startedAt": "2026-09-18",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:07+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2257684688352327",
+            "advertiser": "Goldmmune",
+            "startedAt": "2026-09-03",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:07+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1410961347850654",
+            "advertiser": "Wellnessgirl12",
+            "startedAt": "2026-09-27",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:33:06+00:00",
+            "lastCollectedAt": "2026-10-09T17:33:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2305710200186665",
+            "advertiser": "나인밀라",
+            "startedAt": "2026-09-29",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:58+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2297685084397583",
+            "advertiser": "나인밀라",
+            "startedAt": "2026-09-29",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:58+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1400608548144780",
+            "advertiser": "Raip",
+            "startedAt": "2026-09-08",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:58+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1776796876864387",
+            "advertiser": "헤어보톡스",
+            "startedAt": "2026-10-06",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:57+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:57+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1493940139154545",
+            "advertiser": "나인밀라",
+            "startedAt": "2026-08-07",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:57+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4609872412628386",
+            "advertiser": "나인밀라",
+            "startedAt": "2026-09-29",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:56+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1241626195702346",
+            "advertiser": "yoonkki_zalzal",
+            "startedAt": "2026-08-11",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:56+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1964631137827837",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-05",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:54+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1082761177937423",
+            "advertiser": "티타드 TITAD",
+            "startedAt": "2026-10-08",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:54+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1428931085854850",
+            "advertiser": "Naaamyuuu",
+            "startedAt": "2026-10-06",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:53+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:53+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1722281848878363",
+            "advertiser": "Essentera",
+            "startedAt": "2026-10-04",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:45+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:45+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2354203578652393",
+            "advertiser": "건강케어 전문가 케이세라퓨틱스-락토500",
+            "startedAt": "2026-09-21",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:44+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1604521800617501",
+            "advertiser": "투데이픽",
+            "startedAt": "2026-06-01",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:44+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28976074658650734",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-05",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:43+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1379307034369135",
+            "advertiser": "라누보La_nouvo",
+            "startedAt": "2026-09-20",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:43+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2243690966422499",
+            "advertiser": "",
+            "startedAt": "2026-09-29",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:42+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1075138431727005",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-04",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:42+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1069873299159956",
+            "advertiser": "나라모",
+            "startedAt": "2026-09-21",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:42+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1247304724227393",
+            "advertiser": "جمال طبيعي",
+            "startedAt": "2026-09-30",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:41+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1056926997104844",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-05",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:40+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1113154517947318",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-05",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:33+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1233153102362988",
+            "advertiser": "جمال طبيعي",
+            "startedAt": "2026-09-30",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:32+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1073903988688496",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-05",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:32+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1815406586470407",
+            "advertiser": "나인밀라",
+            "startedAt": "2026-09-14",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:31+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1420289810034478",
+            "advertiser": "베지어트",
+            "startedAt": "2026-10-02",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:31+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:31+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1019016970517074",
+            "advertiser": "Dr.RAPHA-R",
+            "startedAt": "2026-06-30",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:31+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1693393028878128",
+            "advertiser": "",
+            "startedAt": "2026-09-20",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:30+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1583188296515337",
+            "advertiser": "티타드 TITAD",
+            "startedAt": "2026-10-01",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:30+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1061037813180227",
+            "advertiser": "너만 모르는",
+            "startedAt": "2026-08-12",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:30+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "955738053719500",
+            "advertiser": "Essentera",
+            "startedAt": "2026-10-04",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:29+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:29+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1747447189914816",
+            "advertiser": "이것저것 리뷰",
+            "startedAt": "2026-08-12",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:21+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1632724015097377",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-10-08",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:21+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:21+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1346841837207813",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-08-26",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:20+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1091432750051594",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-04",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:20+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3166571620201251",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-05",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:19+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28964116433189990",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-05",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:19+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2176342143288064",
+            "advertiser": "جمال طبيعي",
+            "startedAt": "2026-10-02",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:18+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:18+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1309804717725974",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-04",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:18+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1022948423752739",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-09",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:18+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1118667760857297",
+            "advertiser": "Phm",
+            "startedAt": "2026-10-04",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:17+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:17+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1699819577983520",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-04",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:09+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1052266841003098",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-04",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:09+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1597763262012468",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-05",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:08+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28786638840970765",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-21",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:07+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1754015765905482",
+            "advertiser": "ESTROGROW",
+            "startedAt": "2026-09-18",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:07+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1534616172036562",
+            "advertiser": "정담건강",
+            "startedAt": "2026-09-20",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:07+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1280464957576855",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-28",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:07+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27842855328739189",
+            "advertiser": "이떠떠",
+            "startedAt": "2026-08-15",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:06+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1803643840820924",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-04",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:06+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1733037557738499",
+            "advertiser": "포뷰트-두피앰플",
+            "startedAt": "2026-07-21",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:32:06+00:00",
+            "lastCollectedAt": "2026-10-09T17:32:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1622688255868963",
+            "advertiser": "정약사의 건강나눔",
+            "startedAt": "2026-09-29",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:59+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2481899545648555",
+            "advertiser": "Dr.RAPHA-R",
+            "startedAt": "2026-06-30",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:58+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1946293679350125",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-05",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:58+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1560392992086695",
+            "advertiser": "테크 인사이트",
+            "startedAt": "2026-06-29",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:58+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3420061504824238",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-09-28",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:57+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1644994286798214",
+            "advertiser": "이것저것 리뷰",
+            "startedAt": "2026-06-29",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:57+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1632968211562175",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-21",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:57+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1568559215015757",
+            "advertiser": "나인밀라",
+            "startedAt": "2026-08-04",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:57+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1536344764730853",
+            "advertiser": "투데이픽",
+            "startedAt": "2026-05-18",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:57+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2395750177898774",
+            "advertiser": "yoonkki_zalzal",
+            "startedAt": "2026-09-08",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:56+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1772363003572032",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-04",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:50+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1527853932455329",
+            "advertiser": "비웰",
+            "startedAt": "2026-06-22",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:50+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1060337746782682",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-05",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:50+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2332120107589485",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-21",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:49+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1543890790771125",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:49+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1135502699418524",
+            "advertiser": "",
+            "startedAt": "2026-09-22",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:49+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "880462158481801",
+            "advertiser": "나인밀라",
+            "startedAt": "2026-08-20",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:48+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1036539169057714",
+            "advertiser": "비웰",
+            "startedAt": "2026-06-22",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:48+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3938659743108614",
+            "advertiser": "투데이픽",
+            "startedAt": "2026-06-01",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:47+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1352533350256820",
+            "advertiser": "오제닉스",
+            "startedAt": "2026-08-26",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:47+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "945988608451011",
+            "advertiser": "Mozilab",
+            "startedAt": "2026-06-21",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:42+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4489618677975825",
+            "advertiser": "채은",
+            "startedAt": "2026-08-05",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:40+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2464884384035019",
+            "advertiser": "소소한푸념",
+            "startedAt": "2026-09-14",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:40+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1109189054905992",
+            "advertiser": "요즘핫한",
+            "startedAt": "2026-08-24",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:38+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2496794527465658",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-04",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:37+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1378635480381508",
+            "advertiser": "Essentera",
+            "startedAt": "2026-08-21",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:37+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2222645378517605",
+            "advertiser": "Ashrolen 애쉬로렌",
+            "startedAt": "2026-09-05",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:35+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1813443413372644",
+            "advertiser": "",
+            "startedAt": "2026-06-05",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:35+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1008716101914919",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:35+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "26511485725218939",
+            "advertiser": "힘가네",
+            "startedAt": "2026-05-16",
+            "query": "맥주효모",
+            "firstCollectedAt": "2026-10-09T17:31:34+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:34+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-09T17:33:24+00:00",
+        "advertisers": [
+          {
+            "name": "Ashrolen 애쉬로렌",
+            "adCount": 24
+          },
+          {
+            "name": "나인밀라",
+            "adCount": 9
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 7
+          },
+          {
+            "name": "Dr.RAPHA-R",
+            "adCount": 3
+          },
+          {
+            "name": "ESTROGROW",
+            "adCount": 3
+          },
+          {
+            "name": "Essentera",
+            "adCount": 3
+          },
+          {
+            "name": "جمال طبيعي",
+            "adCount": 3
+          },
+          {
+            "name": "바이브랩",
+            "adCount": 3
+          },
+          {
+            "name": "투데이픽",
+            "adCount": 3
+          },
+          {
+            "name": "Goldmmune",
+            "adCount": 2
+          },
+          {
+            "name": "Naaamyuuu",
+            "adCount": 2
+          },
+          {
+            "name": "Raip",
+            "adCount": 2
+          },
+          {
+            "name": "yoonkki_zalzal",
+            "adCount": 2
+          },
+          {
+            "name": "비웰",
+            "adCount": 2
+          },
+          {
+            "name": "이것저것 리뷰",
+            "adCount": 2
+          },
+          {
+            "name": "티타드 TITAD",
+            "adCount": 2
+          },
+          {
+            "name": "Haumstyle",
+            "adCount": 1
+          },
+          {
+            "name": "Mozilab",
+            "adCount": 1
+          },
+          {
+            "name": "Phm",
+            "adCount": 1
+          },
+          {
+            "name": "Wellnessgirl12",
+            "adCount": 1
+          },
+          {
+            "name": "건강케어 전문가 케이세라퓨틱스-락토500",
+            "adCount": 1
+          },
+          {
+            "name": "나라모",
+            "adCount": 1
+          },
+          {
+            "name": "너만 모르는",
+            "adCount": 1
+          },
+          {
+            "name": "라누보La_nouvo",
+            "adCount": 1
+          },
+          {
+            "name": "베지어트",
+            "adCount": 1
+          },
+          {
+            "name": "뷰링",
+            "adCount": 1
+          },
+          {
+            "name": "소소한푸념",
+            "adCount": 1
+          },
+          {
+            "name": "에스트린750",
+            "adCount": 1
+          },
+          {
+            "name": "오제닉스",
+            "adCount": 1
+          },
+          {
+            "name": "요즘핫한",
+            "adCount": 1
+          },
+          {
+            "name": "이떠떠",
+            "adCount": 1
+          },
+          {
+            "name": "정담건강",
+            "adCount": 1
+          },
+          {
+            "name": "정약사의 건강나눔",
+            "adCount": 1
+          },
+          {
+            "name": "채은",
+            "adCount": 1
+          },
+          {
+            "name": "천연약용식물 솔루션, yakdamcho",
+            "adCount": 1
+          },
+          {
+            "name": "쿤달 - Kundal",
+            "adCount": 1
+          },
+          {
+            "name": "테크 인사이트",
+            "adCount": 1
+          },
+          {
+            "name": "포뷰트-두피앰플",
+            "adCount": 1
+          },
+          {
+            "name": "헤어보톡스",
+            "adCount": 1
+          },
+          {
+            "name": "힘가네",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
