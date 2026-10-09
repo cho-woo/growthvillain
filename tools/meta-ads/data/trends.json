@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T17:37:11+00:00",
+  "updatedAt": "2026-10-09T17:42:10+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-09T17:10:35+00:00",
@@ -41,22 +41,22 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 5,
-    "dailyRemaining": 283,
+    "dailyUsed": 6,
+    "dailyRemaining": 282,
     "pending": 0,
-    "nextDispatchAt": "2026-10-09T17:41:34+00:00",
+    "nextDispatchAt": "2026-10-09T18:42:10+00:00",
     "metaAutoEnabled": true,
-    "enabled": true,
+    "enabled": false,
     "collectionGuard": {
-      "state": "ready",
-      "reason": null,
-      "nextAllowedAt": null,
-      "blockedUntil": null,
-      "blockStreak": 0,
+      "state": "blocked",
+      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
+      "nextAllowedAt": "2026-10-09T18:42:10+00:00",
+      "blockedUntil": "2026-10-09T18:42:10+00:00",
+      "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": null
+    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
   },
   "settings": {
     "category": "50000023",
@@ -11766,7 +11766,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "failed",
       "keywordId": "92b002c4ca12909c23a5034a1b94bea492e1e0ad7e0ca4790218ea7025281015",
       "searchQuery": "저분자콜라겐비트셀",
       "adEvidence": {
@@ -11963,7 +11963,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:05:24+00:00",
       "lastObservedAt": "2026-10-09T17:10:35+00:00",
-      "state": "backlog",
+      "state": "failed",
       "keywordId": "92b002c4ca12909c23a5034a1b94bea492e1e0ad7e0ca4790218ea7025281015",
       "searchQuery": "저분자콜라겐비트셀",
       "adEvidence": {
