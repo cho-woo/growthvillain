@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T18:12:03+00:00",
+  "updatedAt": "2026-10-09T18:42:12+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-09T18:12:03+00:00",
@@ -41,22 +41,22 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 6,
-    "dailyRemaining": 282,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-09T18:42:10+00:00",
+    "dailyUsed": 7,
+    "dailyRemaining": 281,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
-    "enabled": false,
+    "enabled": true,
     "collectionGuard": {
-      "state": "blocked",
-      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
-      "nextAllowedAt": "2026-10-09T18:42:10+00:00",
-      "blockedUntil": "2026-10-09T18:42:10+00:00",
+      "state": "ready",
+      "reason": null,
+      "nextAllowedAt": null,
+      "blockedUntil": null,
       "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
+    "pausedReason": null
   },
   "settings": {
     "category": "50000023",
@@ -11798,7 +11798,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "4fe9bee668ae83190f9d9a3b4f79cc2546237f4e56b2f597bdd54cc98975bd15",
       "searchQuery": "러닝에너지젤",
       "adEvidence": {
@@ -14208,7 +14208,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:05:24+00:00",
       "lastObservedAt": "2026-10-09T18:12:03+00:00",
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "4fe9bee668ae83190f9d9a3b4f79cc2546237f4e56b2f597bdd54cc98975bd15",
       "searchQuery": "러닝에너지젤",
       "adEvidence": {
