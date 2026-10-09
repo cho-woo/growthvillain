@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T14:56:28+00:00",
+  "updatedAt": "2026-10-09T14:59:18+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-09T01:05:24+00:00",
@@ -41,8 +41,8 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 35,
-    "dailyRemaining": 253,
+    "dailyUsed": 36,
+    "dailyRemaining": 252,
     "pending": 1,
     "nextDispatchAt": null,
     "metaAutoEnabled": true,
@@ -4264,7 +4264,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "queued",
       "keywordId": "304fbb1a972d232d3079f5c8862038074b61f170350280a83fec688f71fcf4f1",
       "searchQuery": "프로폴리스",
       "adEvidence": {
@@ -7579,17 +7579,162 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "88b9a603831dab58a65f5b55a806fea82ecadaad2c7076a9975206832424d42f",
       "searchQuery": "모발콜라겐",
       "adEvidence": {
         "query": "모발콜라겐",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 13,
+        "adIds": [
+          "2097898774438661",
+          "1502792354900269",
+          "1002604589502764",
+          "2276146346569217",
+          "1358760209296050",
+          "1065456299196328",
+          "2331629280912867",
+          "1423392786304484",
+          "1408932921385339",
+          "1060199686961289",
+          "2217586439024954",
+          "1606193991124405",
+          "1364605741992296"
+        ],
+        "ads": [
+          {
+            "id": "2097898774438661",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:55+00:00",
+            "lastCollectedAt": "2026-10-09T14:58:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1502792354900269",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:55+00:00",
+            "lastCollectedAt": "2026-10-09T14:58:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1002604589502764",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:55+00:00",
+            "lastCollectedAt": "2026-10-09T14:58:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2276146346569217",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:44+00:00",
+            "lastCollectedAt": "2026-10-09T14:58:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1358760209296050",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:44+00:00",
+            "lastCollectedAt": "2026-10-09T14:58:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1065456299196328",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:44+00:00",
+            "lastCollectedAt": "2026-10-09T14:58:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2331629280912867",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:43+00:00",
+            "lastCollectedAt": "2026-10-09T14:58:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1423392786304484",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:43+00:00",
+            "lastCollectedAt": "2026-10-09T14:58:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1408932921385339",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-09-14",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:43+00:00",
+            "lastCollectedAt": "2026-10-09T14:58:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1060199686961289",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-12",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:43+00:00",
+            "lastCollectedAt": "2026-10-09T14:58:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2217586439024954",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:42+00:00",
+            "lastCollectedAt": "2026-10-09T14:58:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1606193991124405",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:42+00:00",
+            "lastCollectedAt": "2026-10-09T14:58:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1364605741992296",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:42+00:00",
+            "lastCollectedAt": "2026-10-09T14:58:42+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-09T14:58:55+00:00",
+        "advertisers": [
+          {
+            "name": "주영엔에스",
+            "adCount": 11
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 1
+          },
+          {
+            "name": "뉴트리몰",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -11493,17 +11638,162 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:05:24+00:00",
       "lastObservedAt": "2026-10-09T01:05:24+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "88b9a603831dab58a65f5b55a806fea82ecadaad2c7076a9975206832424d42f",
       "searchQuery": "모발콜라겐",
       "adEvidence": {
         "query": "모발콜라겐",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 13,
+        "adIds": [
+          "2097898774438661",
+          "1502792354900269",
+          "1002604589502764",
+          "2276146346569217",
+          "1358760209296050",
+          "1065456299196328",
+          "2331629280912867",
+          "1423392786304484",
+          "1408932921385339",
+          "1060199686961289",
+          "2217586439024954",
+          "1606193991124405",
+          "1364605741992296"
+        ],
+        "ads": [
+          {
+            "id": "2097898774438661",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:55+00:00",
+            "lastCollectedAt": "2026-10-09T14:58:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1502792354900269",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:55+00:00",
+            "lastCollectedAt": "2026-10-09T14:58:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1002604589502764",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:55+00:00",
+            "lastCollectedAt": "2026-10-09T14:58:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2276146346569217",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:44+00:00",
+            "lastCollectedAt": "2026-10-09T14:58:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1358760209296050",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:44+00:00",
+            "lastCollectedAt": "2026-10-09T14:58:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1065456299196328",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:44+00:00",
+            "lastCollectedAt": "2026-10-09T14:58:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2331629280912867",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:43+00:00",
+            "lastCollectedAt": "2026-10-09T14:58:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1423392786304484",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:43+00:00",
+            "lastCollectedAt": "2026-10-09T14:58:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1408932921385339",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-09-14",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:43+00:00",
+            "lastCollectedAt": "2026-10-09T14:58:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1060199686961289",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-12",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:43+00:00",
+            "lastCollectedAt": "2026-10-09T14:58:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2217586439024954",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:42+00:00",
+            "lastCollectedAt": "2026-10-09T14:58:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1606193991124405",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:42+00:00",
+            "lastCollectedAt": "2026-10-09T14:58:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1364605741992296",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:42+00:00",
+            "lastCollectedAt": "2026-10-09T14:58:42+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-09T14:58:55+00:00",
+        "advertisers": [
+          {
+            "name": "주영엔에스",
+            "adCount": 11
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 1
+          },
+          {
+            "name": "뉴트리몰",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -18839,7 +19129,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:04:53+00:00",
       "lastObservedAt": "2026-10-09T01:04:53+00:00",
-      "state": "ready",
+      "state": "queued",
       "keywordId": "304fbb1a972d232d3079f5c8862038074b61f170350280a83fec688f71fcf4f1",
       "searchQuery": "프로폴리스",
       "adEvidence": {
