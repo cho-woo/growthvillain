@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T17:28:47+00:00",
+  "updatedAt": "2026-10-09T17:31:30+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-09T17:10:35+00:00",
@@ -41,8 +41,8 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 3,
-    "dailyRemaining": 285,
+    "dailyUsed": 4,
+    "dailyRemaining": 284,
     "pending": 1,
     "nextDispatchAt": null,
     "metaAutoEnabled": true,
@@ -5928,17 +5928,62 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "9b29e717777f83f6f58541187923738cca6263e9f3e68c4724448e2289c2c460",
       "searchQuery": "피크노제놀",
       "adEvidence": {
         "query": "피크노제놀",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 3,
+        "adIds": [
+          "2309948813173925",
+          "1610261827238121",
+          "1636395231350896"
+        ],
+        "ads": [
+          {
+            "id": "2309948813173925",
+            "advertiser": "Herbalife",
+            "startedAt": "2026-09-21",
+            "query": "피크노제놀",
+            "firstCollectedAt": "2026-10-09T17:31:07+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1610261827238121",
+            "advertiser": "네오스랩",
+            "startedAt": "2026-10-08",
+            "query": "피크노제놀",
+            "firstCollectedAt": "2026-10-09T17:31:07+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:07+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1636395231350896",
+            "advertiser": "건기남",
+            "startedAt": "2026-08-13",
+            "query": "피크노제놀",
+            "firstCollectedAt": "2026-10-09T17:31:06+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:06+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-09T17:31:07+00:00",
+        "advertisers": [
+          {
+            "name": "Herbalife",
+            "adCount": 1
+          },
+          {
+            "name": "건기남",
+            "adCount": 1
+          },
+          {
+            "name": "네오스랩",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
@@ -5960,7 +6005,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "411a9642a4f535a890a20e9c08c13fcc7c8ca227df1d41bb704b4f448940231e",
       "searchQuery": "맥주효모",
       "adEvidence": {
@@ -16571,17 +16616,62 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:04:53+00:00",
       "lastObservedAt": "2026-10-09T17:09:52+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "9b29e717777f83f6f58541187923738cca6263e9f3e68c4724448e2289c2c460",
       "searchQuery": "피크노제놀",
       "adEvidence": {
         "query": "피크노제놀",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 3,
+        "adIds": [
+          "2309948813173925",
+          "1610261827238121",
+          "1636395231350896"
+        ],
+        "ads": [
+          {
+            "id": "2309948813173925",
+            "advertiser": "Herbalife",
+            "startedAt": "2026-09-21",
+            "query": "피크노제놀",
+            "firstCollectedAt": "2026-10-09T17:31:07+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1610261827238121",
+            "advertiser": "네오스랩",
+            "startedAt": "2026-10-08",
+            "query": "피크노제놀",
+            "firstCollectedAt": "2026-10-09T17:31:07+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:07+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1636395231350896",
+            "advertiser": "건기남",
+            "startedAt": "2026-08-13",
+            "query": "피크노제놀",
+            "firstCollectedAt": "2026-10-09T17:31:06+00:00",
+            "lastCollectedAt": "2026-10-09T17:31:06+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-09T17:31:07+00:00",
+        "advertisers": [
+          {
+            "name": "Herbalife",
+            "adCount": 1
+          },
+          {
+            "name": "건기남",
+            "adCount": 1
+          },
+          {
+            "name": "네오스랩",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 2,
@@ -20155,7 +20245,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:04:53+00:00",
       "lastObservedAt": "2026-10-09T17:09:52+00:00",
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "411a9642a4f535a890a20e9c08c13fcc7c8ca227df1d41bb704b4f448940231e",
       "searchQuery": "맥주효모",
       "adEvidence": {
