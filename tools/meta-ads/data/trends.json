@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T12:35:05+00:00",
+  "updatedAt": "2026-10-09T12:37:40+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-09T01:05:24+00:00",
@@ -43,20 +43,20 @@
     "backlogDays": 14,
     "dailyUsed": 33,
     "dailyRemaining": 255,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-09T13:37:30+00:00",
     "metaAutoEnabled": true,
-    "enabled": true,
+    "enabled": false,
     "collectionGuard": {
-      "state": "ready",
-      "reason": null,
-      "nextAllowedAt": null,
-      "blockedUntil": null,
-      "blockStreak": 0,
+      "state": "blocked",
+      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
+      "nextAllowedAt": "2026-10-09T13:37:30+00:00",
+      "blockedUntil": "2026-10-09T13:37:30+00:00",
+      "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": null
+    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
   },
   "settings": {
     "category": "50000023",
@@ -6382,17 +6382,1150 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "6e5c996a7cd138a63e96b4b4768104bb54fe9b0110a3efb2584b848063b859d6",
       "searchQuery": "wpi",
       "adEvidence": {
         "query": "wpi",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 99,
+        "adIds": [
+          "1936248783621519",
+          "809830688322323",
+          "1615270446890520",
+          "962409219595690",
+          "1679725719947887",
+          "1345944900728017",
+          "812101904604541",
+          "1859002195462671",
+          "941377625393089",
+          "1336729468614800",
+          "1338409331454039",
+          "818748344241561",
+          "1077600001939547",
+          "930875015965846",
+          "1203856715082177",
+          "1359540702341058",
+          "1004963125334999",
+          "812886101290112",
+          "2260486111469867",
+          "1903545150234890",
+          "1754539752372527",
+          "1232178438967162",
+          "24826271593702083",
+          "2311392569626237",
+          "1311338180924422",
+          "656638980271530",
+          "4000610060083122",
+          "1493537118414168",
+          "1449506696981230",
+          "2184933699106740",
+          "1102596175662577",
+          "875512225057105",
+          "713614604924959",
+          "1686017522072503",
+          "1003230482674155",
+          "28392458973749960",
+          "2423724088113212",
+          "1083577504370963",
+          "1352979143637921",
+          "965641259808089",
+          "1703491444388694",
+          "1690747472124173",
+          "1641063030337009",
+          "894388516477465",
+          "846530047853704",
+          "26785592327791892",
+          "2080912816644729",
+          "2193457351203523",
+          "1621729672636473",
+          "36164879779793096",
+          "1441103531162619",
+          "1143843211307226",
+          "2173115816791206",
+          "1093789010291877",
+          "855589084042596",
+          "1836625960301040",
+          "1166954285631660",
+          "2166041663939175",
+          "1892151678420660",
+          "2591773641245081",
+          "1415704247117492",
+          "886165280777921",
+          "4401776216737328",
+          "1658305042305753",
+          "1727285898379918",
+          "25483284007957243",
+          "1124383286909929",
+          "1643613436823171",
+          "1048848627953067",
+          "1736307740759403",
+          "1391165336377047",
+          "1425916572767255",
+          "1677543383366576",
+          "1316185940641424",
+          "870174505907373",
+          "1065759072969772",
+          "2250246548825335",
+          "1463747210994845",
+          "726420076788628",
+          "959867883811853",
+          "1352817590062349",
+          "1665628598518557",
+          "1871084513868113",
+          "4240617692816948",
+          "1497779244830735",
+          "900643286267469",
+          "1391949779071109",
+          "1896460157656905",
+          "1078582235037992",
+          "970871462545165",
+          "2018163065744908",
+          "1384116607111117",
+          "949872884354709",
+          "1135681502083588",
+          "1514451556019688",
+          "1501380141722602",
+          "25853200801023391",
+          "1504353821176925",
+          "1350514173799442"
+        ],
+        "ads": [
+          {
+            "id": "1936248783621519",
+            "advertiser": "마이옵티멀",
+            "startedAt": "2025-12-28",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:37:26+00:00",
+            "lastCollectedAt": "2026-10-09T12:37:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "809830688322323",
+            "advertiser": "DramaWave - Transmitir Drama",
+            "startedAt": "2025-11-08",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:37:25+00:00",
+            "lastCollectedAt": "2026-10-09T12:37:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1615270446890520",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-09-18",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:37:25+00:00",
+            "lastCollectedAt": "2026-10-09T12:37:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "962409219595690",
+            "advertiser": "",
+            "startedAt": "2026-03-31",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:37:20+00:00",
+            "lastCollectedAt": "2026-10-09T12:37:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1679725719947887",
+            "advertiser": "이데아뉴트리션",
+            "startedAt": "2026-07-21",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:37:20+00:00",
+            "lastCollectedAt": "2026-10-09T12:37:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1345944900728017",
+            "advertiser": "Shanghai Museum",
+            "startedAt": "2026-05-20",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:37:20+00:00",
+            "lastCollectedAt": "2026-10-09T12:37:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "812101904604541",
+            "advertiser": "Laura Andrew Cann",
+            "startedAt": "2025-10-03",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:37:19+00:00",
+            "lastCollectedAt": "2026-10-09T12:37:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1859002195462671",
+            "advertiser": "핏언니꿀팁",
+            "startedAt": "2026-09-19",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:37:19+00:00",
+            "lastCollectedAt": "2026-10-09T12:37:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "941377625393089",
+            "advertiser": "WPI Graduate & Professional Studies",
+            "startedAt": "2026-05-13",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:37:18+00:00",
+            "lastCollectedAt": "2026-10-09T12:37:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1336729468614800",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-15",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:37:18+00:00",
+            "lastCollectedAt": "2026-10-09T12:37:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1338409331454039",
+            "advertiser": "",
+            "startedAt": "2026-04-05",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:37:05+00:00",
+            "lastCollectedAt": "2026-10-09T12:37:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "818748344241561",
+            "advertiser": "Hygiene MDPI",
+            "startedAt": "2025-11-07",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:37:03+00:00",
+            "lastCollectedAt": "2026-10-09T12:37:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1077600001939547",
+            "advertiser": "NS_official",
+            "startedAt": "2026-10-07",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:37:03+00:00",
+            "lastCollectedAt": "2026-10-09T12:37:03+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "930875015965846",
+            "advertiser": "Worcester Polytechnic Institute (WPI)",
+            "startedAt": "2026-03-09",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:37:02+00:00",
+            "lastCollectedAt": "2026-10-09T12:37:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1203856715082177",
+            "advertiser": "WPI Graduate & Professional Studies",
+            "startedAt": "2026-05-12",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:37:02+00:00",
+            "lastCollectedAt": "2026-10-09T12:37:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1359540702341058",
+            "advertiser": "DramaWave - Transmitir Drama",
+            "startedAt": "2025-11-07",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:37:01+00:00",
+            "lastCollectedAt": "2026-10-09T12:37:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1004963125334999",
+            "advertiser": "WPI Graduate & Professional Studies",
+            "startedAt": "2026-05-12",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:37:01+00:00",
+            "lastCollectedAt": "2026-10-09T12:37:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "812886101290112",
+            "advertiser": "Alibaba.com",
+            "startedAt": "2025-10-10",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:56+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2260486111469867",
+            "advertiser": "NS_official",
+            "startedAt": "2026-10-07",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:56+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:56+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1903545150234890",
+            "advertiser": "Laura Andrew Cann",
+            "startedAt": "2025-12-17",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:54+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1754539752372527",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-06-30",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:42+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1232178438967162",
+            "advertiser": "Laura Andrew Cann",
+            "startedAt": "2025-12-08",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:42+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "24826271593702083",
+            "advertiser": "ClarityCheck",
+            "startedAt": "2025-10-07",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:41+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2311392569626237",
+            "advertiser": "셀렉스",
+            "startedAt": "2026-10-04",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:41+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:41+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1311338180924422",
+            "advertiser": "WPI Graduate & Professional Studies",
+            "startedAt": "2026-05-13",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:41+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "656638980271530",
+            "advertiser": "Alibaba.com",
+            "startedAt": "2025-09-01",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:40+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4000610060083122",
+            "advertiser": "ClarityCheck",
+            "startedAt": "2025-12-18",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:40+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1493537118414168",
+            "advertiser": "DramaWave - Transmitir Drama",
+            "startedAt": "2025-11-07",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:39+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1449506696981230",
+            "advertiser": "리프타",
+            "startedAt": "2026-06-21",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:39+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2184933699106740",
+            "advertiser": "모닝파파-시환이아빠",
+            "startedAt": "2026-09-14",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:26+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1102596175662577",
+            "advertiser": "모닝파파-시환이아빠",
+            "startedAt": "2026-09-14",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:26+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "875512225057105",
+            "advertiser": "이데아뉴트리션",
+            "startedAt": "2026-06-22",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:25+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "713614604924959",
+            "advertiser": "Worcester Polytechnic Institute (WPI)",
+            "startedAt": "2026-01-08",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:24+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1686017522072503",
+            "advertiser": "Laura Andrew Cann",
+            "startedAt": "2025-10-03",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:24+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1003230482674155",
+            "advertiser": "리프타",
+            "startedAt": "2026-06-22",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:24+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28392458973749960",
+            "advertiser": "BUP :: Beyond Your Power",
+            "startedAt": "2026-09-29",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:23+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2423724088113212",
+            "advertiser": "WPI Graduate & Professional Studies",
+            "startedAt": "2026-05-12",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:22+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1083577504370963",
+            "advertiser": "핏언니꿀팁",
+            "startedAt": "2026-09-09",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:22+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1352979143637921",
+            "advertiser": "리프타",
+            "startedAt": "2026-06-30",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:21+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "965641259808089",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-06-27",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:14+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1703491444388694",
+            "advertiser": "Laura Andrew Cann",
+            "startedAt": "2025-10-03",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:14+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1690747472124173",
+            "advertiser": "리프타",
+            "startedAt": "2026-05-25",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:13+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1641063030337009",
+            "advertiser": "리프타",
+            "startedAt": "2026-05-31",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:13+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "894388516477465",
+            "advertiser": "Worcester Polytechnic Institute (WPI)",
+            "startedAt": "2026-01-08",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:12+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "846530047853704",
+            "advertiser": "Alibaba.com",
+            "startedAt": "2025-11-13",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:12+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "26785592327791892",
+            "advertiser": "WPI Graduate & Professional Studies",
+            "startedAt": "2026-05-12",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:12+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2080912816644729",
+            "advertiser": "Lukt",
+            "startedAt": "2026-09-14",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:12+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2193457351203523",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-08-29",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:11+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1621729672636473",
+            "advertiser": "익스트림 Extreme",
+            "startedAt": "2026-09-07",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:11+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "36164879779793096",
+            "advertiser": "WPI Graduate & Professional Studies",
+            "startedAt": "2026-06-01",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:04+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1441103531162619",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-06-26",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:04+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1143843211307226",
+            "advertiser": "ㅇㄹㅇㄹ",
+            "startedAt": "2026-09-28",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:03+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2173115816791206",
+            "advertiser": "WPI Graduate & Professional Studies",
+            "startedAt": "2026-05-13",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:02+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1093789010291877",
+            "advertiser": "NS_official",
+            "startedAt": "2026-09-28",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:02+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "855589084042596",
+            "advertiser": "Worcester Polytechnic Institute (WPI)",
+            "startedAt": "2025-12-18",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:00+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1836625960301040",
+            "advertiser": "Laura Andrew Cann",
+            "startedAt": "2025-10-03",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:00+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1166954285631660",
+            "advertiser": "Worcester Polytechnic Institute (WPI)",
+            "startedAt": "2025-12-18",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:00+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2166041663939175",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-06-30",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:59+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1892151678420660",
+            "advertiser": "Tonmind",
+            "startedAt": "2026-08-03",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:59+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2591773641245081",
+            "advertiser": "Lukt",
+            "startedAt": "2026-09-14",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:54+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1415704247117492",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-08-29",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:54+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "886165280777921",
+            "advertiser": "Worcester Polytechnic Institute (WPI)",
+            "startedAt": "2026-01-21",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:53+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4401776216737328",
+            "advertiser": "WPI Graduate & Professional Studies",
+            "startedAt": "2026-05-12",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:53+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1658305042305753",
+            "advertiser": "거침없는 성분리뷰",
+            "startedAt": "2026-09-17",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:53+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1727285898379918",
+            "advertiser": "Promalspace",
+            "startedAt": "2026-10-08",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:52+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:52+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "25483284007957243",
+            "advertiser": "Worcester Polytechnic Institute (WPI)",
+            "startedAt": "2025-12-18",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:51+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1124383286909929",
+            "advertiser": "셀렉스",
+            "startedAt": "2026-10-04",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:51+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:51+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1643613436823171",
+            "advertiser": "AV86",
+            "startedAt": "2026-03-31",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:50+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1048848627953067",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-09-03",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:50+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1736307740759403",
+            "advertiser": "뉴치트 Nucheat",
+            "startedAt": "2026-09-08",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:41+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1391165336377047",
+            "advertiser": "ClarityCheck",
+            "startedAt": "2026-04-16",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:41+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1425916572767255",
+            "advertiser": "BUP :: Beyond Your Power",
+            "startedAt": "2026-08-03",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:40+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1677543383366576",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-06-27",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:39+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1316185940641424",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:39+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "870174505907373",
+            "advertiser": "Worcester Polytechnic Institute (WPI)",
+            "startedAt": "2026-01-08",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:38+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1065759072969772",
+            "advertiser": "NS_official",
+            "startedAt": "2026-09-10",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:38+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2250246548825335",
+            "advertiser": "ClarityCheck",
+            "startedAt": "2025-09-26",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:37+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1463747210994845",
+            "advertiser": "Muscle & Strength",
+            "startedAt": "2024-08-28",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:37+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "726420076788628",
+            "advertiser": "About Vintage",
+            "startedAt": "2025-06-30",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:36+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "959867883811853",
+            "advertiser": "NS_official",
+            "startedAt": "2026-09-01",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:30+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1352817590062349",
+            "advertiser": "WPLS",
+            "startedAt": "2026-06-02",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:30+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1665628598518557",
+            "advertiser": "뉴치트 Nucheat",
+            "startedAt": "2026-09-07",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:29+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1871084513868113",
+            "advertiser": "NS_official",
+            "startedAt": "2026-09-02",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:28+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4240617692816948",
+            "advertiser": "Worcester Polytechnic Institute (WPI)",
+            "startedAt": "2026-01-21",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:27+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1497779244830735",
+            "advertiser": "이데아뉴트리션",
+            "startedAt": "2026-06-25",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:27+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "900643286267469",
+            "advertiser": "Worcester Polytechnic Institute (WPI)",
+            "startedAt": "2026-01-05",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:26+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1391949779071109",
+            "advertiser": "NS_official",
+            "startedAt": "2026-09-14",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:26+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1896460157656905",
+            "advertiser": "国家大剧院National Centre for the Performing Arts",
+            "startedAt": "2026-06-04",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:25+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1078582235037992",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-22",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:25+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "970871462545165",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-04-19",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:19+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2018163065744908",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-22",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:19+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1384116607111117",
+            "advertiser": "이데아뉴트리션",
+            "startedAt": "2026-06-25",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:19+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "949872884354709",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-04-19",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:18+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1135681502083588",
+            "advertiser": "당신은 행운아",
+            "startedAt": "2026-05-13",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:18+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1514451556019688",
+            "advertiser": "zuzannkov",
+            "startedAt": "2023-12-16",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:17+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1501380141722602",
+            "advertiser": "NS_official",
+            "startedAt": "2026-04-27",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:16+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "25853200801023391",
+            "advertiser": "NS_official",
+            "startedAt": "2026-05-05",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:15+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1504353821176925",
+            "advertiser": "보충제업업",
+            "startedAt": "2026-06-02",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:14+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1350514173799442",
+            "advertiser": "NS_official",
+            "startedAt": "2026-05-10",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:12+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:12+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-09T12:37:26+00:00",
+        "advertisers": [
+          {
+            "name": "NS_official",
+            "adCount": 10
+          },
+          {
+            "name": "Worcester Polytechnic Institute (WPI)",
+            "adCount": 10
+          },
+          {
+            "name": "WPI Graduate & Professional Studies",
+            "adCount": 9
+          },
+          {
+            "name": "다다쿵",
+            "adCount": 8
+          },
+          {
+            "name": "Laura Andrew Cann",
+            "adCount": 6
+          },
+          {
+            "name": "리프타",
+            "adCount": 5
+          },
+          {
+            "name": "ClarityCheck",
+            "adCount": 4
+          },
+          {
+            "name": "이데아뉴트리션",
+            "adCount": 4
+          },
+          {
+            "name": "Alibaba.com",
+            "adCount": 3
+          },
+          {
+            "name": "DramaWave - Transmitir Drama",
+            "adCount": 3
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 3
+          },
+          {
+            "name": "BUP :: Beyond Your Power",
+            "adCount": 2
+          },
+          {
+            "name": "Lukt",
+            "adCount": 2
+          },
+          {
+            "name": "뉴치트 Nucheat",
+            "adCount": 2
+          },
+          {
+            "name": "모닝파파-시환이아빠",
+            "adCount": 2
+          },
+          {
+            "name": "셀렉스",
+            "adCount": 2
+          },
+          {
+            "name": "써브웨이 Subway Korea",
+            "adCount": 2
+          },
+          {
+            "name": "쿠팡 Coupang",
+            "adCount": 2
+          },
+          {
+            "name": "핏언니꿀팁",
+            "adCount": 2
+          },
+          {
+            "name": "AV86",
+            "adCount": 1
+          },
+          {
+            "name": "About Vintage",
+            "adCount": 1
+          },
+          {
+            "name": "Hygiene MDPI",
+            "adCount": 1
+          },
+          {
+            "name": "Muscle & Strength",
+            "adCount": 1
+          },
+          {
+            "name": "Promalspace",
+            "adCount": 1
+          },
+          {
+            "name": "Shanghai Museum",
+            "adCount": 1
+          },
+          {
+            "name": "Tonmind",
+            "adCount": 1
+          },
+          {
+            "name": "WPLS",
+            "adCount": 1
+          },
+          {
+            "name": "zuzannkov",
+            "adCount": 1
+          },
+          {
+            "name": "ㅇㄹㅇㄹ",
+            "adCount": 1
+          },
+          {
+            "name": "国家大剧院National Centre for the Performing Arts",
+            "adCount": 1
+          },
+          {
+            "name": "거침없는 성분리뷰",
+            "adCount": 1
+          },
+          {
+            "name": "당신은 행운아",
+            "adCount": 1
+          },
+          {
+            "name": "마이옵티멀",
+            "adCount": 1
+          },
+          {
+            "name": "보충제업업",
+            "adCount": 1
+          },
+          {
+            "name": "익스트림 Extreme",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -10737,17 +11870,1150 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:05:24+00:00",
       "lastObservedAt": "2026-10-09T01:05:24+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "6e5c996a7cd138a63e96b4b4768104bb54fe9b0110a3efb2584b848063b859d6",
       "searchQuery": "wpi",
       "adEvidence": {
         "query": "wpi",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 99,
+        "adIds": [
+          "1936248783621519",
+          "809830688322323",
+          "1615270446890520",
+          "962409219595690",
+          "1679725719947887",
+          "1345944900728017",
+          "812101904604541",
+          "1859002195462671",
+          "941377625393089",
+          "1336729468614800",
+          "1338409331454039",
+          "818748344241561",
+          "1077600001939547",
+          "930875015965846",
+          "1203856715082177",
+          "1359540702341058",
+          "1004963125334999",
+          "812886101290112",
+          "2260486111469867",
+          "1903545150234890",
+          "1754539752372527",
+          "1232178438967162",
+          "24826271593702083",
+          "2311392569626237",
+          "1311338180924422",
+          "656638980271530",
+          "4000610060083122",
+          "1493537118414168",
+          "1449506696981230",
+          "2184933699106740",
+          "1102596175662577",
+          "875512225057105",
+          "713614604924959",
+          "1686017522072503",
+          "1003230482674155",
+          "28392458973749960",
+          "2423724088113212",
+          "1083577504370963",
+          "1352979143637921",
+          "965641259808089",
+          "1703491444388694",
+          "1690747472124173",
+          "1641063030337009",
+          "894388516477465",
+          "846530047853704",
+          "26785592327791892",
+          "2080912816644729",
+          "2193457351203523",
+          "1621729672636473",
+          "36164879779793096",
+          "1441103531162619",
+          "1143843211307226",
+          "2173115816791206",
+          "1093789010291877",
+          "855589084042596",
+          "1836625960301040",
+          "1166954285631660",
+          "2166041663939175",
+          "1892151678420660",
+          "2591773641245081",
+          "1415704247117492",
+          "886165280777921",
+          "4401776216737328",
+          "1658305042305753",
+          "1727285898379918",
+          "25483284007957243",
+          "1124383286909929",
+          "1643613436823171",
+          "1048848627953067",
+          "1736307740759403",
+          "1391165336377047",
+          "1425916572767255",
+          "1677543383366576",
+          "1316185940641424",
+          "870174505907373",
+          "1065759072969772",
+          "2250246548825335",
+          "1463747210994845",
+          "726420076788628",
+          "959867883811853",
+          "1352817590062349",
+          "1665628598518557",
+          "1871084513868113",
+          "4240617692816948",
+          "1497779244830735",
+          "900643286267469",
+          "1391949779071109",
+          "1896460157656905",
+          "1078582235037992",
+          "970871462545165",
+          "2018163065744908",
+          "1384116607111117",
+          "949872884354709",
+          "1135681502083588",
+          "1514451556019688",
+          "1501380141722602",
+          "25853200801023391",
+          "1504353821176925",
+          "1350514173799442"
+        ],
+        "ads": [
+          {
+            "id": "1936248783621519",
+            "advertiser": "마이옵티멀",
+            "startedAt": "2025-12-28",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:37:26+00:00",
+            "lastCollectedAt": "2026-10-09T12:37:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "809830688322323",
+            "advertiser": "DramaWave - Transmitir Drama",
+            "startedAt": "2025-11-08",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:37:25+00:00",
+            "lastCollectedAt": "2026-10-09T12:37:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1615270446890520",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-09-18",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:37:25+00:00",
+            "lastCollectedAt": "2026-10-09T12:37:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "962409219595690",
+            "advertiser": "",
+            "startedAt": "2026-03-31",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:37:20+00:00",
+            "lastCollectedAt": "2026-10-09T12:37:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1679725719947887",
+            "advertiser": "이데아뉴트리션",
+            "startedAt": "2026-07-21",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:37:20+00:00",
+            "lastCollectedAt": "2026-10-09T12:37:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1345944900728017",
+            "advertiser": "Shanghai Museum",
+            "startedAt": "2026-05-20",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:37:20+00:00",
+            "lastCollectedAt": "2026-10-09T12:37:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "812101904604541",
+            "advertiser": "Laura Andrew Cann",
+            "startedAt": "2025-10-03",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:37:19+00:00",
+            "lastCollectedAt": "2026-10-09T12:37:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1859002195462671",
+            "advertiser": "핏언니꿀팁",
+            "startedAt": "2026-09-19",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:37:19+00:00",
+            "lastCollectedAt": "2026-10-09T12:37:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "941377625393089",
+            "advertiser": "WPI Graduate & Professional Studies",
+            "startedAt": "2026-05-13",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:37:18+00:00",
+            "lastCollectedAt": "2026-10-09T12:37:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1336729468614800",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-15",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:37:18+00:00",
+            "lastCollectedAt": "2026-10-09T12:37:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1338409331454039",
+            "advertiser": "",
+            "startedAt": "2026-04-05",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:37:05+00:00",
+            "lastCollectedAt": "2026-10-09T12:37:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "818748344241561",
+            "advertiser": "Hygiene MDPI",
+            "startedAt": "2025-11-07",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:37:03+00:00",
+            "lastCollectedAt": "2026-10-09T12:37:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1077600001939547",
+            "advertiser": "NS_official",
+            "startedAt": "2026-10-07",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:37:03+00:00",
+            "lastCollectedAt": "2026-10-09T12:37:03+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "930875015965846",
+            "advertiser": "Worcester Polytechnic Institute (WPI)",
+            "startedAt": "2026-03-09",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:37:02+00:00",
+            "lastCollectedAt": "2026-10-09T12:37:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1203856715082177",
+            "advertiser": "WPI Graduate & Professional Studies",
+            "startedAt": "2026-05-12",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:37:02+00:00",
+            "lastCollectedAt": "2026-10-09T12:37:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1359540702341058",
+            "advertiser": "DramaWave - Transmitir Drama",
+            "startedAt": "2025-11-07",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:37:01+00:00",
+            "lastCollectedAt": "2026-10-09T12:37:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1004963125334999",
+            "advertiser": "WPI Graduate & Professional Studies",
+            "startedAt": "2026-05-12",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:37:01+00:00",
+            "lastCollectedAt": "2026-10-09T12:37:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "812886101290112",
+            "advertiser": "Alibaba.com",
+            "startedAt": "2025-10-10",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:56+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2260486111469867",
+            "advertiser": "NS_official",
+            "startedAt": "2026-10-07",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:56+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:56+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1903545150234890",
+            "advertiser": "Laura Andrew Cann",
+            "startedAt": "2025-12-17",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:54+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1754539752372527",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-06-30",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:42+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1232178438967162",
+            "advertiser": "Laura Andrew Cann",
+            "startedAt": "2025-12-08",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:42+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "24826271593702083",
+            "advertiser": "ClarityCheck",
+            "startedAt": "2025-10-07",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:41+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2311392569626237",
+            "advertiser": "셀렉스",
+            "startedAt": "2026-10-04",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:41+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:41+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1311338180924422",
+            "advertiser": "WPI Graduate & Professional Studies",
+            "startedAt": "2026-05-13",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:41+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "656638980271530",
+            "advertiser": "Alibaba.com",
+            "startedAt": "2025-09-01",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:40+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4000610060083122",
+            "advertiser": "ClarityCheck",
+            "startedAt": "2025-12-18",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:40+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1493537118414168",
+            "advertiser": "DramaWave - Transmitir Drama",
+            "startedAt": "2025-11-07",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:39+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1449506696981230",
+            "advertiser": "리프타",
+            "startedAt": "2026-06-21",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:39+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2184933699106740",
+            "advertiser": "모닝파파-시환이아빠",
+            "startedAt": "2026-09-14",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:26+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1102596175662577",
+            "advertiser": "모닝파파-시환이아빠",
+            "startedAt": "2026-09-14",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:26+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "875512225057105",
+            "advertiser": "이데아뉴트리션",
+            "startedAt": "2026-06-22",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:25+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "713614604924959",
+            "advertiser": "Worcester Polytechnic Institute (WPI)",
+            "startedAt": "2026-01-08",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:24+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1686017522072503",
+            "advertiser": "Laura Andrew Cann",
+            "startedAt": "2025-10-03",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:24+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1003230482674155",
+            "advertiser": "리프타",
+            "startedAt": "2026-06-22",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:24+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28392458973749960",
+            "advertiser": "BUP :: Beyond Your Power",
+            "startedAt": "2026-09-29",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:23+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2423724088113212",
+            "advertiser": "WPI Graduate & Professional Studies",
+            "startedAt": "2026-05-12",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:22+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1083577504370963",
+            "advertiser": "핏언니꿀팁",
+            "startedAt": "2026-09-09",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:22+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1352979143637921",
+            "advertiser": "리프타",
+            "startedAt": "2026-06-30",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:21+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "965641259808089",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-06-27",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:14+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1703491444388694",
+            "advertiser": "Laura Andrew Cann",
+            "startedAt": "2025-10-03",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:14+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1690747472124173",
+            "advertiser": "리프타",
+            "startedAt": "2026-05-25",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:13+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1641063030337009",
+            "advertiser": "리프타",
+            "startedAt": "2026-05-31",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:13+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "894388516477465",
+            "advertiser": "Worcester Polytechnic Institute (WPI)",
+            "startedAt": "2026-01-08",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:12+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "846530047853704",
+            "advertiser": "Alibaba.com",
+            "startedAt": "2025-11-13",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:12+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "26785592327791892",
+            "advertiser": "WPI Graduate & Professional Studies",
+            "startedAt": "2026-05-12",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:12+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2080912816644729",
+            "advertiser": "Lukt",
+            "startedAt": "2026-09-14",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:12+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2193457351203523",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-08-29",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:11+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1621729672636473",
+            "advertiser": "익스트림 Extreme",
+            "startedAt": "2026-09-07",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:11+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "36164879779793096",
+            "advertiser": "WPI Graduate & Professional Studies",
+            "startedAt": "2026-06-01",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:04+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1441103531162619",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-06-26",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:04+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1143843211307226",
+            "advertiser": "ㅇㄹㅇㄹ",
+            "startedAt": "2026-09-28",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:03+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2173115816791206",
+            "advertiser": "WPI Graduate & Professional Studies",
+            "startedAt": "2026-05-13",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:02+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1093789010291877",
+            "advertiser": "NS_official",
+            "startedAt": "2026-09-28",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:02+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "855589084042596",
+            "advertiser": "Worcester Polytechnic Institute (WPI)",
+            "startedAt": "2025-12-18",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:00+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1836625960301040",
+            "advertiser": "Laura Andrew Cann",
+            "startedAt": "2025-10-03",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:00+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1166954285631660",
+            "advertiser": "Worcester Polytechnic Institute (WPI)",
+            "startedAt": "2025-12-18",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:36:00+00:00",
+            "lastCollectedAt": "2026-10-09T12:36:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2166041663939175",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-06-30",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:59+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1892151678420660",
+            "advertiser": "Tonmind",
+            "startedAt": "2026-08-03",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:59+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2591773641245081",
+            "advertiser": "Lukt",
+            "startedAt": "2026-09-14",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:54+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1415704247117492",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-08-29",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:54+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "886165280777921",
+            "advertiser": "Worcester Polytechnic Institute (WPI)",
+            "startedAt": "2026-01-21",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:53+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4401776216737328",
+            "advertiser": "WPI Graduate & Professional Studies",
+            "startedAt": "2026-05-12",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:53+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1658305042305753",
+            "advertiser": "거침없는 성분리뷰",
+            "startedAt": "2026-09-17",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:53+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1727285898379918",
+            "advertiser": "Promalspace",
+            "startedAt": "2026-10-08",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:52+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:52+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "25483284007957243",
+            "advertiser": "Worcester Polytechnic Institute (WPI)",
+            "startedAt": "2025-12-18",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:51+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1124383286909929",
+            "advertiser": "셀렉스",
+            "startedAt": "2026-10-04",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:51+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:51+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1643613436823171",
+            "advertiser": "AV86",
+            "startedAt": "2026-03-31",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:50+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1048848627953067",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-09-03",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:50+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1736307740759403",
+            "advertiser": "뉴치트 Nucheat",
+            "startedAt": "2026-09-08",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:41+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1391165336377047",
+            "advertiser": "ClarityCheck",
+            "startedAt": "2026-04-16",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:41+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1425916572767255",
+            "advertiser": "BUP :: Beyond Your Power",
+            "startedAt": "2026-08-03",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:40+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1677543383366576",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-06-27",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:39+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1316185940641424",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:39+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "870174505907373",
+            "advertiser": "Worcester Polytechnic Institute (WPI)",
+            "startedAt": "2026-01-08",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:38+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1065759072969772",
+            "advertiser": "NS_official",
+            "startedAt": "2026-09-10",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:38+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2250246548825335",
+            "advertiser": "ClarityCheck",
+            "startedAt": "2025-09-26",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:37+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1463747210994845",
+            "advertiser": "Muscle & Strength",
+            "startedAt": "2024-08-28",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:37+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "726420076788628",
+            "advertiser": "About Vintage",
+            "startedAt": "2025-06-30",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:36+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "959867883811853",
+            "advertiser": "NS_official",
+            "startedAt": "2026-09-01",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:30+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1352817590062349",
+            "advertiser": "WPLS",
+            "startedAt": "2026-06-02",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:30+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1665628598518557",
+            "advertiser": "뉴치트 Nucheat",
+            "startedAt": "2026-09-07",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:29+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1871084513868113",
+            "advertiser": "NS_official",
+            "startedAt": "2026-09-02",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:28+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4240617692816948",
+            "advertiser": "Worcester Polytechnic Institute (WPI)",
+            "startedAt": "2026-01-21",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:27+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1497779244830735",
+            "advertiser": "이데아뉴트리션",
+            "startedAt": "2026-06-25",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:27+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "900643286267469",
+            "advertiser": "Worcester Polytechnic Institute (WPI)",
+            "startedAt": "2026-01-05",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:26+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1391949779071109",
+            "advertiser": "NS_official",
+            "startedAt": "2026-09-14",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:26+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1896460157656905",
+            "advertiser": "国家大剧院National Centre for the Performing Arts",
+            "startedAt": "2026-06-04",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:25+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1078582235037992",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-22",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:25+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "970871462545165",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-04-19",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:19+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2018163065744908",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-22",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:19+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1384116607111117",
+            "advertiser": "이데아뉴트리션",
+            "startedAt": "2026-06-25",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:19+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "949872884354709",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-04-19",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:18+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1135681502083588",
+            "advertiser": "당신은 행운아",
+            "startedAt": "2026-05-13",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:18+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1514451556019688",
+            "advertiser": "zuzannkov",
+            "startedAt": "2023-12-16",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:17+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1501380141722602",
+            "advertiser": "NS_official",
+            "startedAt": "2026-04-27",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:16+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "25853200801023391",
+            "advertiser": "NS_official",
+            "startedAt": "2026-05-05",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:15+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1504353821176925",
+            "advertiser": "보충제업업",
+            "startedAt": "2026-06-02",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:14+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1350514173799442",
+            "advertiser": "NS_official",
+            "startedAt": "2026-05-10",
+            "query": "wpi",
+            "firstCollectedAt": "2026-10-09T12:35:12+00:00",
+            "lastCollectedAt": "2026-10-09T12:35:12+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-09T12:37:26+00:00",
+        "advertisers": [
+          {
+            "name": "NS_official",
+            "adCount": 10
+          },
+          {
+            "name": "Worcester Polytechnic Institute (WPI)",
+            "adCount": 10
+          },
+          {
+            "name": "WPI Graduate & Professional Studies",
+            "adCount": 9
+          },
+          {
+            "name": "다다쿵",
+            "adCount": 8
+          },
+          {
+            "name": "Laura Andrew Cann",
+            "adCount": 6
+          },
+          {
+            "name": "리프타",
+            "adCount": 5
+          },
+          {
+            "name": "ClarityCheck",
+            "adCount": 4
+          },
+          {
+            "name": "이데아뉴트리션",
+            "adCount": 4
+          },
+          {
+            "name": "Alibaba.com",
+            "adCount": 3
+          },
+          {
+            "name": "DramaWave - Transmitir Drama",
+            "adCount": 3
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 3
+          },
+          {
+            "name": "BUP :: Beyond Your Power",
+            "adCount": 2
+          },
+          {
+            "name": "Lukt",
+            "adCount": 2
+          },
+          {
+            "name": "뉴치트 Nucheat",
+            "adCount": 2
+          },
+          {
+            "name": "모닝파파-시환이아빠",
+            "adCount": 2
+          },
+          {
+            "name": "셀렉스",
+            "adCount": 2
+          },
+          {
+            "name": "써브웨이 Subway Korea",
+            "adCount": 2
+          },
+          {
+            "name": "쿠팡 Coupang",
+            "adCount": 2
+          },
+          {
+            "name": "핏언니꿀팁",
+            "adCount": 2
+          },
+          {
+            "name": "AV86",
+            "adCount": 1
+          },
+          {
+            "name": "About Vintage",
+            "adCount": 1
+          },
+          {
+            "name": "Hygiene MDPI",
+            "adCount": 1
+          },
+          {
+            "name": "Muscle & Strength",
+            "adCount": 1
+          },
+          {
+            "name": "Promalspace",
+            "adCount": 1
+          },
+          {
+            "name": "Shanghai Museum",
+            "adCount": 1
+          },
+          {
+            "name": "Tonmind",
+            "adCount": 1
+          },
+          {
+            "name": "WPLS",
+            "adCount": 1
+          },
+          {
+            "name": "zuzannkov",
+            "adCount": 1
+          },
+          {
+            "name": "ㅇㄹㅇㄹ",
+            "adCount": 1
+          },
+          {
+            "name": "国家大剧院National Centre for the Performing Arts",
+            "adCount": 1
+          },
+          {
+            "name": "거침없는 성분리뷰",
+            "adCount": 1
+          },
+          {
+            "name": "당신은 행운아",
+            "adCount": 1
+          },
+          {
+            "name": "마이옵티멀",
+            "adCount": 1
+          },
+          {
+            "name": "보충제업업",
+            "adCount": 1
+          },
+          {
+            "name": "익스트림 Extreme",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
