@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T11:26:36+00:00",
+  "updatedAt": "2026-10-09T11:29:51+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-09T01:05:24+00:00",
@@ -41,22 +41,22 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 31,
-    "dailyRemaining": 257,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "dailyUsed": 32,
+    "dailyRemaining": 256,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-09T12:29:51+00:00",
     "metaAutoEnabled": true,
-    "enabled": true,
+    "enabled": false,
     "collectionGuard": {
-      "state": "ready",
-      "reason": null,
-      "nextAllowedAt": null,
-      "blockedUntil": null,
-      "blockStreak": 0,
+      "state": "blocked",
+      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
+      "nextAllowedAt": "2026-10-09T12:29:51+00:00",
+      "blockedUntil": "2026-10-09T12:29:51+00:00",
+      "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": null
+    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
   },
   "settings": {
     "category": "50000023",
@@ -6287,17 +6287,48 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "c8efc02b43372bce37412c3d77da1a5b524a7ae58fa085201a1f4133a5d24887",
       "searchQuery": "파라다이스그레인버닝",
       "adEvidence": {
         "query": "파라다이스그레인버닝",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 2,
+        "adIds": [
+          "2326494318119386",
+          "1385842266602330"
+        ],
+        "ads": [
+          {
+            "id": "2326494318119386",
+            "advertiser": "미스정",
+            "startedAt": "2026-09-07",
+            "query": "파라다이스그레인버닝",
+            "firstCollectedAt": "2026-10-09T11:28:56+00:00",
+            "lastCollectedAt": "2026-10-09T11:28:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1385842266602330",
+            "advertiser": "데이즈온",
+            "startedAt": "2026-09-30",
+            "query": "파라다이스그레인버닝",
+            "firstCollectedAt": "2026-10-09T11:28:56+00:00",
+            "lastCollectedAt": "2026-10-09T11:28:56+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-09T11:28:56+00:00",
+        "advertisers": [
+          {
+            "name": "데이즈온",
+            "adCount": 1
+          },
+          {
+            "name": "미스정",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -6319,7 +6350,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "failed",
       "keywordId": "5fa4f7f111ac63f8a9a87aa0961ea2c0db8953b3980c5465ba905c210ec8976d",
       "searchQuery": "셀렉스프로핏",
       "adEvidence": {
@@ -8896,17 +8927,48 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:05:24+00:00",
       "lastObservedAt": "2026-10-09T01:05:24+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "c8efc02b43372bce37412c3d77da1a5b524a7ae58fa085201a1f4133a5d24887",
       "searchQuery": "파라다이스그레인버닝",
       "adEvidence": {
         "query": "파라다이스그레인버닝",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 2,
+        "adIds": [
+          "2326494318119386",
+          "1385842266602330"
+        ],
+        "ads": [
+          {
+            "id": "2326494318119386",
+            "advertiser": "미스정",
+            "startedAt": "2026-09-07",
+            "query": "파라다이스그레인버닝",
+            "firstCollectedAt": "2026-10-09T11:28:56+00:00",
+            "lastCollectedAt": "2026-10-09T11:28:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1385842266602330",
+            "advertiser": "데이즈온",
+            "startedAt": "2026-09-30",
+            "query": "파라다이스그레인버닝",
+            "firstCollectedAt": "2026-10-09T11:28:56+00:00",
+            "lastCollectedAt": "2026-10-09T11:28:56+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-09T11:28:56+00:00",
+        "advertisers": [
+          {
+            "name": "데이즈온",
+            "adCount": 1
+          },
+          {
+            "name": "미스정",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -10570,7 +10632,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:05:24+00:00",
       "lastObservedAt": "2026-10-09T01:05:24+00:00",
-      "state": "ready",
+      "state": "failed",
       "keywordId": "5fa4f7f111ac63f8a9a87aa0961ea2c0db8953b3980c5465ba905c210ec8976d",
       "searchQuery": "셀렉스프로핏",
       "adEvidence": {
