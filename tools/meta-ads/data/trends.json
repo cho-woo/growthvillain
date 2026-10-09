@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T09:03:12+00:00",
+  "updatedAt": "2026-10-09T09:05:46+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-09T01:05:24+00:00",
   "error": null,
   "sourceUrl": "https://datalab.naver.com/shoppingInsight/sCategory.naver",
-  "nextRunAt": "2026-10-09T09:05:42+00:00",
+  "nextRunAt": "2026-10-09T10:05:46+00:00",
   "intervalSeconds": 3600,
   "sourceCadence": "daily",
   "comparisonDays": 7,
@@ -43,8 +43,8 @@
     "backlogDays": 14,
     "dailyUsed": 28,
     "dailyRemaining": 260,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-09T09:08:12+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -5786,17 +5786,390 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "63bfb3b63f08be34c9ecd00fe6fb9175c7fb9f1a41d158773c04287d598ad005",
       "searchQuery": "저분자콜라겐",
       "adEvidence": {
         "query": "저분자콜라겐",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 31,
+        "adIds": [
+          "1503318558288409",
+          "2946345552393490",
+          "2911798692511458",
+          "1093971156674113",
+          "1787702885606570",
+          "1602568084683124",
+          "1460736339308839",
+          "1020501537671331",
+          "857342434071369",
+          "1698805432250331",
+          "1645783440478773",
+          "1977245586283986",
+          "863191070092793",
+          "1774154033855004",
+          "1113645031125694",
+          "2263805611206310",
+          "2621058478326525",
+          "1722495485713399",
+          "1577111497091996",
+          "1474629427797558",
+          "1410129240676157",
+          "1583948576758917",
+          "1289386359896189",
+          "1125281576754805",
+          "1963434220987084",
+          "2723057091225428",
+          "1385155669668992",
+          "1050016687367078",
+          "1966077550727100",
+          "1537047864224867",
+          "1509501983871277"
+        ],
+        "ads": [
+          {
+            "id": "1503318558288409",
+            "advertiser": "퍼니트",
+            "startedAt": "2026-10-06",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:05:07+00:00",
+            "lastCollectedAt": "2026-10-09T09:05:07+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2946345552393490",
+            "advertiser": "아후카틀 아보카도오일",
+            "startedAt": "2026-09-17",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:55+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2911798692511458",
+            "advertiser": "뉴트리원",
+            "startedAt": "2026-10-05",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:55+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:55+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1093971156674113",
+            "advertiser": "이너라이츠 Innerlights",
+            "startedAt": "2026-10-04",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:55+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:55+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1787702885606570",
+            "advertiser": "뉴트리원",
+            "startedAt": "2026-10-05",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:54+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1602568084683124",
+            "advertiser": "뉴트리원",
+            "startedAt": "2026-10-05",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:54+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1460736339308839",
+            "advertiser": "뉴트리원",
+            "startedAt": "2026-10-05",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:54+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1020501537671331",
+            "advertiser": "뉴트리원",
+            "startedAt": "2026-10-05",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:54+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "857342434071369",
+            "advertiser": "뉴트리원",
+            "startedAt": "2026-10-05",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:53+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:53+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1698805432250331",
+            "advertiser": "올리브영",
+            "startedAt": "2026-09-30",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:53+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1645783440478773",
+            "advertiser": "뉴트리원",
+            "startedAt": "2026-10-05",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:53+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:53+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1977245586283986",
+            "advertiser": "뉴트리원",
+            "startedAt": "2026-10-05",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:47+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:47+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "863191070092793",
+            "advertiser": "Thailoveshop",
+            "startedAt": "2026-09-03",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:46+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1774154033855004",
+            "advertiser": "이너니스",
+            "startedAt": "2026-10-04",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:36+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:36+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1113645031125694",
+            "advertiser": "뉴트리원",
+            "startedAt": "2026-10-05",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:36+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:36+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2263805611206310",
+            "advertiser": "건강꿀팁",
+            "startedAt": "2026-08-14",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:35+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2621058478326525",
+            "advertiser": "올리브영",
+            "startedAt": "2026-09-30",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:34+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1722495485713399",
+            "advertiser": "뉴트리원",
+            "startedAt": "2026-09-27",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:34+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1577111497091996",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-16",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:34+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1474629427797558",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-05",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:34+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1410129240676157",
+            "advertiser": "퍼니트",
+            "startedAt": "2026-10-01",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:34+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1583948576758917",
+            "advertiser": "Thailoveshop",
+            "startedAt": "2026-08-20",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:26+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1289386359896189",
+            "advertiser": "피부과 안가는 이유",
+            "startedAt": "2026-09-23",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:23+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1125281576754805",
+            "advertiser": "ร้านไทยในเกาหลี ขายทุกอย่าง",
+            "startedAt": "2026-09-28",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:22+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1963434220987084",
+            "advertiser": "아후카틀 아보카도오일",
+            "startedAt": "2026-09-16",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:03:21+00:00",
+            "lastCollectedAt": "2026-10-09T09:03:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2723057091225428",
+            "advertiser": "",
+            "startedAt": "2025-04-28",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:03:20+00:00",
+            "lastCollectedAt": "2026-10-09T09:03:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1385155669668992",
+            "advertiser": "건기남",
+            "startedAt": "2026-08-28",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:03:20+00:00",
+            "lastCollectedAt": "2026-10-09T09:03:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1050016687367078",
+            "advertiser": "카밍의아뜰리에",
+            "startedAt": "2026-07-01",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:03:19+00:00",
+            "lastCollectedAt": "2026-10-09T09:03:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1966077550727100",
+            "advertiser": "뉴트리원",
+            "startedAt": "2026-07-29",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:03:18+00:00",
+            "lastCollectedAt": "2026-10-09T09:03:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1537047864224867",
+            "advertiser": "휘또뷰티",
+            "startedAt": "2026-08-19",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:03:18+00:00",
+            "lastCollectedAt": "2026-10-09T09:03:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1509501983871277",
+            "advertiser": "메디큐브 - Medicube",
+            "startedAt": "2026-05-07",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:03:17+00:00",
+            "lastCollectedAt": "2026-10-09T09:03:17+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-09T09:05:07+00:00",
+        "advertisers": [
+          {
+            "name": "뉴트리원",
+            "adCount": 11
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 2
+          },
+          {
+            "name": "Thailoveshop",
+            "adCount": 2
+          },
+          {
+            "name": "아후카틀 아보카도오일",
+            "adCount": 2
+          },
+          {
+            "name": "올리브영",
+            "adCount": 2
+          },
+          {
+            "name": "퍼니트",
+            "adCount": 2
+          },
+          {
+            "name": "ร้านไทยในเกาหลี ขายทุกอย่าง",
+            "adCount": 1
+          },
+          {
+            "name": "건강꿀팁",
+            "adCount": 1
+          },
+          {
+            "name": "건기남",
+            "adCount": 1
+          },
+          {
+            "name": "메디큐브 - Medicube",
+            "adCount": 1
+          },
+          {
+            "name": "이너니스",
+            "adCount": 1
+          },
+          {
+            "name": "이너라이츠 Innerlights",
+            "adCount": 1
+          },
+          {
+            "name": "카밍의아뜰리에",
+            "adCount": 1
+          },
+          {
+            "name": "피부과 안가는 이유",
+            "adCount": 1
+          },
+          {
+            "name": "휘또뷰티",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -10337,17 +10710,390 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:05:24+00:00",
       "lastObservedAt": "2026-10-09T01:05:24+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "63bfb3b63f08be34c9ecd00fe6fb9175c7fb9f1a41d158773c04287d598ad005",
       "searchQuery": "저분자콜라겐",
       "adEvidence": {
         "query": "저분자콜라겐",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 31,
+        "adIds": [
+          "1503318558288409",
+          "2946345552393490",
+          "2911798692511458",
+          "1093971156674113",
+          "1787702885606570",
+          "1602568084683124",
+          "1460736339308839",
+          "1020501537671331",
+          "857342434071369",
+          "1698805432250331",
+          "1645783440478773",
+          "1977245586283986",
+          "863191070092793",
+          "1774154033855004",
+          "1113645031125694",
+          "2263805611206310",
+          "2621058478326525",
+          "1722495485713399",
+          "1577111497091996",
+          "1474629427797558",
+          "1410129240676157",
+          "1583948576758917",
+          "1289386359896189",
+          "1125281576754805",
+          "1963434220987084",
+          "2723057091225428",
+          "1385155669668992",
+          "1050016687367078",
+          "1966077550727100",
+          "1537047864224867",
+          "1509501983871277"
+        ],
+        "ads": [
+          {
+            "id": "1503318558288409",
+            "advertiser": "퍼니트",
+            "startedAt": "2026-10-06",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:05:07+00:00",
+            "lastCollectedAt": "2026-10-09T09:05:07+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2946345552393490",
+            "advertiser": "아후카틀 아보카도오일",
+            "startedAt": "2026-09-17",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:55+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2911798692511458",
+            "advertiser": "뉴트리원",
+            "startedAt": "2026-10-05",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:55+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:55+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1093971156674113",
+            "advertiser": "이너라이츠 Innerlights",
+            "startedAt": "2026-10-04",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:55+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:55+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1787702885606570",
+            "advertiser": "뉴트리원",
+            "startedAt": "2026-10-05",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:54+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1602568084683124",
+            "advertiser": "뉴트리원",
+            "startedAt": "2026-10-05",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:54+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1460736339308839",
+            "advertiser": "뉴트리원",
+            "startedAt": "2026-10-05",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:54+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1020501537671331",
+            "advertiser": "뉴트리원",
+            "startedAt": "2026-10-05",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:54+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "857342434071369",
+            "advertiser": "뉴트리원",
+            "startedAt": "2026-10-05",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:53+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:53+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1698805432250331",
+            "advertiser": "올리브영",
+            "startedAt": "2026-09-30",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:53+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1645783440478773",
+            "advertiser": "뉴트리원",
+            "startedAt": "2026-10-05",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:53+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:53+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1977245586283986",
+            "advertiser": "뉴트리원",
+            "startedAt": "2026-10-05",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:47+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:47+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "863191070092793",
+            "advertiser": "Thailoveshop",
+            "startedAt": "2026-09-03",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:46+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1774154033855004",
+            "advertiser": "이너니스",
+            "startedAt": "2026-10-04",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:36+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:36+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1113645031125694",
+            "advertiser": "뉴트리원",
+            "startedAt": "2026-10-05",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:36+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:36+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2263805611206310",
+            "advertiser": "건강꿀팁",
+            "startedAt": "2026-08-14",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:35+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2621058478326525",
+            "advertiser": "올리브영",
+            "startedAt": "2026-09-30",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:34+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1722495485713399",
+            "advertiser": "뉴트리원",
+            "startedAt": "2026-09-27",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:34+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1577111497091996",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-16",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:34+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1474629427797558",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-05",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:34+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1410129240676157",
+            "advertiser": "퍼니트",
+            "startedAt": "2026-10-01",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:34+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1583948576758917",
+            "advertiser": "Thailoveshop",
+            "startedAt": "2026-08-20",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:26+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1289386359896189",
+            "advertiser": "피부과 안가는 이유",
+            "startedAt": "2026-09-23",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:23+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1125281576754805",
+            "advertiser": "ร้านไทยในเกาหลี ขายทุกอย่าง",
+            "startedAt": "2026-09-28",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:04:22+00:00",
+            "lastCollectedAt": "2026-10-09T09:04:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1963434220987084",
+            "advertiser": "아후카틀 아보카도오일",
+            "startedAt": "2026-09-16",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:03:21+00:00",
+            "lastCollectedAt": "2026-10-09T09:03:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2723057091225428",
+            "advertiser": "",
+            "startedAt": "2025-04-28",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:03:20+00:00",
+            "lastCollectedAt": "2026-10-09T09:03:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1385155669668992",
+            "advertiser": "건기남",
+            "startedAt": "2026-08-28",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:03:20+00:00",
+            "lastCollectedAt": "2026-10-09T09:03:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1050016687367078",
+            "advertiser": "카밍의아뜰리에",
+            "startedAt": "2026-07-01",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:03:19+00:00",
+            "lastCollectedAt": "2026-10-09T09:03:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1966077550727100",
+            "advertiser": "뉴트리원",
+            "startedAt": "2026-07-29",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:03:18+00:00",
+            "lastCollectedAt": "2026-10-09T09:03:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1537047864224867",
+            "advertiser": "휘또뷰티",
+            "startedAt": "2026-08-19",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:03:18+00:00",
+            "lastCollectedAt": "2026-10-09T09:03:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1509501983871277",
+            "advertiser": "메디큐브 - Medicube",
+            "startedAt": "2026-05-07",
+            "query": "저분자콜라겐",
+            "firstCollectedAt": "2026-10-09T09:03:17+00:00",
+            "lastCollectedAt": "2026-10-09T09:03:17+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-09T09:05:07+00:00",
+        "advertisers": [
+          {
+            "name": "뉴트리원",
+            "adCount": 11
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 2
+          },
+          {
+            "name": "Thailoveshop",
+            "adCount": 2
+          },
+          {
+            "name": "아후카틀 아보카도오일",
+            "adCount": 2
+          },
+          {
+            "name": "올리브영",
+            "adCount": 2
+          },
+          {
+            "name": "퍼니트",
+            "adCount": 2
+          },
+          {
+            "name": "ร้านไทยในเกาหลี ขายทุกอย่าง",
+            "adCount": 1
+          },
+          {
+            "name": "건강꿀팁",
+            "adCount": 1
+          },
+          {
+            "name": "건기남",
+            "adCount": 1
+          },
+          {
+            "name": "메디큐브 - Medicube",
+            "adCount": 1
+          },
+          {
+            "name": "이너니스",
+            "adCount": 1
+          },
+          {
+            "name": "이너라이츠 Innerlights",
+            "adCount": 1
+          },
+          {
+            "name": "카밍의아뜰리에",
+            "adCount": 1
+          },
+          {
+            "name": "피부과 안가는 이유",
+            "adCount": 1
+          },
+          {
+            "name": "휘또뷰티",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
