@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T09:00:13+00:00",
+  "updatedAt": "2026-10-09T09:03:12+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-09T01:05:24+00:00",
@@ -41,8 +41,8 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 27,
-    "dailyRemaining": 261,
+    "dailyUsed": 28,
+    "dailyRemaining": 260,
     "pending": 1,
     "nextDispatchAt": null,
     "metaAutoEnabled": true,
@@ -5587,17 +5587,184 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "ff4189c37c2ca2617281a87d168523e6f09373e2146d00b982b2b19e88869fd5",
       "searchQuery": "셀렉스",
       "adEvidence": {
         "query": "셀렉스",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 14,
+        "adIds": [
+          "1529442892273451",
+          "4948904172009015",
+          "1571501480920341",
+          "1727285898379918",
+          "2311392569626237",
+          "1623435262759181",
+          "1418638836266437",
+          "1722242525542484",
+          "1445126681023459",
+          "1445105174199416",
+          "1124383286909929",
+          "2456712811505018",
+          "2018163065744908",
+          "1078582235037992"
+        ],
+        "ads": [
+          {
+            "id": "1529442892273451",
+            "advertiser": "매일유업(Maeil)",
+            "startedAt": "2026-10-07",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:49+00:00",
+            "lastCollectedAt": "2026-10-09T09:02:49+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4948904172009015",
+            "advertiser": "셀렉스",
+            "startedAt": "2026-10-07",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:48+00:00",
+            "lastCollectedAt": "2026-10-09T09:02:48+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1571501480920341",
+            "advertiser": "셀렉스",
+            "startedAt": "2026-10-07",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:48+00:00",
+            "lastCollectedAt": "2026-10-09T09:02:48+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1727285898379918",
+            "advertiser": "Promalspace",
+            "startedAt": "2026-10-08",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:47+00:00",
+            "lastCollectedAt": "2026-10-09T09:02:47+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2311392569626237",
+            "advertiser": "셀렉스",
+            "startedAt": "2026-10-04",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:35+00:00",
+            "lastCollectedAt": "2026-10-09T09:02:35+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1623435262759181",
+            "advertiser": "올리브영",
+            "startedAt": "2026-09-30",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:35+00:00",
+            "lastCollectedAt": "2026-10-09T09:02:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1418638836266437",
+            "advertiser": "셀렉스",
+            "startedAt": "2025-12-21",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:35+00:00",
+            "lastCollectedAt": "2026-10-09T09:02:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1722242525542484",
+            "advertiser": "Musinsa",
+            "startedAt": "2026-10-07",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:34+00:00",
+            "lastCollectedAt": "2026-10-09T09:02:34+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1445126681023459",
+            "advertiser": "Musinsa",
+            "startedAt": "2026-10-07",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:34+00:00",
+            "lastCollectedAt": "2026-10-09T09:02:34+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1445105174199416",
+            "advertiser": "셀렉스",
+            "startedAt": "2026-09-28",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:34+00:00",
+            "lastCollectedAt": "2026-10-09T09:02:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1124383286909929",
+            "advertiser": "셀렉스",
+            "startedAt": "2026-10-04",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:34+00:00",
+            "lastCollectedAt": "2026-10-09T09:02:34+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2456712811505018",
+            "advertiser": "Musinsa",
+            "startedAt": "2026-09-17",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:33+00:00",
+            "lastCollectedAt": "2026-10-09T09:02:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2018163065744908",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-22",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:33+00:00",
+            "lastCollectedAt": "2026-10-09T09:02:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1078582235037992",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-22",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:33+00:00",
+            "lastCollectedAt": "2026-10-09T09:02:33+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-09T09:02:49+00:00",
+        "advertisers": [
+          {
+            "name": "셀렉스",
+            "adCount": 6
+          },
+          {
+            "name": "Musinsa",
+            "adCount": 3
+          },
+          {
+            "name": "써브웨이 Subway Korea",
+            "adCount": 2
+          },
+          {
+            "name": "Promalspace",
+            "adCount": 1
+          },
+          {
+            "name": "매일유업(Maeil)",
+            "adCount": 1
+          },
+          {
+            "name": "올리브영",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -5619,7 +5786,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "queued",
       "keywordId": "63bfb3b63f08be34c9ecd00fe6fb9175c7fb9f1a41d158773c04287d598ad005",
       "searchQuery": "저분자콜라겐",
       "adEvidence": {
@@ -9828,17 +9995,184 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:05:24+00:00",
       "lastObservedAt": "2026-10-09T01:05:24+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "ff4189c37c2ca2617281a87d168523e6f09373e2146d00b982b2b19e88869fd5",
       "searchQuery": "셀렉스",
       "adEvidence": {
         "query": "셀렉스",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 14,
+        "adIds": [
+          "1529442892273451",
+          "4948904172009015",
+          "1571501480920341",
+          "1727285898379918",
+          "2311392569626237",
+          "1623435262759181",
+          "1418638836266437",
+          "1722242525542484",
+          "1445126681023459",
+          "1445105174199416",
+          "1124383286909929",
+          "2456712811505018",
+          "2018163065744908",
+          "1078582235037992"
+        ],
+        "ads": [
+          {
+            "id": "1529442892273451",
+            "advertiser": "매일유업(Maeil)",
+            "startedAt": "2026-10-07",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:49+00:00",
+            "lastCollectedAt": "2026-10-09T09:02:49+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4948904172009015",
+            "advertiser": "셀렉스",
+            "startedAt": "2026-10-07",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:48+00:00",
+            "lastCollectedAt": "2026-10-09T09:02:48+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1571501480920341",
+            "advertiser": "셀렉스",
+            "startedAt": "2026-10-07",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:48+00:00",
+            "lastCollectedAt": "2026-10-09T09:02:48+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1727285898379918",
+            "advertiser": "Promalspace",
+            "startedAt": "2026-10-08",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:47+00:00",
+            "lastCollectedAt": "2026-10-09T09:02:47+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2311392569626237",
+            "advertiser": "셀렉스",
+            "startedAt": "2026-10-04",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:35+00:00",
+            "lastCollectedAt": "2026-10-09T09:02:35+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1623435262759181",
+            "advertiser": "올리브영",
+            "startedAt": "2026-09-30",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:35+00:00",
+            "lastCollectedAt": "2026-10-09T09:02:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1418638836266437",
+            "advertiser": "셀렉스",
+            "startedAt": "2025-12-21",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:35+00:00",
+            "lastCollectedAt": "2026-10-09T09:02:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1722242525542484",
+            "advertiser": "Musinsa",
+            "startedAt": "2026-10-07",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:34+00:00",
+            "lastCollectedAt": "2026-10-09T09:02:34+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1445126681023459",
+            "advertiser": "Musinsa",
+            "startedAt": "2026-10-07",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:34+00:00",
+            "lastCollectedAt": "2026-10-09T09:02:34+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1445105174199416",
+            "advertiser": "셀렉스",
+            "startedAt": "2026-09-28",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:34+00:00",
+            "lastCollectedAt": "2026-10-09T09:02:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1124383286909929",
+            "advertiser": "셀렉스",
+            "startedAt": "2026-10-04",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:34+00:00",
+            "lastCollectedAt": "2026-10-09T09:02:34+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2456712811505018",
+            "advertiser": "Musinsa",
+            "startedAt": "2026-09-17",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:33+00:00",
+            "lastCollectedAt": "2026-10-09T09:02:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2018163065744908",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-22",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:33+00:00",
+            "lastCollectedAt": "2026-10-09T09:02:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1078582235037992",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-22",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:33+00:00",
+            "lastCollectedAt": "2026-10-09T09:02:33+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-09T09:02:49+00:00",
+        "advertisers": [
+          {
+            "name": "셀렉스",
+            "adCount": 6
+          },
+          {
+            "name": "Musinsa",
+            "adCount": 3
+          },
+          {
+            "name": "써브웨이 Subway Korea",
+            "adCount": 2
+          },
+          {
+            "name": "Promalspace",
+            "adCount": 1
+          },
+          {
+            "name": "매일유업(Maeil)",
+            "adCount": 1
+          },
+          {
+            "name": "올리브영",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -10003,7 +10337,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:05:24+00:00",
       "lastObservedAt": "2026-10-09T01:05:24+00:00",
-      "state": "ready",
+      "state": "queued",
       "keywordId": "63bfb3b63f08be34c9ecd00fe6fb9175c7fb9f1a41d158773c04287d598ad005",
       "searchQuery": "저분자콜라겐",
       "adEvidence": {
