@@ -1,6 +1,6 @@
 {
   "mode": "snapshot",
-  "updatedAt": "2026-10-09T22:16:48+00:00",
+  "updatedAt": "2026-10-09T22:18:12+00:00",
   "automations": [
     {
       "id": "meta-ads",
@@ -8,9 +8,9 @@
       "enabled": true,
       "running": true,
       "state": "running",
-      "nextRunAt": "2026-10-09T22:16:48+00:00",
-      "lastSuccessAt": "2026-10-09T21:13:27+00:00",
-      "lastAttemptAt": "2026-10-09T22:15:06+00:00",
+      "nextRunAt": "2026-10-09T23:15:06+00:00",
+      "lastSuccessAt": "2026-10-09T22:17:10+00:00",
+      "lastAttemptAt": "2026-10-09T22:17:11+00:00",
       "message": "광고 라이브러리 수집 중",
       "intervalSeconds": 3600,
       "statusCheckIntervalSeconds": 900,
@@ -21,7 +21,7 @@
         "reason": null,
         "nextAllowedAt": null,
         "blockedUntil": null,
-        "blockStreak": 1,
+        "blockStreak": 0,
         "storageReady": true,
         "minimumFreeBytes": 5368709120
       }
@@ -30,10 +30,10 @@
       "id": "naver-trends",
       "name": "네이버 급상승",
       "enabled": true,
-      "running": true,
-      "state": "running",
-      "nextRunAt": "2026-10-09T23:16:38+00:00",
-      "lastSuccessAt": "2026-10-09T21:16:33+00:00",
+      "running": false,
+      "state": "waiting",
+      "nextRunAt": "2026-10-09T23:18:05+00:00",
+      "lastSuccessAt": "2026-10-09T22:18:05+00:00",
       "lastAttemptAt": null,
       "message": "1시간마다 확인 · 일간 순위 기준",
       "intervalSeconds": 3600,
@@ -109,8 +109,8 @@
   ],
   "publication": {
     "state": "synced",
-    "lastAttemptAt": "2026-10-09T22:15:26+00:00",
-    "lastSuccessAt": "2026-10-09T22:15:31+00:00",
+    "lastAttemptAt": "2026-10-09T22:16:48+00:00",
+    "lastSuccessAt": "2026-10-09T22:16:53+00:00",
     "error": null,
     "enabled": true
   }
