@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T23:12:26+00:00",
+  "updatedAt": "2026-10-09T23:15:24+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-09T22:18:05+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 23,
-    "dailyRemaining": 265,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-09T23:15:20+00:00",
+    "dailyUsed": 24,
+    "dailyRemaining": 264,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -1336,7 +1336,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "bcf536dd1867b7bab597855a08ef29f72e5b6f42e81a4209905d4bcd3ee0a444",
       "searchQuery": "올록담올리브3",
       "adEvidence": {
@@ -19086,7 +19086,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:04:53+00:00",
       "lastObservedAt": "2026-10-09T22:17:21+00:00",
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "bcf536dd1867b7bab597855a08ef29f72e5b6f42e81a4209905d4bcd3ee0a444",
       "searchQuery": "올록담올리브3",
       "adEvidence": {
