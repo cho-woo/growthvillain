@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T23:15:24+00:00",
+  "updatedAt": "2026-10-09T23:18:07+00:00",
   "autoEnabled": true,
-  "scanning": false,
+  "scanning": true,
   "lastChecked": "2026-10-09T22:18:05+00:00",
   "error": null,
   "sourceUrl": "https://datalab.naver.com/shoppingInsight/sCategory.naver",
-  "nextRunAt": "2026-10-09T23:18:05+00:00",
+  "nextRunAt": "2026-10-10T00:18:07+00:00",
   "intervalSeconds": 3600,
   "sourceCadence": "daily",
   "comparisonDays": 7,
@@ -30,7 +30,7 @@
       "error": null
     }
   ],
-  "lastAttemptAt": "2026-10-09T22:16:38+00:00",
+  "lastAttemptAt": "2026-10-09T23:18:07+00:00",
   "lastSuccessAt": "2026-10-09T22:18:05+00:00",
   "lastError": null,
   "collectionPolicy": {
@@ -43,8 +43,8 @@
     "backlogDays": 14,
     "dailyUsed": 24,
     "dailyRemaining": 264,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-09T23:20:24+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -1336,7 +1336,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "bcf536dd1867b7bab597855a08ef29f72e5b6f42e81a4209905d4bcd3ee0a444",
       "searchQuery": "올록담올리브3",
       "adEvidence": {
@@ -1357,7 +1357,7 @@
             "startedAt": "2026-07-07",
             "query": "올록담올리브3",
             "firstCollectedAt": "2026-10-08T16:36:03+00:00",
-            "lastCollectedAt": "2026-10-08T16:36:03+00:00",
+            "lastCollectedAt": "2026-10-09T23:17:24+00:00",
             "startTiming": "before-window"
           },
           {
@@ -1366,7 +1366,7 @@
             "startedAt": "2026-09-20",
             "query": "올록담올리브3",
             "firstCollectedAt": "2026-10-08T16:36:02+00:00",
-            "lastCollectedAt": "2026-10-08T16:36:02+00:00",
+            "lastCollectedAt": "2026-10-09T23:17:23+00:00",
             "startTiming": "before-window"
           },
           {
@@ -1375,7 +1375,7 @@
             "startedAt": "2026-07-31",
             "query": "올록담올리브3",
             "firstCollectedAt": "2026-10-08T16:36:01+00:00",
-            "lastCollectedAt": "2026-10-08T16:36:01+00:00",
+            "lastCollectedAt": "2026-10-09T23:17:22+00:00",
             "startTiming": "before-window"
           },
           {
@@ -1384,7 +1384,7 @@
             "startedAt": "2026-09-22",
             "query": "올록담올리브3",
             "firstCollectedAt": "2026-10-08T16:36:00+00:00",
-            "lastCollectedAt": "2026-10-08T16:36:00+00:00",
+            "lastCollectedAt": "2026-10-09T23:17:21+00:00",
             "startTiming": "before-window"
           },
           {
@@ -1393,11 +1393,11 @@
             "startedAt": "2026-09-28",
             "query": "올록담올리브3",
             "firstCollectedAt": "2026-10-08T16:36:00+00:00",
-            "lastCollectedAt": "2026-10-08T16:36:00+00:00",
+            "lastCollectedAt": "2026-10-09T23:17:21+00:00",
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-08T16:36:03+00:00",
+        "lastCollectedAt": "2026-10-09T23:17:24+00:00",
         "advertisers": [
           {
             "name": "올록담",
@@ -19086,7 +19086,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:04:53+00:00",
       "lastObservedAt": "2026-10-09T22:17:21+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "bcf536dd1867b7bab597855a08ef29f72e5b6f42e81a4209905d4bcd3ee0a444",
       "searchQuery": "올록담올리브3",
       "adEvidence": {
@@ -19107,7 +19107,7 @@
             "startedAt": "2026-07-07",
             "query": "올록담올리브3",
             "firstCollectedAt": "2026-10-08T16:36:03+00:00",
-            "lastCollectedAt": "2026-10-08T16:36:03+00:00",
+            "lastCollectedAt": "2026-10-09T23:17:24+00:00",
             "startTiming": "before-window"
           },
           {
@@ -19116,7 +19116,7 @@
             "startedAt": "2026-09-20",
             "query": "올록담올리브3",
             "firstCollectedAt": "2026-10-08T16:36:02+00:00",
-            "lastCollectedAt": "2026-10-08T16:36:02+00:00",
+            "lastCollectedAt": "2026-10-09T23:17:23+00:00",
             "startTiming": "before-window"
           },
           {
@@ -19125,7 +19125,7 @@
             "startedAt": "2026-07-31",
             "query": "올록담올리브3",
             "firstCollectedAt": "2026-10-08T16:36:01+00:00",
-            "lastCollectedAt": "2026-10-08T16:36:01+00:00",
+            "lastCollectedAt": "2026-10-09T23:17:22+00:00",
             "startTiming": "before-window"
           },
           {
@@ -19134,7 +19134,7 @@
             "startedAt": "2026-09-22",
             "query": "올록담올리브3",
             "firstCollectedAt": "2026-10-08T16:36:00+00:00",
-            "lastCollectedAt": "2026-10-08T16:36:00+00:00",
+            "lastCollectedAt": "2026-10-09T23:17:21+00:00",
             "startTiming": "before-window"
           },
           {
@@ -19143,11 +19143,11 @@
             "startedAt": "2026-09-28",
             "query": "올록담올리브3",
             "firstCollectedAt": "2026-10-08T16:36:00+00:00",
-            "lastCollectedAt": "2026-10-08T16:36:00+00:00",
+            "lastCollectedAt": "2026-10-09T23:17:21+00:00",
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-08T16:36:03+00:00",
+        "lastCollectedAt": "2026-10-09T23:17:24+00:00",
         "advertisers": [
           {
             "name": "올록담",
@@ -31171,7 +31171,7 @@
             "startedAt": "2026-07-07",
             "query": "올록담올리브3",
             "firstCollectedAt": "2026-10-08T16:36:03+00:00",
-            "lastCollectedAt": "2026-10-08T16:36:03+00:00",
+            "lastCollectedAt": "2026-10-09T23:17:24+00:00",
             "startTiming": "before-window"
           },
           {
@@ -31180,7 +31180,7 @@
             "startedAt": "2026-09-20",
             "query": "올록담올리브3",
             "firstCollectedAt": "2026-10-08T16:36:02+00:00",
-            "lastCollectedAt": "2026-10-08T16:36:02+00:00",
+            "lastCollectedAt": "2026-10-09T23:17:23+00:00",
             "startTiming": "before-window"
           },
           {
@@ -31189,7 +31189,7 @@
             "startedAt": "2026-07-31",
             "query": "올록담올리브3",
             "firstCollectedAt": "2026-10-08T16:36:01+00:00",
-            "lastCollectedAt": "2026-10-08T16:36:01+00:00",
+            "lastCollectedAt": "2026-10-09T23:17:22+00:00",
             "startTiming": "before-window"
           },
           {
@@ -31198,7 +31198,7 @@
             "startedAt": "2026-09-22",
             "query": "올록담올리브3",
             "firstCollectedAt": "2026-10-08T16:36:00+00:00",
-            "lastCollectedAt": "2026-10-08T16:36:00+00:00",
+            "lastCollectedAt": "2026-10-09T23:17:21+00:00",
             "startTiming": "before-window"
           },
           {
@@ -31207,11 +31207,11 @@
             "startedAt": "2026-09-28",
             "query": "올록담올리브3",
             "firstCollectedAt": "2026-10-08T16:36:00+00:00",
-            "lastCollectedAt": "2026-10-08T16:36:00+00:00",
+            "lastCollectedAt": "2026-10-09T23:17:21+00:00",
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-08T16:36:03+00:00",
+        "lastCollectedAt": "2026-10-09T23:17:24+00:00",
         "advertisers": [
           {
             "name": "올록담",
