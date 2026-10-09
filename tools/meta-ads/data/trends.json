@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T14:59:18+00:00",
+  "updatedAt": "2026-10-09T15:01:33+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-09T01:05:24+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 36,
-    "dailyRemaining": 252,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "dailyUsed": 0,
+    "dailyRemaining": 288,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-09T15:04:18+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -1317,8 +1317,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1418,8 +1418,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1437,7 +1437,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "84ed631f9dfe8b84b2751a391f5d3cf7bd30c997f78f46dbc584e776d5bc4dd3",
       "searchQuery": "코엔자임q10",
       "adEvidence": {
@@ -2641,8 +2641,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -3864,8 +3864,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -3883,7 +3883,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "631327d2f460dfbaccf4bcc4992e74327fd148471487e1b58724a418331fd626",
       "searchQuery": "nmn영양제",
       "adEvidence": {
@@ -4213,8 +4213,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -4232,7 +4232,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "32356e62f83ce1d1f3d4b4f88bdf6774392425a5e293a0ccd2e5afe770748bc6",
       "searchQuery": "폴리코사놀",
       "adEvidence": {
@@ -4245,8 +4245,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -4264,21 +4264,1172 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "304fbb1a972d232d3079f5c8862038074b61f170350280a83fec688f71fcf4f1",
       "searchQuery": "프로폴리스",
       "adEvidence": {
         "query": "프로폴리스",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 100,
+        "adIds": [
+          "4184268175043896",
+          "1767924501065345",
+          "2609650989465477",
+          "1432083819042649",
+          "1066287989647526",
+          "2082919539016912",
+          "1915420572446363",
+          "4794963374065587",
+          "1593725122344941",
+          "1452856086989401",
+          "2253116865503544",
+          "1571941771342945",
+          "2195035828100580",
+          "2021338581911243",
+          "1974176040634001",
+          "1769871604262277",
+          "1739530823934589",
+          "1656423192568964",
+          "1094450502918835",
+          "882760244589604",
+          "1421438749889119",
+          "2096477567894714",
+          "1666388208386406",
+          "1489130779721696",
+          "1062552163312159",
+          "4545715792379480",
+          "1641725057478550",
+          "1449744017057994",
+          "1397653542442389",
+          "1379865443879679",
+          "2228267734736946",
+          "1443885260928952",
+          "964445209411238",
+          "2503568916811573",
+          "1415341913371046",
+          "26932324639767114",
+          "1356628709697715",
+          "2530918440751334",
+          "2123676141893747",
+          "1296146342152998",
+          "1736883407383300",
+          "853296124236958",
+          "1353630556957897",
+          "1323123122857286",
+          "1092201980224791",
+          "995006689576739",
+          "1811262686964337",
+          "1076225391979714",
+          "2190866961776973",
+          "1223701466376699",
+          "2296360801147110",
+          "1637351421394523",
+          "1394082402931135",
+          "1093757649757198",
+          "735678606272647",
+          "2131576267707356",
+          "1472099081491122",
+          "1005765835833738",
+          "1538414603870600",
+          "1099958192563000",
+          "1985499852005728",
+          "1574709003751053",
+          "953763030452178",
+          "4480564308925994",
+          "2204523133451554",
+          "759367350604735",
+          "2128299688570199",
+          "1265952902368505",
+          "2152792275263405",
+          "1487954959831305",
+          "1872378703446421",
+          "2678808225867369",
+          "1770997444105820",
+          "1763073578048211",
+          "1709076473490715",
+          "1744477866921243",
+          "1048954454456785",
+          "962763229832540",
+          "2128916097951820",
+          "2092659434475562",
+          "1410232681014704",
+          "2804985016552902",
+          "1370745445220586",
+          "1750251573018570",
+          "1548612662901403",
+          "1302812758532846",
+          "1100957549077372",
+          "985792553998698",
+          "2161247571152698",
+          "2101472030784366",
+          "834438615621905",
+          "2046078855981720",
+          "1713052219894759",
+          "1106880122083735",
+          "1041410245217925",
+          "1096229692583819",
+          "2546155375857754",
+          "1593204708960315",
+          "2156160961859091",
+          "1330005052389606"
+        ],
+        "ads": [
+          {
+            "id": "4184268175043896",
+            "advertiser": "마더네스트",
+            "startedAt": "2026-10-01",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:01:24+00:00",
+            "lastCollectedAt": "2026-10-09T15:01:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1767924501065345",
+            "advertiser": "Lefilleo.cos",
+            "startedAt": "2026-08-12",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:01:24+00:00",
+            "lastCollectedAt": "2026-10-09T15:01:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2609650989465477",
+            "advertiser": "드시모네",
+            "startedAt": "2026-09-21",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:01:23+00:00",
+            "lastCollectedAt": "2026-10-09T15:01:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1432083819042649",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-10-01",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:01:23+00:00",
+            "lastCollectedAt": "2026-10-09T15:01:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1066287989647526",
+            "advertiser": "바잇미 - Bite me",
+            "startedAt": "2026-09-20",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:01:23+00:00",
+            "lastCollectedAt": "2026-10-09T15:01:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2082919539016912",
+            "advertiser": "Darling Tag",
+            "startedAt": "2026-08-14",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:01:22+00:00",
+            "lastCollectedAt": "2026-10-09T15:01:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1915420572446363",
+            "advertiser": "피부건강",
+            "startedAt": "2026-05-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:01:22+00:00",
+            "lastCollectedAt": "2026-10-09T15:01:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4794963374065587",
+            "advertiser": "H.N",
+            "startedAt": "2026-09-03",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:01:21+00:00",
+            "lastCollectedAt": "2026-10-09T15:01:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1593725122344941",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-15",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:01:21+00:00",
+            "lastCollectedAt": "2026-10-09T15:01:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1452856086989401",
+            "advertiser": "필수관리 백과사전",
+            "startedAt": "2026-10-04",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:01:21+00:00",
+            "lastCollectedAt": "2026-10-09T15:01:21+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2253116865503544",
+            "advertiser": "Yellow AU",
+            "startedAt": "2026-07-04",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:01:11+00:00",
+            "lastCollectedAt": "2026-10-09T15:01:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1571941771342945",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-09-08",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:01:11+00:00",
+            "lastCollectedAt": "2026-10-09T15:01:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2195035828100580",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-09-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:01:10+00:00",
+            "lastCollectedAt": "2026-10-09T15:01:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2021338581911243",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-09-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:01:10+00:00",
+            "lastCollectedAt": "2026-10-09T15:01:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1974176040634001",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-10-04",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:01:10+00:00",
+            "lastCollectedAt": "2026-10-09T15:01:10+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1769871604262277",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-10-07",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:01:09+00:00",
+            "lastCollectedAt": "2026-10-09T15:01:09+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1739530823934589",
+            "advertiser": "Thailoveshop",
+            "startedAt": "2026-09-03",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:01:09+00:00",
+            "lastCollectedAt": "2026-10-09T15:01:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1656423192568964",
+            "advertiser": "드시모네",
+            "startedAt": "2026-10-05",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:01:09+00:00",
+            "lastCollectedAt": "2026-10-09T15:01:09+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1094450502918835",
+            "advertiser": "BEE WITH YOU.KR",
+            "startedAt": "2026-08-26",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:53+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "882760244589604",
+            "advertiser": "건강을 위한 재미있는 지식저장소",
+            "startedAt": "2026-07-28",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:51+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1421438749889119",
+            "advertiser": "애프리솔루션",
+            "startedAt": "2026-08-25",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:42+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2096477567894714",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-09-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:41+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1666388208386406",
+            "advertiser": "JISU",
+            "startedAt": "2026-09-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:40+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1489130779721696",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-10-02",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:40+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:40+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1062552163312159",
+            "advertiser": "바잇미 - Bite me",
+            "startedAt": "2026-09-20",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:40+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4545715792379480",
+            "advertiser": "Namissong_",
+            "startedAt": "2026-09-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:39+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1641725057478550",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-10-04",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:39+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:39+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1449744017057994",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-10-04",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:39+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:39+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1397653542442389",
+            "advertiser": "바잇미 - Bite me",
+            "startedAt": "2026-09-20",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:39+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1379865443879679",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-09-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:38+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2228267734736946",
+            "advertiser": "디어랩스",
+            "startedAt": "2026-09-29",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:30+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1443885260928952",
+            "advertiser": "Musinsa",
+            "startedAt": "2026-10-07",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:30+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:30+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "964445209411238",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-10-01",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:29+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2503568916811573",
+            "advertiser": "디어패밀리",
+            "startedAt": "2026-08-05",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:29+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1415341913371046",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-10-07",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:29+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:29+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "26932324639767114",
+            "advertiser": "애프리솔루션",
+            "startedAt": "2026-05-27",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:28+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1356628709697715",
+            "advertiser": "피부건강",
+            "startedAt": "2026-05-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:28+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2530918440751334",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-09-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:27+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2123676141893747",
+            "advertiser": "유유제약",
+            "startedAt": "2026-08-13",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:27+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1296146342152998",
+            "advertiser": "피부건강",
+            "startedAt": "2026-05-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:27+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1736883407383300",
+            "advertiser": "JISU",
+            "startedAt": "2026-09-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:19+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "853296124236958",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-05",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:18+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1353630556957897",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-14",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:18+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1323123122857286",
+            "advertiser": "",
+            "startedAt": "2026-07-08",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:18+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1092201980224791",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-10-04",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:18+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:18+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "995006689576739",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:16+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1811262686964337",
+            "advertiser": "상품",
+            "startedAt": "2026-09-23",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:16+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1076225391979714",
+            "advertiser": "다이소",
+            "startedAt": "2026-10-02",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:16+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:16+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2190866961776973",
+            "advertiser": "유유제약",
+            "startedAt": "2026-07-31",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:15+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1223701466376699",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:15+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2296360801147110",
+            "advertiser": "Musinsa",
+            "startedAt": "2026-10-07",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:08+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:08+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1637351421394523",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-09-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:07+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1394082402931135",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-09-15",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:07+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1093757649757198",
+            "advertiser": "Dear.siamom",
+            "startedAt": "2026-09-14",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:07+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "735678606272647",
+            "advertiser": "디어패밀리",
+            "startedAt": "2026-05-21",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:06+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2131576267707356",
+            "advertiser": "건기남",
+            "startedAt": "2026-09-07",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:06+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1472099081491122",
+            "advertiser": "Cenovis_official",
+            "startedAt": "2026-10-04",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:06+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:06+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1005765835833738",
+            "advertiser": "비타네이처",
+            "startedAt": "2026-08-26",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:06+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1538414603870600",
+            "advertiser": "",
+            "startedAt": "2025-11-19",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:05+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1099958192563000",
+            "advertiser": "멍스타그램",
+            "startedAt": "2026-08-17",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:04+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1985499852005728",
+            "advertiser": "필수관리 백과사전",
+            "startedAt": "2026-03-13",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:57+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1574709003751053",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-10-04",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:57+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:57+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "953763030452178",
+            "advertiser": "바잇미 - Bite me",
+            "startedAt": "2026-09-20",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:56+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4480564308925994",
+            "advertiser": "Bïchaëk",
+            "startedAt": "2026-09-19",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:56+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2204523133451554",
+            "advertiser": "라니",
+            "startedAt": "2026-09-07",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:56+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "759367350604735",
+            "advertiser": "라이프스타일마켓",
+            "startedAt": "2026-08-26",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:55+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2128299688570199",
+            "advertiser": "디어패밀리",
+            "startedAt": "2026-05-21",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:55+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1265952902368505",
+            "advertiser": "디어패밀리",
+            "startedAt": "2026-05-21",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:55+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2152792275263405",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-05",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:54+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1487954959831305",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-10-04",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:54+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1872378703446421",
+            "advertiser": "디어패밀리",
+            "startedAt": "2026-04-29",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:47+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2678808225867369",
+            "advertiser": "드시모네",
+            "startedAt": "2026-09-21",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:46+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1770997444105820",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-10-04",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:46+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:46+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1763073578048211",
+            "advertiser": "정약사의 건강나눔",
+            "startedAt": "2026-07-13",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:46+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1709076473490715",
+            "advertiser": "한약사가 만드는 한방식품 - 설아래",
+            "startedAt": "2026-09-03",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:46+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1744477866921243",
+            "advertiser": "비타네이처",
+            "startedAt": "2026-06-08",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:45+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1048954454456785",
+            "advertiser": "비타네이처",
+            "startedAt": "2026-06-05",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:45+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "962763229832540",
+            "advertiser": "디어패밀리",
+            "startedAt": "2026-04-29",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:44+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2128916097951820",
+            "advertiser": "애프리솔루션",
+            "startedAt": "2026-04-14",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:44+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2092659434475562",
+            "advertiser": "",
+            "startedAt": "2025-10-17",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:44+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1410232681014704",
+            "advertiser": "구강연구소",
+            "startedAt": "2026-08-22",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:37+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2804985016552902",
+            "advertiser": "입냄새 분야 박사",
+            "startedAt": "2026-09-06",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:36+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1370745445220586",
+            "advertiser": "뉸이랍니다",
+            "startedAt": "2026-08-24",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:36+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1750251573018570",
+            "advertiser": "필수관리 백과사전",
+            "startedAt": "2026-06-11",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:35+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1548612662901403",
+            "advertiser": "정약사의 건강나눔",
+            "startedAt": "2026-08-10",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:35+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1302812758532846",
+            "advertiser": "Musinsa",
+            "startedAt": "2026-09-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:34+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1100957549077372",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-09-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:34+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "985792553998698",
+            "advertiser": "디어패밀리",
+            "startedAt": "2026-05-21",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:33+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2161247571152698",
+            "advertiser": "피부건강",
+            "startedAt": "2026-06-26",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:33+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2101472030784366",
+            "advertiser": "애프리솔루션",
+            "startedAt": "2026-06-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:33+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "834438615621905",
+            "advertiser": "",
+            "startedAt": "2025-11-05",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:28+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2046078855981720",
+            "advertiser": "피부건강",
+            "startedAt": "2026-06-24",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:28+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1713052219894759",
+            "advertiser": "밍꾸",
+            "startedAt": "2026-06-12",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:27+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1106880122083735",
+            "advertiser": "Musinsa",
+            "startedAt": "2026-09-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:27+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1041410245217925",
+            "advertiser": "디어패밀리",
+            "startedAt": "2026-05-21",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:27+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1096229692583819",
+            "advertiser": "",
+            "startedAt": "2025-11-05",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:25+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2546155375857754",
+            "advertiser": "뉸이랍니다",
+            "startedAt": "2026-08-24",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:24+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1593204708960315",
+            "advertiser": "구강연구소",
+            "startedAt": "2026-08-22",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:24+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2156160961859091",
+            "advertiser": "정약사의 건강나눔",
+            "startedAt": "2026-03-01",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:23+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1330005052389606",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:23+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:23+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-09T15:01:24+00:00",
+        "advertisers": [
+          {
+            "name": "CNP Cosmetics",
+            "adCount": 20
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 8
+          },
+          {
+            "name": "디어패밀리",
+            "adCount": 8
+          },
+          {
+            "name": "피부건강",
+            "adCount": 5
+          },
+          {
+            "name": "Musinsa",
+            "adCount": 4
+          },
+          {
+            "name": "바잇미 - Bite me",
+            "adCount": 4
+          },
+          {
+            "name": "애프리솔루션",
+            "adCount": 4
+          },
+          {
+            "name": "드시모네",
+            "adCount": 3
+          },
+          {
+            "name": "비타네이처",
+            "adCount": 3
+          },
+          {
+            "name": "정약사의 건강나눔",
+            "adCount": 3
+          },
+          {
+            "name": "필수관리 백과사전",
+            "adCount": 3
+          },
+          {
+            "name": "JISU",
+            "adCount": 2
+          },
+          {
+            "name": "구강연구소",
+            "adCount": 2
+          },
+          {
+            "name": "뉸이랍니다",
+            "adCount": 2
+          },
+          {
+            "name": "유유제약",
+            "adCount": 2
+          },
+          {
+            "name": "BEE WITH YOU.KR",
+            "adCount": 1
+          },
+          {
+            "name": "Bïchaëk",
+            "adCount": 1
+          },
+          {
+            "name": "Cenovis_official",
+            "adCount": 1
+          },
+          {
+            "name": "Darling Tag",
+            "adCount": 1
+          },
+          {
+            "name": "Dear.siamom",
+            "adCount": 1
+          },
+          {
+            "name": "H.N",
+            "adCount": 1
+          },
+          {
+            "name": "Lefilleo.cos",
+            "adCount": 1
+          },
+          {
+            "name": "Namissong_",
+            "adCount": 1
+          },
+          {
+            "name": "Thailoveshop",
+            "adCount": 1
+          },
+          {
+            "name": "Yellow AU",
+            "adCount": 1
+          },
+          {
+            "name": "건강을 위한 재미있는 지식저장소",
+            "adCount": 1
+          },
+          {
+            "name": "건기남",
+            "adCount": 1
+          },
+          {
+            "name": "다이소",
+            "adCount": 1
+          },
+          {
+            "name": "디어랩스",
+            "adCount": 1
+          },
+          {
+            "name": "라니",
+            "adCount": 1
+          },
+          {
+            "name": "라이프스타일마켓",
+            "adCount": 1
+          },
+          {
+            "name": "마더네스트",
+            "adCount": 1
+          },
+          {
+            "name": "멍스타그램",
+            "adCount": 1
+          },
+          {
+            "name": "밍꾸",
+            "adCount": 1
+          },
+          {
+            "name": "상품",
+            "adCount": 1
+          },
+          {
+            "name": "입냄새 분야 박사",
+            "adCount": 1
+          },
+          {
+            "name": "한약사가 만드는 한방식품 - 설아래",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -4726,8 +5877,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -4745,7 +5896,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "b7fc39701163022dc2c274150536edc5141e20decb52a2ed4adddb87e407f9ac",
       "searchQuery": "자보티바",
       "adEvidence": {
@@ -4758,8 +5909,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -4777,7 +5928,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "9b29e717777f83f6f58541187923738cca6263e9f3e68c4724448e2289c2c460",
       "searchQuery": "피크노제놀",
       "adEvidence": {
@@ -4790,8 +5941,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -4809,7 +5960,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "411a9642a4f535a890a20e9c08c13fcc7c8ca227df1d41bb704b4f448940231e",
       "searchQuery": "맥주효모",
       "adEvidence": {
@@ -4822,8 +5973,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -4841,7 +5992,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "5c0111843342825d1d828733f3a8692af2e2f530a46eb906f7efe4dd1d654e41",
       "searchQuery": "드시모네유산균",
       "adEvidence": {
@@ -4854,8 +6005,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -4873,7 +6024,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "d26f6c2a7b284ecb6f0394c33f5ddb0a834461b4e21c58b297bcffe307fc4047",
       "searchQuery": "매스틱",
       "adEvidence": {
@@ -5109,8 +6260,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -5128,7 +6279,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "7d3a25ba0db56e63aaf55083c0444b6d09a5b24549107ca377efbd59b73444b2",
       "searchQuery": "캡슐레이션효소",
       "adEvidence": {
@@ -5362,8 +6513,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -5381,7 +6532,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "01fba974d6f4559693cea16ca985fdf63102dfb7189a0ec1372c2d3f2e256637",
       "searchQuery": "삼백초추출물",
       "adEvidence": {
@@ -5449,8 +6600,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -5468,7 +6619,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "bc7639df3dee6f6e5b7fcfaaacd8d58a81c60d3b2df2987e0b1e664b47d246de",
       "searchQuery": "산양유단백질",
       "adEvidence": {
@@ -5536,8 +6687,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -5568,8 +6719,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -5767,8 +6918,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -6172,8 +7323,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -6204,8 +7355,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -6236,8 +7387,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -6268,8 +7419,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -6331,8 +7482,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -6363,8 +7514,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -7528,8 +8679,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -7560,8 +8711,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -7737,8 +8888,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -7756,7 +8907,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "801c2d114967f06587f5916bf441d0f18e2e3c0e48bfa5e00af94b4bb15191f4",
       "searchQuery": "다이마타이즈iso100",
       "adEvidence": {
@@ -7769,8 +8920,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -7788,7 +8939,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "1ceb09eb2f2ed9fc0c05455a35bdf4b06afcfc3725d0703a0d2d2c1aea878654",
       "searchQuery": "마이프로틴",
       "adEvidence": {
@@ -8098,8 +9249,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -9357,8 +10508,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -9376,7 +10527,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "92b002c4ca12909c23a5034a1b94bea492e1e0ad7e0ca4790218ea7025281015",
       "searchQuery": "저분자콜라겐비트셀",
       "adEvidence": {
@@ -9389,8 +10540,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -9408,7 +10559,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "4fe9bee668ae83190f9d9a3b4f79cc2546237f4e56b2f597bdd54cc98975bd15",
       "searchQuery": "러닝에너지젤",
       "adEvidence": {
@@ -9421,8 +10572,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -9440,7 +10591,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "b7e87edd21f0ad81dbaf5aaafe5ce37fe2bcc2e3102c155bf1b200efd068852c",
       "searchQuery": "류신로이신",
       "adEvidence": {
@@ -9453,8 +10604,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -9485,8 +10636,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -9504,7 +10655,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "05ab5e8e816c91581fbe590d0bb6bbe46132d1ad5635e07c59f14e7e51fad599",
       "searchQuery": "hw3",
       "adEvidence": {
@@ -9517,8 +10668,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -9536,7 +10687,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "7724b5bd33797e29984384a87a0286d1e7e4a866a88842099d32bf4775c90a28",
       "searchQuery": "저분자유청펩타이드hw3",
       "adEvidence": {
@@ -9549,8 +10700,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     }
   ],
   "history": [
@@ -9573,7 +10724,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:05:24+00:00",
       "lastObservedAt": "2026-10-09T01:05:24+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "92b002c4ca12909c23a5034a1b94bea492e1e0ad7e0ca4790218ea7025281015",
       "searchQuery": "저분자콜라겐비트셀",
       "adEvidence": {
@@ -9586,8 +10737,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "2e9ffd647221acc38efb3e34193a7ee24a9df7b027b9fd778717ef14e72950c9",
@@ -9621,8 +10772,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "37b391eb1af6bbcdff6dc0c393acd8b9ed7a6a53424987af9cb976decad2988b",
@@ -9643,7 +10794,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:05:24+00:00",
       "lastObservedAt": "2026-10-09T01:05:24+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "1ceb09eb2f2ed9fc0c05455a35bdf4b06afcfc3725d0703a0d2d2c1aea878654",
       "searchQuery": "마이프로틴",
       "adEvidence": {
@@ -9953,8 +11104,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "395ab18797940299259b8fbce7c82cf33f9604d3319fe86156ca3905233e6c44",
@@ -9975,7 +11126,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:05:24+00:00",
       "lastObservedAt": "2026-10-09T01:05:24+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "05ab5e8e816c91581fbe590d0bb6bbe46132d1ad5635e07c59f14e7e51fad599",
       "searchQuery": "hw3",
       "adEvidence": {
@@ -9988,8 +11139,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "3e5c0878da5db8ee04fdfe45e270b43f9cacea63e01f544817e8a6ddf69ebe0c",
@@ -10010,7 +11161,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:05:24+00:00",
       "lastObservedAt": "2026-10-09T01:05:24+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "bc7639df3dee6f6e5b7fcfaaacd8d58a81c60d3b2df2987e0b1e664b47d246de",
       "searchQuery": "산양유단백질",
       "adEvidence": {
@@ -10078,8 +11229,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "469fd229a6ef343816c903f3f8c90198b71246d66472d6f425258f44c28d7ec9",
@@ -10113,8 +11264,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "473017fac511942813547b72bb142619741ecc6af64c6bf11942d8458cdb8edb",
@@ -10135,7 +11286,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:05:24+00:00",
       "lastObservedAt": "2026-10-09T01:05:24+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "801c2d114967f06587f5916bf441d0f18e2e3c0e48bfa5e00af94b4bb15191f4",
       "searchQuery": "다이마타이즈iso100",
       "adEvidence": {
@@ -10148,8 +11299,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "54284da0d586cead74fcc64cd7b47bbfc0f4e9a14a24a8e417e695ca7bb90769",
@@ -10183,8 +11334,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "6111be4c8e065bad7fc5e1de95047edeaad79536111fc8b72808203da43772b6",
@@ -10249,8 +11400,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "696bef760d8b8e46a068b21b1c1753ce0911661bc67b41a4dd0a726bfd82ce70",
@@ -10271,7 +11422,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:05:24+00:00",
       "lastObservedAt": "2026-10-09T01:05:24+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "b7e87edd21f0ad81dbaf5aaafe5ce37fe2bcc2e3102c155bf1b200efd068852c",
       "searchQuery": "류신로이신",
       "adEvidence": {
@@ -10284,8 +11435,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "7fa262994bc8cbb187d8875a9727be3e052c5f8409779210fe378910c40b5d09",
@@ -10306,7 +11457,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:05:24+00:00",
       "lastObservedAt": "2026-10-09T01:05:24+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "7724b5bd33797e29984384a87a0286d1e7e4a866a88842099d32bf4775c90a28",
       "searchQuery": "저분자유청펩타이드hw3",
       "adEvidence": {
@@ -10319,8 +11470,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "8454069ffa9b6d3f3b3a12bcbfc7541b50a4579cf0ae6c22ad1310ce9e5605c8",
@@ -11581,8 +12732,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "96bb78a9b7ed6d9f5622ec8a715398153c99d0d12f59ee53bb793fbf3a1e5776",
@@ -11616,8 +12767,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "9c10f3c2caba05495ad79f5a7cc5aeafe58b1a17684aa7d28b71c2601b147289",
@@ -11796,8 +12947,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "a47abb569c2050a40cf5aa4d53a3718bc31f437ef62e0fdd3d293767cd9ed6b4",
@@ -11818,7 +12969,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:05:24+00:00",
       "lastObservedAt": "2026-10-09T01:05:24+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "4fe9bee668ae83190f9d9a3b4f79cc2546237f4e56b2f597bdd54cc98975bd15",
       "searchQuery": "러닝에너지젤",
       "adEvidence": {
@@ -11831,8 +12982,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "b38e706cf3d4e56eb287cdd6d859320a569e026251a2825c11c4cac9e39e2652",
@@ -12033,8 +13184,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "bd6ebcb5843ee4d243c78190cd0645a35630b3cd607f4857c424b8810b656348",
@@ -12068,8 +13219,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "c0d615406bab22428b484c7dd8e759cb296c82a46686c4bfe5f180bdbf280800",
@@ -12103,8 +13254,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "cb7276cd48cd1fc44bde03fc973c0f6fc298ae154cb4e7e4dc84b5b892b3b22d",
@@ -12138,8 +13289,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "d948d02368b7b42505ef115549a0b54948ea8f77011e04cb5c1f44f73498035f",
@@ -13306,8 +14457,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "db7f0082fa5afc23488f4de57da5e0b2f0556562ba054066c1a9511a5d0303ed",
@@ -13714,8 +14865,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "15416b5fa9e13456b610f4466bd856997e316cc13642911b47a396c4feee2d24",
@@ -13736,7 +14887,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:04:53+00:00",
       "lastObservedAt": "2026-10-09T01:04:53+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "b7fc39701163022dc2c274150536edc5141e20decb52a2ed4adddb87e407f9ac",
       "searchQuery": "자보티바",
       "adEvidence": {
@@ -13749,8 +14900,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "15969952cd11c2305db9bd6a3233fed84298d03b2edf584af34d00c19f63a827",
@@ -13853,8 +15004,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "1d4a57e9d8b7f5b9941edec569403dada8122e556ed700f12a61949577d91a41",
@@ -15107,8 +16258,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "2a8ab3b4c1a8933e8a48b1077365250f6184f8125aae48247e4789158bb5f909",
@@ -15129,7 +16280,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:04:53+00:00",
       "lastObservedAt": "2026-10-09T01:04:53+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "7d3a25ba0db56e63aaf55083c0444b6d09a5b24549107ca377efbd59b73444b2",
       "searchQuery": "캡슐레이션효소",
       "adEvidence": {
@@ -15363,8 +16514,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "4049edbb2ac8da74bcc249667e26a825a2c45c3828cfcd1ddd918e4914e9a256",
@@ -15385,7 +16536,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:04:53+00:00",
       "lastObservedAt": "2026-10-09T01:04:53+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "5c0111843342825d1d828733f3a8692af2e2f530a46eb906f7efe4dd1d654e41",
       "searchQuery": "드시모네유산균",
       "adEvidence": {
@@ -15398,8 +16549,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "644362bf685a5794133c28fb738f2fcfe8d1cef74c73d2fc0171b21a88413233",
@@ -15420,7 +16571,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:04:53+00:00",
       "lastObservedAt": "2026-10-09T01:04:53+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "9b29e717777f83f6f58541187923738cca6263e9f3e68c4724448e2289c2c460",
       "searchQuery": "피크노제놀",
       "adEvidence": {
@@ -15433,8 +16584,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "65487de407094857816ce99f22d27cc961c27947c8c442ae5cdb11d881faec97",
@@ -15455,7 +16606,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:04:53+00:00",
       "lastObservedAt": "2026-10-09T01:04:53+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "84ed631f9dfe8b84b2751a391f5d3cf7bd30c997f78f46dbc584e776d5bc4dd3",
       "searchQuery": "코엔자임q10",
       "adEvidence": {
@@ -16659,8 +17810,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "75a9399bbd2867ab2db907680ebc7beaaa8980f6383397ebfc6f173244b61c26",
@@ -17111,8 +18262,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "8b76f0e0cc0096da45480e5b87b0d65bca0f6e72af18d51c0dbbbf1d21d4addf",
@@ -17133,7 +18284,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:04:53+00:00",
       "lastObservedAt": "2026-10-09T01:04:53+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "631327d2f460dfbaccf4bcc4992e74327fd148471487e1b58724a418331fd626",
       "searchQuery": "nmn영양제",
       "adEvidence": {
@@ -17463,8 +18614,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "a1e1736deb8860cbe8a4c11627c950facb29a9ae8acd132b0c715f86dc1de520",
@@ -17485,7 +18636,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:04:53+00:00",
       "lastObservedAt": "2026-10-09T01:04:53+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "32356e62f83ce1d1f3d4b4f88bdf6774392425a5e293a0ccd2e5afe770748bc6",
       "searchQuery": "폴리코사놀",
       "adEvidence": {
@@ -17498,8 +18649,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "ba8fb40e57ac9f2ac88f6093e918ae96ae5bd6f09fac2752c4f71d6df30b71cc",
@@ -17520,7 +18671,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:04:53+00:00",
       "lastObservedAt": "2026-10-09T01:04:53+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "d26f6c2a7b284ecb6f0394c33f5ddb0a834461b4e21c58b297bcffe307fc4047",
       "searchQuery": "매스틱",
       "adEvidence": {
@@ -17756,8 +18907,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "c1ce22b91cd8cee68b390487fa4d20b6a0c4e7bbf23b5a4e0b722d8b3d65b223",
@@ -18982,8 +20133,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "cc1faace4e889d51e1015d55ce16872b82e0c0efef1e05dab6d3ec40f29eab7e",
@@ -19004,7 +20155,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:04:53+00:00",
       "lastObservedAt": "2026-10-09T01:04:53+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "411a9642a4f535a890a20e9c08c13fcc7c8ca227df1d41bb704b4f448940231e",
       "searchQuery": "맥주효모",
       "adEvidence": {
@@ -19017,8 +20168,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "d7ea7d2c841fca9f53609c0d6603dcc270764ac8e36282e842c7a0f6868fdd01",
@@ -19039,7 +20190,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:04:53+00:00",
       "lastObservedAt": "2026-10-09T01:04:53+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "01fba974d6f4559693cea16ca985fdf63102dfb7189a0ec1372c2d3f2e256637",
       "searchQuery": "삼백초추출물",
       "adEvidence": {
@@ -19107,8 +20258,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "fe62883cc99f2d841cba9b4d5832a1ab5782c7c19a61c647c91852565ccf94b9",
@@ -19129,21 +20280,1172 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:04:53+00:00",
       "lastObservedAt": "2026-10-09T01:04:53+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "304fbb1a972d232d3079f5c8862038074b61f170350280a83fec688f71fcf4f1",
       "searchQuery": "프로폴리스",
       "adEvidence": {
         "query": "프로폴리스",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 100,
+        "adIds": [
+          "4184268175043896",
+          "1767924501065345",
+          "2609650989465477",
+          "1432083819042649",
+          "1066287989647526",
+          "2082919539016912",
+          "1915420572446363",
+          "4794963374065587",
+          "1593725122344941",
+          "1452856086989401",
+          "2253116865503544",
+          "1571941771342945",
+          "2195035828100580",
+          "2021338581911243",
+          "1974176040634001",
+          "1769871604262277",
+          "1739530823934589",
+          "1656423192568964",
+          "1094450502918835",
+          "882760244589604",
+          "1421438749889119",
+          "2096477567894714",
+          "1666388208386406",
+          "1489130779721696",
+          "1062552163312159",
+          "4545715792379480",
+          "1641725057478550",
+          "1449744017057994",
+          "1397653542442389",
+          "1379865443879679",
+          "2228267734736946",
+          "1443885260928952",
+          "964445209411238",
+          "2503568916811573",
+          "1415341913371046",
+          "26932324639767114",
+          "1356628709697715",
+          "2530918440751334",
+          "2123676141893747",
+          "1296146342152998",
+          "1736883407383300",
+          "853296124236958",
+          "1353630556957897",
+          "1323123122857286",
+          "1092201980224791",
+          "995006689576739",
+          "1811262686964337",
+          "1076225391979714",
+          "2190866961776973",
+          "1223701466376699",
+          "2296360801147110",
+          "1637351421394523",
+          "1394082402931135",
+          "1093757649757198",
+          "735678606272647",
+          "2131576267707356",
+          "1472099081491122",
+          "1005765835833738",
+          "1538414603870600",
+          "1099958192563000",
+          "1985499852005728",
+          "1574709003751053",
+          "953763030452178",
+          "4480564308925994",
+          "2204523133451554",
+          "759367350604735",
+          "2128299688570199",
+          "1265952902368505",
+          "2152792275263405",
+          "1487954959831305",
+          "1872378703446421",
+          "2678808225867369",
+          "1770997444105820",
+          "1763073578048211",
+          "1709076473490715",
+          "1744477866921243",
+          "1048954454456785",
+          "962763229832540",
+          "2128916097951820",
+          "2092659434475562",
+          "1410232681014704",
+          "2804985016552902",
+          "1370745445220586",
+          "1750251573018570",
+          "1548612662901403",
+          "1302812758532846",
+          "1100957549077372",
+          "985792553998698",
+          "2161247571152698",
+          "2101472030784366",
+          "834438615621905",
+          "2046078855981720",
+          "1713052219894759",
+          "1106880122083735",
+          "1041410245217925",
+          "1096229692583819",
+          "2546155375857754",
+          "1593204708960315",
+          "2156160961859091",
+          "1330005052389606"
+        ],
+        "ads": [
+          {
+            "id": "4184268175043896",
+            "advertiser": "마더네스트",
+            "startedAt": "2026-10-01",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:01:24+00:00",
+            "lastCollectedAt": "2026-10-09T15:01:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1767924501065345",
+            "advertiser": "Lefilleo.cos",
+            "startedAt": "2026-08-12",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:01:24+00:00",
+            "lastCollectedAt": "2026-10-09T15:01:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2609650989465477",
+            "advertiser": "드시모네",
+            "startedAt": "2026-09-21",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:01:23+00:00",
+            "lastCollectedAt": "2026-10-09T15:01:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1432083819042649",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-10-01",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:01:23+00:00",
+            "lastCollectedAt": "2026-10-09T15:01:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1066287989647526",
+            "advertiser": "바잇미 - Bite me",
+            "startedAt": "2026-09-20",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:01:23+00:00",
+            "lastCollectedAt": "2026-10-09T15:01:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2082919539016912",
+            "advertiser": "Darling Tag",
+            "startedAt": "2026-08-14",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:01:22+00:00",
+            "lastCollectedAt": "2026-10-09T15:01:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1915420572446363",
+            "advertiser": "피부건강",
+            "startedAt": "2026-05-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:01:22+00:00",
+            "lastCollectedAt": "2026-10-09T15:01:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4794963374065587",
+            "advertiser": "H.N",
+            "startedAt": "2026-09-03",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:01:21+00:00",
+            "lastCollectedAt": "2026-10-09T15:01:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1593725122344941",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-15",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:01:21+00:00",
+            "lastCollectedAt": "2026-10-09T15:01:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1452856086989401",
+            "advertiser": "필수관리 백과사전",
+            "startedAt": "2026-10-04",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:01:21+00:00",
+            "lastCollectedAt": "2026-10-09T15:01:21+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2253116865503544",
+            "advertiser": "Yellow AU",
+            "startedAt": "2026-07-04",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:01:11+00:00",
+            "lastCollectedAt": "2026-10-09T15:01:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1571941771342945",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-09-08",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:01:11+00:00",
+            "lastCollectedAt": "2026-10-09T15:01:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2195035828100580",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-09-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:01:10+00:00",
+            "lastCollectedAt": "2026-10-09T15:01:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2021338581911243",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-09-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:01:10+00:00",
+            "lastCollectedAt": "2026-10-09T15:01:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1974176040634001",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-10-04",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:01:10+00:00",
+            "lastCollectedAt": "2026-10-09T15:01:10+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1769871604262277",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-10-07",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:01:09+00:00",
+            "lastCollectedAt": "2026-10-09T15:01:09+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1739530823934589",
+            "advertiser": "Thailoveshop",
+            "startedAt": "2026-09-03",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:01:09+00:00",
+            "lastCollectedAt": "2026-10-09T15:01:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1656423192568964",
+            "advertiser": "드시모네",
+            "startedAt": "2026-10-05",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:01:09+00:00",
+            "lastCollectedAt": "2026-10-09T15:01:09+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1094450502918835",
+            "advertiser": "BEE WITH YOU.KR",
+            "startedAt": "2026-08-26",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:53+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "882760244589604",
+            "advertiser": "건강을 위한 재미있는 지식저장소",
+            "startedAt": "2026-07-28",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:51+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1421438749889119",
+            "advertiser": "애프리솔루션",
+            "startedAt": "2026-08-25",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:42+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2096477567894714",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-09-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:41+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1666388208386406",
+            "advertiser": "JISU",
+            "startedAt": "2026-09-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:40+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1489130779721696",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-10-02",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:40+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:40+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1062552163312159",
+            "advertiser": "바잇미 - Bite me",
+            "startedAt": "2026-09-20",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:40+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4545715792379480",
+            "advertiser": "Namissong_",
+            "startedAt": "2026-09-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:39+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1641725057478550",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-10-04",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:39+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:39+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1449744017057994",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-10-04",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:39+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:39+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1397653542442389",
+            "advertiser": "바잇미 - Bite me",
+            "startedAt": "2026-09-20",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:39+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1379865443879679",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-09-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:38+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2228267734736946",
+            "advertiser": "디어랩스",
+            "startedAt": "2026-09-29",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:30+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1443885260928952",
+            "advertiser": "Musinsa",
+            "startedAt": "2026-10-07",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:30+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:30+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "964445209411238",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-10-01",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:29+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2503568916811573",
+            "advertiser": "디어패밀리",
+            "startedAt": "2026-08-05",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:29+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1415341913371046",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-10-07",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:29+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:29+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "26932324639767114",
+            "advertiser": "애프리솔루션",
+            "startedAt": "2026-05-27",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:28+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1356628709697715",
+            "advertiser": "피부건강",
+            "startedAt": "2026-05-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:28+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2530918440751334",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-09-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:27+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2123676141893747",
+            "advertiser": "유유제약",
+            "startedAt": "2026-08-13",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:27+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1296146342152998",
+            "advertiser": "피부건강",
+            "startedAt": "2026-05-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:27+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1736883407383300",
+            "advertiser": "JISU",
+            "startedAt": "2026-09-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:19+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "853296124236958",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-05",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:18+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1353630556957897",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-14",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:18+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1323123122857286",
+            "advertiser": "",
+            "startedAt": "2026-07-08",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:18+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1092201980224791",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-10-04",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:18+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:18+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "995006689576739",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:16+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1811262686964337",
+            "advertiser": "상품",
+            "startedAt": "2026-09-23",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:16+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1076225391979714",
+            "advertiser": "다이소",
+            "startedAt": "2026-10-02",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:16+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:16+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2190866961776973",
+            "advertiser": "유유제약",
+            "startedAt": "2026-07-31",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:15+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1223701466376699",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:15+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2296360801147110",
+            "advertiser": "Musinsa",
+            "startedAt": "2026-10-07",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:08+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:08+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1637351421394523",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-09-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:07+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1394082402931135",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-09-15",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:07+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1093757649757198",
+            "advertiser": "Dear.siamom",
+            "startedAt": "2026-09-14",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:07+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "735678606272647",
+            "advertiser": "디어패밀리",
+            "startedAt": "2026-05-21",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:06+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2131576267707356",
+            "advertiser": "건기남",
+            "startedAt": "2026-09-07",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:06+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1472099081491122",
+            "advertiser": "Cenovis_official",
+            "startedAt": "2026-10-04",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:06+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:06+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1005765835833738",
+            "advertiser": "비타네이처",
+            "startedAt": "2026-08-26",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:06+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1538414603870600",
+            "advertiser": "",
+            "startedAt": "2025-11-19",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:05+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1099958192563000",
+            "advertiser": "멍스타그램",
+            "startedAt": "2026-08-17",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:04+00:00",
+            "lastCollectedAt": "2026-10-09T15:00:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1985499852005728",
+            "advertiser": "필수관리 백과사전",
+            "startedAt": "2026-03-13",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:57+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1574709003751053",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-10-04",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:57+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:57+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "953763030452178",
+            "advertiser": "바잇미 - Bite me",
+            "startedAt": "2026-09-20",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:56+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4480564308925994",
+            "advertiser": "Bïchaëk",
+            "startedAt": "2026-09-19",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:56+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2204523133451554",
+            "advertiser": "라니",
+            "startedAt": "2026-09-07",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:56+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "759367350604735",
+            "advertiser": "라이프스타일마켓",
+            "startedAt": "2026-08-26",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:55+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2128299688570199",
+            "advertiser": "디어패밀리",
+            "startedAt": "2026-05-21",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:55+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1265952902368505",
+            "advertiser": "디어패밀리",
+            "startedAt": "2026-05-21",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:55+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2152792275263405",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-05",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:54+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1487954959831305",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-10-04",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:54+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1872378703446421",
+            "advertiser": "디어패밀리",
+            "startedAt": "2026-04-29",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:47+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2678808225867369",
+            "advertiser": "드시모네",
+            "startedAt": "2026-09-21",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:46+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1770997444105820",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-10-04",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:46+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:46+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1763073578048211",
+            "advertiser": "정약사의 건강나눔",
+            "startedAt": "2026-07-13",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:46+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1709076473490715",
+            "advertiser": "한약사가 만드는 한방식품 - 설아래",
+            "startedAt": "2026-09-03",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:46+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1744477866921243",
+            "advertiser": "비타네이처",
+            "startedAt": "2026-06-08",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:45+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1048954454456785",
+            "advertiser": "비타네이처",
+            "startedAt": "2026-06-05",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:45+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "962763229832540",
+            "advertiser": "디어패밀리",
+            "startedAt": "2026-04-29",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:44+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2128916097951820",
+            "advertiser": "애프리솔루션",
+            "startedAt": "2026-04-14",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:44+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2092659434475562",
+            "advertiser": "",
+            "startedAt": "2025-10-17",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:44+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1410232681014704",
+            "advertiser": "구강연구소",
+            "startedAt": "2026-08-22",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:37+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2804985016552902",
+            "advertiser": "입냄새 분야 박사",
+            "startedAt": "2026-09-06",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:36+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1370745445220586",
+            "advertiser": "뉸이랍니다",
+            "startedAt": "2026-08-24",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:36+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1750251573018570",
+            "advertiser": "필수관리 백과사전",
+            "startedAt": "2026-06-11",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:35+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1548612662901403",
+            "advertiser": "정약사의 건강나눔",
+            "startedAt": "2026-08-10",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:35+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1302812758532846",
+            "advertiser": "Musinsa",
+            "startedAt": "2026-09-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:34+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1100957549077372",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-09-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:34+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "985792553998698",
+            "advertiser": "디어패밀리",
+            "startedAt": "2026-05-21",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:33+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2161247571152698",
+            "advertiser": "피부건강",
+            "startedAt": "2026-06-26",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:33+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2101472030784366",
+            "advertiser": "애프리솔루션",
+            "startedAt": "2026-06-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:33+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "834438615621905",
+            "advertiser": "",
+            "startedAt": "2025-11-05",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:28+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2046078855981720",
+            "advertiser": "피부건강",
+            "startedAt": "2026-06-24",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:28+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1713052219894759",
+            "advertiser": "밍꾸",
+            "startedAt": "2026-06-12",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:27+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1106880122083735",
+            "advertiser": "Musinsa",
+            "startedAt": "2026-09-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:27+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1041410245217925",
+            "advertiser": "디어패밀리",
+            "startedAt": "2026-05-21",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:27+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1096229692583819",
+            "advertiser": "",
+            "startedAt": "2025-11-05",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:25+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2546155375857754",
+            "advertiser": "뉸이랍니다",
+            "startedAt": "2026-08-24",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:24+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1593204708960315",
+            "advertiser": "구강연구소",
+            "startedAt": "2026-08-22",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:24+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2156160961859091",
+            "advertiser": "정약사의 건강나눔",
+            "startedAt": "2026-03-01",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:23+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1330005052389606",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:23+00:00",
+            "lastCollectedAt": "2026-10-09T14:59:23+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-09T15:01:24+00:00",
+        "advertisers": [
+          {
+            "name": "CNP Cosmetics",
+            "adCount": 20
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 8
+          },
+          {
+            "name": "디어패밀리",
+            "adCount": 8
+          },
+          {
+            "name": "피부건강",
+            "adCount": 5
+          },
+          {
+            "name": "Musinsa",
+            "adCount": 4
+          },
+          {
+            "name": "바잇미 - Bite me",
+            "adCount": 4
+          },
+          {
+            "name": "애프리솔루션",
+            "adCount": 4
+          },
+          {
+            "name": "드시모네",
+            "adCount": 3
+          },
+          {
+            "name": "비타네이처",
+            "adCount": 3
+          },
+          {
+            "name": "정약사의 건강나눔",
+            "adCount": 3
+          },
+          {
+            "name": "필수관리 백과사전",
+            "adCount": 3
+          },
+          {
+            "name": "JISU",
+            "adCount": 2
+          },
+          {
+            "name": "구강연구소",
+            "adCount": 2
+          },
+          {
+            "name": "뉸이랍니다",
+            "adCount": 2
+          },
+          {
+            "name": "유유제약",
+            "adCount": 2
+          },
+          {
+            "name": "BEE WITH YOU.KR",
+            "adCount": 1
+          },
+          {
+            "name": "Bïchaëk",
+            "adCount": 1
+          },
+          {
+            "name": "Cenovis_official",
+            "adCount": 1
+          },
+          {
+            "name": "Darling Tag",
+            "adCount": 1
+          },
+          {
+            "name": "Dear.siamom",
+            "adCount": 1
+          },
+          {
+            "name": "H.N",
+            "adCount": 1
+          },
+          {
+            "name": "Lefilleo.cos",
+            "adCount": 1
+          },
+          {
+            "name": "Namissong_",
+            "adCount": 1
+          },
+          {
+            "name": "Thailoveshop",
+            "adCount": 1
+          },
+          {
+            "name": "Yellow AU",
+            "adCount": 1
+          },
+          {
+            "name": "건강을 위한 재미있는 지식저장소",
+            "adCount": 1
+          },
+          {
+            "name": "건기남",
+            "adCount": 1
+          },
+          {
+            "name": "다이소",
+            "adCount": 1
+          },
+          {
+            "name": "디어랩스",
+            "adCount": 1
+          },
+          {
+            "name": "라니",
+            "adCount": 1
+          },
+          {
+            "name": "라이프스타일마켓",
+            "adCount": 1
+          },
+          {
+            "name": "마더네스트",
+            "adCount": 1
+          },
+          {
+            "name": "멍스타그램",
+            "adCount": 1
+          },
+          {
+            "name": "밍꾸",
+            "adCount": 1
+          },
+          {
+            "name": "상품",
+            "adCount": 1
+          },
+          {
+            "name": "입냄새 분야 박사",
+            "adCount": 1
+          },
+          {
+            "name": "한약사가 만드는 한방식품 - 설아래",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "1cfb3696bee8db7c5a6c089160496582751a5dd7e219117d8cd13823f859487a",
@@ -19388,7 +21690,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -20650,7 +22952,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -20685,7 +22987,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -20720,7 +23022,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -20810,7 +23112,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -20845,7 +23147,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -20880,7 +23182,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -20915,7 +23217,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -20950,7 +23252,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -21002,7 +23304,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -21064,7 +23366,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -21790,7 +24092,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -22024,7 +24326,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -22356,7 +24658,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -22438,7 +24740,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -22490,7 +24792,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -22942,7 +25244,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -22977,7 +25279,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -23012,7 +25314,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -23116,7 +25418,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -24166,7 +26468,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -24408,7 +26710,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -24460,7 +26762,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -24495,7 +26797,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -24530,7 +26832,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -24882,7 +27184,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -25822,7 +28124,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -27048,7 +29350,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -27083,7 +29385,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -27377,7 +29679,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -28109,7 +30411,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -29327,7 +31629,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -29435,7 +31737,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -29470,7 +31772,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -30644,7 +32946,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -30679,7 +32981,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -30839,7 +33141,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -31121,7 +33423,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -31549,7 +33851,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -31741,7 +34043,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -32093,7 +34395,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -32349,7 +34651,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -32813,7 +35115,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -33059,7 +35361,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -33094,7 +35396,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -34248,7 +36550,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -35522,7 +37824,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -35974,7 +38276,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -37280,7 +39582,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -38526,7 +40828,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -38820,7 +41122,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -39978,7 +42280,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -41028,7 +43330,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -41063,7 +43365,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -41171,7 +43473,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -41223,7 +43525,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -41473,7 +43775,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -41508,7 +43810,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -41543,7 +43845,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -41813,7 +44115,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -41903,7 +44205,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -42157,7 +44459,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -42281,7 +44583,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -42559,7 +44861,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -43785,7 +46087,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -43820,7 +46122,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -44552,7 +46854,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -44810,7 +47112,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -45052,7 +47354,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -45104,7 +47406,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -45498,7 +47800,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     }
   ],
