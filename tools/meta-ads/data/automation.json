@@ -1,6 +1,6 @@
 {
   "mode": "snapshot",
-  "updatedAt": "2026-10-09T21:17:40+00:00",
+  "updatedAt": "2026-10-09T22:01:14+00:00",
   "automations": [
     {
       "id": "meta-ads",
@@ -64,8 +64,8 @@
       "enabled": true,
       "running": false,
       "state": "blocked",
-      "nextRunAt": "2026-10-10T07:00:00+09:00",
-      "lastSuccessAt": "2026-10-09T07:00:07+09:00",
+      "nextRunAt": "2026-10-11T07:00:00+09:00",
+      "lastSuccessAt": null,
       "lastAttemptAt": null,
       "message": "보호조치 인증 횟수 초과 · 발행 보류 · 수집 ON",
       "intervalSeconds": null,
@@ -95,11 +95,11 @@
       "name": "올리브영 순위",
       "enabled": true,
       "running": false,
-      "state": "waiting",
-      "nextRunAt": "2026-10-10T07:00:00+09:00",
+      "state": "error",
+      "nextRunAt": "2026-10-11T07:00:00+09:00",
       "lastSuccessAt": "2026-10-09T07:00:06+09:00",
       "lastAttemptAt": null,
-      "message": "50개 · 뷰티 수집 일정과 연동",
+      "message": "최근 수집 실패 · 50개 보존",
       "intervalSeconds": 86400,
       "statusCheckIntervalSeconds": null,
       "statusCheckBatchSize": null,
@@ -109,8 +109,8 @@
   ],
   "publication": {
     "state": "synced",
-    "lastAttemptAt": "2026-10-09T21:16:18+00:00",
-    "lastSuccessAt": "2026-10-09T21:16:22+00:00",
+    "lastAttemptAt": "2026-10-09T21:17:40+00:00",
+    "lastSuccessAt": "2026-10-09T21:17:45+00:00",
     "error": null,
     "enabled": true
   }
