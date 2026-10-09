@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T22:30:56+00:00",
+  "updatedAt": "2026-10-09T22:35:39+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-09T22:18:05+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 15,
-    "dailyRemaining": 273,
+    "dailyUsed": 16,
+    "dailyRemaining": 272,
     "pending": 0,
-    "nextDispatchAt": "2026-10-09T22:34:48+00:00",
+    "nextDispatchAt": "2026-10-09T22:39:53+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -7294,43 +7294,142 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "done",
       "keywordId": "d26f6c2a7b284ecb6f0394c33f5ddb0a834461b4e21c58b297bcffe307fc4047",
       "searchQuery": "매스틱",
       "adEvidence": {
         "query": "매스틱",
         "matchType": "collected-with-query",
-        "adCount": 20,
+        "adCount": 29,
         "adIds": [
+          "1099355862559860",
+          "1770750960797435",
+          "1573460803877365",
+          "1131897752881199",
+          "1068299985832495",
+          "2604014080034216",
+          "1614837057103850",
+          "1433741312027188",
+          "2160039911390706",
+          "1370312488508444",
           "943320118362988",
           "1985174032886940",
           "1805277960665829",
-          "1370312488508444",
           "1764679644483779",
-          "1750388202680319",
-          "1626253415579039",
           "1088944333866221",
+          "1750388202680319",
           "1715363529549178",
-          "1618642469650567",
+          "1626253415579039",
           "4104074283060844",
-          "27111404678529400",
+          "1618642469650567",
           "1101069309080111",
           "1074250324964736",
           "2574826649614277",
           "1405639561517502",
-          "1396625499156900",
           "1007325835705312",
           "964287050028699",
-          "1488351379436907"
+          "1488351379436907",
+          "1396625499156900",
+          "27111404678529400"
         ],
         "ads": [
+          {
+            "id": "1099355862559860",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-09T22:35:20+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1770750960797435",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-09T22:35:19+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1573460803877365",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-09T22:35:19+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1131897752881199",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-09-22",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-09T22:35:19+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1068299985832495",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-10-07",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-09T22:35:19+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:19+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2604014080034216",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-09-22",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-09T22:35:18+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1614837057103850",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-10-07",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-09T22:35:18+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:18+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1433741312027188",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-09T22:35:18+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2160039911390706",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-09T22:35:07+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1370312488508444",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-09-22",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:26+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:07+00:00",
+            "startTiming": "before-window"
+          },
           {
             "id": "943320118362988",
             "advertiser": "매스티나 mastina",
             "startedAt": "2026-09-30",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:26+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:26+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:06+00:00",
             "startTiming": "before-window"
           },
           {
@@ -7339,7 +7438,7 @@
             "startedAt": "2026-09-30",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:26+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:26+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:06+00:00",
             "startTiming": "before-window"
           },
           {
@@ -7348,17 +7447,8 @@
             "startedAt": "2026-10-04",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:26+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:26+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:06+00:00",
             "startTiming": "during-window"
-          },
-          {
-            "id": "1370312488508444",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-09-22",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:26+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:26+00:00",
-            "startTiming": "before-window"
           },
           {
             "id": "1764679644483779",
@@ -7366,25 +7456,7 @@
             "startedAt": "2026-09-22",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:25+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:25+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1750388202680319",
-            "advertiser": "매스티나 mastina",
-            "startedAt": "2026-09-30",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:25+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:25+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1626253415579039",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-09-23",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:25+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:25+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:06+00:00",
             "startTiming": "before-window"
           },
           {
@@ -7393,7 +7465,16 @@
             "startedAt": "2026-09-30",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:25+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:25+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1750388202680319",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:25+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:05+00:00",
             "startTiming": "before-window"
           },
           {
@@ -7402,16 +7483,16 @@
             "startedAt": "2026-09-30",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:24+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:24+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:05+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1618642469650567",
-            "advertiser": "매스티나 mastina",
-            "startedAt": "2026-09-30",
+            "id": "1626253415579039",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-09-23",
             "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:24+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:24+00:00",
+            "firstCollectedAt": "2026-10-07T16:00:25+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:05+00:00",
             "startTiming": "before-window"
           },
           {
@@ -7420,7 +7501,88 @@
             "startedAt": "2026-08-21",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:19+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:19+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1618642469650567",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:24+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1101069309080111",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-09-22",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:19+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1074250324964736",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-08-24",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:19+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2574826649614277",
+            "advertiser": "헬씨픽",
+            "startedAt": "2026-09-10",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:18+00:00",
+            "lastCollectedAt": "2026-10-09T22:34:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1405639561517502",
+            "advertiser": "속편한세상",
+            "startedAt": "2026-09-10",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:18+00:00",
+            "lastCollectedAt": "2026-10-09T22:34:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1007325835705312",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-09-15",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:18+00:00",
+            "lastCollectedAt": "2026-10-09T22:34:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "964287050028699",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-08-24",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:17+00:00",
+            "lastCollectedAt": "2026-10-09T22:34:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1488351379436907",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:17+00:00",
+            "lastCollectedAt": "2026-10-09T22:34:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1396625499156900",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-06-10",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:18+00:00",
+            "lastCollectedAt": "2026-10-09T22:34:58+00:00",
             "startTiming": "before-window"
           },
           {
@@ -7431,89 +7593,17 @@
             "firstCollectedAt": "2026-10-07T16:00:19+00:00",
             "lastCollectedAt": "2026-10-07T16:00:19+00:00",
             "startTiming": "before-window"
-          },
-          {
-            "id": "1101069309080111",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-09-22",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:19+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:19+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1074250324964736",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-08-24",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:19+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:19+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2574826649614277",
-            "advertiser": "헬씨픽",
-            "startedAt": "2026-09-10",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:18+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:18+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1405639561517502",
-            "advertiser": "속편한세상",
-            "startedAt": "2026-09-10",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:18+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:18+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1396625499156900",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-06-10",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:18+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:18+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1007325835705312",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-09-15",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:18+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:18+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "964287050028699",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-08-24",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:17+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:17+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1488351379436907",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:17+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:17+00:00",
-            "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-07T16:00:26+00:00",
+        "lastCollectedAt": "2026-10-09T22:35:20+00:00",
         "advertisers": [
           {
-            "name": "프롬바이오",
-            "adCount": 10
+            "name": "매스티나 mastina",
+            "adCount": 13
           },
           {
-            "name": "매스티나 mastina",
-            "adCount": 6
+            "name": "프롬바이오",
+            "adCount": 12
           },
           {
             "name": "Naverplus.store",
@@ -22504,43 +22594,142 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:04:53+00:00",
       "lastObservedAt": "2026-10-09T22:17:21+00:00",
-      "state": "backlog",
+      "state": "done",
       "keywordId": "d26f6c2a7b284ecb6f0394c33f5ddb0a834461b4e21c58b297bcffe307fc4047",
       "searchQuery": "매스틱",
       "adEvidence": {
         "query": "매스틱",
         "matchType": "collected-with-query",
-        "adCount": 20,
+        "adCount": 29,
         "adIds": [
+          "1099355862559860",
+          "1770750960797435",
+          "1573460803877365",
+          "1131897752881199",
+          "1068299985832495",
+          "2604014080034216",
+          "1614837057103850",
+          "1433741312027188",
+          "2160039911390706",
+          "1370312488508444",
           "943320118362988",
           "1985174032886940",
           "1805277960665829",
-          "1370312488508444",
           "1764679644483779",
-          "1750388202680319",
-          "1626253415579039",
           "1088944333866221",
+          "1750388202680319",
           "1715363529549178",
-          "1618642469650567",
+          "1626253415579039",
           "4104074283060844",
-          "27111404678529400",
+          "1618642469650567",
           "1101069309080111",
           "1074250324964736",
           "2574826649614277",
           "1405639561517502",
-          "1396625499156900",
           "1007325835705312",
           "964287050028699",
-          "1488351379436907"
+          "1488351379436907",
+          "1396625499156900",
+          "27111404678529400"
         ],
         "ads": [
+          {
+            "id": "1099355862559860",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-09T22:35:20+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1770750960797435",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-09T22:35:19+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1573460803877365",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-09T22:35:19+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1131897752881199",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-09-22",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-09T22:35:19+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1068299985832495",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-10-07",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-09T22:35:19+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:19+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2604014080034216",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-09-22",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-09T22:35:18+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1614837057103850",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-10-07",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-09T22:35:18+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:18+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1433741312027188",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-09T22:35:18+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2160039911390706",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-09T22:35:07+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1370312488508444",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-09-22",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:26+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:07+00:00",
+            "startTiming": "before-window"
+          },
           {
             "id": "943320118362988",
             "advertiser": "매스티나 mastina",
             "startedAt": "2026-09-30",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:26+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:26+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:06+00:00",
             "startTiming": "before-window"
           },
           {
@@ -22549,7 +22738,7 @@
             "startedAt": "2026-09-30",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:26+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:26+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:06+00:00",
             "startTiming": "before-window"
           },
           {
@@ -22558,17 +22747,8 @@
             "startedAt": "2026-10-04",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:26+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:26+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:06+00:00",
             "startTiming": "during-window"
-          },
-          {
-            "id": "1370312488508444",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-09-22",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:26+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:26+00:00",
-            "startTiming": "before-window"
           },
           {
             "id": "1764679644483779",
@@ -22576,25 +22756,7 @@
             "startedAt": "2026-09-22",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:25+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:25+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1750388202680319",
-            "advertiser": "매스티나 mastina",
-            "startedAt": "2026-09-30",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:25+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:25+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1626253415579039",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-09-23",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:25+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:25+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:06+00:00",
             "startTiming": "before-window"
           },
           {
@@ -22603,7 +22765,16 @@
             "startedAt": "2026-09-30",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:25+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:25+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1750388202680319",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:25+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:05+00:00",
             "startTiming": "before-window"
           },
           {
@@ -22612,16 +22783,16 @@
             "startedAt": "2026-09-30",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:24+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:24+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:05+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1618642469650567",
-            "advertiser": "매스티나 mastina",
-            "startedAt": "2026-09-30",
+            "id": "1626253415579039",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-09-23",
             "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:24+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:24+00:00",
+            "firstCollectedAt": "2026-10-07T16:00:25+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:05+00:00",
             "startTiming": "before-window"
           },
           {
@@ -22630,7 +22801,88 @@
             "startedAt": "2026-08-21",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:19+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:19+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1618642469650567",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:24+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1101069309080111",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-09-22",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:19+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1074250324964736",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-08-24",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:19+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2574826649614277",
+            "advertiser": "헬씨픽",
+            "startedAt": "2026-09-10",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:18+00:00",
+            "lastCollectedAt": "2026-10-09T22:34:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1405639561517502",
+            "advertiser": "속편한세상",
+            "startedAt": "2026-09-10",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:18+00:00",
+            "lastCollectedAt": "2026-10-09T22:34:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1007325835705312",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-09-15",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:18+00:00",
+            "lastCollectedAt": "2026-10-09T22:34:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "964287050028699",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-08-24",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:17+00:00",
+            "lastCollectedAt": "2026-10-09T22:34:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1488351379436907",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:17+00:00",
+            "lastCollectedAt": "2026-10-09T22:34:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1396625499156900",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-06-10",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:18+00:00",
+            "lastCollectedAt": "2026-10-09T22:34:58+00:00",
             "startTiming": "before-window"
           },
           {
@@ -22641,89 +22893,17 @@
             "firstCollectedAt": "2026-10-07T16:00:19+00:00",
             "lastCollectedAt": "2026-10-07T16:00:19+00:00",
             "startTiming": "before-window"
-          },
-          {
-            "id": "1101069309080111",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-09-22",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:19+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:19+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1074250324964736",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-08-24",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:19+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:19+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2574826649614277",
-            "advertiser": "헬씨픽",
-            "startedAt": "2026-09-10",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:18+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:18+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1405639561517502",
-            "advertiser": "속편한세상",
-            "startedAt": "2026-09-10",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:18+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:18+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1396625499156900",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-06-10",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:18+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:18+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1007325835705312",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-09-15",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:18+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:18+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "964287050028699",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-08-24",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:17+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:17+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1488351379436907",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:17+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:17+00:00",
-            "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-07T16:00:26+00:00",
+        "lastCollectedAt": "2026-10-09T22:35:20+00:00",
         "advertisers": [
           {
-            "name": "프롬바이오",
-            "adCount": 10
+            "name": "매스티나 mastina",
+            "adCount": 13
           },
           {
-            "name": "매스티나 mastina",
-            "adCount": 6
+            "name": "프롬바이오",
+            "adCount": 12
           },
           {
             "name": "Naverplus.store",
@@ -54299,55 +54479,118 @@
       "adEvidence": {
         "query": "매스틱",
         "matchType": "collected-with-query",
-        "adCount": 20,
+        "adCount": 29,
         "adIds": [
+          "1099355862559860",
+          "1770750960797435",
+          "1573460803877365",
+          "1131897752881199",
+          "1068299985832495",
+          "2604014080034216",
+          "1614837057103850",
+          "1433741312027188",
+          "2160039911390706",
+          "1370312488508444",
           "943320118362988",
           "1985174032886940",
           "1805277960665829",
-          "1370312488508444",
           "1764679644483779",
-          "1750388202680319",
-          "1626253415579039",
           "1088944333866221",
+          "1750388202680319",
           "1715363529549178",
-          "1618642469650567",
+          "1626253415579039",
           "4104074283060844",
-          "27111404678529400",
+          "1618642469650567",
           "1101069309080111",
           "1074250324964736",
           "2574826649614277",
           "1405639561517502",
-          "1396625499156900",
           "1007325835705312",
           "964287050028699",
-          "1488351379436907"
+          "1488351379436907",
+          "1396625499156900",
+          "27111404678529400"
         ],
         "ads": [
           {
-            "id": "943320118362988",
+            "id": "1099355862559860",
             "advertiser": "매스티나 mastina",
             "startedAt": "2026-09-30",
             "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:26+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:26+00:00",
+            "firstCollectedAt": "2026-10-09T22:35:20+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:20+00:00",
             "startTiming": "during-window"
           },
           {
-            "id": "1985174032886940",
+            "id": "1770750960797435",
             "advertiser": "매스티나 mastina",
             "startedAt": "2026-09-30",
             "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:26+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:26+00:00",
+            "firstCollectedAt": "2026-10-09T22:35:19+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:19+00:00",
             "startTiming": "during-window"
           },
           {
-            "id": "1805277960665829",
+            "id": "1573460803877365",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-09T22:35:19+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:19+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1131897752881199",
             "advertiser": "프롬바이오",
-            "startedAt": "2026-10-04",
+            "startedAt": "2026-09-22",
             "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:26+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:26+00:00",
+            "firstCollectedAt": "2026-10-09T22:35:19+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1068299985832495",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-10-07",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-09T22:35:19+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:19+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "2604014080034216",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-09-22",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-09T22:35:18+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1614837057103850",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-10-07",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-09T22:35:18+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:18+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1433741312027188",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-09T22:35:18+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:18+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2160039911390706",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-09T22:35:07+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:07+00:00",
             "startTiming": "during-window"
           },
           {
@@ -54356,8 +54599,35 @@
             "startedAt": "2026-09-22",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:26+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:26+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:07+00:00",
             "startTiming": "before-window"
+          },
+          {
+            "id": "943320118362988",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:26+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:06+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1985174032886940",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:26+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:06+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1805277960665829",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-10-04",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:26+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:06+00:00",
+            "startTiming": "during-window"
           },
           {
             "id": "1764679644483779",
@@ -54365,25 +54635,7 @@
             "startedAt": "2026-09-22",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:25+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:25+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1750388202680319",
-            "advertiser": "매스티나 mastina",
-            "startedAt": "2026-09-30",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:25+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:25+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1626253415579039",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-09-23",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:25+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:25+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:06+00:00",
             "startTiming": "before-window"
           },
           {
@@ -54392,7 +54644,16 @@
             "startedAt": "2026-09-30",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:25+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:25+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:06+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1750388202680319",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:25+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:05+00:00",
             "startTiming": "during-window"
           },
           {
@@ -54401,17 +54662,17 @@
             "startedAt": "2026-09-30",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:24+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:24+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:05+00:00",
             "startTiming": "during-window"
           },
           {
-            "id": "1618642469650567",
-            "advertiser": "매스티나 mastina",
-            "startedAt": "2026-09-30",
+            "id": "1626253415579039",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-09-23",
             "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:24+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:24+00:00",
-            "startTiming": "during-window"
+            "firstCollectedAt": "2026-10-07T16:00:25+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:05+00:00",
+            "startTiming": "before-window"
           },
           {
             "id": "4104074283060844",
@@ -54419,7 +54680,88 @@
             "startedAt": "2026-08-21",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:19+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:19+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1618642469650567",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:24+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:00+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1101069309080111",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-09-22",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:19+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1074250324964736",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-08-24",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:19+00:00",
+            "lastCollectedAt": "2026-10-09T22:35:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2574826649614277",
+            "advertiser": "헬씨픽",
+            "startedAt": "2026-09-10",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:18+00:00",
+            "lastCollectedAt": "2026-10-09T22:34:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1405639561517502",
+            "advertiser": "속편한세상",
+            "startedAt": "2026-09-10",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:18+00:00",
+            "lastCollectedAt": "2026-10-09T22:34:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1007325835705312",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-09-15",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:18+00:00",
+            "lastCollectedAt": "2026-10-09T22:34:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "964287050028699",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-08-24",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:17+00:00",
+            "lastCollectedAt": "2026-10-09T22:34:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1488351379436907",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:17+00:00",
+            "lastCollectedAt": "2026-10-09T22:34:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1396625499156900",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-06-10",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:18+00:00",
+            "lastCollectedAt": "2026-10-09T22:34:58+00:00",
             "startTiming": "before-window"
           },
           {
@@ -54430,89 +54772,17 @@
             "firstCollectedAt": "2026-10-07T16:00:19+00:00",
             "lastCollectedAt": "2026-10-07T16:00:19+00:00",
             "startTiming": "before-window"
-          },
-          {
-            "id": "1101069309080111",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-09-22",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:19+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:19+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1074250324964736",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-08-24",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:19+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:19+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2574826649614277",
-            "advertiser": "헬씨픽",
-            "startedAt": "2026-09-10",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:18+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:18+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1405639561517502",
-            "advertiser": "속편한세상",
-            "startedAt": "2026-09-10",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:18+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:18+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1396625499156900",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-06-10",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:18+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:18+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1007325835705312",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-09-15",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:18+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:18+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "964287050028699",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-08-24",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:17+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:17+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1488351379436907",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:17+00:00",
-            "lastCollectedAt": "2026-10-07T16:00:17+00:00",
-            "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-07T16:00:26+00:00",
+        "lastCollectedAt": "2026-10-09T22:35:20+00:00",
         "advertisers": [
           {
-            "name": "프롬바이오",
-            "adCount": 10
+            "name": "매스티나 mastina",
+            "adCount": 13
           },
           {
-            "name": "매스티나 mastina",
-            "adCount": 6
+            "name": "프롬바이오",
+            "adCount": 12
           },
           {
             "name": "Naverplus.store",
