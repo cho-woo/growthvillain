@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T22:40:24+00:00",
+  "updatedAt": "2026-10-09T22:44:58+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-09T22:18:05+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 17,
-    "dailyRemaining": 271,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-09T22:44:56+00:00",
+    "dailyUsed": 18,
+    "dailyRemaining": 270,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -1437,7 +1437,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "84ed631f9dfe8b84b2751a391f5d3cf7bd30c997f78f46dbc584e776d5bc4dd3",
       "searchQuery": "코엔자임q10",
       "adEvidence": {
@@ -20498,7 +20498,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:04:53+00:00",
       "lastObservedAt": "2026-10-09T22:17:21+00:00",
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "84ed631f9dfe8b84b2751a391f5d3cf7bd30c997f78f46dbc584e776d5bc4dd3",
       "searchQuery": "코엔자임q10",
       "adEvidence": {
