@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T14:58:24+00:00",
+  "updatedAt": "2026-10-10T15:03:46+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-10T00:20:37+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 53,
-    "dailyRemaining": 235,
+    "dailyUsed": 1,
+    "dailyRemaining": 287,
     "pending": 0,
-    "nextDispatchAt": "2026-10-10T15:02:50+00:00",
+    "nextDispatchAt": "2026-10-10T15:07:56+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -129,8 +129,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -332,8 +332,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1575,8 +1575,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1748,8 +1748,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1811,8 +1811,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -2156,8 +2156,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -2489,8 +2489,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -2978,8 +2978,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -3010,8 +3010,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -3029,7 +3029,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "cooldown",
+      "state": "backlog",
       "keywordId": "304fbb1a972d232d3079f5c8862038074b61f170350280a83fec688f71fcf4f1",
       "searchQuery": "프로폴리스",
       "adEvidence": {
@@ -4193,8 +4193,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -5354,8 +5354,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -5543,8 +5543,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -6142,8 +6142,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -6174,8 +6174,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -6193,7 +6193,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "b183aeaa73c61755f8388493f638b53aab6077738cf365ab8849042f8e398477",
       "searchQuery": "비타민b",
       "adEvidence": {
@@ -7425,8 +7425,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -7882,8 +7882,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -8351,8 +8351,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -8652,8 +8652,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -8905,8 +8905,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -8924,7 +8924,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "88b9a603831dab58a65f5b55a806fea82ecadaad2c7076a9975206832424d42f",
       "searchQuery": "모발콜라겐",
       "adEvidence": {
@@ -9082,8 +9082,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -9114,8 +9114,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -9146,8 +9146,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -9178,8 +9178,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -9210,8 +9210,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -9242,8 +9242,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -9405,8 +9405,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -9437,8 +9437,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -9486,8 +9486,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -9637,8 +9637,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -9716,8 +9716,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -9748,8 +9748,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -9780,8 +9780,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -9867,8 +9867,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -10604,8 +10604,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -10636,8 +10636,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -10668,8 +10668,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -11883,8 +11883,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -11915,8 +11915,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     }
   ],
   "history": [
@@ -11952,8 +11952,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "1d3619a434de59453aa2f51fce5182658f33fbdef8a5d790d021788e11027a72",
@@ -13170,8 +13170,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "29b4b4b2bb2f1b824362d87970ecd68cc87f5fdb9917147f381781c110af9eab",
@@ -13336,8 +13336,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "321c42e115660cbcff90600721d12e0f8abd1d41c2606970930df441182f7268",
@@ -13388,8 +13388,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "38f069fccebe54dddb4c9ecae5fac0d8cfd7239d62b3d0c81888f152bf1ca803",
@@ -13423,8 +13423,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "41b62c13ac4d68625e758021edf1e91d808e21a6b51c295d8179a1ab3e8cb297",
@@ -13458,8 +13458,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "455bb661e70294b34779a732d62b63f954ffb98c0d6307c9ad0e989daae65733",
@@ -13493,8 +13493,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "5723b6d8bc7abf8d5c2e21c936a0f1a37f8f05f104ee055a7f1728cee65f22f7",
@@ -13528,8 +13528,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "652b11a8f49e100e8a390e5691d834ab75b4060746465868ba3d8679bebfdf09",
@@ -13563,8 +13563,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "6cc199548118ec25e8609245fd9e129c6bc97589e82457a3f297310e422f9528",
@@ -13598,8 +13598,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "85b137f4887eb25e1872fbf95562f79e1a5235810d6922fd7b3f07acd8142158",
@@ -13688,8 +13688,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "afcd4d5877573a6542405e2cfc0fa45f8aed1ac86370170a273b167fc4c0d457",
@@ -13723,8 +13723,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "b36532c879d24dc3fae41f3660bbdb0a48d4e725f20a7e76e840c26b1b7eca82",
@@ -13758,8 +13758,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "bb431a6346327bd95c66852a3cf5e918cb9dc614887032414bcaa88b23dc5ac7",
@@ -13780,7 +13780,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-10T00:20:37+00:00",
       "lastObservedAt": "2026-10-10T00:20:37+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "88b9a603831dab58a65f5b55a806fea82ecadaad2c7076a9975206832424d42f",
       "searchQuery": "모발콜라겐",
       "adEvidence": {
@@ -13938,8 +13938,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "c086df41254c27ac51a8a95c9523ff5b3d02675d3c8a3060548ec93cce7919bd",
@@ -14678,8 +14678,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "d18e199ce1366155a77e069cc6fe718e2594c81a98294cd6f03a706fb3dbdd53",
@@ -14832,8 +14832,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "d9c86a41f9daa19f9ae8622f3e29afcdc9c886e61488ee5b932d8075a5c88ab4",
@@ -14914,8 +14914,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "e9e2c933f664d595a8f36c58bb6278f062f45b78fc79d449d2772f1fb66c4dab",
@@ -14949,8 +14949,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "fb2298ab38454eed293afeb35ae94c78aefc49e8a77cc63e0e199be29e567a7a",
@@ -14984,8 +14984,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "0c66895b21738605974780d0ecf5cb5f83217a560b568f06ba4c78110d9db0a3",
@@ -15006,7 +15006,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-10T00:20:06+00:00",
       "lastObservedAt": "2026-10-10T00:20:06+00:00",
-      "state": "ready",
+      "state": "backlog",
       "keywordId": "b183aeaa73c61755f8388493f638b53aab6077738cf365ab8849042f8e398477",
       "searchQuery": "비타민b",
       "adEvidence": {
@@ -16238,8 +16238,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "0d90cbec41d2989f2a0df78f8929de9c24642f2df13412fd00dfb0cbbaa2fd00",
@@ -17402,8 +17402,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "0f337e8ed093b98803e4f9e7f5f148f01dc6360d4cba31e3549ddc8bc146a6ce",
@@ -17437,8 +17437,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "1523e1b12da3300cb57f758c825f115f1d864c101eeaa5866e72963d4a18189f",
@@ -17472,8 +17472,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "154e2ada779e1490a0f8dde7547b92e1ae0bdd565a7dc7578748a58de42f5507",
@@ -17538,8 +17538,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "18bc1b46167277f8f4b7f28fc147e6535ea0f376a8a63b898edc1262659a23af",
@@ -17560,7 +17560,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-10T00:20:06+00:00",
       "lastObservedAt": "2026-10-10T00:20:06+00:00",
-      "state": "cooldown",
+      "state": "backlog",
       "keywordId": "304fbb1a972d232d3079f5c8862038074b61f170350280a83fec688f71fcf4f1",
       "searchQuery": "프로폴리스",
       "adEvidence": {
@@ -18724,8 +18724,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "29dabdeb5bbdf45f9498ab8b5d3794f00869ea2ce5f2ea74faf7a5ed928d7a80",
@@ -18916,8 +18916,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "2aaaa987bbe1d5014c8d1ef4c94556f2fba078f299cce9a327fc39a6ee027c80",
@@ -19092,8 +19092,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "518d90df487d126e37e7aa02f0448d24c94e6fa4d95d82a17e50912988f016f0",
@@ -19396,8 +19396,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "5d723492aaa7db00073caf40d12583dda1b0afbaa7cebb2f90011d093b28c678",
@@ -19888,8 +19888,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "78d99cdf9179f76d7162ca9361916ac7278fbda86386b886b3fdf3a9ed342780",
@@ -20360,8 +20360,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "8f15aa0925317041f840f3502f1f53894f96b7d38177e92e2f4e919f0f7cfee2",
@@ -20426,8 +20426,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "a7f4718b259576212612fbdf3093c313d8be2a94b168155eac8d24af9e342e82",
@@ -20886,8 +20886,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "ae678b2211de316b0c4d766dd46e8c7a916bb784d604049a6d56d951ba7eb19e",
@@ -21092,8 +21092,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "b4039a1273a7f041b0fbbb622f84abb19265f9648534a5c3cd883d75ef471745",
@@ -21348,8 +21348,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "bcff5918bab2e930655dde68d6270570c0ae51b709a0aafc519dc683baea6edb",
@@ -21684,8 +21684,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "c57cefbdaf05d4121f011083851eac51de625541f85b2db061b8af9e04575ad9",
@@ -22930,8 +22930,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "d99f781169bd89cfdf0826d9e77723df2af84287a093de1d2657b5dc40d41f8b",
@@ -23278,8 +23278,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "f2b0daed8f604c7ea995466f306e899f6cb9c550905bec79c01d0e1ac182bbae",
@@ -23880,8 +23880,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "14562141f25202f1cdc1c49463e7c675597eb2a8b613dea9e990db876f95566a",
@@ -23915,7 +23915,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -23950,7 +23950,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -24292,7 +24292,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -25510,7 +25510,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -25600,7 +25600,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -25635,7 +25635,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -25670,7 +25670,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -25705,7 +25705,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -25771,7 +25771,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -25806,7 +25806,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -25841,7 +25841,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -27151,7 +27151,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -27186,7 +27186,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -27366,7 +27366,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -27446,7 +27446,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -27648,7 +27648,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -27683,7 +27683,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -27718,7 +27718,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -27753,7 +27753,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -28921,7 +28921,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -29329,7 +29329,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -29364,7 +29364,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -29468,7 +29468,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -30722,7 +30722,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -30978,7 +30978,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -31044,7 +31044,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -31124,7 +31124,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -32572,7 +32572,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -32594,7 +32594,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-09T01:04:53+00:00",
       "lastObservedAt": "2026-10-09T23:18:50+00:00",
-      "state": "backlog",
+      "state": "done",
       "keywordId": "cf7f5635a38ad217a8aa25f9be3a8a95c82f08486a73664657cd7a27cab9ede4",
       "searchQuery": "침향환",
       "adEvidence": {
@@ -32602,61 +32602,52 @@
         "matchType": "collected-with-query",
         "adCount": 37,
         "adIds": [
-          "2294845428006454",
-          "1631954731664489",
-          "1394013727124700",
           "1140933961787063",
-          "2003991684337455",
-          "1801361140953547",
+          "1394013727124700",
+          "1045273544934028",
+          "2294845428006454",
           "1760675671892000",
+          "1663895741911350",
+          "1434780324866008",
+          "1062130026828199",
+          "2003991684337455",
+          "1631954731664489",
+          "1801361140953547",
+          "1660622885048359",
+          "2995579087448748",
           "2063574917664778",
           "1969287627079000",
-          "1045273544934028",
-          "2995579087448748",
-          "1663895741911350",
+          "1272268551645368",
+          "1035974762868086",
+          "859702577168985",
           "4527306947514380",
           "29157164603972272",
-          "1434780324866008",
-          "1035974762868086",
-          "1062130026828199",
-          "1462384749039964",
-          "1670051234733189",
-          "1660622885048359",
-          "859702577168985",
-          "4092463721054625",
-          "1635043911395506",
-          "1272268551645368",
-          "1098205022950656",
-          "1786960288886806",
-          "1598460718726052",
           "1344520917648366",
           "2207854309771714",
           "1718661182680475",
-          "1043212184933681",
+          "1598460718726052",
           "739933079116652",
           "27788306264140233",
           "2468978510274334",
           "27166657842976079",
           "2194590560945407",
-          "1008758698224010"
+          "1008758698224010",
+          "1462384749039964",
+          "1670051234733189",
+          "4092463721054625",
+          "1635043911395506",
+          "1098205022950656",
+          "1786960288886806",
+          "1043212184933681"
         ],
         "ads": [
           {
-            "id": "2294845428006454",
+            "id": "1140933961787063",
             "advertiser": "비타민마을",
             "startedAt": "2026-10-06",
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:30:23+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:23+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1631954731664489",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:23+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:22+00:00",
             "startTiming": "during-window"
           },
           {
@@ -32665,61 +32656,7 @@
             "startedAt": "2026-10-06",
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:30:23+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:23+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1140933961787063",
-            "advertiser": "비타민마을",
-            "startedAt": "2026-10-06",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:23+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "2003991684337455",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:22+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1801361140953547",
-            "advertiser": "비타민마을",
-            "startedAt": "2026-10-06",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:22+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1760675671892000",
-            "advertiser": "비타민마을",
-            "startedAt": "2026-10-06",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:22+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "2063574917664778",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:10+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1969287627079000",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:10+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:21+00:00",
             "startTiming": "during-window"
           },
           {
@@ -32728,16 +32665,25 @@
             "startedAt": "2026-08-26",
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:30:10+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:10+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:21+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "2995579087448748",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
+            "id": "2294845428006454",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
             "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:09+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:09+00:00",
+            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:20+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1760675671892000",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:20+00:00",
             "startTiming": "during-window"
           },
           {
@@ -32746,25 +32692,7 @@
             "startedAt": "2026-10-06",
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:30:09+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:09+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "4527306947514380",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:08+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "29157164603972272",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:20+00:00",
             "startTiming": "during-window"
           },
           {
@@ -32773,16 +32701,7 @@
             "startedAt": "2026-10-05",
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:30:08+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:08+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1035974762868086",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:19+00:00",
             "startTiming": "during-window"
           },
           {
@@ -32791,8 +32710,206 @@
             "startedAt": "2026-10-06",
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:30:07+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:07+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:19+00:00",
             "startTiming": "during-window"
+          },
+          {
+            "id": "2003991684337455",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:18+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1631954731664489",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:18+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1801361140953547",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:13+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1660622885048359",
+            "advertiser": "늘푸른케어",
+            "startedAt": "2026-06-24",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:02+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2995579087448748",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:09+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:12+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2063574917664778",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:12+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1969287627079000",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:11+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1272268551645368",
+            "advertiser": "조선비책",
+            "startedAt": "2026-06-17",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1035974762868086",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:11+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "859702577168985",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:10+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4527306947514380",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:10+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "29157164603972272",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:10+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1344520917648366",
+            "advertiser": "늘푸른케어",
+            "startedAt": "2026-06-29",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:56+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2207854309771714",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-30",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1718661182680475",
+            "advertiser": "조선비책",
+            "startedAt": "2026-06-16",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1598460718726052",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-01",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:00+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "739933079116652",
+            "advertiser": "오나한",
+            "startedAt": "2025-11-25",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27788306264140233",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-03",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2468978510274334",
+            "advertiser": "한약사가 만드는 한방식품 - 설아래",
+            "startedAt": "2026-08-13",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27166657842976079",
+            "advertiser": "조선비책",
+            "startedAt": "2026-06-16",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2194590560945407",
+            "advertiser": "홍동비책",
+            "startedAt": "2026-06-10",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1008758698224010",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:01+00:00",
+            "startTiming": "before-window"
           },
           {
             "id": "1462384749039964",
@@ -32810,24 +32927,6 @@
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:30:02+00:00",
             "lastCollectedAt": "2026-10-09T00:30:02+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1660622885048359",
-            "advertiser": "늘푸른케어",
-            "startedAt": "2026-06-24",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:02+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:02+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "859702577168985",
-            "advertiser": "비타민마을",
-            "startedAt": "2026-10-06",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:01+00:00",
             "startTiming": "during-window"
           },
           {
@@ -32849,15 +32948,6 @@
             "startTiming": "during-window"
           },
           {
-            "id": "1272268551645368",
-            "advertiser": "조선비책",
-            "startedAt": "2026-06-17",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:01+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "1098205022950656",
             "advertiser": "종근당",
             "startedAt": "2026-10-08",
@@ -32876,42 +32966,6 @@
             "startTiming": "during-window"
           },
           {
-            "id": "1598460718726052",
-            "advertiser": "종근당",
-            "startedAt": "2026-10-01",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:00+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:00+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1344520917648366",
-            "advertiser": "늘푸른케어",
-            "startedAt": "2026-06-29",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:56+00:00",
-            "lastCollectedAt": "2026-10-09T00:29:56+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2207854309771714",
-            "advertiser": "종근당",
-            "startedAt": "2026-09-30",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
-            "lastCollectedAt": "2026-10-09T00:29:55+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1718661182680475",
-            "advertiser": "조선비책",
-            "startedAt": "2026-06-16",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
-            "lastCollectedAt": "2026-10-09T00:29:55+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "1043212184933681",
             "advertiser": "Naverplus.store",
             "startedAt": "2026-06-30",
@@ -32919,63 +32973,9 @@
             "firstCollectedAt": "2026-10-09T00:29:55+00:00",
             "lastCollectedAt": "2026-10-09T00:29:55+00:00",
             "startTiming": "before-window"
-          },
-          {
-            "id": "739933079116652",
-            "advertiser": "오나한",
-            "startedAt": "2025-11-25",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
-            "lastCollectedAt": "2026-10-09T00:29:54+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "27788306264140233",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-07-03",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
-            "lastCollectedAt": "2026-10-09T00:29:54+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2468978510274334",
-            "advertiser": "한약사가 만드는 한방식품 - 설아래",
-            "startedAt": "2026-08-13",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
-            "lastCollectedAt": "2026-10-09T00:29:54+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "27166657842976079",
-            "advertiser": "조선비책",
-            "startedAt": "2026-06-16",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
-            "lastCollectedAt": "2026-10-09T00:29:53+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2194590560945407",
-            "advertiser": "홍동비책",
-            "startedAt": "2026-06-10",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
-            "lastCollectedAt": "2026-10-09T00:29:53+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1008758698224010",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
-            "lastCollectedAt": "2026-10-09T00:29:53+00:00",
-            "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-09T00:30:23+00:00",
+        "lastCollectedAt": "2026-10-10T15:03:22+00:00",
         "advertisers": [
           {
             "name": "비타민마을",
@@ -33024,7 +33024,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -33386,7 +33386,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -33452,7 +33452,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -33800,7 +33800,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -35084,7 +35084,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -36282,7 +36282,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -36372,7 +36372,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -37558,7 +37558,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -37804,7 +37804,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -39114,7 +39114,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -39149,7 +39149,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -39184,7 +39184,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -39274,7 +39274,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -39309,7 +39309,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -39344,7 +39344,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -39379,7 +39379,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -39414,7 +39414,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -39466,7 +39466,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -39528,7 +39528,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -40254,7 +40254,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -40488,7 +40488,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -40830,7 +40830,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -40912,7 +40912,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -40964,7 +40964,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -40994,61 +40994,52 @@
         "matchType": "collected-with-query",
         "adCount": 37,
         "adIds": [
-          "2294845428006454",
-          "1631954731664489",
-          "1394013727124700",
           "1140933961787063",
-          "2003991684337455",
-          "1801361140953547",
+          "1394013727124700",
+          "1045273544934028",
+          "2294845428006454",
           "1760675671892000",
+          "1663895741911350",
+          "1434780324866008",
+          "1062130026828199",
+          "2003991684337455",
+          "1631954731664489",
+          "1801361140953547",
+          "1660622885048359",
+          "2995579087448748",
           "2063574917664778",
           "1969287627079000",
-          "1045273544934028",
-          "2995579087448748",
-          "1663895741911350",
+          "1272268551645368",
+          "1035974762868086",
+          "859702577168985",
           "4527306947514380",
           "29157164603972272",
-          "1434780324866008",
-          "1035974762868086",
-          "1062130026828199",
-          "1462384749039964",
-          "1670051234733189",
-          "1660622885048359",
-          "859702577168985",
-          "4092463721054625",
-          "1635043911395506",
-          "1272268551645368",
-          "1098205022950656",
-          "1786960288886806",
-          "1598460718726052",
           "1344520917648366",
           "2207854309771714",
           "1718661182680475",
-          "1043212184933681",
+          "1598460718726052",
           "739933079116652",
           "27788306264140233",
           "2468978510274334",
           "27166657842976079",
           "2194590560945407",
-          "1008758698224010"
+          "1008758698224010",
+          "1462384749039964",
+          "1670051234733189",
+          "4092463721054625",
+          "1635043911395506",
+          "1098205022950656",
+          "1786960288886806",
+          "1043212184933681"
         ],
         "ads": [
           {
-            "id": "2294845428006454",
+            "id": "1140933961787063",
             "advertiser": "비타민마을",
             "startedAt": "2026-10-06",
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:30:23+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:23+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1631954731664489",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:23+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:22+00:00",
             "startTiming": "during-window"
           },
           {
@@ -41057,61 +41048,7 @@
             "startedAt": "2026-10-06",
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:30:23+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:23+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1140933961787063",
-            "advertiser": "비타민마을",
-            "startedAt": "2026-10-06",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:23+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "2003991684337455",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:22+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1801361140953547",
-            "advertiser": "비타민마을",
-            "startedAt": "2026-10-06",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:22+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1760675671892000",
-            "advertiser": "비타민마을",
-            "startedAt": "2026-10-06",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:22+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "2063574917664778",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:10+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1969287627079000",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:10+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:21+00:00",
             "startTiming": "during-window"
           },
           {
@@ -41120,16 +41057,25 @@
             "startedAt": "2026-08-26",
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:30:10+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:10+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:21+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "2995579087448748",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
+            "id": "2294845428006454",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
             "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:09+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:09+00:00",
+            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:20+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1760675671892000",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:20+00:00",
             "startTiming": "during-window"
           },
           {
@@ -41138,25 +41084,7 @@
             "startedAt": "2026-10-06",
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:30:09+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:09+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "4527306947514380",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:08+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "29157164603972272",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:20+00:00",
             "startTiming": "during-window"
           },
           {
@@ -41165,16 +41093,7 @@
             "startedAt": "2026-10-05",
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:30:08+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:08+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1035974762868086",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:19+00:00",
             "startTiming": "during-window"
           },
           {
@@ -41183,8 +41102,206 @@
             "startedAt": "2026-10-06",
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:30:07+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:07+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:19+00:00",
             "startTiming": "during-window"
+          },
+          {
+            "id": "2003991684337455",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:18+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1631954731664489",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:18+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1801361140953547",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:13+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1660622885048359",
+            "advertiser": "늘푸른케어",
+            "startedAt": "2026-06-24",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:02+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2995579087448748",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:09+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:12+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2063574917664778",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:12+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1969287627079000",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:11+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1272268551645368",
+            "advertiser": "조선비책",
+            "startedAt": "2026-06-17",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1035974762868086",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:11+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "859702577168985",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:10+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4527306947514380",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:10+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "29157164603972272",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:10+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1344520917648366",
+            "advertiser": "늘푸른케어",
+            "startedAt": "2026-06-29",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:56+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2207854309771714",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-30",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1718661182680475",
+            "advertiser": "조선비책",
+            "startedAt": "2026-06-16",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1598460718726052",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-01",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:00+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:04+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "739933079116652",
+            "advertiser": "오나한",
+            "startedAt": "2025-11-25",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27788306264140233",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-03",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2468978510274334",
+            "advertiser": "한약사가 만드는 한방식품 - 설아래",
+            "startedAt": "2026-08-13",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27166657842976079",
+            "advertiser": "조선비책",
+            "startedAt": "2026-06-16",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2194590560945407",
+            "advertiser": "홍동비책",
+            "startedAt": "2026-06-10",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1008758698224010",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:01+00:00",
+            "startTiming": "before-window"
           },
           {
             "id": "1462384749039964",
@@ -41205,24 +41322,6 @@
             "startTiming": "after-window"
           },
           {
-            "id": "1660622885048359",
-            "advertiser": "늘푸른케어",
-            "startedAt": "2026-06-24",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:02+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:02+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "859702577168985",
-            "advertiser": "비타민마을",
-            "startedAt": "2026-10-06",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:01+00:00",
-            "startTiming": "during-window"
-          },
-          {
             "id": "4092463721054625",
             "advertiser": "종근당",
             "startedAt": "2026-10-08",
@@ -41239,15 +41338,6 @@
             "firstCollectedAt": "2026-10-09T00:30:01+00:00",
             "lastCollectedAt": "2026-10-09T00:30:01+00:00",
             "startTiming": "after-window"
-          },
-          {
-            "id": "1272268551645368",
-            "advertiser": "조선비책",
-            "startedAt": "2026-06-17",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:01+00:00",
-            "startTiming": "before-window"
           },
           {
             "id": "1098205022950656",
@@ -41268,42 +41358,6 @@
             "startTiming": "after-window"
           },
           {
-            "id": "1598460718726052",
-            "advertiser": "종근당",
-            "startedAt": "2026-10-01",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:00+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:00+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1344520917648366",
-            "advertiser": "늘푸른케어",
-            "startedAt": "2026-06-29",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:56+00:00",
-            "lastCollectedAt": "2026-10-09T00:29:56+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2207854309771714",
-            "advertiser": "종근당",
-            "startedAt": "2026-09-30",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
-            "lastCollectedAt": "2026-10-09T00:29:55+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1718661182680475",
-            "advertiser": "조선비책",
-            "startedAt": "2026-06-16",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
-            "lastCollectedAt": "2026-10-09T00:29:55+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "1043212184933681",
             "advertiser": "Naverplus.store",
             "startedAt": "2026-06-30",
@@ -41311,63 +41365,9 @@
             "firstCollectedAt": "2026-10-09T00:29:55+00:00",
             "lastCollectedAt": "2026-10-09T00:29:55+00:00",
             "startTiming": "before-window"
-          },
-          {
-            "id": "739933079116652",
-            "advertiser": "오나한",
-            "startedAt": "2025-11-25",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
-            "lastCollectedAt": "2026-10-09T00:29:54+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "27788306264140233",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-07-03",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
-            "lastCollectedAt": "2026-10-09T00:29:54+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2468978510274334",
-            "advertiser": "한약사가 만드는 한방식품 - 설아래",
-            "startedAt": "2026-08-13",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
-            "lastCollectedAt": "2026-10-09T00:29:54+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "27166657842976079",
-            "advertiser": "조선비책",
-            "startedAt": "2026-06-16",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
-            "lastCollectedAt": "2026-10-09T00:29:53+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2194590560945407",
-            "advertiser": "홍동비책",
-            "startedAt": "2026-06-10",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
-            "lastCollectedAt": "2026-10-09T00:29:53+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1008758698224010",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
-            "lastCollectedAt": "2026-10-09T00:29:53+00:00",
-            "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-09T00:30:23+00:00",
+        "lastCollectedAt": "2026-10-10T15:03:22+00:00",
         "advertisers": [
           {
             "name": "비타민마을",
@@ -41416,7 +41416,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -41451,7 +41451,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -41486,7 +41486,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -41590,7 +41590,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -42640,7 +42640,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -42976,7 +42976,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -43028,7 +43028,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -43063,7 +43063,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -43098,7 +43098,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -43460,7 +43460,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -44400,7 +44400,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -45684,7 +45684,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -45719,7 +45719,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -46955,7 +46955,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -47687,7 +47687,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -48905,7 +48905,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -49013,7 +49013,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -49048,7 +49048,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -50222,7 +50222,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -50257,7 +50257,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -50417,7 +50417,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -51111,7 +51111,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -51603,7 +51603,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -51795,7 +51795,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -52157,7 +52157,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -52413,7 +52413,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -52877,7 +52877,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -53123,7 +53123,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -53158,7 +53158,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -54322,7 +54322,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -55596,7 +55596,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -55618,7 +55618,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "backlog",
+      "state": "cooldown",
       "keywordId": "cf7f5635a38ad217a8aa25f9be3a8a95c82f08486a73664657cd7a27cab9ede4",
       "searchQuery": "침향환",
       "adEvidence": {
@@ -55626,62 +55626,53 @@
         "matchType": "collected-with-query",
         "adCount": 37,
         "adIds": [
-          "2294845428006454",
-          "1631954731664489",
-          "1394013727124700",
           "1140933961787063",
-          "2003991684337455",
-          "1801361140953547",
+          "1394013727124700",
+          "1045273544934028",
+          "2294845428006454",
           "1760675671892000",
+          "1663895741911350",
+          "1434780324866008",
+          "1062130026828199",
+          "2003991684337455",
+          "1631954731664489",
+          "1801361140953547",
+          "1660622885048359",
+          "2995579087448748",
           "2063574917664778",
           "1969287627079000",
-          "1045273544934028",
-          "2995579087448748",
-          "1663895741911350",
+          "1272268551645368",
+          "1035974762868086",
+          "859702577168985",
           "4527306947514380",
           "29157164603972272",
-          "1434780324866008",
-          "1035974762868086",
-          "1062130026828199",
-          "1462384749039964",
-          "1670051234733189",
-          "1660622885048359",
-          "859702577168985",
-          "4092463721054625",
-          "1635043911395506",
-          "1272268551645368",
-          "1098205022950656",
-          "1786960288886806",
-          "1598460718726052",
           "1344520917648366",
           "2207854309771714",
           "1718661182680475",
-          "1043212184933681",
+          "1598460718726052",
           "739933079116652",
           "27788306264140233",
           "2468978510274334",
           "27166657842976079",
           "2194590560945407",
-          "1008758698224010"
+          "1008758698224010",
+          "1462384749039964",
+          "1670051234733189",
+          "4092463721054625",
+          "1635043911395506",
+          "1098205022950656",
+          "1786960288886806",
+          "1043212184933681"
         ],
         "ads": [
           {
-            "id": "2294845428006454",
+            "id": "1140933961787063",
             "advertiser": "비타민마을",
             "startedAt": "2026-10-06",
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:30:23+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:23+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:22+00:00",
             "startTiming": "during-window"
-          },
-          {
-            "id": "1631954731664489",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:23+00:00",
-            "startTiming": "after-window"
           },
           {
             "id": "1394013727124700",
@@ -55689,34 +55680,25 @@
             "startedAt": "2026-10-06",
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:30:23+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:23+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:21+00:00",
             "startTiming": "during-window"
           },
           {
-            "id": "1140933961787063",
+            "id": "1045273544934028",
+            "advertiser": "늘푸른케어",
+            "startedAt": "2026-08-26",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2294845428006454",
             "advertiser": "비타민마을",
             "startedAt": "2026-10-06",
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:30:23+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:23+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "2003991684337455",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:22+00:00",
-            "startTiming": "after-window"
-          },
-          {
-            "id": "1801361140953547",
-            "advertiser": "비타민마을",
-            "startedAt": "2026-10-06",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:22+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:20+00:00",
             "startTiming": "during-window"
           },
           {
@@ -55725,34 +55707,70 @@
             "startedAt": "2026-10-06",
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:30:22+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:22+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:20+00:00",
             "startTiming": "during-window"
           },
           {
-            "id": "2063574917664778",
+            "id": "1663895741911350",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:09+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:20+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1434780324866008",
+            "advertiser": "YNA 플랫폼",
+            "startedAt": "2026-10-05",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:19+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1062130026828199",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:07+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:19+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2003991684337455",
             "advertiser": "익수제약",
             "startedAt": "2026-10-07",
             "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:10+00:00",
+            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:18+00:00",
             "startTiming": "after-window"
           },
           {
-            "id": "1969287627079000",
+            "id": "1631954731664489",
             "advertiser": "익수제약",
             "startedAt": "2026-10-07",
             "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:10+00:00",
+            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:18+00:00",
             "startTiming": "after-window"
           },
           {
-            "id": "1045273544934028",
+            "id": "1801361140953547",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:13+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1660622885048359",
             "advertiser": "늘푸른케어",
-            "startedAt": "2026-08-26",
+            "startedAt": "2026-06-24",
             "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:10+00:00",
+            "firstCollectedAt": "2026-10-09T00:30:02+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:13+00:00",
             "startTiming": "before-window"
           },
           {
@@ -55761,16 +55779,52 @@
             "startedAt": "2026-10-07",
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:30:09+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:09+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:12+00:00",
             "startTiming": "after-window"
           },
           {
-            "id": "1663895741911350",
+            "id": "2063574917664778",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:12+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1969287627079000",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:11+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1272268551645368",
+            "advertiser": "조선비책",
+            "startedAt": "2026-06-17",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1035974762868086",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:11+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "859702577168985",
             "advertiser": "비타민마을",
             "startedAt": "2026-10-06",
             "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:09+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:09+00:00",
+            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:10+00:00",
             "startTiming": "during-window"
           },
           {
@@ -55779,7 +55833,7 @@
             "startedAt": "2026-10-07",
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:30:08+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:10+00:00",
             "startTiming": "after-window"
           },
           {
@@ -55788,35 +55842,98 @@
             "startedAt": "2026-10-07",
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:30:08+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:10+00:00",
             "startTiming": "after-window"
           },
           {
-            "id": "1434780324866008",
-            "advertiser": "YNA 플랫폼",
-            "startedAt": "2026-10-05",
+            "id": "1344520917648366",
+            "advertiser": "늘푸른케어",
+            "startedAt": "2026-06-29",
             "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:08+00:00",
+            "firstCollectedAt": "2026-10-09T00:29:56+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2207854309771714",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-30",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:04+00:00",
             "startTiming": "during-window"
           },
           {
-            "id": "1035974762868086",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
+            "id": "1718661182680475",
+            "advertiser": "조선비책",
+            "startedAt": "2026-06-16",
             "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:08+00:00",
-            "startTiming": "after-window"
+            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:04+00:00",
+            "startTiming": "before-window"
           },
           {
-            "id": "1062130026828199",
-            "advertiser": "비타민마을",
-            "startedAt": "2026-10-06",
+            "id": "1598460718726052",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-01",
             "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:07+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:07+00:00",
+            "firstCollectedAt": "2026-10-09T00:30:00+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:04+00:00",
             "startTiming": "during-window"
+          },
+          {
+            "id": "739933079116652",
+            "advertiser": "오나한",
+            "startedAt": "2025-11-25",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27788306264140233",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-03",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2468978510274334",
+            "advertiser": "한약사가 만드는 한방식품 - 설아래",
+            "startedAt": "2026-08-13",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27166657842976079",
+            "advertiser": "조선비책",
+            "startedAt": "2026-06-16",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2194590560945407",
+            "advertiser": "홍동비책",
+            "startedAt": "2026-06-10",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1008758698224010",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
+            "lastCollectedAt": "2026-10-10T15:03:01+00:00",
+            "startTiming": "before-window"
           },
           {
             "id": "1462384749039964",
@@ -55837,24 +55954,6 @@
             "startTiming": "after-window"
           },
           {
-            "id": "1660622885048359",
-            "advertiser": "늘푸른케어",
-            "startedAt": "2026-06-24",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:02+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:02+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "859702577168985",
-            "advertiser": "비타민마을",
-            "startedAt": "2026-10-06",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:01+00:00",
-            "startTiming": "during-window"
-          },
-          {
             "id": "4092463721054625",
             "advertiser": "종근당",
             "startedAt": "2026-10-08",
@@ -55871,15 +55970,6 @@
             "firstCollectedAt": "2026-10-09T00:30:01+00:00",
             "lastCollectedAt": "2026-10-09T00:30:01+00:00",
             "startTiming": "after-window"
-          },
-          {
-            "id": "1272268551645368",
-            "advertiser": "조선비책",
-            "startedAt": "2026-06-17",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:01+00:00",
-            "startTiming": "before-window"
           },
           {
             "id": "1098205022950656",
@@ -55900,42 +55990,6 @@
             "startTiming": "after-window"
           },
           {
-            "id": "1598460718726052",
-            "advertiser": "종근당",
-            "startedAt": "2026-10-01",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:00+00:00",
-            "lastCollectedAt": "2026-10-09T00:30:00+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1344520917648366",
-            "advertiser": "늘푸른케어",
-            "startedAt": "2026-06-29",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:56+00:00",
-            "lastCollectedAt": "2026-10-09T00:29:56+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2207854309771714",
-            "advertiser": "종근당",
-            "startedAt": "2026-09-30",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
-            "lastCollectedAt": "2026-10-09T00:29:55+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1718661182680475",
-            "advertiser": "조선비책",
-            "startedAt": "2026-06-16",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
-            "lastCollectedAt": "2026-10-09T00:29:55+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "1043212184933681",
             "advertiser": "Naverplus.store",
             "startedAt": "2026-06-30",
@@ -55943,63 +55997,9 @@
             "firstCollectedAt": "2026-10-09T00:29:55+00:00",
             "lastCollectedAt": "2026-10-09T00:29:55+00:00",
             "startTiming": "before-window"
-          },
-          {
-            "id": "739933079116652",
-            "advertiser": "오나한",
-            "startedAt": "2025-11-25",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
-            "lastCollectedAt": "2026-10-09T00:29:54+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "27788306264140233",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-07-03",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
-            "lastCollectedAt": "2026-10-09T00:29:54+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2468978510274334",
-            "advertiser": "한약사가 만드는 한방식품 - 설아래",
-            "startedAt": "2026-08-13",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
-            "lastCollectedAt": "2026-10-09T00:29:54+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "27166657842976079",
-            "advertiser": "조선비책",
-            "startedAt": "2026-06-16",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
-            "lastCollectedAt": "2026-10-09T00:29:53+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2194590560945407",
-            "advertiser": "홍동비책",
-            "startedAt": "2026-06-10",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
-            "lastCollectedAt": "2026-10-09T00:29:53+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1008758698224010",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
-            "lastCollectedAt": "2026-10-09T00:29:53+00:00",
-            "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-09T00:30:23+00:00",
+        "lastCollectedAt": "2026-10-10T15:03:22+00:00",
         "advertisers": [
           {
             "name": "비타민마을",
@@ -56048,7 +56048,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -57354,7 +57354,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -58600,7 +58600,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -59836,7 +59836,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -60994,7 +60994,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -62044,7 +62044,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -62079,7 +62079,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -62187,7 +62187,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -62239,7 +62239,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -62543,7 +62543,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -62609,7 +62609,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -62644,7 +62644,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -63246,7 +63246,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -63336,7 +63336,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -63590,7 +63590,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -63714,7 +63714,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -64174,7 +64174,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -65622,7 +65622,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -65657,7 +65657,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -66389,7 +66389,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -66737,7 +66737,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -67073,7 +67073,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -67125,7 +67125,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -67519,7 +67519,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     }
   ],
