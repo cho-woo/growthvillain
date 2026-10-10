@@ -1,6 +1,6 @@
 {
   "mode": "snapshot",
-  "updatedAt": "2026-10-10T18:24:43+00:00",
+  "updatedAt": "2026-10-10T18:27:08+00:00",
   "automations": [
     {
       "id": "meta-ads",
@@ -30,10 +30,10 @@
       "id": "naver-trends",
       "name": "네이버 급상승",
       "enabled": true,
-      "running": false,
-      "state": "waiting",
-      "nextRunAt": "2026-10-10T18:25:46+00:00",
-      "lastSuccessAt": "2026-10-10T17:25:46+00:00",
+      "running": true,
+      "state": "running",
+      "nextRunAt": "2026-10-10T19:25:50+00:00",
+      "lastSuccessAt": "2026-10-10T18:26:34+00:00",
       "lastAttemptAt": null,
       "message": "1시간마다 확인 · 일간 순위 기준",
       "intervalSeconds": 3600,
@@ -125,8 +125,8 @@
   ],
   "publication": {
     "state": "synced",
-    "lastAttemptAt": "2026-10-10T18:22:55+00:00",
-    "lastSuccessAt": "2026-10-10T18:22:59+00:00",
+    "lastAttemptAt": "2026-10-10T18:24:43+00:00",
+    "lastSuccessAt": "2026-10-10T18:24:47+00:00",
     "error": null,
     "enabled": true
   }
