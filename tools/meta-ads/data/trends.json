@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T07:36:15+00:00",
+  "updatedAt": "2026-10-10T07:39:05+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-10T00:20:37+00:00",
@@ -43,20 +43,20 @@
     "backlogDays": 14,
     "dailyUsed": 38,
     "dailyRemaining": 250,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-10T08:39:05+00:00",
     "metaAutoEnabled": true,
-    "enabled": true,
+    "enabled": false,
     "collectionGuard": {
-      "state": "ready",
-      "reason": null,
-      "nextAllowedAt": null,
-      "blockedUntil": null,
-      "blockStreak": 0,
+      "state": "blocked",
+      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
+      "nextAllowedAt": "2026-10-10T08:39:05+00:00",
+      "blockedUntil": "2026-10-10T08:39:05+00:00",
+      "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": null
+    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
   },
   "settings": {
     "category": "50000023",
@@ -9576,7 +9576,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "failed",
       "keywordId": "2f4e4a0fce95c7c9ddbe079d7a76be804ab43b0158ed0f0026b4350d3f2fe19f",
       "searchQuery": "오한진백세알부민",
       "adEvidence": {
@@ -11491,7 +11491,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-10T00:20:37+00:00",
       "lastObservedAt": "2026-10-10T00:20:37+00:00",
-      "state": "queued",
+      "state": "failed",
       "keywordId": "2f4e4a0fce95c7c9ddbe079d7a76be804ab43b0158ed0f0026b4350d3f2fe19f",
       "searchQuery": "오한진백세알부민",
       "adEvidence": {
