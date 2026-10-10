@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T16:24:14+00:00",
+  "updatedAt": "2026-10-10T16:30:52+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-10T16:24:13+00:00",
@@ -43,8 +43,8 @@
     "backlogDays": 14,
     "dailyUsed": 5,
     "dailyRemaining": 283,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-10T16:30:52+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -3029,7 +3029,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "304fbb1a972d232d3079f5c8862038074b61f170350280a83fec688f71fcf4f1",
       "searchQuery": "프로폴리스",
       "adEvidence": {
@@ -3037,6 +3037,35 @@
         "matchType": "collected-with-query",
         "adCount": 100,
         "adIds": [
+          "1770997444105820",
+          "1709076473490715",
+          "1637351421394523",
+          "1763073578048211",
+          "1744477866921243",
+          "1048954454456785",
+          "962763229832540",
+          "2092659434475562",
+          "2128916097951820",
+          "1410232681014704",
+          "2804985016552902",
+          "1370745445220586",
+          "1750251573018570",
+          "1548612662901403",
+          "1302812758532846",
+          "2161247571152698",
+          "2101472030784366",
+          "985792553998698",
+          "2046078855981720",
+          "1100957549077372",
+          "834438615621905",
+          "1106880122083735",
+          "1041410245217925",
+          "1713052219894759",
+          "1096229692583819",
+          "1593204708960315",
+          "2546155375857754",
+          "1330005052389606",
+          "2156160961859091",
           "4184268175043896",
           "1767924501065345",
           "2609650989465477",
@@ -3088,7 +3117,6 @@
           "2190866961776973",
           "1223701466376699",
           "2296360801147110",
-          "1637351421394523",
           "1394082402931135",
           "1093757649757198",
           "735678606272647",
@@ -3108,37 +3136,270 @@
           "2152792275263405",
           "1487954959831305",
           "1872378703446421",
-          "2678808225867369",
-          "1770997444105820",
-          "1763073578048211",
-          "1709076473490715",
-          "1744477866921243",
-          "1048954454456785",
-          "962763229832540",
-          "2128916097951820",
-          "2092659434475562",
-          "1410232681014704",
-          "2804985016552902",
-          "1370745445220586",
-          "1750251573018570",
-          "1548612662901403",
-          "1302812758532846",
-          "1100957549077372",
-          "985792553998698",
-          "2161247571152698",
-          "2101472030784366",
-          "834438615621905",
-          "2046078855981720",
-          "1713052219894759",
-          "1106880122083735",
-          "1041410245217925",
-          "1096229692583819",
-          "2546155375857754",
-          "1593204708960315",
-          "2156160961859091",
-          "1330005052389606"
+          "2678808225867369"
         ],
         "ads": [
+          {
+            "id": "1770997444105820",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-10-04",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:46+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:21+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1709076473490715",
+            "advertiser": "한약사가 만드는 한방식품 - 설아래",
+            "startedAt": "2026-09-03",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:46+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1637351421394523",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-09-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:07+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1763073578048211",
+            "advertiser": "정약사의 건강나눔",
+            "startedAt": "2026-07-13",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:46+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1744477866921243",
+            "advertiser": "비타네이처",
+            "startedAt": "2026-06-08",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:45+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1048954454456785",
+            "advertiser": "비타네이처",
+            "startedAt": "2026-06-05",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:45+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "962763229832540",
+            "advertiser": "디어패밀리",
+            "startedAt": "2026-04-29",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:44+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2092659434475562",
+            "advertiser": "",
+            "startedAt": "2025-10-17",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:44+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2128916097951820",
+            "advertiser": "애프리솔루션",
+            "startedAt": "2026-04-14",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:44+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1410232681014704",
+            "advertiser": "구강연구소",
+            "startedAt": "2026-08-22",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:37+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2804985016552902",
+            "advertiser": "입냄새 분야 박사",
+            "startedAt": "2026-09-06",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:36+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1370745445220586",
+            "advertiser": "뉸이랍니다",
+            "startedAt": "2026-08-24",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:36+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1750251573018570",
+            "advertiser": "필수관리 백과사전",
+            "startedAt": "2026-06-11",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:35+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1548612662901403",
+            "advertiser": "정약사의 건강나눔",
+            "startedAt": "2026-08-10",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:35+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1302812758532846",
+            "advertiser": "Musinsa",
+            "startedAt": "2026-09-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:34+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2161247571152698",
+            "advertiser": "피부건강",
+            "startedAt": "2026-06-26",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:33+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2101472030784366",
+            "advertiser": "애프리솔루션",
+            "startedAt": "2026-06-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:33+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "985792553998698",
+            "advertiser": "디어패밀리",
+            "startedAt": "2026-05-21",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:33+00:00",
+            "lastCollectedAt": "2026-10-10T16:29:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2046078855981720",
+            "advertiser": "피부건강",
+            "startedAt": "2026-06-24",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:28+00:00",
+            "lastCollectedAt": "2026-10-10T16:29:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1100957549077372",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-09-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:34+00:00",
+            "lastCollectedAt": "2026-10-10T16:29:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "834438615621905",
+            "advertiser": "",
+            "startedAt": "2025-11-05",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:28+00:00",
+            "lastCollectedAt": "2026-10-10T16:29:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1106880122083735",
+            "advertiser": "Musinsa",
+            "startedAt": "2026-09-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:27+00:00",
+            "lastCollectedAt": "2026-10-10T16:29:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1041410245217925",
+            "advertiser": "디어패밀리",
+            "startedAt": "2026-05-21",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:27+00:00",
+            "lastCollectedAt": "2026-10-10T16:29:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1713052219894759",
+            "advertiser": "밍꾸",
+            "startedAt": "2026-06-12",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:27+00:00",
+            "lastCollectedAt": "2026-10-10T16:29:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1096229692583819",
+            "advertiser": "",
+            "startedAt": "2025-11-05",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:25+00:00",
+            "lastCollectedAt": "2026-10-10T16:29:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1593204708960315",
+            "advertiser": "구강연구소",
+            "startedAt": "2026-08-22",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:24+00:00",
+            "lastCollectedAt": "2026-10-10T16:29:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2546155375857754",
+            "advertiser": "뉸이랍니다",
+            "startedAt": "2026-08-24",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:24+00:00",
+            "lastCollectedAt": "2026-10-10T16:29:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1330005052389606",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:23+00:00",
+            "lastCollectedAt": "2026-10-10T16:29:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2156160961859091",
+            "advertiser": "정약사의 건강나눔",
+            "startedAt": "2026-03-01",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:23+00:00",
+            "lastCollectedAt": "2026-10-10T16:29:45+00:00",
+            "startTiming": "before-window"
+          },
           {
             "id": "4184268175043896",
             "advertiser": "마더네스트",
@@ -3599,15 +3860,6 @@
             "startTiming": "during-window"
           },
           {
-            "id": "1637351421394523",
-            "advertiser": "CNP Cosmetics",
-            "startedAt": "2026-09-30",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T15:00:07+00:00",
-            "lastCollectedAt": "2026-10-09T15:00:07+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "1394082402931135",
             "advertiser": "CNP Cosmetics",
             "startedAt": "2026-09-15",
@@ -3786,261 +4038,9 @@
             "firstCollectedAt": "2026-10-09T14:59:46+00:00",
             "lastCollectedAt": "2026-10-09T14:59:46+00:00",
             "startTiming": "before-window"
-          },
-          {
-            "id": "1770997444105820",
-            "advertiser": "CNP Cosmetics",
-            "startedAt": "2026-10-04",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:46+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:46+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1763073578048211",
-            "advertiser": "정약사의 건강나눔",
-            "startedAt": "2026-07-13",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:46+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:46+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1709076473490715",
-            "advertiser": "한약사가 만드는 한방식품 - 설아래",
-            "startedAt": "2026-09-03",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:46+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:46+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1744477866921243",
-            "advertiser": "비타네이처",
-            "startedAt": "2026-06-08",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:45+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:45+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1048954454456785",
-            "advertiser": "비타네이처",
-            "startedAt": "2026-06-05",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:45+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:45+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "962763229832540",
-            "advertiser": "디어패밀리",
-            "startedAt": "2026-04-29",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:44+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:44+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2128916097951820",
-            "advertiser": "애프리솔루션",
-            "startedAt": "2026-04-14",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:44+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:44+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2092659434475562",
-            "advertiser": "",
-            "startedAt": "2025-10-17",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:44+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:44+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1410232681014704",
-            "advertiser": "구강연구소",
-            "startedAt": "2026-08-22",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:37+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:37+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2804985016552902",
-            "advertiser": "입냄새 분야 박사",
-            "startedAt": "2026-09-06",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:36+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:36+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1370745445220586",
-            "advertiser": "뉸이랍니다",
-            "startedAt": "2026-08-24",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:36+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:36+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1750251573018570",
-            "advertiser": "필수관리 백과사전",
-            "startedAt": "2026-06-11",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:35+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:35+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1548612662901403",
-            "advertiser": "정약사의 건강나눔",
-            "startedAt": "2026-08-10",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:35+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:35+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1302812758532846",
-            "advertiser": "Musinsa",
-            "startedAt": "2026-09-30",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:34+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:34+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1100957549077372",
-            "advertiser": "CNP Cosmetics",
-            "startedAt": "2026-09-30",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:34+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:34+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "985792553998698",
-            "advertiser": "디어패밀리",
-            "startedAt": "2026-05-21",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:33+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:33+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2161247571152698",
-            "advertiser": "피부건강",
-            "startedAt": "2026-06-26",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:33+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:33+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2101472030784366",
-            "advertiser": "애프리솔루션",
-            "startedAt": "2026-06-30",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:33+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:33+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "834438615621905",
-            "advertiser": "",
-            "startedAt": "2025-11-05",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:28+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:28+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2046078855981720",
-            "advertiser": "피부건강",
-            "startedAt": "2026-06-24",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:28+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:28+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1713052219894759",
-            "advertiser": "밍꾸",
-            "startedAt": "2026-06-12",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:27+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:27+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1106880122083735",
-            "advertiser": "Musinsa",
-            "startedAt": "2026-09-30",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:27+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:27+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1041410245217925",
-            "advertiser": "디어패밀리",
-            "startedAt": "2026-05-21",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:27+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:27+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1096229692583819",
-            "advertiser": "",
-            "startedAt": "2025-11-05",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:25+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:25+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2546155375857754",
-            "advertiser": "뉸이랍니다",
-            "startedAt": "2026-08-24",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:24+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:24+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1593204708960315",
-            "advertiser": "구강연구소",
-            "startedAt": "2026-08-22",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:24+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:24+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2156160961859091",
-            "advertiser": "정약사의 건강나눔",
-            "startedAt": "2026-03-01",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:23+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:23+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1330005052389606",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:23+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:23+00:00",
-            "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-09T15:01:24+00:00",
+        "lastCollectedAt": "2026-10-10T16:30:21+00:00",
         "advertisers": [
           {
             "name": "CNP Cosmetics",
@@ -17560,7 +17560,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-10T00:20:06+00:00",
       "lastObservedAt": "2026-10-10T16:23:29+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "304fbb1a972d232d3079f5c8862038074b61f170350280a83fec688f71fcf4f1",
       "searchQuery": "프로폴리스",
       "adEvidence": {
@@ -17568,6 +17568,35 @@
         "matchType": "collected-with-query",
         "adCount": 100,
         "adIds": [
+          "1770997444105820",
+          "1709076473490715",
+          "1637351421394523",
+          "1763073578048211",
+          "1744477866921243",
+          "1048954454456785",
+          "962763229832540",
+          "2092659434475562",
+          "2128916097951820",
+          "1410232681014704",
+          "2804985016552902",
+          "1370745445220586",
+          "1750251573018570",
+          "1548612662901403",
+          "1302812758532846",
+          "2161247571152698",
+          "2101472030784366",
+          "985792553998698",
+          "2046078855981720",
+          "1100957549077372",
+          "834438615621905",
+          "1106880122083735",
+          "1041410245217925",
+          "1713052219894759",
+          "1096229692583819",
+          "1593204708960315",
+          "2546155375857754",
+          "1330005052389606",
+          "2156160961859091",
           "4184268175043896",
           "1767924501065345",
           "2609650989465477",
@@ -17619,7 +17648,6 @@
           "2190866961776973",
           "1223701466376699",
           "2296360801147110",
-          "1637351421394523",
           "1394082402931135",
           "1093757649757198",
           "735678606272647",
@@ -17639,37 +17667,270 @@
           "2152792275263405",
           "1487954959831305",
           "1872378703446421",
-          "2678808225867369",
-          "1770997444105820",
-          "1763073578048211",
-          "1709076473490715",
-          "1744477866921243",
-          "1048954454456785",
-          "962763229832540",
-          "2128916097951820",
-          "2092659434475562",
-          "1410232681014704",
-          "2804985016552902",
-          "1370745445220586",
-          "1750251573018570",
-          "1548612662901403",
-          "1302812758532846",
-          "1100957549077372",
-          "985792553998698",
-          "2161247571152698",
-          "2101472030784366",
-          "834438615621905",
-          "2046078855981720",
-          "1713052219894759",
-          "1106880122083735",
-          "1041410245217925",
-          "1096229692583819",
-          "2546155375857754",
-          "1593204708960315",
-          "2156160961859091",
-          "1330005052389606"
+          "2678808225867369"
         ],
         "ads": [
+          {
+            "id": "1770997444105820",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-10-04",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:46+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:21+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1709076473490715",
+            "advertiser": "한약사가 만드는 한방식품 - 설아래",
+            "startedAt": "2026-09-03",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:46+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1637351421394523",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-09-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:07+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1763073578048211",
+            "advertiser": "정약사의 건강나눔",
+            "startedAt": "2026-07-13",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:46+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1744477866921243",
+            "advertiser": "비타네이처",
+            "startedAt": "2026-06-08",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:45+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1048954454456785",
+            "advertiser": "비타네이처",
+            "startedAt": "2026-06-05",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:45+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "962763229832540",
+            "advertiser": "디어패밀리",
+            "startedAt": "2026-04-29",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:44+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2092659434475562",
+            "advertiser": "",
+            "startedAt": "2025-10-17",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:44+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2128916097951820",
+            "advertiser": "애프리솔루션",
+            "startedAt": "2026-04-14",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:44+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1410232681014704",
+            "advertiser": "구강연구소",
+            "startedAt": "2026-08-22",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:37+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2804985016552902",
+            "advertiser": "입냄새 분야 박사",
+            "startedAt": "2026-09-06",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:36+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1370745445220586",
+            "advertiser": "뉸이랍니다",
+            "startedAt": "2026-08-24",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:36+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1750251573018570",
+            "advertiser": "필수관리 백과사전",
+            "startedAt": "2026-06-11",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:35+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1548612662901403",
+            "advertiser": "정약사의 건강나눔",
+            "startedAt": "2026-08-10",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:35+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1302812758532846",
+            "advertiser": "Musinsa",
+            "startedAt": "2026-09-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:34+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2161247571152698",
+            "advertiser": "피부건강",
+            "startedAt": "2026-06-26",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:33+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2101472030784366",
+            "advertiser": "애프리솔루션",
+            "startedAt": "2026-06-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:33+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "985792553998698",
+            "advertiser": "디어패밀리",
+            "startedAt": "2026-05-21",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:33+00:00",
+            "lastCollectedAt": "2026-10-10T16:29:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2046078855981720",
+            "advertiser": "피부건강",
+            "startedAt": "2026-06-24",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:28+00:00",
+            "lastCollectedAt": "2026-10-10T16:29:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1100957549077372",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-09-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:34+00:00",
+            "lastCollectedAt": "2026-10-10T16:29:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "834438615621905",
+            "advertiser": "",
+            "startedAt": "2025-11-05",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:28+00:00",
+            "lastCollectedAt": "2026-10-10T16:29:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1106880122083735",
+            "advertiser": "Musinsa",
+            "startedAt": "2026-09-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:27+00:00",
+            "lastCollectedAt": "2026-10-10T16:29:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1041410245217925",
+            "advertiser": "디어패밀리",
+            "startedAt": "2026-05-21",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:27+00:00",
+            "lastCollectedAt": "2026-10-10T16:29:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1713052219894759",
+            "advertiser": "밍꾸",
+            "startedAt": "2026-06-12",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:27+00:00",
+            "lastCollectedAt": "2026-10-10T16:29:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1096229692583819",
+            "advertiser": "",
+            "startedAt": "2025-11-05",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:25+00:00",
+            "lastCollectedAt": "2026-10-10T16:29:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1593204708960315",
+            "advertiser": "구강연구소",
+            "startedAt": "2026-08-22",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:24+00:00",
+            "lastCollectedAt": "2026-10-10T16:29:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2546155375857754",
+            "advertiser": "뉸이랍니다",
+            "startedAt": "2026-08-24",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:24+00:00",
+            "lastCollectedAt": "2026-10-10T16:29:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1330005052389606",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:23+00:00",
+            "lastCollectedAt": "2026-10-10T16:29:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2156160961859091",
+            "advertiser": "정약사의 건강나눔",
+            "startedAt": "2026-03-01",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:23+00:00",
+            "lastCollectedAt": "2026-10-10T16:29:45+00:00",
+            "startTiming": "before-window"
+          },
           {
             "id": "4184268175043896",
             "advertiser": "마더네스트",
@@ -18130,15 +18391,6 @@
             "startTiming": "during-window"
           },
           {
-            "id": "1637351421394523",
-            "advertiser": "CNP Cosmetics",
-            "startedAt": "2026-09-30",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T15:00:07+00:00",
-            "lastCollectedAt": "2026-10-09T15:00:07+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "1394082402931135",
             "advertiser": "CNP Cosmetics",
             "startedAt": "2026-09-15",
@@ -18317,261 +18569,9 @@
             "firstCollectedAt": "2026-10-09T14:59:46+00:00",
             "lastCollectedAt": "2026-10-09T14:59:46+00:00",
             "startTiming": "before-window"
-          },
-          {
-            "id": "1770997444105820",
-            "advertiser": "CNP Cosmetics",
-            "startedAt": "2026-10-04",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:46+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:46+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1763073578048211",
-            "advertiser": "정약사의 건강나눔",
-            "startedAt": "2026-07-13",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:46+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:46+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1709076473490715",
-            "advertiser": "한약사가 만드는 한방식품 - 설아래",
-            "startedAt": "2026-09-03",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:46+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:46+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1744477866921243",
-            "advertiser": "비타네이처",
-            "startedAt": "2026-06-08",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:45+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:45+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1048954454456785",
-            "advertiser": "비타네이처",
-            "startedAt": "2026-06-05",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:45+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:45+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "962763229832540",
-            "advertiser": "디어패밀리",
-            "startedAt": "2026-04-29",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:44+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:44+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2128916097951820",
-            "advertiser": "애프리솔루션",
-            "startedAt": "2026-04-14",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:44+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:44+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2092659434475562",
-            "advertiser": "",
-            "startedAt": "2025-10-17",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:44+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:44+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1410232681014704",
-            "advertiser": "구강연구소",
-            "startedAt": "2026-08-22",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:37+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:37+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2804985016552902",
-            "advertiser": "입냄새 분야 박사",
-            "startedAt": "2026-09-06",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:36+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:36+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1370745445220586",
-            "advertiser": "뉸이랍니다",
-            "startedAt": "2026-08-24",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:36+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:36+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1750251573018570",
-            "advertiser": "필수관리 백과사전",
-            "startedAt": "2026-06-11",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:35+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:35+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1548612662901403",
-            "advertiser": "정약사의 건강나눔",
-            "startedAt": "2026-08-10",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:35+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:35+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1302812758532846",
-            "advertiser": "Musinsa",
-            "startedAt": "2026-09-30",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:34+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:34+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1100957549077372",
-            "advertiser": "CNP Cosmetics",
-            "startedAt": "2026-09-30",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:34+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:34+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "985792553998698",
-            "advertiser": "디어패밀리",
-            "startedAt": "2026-05-21",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:33+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:33+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2161247571152698",
-            "advertiser": "피부건강",
-            "startedAt": "2026-06-26",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:33+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:33+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2101472030784366",
-            "advertiser": "애프리솔루션",
-            "startedAt": "2026-06-30",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:33+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:33+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "834438615621905",
-            "advertiser": "",
-            "startedAt": "2025-11-05",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:28+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:28+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2046078855981720",
-            "advertiser": "피부건강",
-            "startedAt": "2026-06-24",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:28+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:28+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1713052219894759",
-            "advertiser": "밍꾸",
-            "startedAt": "2026-06-12",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:27+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:27+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1106880122083735",
-            "advertiser": "Musinsa",
-            "startedAt": "2026-09-30",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:27+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:27+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1041410245217925",
-            "advertiser": "디어패밀리",
-            "startedAt": "2026-05-21",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:27+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:27+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1096229692583819",
-            "advertiser": "",
-            "startedAt": "2025-11-05",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:25+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:25+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2546155375857754",
-            "advertiser": "뉸이랍니다",
-            "startedAt": "2026-08-24",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:24+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:24+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1593204708960315",
-            "advertiser": "구강연구소",
-            "startedAt": "2026-08-22",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:24+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:24+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2156160961859091",
-            "advertiser": "정약사의 건강나눔",
-            "startedAt": "2026-03-01",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:23+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:23+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1330005052389606",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:23+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:23+00:00",
-            "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-09T15:01:24+00:00",
+        "lastCollectedAt": "2026-10-10T16:30:21+00:00",
         "advertisers": [
           {
             "name": "CNP Cosmetics",
@@ -36402,6 +36402,35 @@
         "matchType": "collected-with-query",
         "adCount": 100,
         "adIds": [
+          "1770997444105820",
+          "1709076473490715",
+          "1637351421394523",
+          "1763073578048211",
+          "1744477866921243",
+          "1048954454456785",
+          "962763229832540",
+          "2092659434475562",
+          "2128916097951820",
+          "1410232681014704",
+          "2804985016552902",
+          "1370745445220586",
+          "1750251573018570",
+          "1548612662901403",
+          "1302812758532846",
+          "2161247571152698",
+          "2101472030784366",
+          "985792553998698",
+          "2046078855981720",
+          "1100957549077372",
+          "834438615621905",
+          "1106880122083735",
+          "1041410245217925",
+          "1713052219894759",
+          "1096229692583819",
+          "1593204708960315",
+          "2546155375857754",
+          "1330005052389606",
+          "2156160961859091",
           "4184268175043896",
           "1767924501065345",
           "2609650989465477",
@@ -36453,7 +36482,6 @@
           "2190866961776973",
           "1223701466376699",
           "2296360801147110",
-          "1637351421394523",
           "1394082402931135",
           "1093757649757198",
           "735678606272647",
@@ -36473,37 +36501,270 @@
           "2152792275263405",
           "1487954959831305",
           "1872378703446421",
-          "2678808225867369",
-          "1770997444105820",
-          "1763073578048211",
-          "1709076473490715",
-          "1744477866921243",
-          "1048954454456785",
-          "962763229832540",
-          "2128916097951820",
-          "2092659434475562",
-          "1410232681014704",
-          "2804985016552902",
-          "1370745445220586",
-          "1750251573018570",
-          "1548612662901403",
-          "1302812758532846",
-          "1100957549077372",
-          "985792553998698",
-          "2161247571152698",
-          "2101472030784366",
-          "834438615621905",
-          "2046078855981720",
-          "1713052219894759",
-          "1106880122083735",
-          "1041410245217925",
-          "1096229692583819",
-          "2546155375857754",
-          "1593204708960315",
-          "2156160961859091",
-          "1330005052389606"
+          "2678808225867369"
         ],
         "ads": [
+          {
+            "id": "1770997444105820",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-10-04",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:46+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:21+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1709076473490715",
+            "advertiser": "한약사가 만드는 한방식품 - 설아래",
+            "startedAt": "2026-09-03",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:46+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1637351421394523",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-09-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T15:00:07+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1763073578048211",
+            "advertiser": "정약사의 건강나눔",
+            "startedAt": "2026-07-13",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:46+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1744477866921243",
+            "advertiser": "비타네이처",
+            "startedAt": "2026-06-08",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:45+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1048954454456785",
+            "advertiser": "비타네이처",
+            "startedAt": "2026-06-05",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:45+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "962763229832540",
+            "advertiser": "디어패밀리",
+            "startedAt": "2026-04-29",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:44+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2092659434475562",
+            "advertiser": "",
+            "startedAt": "2025-10-17",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:44+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2128916097951820",
+            "advertiser": "애프리솔루션",
+            "startedAt": "2026-04-14",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:44+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1410232681014704",
+            "advertiser": "구강연구소",
+            "startedAt": "2026-08-22",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:37+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2804985016552902",
+            "advertiser": "입냄새 분야 박사",
+            "startedAt": "2026-09-06",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:36+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1370745445220586",
+            "advertiser": "뉸이랍니다",
+            "startedAt": "2026-08-24",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:36+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1750251573018570",
+            "advertiser": "필수관리 백과사전",
+            "startedAt": "2026-06-11",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:35+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1548612662901403",
+            "advertiser": "정약사의 건강나눔",
+            "startedAt": "2026-08-10",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:35+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1302812758532846",
+            "advertiser": "Musinsa",
+            "startedAt": "2026-09-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:34+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2161247571152698",
+            "advertiser": "피부건강",
+            "startedAt": "2026-06-26",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:33+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2101472030784366",
+            "advertiser": "애프리솔루션",
+            "startedAt": "2026-06-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:33+00:00",
+            "lastCollectedAt": "2026-10-10T16:30:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "985792553998698",
+            "advertiser": "디어패밀리",
+            "startedAt": "2026-05-21",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:33+00:00",
+            "lastCollectedAt": "2026-10-10T16:29:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2046078855981720",
+            "advertiser": "피부건강",
+            "startedAt": "2026-06-24",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:28+00:00",
+            "lastCollectedAt": "2026-10-10T16:29:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1100957549077372",
+            "advertiser": "CNP Cosmetics",
+            "startedAt": "2026-09-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:34+00:00",
+            "lastCollectedAt": "2026-10-10T16:29:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "834438615621905",
+            "advertiser": "",
+            "startedAt": "2025-11-05",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:28+00:00",
+            "lastCollectedAt": "2026-10-10T16:29:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1106880122083735",
+            "advertiser": "Musinsa",
+            "startedAt": "2026-09-30",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:27+00:00",
+            "lastCollectedAt": "2026-10-10T16:29:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1041410245217925",
+            "advertiser": "디어패밀리",
+            "startedAt": "2026-05-21",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:27+00:00",
+            "lastCollectedAt": "2026-10-10T16:29:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1713052219894759",
+            "advertiser": "밍꾸",
+            "startedAt": "2026-06-12",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:27+00:00",
+            "lastCollectedAt": "2026-10-10T16:29:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1096229692583819",
+            "advertiser": "",
+            "startedAt": "2025-11-05",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:25+00:00",
+            "lastCollectedAt": "2026-10-10T16:29:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1593204708960315",
+            "advertiser": "구강연구소",
+            "startedAt": "2026-08-22",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:24+00:00",
+            "lastCollectedAt": "2026-10-10T16:29:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2546155375857754",
+            "advertiser": "뉸이랍니다",
+            "startedAt": "2026-08-24",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:24+00:00",
+            "lastCollectedAt": "2026-10-10T16:29:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1330005052389606",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:23+00:00",
+            "lastCollectedAt": "2026-10-10T16:29:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2156160961859091",
+            "advertiser": "정약사의 건강나눔",
+            "startedAt": "2026-03-01",
+            "query": "프로폴리스",
+            "firstCollectedAt": "2026-10-09T14:59:23+00:00",
+            "lastCollectedAt": "2026-10-10T16:29:45+00:00",
+            "startTiming": "before-window"
+          },
           {
             "id": "4184268175043896",
             "advertiser": "마더네스트",
@@ -36964,15 +37225,6 @@
             "startTiming": "during-window"
           },
           {
-            "id": "1637351421394523",
-            "advertiser": "CNP Cosmetics",
-            "startedAt": "2026-09-30",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T15:00:07+00:00",
-            "lastCollectedAt": "2026-10-09T15:00:07+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "1394082402931135",
             "advertiser": "CNP Cosmetics",
             "startedAt": "2026-09-15",
@@ -37151,261 +37403,9 @@
             "firstCollectedAt": "2026-10-09T14:59:46+00:00",
             "lastCollectedAt": "2026-10-09T14:59:46+00:00",
             "startTiming": "before-window"
-          },
-          {
-            "id": "1770997444105820",
-            "advertiser": "CNP Cosmetics",
-            "startedAt": "2026-10-04",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:46+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:46+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1763073578048211",
-            "advertiser": "정약사의 건강나눔",
-            "startedAt": "2026-07-13",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:46+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:46+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1709076473490715",
-            "advertiser": "한약사가 만드는 한방식품 - 설아래",
-            "startedAt": "2026-09-03",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:46+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:46+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1744477866921243",
-            "advertiser": "비타네이처",
-            "startedAt": "2026-06-08",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:45+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:45+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1048954454456785",
-            "advertiser": "비타네이처",
-            "startedAt": "2026-06-05",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:45+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:45+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "962763229832540",
-            "advertiser": "디어패밀리",
-            "startedAt": "2026-04-29",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:44+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:44+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2128916097951820",
-            "advertiser": "애프리솔루션",
-            "startedAt": "2026-04-14",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:44+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:44+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2092659434475562",
-            "advertiser": "",
-            "startedAt": "2025-10-17",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:44+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:44+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1410232681014704",
-            "advertiser": "구강연구소",
-            "startedAt": "2026-08-22",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:37+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:37+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2804985016552902",
-            "advertiser": "입냄새 분야 박사",
-            "startedAt": "2026-09-06",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:36+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:36+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1370745445220586",
-            "advertiser": "뉸이랍니다",
-            "startedAt": "2026-08-24",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:36+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:36+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1750251573018570",
-            "advertiser": "필수관리 백과사전",
-            "startedAt": "2026-06-11",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:35+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:35+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1548612662901403",
-            "advertiser": "정약사의 건강나눔",
-            "startedAt": "2026-08-10",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:35+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:35+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1302812758532846",
-            "advertiser": "Musinsa",
-            "startedAt": "2026-09-30",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:34+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:34+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1100957549077372",
-            "advertiser": "CNP Cosmetics",
-            "startedAt": "2026-09-30",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:34+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:34+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "985792553998698",
-            "advertiser": "디어패밀리",
-            "startedAt": "2026-05-21",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:33+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:33+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2161247571152698",
-            "advertiser": "피부건강",
-            "startedAt": "2026-06-26",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:33+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:33+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2101472030784366",
-            "advertiser": "애프리솔루션",
-            "startedAt": "2026-06-30",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:33+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:33+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "834438615621905",
-            "advertiser": "",
-            "startedAt": "2025-11-05",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:28+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:28+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2046078855981720",
-            "advertiser": "피부건강",
-            "startedAt": "2026-06-24",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:28+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:28+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1713052219894759",
-            "advertiser": "밍꾸",
-            "startedAt": "2026-06-12",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:27+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:27+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1106880122083735",
-            "advertiser": "Musinsa",
-            "startedAt": "2026-09-30",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:27+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:27+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1041410245217925",
-            "advertiser": "디어패밀리",
-            "startedAt": "2026-05-21",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:27+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:27+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1096229692583819",
-            "advertiser": "",
-            "startedAt": "2025-11-05",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:25+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:25+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2546155375857754",
-            "advertiser": "뉸이랍니다",
-            "startedAt": "2026-08-24",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:24+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:24+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1593204708960315",
-            "advertiser": "구강연구소",
-            "startedAt": "2026-08-22",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:24+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:24+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2156160961859091",
-            "advertiser": "정약사의 건강나눔",
-            "startedAt": "2026-03-01",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:23+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:23+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1330005052389606",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "프로폴리스",
-            "firstCollectedAt": "2026-10-09T14:59:23+00:00",
-            "lastCollectedAt": "2026-10-09T14:59:23+00:00",
-            "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-09T15:01:24+00:00",
+        "lastCollectedAt": "2026-10-10T16:30:21+00:00",
         "advertisers": [
           {
             "name": "CNP Cosmetics",
