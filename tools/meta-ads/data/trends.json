@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T04:05:55+00:00",
+  "updatedAt": "2026-10-10T04:09:20+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-10T00:20:37+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 32,
-    "dailyRemaining": 256,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "dailyUsed": 33,
+    "dailyRemaining": 255,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-10T04:13:53+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -8182,17 +8182,148 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "b783bcc83c279829ccee7d014e438be841c42e5a8f730e08ddecd06042850252",
       "searchQuery": "모발콜라겐3270",
       "adEvidence": {
         "query": "모발콜라겐3270",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 12,
+        "adIds": [
+          "2097898774438661",
+          "1002604589502764",
+          "1502792354900269",
+          "2276146346569217",
+          "1358760209296050",
+          "1065456299196328",
+          "1060199686961289",
+          "2331629280912867",
+          "2217586439024954",
+          "1606193991124405",
+          "1423392786304484",
+          "1364605741992296"
+        ],
+        "ads": [
+          {
+            "id": "2097898774438661",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐3270",
+            "firstCollectedAt": "2026-10-10T04:08:28+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1002604589502764",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐3270",
+            "firstCollectedAt": "2026-10-10T04:08:28+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1502792354900269",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐3270",
+            "firstCollectedAt": "2026-10-10T04:08:18+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2276146346569217",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐3270",
+            "firstCollectedAt": "2026-10-10T04:08:17+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1358760209296050",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐3270",
+            "firstCollectedAt": "2026-10-10T04:08:17+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1065456299196328",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐3270",
+            "firstCollectedAt": "2026-10-10T04:08:17+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1060199686961289",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-12",
+            "query": "모발콜라겐3270",
+            "firstCollectedAt": "2026-10-10T04:08:17+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2331629280912867",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐3270",
+            "firstCollectedAt": "2026-10-10T04:08:16+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2217586439024954",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐3270",
+            "firstCollectedAt": "2026-10-10T04:08:16+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1606193991124405",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐3270",
+            "firstCollectedAt": "2026-10-10T04:08:16+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1423392786304484",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐3270",
+            "firstCollectedAt": "2026-10-10T04:08:16+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1364605741992296",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐3270",
+            "firstCollectedAt": "2026-10-10T04:08:16+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:16+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-10T04:08:28+00:00",
+        "advertisers": [
+          {
+            "name": "주영엔에스",
+            "adCount": 11
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -8295,17 +8426,136 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "done",
       "keywordId": "0220da85d6be9ad059b5908d412bdc66b5cfa43235453daf03e1b70f1e1a77c2",
       "searchQuery": "파비플로라",
       "adEvidence": {
         "query": "파비플로라",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 10,
+        "adIds": [
+          "2862215440828489",
+          "1034638039631952",
+          "2032620757376080",
+          "1609911070529653",
+          "1563035651666824",
+          "2905791066447212",
+          "1640549794360092",
+          "1608488031060004",
+          "1715045279712993",
+          "1397816781771492"
+        ],
+        "ads": [
+          {
+            "id": "2862215440828489",
+            "advertiser": "영라뉴",
+            "startedAt": "2026-10-01",
+            "query": "파비플로라",
+            "firstCollectedAt": "2026-10-10T04:09:00+00:00",
+            "lastCollectedAt": "2026-10-10T04:09:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1034638039631952",
+            "advertiser": "영라뉴",
+            "startedAt": "2026-10-01",
+            "query": "파비플로라",
+            "firstCollectedAt": "2026-10-10T04:09:00+00:00",
+            "lastCollectedAt": "2026-10-10T04:09:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2032620757376080",
+            "advertiser": "서연",
+            "startedAt": "2026-09-22",
+            "query": "파비플로라",
+            "firstCollectedAt": "2026-10-10T04:08:59+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1609911070529653",
+            "advertiser": "영라뉴",
+            "startedAt": "2026-10-01",
+            "query": "파비플로라",
+            "firstCollectedAt": "2026-10-10T04:08:59+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1563035651666824",
+            "advertiser": "살뺀다",
+            "startedAt": "2026-09-13",
+            "query": "파비플로라",
+            "firstCollectedAt": "2026-10-10T04:08:59+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2905791066447212",
+            "advertiser": "살뺀다",
+            "startedAt": "2026-09-13",
+            "query": "파비플로라",
+            "firstCollectedAt": "2026-10-10T04:08:58+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1640549794360092",
+            "advertiser": "영라뉴",
+            "startedAt": "2026-10-01",
+            "query": "파비플로라",
+            "firstCollectedAt": "2026-10-10T04:08:58+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1608488031060004",
+            "advertiser": "수빈",
+            "startedAt": "2026-08-07",
+            "query": "파비플로라",
+            "firstCollectedAt": "2026-10-10T04:08:58+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1715045279712993",
+            "advertiser": "영라뉴",
+            "startedAt": "2026-08-12",
+            "query": "파비플로라",
+            "firstCollectedAt": "2026-10-10T04:08:57+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1397816781771492",
+            "advertiser": "영라뉴",
+            "startedAt": "2026-09-18",
+            "query": "파비플로라",
+            "firstCollectedAt": "2026-10-10T04:08:57+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:57+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-10T04:09:00+00:00",
+        "advertisers": [
+          {
+            "name": "영라뉴",
+            "adCount": 6
+          },
+          {
+            "name": "살뺀다",
+            "adCount": 2
+          },
+          {
+            "name": "서연",
+            "adCount": 1
+          },
+          {
+            "name": "수빈",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -8792,17 +9042,148 @@
       "rankWindow": 100,
       "observedAt": "2026-10-10T00:20:37+00:00",
       "lastObservedAt": "2026-10-10T00:20:37+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "b783bcc83c279829ccee7d014e438be841c42e5a8f730e08ddecd06042850252",
       "searchQuery": "모발콜라겐3270",
       "adEvidence": {
         "query": "모발콜라겐3270",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 12,
+        "adIds": [
+          "2097898774438661",
+          "1002604589502764",
+          "1502792354900269",
+          "2276146346569217",
+          "1358760209296050",
+          "1065456299196328",
+          "1060199686961289",
+          "2331629280912867",
+          "2217586439024954",
+          "1606193991124405",
+          "1423392786304484",
+          "1364605741992296"
+        ],
+        "ads": [
+          {
+            "id": "2097898774438661",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐3270",
+            "firstCollectedAt": "2026-10-10T04:08:28+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1002604589502764",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐3270",
+            "firstCollectedAt": "2026-10-10T04:08:28+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1502792354900269",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐3270",
+            "firstCollectedAt": "2026-10-10T04:08:18+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2276146346569217",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐3270",
+            "firstCollectedAt": "2026-10-10T04:08:17+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1358760209296050",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐3270",
+            "firstCollectedAt": "2026-10-10T04:08:17+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1065456299196328",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐3270",
+            "firstCollectedAt": "2026-10-10T04:08:17+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1060199686961289",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-12",
+            "query": "모발콜라겐3270",
+            "firstCollectedAt": "2026-10-10T04:08:17+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2331629280912867",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐3270",
+            "firstCollectedAt": "2026-10-10T04:08:16+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2217586439024954",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐3270",
+            "firstCollectedAt": "2026-10-10T04:08:16+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1606193991124405",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐3270",
+            "firstCollectedAt": "2026-10-10T04:08:16+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1423392786304484",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐3270",
+            "firstCollectedAt": "2026-10-10T04:08:16+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1364605741992296",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐3270",
+            "firstCollectedAt": "2026-10-10T04:08:16+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:16+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-10T04:08:28+00:00",
+        "advertisers": [
+          {
+            "name": "주영엔에스",
+            "adCount": 11
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -9464,17 +9845,136 @@
       "rankWindow": 100,
       "observedAt": "2026-10-10T00:20:37+00:00",
       "lastObservedAt": "2026-10-10T00:20:37+00:00",
-      "state": "ready",
+      "state": "done",
       "keywordId": "0220da85d6be9ad059b5908d412bdc66b5cfa43235453daf03e1b70f1e1a77c2",
       "searchQuery": "파비플로라",
       "adEvidence": {
         "query": "파비플로라",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 10,
+        "adIds": [
+          "2862215440828489",
+          "1034638039631952",
+          "2032620757376080",
+          "1609911070529653",
+          "1563035651666824",
+          "2905791066447212",
+          "1640549794360092",
+          "1608488031060004",
+          "1715045279712993",
+          "1397816781771492"
+        ],
+        "ads": [
+          {
+            "id": "2862215440828489",
+            "advertiser": "영라뉴",
+            "startedAt": "2026-10-01",
+            "query": "파비플로라",
+            "firstCollectedAt": "2026-10-10T04:09:00+00:00",
+            "lastCollectedAt": "2026-10-10T04:09:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1034638039631952",
+            "advertiser": "영라뉴",
+            "startedAt": "2026-10-01",
+            "query": "파비플로라",
+            "firstCollectedAt": "2026-10-10T04:09:00+00:00",
+            "lastCollectedAt": "2026-10-10T04:09:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2032620757376080",
+            "advertiser": "서연",
+            "startedAt": "2026-09-22",
+            "query": "파비플로라",
+            "firstCollectedAt": "2026-10-10T04:08:59+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1609911070529653",
+            "advertiser": "영라뉴",
+            "startedAt": "2026-10-01",
+            "query": "파비플로라",
+            "firstCollectedAt": "2026-10-10T04:08:59+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1563035651666824",
+            "advertiser": "살뺀다",
+            "startedAt": "2026-09-13",
+            "query": "파비플로라",
+            "firstCollectedAt": "2026-10-10T04:08:59+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2905791066447212",
+            "advertiser": "살뺀다",
+            "startedAt": "2026-09-13",
+            "query": "파비플로라",
+            "firstCollectedAt": "2026-10-10T04:08:58+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1640549794360092",
+            "advertiser": "영라뉴",
+            "startedAt": "2026-10-01",
+            "query": "파비플로라",
+            "firstCollectedAt": "2026-10-10T04:08:58+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1608488031060004",
+            "advertiser": "수빈",
+            "startedAt": "2026-08-07",
+            "query": "파비플로라",
+            "firstCollectedAt": "2026-10-10T04:08:58+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1715045279712993",
+            "advertiser": "영라뉴",
+            "startedAt": "2026-08-12",
+            "query": "파비플로라",
+            "firstCollectedAt": "2026-10-10T04:08:57+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1397816781771492",
+            "advertiser": "영라뉴",
+            "startedAt": "2026-09-18",
+            "query": "파비플로라",
+            "firstCollectedAt": "2026-10-10T04:08:57+00:00",
+            "lastCollectedAt": "2026-10-10T04:08:57+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-10T04:09:00+00:00",
+        "advertisers": [
+          {
+            "name": "영라뉴",
+            "adCount": 6
+          },
+          {
+            "name": "살뺀다",
+            "adCount": 2
+          },
+          {
+            "name": "서연",
+            "adCount": 1
+          },
+          {
+            "name": "수빈",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
