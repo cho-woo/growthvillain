@@ -1,6 +1,6 @@
 {
   "mode": "snapshot",
-  "updatedAt": "2026-10-10T03:01:11+00:00",
+  "updatedAt": "2026-10-10T03:18:04+00:00",
   "automations": [
     {
       "id": "meta-ads",
@@ -95,11 +95,11 @@
       "name": "티스토리 연예",
       "enabled": true,
       "running": false,
-      "state": "blocked",
-      "nextRunAt": "2026-10-10T12:15:32+09:00",
-      "lastSuccessAt": null,
+      "state": "waiting",
+      "nextRunAt": "2026-10-10T12:33:01+09:00",
+      "lastSuccessAt": "2026-10-10T12:17:55+09:00",
       "lastAttemptAt": null,
-      "message": "Pixabay API 키 입력 대기 · Gemini 429",
+      "message": "새 이슈 확인 완료",
       "intervalSeconds": 900,
       "statusCheckIntervalSeconds": null,
       "statusCheckBatchSize": null,
@@ -124,9 +124,9 @@
     }
   ],
   "publication": {
-    "state": "idle",
-    "lastAttemptAt": "2026-10-10T02:57:22+00:00",
-    "lastSuccessAt": "2026-10-10T02:59:19+00:00",
+    "state": "synced",
+    "lastAttemptAt": "2026-10-10T03:01:11+00:00",
+    "lastSuccessAt": "2026-10-10T03:01:16+00:00",
     "error": null,
     "enabled": true
   }
