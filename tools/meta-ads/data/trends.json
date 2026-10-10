@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T02:51:15+00:00",
+  "updatedAt": "2026-10-10T02:57:01+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-10T00:20:37+00:00",
@@ -41,8 +41,8 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 30,
-    "dailyRemaining": 258,
+    "dailyUsed": 31,
+    "dailyRemaining": 257,
     "pending": 1,
     "nextDispatchAt": null,
     "metaAutoEnabled": true,
@@ -1594,17 +1594,158 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "b6c21fe98c854ad045e7846a012b0548f0cad1119aefd6576aa07799cb90de0a",
       "searchQuery": "공진단",
       "adEvidence": {
         "query": "공진단",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 11,
+        "adIds": [
+          "2294258344760690",
+          "2127669067828767",
+          "1430743555731487",
+          "1228980362518278",
+          "883844017736895",
+          "2737916496579077",
+          "2571022563360387",
+          "1986065435402096",
+          "3169575963252117",
+          "1750575886126529",
+          "989205420612459"
+        ],
+        "ads": [
+          {
+            "id": "2294258344760690",
+            "advertiser": "나은내일한의원",
+            "startedAt": "2026-10-09",
+            "query": "공진단",
+            "firstCollectedAt": "2026-10-10T02:56:36+00:00",
+            "lastCollectedAt": "2026-10-10T02:56:36+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2127669067828767",
+            "advertiser": "Differ",
+            "startedAt": "2026-08-14",
+            "query": "공진단",
+            "firstCollectedAt": "2026-10-10T02:56:25+00:00",
+            "lastCollectedAt": "2026-10-10T02:56:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1430743555731487",
+            "advertiser": "",
+            "startedAt": "2026-09-30",
+            "query": "공진단",
+            "firstCollectedAt": "2026-10-10T02:56:24+00:00",
+            "lastCollectedAt": "2026-10-10T02:56:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1228980362518278",
+            "advertiser": "경희류한의원",
+            "startedAt": "2026-02-03",
+            "query": "공진단",
+            "firstCollectedAt": "2026-10-10T02:56:24+00:00",
+            "lastCollectedAt": "2026-10-10T02:56:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "883844017736895",
+            "advertiser": "경희류한의원",
+            "startedAt": "2026-02-03",
+            "query": "공진단",
+            "firstCollectedAt": "2026-10-10T02:56:23+00:00",
+            "lastCollectedAt": "2026-10-10T02:56:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2737916496579077",
+            "advertiser": "광동병원",
+            "startedAt": "2026-07-07",
+            "query": "공진단",
+            "firstCollectedAt": "2026-10-10T02:56:23+00:00",
+            "lastCollectedAt": "2026-10-10T02:56:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2571022563360387",
+            "advertiser": "태안으뜸한의원",
+            "startedAt": "2026-09-11",
+            "query": "공진단",
+            "firstCollectedAt": "2026-10-10T02:56:23+00:00",
+            "lastCollectedAt": "2026-10-10T02:56:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1986065435402096",
+            "advertiser": "태안으뜸한의원",
+            "startedAt": "2026-09-11",
+            "query": "공진단",
+            "firstCollectedAt": "2026-10-10T02:56:23+00:00",
+            "lastCollectedAt": "2026-10-10T02:56:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3169575963252117",
+            "advertiser": "태안으뜸한의원",
+            "startedAt": "2026-09-05",
+            "query": "공진단",
+            "firstCollectedAt": "2026-10-10T02:56:22+00:00",
+            "lastCollectedAt": "2026-10-10T02:56:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1750575886126529",
+            "advertiser": "남원s한의원",
+            "startedAt": "2026-06-08",
+            "query": "공진단",
+            "firstCollectedAt": "2026-10-10T02:56:22+00:00",
+            "lastCollectedAt": "2026-10-10T02:56:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "989205420612459",
+            "advertiser": "오나한",
+            "startedAt": "2026-06-16",
+            "query": "공진단",
+            "firstCollectedAt": "2026-10-10T02:56:20+00:00",
+            "lastCollectedAt": "2026-10-10T02:56:20+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-10T02:56:36+00:00",
+        "advertisers": [
+          {
+            "name": "태안으뜸한의원",
+            "adCount": 3
+          },
+          {
+            "name": "경희류한의원",
+            "adCount": 2
+          },
+          {
+            "name": "Differ",
+            "adCount": 1
+          },
+          {
+            "name": "광동병원",
+            "adCount": 1
+          },
+          {
+            "name": "나은내일한의원",
+            "adCount": 1
+          },
+          {
+            "name": "남원s한의원",
+            "adCount": 1
+          },
+          {
+            "name": "오나한",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -8009,7 +8150,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "queued",
       "keywordId": "af211a6e89c4e9727a461f4754342cce3e7a52074f3a4ac5271e3012b9d5aa51",
       "searchQuery": "잠백이크레아틴",
       "adEvidence": {
@@ -8738,7 +8879,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-10T00:20:37+00:00",
       "lastObservedAt": "2026-10-10T00:20:37+00:00",
-      "state": "ready",
+      "state": "queued",
       "keywordId": "af211a6e89c4e9727a461f4754342cce3e7a52074f3a4ac5271e3012b9d5aa51",
       "searchQuery": "잠백이크레아틴",
       "adEvidence": {
@@ -13432,17 +13573,158 @@
       "rankWindow": 100,
       "observedAt": "2026-10-10T00:20:06+00:00",
       "lastObservedAt": "2026-10-10T00:20:06+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "b6c21fe98c854ad045e7846a012b0548f0cad1119aefd6576aa07799cb90de0a",
       "searchQuery": "공진단",
       "adEvidence": {
         "query": "공진단",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 11,
+        "adIds": [
+          "2294258344760690",
+          "2127669067828767",
+          "1430743555731487",
+          "1228980362518278",
+          "883844017736895",
+          "2737916496579077",
+          "2571022563360387",
+          "1986065435402096",
+          "3169575963252117",
+          "1750575886126529",
+          "989205420612459"
+        ],
+        "ads": [
+          {
+            "id": "2294258344760690",
+            "advertiser": "나은내일한의원",
+            "startedAt": "2026-10-09",
+            "query": "공진단",
+            "firstCollectedAt": "2026-10-10T02:56:36+00:00",
+            "lastCollectedAt": "2026-10-10T02:56:36+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2127669067828767",
+            "advertiser": "Differ",
+            "startedAt": "2026-08-14",
+            "query": "공진단",
+            "firstCollectedAt": "2026-10-10T02:56:25+00:00",
+            "lastCollectedAt": "2026-10-10T02:56:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1430743555731487",
+            "advertiser": "",
+            "startedAt": "2026-09-30",
+            "query": "공진단",
+            "firstCollectedAt": "2026-10-10T02:56:24+00:00",
+            "lastCollectedAt": "2026-10-10T02:56:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1228980362518278",
+            "advertiser": "경희류한의원",
+            "startedAt": "2026-02-03",
+            "query": "공진단",
+            "firstCollectedAt": "2026-10-10T02:56:24+00:00",
+            "lastCollectedAt": "2026-10-10T02:56:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "883844017736895",
+            "advertiser": "경희류한의원",
+            "startedAt": "2026-02-03",
+            "query": "공진단",
+            "firstCollectedAt": "2026-10-10T02:56:23+00:00",
+            "lastCollectedAt": "2026-10-10T02:56:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2737916496579077",
+            "advertiser": "광동병원",
+            "startedAt": "2026-07-07",
+            "query": "공진단",
+            "firstCollectedAt": "2026-10-10T02:56:23+00:00",
+            "lastCollectedAt": "2026-10-10T02:56:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2571022563360387",
+            "advertiser": "태안으뜸한의원",
+            "startedAt": "2026-09-11",
+            "query": "공진단",
+            "firstCollectedAt": "2026-10-10T02:56:23+00:00",
+            "lastCollectedAt": "2026-10-10T02:56:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1986065435402096",
+            "advertiser": "태안으뜸한의원",
+            "startedAt": "2026-09-11",
+            "query": "공진단",
+            "firstCollectedAt": "2026-10-10T02:56:23+00:00",
+            "lastCollectedAt": "2026-10-10T02:56:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3169575963252117",
+            "advertiser": "태안으뜸한의원",
+            "startedAt": "2026-09-05",
+            "query": "공진단",
+            "firstCollectedAt": "2026-10-10T02:56:22+00:00",
+            "lastCollectedAt": "2026-10-10T02:56:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1750575886126529",
+            "advertiser": "남원s한의원",
+            "startedAt": "2026-06-08",
+            "query": "공진단",
+            "firstCollectedAt": "2026-10-10T02:56:22+00:00",
+            "lastCollectedAt": "2026-10-10T02:56:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "989205420612459",
+            "advertiser": "오나한",
+            "startedAt": "2026-06-16",
+            "query": "공진단",
+            "firstCollectedAt": "2026-10-10T02:56:20+00:00",
+            "lastCollectedAt": "2026-10-10T02:56:20+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-10T02:56:36+00:00",
+        "advertisers": [
+          {
+            "name": "태안으뜸한의원",
+            "adCount": 3
+          },
+          {
+            "name": "경희류한의원",
+            "adCount": 2
+          },
+          {
+            "name": "Differ",
+            "adCount": 1
+          },
+          {
+            "name": "광동병원",
+            "adCount": 1
+          },
+          {
+            "name": "나은내일한의원",
+            "adCount": 1
+          },
+          {
+            "name": "남원s한의원",
+            "adCount": 1
+          },
+          {
+            "name": "오나한",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
