@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T16:17:42+00:00",
+  "updatedAt": "2026-10-10T16:18:28+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-10T15:22:42+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 3,
-    "dailyRemaining": 285,
+    "dailyUsed": 4,
+    "dailyRemaining": 284,
     "pending": 0,
-    "nextDispatchAt": "2026-10-10T16:17:43+00:00",
+    "nextDispatchAt": "2026-10-10T16:22:48+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -8924,7 +8924,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "done",
       "keywordId": "88b9a603831dab58a65f5b55a806fea82ecadaad2c7076a9975206832424d42f",
       "searchQuery": "모발콜라겐",
       "adEvidence": {
@@ -8933,14 +8933,14 @@
         "adCount": 13,
         "adIds": [
           "2097898774438661",
-          "1502792354900269",
           "1002604589502764",
+          "1502792354900269",
           "2276146346569217",
+          "1408932921385339",
           "1358760209296050",
           "1065456299196328",
           "2331629280912867",
           "1423392786304484",
-          "1408932921385339",
           "1060199686961289",
           "2217586439024954",
           "1606193991124405",
@@ -8953,16 +8953,7 @@
             "startedAt": "2026-08-27",
             "query": "모발콜라겐",
             "firstCollectedAt": "2026-10-09T14:58:55+00:00",
-            "lastCollectedAt": "2026-10-09T14:58:55+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1502792354900269",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-08-27",
-            "query": "모발콜라겐",
-            "firstCollectedAt": "2026-10-09T14:58:55+00:00",
-            "lastCollectedAt": "2026-10-09T14:58:55+00:00",
+            "lastCollectedAt": "2026-10-10T16:18:06+00:00",
             "startTiming": "before-window"
           },
           {
@@ -8971,7 +8962,16 @@
             "startedAt": "2026-08-27",
             "query": "모발콜라겐",
             "firstCollectedAt": "2026-10-09T14:58:55+00:00",
-            "lastCollectedAt": "2026-10-09T14:58:55+00:00",
+            "lastCollectedAt": "2026-10-10T16:18:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1502792354900269",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:55+00:00",
+            "lastCollectedAt": "2026-10-10T16:18:05+00:00",
             "startTiming": "before-window"
           },
           {
@@ -8980,43 +8980,7 @@
             "startedAt": "2026-08-27",
             "query": "모발콜라겐",
             "firstCollectedAt": "2026-10-09T14:58:44+00:00",
-            "lastCollectedAt": "2026-10-09T14:58:44+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1358760209296050",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-08-27",
-            "query": "모발콜라겐",
-            "firstCollectedAt": "2026-10-09T14:58:44+00:00",
-            "lastCollectedAt": "2026-10-09T14:58:44+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1065456299196328",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-08-27",
-            "query": "모발콜라겐",
-            "firstCollectedAt": "2026-10-09T14:58:44+00:00",
-            "lastCollectedAt": "2026-10-09T14:58:44+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2331629280912867",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-08-27",
-            "query": "모발콜라겐",
-            "firstCollectedAt": "2026-10-09T14:58:43+00:00",
-            "lastCollectedAt": "2026-10-09T14:58:43+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1423392786304484",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-08-27",
-            "query": "모발콜라겐",
-            "firstCollectedAt": "2026-10-09T14:58:43+00:00",
-            "lastCollectedAt": "2026-10-09T14:58:43+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:54+00:00",
             "startTiming": "before-window"
           },
           {
@@ -9025,7 +8989,43 @@
             "startedAt": "2026-09-14",
             "query": "모발콜라겐",
             "firstCollectedAt": "2026-10-09T14:58:43+00:00",
-            "lastCollectedAt": "2026-10-09T14:58:43+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1358760209296050",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:44+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1065456299196328",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:44+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2331629280912867",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:43+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1423392786304484",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:43+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:53+00:00",
             "startTiming": "before-window"
           },
           {
@@ -9034,7 +9034,7 @@
             "startedAt": "2026-06-12",
             "query": "모발콜라겐",
             "firstCollectedAt": "2026-10-09T14:58:43+00:00",
-            "lastCollectedAt": "2026-10-09T14:58:43+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:53+00:00",
             "startTiming": "before-window"
           },
           {
@@ -9043,7 +9043,7 @@
             "startedAt": "2026-08-27",
             "query": "모발콜라겐",
             "firstCollectedAt": "2026-10-09T14:58:42+00:00",
-            "lastCollectedAt": "2026-10-09T14:58:42+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:52+00:00",
             "startTiming": "before-window"
           },
           {
@@ -9052,7 +9052,7 @@
             "startedAt": "2026-08-27",
             "query": "모발콜라겐",
             "firstCollectedAt": "2026-10-09T14:58:42+00:00",
-            "lastCollectedAt": "2026-10-09T14:58:42+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:52+00:00",
             "startTiming": "before-window"
           },
           {
@@ -9061,11 +9061,11 @@
             "startedAt": "2026-08-27",
             "query": "모발콜라겐",
             "firstCollectedAt": "2026-10-09T14:58:42+00:00",
-            "lastCollectedAt": "2026-10-09T14:58:42+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:52+00:00",
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-09T14:58:55+00:00",
+        "lastCollectedAt": "2026-10-10T16:18:06+00:00",
         "advertisers": [
           {
             "name": "주영엔에스",
@@ -13780,7 +13780,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-10T00:20:37+00:00",
       "lastObservedAt": "2026-10-10T15:22:42+00:00",
-      "state": "backlog",
+      "state": "done",
       "keywordId": "88b9a603831dab58a65f5b55a806fea82ecadaad2c7076a9975206832424d42f",
       "searchQuery": "모발콜라겐",
       "adEvidence": {
@@ -13789,14 +13789,14 @@
         "adCount": 13,
         "adIds": [
           "2097898774438661",
-          "1502792354900269",
           "1002604589502764",
+          "1502792354900269",
           "2276146346569217",
+          "1408932921385339",
           "1358760209296050",
           "1065456299196328",
           "2331629280912867",
           "1423392786304484",
-          "1408932921385339",
           "1060199686961289",
           "2217586439024954",
           "1606193991124405",
@@ -13809,16 +13809,7 @@
             "startedAt": "2026-08-27",
             "query": "모발콜라겐",
             "firstCollectedAt": "2026-10-09T14:58:55+00:00",
-            "lastCollectedAt": "2026-10-09T14:58:55+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1502792354900269",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-08-27",
-            "query": "모발콜라겐",
-            "firstCollectedAt": "2026-10-09T14:58:55+00:00",
-            "lastCollectedAt": "2026-10-09T14:58:55+00:00",
+            "lastCollectedAt": "2026-10-10T16:18:06+00:00",
             "startTiming": "before-window"
           },
           {
@@ -13827,7 +13818,16 @@
             "startedAt": "2026-08-27",
             "query": "모발콜라겐",
             "firstCollectedAt": "2026-10-09T14:58:55+00:00",
-            "lastCollectedAt": "2026-10-09T14:58:55+00:00",
+            "lastCollectedAt": "2026-10-10T16:18:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1502792354900269",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:55+00:00",
+            "lastCollectedAt": "2026-10-10T16:18:05+00:00",
             "startTiming": "before-window"
           },
           {
@@ -13836,43 +13836,7 @@
             "startedAt": "2026-08-27",
             "query": "모발콜라겐",
             "firstCollectedAt": "2026-10-09T14:58:44+00:00",
-            "lastCollectedAt": "2026-10-09T14:58:44+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1358760209296050",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-08-27",
-            "query": "모발콜라겐",
-            "firstCollectedAt": "2026-10-09T14:58:44+00:00",
-            "lastCollectedAt": "2026-10-09T14:58:44+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1065456299196328",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-08-27",
-            "query": "모발콜라겐",
-            "firstCollectedAt": "2026-10-09T14:58:44+00:00",
-            "lastCollectedAt": "2026-10-09T14:58:44+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2331629280912867",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-08-27",
-            "query": "모발콜라겐",
-            "firstCollectedAt": "2026-10-09T14:58:43+00:00",
-            "lastCollectedAt": "2026-10-09T14:58:43+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1423392786304484",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-08-27",
-            "query": "모발콜라겐",
-            "firstCollectedAt": "2026-10-09T14:58:43+00:00",
-            "lastCollectedAt": "2026-10-09T14:58:43+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:54+00:00",
             "startTiming": "before-window"
           },
           {
@@ -13881,7 +13845,43 @@
             "startedAt": "2026-09-14",
             "query": "모발콜라겐",
             "firstCollectedAt": "2026-10-09T14:58:43+00:00",
-            "lastCollectedAt": "2026-10-09T14:58:43+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1358760209296050",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:44+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1065456299196328",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:44+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2331629280912867",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:43+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1423392786304484",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:43+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:53+00:00",
             "startTiming": "before-window"
           },
           {
@@ -13890,7 +13890,7 @@
             "startedAt": "2026-06-12",
             "query": "모발콜라겐",
             "firstCollectedAt": "2026-10-09T14:58:43+00:00",
-            "lastCollectedAt": "2026-10-09T14:58:43+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:53+00:00",
             "startTiming": "before-window"
           },
           {
@@ -13899,7 +13899,7 @@
             "startedAt": "2026-08-27",
             "query": "모발콜라겐",
             "firstCollectedAt": "2026-10-09T14:58:42+00:00",
-            "lastCollectedAt": "2026-10-09T14:58:42+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:52+00:00",
             "startTiming": "before-window"
           },
           {
@@ -13908,7 +13908,7 @@
             "startedAt": "2026-08-27",
             "query": "모발콜라겐",
             "firstCollectedAt": "2026-10-09T14:58:42+00:00",
-            "lastCollectedAt": "2026-10-09T14:58:42+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:52+00:00",
             "startTiming": "before-window"
           },
           {
@@ -13917,11 +13917,11 @@
             "startedAt": "2026-08-27",
             "query": "모발콜라겐",
             "firstCollectedAt": "2026-10-09T14:58:42+00:00",
-            "lastCollectedAt": "2026-10-09T14:58:42+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:52+00:00",
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-09T14:58:55+00:00",
+        "lastCollectedAt": "2026-10-10T16:18:06+00:00",
         "advertisers": [
           {
             "name": "주영엔에스",
@@ -27217,14 +27217,14 @@
         "adCount": 13,
         "adIds": [
           "2097898774438661",
-          "1502792354900269",
           "1002604589502764",
+          "1502792354900269",
           "2276146346569217",
+          "1408932921385339",
           "1358760209296050",
           "1065456299196328",
           "2331629280912867",
           "1423392786304484",
-          "1408932921385339",
           "1060199686961289",
           "2217586439024954",
           "1606193991124405",
@@ -27237,16 +27237,7 @@
             "startedAt": "2026-08-27",
             "query": "모발콜라겐",
             "firstCollectedAt": "2026-10-09T14:58:55+00:00",
-            "lastCollectedAt": "2026-10-09T14:58:55+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1502792354900269",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-08-27",
-            "query": "모발콜라겐",
-            "firstCollectedAt": "2026-10-09T14:58:55+00:00",
-            "lastCollectedAt": "2026-10-09T14:58:55+00:00",
+            "lastCollectedAt": "2026-10-10T16:18:06+00:00",
             "startTiming": "before-window"
           },
           {
@@ -27255,7 +27246,16 @@
             "startedAt": "2026-08-27",
             "query": "모발콜라겐",
             "firstCollectedAt": "2026-10-09T14:58:55+00:00",
-            "lastCollectedAt": "2026-10-09T14:58:55+00:00",
+            "lastCollectedAt": "2026-10-10T16:18:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1502792354900269",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:55+00:00",
+            "lastCollectedAt": "2026-10-10T16:18:05+00:00",
             "startTiming": "before-window"
           },
           {
@@ -27264,43 +27264,7 @@
             "startedAt": "2026-08-27",
             "query": "모발콜라겐",
             "firstCollectedAt": "2026-10-09T14:58:44+00:00",
-            "lastCollectedAt": "2026-10-09T14:58:44+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1358760209296050",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-08-27",
-            "query": "모발콜라겐",
-            "firstCollectedAt": "2026-10-09T14:58:44+00:00",
-            "lastCollectedAt": "2026-10-09T14:58:44+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1065456299196328",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-08-27",
-            "query": "모발콜라겐",
-            "firstCollectedAt": "2026-10-09T14:58:44+00:00",
-            "lastCollectedAt": "2026-10-09T14:58:44+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2331629280912867",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-08-27",
-            "query": "모발콜라겐",
-            "firstCollectedAt": "2026-10-09T14:58:43+00:00",
-            "lastCollectedAt": "2026-10-09T14:58:43+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1423392786304484",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-08-27",
-            "query": "모발콜라겐",
-            "firstCollectedAt": "2026-10-09T14:58:43+00:00",
-            "lastCollectedAt": "2026-10-09T14:58:43+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:54+00:00",
             "startTiming": "before-window"
           },
           {
@@ -27309,7 +27273,43 @@
             "startedAt": "2026-09-14",
             "query": "모발콜라겐",
             "firstCollectedAt": "2026-10-09T14:58:43+00:00",
-            "lastCollectedAt": "2026-10-09T14:58:43+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1358760209296050",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:44+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1065456299196328",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:44+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2331629280912867",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:43+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1423392786304484",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "모발콜라겐",
+            "firstCollectedAt": "2026-10-09T14:58:43+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:53+00:00",
             "startTiming": "before-window"
           },
           {
@@ -27318,7 +27318,7 @@
             "startedAt": "2026-06-12",
             "query": "모발콜라겐",
             "firstCollectedAt": "2026-10-09T14:58:43+00:00",
-            "lastCollectedAt": "2026-10-09T14:58:43+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:53+00:00",
             "startTiming": "before-window"
           },
           {
@@ -27327,7 +27327,7 @@
             "startedAt": "2026-08-27",
             "query": "모발콜라겐",
             "firstCollectedAt": "2026-10-09T14:58:42+00:00",
-            "lastCollectedAt": "2026-10-09T14:58:42+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:52+00:00",
             "startTiming": "before-window"
           },
           {
@@ -27336,7 +27336,7 @@
             "startedAt": "2026-08-27",
             "query": "모발콜라겐",
             "firstCollectedAt": "2026-10-09T14:58:42+00:00",
-            "lastCollectedAt": "2026-10-09T14:58:42+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:52+00:00",
             "startTiming": "before-window"
           },
           {
@@ -27345,11 +27345,11 @@
             "startedAt": "2026-08-27",
             "query": "모발콜라겐",
             "firstCollectedAt": "2026-10-09T14:58:42+00:00",
-            "lastCollectedAt": "2026-10-09T14:58:42+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:52+00:00",
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-09T14:58:55+00:00",
+        "lastCollectedAt": "2026-10-10T16:18:06+00:00",
         "advertisers": [
           {
             "name": "주영엔에스",
