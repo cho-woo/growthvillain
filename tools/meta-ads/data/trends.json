@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T08:43:01+00:00",
+  "updatedAt": "2026-10-10T08:47:03+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-10T00:20:37+00:00",
@@ -43,8 +43,8 @@
     "backlogDays": 14,
     "dailyUsed": 39,
     "dailyRemaining": 249,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-10T08:47:03+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -7313,17 +7313,454 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "beb785e6a823a38108b5b1cdc89fd88049901f5f0f0c4ab26a9f78fec00c8028",
       "searchQuery": "비피더스유산균",
       "adEvidence": {
         "query": "비피더스유산균",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 37,
+        "adIds": [
+          "960615587083488",
+          "1059257933100667",
+          "27745528335149195",
+          "1810457073472613",
+          "1767854157794388",
+          "1089123740576797",
+          "1365417208887758",
+          "1775763633841599",
+          "1547042620224933",
+          "29245068415099543",
+          "1981933305807980",
+          "2055070528516626",
+          "1336701151704337",
+          "3435528366608928",
+          "1827929968553866",
+          "2173776086536335",
+          "1458926696299055",
+          "2356323948234261",
+          "1510722620295059",
+          "1151540360530605",
+          "1968683280398367",
+          "1473068114709222",
+          "1118348700722395",
+          "2752845968450480",
+          "938078086041474",
+          "1778318169789587",
+          "2184213725836839",
+          "878944371670961",
+          "2005163083444706",
+          "1847514319751706",
+          "1827198995370874",
+          "1666540311093462",
+          "1073455842073633",
+          "38942268458754633",
+          "2160361818195306",
+          "1810429173319946",
+          "1580732333767173"
+        ],
+        "ads": [
+          {
+            "id": "960615587083488",
+            "advertiser": "뷰티블로그 리어린",
+            "startedAt": "2026-09-15",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:37+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1059257933100667",
+            "advertiser": "jjin.jjin01",
+            "startedAt": "2026-07-08",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:36+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27745528335149195",
+            "advertiser": "jjin.jjin01",
+            "startedAt": "2026-08-27",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:35+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1810457073472613",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-22",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:35+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1767854157794388",
+            "advertiser": "장건강 연구소",
+            "startedAt": "2026-10-07",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:34+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:34+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1089123740576797",
+            "advertiser": "장건강 연구소",
+            "startedAt": "2026-10-07",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:34+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:34+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1365417208887758",
+            "advertiser": "장건강꿀팁모음",
+            "startedAt": "2026-07-27",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:33+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1775763633841599",
+            "advertiser": "장건강 연구소",
+            "startedAt": "2026-10-07",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:20+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:20+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1547042620224933",
+            "advertiser": "보라보라",
+            "startedAt": "2026-07-27",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:20+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "29245068415099543",
+            "advertiser": "다온 beauty",
+            "startedAt": "2026-10-01",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:19+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1981933305807980",
+            "advertiser": "장건강 연구소",
+            "startedAt": "2026-09-09",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:19+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2055070528516626",
+            "advertiser": "장건강 연구소",
+            "startedAt": "2026-10-07",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:18+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:18+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1336701151704337",
+            "advertiser": "탤뷰",
+            "startedAt": "2026-10-01",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:17+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3435528366608928",
+            "advertiser": "모델",
+            "startedAt": "2026-07-20",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:16+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1827929968553866",
+            "advertiser": "장건강 연구소",
+            "startedAt": "2026-10-07",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:16+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:16+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2173776086536335",
+            "advertiser": "장건강 연구소",
+            "startedAt": "2026-10-07",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:15+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:15+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1458926696299055",
+            "advertiser": "장건강 연구소",
+            "startedAt": "2026-10-07",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:15+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:15+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2356323948234261",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-01",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:08+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1510722620295059",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-07-13",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:08+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1151540360530605",
+            "advertiser": "장건강 연구소",
+            "startedAt": "2026-10-07",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:08+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:08+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1968683280398367",
+            "advertiser": "foodmin123",
+            "startedAt": "2026-10-01",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:07+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1473068114709222",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-01",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:07+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1118348700722395",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-01",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:07+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2752845968450480",
+            "advertiser": "Smsm",
+            "startedAt": "2026-09-11",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:06+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "938078086041474",
+            "advertiser": "장건강 연구소",
+            "startedAt": "2026-10-07",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:05+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:05+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1778318169789587",
+            "advertiser": "장건강 연구소",
+            "startedAt": "2026-10-07",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:05+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:05+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2184213725836839",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-04",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:04+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:04+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "878944371670961",
+            "advertiser": "장건강 연구소",
+            "startedAt": "2026-08-06",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:45:59+00:00",
+            "lastCollectedAt": "2026-10-10T08:45:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2005163083444706",
+            "advertiser": "돼랑돼둥",
+            "startedAt": "2026-09-30",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:45:58+00:00",
+            "lastCollectedAt": "2026-10-10T08:45:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1847514319751706",
+            "advertiser": "_linsun__",
+            "startedAt": "2026-10-01",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:45:58+00:00",
+            "lastCollectedAt": "2026-10-10T08:45:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1827198995370874",
+            "advertiser": "Ehcl15",
+            "startedAt": "2026-10-02",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:45:57+00:00",
+            "lastCollectedAt": "2026-10-10T08:45:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1666540311093462",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-07-13",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:45:56+00:00",
+            "lastCollectedAt": "2026-10-10T08:45:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1073455842073633",
+            "advertiser": "마리스텔라",
+            "startedAt": "2026-09-14",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:45:56+00:00",
+            "lastCollectedAt": "2026-10-10T08:45:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "38942268458754633",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-02",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:45:54+00:00",
+            "lastCollectedAt": "2026-10-10T08:45:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2160361818195306",
+            "advertiser": "장건강 연구소",
+            "startedAt": "2026-09-03",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:45:54+00:00",
+            "lastCollectedAt": "2026-10-10T08:45:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1810429173319946",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-01",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:45:53+00:00",
+            "lastCollectedAt": "2026-10-10T08:45:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1580732333767173",
+            "advertiser": "마리스텔라",
+            "startedAt": "2026-07-14",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:45:53+00:00",
+            "lastCollectedAt": "2026-10-10T08:45:53+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-10T08:46:37+00:00",
+        "advertisers": [
+          {
+            "name": "장건강 연구소",
+            "adCount": 13
+          },
+          {
+            "name": "종근당",
+            "adCount": 7
+          },
+          {
+            "name": "jjin.jjin01",
+            "adCount": 2
+          },
+          {
+            "name": "내츄럴플러스",
+            "adCount": 2
+          },
+          {
+            "name": "마리스텔라",
+            "adCount": 2
+          },
+          {
+            "name": "Ehcl15",
+            "adCount": 1
+          },
+          {
+            "name": "Smsm",
+            "adCount": 1
+          },
+          {
+            "name": "_linsun__",
+            "adCount": 1
+          },
+          {
+            "name": "foodmin123",
+            "adCount": 1
+          },
+          {
+            "name": "다온 beauty",
+            "adCount": 1
+          },
+          {
+            "name": "돼랑돼둥",
+            "adCount": 1
+          },
+          {
+            "name": "모델",
+            "adCount": 1
+          },
+          {
+            "name": "보라보라",
+            "adCount": 1
+          },
+          {
+            "name": "뷰티블로그 리어린",
+            "adCount": 1
+          },
+          {
+            "name": "장건강꿀팁모음",
+            "adCount": 1
+          },
+          {
+            "name": "탤뷰",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -16337,17 +16774,454 @@
       "rankWindow": 100,
       "observedAt": "2026-10-10T00:20:06+00:00",
       "lastObservedAt": "2026-10-10T00:20:06+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "beb785e6a823a38108b5b1cdc89fd88049901f5f0f0c4ab26a9f78fec00c8028",
       "searchQuery": "비피더스유산균",
       "adEvidence": {
         "query": "비피더스유산균",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 37,
+        "adIds": [
+          "960615587083488",
+          "1059257933100667",
+          "27745528335149195",
+          "1810457073472613",
+          "1767854157794388",
+          "1089123740576797",
+          "1365417208887758",
+          "1775763633841599",
+          "1547042620224933",
+          "29245068415099543",
+          "1981933305807980",
+          "2055070528516626",
+          "1336701151704337",
+          "3435528366608928",
+          "1827929968553866",
+          "2173776086536335",
+          "1458926696299055",
+          "2356323948234261",
+          "1510722620295059",
+          "1151540360530605",
+          "1968683280398367",
+          "1473068114709222",
+          "1118348700722395",
+          "2752845968450480",
+          "938078086041474",
+          "1778318169789587",
+          "2184213725836839",
+          "878944371670961",
+          "2005163083444706",
+          "1847514319751706",
+          "1827198995370874",
+          "1666540311093462",
+          "1073455842073633",
+          "38942268458754633",
+          "2160361818195306",
+          "1810429173319946",
+          "1580732333767173"
+        ],
+        "ads": [
+          {
+            "id": "960615587083488",
+            "advertiser": "뷰티블로그 리어린",
+            "startedAt": "2026-09-15",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:37+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1059257933100667",
+            "advertiser": "jjin.jjin01",
+            "startedAt": "2026-07-08",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:36+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27745528335149195",
+            "advertiser": "jjin.jjin01",
+            "startedAt": "2026-08-27",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:35+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1810457073472613",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-22",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:35+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1767854157794388",
+            "advertiser": "장건강 연구소",
+            "startedAt": "2026-10-07",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:34+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:34+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1089123740576797",
+            "advertiser": "장건강 연구소",
+            "startedAt": "2026-10-07",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:34+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:34+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1365417208887758",
+            "advertiser": "장건강꿀팁모음",
+            "startedAt": "2026-07-27",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:33+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1775763633841599",
+            "advertiser": "장건강 연구소",
+            "startedAt": "2026-10-07",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:20+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:20+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1547042620224933",
+            "advertiser": "보라보라",
+            "startedAt": "2026-07-27",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:20+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "29245068415099543",
+            "advertiser": "다온 beauty",
+            "startedAt": "2026-10-01",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:19+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1981933305807980",
+            "advertiser": "장건강 연구소",
+            "startedAt": "2026-09-09",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:19+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2055070528516626",
+            "advertiser": "장건강 연구소",
+            "startedAt": "2026-10-07",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:18+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:18+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1336701151704337",
+            "advertiser": "탤뷰",
+            "startedAt": "2026-10-01",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:17+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3435528366608928",
+            "advertiser": "모델",
+            "startedAt": "2026-07-20",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:16+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1827929968553866",
+            "advertiser": "장건강 연구소",
+            "startedAt": "2026-10-07",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:16+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:16+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2173776086536335",
+            "advertiser": "장건강 연구소",
+            "startedAt": "2026-10-07",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:15+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:15+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1458926696299055",
+            "advertiser": "장건강 연구소",
+            "startedAt": "2026-10-07",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:15+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:15+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2356323948234261",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-01",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:08+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1510722620295059",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-07-13",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:08+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1151540360530605",
+            "advertiser": "장건강 연구소",
+            "startedAt": "2026-10-07",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:08+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:08+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1968683280398367",
+            "advertiser": "foodmin123",
+            "startedAt": "2026-10-01",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:07+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1473068114709222",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-01",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:07+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1118348700722395",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-01",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:07+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2752845968450480",
+            "advertiser": "Smsm",
+            "startedAt": "2026-09-11",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:06+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "938078086041474",
+            "advertiser": "장건강 연구소",
+            "startedAt": "2026-10-07",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:05+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:05+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1778318169789587",
+            "advertiser": "장건강 연구소",
+            "startedAt": "2026-10-07",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:05+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:05+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2184213725836839",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-04",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:46:04+00:00",
+            "lastCollectedAt": "2026-10-10T08:46:04+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "878944371670961",
+            "advertiser": "장건강 연구소",
+            "startedAt": "2026-08-06",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:45:59+00:00",
+            "lastCollectedAt": "2026-10-10T08:45:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2005163083444706",
+            "advertiser": "돼랑돼둥",
+            "startedAt": "2026-09-30",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:45:58+00:00",
+            "lastCollectedAt": "2026-10-10T08:45:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1847514319751706",
+            "advertiser": "_linsun__",
+            "startedAt": "2026-10-01",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:45:58+00:00",
+            "lastCollectedAt": "2026-10-10T08:45:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1827198995370874",
+            "advertiser": "Ehcl15",
+            "startedAt": "2026-10-02",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:45:57+00:00",
+            "lastCollectedAt": "2026-10-10T08:45:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1666540311093462",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-07-13",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:45:56+00:00",
+            "lastCollectedAt": "2026-10-10T08:45:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1073455842073633",
+            "advertiser": "마리스텔라",
+            "startedAt": "2026-09-14",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:45:56+00:00",
+            "lastCollectedAt": "2026-10-10T08:45:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "38942268458754633",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-02",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:45:54+00:00",
+            "lastCollectedAt": "2026-10-10T08:45:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2160361818195306",
+            "advertiser": "장건강 연구소",
+            "startedAt": "2026-09-03",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:45:54+00:00",
+            "lastCollectedAt": "2026-10-10T08:45:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1810429173319946",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-01",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:45:53+00:00",
+            "lastCollectedAt": "2026-10-10T08:45:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1580732333767173",
+            "advertiser": "마리스텔라",
+            "startedAt": "2026-07-14",
+            "query": "비피더스유산균",
+            "firstCollectedAt": "2026-10-10T08:45:53+00:00",
+            "lastCollectedAt": "2026-10-10T08:45:53+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-10T08:46:37+00:00",
+        "advertisers": [
+          {
+            "name": "장건강 연구소",
+            "adCount": 13
+          },
+          {
+            "name": "종근당",
+            "adCount": 7
+          },
+          {
+            "name": "jjin.jjin01",
+            "adCount": 2
+          },
+          {
+            "name": "내츄럴플러스",
+            "adCount": 2
+          },
+          {
+            "name": "마리스텔라",
+            "adCount": 2
+          },
+          {
+            "name": "Ehcl15",
+            "adCount": 1
+          },
+          {
+            "name": "Smsm",
+            "adCount": 1
+          },
+          {
+            "name": "_linsun__",
+            "adCount": 1
+          },
+          {
+            "name": "foodmin123",
+            "adCount": 1
+          },
+          {
+            "name": "다온 beauty",
+            "adCount": 1
+          },
+          {
+            "name": "돼랑돼둥",
+            "adCount": 1
+          },
+          {
+            "name": "모델",
+            "adCount": 1
+          },
+          {
+            "name": "보라보라",
+            "adCount": 1
+          },
+          {
+            "name": "뷰티블로그 리어린",
+            "adCount": 1
+          },
+          {
+            "name": "장건강꿀팁모음",
+            "adCount": 1
+          },
+          {
+            "name": "탤뷰",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
