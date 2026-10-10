@@ -1,6 +1,6 @@
 {
   "mode": "snapshot",
-  "updatedAt": "2026-10-10T03:35:51+00:00",
+  "updatedAt": "2026-10-10T03:50:20+00:00",
   "automations": [
     {
       "id": "meta-ads",
@@ -96,7 +96,7 @@
       "enabled": true,
       "running": false,
       "state": "waiting",
-      "nextRunAt": "2026-10-10T12:49:05+09:00",
+      "nextRunAt": "2026-10-10T13:04:06+09:00",
       "lastSuccessAt": "2026-10-10T12:17:55+09:00",
       "lastAttemptAt": null,
       "message": "후보 없음 또는 발행 한도·간격 대기 · AI 호출 없음",
@@ -124,9 +124,9 @@
     }
   ],
   "publication": {
-    "state": "idle",
-    "lastAttemptAt": "2026-10-10T03:21:11+00:00",
-    "lastSuccessAt": "2026-10-10T03:21:15+00:00",
+    "state": "synced",
+    "lastAttemptAt": "2026-10-10T03:35:51+00:00",
+    "lastSuccessAt": "2026-10-10T03:35:55+00:00",
     "error": null,
     "enabled": true
   }
