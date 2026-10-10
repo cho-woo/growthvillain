@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T14:53:14+00:00",
+  "updatedAt": "2026-10-10T14:57:50+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-10T00:20:37+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 52,
-    "dailyRemaining": 236,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-10T14:57:37+00:00",
+    "dailyUsed": 53,
+    "dailyRemaining": 235,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -9456,7 +9456,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "queued",
       "keywordId": "0848b332728aefe953cc6b345b4ab1a4bd47eccb4c93aac44901be7f150b7e85",
       "searchQuery": "루노미",
       "adEvidence": {
@@ -13358,7 +13358,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-10T00:20:37+00:00",
       "lastObservedAt": "2026-10-10T00:20:37+00:00",
-      "state": "ready",
+      "state": "queued",
       "keywordId": "0848b332728aefe953cc6b345b4ab1a4bd47eccb4c93aac44901be7f150b7e85",
       "searchQuery": "루노미",
       "adEvidence": {
