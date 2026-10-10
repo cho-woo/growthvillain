@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T02:57:01+00:00",
+  "updatedAt": "2026-10-10T03:00:09+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-10T00:20:37+00:00",
@@ -43,20 +43,20 @@
     "backlogDays": 14,
     "dailyUsed": 31,
     "dailyRemaining": 257,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-10T03:57:32+00:00",
     "metaAutoEnabled": true,
-    "enabled": true,
+    "enabled": false,
     "collectionGuard": {
-      "state": "ready",
-      "reason": null,
-      "nextAllowedAt": null,
-      "blockedUntil": null,
-      "blockStreak": 0,
+      "state": "blocked",
+      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
+      "nextAllowedAt": "2026-10-10T03:57:32+00:00",
+      "blockedUntil": "2026-10-10T03:57:32+00:00",
+      "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": null
+    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
   },
   "settings": {
     "category": "50000023",
@@ -8150,7 +8150,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "failed",
       "keywordId": "af211a6e89c4e9727a461f4754342cce3e7a52074f3a4ac5271e3012b9d5aa51",
       "searchQuery": "잠백이크레아틴",
       "adEvidence": {
@@ -8879,7 +8879,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-10T00:20:37+00:00",
       "lastObservedAt": "2026-10-10T00:20:37+00:00",
-      "state": "queued",
+      "state": "failed",
       "keywordId": "af211a6e89c4e9727a461f4754342cce3e7a52074f3a4ac5271e3012b9d5aa51",
       "searchQuery": "잠백이크레아틴",
       "adEvidence": {

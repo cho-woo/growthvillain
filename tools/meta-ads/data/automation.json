@@ -1,27 +1,27 @@
 {
   "mode": "snapshot",
-  "updatedAt": "2026-10-10T02:57:22+00:00",
+  "updatedAt": "2026-10-10T03:01:11+00:00",
   "automations": [
     {
       "id": "meta-ads",
       "name": "메타 광고",
       "enabled": true,
-      "running": true,
-      "state": "running",
-      "nextRunAt": "2026-10-10T03:41:13+00:00",
+      "running": false,
+      "state": "waiting",
+      "nextRunAt": "2026-10-10T03:57:32+00:00",
       "lastSuccessAt": "2026-10-10T02:56:55+00:00",
       "lastAttemptAt": "2026-10-10T02:57:01+00:00",
-      "message": "광고 라이브러리 수집 중",
+      "message": "Meta 접근 제한 · 다음 자동 시도까지 대기",
       "intervalSeconds": 3600,
       "statusCheckIntervalSeconds": 900,
       "statusCheckBatchSize": 10,
-      "nextStatusCheckAt": "2026-10-10T03:05:22+00:00",
+      "nextStatusCheckAt": "2026-10-10T03:57:32+00:00",
       "collectionGuard": {
-        "state": "ready",
-        "reason": null,
-        "nextAllowedAt": null,
-        "blockedUntil": null,
-        "blockStreak": 0,
+        "state": "blocked",
+        "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
+        "nextAllowedAt": "2026-10-10T03:57:32+00:00",
+        "blockedUntil": "2026-10-10T03:57:32+00:00",
+        "blockStreak": 1,
         "storageReady": true,
         "minimumFreeBytes": 5368709120
       }
@@ -91,6 +91,22 @@
       "collectionGuard": null
     },
     {
+      "id": "tistory-blog",
+      "name": "티스토리 연예",
+      "enabled": true,
+      "running": false,
+      "state": "blocked",
+      "nextRunAt": "2026-10-10T12:15:32+09:00",
+      "lastSuccessAt": null,
+      "lastAttemptAt": null,
+      "message": "Pixabay API 키 입력 대기 · Gemini 429",
+      "intervalSeconds": 900,
+      "statusCheckIntervalSeconds": null,
+      "statusCheckBatchSize": null,
+      "nextStatusCheckAt": null,
+      "collectionGuard": null
+    },
+    {
       "id": "oliveyoung",
       "name": "올리브영 순위",
       "enabled": true,
@@ -108,9 +124,9 @@
     }
   ],
   "publication": {
-    "state": "synced",
-    "lastAttemptAt": "2026-10-10T02:51:28+00:00",
-    "lastSuccessAt": "2026-10-10T02:51:33+00:00",
+    "state": "idle",
+    "lastAttemptAt": "2026-10-10T02:57:22+00:00",
+    "lastSuccessAt": "2026-10-10T02:59:19+00:00",
     "error": null,
     "enabled": true
   }
