@@ -1,6 +1,6 @@
 {
   "mode": "snapshot",
-  "updatedAt": "2026-10-10T17:37:38+00:00",
+  "updatedAt": "2026-10-10T17:39:57+00:00",
   "automations": [
     {
       "id": "meta-ads",
@@ -15,7 +15,7 @@
       "intervalSeconds": 3600,
       "statusCheckIntervalSeconds": 900,
       "statusCheckBatchSize": 10,
-      "nextStatusCheckAt": "2026-10-10T17:38:33+00:00",
+      "nextStatusCheckAt": "2026-10-10T17:53:33+00:00",
       "collectionGuard": {
         "state": "ready",
         "reason": null,
@@ -125,8 +125,8 @@
   ],
   "publication": {
     "state": "synced",
-    "lastAttemptAt": "2026-10-10T17:30:30+00:00",
-    "lastSuccessAt": "2026-10-10T17:30:35+00:00",
+    "lastAttemptAt": "2026-10-10T17:37:38+00:00",
+    "lastSuccessAt": "2026-10-10T17:37:44+00:00",
     "error": null,
     "enabled": true
   }
