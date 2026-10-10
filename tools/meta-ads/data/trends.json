@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T14:46:00+00:00",
+  "updatedAt": "2026-10-10T14:48:27+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-10T00:20:37+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 50,
-    "dailyRemaining": 238,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "dailyUsed": 51,
+    "dailyRemaining": 237,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-10T14:52:33+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -2508,51 +2508,273 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "c48ea6bb7818469d78f247e4d9f8e6cdc615c0a40da17b14b20f217eec43f33c",
       "searchQuery": "눈영양제",
       "adEvidence": {
         "query": "눈영양제",
         "matchType": "collected-with-query",
-        "adCount": 35,
+        "adCount": 41,
         "adIds": [
+          "1124264806766190",
+          "2136655437224805",
+          "944942594874719",
+          "1872915470804215",
+          "1736405644791642",
+          "1775840306870726",
+          "1896234808454032",
+          "1766654747955528",
+          "4579428462376216",
+          "1104260235903652",
+          "1029545000071800",
+          "4667975246822729",
+          "1567867504529313",
+          "2624034434703530",
+          "1763179954910018",
+          "1564651272364980",
+          "1095548819675472",
+          "1806544363856766",
+          "1401652642143347",
+          "1323123122857286",
+          "1089264566834875",
+          "4415059042077810",
+          "980619214933374",
+          "1333383219010034",
           "1793073975361278",
           "2268744700573988",
           "1113784901191663",
           "1104933745274687",
           "2072377383462721",
-          "1766654747955528",
           "1137213478995379",
           "858427693964447",
           "1070750909000803",
-          "1736405644791642",
-          "1124264806766190",
           "1631225498531001",
           "1720694992368090",
           "1057487583786291",
           "28979616461633730",
-          "1872915470804215",
-          "944942594874719",
           "2514110912422259",
-          "1896234808454032",
-          "1104260235903652",
           "38653637634252170",
-          "1029545000071800",
-          "1763179954910018",
           "1759284721789824",
-          "1567867504529313",
-          "4667975246822729",
-          "2624034434703530",
-          "1806544363856766",
           "1621398062703132",
-          "1095548819675472",
-          "1887784145524721",
-          "1401652642143347",
-          "1323123122857286",
-          "1333383219010034",
-          "1089264566834875"
+          "1887784145524721"
         ],
         "ads": [
+          {
+            "id": "1124264806766190",
+            "advertiser": "할인",
+            "startedAt": "2026-10-01",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:30+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2136655437224805",
+            "advertiser": "할인",
+            "startedAt": "2026-09-14",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-10T14:46:42+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "944942594874719",
+            "advertiser": "Gooodtipsss",
+            "startedAt": "2026-09-28",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:20+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1872915470804215",
+            "advertiser": "Noble Daily",
+            "startedAt": "2026-09-28",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:21+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1736405644791642",
+            "advertiser": "할인",
+            "startedAt": "2026-10-06",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:30+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:29+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1775840306870726",
+            "advertiser": "할인",
+            "startedAt": "2026-10-06",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-10T14:46:28+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:28+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1896234808454032",
+            "advertiser": "Petomamanshop",
+            "startedAt": "2026-10-05",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:19+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:27+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1766654747955528",
+            "advertiser": "할인",
+            "startedAt": "2026-10-07",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:32+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:26+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4579428462376216",
+            "advertiser": "Petomamanshop",
+            "startedAt": "2026-10-07",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-10T14:46:25+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:25+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1104260235903652",
+            "advertiser": "할인",
+            "startedAt": "2026-09-28",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:19+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1029545000071800",
+            "advertiser": "라이펫 Lifet",
+            "startedAt": "2026-09-21",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:18+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4667975246822729",
+            "advertiser": "안국건강",
+            "startedAt": "2026-09-30",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:12+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1567867504529313",
+            "advertiser": "안국건강",
+            "startedAt": "2026-09-30",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:17+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2624034434703530",
+            "advertiser": "Petomamanshop",
+            "startedAt": "2026-09-18",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:12+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1763179954910018",
+            "advertiser": "할인",
+            "startedAt": "2026-10-01",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:17+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1564651272364980",
+            "advertiser": "할인",
+            "startedAt": "2026-10-06",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-10T14:46:16+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:16+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1095548819675472",
+            "advertiser": "안국건강",
+            "startedAt": "2026-09-09",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:11+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1806544363856766",
+            "advertiser": "할인",
+            "startedAt": "2026-10-01",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:11+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1401652642143347",
+            "advertiser": "Petomamanshop",
+            "startedAt": "2026-09-18",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:10+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1323123122857286",
+            "advertiser": "",
+            "startedAt": "2026-07-08",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:09+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1089264566834875",
+            "advertiser": "Petomamanshop",
+            "startedAt": "2026-09-10",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:07+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4415059042077810",
+            "advertiser": "Noble Daily",
+            "startedAt": "2026-09-23",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-10T14:46:10+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "980619214933374",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-10T14:46:09+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1333383219010034",
+            "advertiser": "댕냥이는사랑",
+            "startedAt": "2026-07-28",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:07+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:09+00:00",
+            "startTiming": "before-window"
+          },
           {
             "id": "1793073975361278",
             "advertiser": "Finezoe06",
@@ -2599,15 +2821,6 @@
             "startTiming": "during-window"
           },
           {
-            "id": "1766654747955528",
-            "advertiser": "할인",
-            "startedAt": "2026-10-07",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:32+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:32+00:00",
-            "startTiming": "during-window"
-          },
-          {
             "id": "1137213478995379",
             "advertiser": "할인",
             "startedAt": "2026-10-07",
@@ -2632,24 +2845,6 @@
             "query": "눈영양제",
             "firstCollectedAt": "2026-10-08T02:16:31+00:00",
             "lastCollectedAt": "2026-10-08T02:16:31+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1736405644791642",
-            "advertiser": "할인",
-            "startedAt": "2026-10-06",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:30+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:30+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1124264806766190",
-            "advertiser": "할인",
-            "startedAt": "2026-10-01",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:30+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:30+00:00",
             "startTiming": "before-window"
           },
           {
@@ -2689,24 +2884,6 @@
             "startTiming": "during-window"
           },
           {
-            "id": "1872915470804215",
-            "advertiser": "Noble Daily",
-            "startedAt": "2026-09-28",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:21+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:21+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "944942594874719",
-            "advertiser": "Gooodtipsss",
-            "startedAt": "2026-09-28",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:20+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:20+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "2514110912422259",
             "advertiser": "Gooodtipsss",
             "startedAt": "2026-10-06",
@@ -2716,48 +2893,12 @@
             "startTiming": "during-window"
           },
           {
-            "id": "1896234808454032",
-            "advertiser": "Petomamanshop",
-            "startedAt": "2026-10-05",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:19+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:19+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1104260235903652",
-            "advertiser": "할인",
-            "startedAt": "2026-09-28",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:19+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:19+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "38653637634252170",
             "advertiser": "Gooodtipsss",
             "startedAt": "2026-09-15",
             "query": "눈영양제",
             "firstCollectedAt": "2026-10-08T02:16:18+00:00",
             "lastCollectedAt": "2026-10-08T02:16:18+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1029545000071800",
-            "advertiser": "라이펫 Lifet",
-            "startedAt": "2026-09-21",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:18+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:18+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1763179954910018",
-            "advertiser": "할인",
-            "startedAt": "2026-10-01",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:17+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:17+00:00",
             "startTiming": "before-window"
           },
           {
@@ -2770,54 +2911,9 @@
             "startTiming": "before-window"
           },
           {
-            "id": "1567867504529313",
-            "advertiser": "안국건강",
-            "startedAt": "2026-09-30",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:17+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:17+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "4667975246822729",
-            "advertiser": "안국건강",
-            "startedAt": "2026-09-30",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:12+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:12+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2624034434703530",
-            "advertiser": "Petomamanshop",
-            "startedAt": "2026-09-18",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:12+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:12+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1806544363856766",
-            "advertiser": "할인",
-            "startedAt": "2026-10-01",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:11+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:11+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "1621398062703132",
             "advertiser": "Noble Daily",
             "startedAt": "2026-09-08",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:11+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:11+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1095548819675472",
-            "advertiser": "안국건강",
-            "startedAt": "2026-09-09",
             "query": "눈영양제",
             "firstCollectedAt": "2026-10-08T02:16:11+00:00",
             "lastCollectedAt": "2026-10-08T02:16:11+00:00",
@@ -2831,56 +2927,20 @@
             "firstCollectedAt": "2026-10-08T02:16:10+00:00",
             "lastCollectedAt": "2026-10-08T02:16:10+00:00",
             "startTiming": "before-window"
-          },
-          {
-            "id": "1401652642143347",
-            "advertiser": "Petomamanshop",
-            "startedAt": "2026-09-18",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:10+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:10+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1323123122857286",
-            "advertiser": "",
-            "startedAt": "2026-07-08",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:09+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:09+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1333383219010034",
-            "advertiser": "댕냥이는사랑",
-            "startedAt": "2026-07-28",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:07+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:07+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1089264566834875",
-            "advertiser": "Petomamanshop",
-            "startedAt": "2026-09-10",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:07+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:07+00:00",
-            "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-08T02:16:47+00:00",
+        "lastCollectedAt": "2026-10-10T14:46:43+00:00",
         "advertisers": [
           {
             "name": "할인",
-            "adCount": 14
-          },
-          {
-            "name": "Finezoe06",
-            "adCount": 4
+            "adCount": 17
           },
           {
             "name": "Petomamanshop",
+            "adCount": 5
+          },
+          {
+            "name": "Finezoe06",
             "adCount": 4
           },
           {
@@ -2888,12 +2948,16 @@
             "adCount": 3
           },
           {
+            "name": "Noble Daily",
+            "adCount": 3
+          },
+          {
             "name": "안국건강",
             "adCount": 3
           },
           {
-            "name": "Noble Daily",
-            "adCount": 2
+            "name": "Naverplus.store",
+            "adCount": 1
           },
           {
             "name": "눈건강",
@@ -4148,14 +4212,44 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "done",
       "keywordId": "0cade9ccd77cc1f1a61a564973aa8ccf3497584ee883070ebf706d8125f7da1c",
       "searchQuery": "콘드로이친",
       "adEvidence": {
         "query": "콘드로이친",
         "matchType": "collected-with-query",
-        "adCount": 100,
+        "adCount": 101,
         "adIds": [
+          "1416731897254826",
+          "1535615911148745",
+          "2566101447188653",
+          "1838491290531908",
+          "956167060528480",
+          "2092620588127057",
+          "1622993862692980",
+          "1718416316953495",
+          "1441612334504809",
+          "1156449590378698",
+          "2157253451537473",
+          "1578450027410935",
+          "2651239658642761",
+          "1571895157739301",
+          "954812641021028",
+          "4336240346635414",
+          "1413365180928815",
+          "1071718685825769",
+          "1067967009203795",
+          "2372616686910821",
+          "1744897966780240",
+          "1105403675215306",
+          "4500247316875635",
+          "1751790859260694",
+          "2162644577647862",
+          "2008193076551364",
+          "1056419517145306",
+          "956223487234883",
+          "1294326555971229",
+          "1013257944498435",
           "1401470482097330",
           "4278430179114377",
           "28865014873095071",
@@ -4218,7 +4312,6 @@
           "1981572819202200",
           "3429303687241011",
           "1760662001953344",
-          "1416731897254826",
           "1824590368703009",
           "1107738245098151",
           "1046073208101438",
@@ -4227,37 +4320,279 @@
           "957082336889107",
           "4759635750932106",
           "1323123122857286",
-          "1024559353664163",
-          "1622993862692980",
-          "2092620588127057",
-          "1838491290531908",
-          "1535615911148745",
-          "1441612334504809",
-          "2566101447188653",
-          "1718416316953495",
-          "1156449590378698",
-          "956167060528480",
-          "2157253451537473",
-          "1578450027410935",
-          "954812641021028",
-          "2651239658642761",
-          "1571895157739301",
-          "2372616686910821",
-          "1413365180928815",
-          "1067967009203795",
-          "1071718685825769",
-          "4500247316875635",
-          "1744897966780240",
-          "1105403675215306",
-          "2162644577647862",
-          "2008193076551364",
-          "1751790859260694",
-          "1056419517145306",
-          "1013257944498435",
-          "956223487234883",
-          "1294326555971229"
+          "1024559353664163"
         ],
         "ads": [
+          {
+            "id": "1416731897254826",
+            "advertiser": "순빛스튜디오",
+            "startedAt": "2026-10-04",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:47+00:00",
+            "lastCollectedAt": "2026-10-10T14:48:02+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1535615911148745",
+            "advertiser": "강아지건강상식",
+            "startedAt": "2025-07-17",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:35+00:00",
+            "lastCollectedAt": "2026-10-10T14:48:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2566101447188653",
+            "advertiser": "황금이네",
+            "startedAt": "2026-09-22",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:34+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1838491290531908",
+            "advertiser": "고려은단헬스케어",
+            "startedAt": "2026-09-30",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:35+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "956167060528480",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-01",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:29+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2092620588127057",
+            "advertiser": "잘먹잘싸",
+            "startedAt": "2026-09-21",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:35+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1622993862692980",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-09-18",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:36+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1718416316953495",
+            "advertiser": "황금이네",
+            "startedAt": "2026-09-22",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:34+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1441612334504809",
+            "advertiser": "황금이네",
+            "startedAt": "2026-09-22",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:35+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1156449590378698",
+            "advertiser": "고려은단헬스케어",
+            "startedAt": "2026-09-30",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:34+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2157253451537473",
+            "advertiser": "프레딧",
+            "startedAt": "2026-09-30",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:29+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1578450027410935",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:29+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2651239658642761",
+            "advertiser": "황금이네",
+            "startedAt": "2026-09-22",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:28+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1571895157739301",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:28+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "954812641021028",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-22",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:28+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4336240346635414",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-11",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-10T14:47:49+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1413365180928815",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-09-18",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:27+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1071718685825769",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:26+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1067967009203795",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-09-18",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:27+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2372616686910821",
+            "advertiser": "고려은단헬스케어",
+            "startedAt": "2026-09-30",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:27+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1744897966780240",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:22+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1105403675215306",
+            "advertiser": "동국제약 토탈헬스케어",
+            "startedAt": "2026-09-30",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:22+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4500247316875635",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:22+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1751790859260694",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:21+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2162644577647862",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-09-18",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:21+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2008193076551364",
+            "advertiser": "Nutricore",
+            "startedAt": "2026-09-22",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:21+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1056419517145306",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:21+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "956223487234883",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:20+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1294326555971229",
+            "advertiser": "닥터린",
+            "startedAt": "2026-03-16",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:20+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1013257944498435",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:21+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:39+00:00",
+            "startTiming": "before-window"
+          },
           {
             "id": "1401470482097330",
             "advertiser": "황금이네",
@@ -4817,15 +5152,6 @@
             "startTiming": "before-window"
           },
           {
-            "id": "1416731897254826",
-            "advertiser": "순빛스튜디오",
-            "startedAt": "2026-10-04",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:47+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:47+00:00",
-            "startTiming": "during-window"
-          },
-          {
             "id": "1824590368703009",
             "advertiser": "NewOrigin 뉴오리진",
             "startedAt": "2026-09-28",
@@ -4905,261 +5231,9 @@
             "firstCollectedAt": "2026-10-08T02:55:37+00:00",
             "lastCollectedAt": "2026-10-08T02:55:37+00:00",
             "startTiming": "before-window"
-          },
-          {
-            "id": "1622993862692980",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-09-18",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:36+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:36+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2092620588127057",
-            "advertiser": "잘먹잘싸",
-            "startedAt": "2026-09-21",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:35+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:35+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1838491290531908",
-            "advertiser": "고려은단헬스케어",
-            "startedAt": "2026-09-30",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:35+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:35+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1535615911148745",
-            "advertiser": "강아지건강상식",
-            "startedAt": "2025-07-17",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:35+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:35+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1441612334504809",
-            "advertiser": "황금이네",
-            "startedAt": "2026-09-22",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:35+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:35+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2566101447188653",
-            "advertiser": "황금이네",
-            "startedAt": "2026-09-22",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:34+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:34+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1718416316953495",
-            "advertiser": "황금이네",
-            "startedAt": "2026-09-22",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:34+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:34+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1156449590378698",
-            "advertiser": "고려은단헬스케어",
-            "startedAt": "2026-09-30",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:34+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:34+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "956167060528480",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-06-01",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:29+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:29+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2157253451537473",
-            "advertiser": "프레딧",
-            "startedAt": "2026-09-30",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:29+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:29+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1578450027410935",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-08-27",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:29+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:29+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "954812641021028",
-            "advertiser": "종근당",
-            "startedAt": "2026-09-22",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:28+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:28+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2651239658642761",
-            "advertiser": "황금이네",
-            "startedAt": "2026-09-22",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:28+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:28+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1571895157739301",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-08-27",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:28+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:28+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2372616686910821",
-            "advertiser": "고려은단헬스케어",
-            "startedAt": "2026-09-30",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:27+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:27+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1413365180928815",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-09-18",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:27+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:27+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1067967009203795",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-09-18",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:27+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:27+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1071718685825769",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-08-27",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:26+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:26+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "4500247316875635",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:22+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:22+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1744897966780240",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-08-27",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:22+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:22+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1105403675215306",
-            "advertiser": "동국제약 토탈헬스케어",
-            "startedAt": "2026-09-30",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:22+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:22+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2162644577647862",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-09-18",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:21+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:21+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2008193076551364",
-            "advertiser": "Nutricore",
-            "startedAt": "2026-09-22",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:21+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:21+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1751790859260694",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-08-27",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:21+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:21+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1056419517145306",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-08-27",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:21+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:21+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1013257944498435",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:21+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:21+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "956223487234883",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:20+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:20+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1294326555971229",
-            "advertiser": "닥터린",
-            "startedAt": "2026-03-16",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:20+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:20+00:00",
-            "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-08T02:57:06+00:00",
+        "lastCollectedAt": "2026-10-10T14:48:02+00:00",
         "advertisers": [
           {
             "name": "고려은단헬스케어",
@@ -5175,7 +5249,7 @@
           },
           {
             "name": "Naverplus.store",
-            "adCount": 10
+            "adCount": 11
           },
           {
             "name": "Glück",
@@ -16186,14 +16260,44 @@
       "rankWindow": 100,
       "observedAt": "2026-10-10T00:20:06+00:00",
       "lastObservedAt": "2026-10-10T00:20:06+00:00",
-      "state": "ready",
+      "state": "done",
       "keywordId": "0cade9ccd77cc1f1a61a564973aa8ccf3497584ee883070ebf706d8125f7da1c",
       "searchQuery": "콘드로이친",
       "adEvidence": {
         "query": "콘드로이친",
         "matchType": "collected-with-query",
-        "adCount": 100,
+        "adCount": 101,
         "adIds": [
+          "1416731897254826",
+          "1535615911148745",
+          "2566101447188653",
+          "1838491290531908",
+          "956167060528480",
+          "2092620588127057",
+          "1622993862692980",
+          "1718416316953495",
+          "1441612334504809",
+          "1156449590378698",
+          "2157253451537473",
+          "1578450027410935",
+          "2651239658642761",
+          "1571895157739301",
+          "954812641021028",
+          "4336240346635414",
+          "1413365180928815",
+          "1071718685825769",
+          "1067967009203795",
+          "2372616686910821",
+          "1744897966780240",
+          "1105403675215306",
+          "4500247316875635",
+          "1751790859260694",
+          "2162644577647862",
+          "2008193076551364",
+          "1056419517145306",
+          "956223487234883",
+          "1294326555971229",
+          "1013257944498435",
           "1401470482097330",
           "4278430179114377",
           "28865014873095071",
@@ -16256,7 +16360,6 @@
           "1981572819202200",
           "3429303687241011",
           "1760662001953344",
-          "1416731897254826",
           "1824590368703009",
           "1107738245098151",
           "1046073208101438",
@@ -16265,37 +16368,279 @@
           "957082336889107",
           "4759635750932106",
           "1323123122857286",
-          "1024559353664163",
-          "1622993862692980",
-          "2092620588127057",
-          "1838491290531908",
-          "1535615911148745",
-          "1441612334504809",
-          "2566101447188653",
-          "1718416316953495",
-          "1156449590378698",
-          "956167060528480",
-          "2157253451537473",
-          "1578450027410935",
-          "954812641021028",
-          "2651239658642761",
-          "1571895157739301",
-          "2372616686910821",
-          "1413365180928815",
-          "1067967009203795",
-          "1071718685825769",
-          "4500247316875635",
-          "1744897966780240",
-          "1105403675215306",
-          "2162644577647862",
-          "2008193076551364",
-          "1751790859260694",
-          "1056419517145306",
-          "1013257944498435",
-          "956223487234883",
-          "1294326555971229"
+          "1024559353664163"
         ],
         "ads": [
+          {
+            "id": "1416731897254826",
+            "advertiser": "순빛스튜디오",
+            "startedAt": "2026-10-04",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:47+00:00",
+            "lastCollectedAt": "2026-10-10T14:48:02+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1535615911148745",
+            "advertiser": "강아지건강상식",
+            "startedAt": "2025-07-17",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:35+00:00",
+            "lastCollectedAt": "2026-10-10T14:48:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2566101447188653",
+            "advertiser": "황금이네",
+            "startedAt": "2026-09-22",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:34+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1838491290531908",
+            "advertiser": "고려은단헬스케어",
+            "startedAt": "2026-09-30",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:35+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "956167060528480",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-01",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:29+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2092620588127057",
+            "advertiser": "잘먹잘싸",
+            "startedAt": "2026-09-21",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:35+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1622993862692980",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-09-18",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:36+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1718416316953495",
+            "advertiser": "황금이네",
+            "startedAt": "2026-09-22",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:34+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1441612334504809",
+            "advertiser": "황금이네",
+            "startedAt": "2026-09-22",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:35+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1156449590378698",
+            "advertiser": "고려은단헬스케어",
+            "startedAt": "2026-09-30",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:34+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2157253451537473",
+            "advertiser": "프레딧",
+            "startedAt": "2026-09-30",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:29+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1578450027410935",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:29+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2651239658642761",
+            "advertiser": "황금이네",
+            "startedAt": "2026-09-22",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:28+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1571895157739301",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:28+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "954812641021028",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-22",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:28+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4336240346635414",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-11",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-10T14:47:49+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1413365180928815",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-09-18",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:27+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1071718685825769",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:26+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1067967009203795",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-09-18",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:27+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2372616686910821",
+            "advertiser": "고려은단헬스케어",
+            "startedAt": "2026-09-30",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:27+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1744897966780240",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:22+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1105403675215306",
+            "advertiser": "동국제약 토탈헬스케어",
+            "startedAt": "2026-09-30",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:22+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4500247316875635",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:22+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1751790859260694",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:21+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2162644577647862",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-09-18",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:21+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2008193076551364",
+            "advertiser": "Nutricore",
+            "startedAt": "2026-09-22",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:21+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1056419517145306",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:21+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "956223487234883",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:20+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1294326555971229",
+            "advertiser": "닥터린",
+            "startedAt": "2026-03-16",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:20+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1013257944498435",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:21+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:39+00:00",
+            "startTiming": "before-window"
+          },
           {
             "id": "1401470482097330",
             "advertiser": "황금이네",
@@ -16855,15 +17200,6 @@
             "startTiming": "before-window"
           },
           {
-            "id": "1416731897254826",
-            "advertiser": "순빛스튜디오",
-            "startedAt": "2026-10-04",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:47+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:47+00:00",
-            "startTiming": "during-window"
-          },
-          {
             "id": "1824590368703009",
             "advertiser": "NewOrigin 뉴오리진",
             "startedAt": "2026-09-28",
@@ -16943,261 +17279,9 @@
             "firstCollectedAt": "2026-10-08T02:55:37+00:00",
             "lastCollectedAt": "2026-10-08T02:55:37+00:00",
             "startTiming": "before-window"
-          },
-          {
-            "id": "1622993862692980",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-09-18",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:36+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:36+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2092620588127057",
-            "advertiser": "잘먹잘싸",
-            "startedAt": "2026-09-21",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:35+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:35+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1838491290531908",
-            "advertiser": "고려은단헬스케어",
-            "startedAt": "2026-09-30",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:35+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:35+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1535615911148745",
-            "advertiser": "강아지건강상식",
-            "startedAt": "2025-07-17",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:35+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:35+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1441612334504809",
-            "advertiser": "황금이네",
-            "startedAt": "2026-09-22",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:35+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:35+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2566101447188653",
-            "advertiser": "황금이네",
-            "startedAt": "2026-09-22",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:34+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:34+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1718416316953495",
-            "advertiser": "황금이네",
-            "startedAt": "2026-09-22",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:34+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:34+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1156449590378698",
-            "advertiser": "고려은단헬스케어",
-            "startedAt": "2026-09-30",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:34+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:34+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "956167060528480",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-06-01",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:29+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:29+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2157253451537473",
-            "advertiser": "프레딧",
-            "startedAt": "2026-09-30",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:29+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:29+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1578450027410935",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-08-27",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:29+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:29+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "954812641021028",
-            "advertiser": "종근당",
-            "startedAt": "2026-09-22",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:28+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:28+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2651239658642761",
-            "advertiser": "황금이네",
-            "startedAt": "2026-09-22",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:28+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:28+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1571895157739301",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-08-27",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:28+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:28+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2372616686910821",
-            "advertiser": "고려은단헬스케어",
-            "startedAt": "2026-09-30",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:27+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:27+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1413365180928815",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-09-18",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:27+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:27+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1067967009203795",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-09-18",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:27+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:27+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1071718685825769",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-08-27",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:26+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:26+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "4500247316875635",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:22+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:22+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1744897966780240",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-08-27",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:22+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:22+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1105403675215306",
-            "advertiser": "동국제약 토탈헬스케어",
-            "startedAt": "2026-09-30",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:22+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:22+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2162644577647862",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-09-18",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:21+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:21+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2008193076551364",
-            "advertiser": "Nutricore",
-            "startedAt": "2026-09-22",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:21+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:21+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1751790859260694",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-08-27",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:21+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:21+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1056419517145306",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-08-27",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:21+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:21+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1013257944498435",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:21+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:21+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "956223487234883",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:20+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:20+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1294326555971229",
-            "advertiser": "닥터린",
-            "startedAt": "2026-03-16",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:20+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:20+00:00",
-            "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-08T02:57:06+00:00",
+        "lastCollectedAt": "2026-10-10T14:48:02+00:00",
         "advertisers": [
           {
             "name": "고려은단헬스케어",
@@ -17213,7 +17297,7 @@
           },
           {
             "name": "Naverplus.store",
-            "adCount": 10
+            "adCount": 11
           },
           {
             "name": "Glück",
@@ -19334,51 +19418,273 @@
       "rankWindow": 100,
       "observedAt": "2026-10-10T00:20:06+00:00",
       "lastObservedAt": "2026-10-10T00:20:06+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "c48ea6bb7818469d78f247e4d9f8e6cdc615c0a40da17b14b20f217eec43f33c",
       "searchQuery": "눈영양제",
       "adEvidence": {
         "query": "눈영양제",
         "matchType": "collected-with-query",
-        "adCount": 35,
+        "adCount": 41,
         "adIds": [
+          "1124264806766190",
+          "2136655437224805",
+          "944942594874719",
+          "1872915470804215",
+          "1736405644791642",
+          "1775840306870726",
+          "1896234808454032",
+          "1766654747955528",
+          "4579428462376216",
+          "1104260235903652",
+          "1029545000071800",
+          "4667975246822729",
+          "1567867504529313",
+          "2624034434703530",
+          "1763179954910018",
+          "1564651272364980",
+          "1095548819675472",
+          "1806544363856766",
+          "1401652642143347",
+          "1323123122857286",
+          "1089264566834875",
+          "4415059042077810",
+          "980619214933374",
+          "1333383219010034",
           "1793073975361278",
           "2268744700573988",
           "1113784901191663",
           "1104933745274687",
           "2072377383462721",
-          "1766654747955528",
           "1137213478995379",
           "858427693964447",
           "1070750909000803",
-          "1736405644791642",
-          "1124264806766190",
           "1631225498531001",
           "1720694992368090",
           "1057487583786291",
           "28979616461633730",
-          "1872915470804215",
-          "944942594874719",
           "2514110912422259",
-          "1896234808454032",
-          "1104260235903652",
           "38653637634252170",
-          "1029545000071800",
-          "1763179954910018",
           "1759284721789824",
-          "1567867504529313",
-          "4667975246822729",
-          "2624034434703530",
-          "1806544363856766",
           "1621398062703132",
-          "1095548819675472",
-          "1887784145524721",
-          "1401652642143347",
-          "1323123122857286",
-          "1333383219010034",
-          "1089264566834875"
+          "1887784145524721"
         ],
         "ads": [
+          {
+            "id": "1124264806766190",
+            "advertiser": "할인",
+            "startedAt": "2026-10-01",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:30+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2136655437224805",
+            "advertiser": "할인",
+            "startedAt": "2026-09-14",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-10T14:46:42+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "944942594874719",
+            "advertiser": "Gooodtipsss",
+            "startedAt": "2026-09-28",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:20+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1872915470804215",
+            "advertiser": "Noble Daily",
+            "startedAt": "2026-09-28",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:21+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1736405644791642",
+            "advertiser": "할인",
+            "startedAt": "2026-10-06",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:30+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:29+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1775840306870726",
+            "advertiser": "할인",
+            "startedAt": "2026-10-06",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-10T14:46:28+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:28+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1896234808454032",
+            "advertiser": "Petomamanshop",
+            "startedAt": "2026-10-05",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:19+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:27+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1766654747955528",
+            "advertiser": "할인",
+            "startedAt": "2026-10-07",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:32+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:26+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4579428462376216",
+            "advertiser": "Petomamanshop",
+            "startedAt": "2026-10-07",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-10T14:46:25+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:25+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1104260235903652",
+            "advertiser": "할인",
+            "startedAt": "2026-09-28",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:19+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1029545000071800",
+            "advertiser": "라이펫 Lifet",
+            "startedAt": "2026-09-21",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:18+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4667975246822729",
+            "advertiser": "안국건강",
+            "startedAt": "2026-09-30",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:12+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1567867504529313",
+            "advertiser": "안국건강",
+            "startedAt": "2026-09-30",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:17+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2624034434703530",
+            "advertiser": "Petomamanshop",
+            "startedAt": "2026-09-18",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:12+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1763179954910018",
+            "advertiser": "할인",
+            "startedAt": "2026-10-01",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:17+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1564651272364980",
+            "advertiser": "할인",
+            "startedAt": "2026-10-06",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-10T14:46:16+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:16+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1095548819675472",
+            "advertiser": "안국건강",
+            "startedAt": "2026-09-09",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:11+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1806544363856766",
+            "advertiser": "할인",
+            "startedAt": "2026-10-01",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:11+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1401652642143347",
+            "advertiser": "Petomamanshop",
+            "startedAt": "2026-09-18",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:10+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1323123122857286",
+            "advertiser": "",
+            "startedAt": "2026-07-08",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:09+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1089264566834875",
+            "advertiser": "Petomamanshop",
+            "startedAt": "2026-09-10",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:07+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4415059042077810",
+            "advertiser": "Noble Daily",
+            "startedAt": "2026-09-23",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-10T14:46:10+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "980619214933374",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-10T14:46:09+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1333383219010034",
+            "advertiser": "댕냥이는사랑",
+            "startedAt": "2026-07-28",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:07+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:09+00:00",
+            "startTiming": "before-window"
+          },
           {
             "id": "1793073975361278",
             "advertiser": "Finezoe06",
@@ -19425,15 +19731,6 @@
             "startTiming": "during-window"
           },
           {
-            "id": "1766654747955528",
-            "advertiser": "할인",
-            "startedAt": "2026-10-07",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:32+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:32+00:00",
-            "startTiming": "during-window"
-          },
-          {
             "id": "1137213478995379",
             "advertiser": "할인",
             "startedAt": "2026-10-07",
@@ -19458,24 +19755,6 @@
             "query": "눈영양제",
             "firstCollectedAt": "2026-10-08T02:16:31+00:00",
             "lastCollectedAt": "2026-10-08T02:16:31+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1736405644791642",
-            "advertiser": "할인",
-            "startedAt": "2026-10-06",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:30+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:30+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1124264806766190",
-            "advertiser": "할인",
-            "startedAt": "2026-10-01",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:30+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:30+00:00",
             "startTiming": "before-window"
           },
           {
@@ -19515,24 +19794,6 @@
             "startTiming": "during-window"
           },
           {
-            "id": "1872915470804215",
-            "advertiser": "Noble Daily",
-            "startedAt": "2026-09-28",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:21+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:21+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "944942594874719",
-            "advertiser": "Gooodtipsss",
-            "startedAt": "2026-09-28",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:20+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:20+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "2514110912422259",
             "advertiser": "Gooodtipsss",
             "startedAt": "2026-10-06",
@@ -19542,48 +19803,12 @@
             "startTiming": "during-window"
           },
           {
-            "id": "1896234808454032",
-            "advertiser": "Petomamanshop",
-            "startedAt": "2026-10-05",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:19+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:19+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1104260235903652",
-            "advertiser": "할인",
-            "startedAt": "2026-09-28",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:19+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:19+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "38653637634252170",
             "advertiser": "Gooodtipsss",
             "startedAt": "2026-09-15",
             "query": "눈영양제",
             "firstCollectedAt": "2026-10-08T02:16:18+00:00",
             "lastCollectedAt": "2026-10-08T02:16:18+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1029545000071800",
-            "advertiser": "라이펫 Lifet",
-            "startedAt": "2026-09-21",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:18+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:18+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1763179954910018",
-            "advertiser": "할인",
-            "startedAt": "2026-10-01",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:17+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:17+00:00",
             "startTiming": "before-window"
           },
           {
@@ -19596,54 +19821,9 @@
             "startTiming": "before-window"
           },
           {
-            "id": "1567867504529313",
-            "advertiser": "안국건강",
-            "startedAt": "2026-09-30",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:17+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:17+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "4667975246822729",
-            "advertiser": "안국건강",
-            "startedAt": "2026-09-30",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:12+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:12+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2624034434703530",
-            "advertiser": "Petomamanshop",
-            "startedAt": "2026-09-18",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:12+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:12+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1806544363856766",
-            "advertiser": "할인",
-            "startedAt": "2026-10-01",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:11+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:11+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "1621398062703132",
             "advertiser": "Noble Daily",
             "startedAt": "2026-09-08",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:11+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:11+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1095548819675472",
-            "advertiser": "안국건강",
-            "startedAt": "2026-09-09",
             "query": "눈영양제",
             "firstCollectedAt": "2026-10-08T02:16:11+00:00",
             "lastCollectedAt": "2026-10-08T02:16:11+00:00",
@@ -19657,56 +19837,20 @@
             "firstCollectedAt": "2026-10-08T02:16:10+00:00",
             "lastCollectedAt": "2026-10-08T02:16:10+00:00",
             "startTiming": "before-window"
-          },
-          {
-            "id": "1401652642143347",
-            "advertiser": "Petomamanshop",
-            "startedAt": "2026-09-18",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:10+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:10+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1323123122857286",
-            "advertiser": "",
-            "startedAt": "2026-07-08",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:09+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:09+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1333383219010034",
-            "advertiser": "댕냥이는사랑",
-            "startedAt": "2026-07-28",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:07+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:07+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1089264566834875",
-            "advertiser": "Petomamanshop",
-            "startedAt": "2026-09-10",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:07+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:07+00:00",
-            "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-08T02:16:47+00:00",
+        "lastCollectedAt": "2026-10-10T14:46:43+00:00",
         "advertisers": [
           {
             "name": "할인",
-            "adCount": 14
-          },
-          {
-            "name": "Finezoe06",
-            "adCount": 4
+            "adCount": 17
           },
           {
             "name": "Petomamanshop",
+            "adCount": 5
+          },
+          {
+            "name": "Finezoe06",
             "adCount": 4
           },
           {
@@ -19714,12 +19858,16 @@
             "adCount": 3
           },
           {
+            "name": "Noble Daily",
+            "adCount": 3
+          },
+          {
             "name": "안국건강",
             "adCount": 3
           },
           {
-            "name": "Noble Daily",
-            "adCount": 2
+            "name": "Naverplus.store",
+            "adCount": 1
           },
           {
             "name": "눈건강",
@@ -50991,45 +51139,267 @@
       "adEvidence": {
         "query": "눈영양제",
         "matchType": "collected-with-query",
-        "adCount": 35,
+        "adCount": 41,
         "adIds": [
+          "1124264806766190",
+          "2136655437224805",
+          "944942594874719",
+          "1872915470804215",
+          "1736405644791642",
+          "1775840306870726",
+          "1896234808454032",
+          "1766654747955528",
+          "4579428462376216",
+          "1104260235903652",
+          "1029545000071800",
+          "4667975246822729",
+          "1567867504529313",
+          "2624034434703530",
+          "1763179954910018",
+          "1564651272364980",
+          "1095548819675472",
+          "1806544363856766",
+          "1401652642143347",
+          "1323123122857286",
+          "1089264566834875",
+          "4415059042077810",
+          "980619214933374",
+          "1333383219010034",
           "1793073975361278",
           "2268744700573988",
           "1113784901191663",
           "1104933745274687",
           "2072377383462721",
-          "1766654747955528",
           "1137213478995379",
           "858427693964447",
           "1070750909000803",
-          "1736405644791642",
-          "1124264806766190",
           "1631225498531001",
           "1720694992368090",
           "1057487583786291",
           "28979616461633730",
-          "1872915470804215",
-          "944942594874719",
           "2514110912422259",
-          "1896234808454032",
-          "1104260235903652",
           "38653637634252170",
-          "1029545000071800",
-          "1763179954910018",
           "1759284721789824",
-          "1567867504529313",
-          "4667975246822729",
-          "2624034434703530",
-          "1806544363856766",
           "1621398062703132",
-          "1095548819675472",
-          "1887784145524721",
-          "1401652642143347",
-          "1323123122857286",
-          "1333383219010034",
-          "1089264566834875"
+          "1887784145524721"
         ],
         "ads": [
+          {
+            "id": "1124264806766190",
+            "advertiser": "할인",
+            "startedAt": "2026-10-01",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:30+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2136655437224805",
+            "advertiser": "할인",
+            "startedAt": "2026-09-14",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-10T14:46:42+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "944942594874719",
+            "advertiser": "Gooodtipsss",
+            "startedAt": "2026-09-28",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:20+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1872915470804215",
+            "advertiser": "Noble Daily",
+            "startedAt": "2026-09-28",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:21+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1736405644791642",
+            "advertiser": "할인",
+            "startedAt": "2026-10-06",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:30+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:29+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1775840306870726",
+            "advertiser": "할인",
+            "startedAt": "2026-10-06",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-10T14:46:28+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:28+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1896234808454032",
+            "advertiser": "Petomamanshop",
+            "startedAt": "2026-10-05",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:19+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:27+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1766654747955528",
+            "advertiser": "할인",
+            "startedAt": "2026-10-07",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:32+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:26+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "4579428462376216",
+            "advertiser": "Petomamanshop",
+            "startedAt": "2026-10-07",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-10T14:46:25+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:25+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1104260235903652",
+            "advertiser": "할인",
+            "startedAt": "2026-09-28",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:19+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1029545000071800",
+            "advertiser": "라이펫 Lifet",
+            "startedAt": "2026-09-21",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:18+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4667975246822729",
+            "advertiser": "안국건강",
+            "startedAt": "2026-09-30",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:12+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:23+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1567867504529313",
+            "advertiser": "안국건강",
+            "startedAt": "2026-09-30",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:17+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:23+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2624034434703530",
+            "advertiser": "Petomamanshop",
+            "startedAt": "2026-09-18",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:12+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1763179954910018",
+            "advertiser": "할인",
+            "startedAt": "2026-10-01",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:17+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:17+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1564651272364980",
+            "advertiser": "할인",
+            "startedAt": "2026-10-06",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-10T14:46:16+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:16+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1095548819675472",
+            "advertiser": "안국건강",
+            "startedAt": "2026-09-09",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:11+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1806544363856766",
+            "advertiser": "할인",
+            "startedAt": "2026-10-01",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:11+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:15+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1401652642143347",
+            "advertiser": "Petomamanshop",
+            "startedAt": "2026-09-18",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:10+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1323123122857286",
+            "advertiser": "",
+            "startedAt": "2026-07-08",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:09+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1089264566834875",
+            "advertiser": "Petomamanshop",
+            "startedAt": "2026-09-10",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:07+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4415059042077810",
+            "advertiser": "Noble Daily",
+            "startedAt": "2026-09-23",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-10T14:46:10+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "980619214933374",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-10T14:46:09+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1333383219010034",
+            "advertiser": "댕냥이는사랑",
+            "startedAt": "2026-07-28",
+            "query": "눈영양제",
+            "firstCollectedAt": "2026-10-08T02:16:07+00:00",
+            "lastCollectedAt": "2026-10-10T14:46:09+00:00",
+            "startTiming": "before-window"
+          },
           {
             "id": "1793073975361278",
             "advertiser": "Finezoe06",
@@ -51076,15 +51446,6 @@
             "startTiming": "during-window"
           },
           {
-            "id": "1766654747955528",
-            "advertiser": "할인",
-            "startedAt": "2026-10-07",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:32+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:32+00:00",
-            "startTiming": "after-window"
-          },
-          {
             "id": "1137213478995379",
             "advertiser": "할인",
             "startedAt": "2026-10-07",
@@ -51110,24 +51471,6 @@
             "firstCollectedAt": "2026-10-08T02:16:31+00:00",
             "lastCollectedAt": "2026-10-08T02:16:31+00:00",
             "startTiming": "before-window"
-          },
-          {
-            "id": "1736405644791642",
-            "advertiser": "할인",
-            "startedAt": "2026-10-06",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:30+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:30+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1124264806766190",
-            "advertiser": "할인",
-            "startedAt": "2026-10-01",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:30+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:30+00:00",
-            "startTiming": "during-window"
           },
           {
             "id": "1631225498531001",
@@ -51166,24 +51509,6 @@
             "startTiming": "during-window"
           },
           {
-            "id": "1872915470804215",
-            "advertiser": "Noble Daily",
-            "startedAt": "2026-09-28",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:21+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:21+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "944942594874719",
-            "advertiser": "Gooodtipsss",
-            "startedAt": "2026-09-28",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:20+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:20+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "2514110912422259",
             "advertiser": "Gooodtipsss",
             "startedAt": "2026-10-06",
@@ -51191,24 +51516,6 @@
             "firstCollectedAt": "2026-10-08T02:16:20+00:00",
             "lastCollectedAt": "2026-10-08T02:16:20+00:00",
             "startTiming": "during-window"
-          },
-          {
-            "id": "1896234808454032",
-            "advertiser": "Petomamanshop",
-            "startedAt": "2026-10-05",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:19+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:19+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1104260235903652",
-            "advertiser": "할인",
-            "startedAt": "2026-09-28",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:19+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:19+00:00",
-            "startTiming": "before-window"
           },
           {
             "id": "38653637634252170",
@@ -51220,24 +51527,6 @@
             "startTiming": "before-window"
           },
           {
-            "id": "1029545000071800",
-            "advertiser": "라이펫 Lifet",
-            "startedAt": "2026-09-21",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:18+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:18+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1763179954910018",
-            "advertiser": "할인",
-            "startedAt": "2026-10-01",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:17+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:17+00:00",
-            "startTiming": "during-window"
-          },
-          {
             "id": "1759284721789824",
             "advertiser": "할인",
             "startedAt": "2026-09-14",
@@ -51247,54 +51536,9 @@
             "startTiming": "before-window"
           },
           {
-            "id": "1567867504529313",
-            "advertiser": "안국건강",
-            "startedAt": "2026-09-30",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:17+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:17+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "4667975246822729",
-            "advertiser": "안국건강",
-            "startedAt": "2026-09-30",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:12+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:12+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "2624034434703530",
-            "advertiser": "Petomamanshop",
-            "startedAt": "2026-09-18",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:12+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:12+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1806544363856766",
-            "advertiser": "할인",
-            "startedAt": "2026-10-01",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:11+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:11+00:00",
-            "startTiming": "during-window"
-          },
-          {
             "id": "1621398062703132",
             "advertiser": "Noble Daily",
             "startedAt": "2026-09-08",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:11+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:11+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1095548819675472",
-            "advertiser": "안국건강",
-            "startedAt": "2026-09-09",
             "query": "눈영양제",
             "firstCollectedAt": "2026-10-08T02:16:11+00:00",
             "lastCollectedAt": "2026-10-08T02:16:11+00:00",
@@ -51308,56 +51552,20 @@
             "firstCollectedAt": "2026-10-08T02:16:10+00:00",
             "lastCollectedAt": "2026-10-08T02:16:10+00:00",
             "startTiming": "before-window"
-          },
-          {
-            "id": "1401652642143347",
-            "advertiser": "Petomamanshop",
-            "startedAt": "2026-09-18",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:10+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:10+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1323123122857286",
-            "advertiser": "",
-            "startedAt": "2026-07-08",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:09+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:09+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1333383219010034",
-            "advertiser": "댕냥이는사랑",
-            "startedAt": "2026-07-28",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:07+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:07+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1089264566834875",
-            "advertiser": "Petomamanshop",
-            "startedAt": "2026-09-10",
-            "query": "눈영양제",
-            "firstCollectedAt": "2026-10-08T02:16:07+00:00",
-            "lastCollectedAt": "2026-10-08T02:16:07+00:00",
-            "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-08T02:16:47+00:00",
+        "lastCollectedAt": "2026-10-10T14:46:43+00:00",
         "advertisers": [
           {
             "name": "할인",
-            "adCount": 14
-          },
-          {
-            "name": "Finezoe06",
-            "adCount": 4
+            "adCount": 17
           },
           {
             "name": "Petomamanshop",
+            "adCount": 5
+          },
+          {
+            "name": "Finezoe06",
             "adCount": 4
           },
           {
@@ -51365,12 +51573,16 @@
             "adCount": 3
           },
           {
+            "name": "Noble Daily",
+            "adCount": 3
+          },
+          {
             "name": "안국건강",
             "adCount": 3
           },
           {
-            "name": "Noble Daily",
-            "adCount": 2
+            "name": "Naverplus.store",
+            "adCount": 1
           },
           {
             "name": "눈건강",
@@ -52974,8 +53186,38 @@
       "adEvidence": {
         "query": "콘드로이친",
         "matchType": "collected-with-query",
-        "adCount": 100,
+        "adCount": 101,
         "adIds": [
+          "1416731897254826",
+          "1535615911148745",
+          "2566101447188653",
+          "1838491290531908",
+          "956167060528480",
+          "2092620588127057",
+          "1622993862692980",
+          "1718416316953495",
+          "1441612334504809",
+          "1156449590378698",
+          "2157253451537473",
+          "1578450027410935",
+          "2651239658642761",
+          "1571895157739301",
+          "954812641021028",
+          "4336240346635414",
+          "1413365180928815",
+          "1071718685825769",
+          "1067967009203795",
+          "2372616686910821",
+          "1744897966780240",
+          "1105403675215306",
+          "4500247316875635",
+          "1751790859260694",
+          "2162644577647862",
+          "2008193076551364",
+          "1056419517145306",
+          "956223487234883",
+          "1294326555971229",
+          "1013257944498435",
           "1401470482097330",
           "4278430179114377",
           "28865014873095071",
@@ -53038,7 +53280,6 @@
           "1981572819202200",
           "3429303687241011",
           "1760662001953344",
-          "1416731897254826",
           "1824590368703009",
           "1107738245098151",
           "1046073208101438",
@@ -53047,37 +53288,279 @@
           "957082336889107",
           "4759635750932106",
           "1323123122857286",
-          "1024559353664163",
-          "1622993862692980",
-          "2092620588127057",
-          "1838491290531908",
-          "1535615911148745",
-          "1441612334504809",
-          "2566101447188653",
-          "1718416316953495",
-          "1156449590378698",
-          "956167060528480",
-          "2157253451537473",
-          "1578450027410935",
-          "954812641021028",
-          "2651239658642761",
-          "1571895157739301",
-          "2372616686910821",
-          "1413365180928815",
-          "1067967009203795",
-          "1071718685825769",
-          "4500247316875635",
-          "1744897966780240",
-          "1105403675215306",
-          "2162644577647862",
-          "2008193076551364",
-          "1751790859260694",
-          "1056419517145306",
-          "1013257944498435",
-          "956223487234883",
-          "1294326555971229"
+          "1024559353664163"
         ],
         "ads": [
+          {
+            "id": "1416731897254826",
+            "advertiser": "순빛스튜디오",
+            "startedAt": "2026-10-04",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:47+00:00",
+            "lastCollectedAt": "2026-10-10T14:48:02+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1535615911148745",
+            "advertiser": "강아지건강상식",
+            "startedAt": "2025-07-17",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:35+00:00",
+            "lastCollectedAt": "2026-10-10T14:48:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2566101447188653",
+            "advertiser": "황금이네",
+            "startedAt": "2026-09-22",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:34+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1838491290531908",
+            "advertiser": "고려은단헬스케어",
+            "startedAt": "2026-09-30",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:35+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:59+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "956167060528480",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-01",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:29+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2092620588127057",
+            "advertiser": "잘먹잘싸",
+            "startedAt": "2026-09-21",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:35+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1622993862692980",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-09-18",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:36+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1718416316953495",
+            "advertiser": "황금이네",
+            "startedAt": "2026-09-22",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:34+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1441612334504809",
+            "advertiser": "황금이네",
+            "startedAt": "2026-09-22",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:35+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1156449590378698",
+            "advertiser": "고려은단헬스케어",
+            "startedAt": "2026-09-30",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:34+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:57+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2157253451537473",
+            "advertiser": "프레딧",
+            "startedAt": "2026-09-30",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:29+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:51+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1578450027410935",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:29+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2651239658642761",
+            "advertiser": "황금이네",
+            "startedAt": "2026-09-22",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:28+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1571895157739301",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:28+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "954812641021028",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-22",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:28+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4336240346635414",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-11",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-10T14:47:49+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1413365180928815",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-09-18",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:27+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1071718685825769",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:26+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1067967009203795",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-09-18",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:27+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2372616686910821",
+            "advertiser": "고려은단헬스케어",
+            "startedAt": "2026-09-30",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:27+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:47+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1744897966780240",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:22+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1105403675215306",
+            "advertiser": "동국제약 토탈헬스케어",
+            "startedAt": "2026-09-30",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:22+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:42+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4500247316875635",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:22+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1751790859260694",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:21+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2162644577647862",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-09-18",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:21+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2008193076551364",
+            "advertiser": "Nutricore",
+            "startedAt": "2026-09-22",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:21+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1056419517145306",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:21+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "956223487234883",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:20+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1294326555971229",
+            "advertiser": "닥터린",
+            "startedAt": "2026-03-16",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:20+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1013257944498435",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "콘드로이친",
+            "firstCollectedAt": "2026-10-08T02:55:21+00:00",
+            "lastCollectedAt": "2026-10-10T14:47:39+00:00",
+            "startTiming": "before-window"
+          },
           {
             "id": "1401470482097330",
             "advertiser": "황금이네",
@@ -53637,15 +54120,6 @@
             "startTiming": "before-window"
           },
           {
-            "id": "1416731897254826",
-            "advertiser": "순빛스튜디오",
-            "startedAt": "2026-10-04",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:47+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:47+00:00",
-            "startTiming": "during-window"
-          },
-          {
             "id": "1824590368703009",
             "advertiser": "NewOrigin 뉴오리진",
             "startedAt": "2026-09-28",
@@ -53725,261 +54199,9 @@
             "firstCollectedAt": "2026-10-08T02:55:37+00:00",
             "lastCollectedAt": "2026-10-08T02:55:37+00:00",
             "startTiming": "before-window"
-          },
-          {
-            "id": "1622993862692980",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-09-18",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:36+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:36+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2092620588127057",
-            "advertiser": "잘먹잘싸",
-            "startedAt": "2026-09-21",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:35+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:35+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1838491290531908",
-            "advertiser": "고려은단헬스케어",
-            "startedAt": "2026-09-30",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:35+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:35+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1535615911148745",
-            "advertiser": "강아지건강상식",
-            "startedAt": "2025-07-17",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:35+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:35+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1441612334504809",
-            "advertiser": "황금이네",
-            "startedAt": "2026-09-22",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:35+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:35+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2566101447188653",
-            "advertiser": "황금이네",
-            "startedAt": "2026-09-22",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:34+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:34+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1718416316953495",
-            "advertiser": "황금이네",
-            "startedAt": "2026-09-22",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:34+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:34+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1156449590378698",
-            "advertiser": "고려은단헬스케어",
-            "startedAt": "2026-09-30",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:34+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:34+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "956167060528480",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-06-01",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:29+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:29+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2157253451537473",
-            "advertiser": "프레딧",
-            "startedAt": "2026-09-30",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:29+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:29+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1578450027410935",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-08-27",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:29+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:29+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "954812641021028",
-            "advertiser": "종근당",
-            "startedAt": "2026-09-22",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:28+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:28+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2651239658642761",
-            "advertiser": "황금이네",
-            "startedAt": "2026-09-22",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:28+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:28+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1571895157739301",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-08-27",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:28+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:28+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2372616686910821",
-            "advertiser": "고려은단헬스케어",
-            "startedAt": "2026-09-30",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:27+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:27+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1413365180928815",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-09-18",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:27+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:27+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1067967009203795",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-09-18",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:27+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:27+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1071718685825769",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-08-27",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:26+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:26+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "4500247316875635",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:22+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:22+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1744897966780240",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-08-27",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:22+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:22+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1105403675215306",
-            "advertiser": "동국제약 토탈헬스케어",
-            "startedAt": "2026-09-30",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:22+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:22+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "2162644577647862",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-09-18",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:21+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:21+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2008193076551364",
-            "advertiser": "Nutricore",
-            "startedAt": "2026-09-22",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:21+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:21+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1751790859260694",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-08-27",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:21+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:21+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1056419517145306",
-            "advertiser": "주영엔에스",
-            "startedAt": "2026-08-27",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:21+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:21+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1013257944498435",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:21+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:21+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "956223487234883",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:20+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:20+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1294326555971229",
-            "advertiser": "닥터린",
-            "startedAt": "2026-03-16",
-            "query": "콘드로이친",
-            "firstCollectedAt": "2026-10-08T02:55:20+00:00",
-            "lastCollectedAt": "2026-10-08T02:55:20+00:00",
-            "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-08T02:57:06+00:00",
+        "lastCollectedAt": "2026-10-10T14:48:02+00:00",
         "advertisers": [
           {
             "name": "고려은단헬스케어",
@@ -53995,7 +54217,7 @@
           },
           {
             "name": "Naverplus.store",
-            "adCount": 10
+            "adCount": 11
           },
           {
             "name": "Glück",
