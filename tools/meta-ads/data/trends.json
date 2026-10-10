@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T02:22:13+00:00",
+  "updatedAt": "2026-10-10T02:35:23+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-10T00:20:37+00:00",
@@ -41,22 +41,22 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 27,
-    "dailyRemaining": 261,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-10T02:35:20+00:00",
+    "dailyUsed": 28,
+    "dailyRemaining": 260,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
-    "enabled": false,
+    "enabled": true,
     "collectionGuard": {
-      "state": "blocked",
-      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
-      "nextAllowedAt": "2026-10-10T02:35:20+00:00",
-      "blockedUntil": "2026-10-10T02:35:20+00:00",
+      "state": "ready",
+      "reason": null,
+      "nextAllowedAt": null,
+      "blockedUntil": null,
       "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
+    "pausedReason": null
   },
   "settings": {
     "category": "50000023",
@@ -148,7 +148,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "queued",
       "keywordId": "b4107a41c85ca8a726a842c7a9945a84b1d9506a11f5f1d3d624051726ebe7c1",
       "searchQuery": "리포좀비타민c",
       "adEvidence": {
@@ -13142,7 +13142,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-10T00:20:06+00:00",
       "lastObservedAt": "2026-10-10T00:20:06+00:00",
-      "state": "ready",
+      "state": "queued",
       "keywordId": "b4107a41c85ca8a726a842c7a9945a84b1d9506a11f5f1d3d624051726ebe7c1",
       "searchQuery": "리포좀비타민c",
       "adEvidence": {
