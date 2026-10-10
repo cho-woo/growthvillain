@@ -1,25 +1,25 @@
 {
   "mode": "snapshot",
-  "updatedAt": "2026-10-10T20:25:00+00:00",
+  "updatedAt": "2026-10-10T20:26:22+00:00",
   "automations": [
     {
       "id": "meta-ads",
       "name": "메타 광고",
       "enabled": true,
-      "running": true,
-      "state": "running",
+      "running": false,
+      "state": "waiting",
       "nextRunAt": "2026-10-10T21:14:37+00:00",
       "lastSuccessAt": "2026-10-10T20:18:49+00:00",
       "lastAttemptAt": "2026-10-10T20:16:43+00:00",
-      "message": "종료 여부 확인 중",
+      "message": "Meta 조회 오류 · 5분 대기 후 다음 작업 확인",
       "intervalSeconds": 3600,
       "statusCheckIntervalSeconds": 900,
       "statusCheckBatchSize": 10,
       "nextStatusCheckAt": "2026-10-10T20:38:39+00:00",
       "collectionGuard": {
-        "state": "ready",
-        "reason": null,
-        "nextAllowedAt": null,
+        "state": "failure",
+        "reason": "Meta 조회 오류 · 5분 대기 후 다음 작업 확인",
+        "nextAllowedAt": "2026-10-10T20:30:02+00:00",
         "blockedUntil": null,
         "blockStreak": 0,
         "storageReady": true,
@@ -125,8 +125,8 @@
   ],
   "publication": {
     "state": "synced",
-    "lastAttemptAt": "2026-10-10T20:23:14+00:00",
-    "lastSuccessAt": "2026-10-10T20:23:18+00:00",
+    "lastAttemptAt": "2026-10-10T20:25:00+00:00",
+    "lastSuccessAt": "2026-10-10T20:25:04+00:00",
     "error": null,
     "enabled": true
   }
