@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T13:25:55+00:00",
+  "updatedAt": "2026-10-10T13:27:00+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-10T00:20:37+00:00",
@@ -43,8 +43,8 @@
     "backlogDays": 14,
     "dailyUsed": 46,
     "dailyRemaining": 242,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-10T13:30:54+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -7038,79 +7038,175 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "95b07679ff469e159048159bdecd1808ddf7cc2c5fa7a45e56a4aafc2041662e",
       "searchQuery": "삼백초",
       "adEvidence": {
         "query": "삼백초",
         "matchType": "collected-with-query",
-        "adCount": 20,
+        "adCount": 35,
         "adIds": [
+          "1639744197522514",
+          "1458355716175991",
+          "3761840077291076",
+          "994985353611171",
+          "1420746363245718",
+          "1041306355391539",
+          "976028491493230",
+          "2255626091901176",
+          "1418303740259373",
+          "1097669586084701",
+          "2136633077245419",
+          "2121110975401403",
+          "1142039228253983",
+          "2616182375462647",
+          "2059377648054267",
           "2421322751729702",
+          "1116940894192583",
+          "2515378562274783",
+          "1848994776538409",
           "869337822836136",
           "1852745819224819",
-          "1848994776538409",
-          "2515378562274783",
-          "2059377648054267",
-          "1342902531063441",
-          "1116940894192583",
-          "3134691266862153",
-          "2017219192316231",
-          "1296790732489100",
-          "28065311763140822",
           "1078853048377602",
-          "3474598516034569",
-          "2526792637820227",
+          "3134691266862153",
+          "28065311763140822",
+          "1612124547046823",
+          "1296790732489100",
           "2228267734736946",
+          "2526792637820227",
           "1689080752336003",
-          "1107925708675354",
           "2591434501297249",
-          "2332052677565849"
+          "2332052677565849",
+          "1107925708675354",
+          "1342902531063441",
+          "2017219192316231",
+          "3474598516034569"
         ],
         "ads": [
           {
-            "id": "2421322751729702",
-            "advertiser": "요즘엄마의 육아팁",
-            "startedAt": "2026-09-27",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:09:02+00:00",
-            "lastCollectedAt": "2026-10-07T05:09:02+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "869337822836136",
-            "advertiser": "Dmall-동아제약 디몰",
-            "startedAt": "2026-10-01",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:09:01+00:00",
-            "lastCollectedAt": "2026-10-07T05:09:01+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1852745819224819",
+            "id": "1639744197522514",
             "advertiser": "순초롬 Shopend",
             "startedAt": "2026-10-02",
             "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:09:01+00:00",
-            "lastCollectedAt": "2026-10-07T05:09:01+00:00",
+            "firstCollectedAt": "2026-10-10T13:26:38+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:38+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1848994776538409",
-            "advertiser": "요즘엄마의 육아팁",
+            "id": "1458355716175991",
+            "advertiser": "더 한방울",
+            "startedAt": "2026-10-09",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:38+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:38+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "3761840077291076",
+            "advertiser": "યગન",
+            "startedAt": "2026-08-19",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:26+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "994985353611171",
+            "advertiser": "순초롬 Shopend",
             "startedAt": "2026-10-02",
             "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:09:01+00:00",
-            "lastCollectedAt": "2026-10-07T05:09:01+00:00",
+            "firstCollectedAt": "2026-10-10T13:26:24+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:24+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "2515378562274783",
-            "advertiser": "요즘엄마의 육아팁",
-            "startedAt": "2026-09-27",
+            "id": "1420746363245718",
+            "advertiser": "ગપ⩟",
+            "startedAt": "2026-08-11",
             "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:09:00+00:00",
-            "lastCollectedAt": "2026-10-07T05:09:00+00:00",
+            "firstCollectedAt": "2026-10-10T13:26:24+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1041306355391539",
+            "advertiser": "ヱસુન",
+            "startedAt": "2026-08-11",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:24+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "976028491493230",
+            "advertiser": "디어랩스",
+            "startedAt": "2026-10-07",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:23+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:23+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2255626091901176",
+            "advertiser": "ヱસુન",
+            "startedAt": "2026-08-11",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:23+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1418303740259373",
+            "advertiser": "ㅈ6수ㅁй직",
+            "startedAt": "2026-09-25",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:23+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1097669586084701",
+            "advertiser": "헬스인사이트",
+            "startedAt": "2026-09-30",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:22+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2136633077245419",
+            "advertiser": "요즘엄마의 육아팁",
+            "startedAt": "2026-10-05",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:21+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:21+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2121110975401403",
+            "advertiser": "ꔌપય",
+            "startedAt": "2026-08-11",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:21+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1142039228253983",
+            "advertiser": "몸살림연구소",
+            "startedAt": "2026-10-04",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:14+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:14+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2616182375462647",
+            "advertiser": "For is",
+            "startedAt": "2026-09-30",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:13+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:13+00:00",
             "startTiming": "before-window"
           },
           {
@@ -7119,7 +7215,160 @@
             "startedAt": "2026-08-20",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:09:00+00:00",
-            "lastCollectedAt": "2026-10-07T05:09:00+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2421322751729702",
+            "advertiser": "요즘엄마의 육아팁",
+            "startedAt": "2026-09-27",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:09:02+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1116940894192583",
+            "advertiser": "요즘엄마의 육아팁",
+            "startedAt": "2026-10-02",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:09:00+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2515378562274783",
+            "advertiser": "요즘엄마의 육아팁",
+            "startedAt": "2026-09-27",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:09:00+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1848994776538409",
+            "advertiser": "요즘엄마의 육아팁",
+            "startedAt": "2026-10-02",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:09:01+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "869337822836136",
+            "advertiser": "Dmall-동아제약 디몰",
+            "startedAt": "2026-10-01",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:09:01+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1852745819224819",
+            "advertiser": "순초롬 Shopend",
+            "startedAt": "2026-10-02",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:09:01+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1078853048377602",
+            "advertiser": "요즘엄마의 육아팁",
+            "startedAt": "2026-09-27",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:08:53+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3134691266862153",
+            "advertiser": "Dmall-동아제약 디몰",
+            "startedAt": "2026-10-01",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:08:59+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28065311763140822",
+            "advertiser": "Sejuhee Home ღ",
+            "startedAt": "2026-09-22",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:08:53+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1612124547046823",
+            "advertiser": "관己lぁĦOF건강하ズl",
+            "startedAt": "2026-10-04",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:04+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:04+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1296790732489100",
+            "advertiser": "순초롬 Shopend",
+            "startedAt": "2026-10-02",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:08:54+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2228267734736946",
+            "advertiser": "디어랩스",
+            "startedAt": "2026-09-29",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:08:52+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2526792637820227",
+            "advertiser": "헬스인사이트",
+            "startedAt": "2026-09-18",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:08:52+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1689080752336003",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-06",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:08:51+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2591434501297249",
+            "advertiser": "깎아주는 깍이모",
+            "startedAt": "2026-07-23",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:08:50+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2332052677565849",
+            "advertiser": "For is",
+            "startedAt": "2026-09-10",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:08:50+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1107925708675354",
+            "advertiser": "순초롬 Shopend",
+            "startedAt": "2026-10-02",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:08:51+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:00+00:00",
             "startTiming": "before-window"
           },
           {
@@ -7132,57 +7381,12 @@
             "startTiming": "before-window"
           },
           {
-            "id": "1116940894192583",
-            "advertiser": "요즘엄마의 육아팁",
-            "startedAt": "2026-10-02",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:09:00+00:00",
-            "lastCollectedAt": "2026-10-07T05:09:00+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "3134691266862153",
-            "advertiser": "Dmall-동아제약 디몰",
-            "startedAt": "2026-10-01",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:08:59+00:00",
-            "lastCollectedAt": "2026-10-07T05:08:59+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "2017219192316231",
             "advertiser": "For is",
             "startedAt": "2026-09-30",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:08:59+00:00",
             "lastCollectedAt": "2026-10-07T05:08:59+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1296790732489100",
-            "advertiser": "순초롬 Shopend",
-            "startedAt": "2026-10-02",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:08:54+00:00",
-            "lastCollectedAt": "2026-10-07T05:08:54+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "28065311763140822",
-            "advertiser": "Sejuhee Home ღ",
-            "startedAt": "2026-09-22",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:08:53+00:00",
-            "lastCollectedAt": "2026-10-07T05:08:53+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1078853048377602",
-            "advertiser": "요즘엄마의 육아팁",
-            "startedAt": "2026-09-27",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:08:53+00:00",
-            "lastCollectedAt": "2026-10-07T05:08:53+00:00",
             "startTiming": "before-window"
           },
           {
@@ -7193,70 +7397,24 @@
             "firstCollectedAt": "2026-10-07T05:08:52+00:00",
             "lastCollectedAt": "2026-10-07T05:08:52+00:00",
             "startTiming": "before-window"
-          },
-          {
-            "id": "2526792637820227",
-            "advertiser": "헬스인사이트",
-            "startedAt": "2026-09-18",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:08:52+00:00",
-            "lastCollectedAt": "2026-10-07T05:08:52+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2228267734736946",
-            "advertiser": "디어랩스",
-            "startedAt": "2026-09-29",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:08:52+00:00",
-            "lastCollectedAt": "2026-10-07T05:08:52+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1689080752336003",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-06-06",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:08:51+00:00",
-            "lastCollectedAt": "2026-10-07T05:08:51+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1107925708675354",
-            "advertiser": "순초롬 Shopend",
-            "startedAt": "2026-10-02",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:08:51+00:00",
-            "lastCollectedAt": "2026-10-07T05:08:51+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2591434501297249",
-            "advertiser": "깎아주는 깍이모",
-            "startedAt": "2026-07-23",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:08:50+00:00",
-            "lastCollectedAt": "2026-10-07T05:08:50+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2332052677565849",
-            "advertiser": "For is",
-            "startedAt": "2026-09-10",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:08:50+00:00",
-            "lastCollectedAt": "2026-10-07T05:08:50+00:00",
-            "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-07T05:09:02+00:00",
+        "lastCollectedAt": "2026-10-10T13:26:38+00:00",
         "advertisers": [
           {
             "name": "요즘엄마의 육아팁",
-            "adCount": 5
+            "adCount": 6
           },
           {
             "name": "순초롬 Shopend",
+            "adCount": 5
+          },
+          {
+            "name": "For is",
+            "adCount": 3
+          },
+          {
+            "name": "디어랩스",
             "adCount": 3
           },
           {
@@ -7264,15 +7422,15 @@
             "adCount": 2
           },
           {
-            "name": "For is",
-            "adCount": 2
-          },
-          {
             "name": "Naverplus.store",
             "adCount": 2
           },
           {
-            "name": "디어랩스",
+            "name": "ヱસુન",
+            "adCount": 2
+          },
+          {
+            "name": "헬스인사이트",
             "adCount": 2
           },
           {
@@ -7280,7 +7438,27 @@
             "adCount": 1
           },
           {
+            "name": "ગપ⩟",
+            "adCount": 1
+          },
+          {
             "name": "નાદા⋸",
+            "adCount": 1
+          },
+          {
+            "name": "યગન",
+            "adCount": 1
+          },
+          {
+            "name": "ㅈ6수ㅁй직",
+            "adCount": 1
+          },
+          {
+            "name": "ꔌપય",
+            "adCount": 1
+          },
+          {
+            "name": "관己lぁĦOF건강하ズl",
             "adCount": 1
           },
           {
@@ -7288,7 +7466,11 @@
             "adCount": 1
           },
           {
-            "name": "헬스인사이트",
+            "name": "더 한방울",
+            "adCount": 1
+          },
+          {
+            "name": "몸살림연구소",
             "adCount": 1
           }
         ],
@@ -19786,79 +19968,175 @@
       "rankWindow": 100,
       "observedAt": "2026-10-10T00:20:06+00:00",
       "lastObservedAt": "2026-10-10T00:20:06+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "95b07679ff469e159048159bdecd1808ddf7cc2c5fa7a45e56a4aafc2041662e",
       "searchQuery": "삼백초",
       "adEvidence": {
         "query": "삼백초",
         "matchType": "collected-with-query",
-        "adCount": 20,
+        "adCount": 35,
         "adIds": [
+          "1639744197522514",
+          "1458355716175991",
+          "3761840077291076",
+          "994985353611171",
+          "1420746363245718",
+          "1041306355391539",
+          "976028491493230",
+          "2255626091901176",
+          "1418303740259373",
+          "1097669586084701",
+          "2136633077245419",
+          "2121110975401403",
+          "1142039228253983",
+          "2616182375462647",
+          "2059377648054267",
           "2421322751729702",
+          "1116940894192583",
+          "2515378562274783",
+          "1848994776538409",
           "869337822836136",
           "1852745819224819",
-          "1848994776538409",
-          "2515378562274783",
-          "2059377648054267",
-          "1342902531063441",
-          "1116940894192583",
-          "3134691266862153",
-          "2017219192316231",
-          "1296790732489100",
-          "28065311763140822",
           "1078853048377602",
-          "3474598516034569",
-          "2526792637820227",
+          "3134691266862153",
+          "28065311763140822",
+          "1612124547046823",
+          "1296790732489100",
           "2228267734736946",
+          "2526792637820227",
           "1689080752336003",
-          "1107925708675354",
           "2591434501297249",
-          "2332052677565849"
+          "2332052677565849",
+          "1107925708675354",
+          "1342902531063441",
+          "2017219192316231",
+          "3474598516034569"
         ],
         "ads": [
           {
-            "id": "2421322751729702",
-            "advertiser": "요즘엄마의 육아팁",
-            "startedAt": "2026-09-27",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:09:02+00:00",
-            "lastCollectedAt": "2026-10-07T05:09:02+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "869337822836136",
-            "advertiser": "Dmall-동아제약 디몰",
-            "startedAt": "2026-10-01",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:09:01+00:00",
-            "lastCollectedAt": "2026-10-07T05:09:01+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1852745819224819",
+            "id": "1639744197522514",
             "advertiser": "순초롬 Shopend",
             "startedAt": "2026-10-02",
             "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:09:01+00:00",
-            "lastCollectedAt": "2026-10-07T05:09:01+00:00",
+            "firstCollectedAt": "2026-10-10T13:26:38+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:38+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1848994776538409",
-            "advertiser": "요즘엄마의 육아팁",
+            "id": "1458355716175991",
+            "advertiser": "더 한방울",
+            "startedAt": "2026-10-09",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:38+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:38+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "3761840077291076",
+            "advertiser": "યગન",
+            "startedAt": "2026-08-19",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:26+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "994985353611171",
+            "advertiser": "순초롬 Shopend",
             "startedAt": "2026-10-02",
             "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:09:01+00:00",
-            "lastCollectedAt": "2026-10-07T05:09:01+00:00",
+            "firstCollectedAt": "2026-10-10T13:26:24+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:24+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "2515378562274783",
-            "advertiser": "요즘엄마의 육아팁",
-            "startedAt": "2026-09-27",
+            "id": "1420746363245718",
+            "advertiser": "ગપ⩟",
+            "startedAt": "2026-08-11",
             "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:09:00+00:00",
-            "lastCollectedAt": "2026-10-07T05:09:00+00:00",
+            "firstCollectedAt": "2026-10-10T13:26:24+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1041306355391539",
+            "advertiser": "ヱસુન",
+            "startedAt": "2026-08-11",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:24+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "976028491493230",
+            "advertiser": "디어랩스",
+            "startedAt": "2026-10-07",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:23+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:23+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2255626091901176",
+            "advertiser": "ヱસુન",
+            "startedAt": "2026-08-11",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:23+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1418303740259373",
+            "advertiser": "ㅈ6수ㅁй직",
+            "startedAt": "2026-09-25",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:23+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1097669586084701",
+            "advertiser": "헬스인사이트",
+            "startedAt": "2026-09-30",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:22+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2136633077245419",
+            "advertiser": "요즘엄마의 육아팁",
+            "startedAt": "2026-10-05",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:21+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:21+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2121110975401403",
+            "advertiser": "ꔌપય",
+            "startedAt": "2026-08-11",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:21+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1142039228253983",
+            "advertiser": "몸살림연구소",
+            "startedAt": "2026-10-04",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:14+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:14+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2616182375462647",
+            "advertiser": "For is",
+            "startedAt": "2026-09-30",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:13+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:13+00:00",
             "startTiming": "before-window"
           },
           {
@@ -19867,7 +20145,160 @@
             "startedAt": "2026-08-20",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:09:00+00:00",
-            "lastCollectedAt": "2026-10-07T05:09:00+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2421322751729702",
+            "advertiser": "요즘엄마의 육아팁",
+            "startedAt": "2026-09-27",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:09:02+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1116940894192583",
+            "advertiser": "요즘엄마의 육아팁",
+            "startedAt": "2026-10-02",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:09:00+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2515378562274783",
+            "advertiser": "요즘엄마의 육아팁",
+            "startedAt": "2026-09-27",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:09:00+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1848994776538409",
+            "advertiser": "요즘엄마의 육아팁",
+            "startedAt": "2026-10-02",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:09:01+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "869337822836136",
+            "advertiser": "Dmall-동아제약 디몰",
+            "startedAt": "2026-10-01",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:09:01+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1852745819224819",
+            "advertiser": "순초롬 Shopend",
+            "startedAt": "2026-10-02",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:09:01+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1078853048377602",
+            "advertiser": "요즘엄마의 육아팁",
+            "startedAt": "2026-09-27",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:08:53+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3134691266862153",
+            "advertiser": "Dmall-동아제약 디몰",
+            "startedAt": "2026-10-01",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:08:59+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28065311763140822",
+            "advertiser": "Sejuhee Home ღ",
+            "startedAt": "2026-09-22",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:08:53+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1612124547046823",
+            "advertiser": "관己lぁĦOF건강하ズl",
+            "startedAt": "2026-10-04",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:04+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:04+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1296790732489100",
+            "advertiser": "순초롬 Shopend",
+            "startedAt": "2026-10-02",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:08:54+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2228267734736946",
+            "advertiser": "디어랩스",
+            "startedAt": "2026-09-29",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:08:52+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2526792637820227",
+            "advertiser": "헬스인사이트",
+            "startedAt": "2026-09-18",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:08:52+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1689080752336003",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-06",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:08:51+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2591434501297249",
+            "advertiser": "깎아주는 깍이모",
+            "startedAt": "2026-07-23",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:08:50+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2332052677565849",
+            "advertiser": "For is",
+            "startedAt": "2026-09-10",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:08:50+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1107925708675354",
+            "advertiser": "순초롬 Shopend",
+            "startedAt": "2026-10-02",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:08:51+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:00+00:00",
             "startTiming": "before-window"
           },
           {
@@ -19880,57 +20311,12 @@
             "startTiming": "before-window"
           },
           {
-            "id": "1116940894192583",
-            "advertiser": "요즘엄마의 육아팁",
-            "startedAt": "2026-10-02",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:09:00+00:00",
-            "lastCollectedAt": "2026-10-07T05:09:00+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "3134691266862153",
-            "advertiser": "Dmall-동아제약 디몰",
-            "startedAt": "2026-10-01",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:08:59+00:00",
-            "lastCollectedAt": "2026-10-07T05:08:59+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "2017219192316231",
             "advertiser": "For is",
             "startedAt": "2026-09-30",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:08:59+00:00",
             "lastCollectedAt": "2026-10-07T05:08:59+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1296790732489100",
-            "advertiser": "순초롬 Shopend",
-            "startedAt": "2026-10-02",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:08:54+00:00",
-            "lastCollectedAt": "2026-10-07T05:08:54+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "28065311763140822",
-            "advertiser": "Sejuhee Home ღ",
-            "startedAt": "2026-09-22",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:08:53+00:00",
-            "lastCollectedAt": "2026-10-07T05:08:53+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1078853048377602",
-            "advertiser": "요즘엄마의 육아팁",
-            "startedAt": "2026-09-27",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:08:53+00:00",
-            "lastCollectedAt": "2026-10-07T05:08:53+00:00",
             "startTiming": "before-window"
           },
           {
@@ -19941,70 +20327,24 @@
             "firstCollectedAt": "2026-10-07T05:08:52+00:00",
             "lastCollectedAt": "2026-10-07T05:08:52+00:00",
             "startTiming": "before-window"
-          },
-          {
-            "id": "2526792637820227",
-            "advertiser": "헬스인사이트",
-            "startedAt": "2026-09-18",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:08:52+00:00",
-            "lastCollectedAt": "2026-10-07T05:08:52+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2228267734736946",
-            "advertiser": "디어랩스",
-            "startedAt": "2026-09-29",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:08:52+00:00",
-            "lastCollectedAt": "2026-10-07T05:08:52+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1689080752336003",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-06-06",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:08:51+00:00",
-            "lastCollectedAt": "2026-10-07T05:08:51+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1107925708675354",
-            "advertiser": "순초롬 Shopend",
-            "startedAt": "2026-10-02",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:08:51+00:00",
-            "lastCollectedAt": "2026-10-07T05:08:51+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2591434501297249",
-            "advertiser": "깎아주는 깍이모",
-            "startedAt": "2026-07-23",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:08:50+00:00",
-            "lastCollectedAt": "2026-10-07T05:08:50+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2332052677565849",
-            "advertiser": "For is",
-            "startedAt": "2026-09-10",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:08:50+00:00",
-            "lastCollectedAt": "2026-10-07T05:08:50+00:00",
-            "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-07T05:09:02+00:00",
+        "lastCollectedAt": "2026-10-10T13:26:38+00:00",
         "advertisers": [
           {
             "name": "요즘엄마의 육아팁",
-            "adCount": 5
+            "adCount": 6
           },
           {
             "name": "순초롬 Shopend",
+            "adCount": 5
+          },
+          {
+            "name": "For is",
+            "adCount": 3
+          },
+          {
+            "name": "디어랩스",
             "adCount": 3
           },
           {
@@ -20012,15 +20352,15 @@
             "adCount": 2
           },
           {
-            "name": "For is",
-            "adCount": 2
-          },
-          {
             "name": "Naverplus.store",
             "adCount": 2
           },
           {
-            "name": "디어랩스",
+            "name": "ヱસુન",
+            "adCount": 2
+          },
+          {
+            "name": "헬스인사이트",
             "adCount": 2
           },
           {
@@ -20028,7 +20368,27 @@
             "adCount": 1
           },
           {
+            "name": "ગપ⩟",
+            "adCount": 1
+          },
+          {
             "name": "નાદા⋸",
+            "adCount": 1
+          },
+          {
+            "name": "યગન",
+            "adCount": 1
+          },
+          {
+            "name": "ㅈ6수ㅁй직",
+            "adCount": 1
+          },
+          {
+            "name": "ꔌપય",
+            "adCount": 1
+          },
+          {
+            "name": "관己lぁĦOF건강하ズl",
             "adCount": 1
           },
           {
@@ -20036,7 +20396,11 @@
             "adCount": 1
           },
           {
-            "name": "헬스인사이트",
+            "name": "더 한방울",
+            "adCount": 1
+          },
+          {
+            "name": "몸살림연구소",
             "adCount": 1
           }
         ],
@@ -62160,64 +62524,196 @@
       "adEvidence": {
         "query": "삼백초",
         "matchType": "collected-with-query",
-        "adCount": 20,
+        "adCount": 35,
         "adIds": [
+          "1639744197522514",
+          "1458355716175991",
+          "3761840077291076",
+          "994985353611171",
+          "1420746363245718",
+          "1041306355391539",
+          "976028491493230",
+          "2255626091901176",
+          "1418303740259373",
+          "1097669586084701",
+          "2136633077245419",
+          "2121110975401403",
+          "1142039228253983",
+          "2616182375462647",
+          "2059377648054267",
           "2421322751729702",
+          "1116940894192583",
+          "2515378562274783",
+          "1848994776538409",
           "869337822836136",
           "1852745819224819",
-          "1848994776538409",
-          "2515378562274783",
-          "2059377648054267",
-          "1342902531063441",
-          "1116940894192583",
-          "3134691266862153",
-          "2017219192316231",
-          "1296790732489100",
-          "28065311763140822",
           "1078853048377602",
-          "3474598516034569",
-          "2526792637820227",
+          "3134691266862153",
+          "28065311763140822",
+          "1612124547046823",
+          "1296790732489100",
           "2228267734736946",
+          "2526792637820227",
           "1689080752336003",
-          "1107925708675354",
           "2591434501297249",
-          "2332052677565849"
+          "2332052677565849",
+          "1107925708675354",
+          "1342902531063441",
+          "2017219192316231",
+          "3474598516034569"
         ],
         "ads": [
+          {
+            "id": "1639744197522514",
+            "advertiser": "순초롬 Shopend",
+            "startedAt": "2026-10-02",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:38+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:38+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1458355716175991",
+            "advertiser": "더 한방울",
+            "startedAt": "2026-10-09",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:38+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:38+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "3761840077291076",
+            "advertiser": "યગન",
+            "startedAt": "2026-08-19",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:26+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "994985353611171",
+            "advertiser": "순초롬 Shopend",
+            "startedAt": "2026-10-02",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:24+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:24+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1420746363245718",
+            "advertiser": "ગપ⩟",
+            "startedAt": "2026-08-11",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:24+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1041306355391539",
+            "advertiser": "ヱસુન",
+            "startedAt": "2026-08-11",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:24+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "976028491493230",
+            "advertiser": "디어랩스",
+            "startedAt": "2026-10-07",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:23+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:23+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "2255626091901176",
+            "advertiser": "ヱસુન",
+            "startedAt": "2026-08-11",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:23+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1418303740259373",
+            "advertiser": "ㅈ6수ㅁй직",
+            "startedAt": "2026-09-25",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:23+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1097669586084701",
+            "advertiser": "헬스인사이트",
+            "startedAt": "2026-09-30",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:22+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:22+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2136633077245419",
+            "advertiser": "요즘엄마의 육아팁",
+            "startedAt": "2026-10-05",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:21+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:21+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2121110975401403",
+            "advertiser": "ꔌપય",
+            "startedAt": "2026-08-11",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:21+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1142039228253983",
+            "advertiser": "몸살림연구소",
+            "startedAt": "2026-10-04",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:14+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:14+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2616182375462647",
+            "advertiser": "For is",
+            "startedAt": "2026-09-30",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:13+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:13+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2059377648054267",
+            "advertiser": "નાદા⋸",
+            "startedAt": "2026-08-20",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:09:00+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:13+00:00",
+            "startTiming": "before-window"
+          },
           {
             "id": "2421322751729702",
             "advertiser": "요즘엄마의 육아팁",
             "startedAt": "2026-09-27",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:09:02+00:00",
-            "lastCollectedAt": "2026-10-07T05:09:02+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:12+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "869337822836136",
-            "advertiser": "Dmall-동아제약 디몰",
-            "startedAt": "2026-10-01",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:09:01+00:00",
-            "lastCollectedAt": "2026-10-07T05:09:01+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1852745819224819",
-            "advertiser": "순초롬 Shopend",
-            "startedAt": "2026-10-02",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:09:01+00:00",
-            "lastCollectedAt": "2026-10-07T05:09:01+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1848994776538409",
+            "id": "1116940894192583",
             "advertiser": "요즘엄마의 육아팁",
             "startedAt": "2026-10-02",
             "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:09:01+00:00",
-            "lastCollectedAt": "2026-10-07T05:09:01+00:00",
+            "firstCollectedAt": "2026-10-07T05:09:00+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:12+00:00",
             "startTiming": "during-window"
           },
           {
@@ -62226,17 +62722,134 @@
             "startedAt": "2026-09-27",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:09:00+00:00",
-            "lastCollectedAt": "2026-10-07T05:09:00+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:11+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "2059377648054267",
-            "advertiser": "નાદા⋸",
-            "startedAt": "2026-08-20",
+            "id": "1848994776538409",
+            "advertiser": "요즘엄마의 육아팁",
+            "startedAt": "2026-10-02",
             "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:09:00+00:00",
-            "lastCollectedAt": "2026-10-07T05:09:00+00:00",
+            "firstCollectedAt": "2026-10-07T05:09:01+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:11+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "869337822836136",
+            "advertiser": "Dmall-동아제약 디몰",
+            "startedAt": "2026-10-01",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:09:01+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:10+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1852745819224819",
+            "advertiser": "순초롬 Shopend",
+            "startedAt": "2026-10-02",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:09:01+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:10+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1078853048377602",
+            "advertiser": "요즘엄마의 육아팁",
+            "startedAt": "2026-09-27",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:08:53+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:10+00:00",
             "startTiming": "before-window"
+          },
+          {
+            "id": "3134691266862153",
+            "advertiser": "Dmall-동아제약 디몰",
+            "startedAt": "2026-10-01",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:08:59+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:05+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "28065311763140822",
+            "advertiser": "Sejuhee Home ღ",
+            "startedAt": "2026-09-22",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:08:53+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1612124547046823",
+            "advertiser": "관己lぁĦOF건강하ズl",
+            "startedAt": "2026-10-04",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:04+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:04+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1296790732489100",
+            "advertiser": "순초롬 Shopend",
+            "startedAt": "2026-10-02",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:08:54+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:04+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2228267734736946",
+            "advertiser": "디어랩스",
+            "startedAt": "2026-09-29",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:08:52+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2526792637820227",
+            "advertiser": "헬스인사이트",
+            "startedAt": "2026-09-18",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:08:52+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1689080752336003",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-06",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:08:51+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2591434501297249",
+            "advertiser": "깎아주는 깍이모",
+            "startedAt": "2026-07-23",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:08:50+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2332052677565849",
+            "advertiser": "For is",
+            "startedAt": "2026-09-10",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:08:50+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1107925708675354",
+            "advertiser": "순초롬 Shopend",
+            "startedAt": "2026-10-02",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:08:51+00:00",
+            "lastCollectedAt": "2026-10-10T13:26:00+00:00",
+            "startTiming": "during-window"
           },
           {
             "id": "1342902531063441",
@@ -62245,24 +62858,6 @@
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:09:00+00:00",
             "lastCollectedAt": "2026-10-07T05:09:00+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1116940894192583",
-            "advertiser": "요즘엄마의 육아팁",
-            "startedAt": "2026-10-02",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:09:00+00:00",
-            "lastCollectedAt": "2026-10-07T05:09:00+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "3134691266862153",
-            "advertiser": "Dmall-동아제약 디몰",
-            "startedAt": "2026-10-01",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:08:59+00:00",
-            "lastCollectedAt": "2026-10-07T05:08:59+00:00",
             "startTiming": "during-window"
           },
           {
@@ -62275,33 +62870,6 @@
             "startTiming": "during-window"
           },
           {
-            "id": "1296790732489100",
-            "advertiser": "순초롬 Shopend",
-            "startedAt": "2026-10-02",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:08:54+00:00",
-            "lastCollectedAt": "2026-10-07T05:08:54+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "28065311763140822",
-            "advertiser": "Sejuhee Home ღ",
-            "startedAt": "2026-09-22",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:08:53+00:00",
-            "lastCollectedAt": "2026-10-07T05:08:53+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1078853048377602",
-            "advertiser": "요즘엄마의 육아팁",
-            "startedAt": "2026-09-27",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:08:53+00:00",
-            "lastCollectedAt": "2026-10-07T05:08:53+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "3474598516034569",
             "advertiser": "Naverplus.store",
             "startedAt": "2026-08-28",
@@ -62309,70 +62877,24 @@
             "firstCollectedAt": "2026-10-07T05:08:52+00:00",
             "lastCollectedAt": "2026-10-07T05:08:52+00:00",
             "startTiming": "before-window"
-          },
-          {
-            "id": "2526792637820227",
-            "advertiser": "헬스인사이트",
-            "startedAt": "2026-09-18",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:08:52+00:00",
-            "lastCollectedAt": "2026-10-07T05:08:52+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2228267734736946",
-            "advertiser": "디어랩스",
-            "startedAt": "2026-09-29",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:08:52+00:00",
-            "lastCollectedAt": "2026-10-07T05:08:52+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1689080752336003",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-06-06",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:08:51+00:00",
-            "lastCollectedAt": "2026-10-07T05:08:51+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1107925708675354",
-            "advertiser": "순초롬 Shopend",
-            "startedAt": "2026-10-02",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:08:51+00:00",
-            "lastCollectedAt": "2026-10-07T05:08:51+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "2591434501297249",
-            "advertiser": "깎아주는 깍이모",
-            "startedAt": "2026-07-23",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:08:50+00:00",
-            "lastCollectedAt": "2026-10-07T05:08:50+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2332052677565849",
-            "advertiser": "For is",
-            "startedAt": "2026-09-10",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:08:50+00:00",
-            "lastCollectedAt": "2026-10-07T05:08:50+00:00",
-            "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-07T05:09:02+00:00",
+        "lastCollectedAt": "2026-10-10T13:26:38+00:00",
         "advertisers": [
           {
             "name": "요즘엄마의 육아팁",
-            "adCount": 5
+            "adCount": 6
           },
           {
             "name": "순초롬 Shopend",
+            "adCount": 5
+          },
+          {
+            "name": "For is",
+            "adCount": 3
+          },
+          {
+            "name": "디어랩스",
             "adCount": 3
           },
           {
@@ -62380,15 +62902,15 @@
             "adCount": 2
           },
           {
-            "name": "For is",
-            "adCount": 2
-          },
-          {
             "name": "Naverplus.store",
             "adCount": 2
           },
           {
-            "name": "디어랩스",
+            "name": "ヱસુન",
+            "adCount": 2
+          },
+          {
+            "name": "헬스인사이트",
             "adCount": 2
           },
           {
@@ -62396,7 +62918,27 @@
             "adCount": 1
           },
           {
+            "name": "ગપ⩟",
+            "adCount": 1
+          },
+          {
             "name": "નાદા⋸",
+            "adCount": 1
+          },
+          {
+            "name": "યગન",
+            "adCount": 1
+          },
+          {
+            "name": "ㅈ6수ㅁй직",
+            "adCount": 1
+          },
+          {
+            "name": "ꔌપય",
+            "adCount": 1
+          },
+          {
+            "name": "관己lぁĦOF건강하ズl",
             "adCount": 1
           },
           {
@@ -62404,7 +62946,11 @@
             "adCount": 1
           },
           {
-            "name": "헬스인사이트",
+            "name": "더 한방울",
+            "adCount": 1
+          },
+          {
+            "name": "몸살림연구소",
             "adCount": 1
           }
         ],
