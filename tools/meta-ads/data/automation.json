@@ -1,6 +1,6 @@
 {
   "mode": "snapshot",
-  "updatedAt": "2026-10-10T19:00:42+00:00",
+  "updatedAt": "2026-10-10T19:08:06+00:00",
   "automations": [
     {
       "id": "meta-ads",
@@ -96,7 +96,7 @@
       "enabled": true,
       "running": false,
       "state": "blocked",
-      "nextRunAt": "2026-10-11T04:06:42+09:00",
+      "nextRunAt": "2026-10-11T04:21:46+09:00",
       "lastSuccessAt": "2026-10-10T12:17:55+09:00",
       "lastAttemptAt": null,
       "message": "작성/발행 확인 필요 (Gemini 글 작성 요청 실패 (HTTP 429). 자동 재시도하지 않습니다.) · 자동 재시도 중단",
@@ -125,8 +125,8 @@
   ],
   "publication": {
     "state": "synced",
-    "lastAttemptAt": "2026-10-10T18:54:49+00:00",
-    "lastSuccessAt": "2026-10-10T18:54:53+00:00",
+    "lastAttemptAt": "2026-10-10T19:00:42+00:00",
+    "lastSuccessAt": "2026-10-10T19:00:46+00:00",
     "error": null,
     "enabled": true
   }
