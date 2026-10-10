@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T02:46:12+00:00",
+  "updatedAt": "2026-10-10T02:48:14+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-10T00:20:37+00:00",
@@ -43,8 +43,8 @@
     "backlogDays": 14,
     "dailyUsed": 29,
     "dailyRemaining": 259,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-10T02:51:12+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -351,17 +351,1228 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "c5492d28ce4bf06e39274298e5f19780d98c14df2eed88996e2be78c9a14143d",
       "searchQuery": "효소",
       "adEvidence": {
         "query": "효소",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 100,
+        "adIds": [
+          "610718985310851",
+          "1072379088975292",
+          "1804631597554564",
+          "1716662872886257",
+          "1665199345174177",
+          "1690289195583003",
+          "1345523127298103",
+          "2496534554091533",
+          "1596609221386855",
+          "1050217570800943",
+          "3048966015310233",
+          "1205080134398439",
+          "1025619403342490",
+          "1839922000290592",
+          "1602661481267541",
+          "1525977832889218",
+          "1083655721026389",
+          "2223378885076098",
+          "1647025577423653",
+          "2481616135639244",
+          "850993824240122",
+          "1748571836558717",
+          "2387990781963029",
+          "1591083552373641",
+          "1008019842034790",
+          "903568089414784",
+          "1496974602462383",
+          "1460539102323573",
+          "999723342429872",
+          "1569382884580455",
+          "910206218615244",
+          "901768903014266",
+          "1505591054032763",
+          "748344611067373",
+          "1393376646321931",
+          "1363371225975901",
+          "1148621270908231",
+          "1012492174927237",
+          "1590258099267743",
+          "1279504774322550",
+          "1049504054683139",
+          "2138487850375539",
+          "1944581446458689",
+          "1597804754591915",
+          "1465000078751398",
+          "1375308407808201",
+          "1793709781819564",
+          "1414535012973745",
+          "1453418249019510",
+          "4488162674794889",
+          "1678593869910237",
+          "982895701386241",
+          "863234416509381",
+          "1693302861508002",
+          "1610243917348106",
+          "1480967890318841",
+          "2236600183412803",
+          "1109189054905992",
+          "1096020196161142",
+          "1078127975202037",
+          "2296784957517788",
+          "903700358995503",
+          "2097983251114650",
+          "1514451530164568",
+          "2264610750728678",
+          "2036603050584044",
+          "1789010492126385",
+          "1365264062088338",
+          "978901994785130",
+          "951544627843898",
+          "2361876967638979",
+          "1515195330112341",
+          "1315506904980011",
+          "1947163302923842",
+          "1031616919757605",
+          "853145524255494",
+          "1728533081635399",
+          "939914365256354",
+          "1254688529949281",
+          "867172145939911",
+          "978440674614614",
+          "1260169879616890",
+          "1192369523047594",
+          "2870179023320755",
+          "1652758255827804",
+          "4375296082719611",
+          "2363941694377748",
+          "1879534606764917",
+          "2184502892333496",
+          "1410976437670192",
+          "2121042418462101",
+          "1801425551037784",
+          "1314074354227170",
+          "1012371851507192",
+          "901749355543578",
+          "815695044818517",
+          "1566228741883513",
+          "1402097038273175",
+          "1314252750146865",
+          "1016308114284704"
+        ],
+        "ads": [
+          {
+            "id": "610718985310851",
+            "advertiser": "활강원",
+            "startedAt": "2025-09-14",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:48:04+00:00",
+            "lastCollectedAt": "2026-10-10T02:48:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1072379088975292",
+            "advertiser": "녹녹한라이프",
+            "startedAt": "2026-09-09",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:48:04+00:00",
+            "lastCollectedAt": "2026-10-10T02:48:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1804631597554564",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-08-26",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:48:03+00:00",
+            "lastCollectedAt": "2026-10-10T02:48:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1716662872886257",
+            "advertiser": "Gummihome",
+            "startedAt": "2026-08-31",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:48:02+00:00",
+            "lastCollectedAt": "2026-10-10T02:48:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1665199345174177",
+            "advertiser": "건강꿀템",
+            "startedAt": "2026-09-21",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:48:02+00:00",
+            "lastCollectedAt": "2026-10-10T02:48:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1690289195583003",
+            "advertiser": "파파레서피",
+            "startedAt": "2026-07-01",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:48:01+00:00",
+            "lastCollectedAt": "2026-10-10T02:48:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1345523127298103",
+            "advertiser": "에이블 메디스킨",
+            "startedAt": "2025-10-31",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:48:01+00:00",
+            "lastCollectedAt": "2026-10-10T02:48:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2496534554091533",
+            "advertiser": "Lg생활건강",
+            "startedAt": "2026-10-06",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:48:00+00:00",
+            "lastCollectedAt": "2026-10-10T02:48:00+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1596609221386855",
+            "advertiser": "Bennyspet",
+            "startedAt": "2026-02-27",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:48:00+00:00",
+            "lastCollectedAt": "2026-10-10T02:48:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1050217570800943",
+            "advertiser": "그레인온",
+            "startedAt": "2026-07-27",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:58+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3048966015310233",
+            "advertiser": "파파레서피",
+            "startedAt": "2026-07-22",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:49+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1205080134398439",
+            "advertiser": "활강원",
+            "startedAt": "2026-01-05",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:49+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1025619403342490",
+            "advertiser": "멍스타그램",
+            "startedAt": "2026-06-18",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:49+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1839922000290592",
+            "advertiser": "활강원",
+            "startedAt": "2025-09-14",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:48+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1602661481267541",
+            "advertiser": "똑똑한 건강 정보",
+            "startedAt": "2026-09-15",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:48+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1525977832889218",
+            "advertiser": "그레인온",
+            "startedAt": "2026-09-15",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:48+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1083655721026389",
+            "advertiser": "그레인온",
+            "startedAt": "2026-09-15",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:48+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2223378885076098",
+            "advertiser": "",
+            "startedAt": "2026-05-24",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:47+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1647025577423653",
+            "advertiser": "파파레서피",
+            "startedAt": "2026-07-22",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:47+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2481616135639244",
+            "advertiser": "파파레서피",
+            "startedAt": "2026-06-29",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:45+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "850993824240122",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:37+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1748571836558717",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-15",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:37+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2387990781963029",
+            "advertiser": "CCCC",
+            "startedAt": "2026-09-28",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:36+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1591083552373641",
+            "advertiser": "샤르띠에",
+            "startedAt": "2026-07-29",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:36+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1008019842034790",
+            "advertiser": "Daily_simby",
+            "startedAt": "2026-07-27",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:36+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "903568089414784",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:35+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1496974602462383",
+            "advertiser": "Zestoryofficial",
+            "startedAt": "2026-08-22",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:35+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1460539102323573",
+            "advertiser": "그레인온",
+            "startedAt": "2026-04-01",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:35+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "999723342429872",
+            "advertiser": "효소는최고양",
+            "startedAt": "2026-06-09",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:34+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1569382884580455",
+            "advertiser": "파파레서피",
+            "startedAt": "2026-07-28",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:34+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "910206218615244",
+            "advertiser": "CCCC",
+            "startedAt": "2026-09-28",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:26+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "901768903014266",
+            "advertiser": "건강꿀루틴",
+            "startedAt": "2025-12-26",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:26+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1505591054032763",
+            "advertiser": "에이블 메디스킨",
+            "startedAt": "2025-10-31",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:26+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "748344611067373",
+            "advertiser": "아이와여행트립",
+            "startedAt": "2025-12-30",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:25+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1393376646321931",
+            "advertiser": "그레인온",
+            "startedAt": "2026-09-16",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:25+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1363371225975901",
+            "advertiser": "그레인온",
+            "startedAt": "2026-08-23",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:25+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1148621270908231",
+            "advertiser": "그레인온",
+            "startedAt": "2026-09-17",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:25+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1012492174927237",
+            "advertiser": "그레인온",
+            "startedAt": "2026-07-27",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:25+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1590258099267743",
+            "advertiser": "맘생처음",
+            "startedAt": "2026-09-01",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:24+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1279504774322550",
+            "advertiser": "그레인온",
+            "startedAt": "2026-04-02",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:24+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1049504054683139",
+            "advertiser": "소소이지",
+            "startedAt": "2026-08-06",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:16+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2138487850375539",
+            "advertiser": "POREN",
+            "startedAt": "2026-09-12",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:15+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1944581446458689",
+            "advertiser": "도치맘정보방",
+            "startedAt": "2025-11-28",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:15+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1597804754591915",
+            "advertiser": "활강원",
+            "startedAt": "2026-01-12",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:15+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1465000078751398",
+            "advertiser": "Today with",
+            "startedAt": "2026-08-19",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:15+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1375308407808201",
+            "advertiser": "파파레서피",
+            "startedAt": "2026-07-03",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:15+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1793709781819564",
+            "advertiser": "그레인온",
+            "startedAt": "2026-09-07",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:14+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1414535012973745",
+            "advertiser": "Lovew_official",
+            "startedAt": "2025-09-24",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:14+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1453418249019510",
+            "advertiser": "زُفْرَانِكْ",
+            "startedAt": "2025-07-22",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:13+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4488162674794889",
+            "advertiser": "꿀템 소개소",
+            "startedAt": "2026-09-30",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:12+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1678593869910237",
+            "advertiser": "파파레서피",
+            "startedAt": "2026-07-25",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:05+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "982895701386241",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:04+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "863234416509381",
+            "advertiser": "아직도 이거 모르고 페북하니",
+            "startedAt": "2026-07-09",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:04+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1693302861508002",
+            "advertiser": "활강원",
+            "startedAt": "2025-09-15",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:04+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1610243917348106",
+            "advertiser": "그레인온",
+            "startedAt": "2026-09-17",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:04+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1480967890318841",
+            "advertiser": "한나",
+            "startedAt": "2026-03-23",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:04+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2236600183412803",
+            "advertiser": "그레인온",
+            "startedAt": "2026-07-27",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:03+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1109189054905992",
+            "advertiser": "요즘핫한",
+            "startedAt": "2026-08-24",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:02+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1096020196161142",
+            "advertiser": "그레인온",
+            "startedAt": "2026-10-01",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:02+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1078127975202037",
+            "advertiser": "Im.seulgirowun",
+            "startedAt": "2026-09-17",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:02+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2296784957517788",
+            "advertiser": "Ryanraroar",
+            "startedAt": "2026-04-05",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:54+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "903700358995503",
+            "advertiser": "레뷰",
+            "startedAt": "2026-01-05",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:52+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2097983251114650",
+            "advertiser": "hyobeen.lee",
+            "startedAt": "2026-06-24",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:52+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1514451530164568",
+            "advertiser": "F.M4",
+            "startedAt": "2026-06-20",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:52+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2264610750728678",
+            "advertiser": "건기남",
+            "startedAt": "2025-12-11",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:51+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2036603050584044",
+            "advertiser": "다연",
+            "startedAt": "2026-06-16",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:50+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1789010492126385",
+            "advertiser": "그레인온",
+            "startedAt": "2026-09-07",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:50+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1365264062088338",
+            "advertiser": "Ryanraroar",
+            "startedAt": "2026-05-30",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:49+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "978901994785130",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:48+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "951544627843898",
+            "advertiser": "Im.seulgirowun",
+            "startedAt": "2026-04-22",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:47+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2361876967638979",
+            "advertiser": "쥬베룩 스킨케어 - Juvelook Skincare",
+            "startedAt": "2026-07-14",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:40+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1515195330112341",
+            "advertiser": "벨르랑코",
+            "startedAt": "2026-05-28",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:40+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1315506904980011",
+            "advertiser": "그레인온",
+            "startedAt": "2026-09-17",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:40+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1947163302923842",
+            "advertiser": "주네르샵",
+            "startedAt": "2026-09-17",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:39+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1031616919757605",
+            "advertiser": "Lavoir",
+            "startedAt": "2026-08-12",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:39+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "853145524255494",
+            "advertiser": "활강원",
+            "startedAt": "2026-01-12",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:38+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1728533081635399",
+            "advertiser": "투데이픽",
+            "startedAt": "2026-06-04",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:38+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "939914365256354",
+            "advertiser": "전국민 필수템",
+            "startedAt": "2026-09-10",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:37+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1254688529949281",
+            "advertiser": "하이,리하",
+            "startedAt": "2026-03-05",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:37+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "867172145939911",
+            "advertiser": "그레인온",
+            "startedAt": "2026-06-18",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:36+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "978440674614614",
+            "advertiser": "서애쿠의 예쁜날",
+            "startedAt": "2026-04-01",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:29+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1260169879616890",
+            "advertiser": "",
+            "startedAt": "2026-04-25",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:29+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1192369523047594",
+            "advertiser": "활강원",
+            "startedAt": "2026-01-12",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:29+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2870179023320755",
+            "advertiser": "아직도 이거 모르고 페북하니",
+            "startedAt": "2026-07-09",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:28+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1652758255827804",
+            "advertiser": "소소이지",
+            "startedAt": "2026-07-07",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:28+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4375296082719611",
+            "advertiser": "_100hug",
+            "startedAt": "2026-06-16",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:27+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2363941694377748",
+            "advertiser": "Diet direct",
+            "startedAt": "2026-08-24",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:27+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1879534606764917",
+            "advertiser": "그레인온",
+            "startedAt": "2026-07-27",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:27+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2184502892333496",
+            "advertiser": "클로디",
+            "startedAt": "2026-07-24",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:26+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1410976437670192",
+            "advertiser": "아직도 이거 모르고 페북하니",
+            "startedAt": "2026-08-18",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:25+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2121042418462101",
+            "advertiser": "소소이지",
+            "startedAt": "2026-06-29",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:20+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1801425551037784",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-09-08",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:20+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1314074354227170",
+            "advertiser": "그레인온",
+            "startedAt": "2026-06-21",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:20+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1012371851507192",
+            "advertiser": "Marcella",
+            "startedAt": "2026-06-16",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:20+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "901749355543578",
+            "advertiser": "대장사랑",
+            "startedAt": "2026-01-29",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:19+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "815695044818517",
+            "advertiser": "도치맘정보방",
+            "startedAt": "2026-01-29",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:19+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1566228741883513",
+            "advertiser": "그레인온",
+            "startedAt": "2026-06-17",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:18+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1402097038273175",
+            "advertiser": "Foretderm",
+            "startedAt": "2026-04-13",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:18+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1314252750146865",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:18+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1016308114284704",
+            "advertiser": "그레인온",
+            "startedAt": "2026-06-21",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:18+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:18+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-10T02:48:04+00:00",
+        "advertisers": [
+          {
+            "name": "그레인온",
+            "adCount": 20
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 7
+          },
+          {
+            "name": "파파레서피",
+            "adCount": 7
+          },
+          {
+            "name": "활강원",
+            "adCount": 7
+          },
+          {
+            "name": "소소이지",
+            "adCount": 3
+          },
+          {
+            "name": "아직도 이거 모르고 페북하니",
+            "adCount": 3
+          },
+          {
+            "name": "CCCC",
+            "adCount": 2
+          },
+          {
+            "name": "Im.seulgirowun",
+            "adCount": 2
+          },
+          {
+            "name": "Ryanraroar",
+            "adCount": 2
+          },
+          {
+            "name": "도치맘정보방",
+            "adCount": 2
+          },
+          {
+            "name": "에이블 메디스킨",
+            "adCount": 2
+          },
+          {
+            "name": "Bennyspet",
+            "adCount": 1
+          },
+          {
+            "name": "Daily_simby",
+            "adCount": 1
+          },
+          {
+            "name": "Diet direct",
+            "adCount": 1
+          },
+          {
+            "name": "F.M4",
+            "adCount": 1
+          },
+          {
+            "name": "Foretderm",
+            "adCount": 1
+          },
+          {
+            "name": "Gummihome",
+            "adCount": 1
+          },
+          {
+            "name": "Lavoir",
+            "adCount": 1
+          },
+          {
+            "name": "Lg생활건강",
+            "adCount": 1
+          },
+          {
+            "name": "Lovew_official",
+            "adCount": 1
+          },
+          {
+            "name": "Marcella",
+            "adCount": 1
+          },
+          {
+            "name": "POREN",
+            "adCount": 1
+          },
+          {
+            "name": "Today with",
+            "adCount": 1
+          },
+          {
+            "name": "Zestoryofficial",
+            "adCount": 1
+          },
+          {
+            "name": "_100hug",
+            "adCount": 1
+          },
+          {
+            "name": "hyobeen.lee",
+            "adCount": 1
+          },
+          {
+            "name": "زُفْرَانِكْ",
+            "adCount": 1
+          },
+          {
+            "name": "건강꿀루틴",
+            "adCount": 1
+          },
+          {
+            "name": "건강꿀템",
+            "adCount": 1
+          },
+          {
+            "name": "건기남",
+            "adCount": 1
+          },
+          {
+            "name": "꿀템 소개소",
+            "adCount": 1
+          },
+          {
+            "name": "녹녹한라이프",
+            "adCount": 1
+          },
+          {
+            "name": "다연",
+            "adCount": 1
+          },
+          {
+            "name": "대장사랑",
+            "adCount": 1
+          },
+          {
+            "name": "똑똑한 건강 정보",
+            "adCount": 1
+          },
+          {
+            "name": "레뷰",
+            "adCount": 1
+          },
+          {
+            "name": "맘생처음",
+            "adCount": 1
+          },
+          {
+            "name": "멍스타그램",
+            "adCount": 1
+          },
+          {
+            "name": "벨르랑코",
+            "adCount": 1
+          },
+          {
+            "name": "비타민마을",
+            "adCount": 1
+          },
+          {
+            "name": "샤르띠에",
+            "adCount": 1
+          },
+          {
+            "name": "서애쿠의 예쁜날",
+            "adCount": 1
+          },
+          {
+            "name": "아이와여행트립",
+            "adCount": 1
+          },
+          {
+            "name": "요즘핫한",
+            "adCount": 1
+          },
+          {
+            "name": "전국민 필수템",
+            "adCount": 1
+          },
+          {
+            "name": "주네르샵",
+            "adCount": 1
+          },
+          {
+            "name": "쥬베룩 스킨케어 - Juvelook Skincare",
+            "adCount": 1
+          },
+          {
+            "name": "클로디",
+            "adCount": 1
+          },
+          {
+            "name": "투데이픽",
+            "adCount": 1
+          },
+          {
+            "name": "하이,리하",
+            "adCount": 1
+          },
+          {
+            "name": "한나",
+            "adCount": 1
+          },
+          {
+            "name": "효소는최고양",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -14111,17 +15322,1228 @@
       "rankWindow": 100,
       "observedAt": "2026-10-10T00:20:06+00:00",
       "lastObservedAt": "2026-10-10T00:20:06+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "c5492d28ce4bf06e39274298e5f19780d98c14df2eed88996e2be78c9a14143d",
       "searchQuery": "효소",
       "adEvidence": {
         "query": "효소",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 100,
+        "adIds": [
+          "610718985310851",
+          "1072379088975292",
+          "1804631597554564",
+          "1716662872886257",
+          "1665199345174177",
+          "1690289195583003",
+          "1345523127298103",
+          "2496534554091533",
+          "1596609221386855",
+          "1050217570800943",
+          "3048966015310233",
+          "1205080134398439",
+          "1025619403342490",
+          "1839922000290592",
+          "1602661481267541",
+          "1525977832889218",
+          "1083655721026389",
+          "2223378885076098",
+          "1647025577423653",
+          "2481616135639244",
+          "850993824240122",
+          "1748571836558717",
+          "2387990781963029",
+          "1591083552373641",
+          "1008019842034790",
+          "903568089414784",
+          "1496974602462383",
+          "1460539102323573",
+          "999723342429872",
+          "1569382884580455",
+          "910206218615244",
+          "901768903014266",
+          "1505591054032763",
+          "748344611067373",
+          "1393376646321931",
+          "1363371225975901",
+          "1148621270908231",
+          "1012492174927237",
+          "1590258099267743",
+          "1279504774322550",
+          "1049504054683139",
+          "2138487850375539",
+          "1944581446458689",
+          "1597804754591915",
+          "1465000078751398",
+          "1375308407808201",
+          "1793709781819564",
+          "1414535012973745",
+          "1453418249019510",
+          "4488162674794889",
+          "1678593869910237",
+          "982895701386241",
+          "863234416509381",
+          "1693302861508002",
+          "1610243917348106",
+          "1480967890318841",
+          "2236600183412803",
+          "1109189054905992",
+          "1096020196161142",
+          "1078127975202037",
+          "2296784957517788",
+          "903700358995503",
+          "2097983251114650",
+          "1514451530164568",
+          "2264610750728678",
+          "2036603050584044",
+          "1789010492126385",
+          "1365264062088338",
+          "978901994785130",
+          "951544627843898",
+          "2361876967638979",
+          "1515195330112341",
+          "1315506904980011",
+          "1947163302923842",
+          "1031616919757605",
+          "853145524255494",
+          "1728533081635399",
+          "939914365256354",
+          "1254688529949281",
+          "867172145939911",
+          "978440674614614",
+          "1260169879616890",
+          "1192369523047594",
+          "2870179023320755",
+          "1652758255827804",
+          "4375296082719611",
+          "2363941694377748",
+          "1879534606764917",
+          "2184502892333496",
+          "1410976437670192",
+          "2121042418462101",
+          "1801425551037784",
+          "1314074354227170",
+          "1012371851507192",
+          "901749355543578",
+          "815695044818517",
+          "1566228741883513",
+          "1402097038273175",
+          "1314252750146865",
+          "1016308114284704"
+        ],
+        "ads": [
+          {
+            "id": "610718985310851",
+            "advertiser": "활강원",
+            "startedAt": "2025-09-14",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:48:04+00:00",
+            "lastCollectedAt": "2026-10-10T02:48:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1072379088975292",
+            "advertiser": "녹녹한라이프",
+            "startedAt": "2026-09-09",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:48:04+00:00",
+            "lastCollectedAt": "2026-10-10T02:48:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1804631597554564",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-08-26",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:48:03+00:00",
+            "lastCollectedAt": "2026-10-10T02:48:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1716662872886257",
+            "advertiser": "Gummihome",
+            "startedAt": "2026-08-31",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:48:02+00:00",
+            "lastCollectedAt": "2026-10-10T02:48:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1665199345174177",
+            "advertiser": "건강꿀템",
+            "startedAt": "2026-09-21",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:48:02+00:00",
+            "lastCollectedAt": "2026-10-10T02:48:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1690289195583003",
+            "advertiser": "파파레서피",
+            "startedAt": "2026-07-01",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:48:01+00:00",
+            "lastCollectedAt": "2026-10-10T02:48:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1345523127298103",
+            "advertiser": "에이블 메디스킨",
+            "startedAt": "2025-10-31",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:48:01+00:00",
+            "lastCollectedAt": "2026-10-10T02:48:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2496534554091533",
+            "advertiser": "Lg생활건강",
+            "startedAt": "2026-10-06",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:48:00+00:00",
+            "lastCollectedAt": "2026-10-10T02:48:00+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1596609221386855",
+            "advertiser": "Bennyspet",
+            "startedAt": "2026-02-27",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:48:00+00:00",
+            "lastCollectedAt": "2026-10-10T02:48:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1050217570800943",
+            "advertiser": "그레인온",
+            "startedAt": "2026-07-27",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:58+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3048966015310233",
+            "advertiser": "파파레서피",
+            "startedAt": "2026-07-22",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:49+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1205080134398439",
+            "advertiser": "활강원",
+            "startedAt": "2026-01-05",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:49+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1025619403342490",
+            "advertiser": "멍스타그램",
+            "startedAt": "2026-06-18",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:49+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1839922000290592",
+            "advertiser": "활강원",
+            "startedAt": "2025-09-14",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:48+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1602661481267541",
+            "advertiser": "똑똑한 건강 정보",
+            "startedAt": "2026-09-15",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:48+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1525977832889218",
+            "advertiser": "그레인온",
+            "startedAt": "2026-09-15",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:48+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1083655721026389",
+            "advertiser": "그레인온",
+            "startedAt": "2026-09-15",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:48+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2223378885076098",
+            "advertiser": "",
+            "startedAt": "2026-05-24",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:47+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1647025577423653",
+            "advertiser": "파파레서피",
+            "startedAt": "2026-07-22",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:47+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2481616135639244",
+            "advertiser": "파파레서피",
+            "startedAt": "2026-06-29",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:45+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "850993824240122",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:37+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1748571836558717",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-15",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:37+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2387990781963029",
+            "advertiser": "CCCC",
+            "startedAt": "2026-09-28",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:36+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1591083552373641",
+            "advertiser": "샤르띠에",
+            "startedAt": "2026-07-29",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:36+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1008019842034790",
+            "advertiser": "Daily_simby",
+            "startedAt": "2026-07-27",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:36+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "903568089414784",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:35+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1496974602462383",
+            "advertiser": "Zestoryofficial",
+            "startedAt": "2026-08-22",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:35+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1460539102323573",
+            "advertiser": "그레인온",
+            "startedAt": "2026-04-01",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:35+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "999723342429872",
+            "advertiser": "효소는최고양",
+            "startedAt": "2026-06-09",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:34+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1569382884580455",
+            "advertiser": "파파레서피",
+            "startedAt": "2026-07-28",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:34+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "910206218615244",
+            "advertiser": "CCCC",
+            "startedAt": "2026-09-28",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:26+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "901768903014266",
+            "advertiser": "건강꿀루틴",
+            "startedAt": "2025-12-26",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:26+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1505591054032763",
+            "advertiser": "에이블 메디스킨",
+            "startedAt": "2025-10-31",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:26+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "748344611067373",
+            "advertiser": "아이와여행트립",
+            "startedAt": "2025-12-30",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:25+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1393376646321931",
+            "advertiser": "그레인온",
+            "startedAt": "2026-09-16",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:25+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1363371225975901",
+            "advertiser": "그레인온",
+            "startedAt": "2026-08-23",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:25+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1148621270908231",
+            "advertiser": "그레인온",
+            "startedAt": "2026-09-17",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:25+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1012492174927237",
+            "advertiser": "그레인온",
+            "startedAt": "2026-07-27",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:25+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1590258099267743",
+            "advertiser": "맘생처음",
+            "startedAt": "2026-09-01",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:24+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1279504774322550",
+            "advertiser": "그레인온",
+            "startedAt": "2026-04-02",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:24+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1049504054683139",
+            "advertiser": "소소이지",
+            "startedAt": "2026-08-06",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:16+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2138487850375539",
+            "advertiser": "POREN",
+            "startedAt": "2026-09-12",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:15+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1944581446458689",
+            "advertiser": "도치맘정보방",
+            "startedAt": "2025-11-28",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:15+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1597804754591915",
+            "advertiser": "활강원",
+            "startedAt": "2026-01-12",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:15+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1465000078751398",
+            "advertiser": "Today with",
+            "startedAt": "2026-08-19",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:15+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1375308407808201",
+            "advertiser": "파파레서피",
+            "startedAt": "2026-07-03",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:15+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1793709781819564",
+            "advertiser": "그레인온",
+            "startedAt": "2026-09-07",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:14+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1414535012973745",
+            "advertiser": "Lovew_official",
+            "startedAt": "2025-09-24",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:14+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1453418249019510",
+            "advertiser": "زُفْرَانِكْ",
+            "startedAt": "2025-07-22",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:13+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4488162674794889",
+            "advertiser": "꿀템 소개소",
+            "startedAt": "2026-09-30",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:12+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1678593869910237",
+            "advertiser": "파파레서피",
+            "startedAt": "2026-07-25",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:05+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "982895701386241",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:04+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "863234416509381",
+            "advertiser": "아직도 이거 모르고 페북하니",
+            "startedAt": "2026-07-09",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:04+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1693302861508002",
+            "advertiser": "활강원",
+            "startedAt": "2025-09-15",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:04+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1610243917348106",
+            "advertiser": "그레인온",
+            "startedAt": "2026-09-17",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:04+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1480967890318841",
+            "advertiser": "한나",
+            "startedAt": "2026-03-23",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:04+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2236600183412803",
+            "advertiser": "그레인온",
+            "startedAt": "2026-07-27",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:03+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1109189054905992",
+            "advertiser": "요즘핫한",
+            "startedAt": "2026-08-24",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:02+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1096020196161142",
+            "advertiser": "그레인온",
+            "startedAt": "2026-10-01",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:02+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1078127975202037",
+            "advertiser": "Im.seulgirowun",
+            "startedAt": "2026-09-17",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:47:02+00:00",
+            "lastCollectedAt": "2026-10-10T02:47:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2296784957517788",
+            "advertiser": "Ryanraroar",
+            "startedAt": "2026-04-05",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:54+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "903700358995503",
+            "advertiser": "레뷰",
+            "startedAt": "2026-01-05",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:52+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2097983251114650",
+            "advertiser": "hyobeen.lee",
+            "startedAt": "2026-06-24",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:52+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1514451530164568",
+            "advertiser": "F.M4",
+            "startedAt": "2026-06-20",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:52+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2264610750728678",
+            "advertiser": "건기남",
+            "startedAt": "2025-12-11",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:51+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2036603050584044",
+            "advertiser": "다연",
+            "startedAt": "2026-06-16",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:50+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1789010492126385",
+            "advertiser": "그레인온",
+            "startedAt": "2026-09-07",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:50+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1365264062088338",
+            "advertiser": "Ryanraroar",
+            "startedAt": "2026-05-30",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:49+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "978901994785130",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:48+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "951544627843898",
+            "advertiser": "Im.seulgirowun",
+            "startedAt": "2026-04-22",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:47+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2361876967638979",
+            "advertiser": "쥬베룩 스킨케어 - Juvelook Skincare",
+            "startedAt": "2026-07-14",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:40+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1515195330112341",
+            "advertiser": "벨르랑코",
+            "startedAt": "2026-05-28",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:40+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1315506904980011",
+            "advertiser": "그레인온",
+            "startedAt": "2026-09-17",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:40+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1947163302923842",
+            "advertiser": "주네르샵",
+            "startedAt": "2026-09-17",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:39+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1031616919757605",
+            "advertiser": "Lavoir",
+            "startedAt": "2026-08-12",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:39+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "853145524255494",
+            "advertiser": "활강원",
+            "startedAt": "2026-01-12",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:38+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1728533081635399",
+            "advertiser": "투데이픽",
+            "startedAt": "2026-06-04",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:38+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "939914365256354",
+            "advertiser": "전국민 필수템",
+            "startedAt": "2026-09-10",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:37+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1254688529949281",
+            "advertiser": "하이,리하",
+            "startedAt": "2026-03-05",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:37+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "867172145939911",
+            "advertiser": "그레인온",
+            "startedAt": "2026-06-18",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:36+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "978440674614614",
+            "advertiser": "서애쿠의 예쁜날",
+            "startedAt": "2026-04-01",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:29+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1260169879616890",
+            "advertiser": "",
+            "startedAt": "2026-04-25",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:29+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1192369523047594",
+            "advertiser": "활강원",
+            "startedAt": "2026-01-12",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:29+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2870179023320755",
+            "advertiser": "아직도 이거 모르고 페북하니",
+            "startedAt": "2026-07-09",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:28+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1652758255827804",
+            "advertiser": "소소이지",
+            "startedAt": "2026-07-07",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:28+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4375296082719611",
+            "advertiser": "_100hug",
+            "startedAt": "2026-06-16",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:27+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2363941694377748",
+            "advertiser": "Diet direct",
+            "startedAt": "2026-08-24",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:27+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1879534606764917",
+            "advertiser": "그레인온",
+            "startedAt": "2026-07-27",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:27+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2184502892333496",
+            "advertiser": "클로디",
+            "startedAt": "2026-07-24",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:26+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1410976437670192",
+            "advertiser": "아직도 이거 모르고 페북하니",
+            "startedAt": "2026-08-18",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:25+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2121042418462101",
+            "advertiser": "소소이지",
+            "startedAt": "2026-06-29",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:20+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1801425551037784",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-09-08",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:20+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1314074354227170",
+            "advertiser": "그레인온",
+            "startedAt": "2026-06-21",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:20+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1012371851507192",
+            "advertiser": "Marcella",
+            "startedAt": "2026-06-16",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:20+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "901749355543578",
+            "advertiser": "대장사랑",
+            "startedAt": "2026-01-29",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:19+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "815695044818517",
+            "advertiser": "도치맘정보방",
+            "startedAt": "2026-01-29",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:19+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1566228741883513",
+            "advertiser": "그레인온",
+            "startedAt": "2026-06-17",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:18+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1402097038273175",
+            "advertiser": "Foretderm",
+            "startedAt": "2026-04-13",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:18+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1314252750146865",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:18+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1016308114284704",
+            "advertiser": "그레인온",
+            "startedAt": "2026-06-21",
+            "query": "효소",
+            "firstCollectedAt": "2026-10-10T02:46:18+00:00",
+            "lastCollectedAt": "2026-10-10T02:46:18+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-10T02:48:04+00:00",
+        "advertisers": [
+          {
+            "name": "그레인온",
+            "adCount": 20
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 7
+          },
+          {
+            "name": "파파레서피",
+            "adCount": 7
+          },
+          {
+            "name": "활강원",
+            "adCount": 7
+          },
+          {
+            "name": "소소이지",
+            "adCount": 3
+          },
+          {
+            "name": "아직도 이거 모르고 페북하니",
+            "adCount": 3
+          },
+          {
+            "name": "CCCC",
+            "adCount": 2
+          },
+          {
+            "name": "Im.seulgirowun",
+            "adCount": 2
+          },
+          {
+            "name": "Ryanraroar",
+            "adCount": 2
+          },
+          {
+            "name": "도치맘정보방",
+            "adCount": 2
+          },
+          {
+            "name": "에이블 메디스킨",
+            "adCount": 2
+          },
+          {
+            "name": "Bennyspet",
+            "adCount": 1
+          },
+          {
+            "name": "Daily_simby",
+            "adCount": 1
+          },
+          {
+            "name": "Diet direct",
+            "adCount": 1
+          },
+          {
+            "name": "F.M4",
+            "adCount": 1
+          },
+          {
+            "name": "Foretderm",
+            "adCount": 1
+          },
+          {
+            "name": "Gummihome",
+            "adCount": 1
+          },
+          {
+            "name": "Lavoir",
+            "adCount": 1
+          },
+          {
+            "name": "Lg생활건강",
+            "adCount": 1
+          },
+          {
+            "name": "Lovew_official",
+            "adCount": 1
+          },
+          {
+            "name": "Marcella",
+            "adCount": 1
+          },
+          {
+            "name": "POREN",
+            "adCount": 1
+          },
+          {
+            "name": "Today with",
+            "adCount": 1
+          },
+          {
+            "name": "Zestoryofficial",
+            "adCount": 1
+          },
+          {
+            "name": "_100hug",
+            "adCount": 1
+          },
+          {
+            "name": "hyobeen.lee",
+            "adCount": 1
+          },
+          {
+            "name": "زُفْرَانِكْ",
+            "adCount": 1
+          },
+          {
+            "name": "건강꿀루틴",
+            "adCount": 1
+          },
+          {
+            "name": "건강꿀템",
+            "adCount": 1
+          },
+          {
+            "name": "건기남",
+            "adCount": 1
+          },
+          {
+            "name": "꿀템 소개소",
+            "adCount": 1
+          },
+          {
+            "name": "녹녹한라이프",
+            "adCount": 1
+          },
+          {
+            "name": "다연",
+            "adCount": 1
+          },
+          {
+            "name": "대장사랑",
+            "adCount": 1
+          },
+          {
+            "name": "똑똑한 건강 정보",
+            "adCount": 1
+          },
+          {
+            "name": "레뷰",
+            "adCount": 1
+          },
+          {
+            "name": "맘생처음",
+            "adCount": 1
+          },
+          {
+            "name": "멍스타그램",
+            "adCount": 1
+          },
+          {
+            "name": "벨르랑코",
+            "adCount": 1
+          },
+          {
+            "name": "비타민마을",
+            "adCount": 1
+          },
+          {
+            "name": "샤르띠에",
+            "adCount": 1
+          },
+          {
+            "name": "서애쿠의 예쁜날",
+            "adCount": 1
+          },
+          {
+            "name": "아이와여행트립",
+            "adCount": 1
+          },
+          {
+            "name": "요즘핫한",
+            "adCount": 1
+          },
+          {
+            "name": "전국민 필수템",
+            "adCount": 1
+          },
+          {
+            "name": "주네르샵",
+            "adCount": 1
+          },
+          {
+            "name": "쥬베룩 스킨케어 - Juvelook Skincare",
+            "adCount": 1
+          },
+          {
+            "name": "클로디",
+            "adCount": 1
+          },
+          {
+            "name": "투데이픽",
+            "adCount": 1
+          },
+          {
+            "name": "하이,리하",
+            "adCount": 1
+          },
+          {
+            "name": "한나",
+            "adCount": 1
+          },
+          {
+            "name": "효소는최고양",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
