@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T00:22:04+00:00",
+  "updatedAt": "2026-10-10T00:24:45+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-10T00:20:37+00:00",
@@ -43,20 +43,20 @@
     "backlogDays": 14,
     "dailyUsed": 26,
     "dailyRemaining": 262,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-10T01:24:45+00:00",
     "metaAutoEnabled": true,
-    "enabled": true,
+    "enabled": false,
     "collectionGuard": {
-      "state": "ready",
-      "reason": null,
-      "nextAllowedAt": null,
-      "blockedUntil": null,
-      "blockStreak": 0,
+      "state": "blocked",
+      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
+      "nextAllowedAt": "2026-10-10T01:24:45+00:00",
+      "blockedUntil": "2026-10-10T01:24:45+00:00",
+      "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": null
+    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
   },
   "settings": {
     "category": "50000023",
@@ -6499,7 +6499,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "failed",
       "keywordId": "e6947cc930431e3c6d8559b33aa6d1e6d9cf9053e9a5713a68c5f77c8f7bbdd5",
       "searchQuery": "파라다이스그레인효능",
       "adEvidence": {
@@ -7391,7 +7391,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-10T00:20:37+00:00",
       "lastObservedAt": "2026-10-10T00:20:37+00:00",
-      "state": "queued",
+      "state": "failed",
       "keywordId": "e6947cc930431e3c6d8559b33aa6d1e6d9cf9053e9a5713a68c5f77c8f7bbdd5",
       "searchQuery": "파라다이스그레인효능",
       "adEvidence": {
