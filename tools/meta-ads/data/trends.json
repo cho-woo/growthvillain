@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T22:33:16+00:00",
+  "updatedAt": "2026-10-10T22:35:41+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-10T22:33:16+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 9,
-    "dailyRemaining": 279,
+    "dailyUsed": 10,
+    "dailyRemaining": 278,
     "pending": 0,
-    "nextDispatchAt": "2026-10-10T22:34:51+00:00",
+    "nextDispatchAt": "2026-10-10T22:39:56+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -1830,71 +1830,54 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "cooldown",
+      "state": "done",
       "keywordId": "d26f6c2a7b284ecb6f0394c33f5ddb0a834461b4e21c58b297bcffe307fc4047",
       "searchQuery": "매스틱",
       "adEvidence": {
         "query": "매스틱",
         "matchType": "collected-with-query",
-        "adCount": 29,
+        "adCount": 30,
         "adIds": [
-          "1099355862559860",
-          "1770750960797435",
-          "1573460803877365",
+          "3389094334628844",
           "1131897752881199",
+          "1099355862559860",
           "1068299985832495",
           "2604014080034216",
-          "1614837057103850",
+          "1770750960797435",
+          "1573460803877365",
           "1433741312027188",
+          "1614837057103850",
+          "943320118362988",
           "2160039911390706",
           "1370312488508444",
-          "943320118362988",
+          "1088944333866221",
           "1985174032886940",
           "1805277960665829",
           "1764679644483779",
-          "1088944333866221",
           "1750388202680319",
-          "1715363529549178",
           "1626253415579039",
-          "4104074283060844",
+          "1715363529549178",
           "1618642469650567",
           "1101069309080111",
-          "1074250324964736",
+          "4104074283060844",
           "2574826649614277",
-          "1405639561517502",
+          "1074250324964736",
           "1007325835705312",
           "964287050028699",
-          "1488351379436907",
+          "1405639561517502",
           "1396625499156900",
+          "1488351379436907",
           "27111404678529400"
         ],
         "ads": [
           {
-            "id": "1099355862559860",
-            "advertiser": "매스티나 mastina",
-            "startedAt": "2026-09-30",
+            "id": "3389094334628844",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-10-09",
             "query": "매스틱",
-            "firstCollectedAt": "2026-10-09T22:35:20+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:20+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1770750960797435",
-            "advertiser": "매스티나 mastina",
-            "startedAt": "2026-09-30",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-09T22:35:19+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:19+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1573460803877365",
-            "advertiser": "매스티나 mastina",
-            "startedAt": "2026-09-30",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-09T22:35:19+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:19+00:00",
-            "startTiming": "before-window"
+            "firstCollectedAt": "2026-10-10T22:35:22+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:22+00:00",
+            "startTiming": "during-window"
           },
           {
             "id": "1131897752881199",
@@ -1902,7 +1885,16 @@
             "startedAt": "2026-09-22",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-09T22:35:19+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:19+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1099355862559860",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-09T22:35:20+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:21+00:00",
             "startTiming": "before-window"
           },
           {
@@ -1911,7 +1903,7 @@
             "startedAt": "2026-10-07",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-09T22:35:19+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:19+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:21+00:00",
             "startTiming": "during-window"
           },
           {
@@ -1920,7 +1912,34 @@
             "startedAt": "2026-09-22",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-09T22:35:18+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:18+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1770750960797435",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-09T22:35:19+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1573460803877365",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-09T22:35:19+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1433741312027188",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-09T22:35:18+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:20+00:00",
             "startTiming": "before-window"
           },
           {
@@ -1929,16 +1948,16 @@
             "startedAt": "2026-10-07",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-09T22:35:18+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:18+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:19+00:00",
             "startTiming": "during-window"
           },
           {
-            "id": "1433741312027188",
+            "id": "943320118362988",
             "advertiser": "매스티나 mastina",
             "startedAt": "2026-09-30",
             "query": "매스틱",
-            "firstCollectedAt": "2026-10-09T22:35:18+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:18+00:00",
+            "firstCollectedAt": "2026-10-07T16:00:26+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:08+00:00",
             "startTiming": "before-window"
           },
           {
@@ -1947,7 +1966,7 @@
             "startedAt": "2026-09-30",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-09T22:35:07+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:07+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:08+00:00",
             "startTiming": "before-window"
           },
           {
@@ -1956,43 +1975,7 @@
             "startedAt": "2026-09-22",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:26+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:07+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "943320118362988",
-            "advertiser": "매스티나 mastina",
-            "startedAt": "2026-09-30",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:26+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:06+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1985174032886940",
-            "advertiser": "매스티나 mastina",
-            "startedAt": "2026-09-30",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:26+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:06+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1805277960665829",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-10-04",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:26+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:06+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1764679644483779",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-09-22",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:25+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:06+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:08+00:00",
             "startTiming": "before-window"
           },
           {
@@ -2001,7 +1984,34 @@
             "startedAt": "2026-09-30",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:25+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:06+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1985174032886940",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:26+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1805277960665829",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-10-04",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:26+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:07+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1764679644483779",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-09-22",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:25+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:07+00:00",
             "startTiming": "before-window"
           },
           {
@@ -2010,16 +2020,7 @@
             "startedAt": "2026-09-30",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:25+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:05+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1715363529549178",
-            "advertiser": "매스티나 mastina",
-            "startedAt": "2026-09-30",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:24+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:05+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:07+00:00",
             "startTiming": "before-window"
           },
           {
@@ -2028,16 +2029,16 @@
             "startedAt": "2026-09-23",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:25+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:05+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:07+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "4104074283060844",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-08-21",
+            "id": "1715363529549178",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
             "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:19+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:00+00:00",
+            "firstCollectedAt": "2026-10-07T16:00:24+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:06+00:00",
             "startTiming": "before-window"
           },
           {
@@ -2046,7 +2047,7 @@
             "startedAt": "2026-09-30",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:24+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:00+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:02+00:00",
             "startTiming": "before-window"
           },
           {
@@ -2055,16 +2056,16 @@
             "startedAt": "2026-09-22",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:19+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:00+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:02+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1074250324964736",
+            "id": "4104074283060844",
             "advertiser": "프롬바이오",
-            "startedAt": "2026-08-24",
+            "startedAt": "2026-08-21",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:19+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:00+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:01+00:00",
             "startTiming": "before-window"
           },
           {
@@ -2073,16 +2074,16 @@
             "startedAt": "2026-09-10",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:18+00:00",
-            "lastCollectedAt": "2026-10-09T22:34:59+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:01+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1405639561517502",
-            "advertiser": "속편한세상",
-            "startedAt": "2026-09-10",
+            "id": "1074250324964736",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-08-24",
             "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:18+00:00",
-            "lastCollectedAt": "2026-10-09T22:34:59+00:00",
+            "firstCollectedAt": "2026-10-07T16:00:19+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:01+00:00",
             "startTiming": "before-window"
           },
           {
@@ -2091,7 +2092,7 @@
             "startedAt": "2026-09-15",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:18+00:00",
-            "lastCollectedAt": "2026-10-09T22:34:59+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:01+00:00",
             "startTiming": "before-window"
           },
           {
@@ -2100,16 +2101,16 @@
             "startedAt": "2026-08-24",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:17+00:00",
-            "lastCollectedAt": "2026-10-09T22:34:58+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:00+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1488351379436907",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
+            "id": "1405639561517502",
+            "advertiser": "속편한세상",
+            "startedAt": "2026-09-10",
             "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:17+00:00",
-            "lastCollectedAt": "2026-10-09T22:34:58+00:00",
+            "firstCollectedAt": "2026-10-07T16:00:18+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:00+00:00",
             "startTiming": "before-window"
           },
           {
@@ -2118,7 +2119,16 @@
             "startedAt": "2026-06-10",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:18+00:00",
-            "lastCollectedAt": "2026-10-09T22:34:58+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1488351379436907",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:17+00:00",
+            "lastCollectedAt": "2026-10-10T22:34:59+00:00",
             "startTiming": "before-window"
           },
           {
@@ -2131,7 +2141,7 @@
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-09T22:35:20+00:00",
+        "lastCollectedAt": "2026-10-10T22:35:22+00:00",
         "advertisers": [
           {
             "name": "매스티나 mastina",
@@ -2143,7 +2153,7 @@
           },
           {
             "name": "Naverplus.store",
-            "adCount": 2
+            "adCount": 3
           },
           {
             "name": "속편한세상",
@@ -22952,71 +22962,54 @@
       "rankWindow": 100,
       "observedAt": "2026-10-10T00:20:06+00:00",
       "lastObservedAt": "2026-10-10T22:32:32+00:00",
-      "state": "cooldown",
+      "state": "done",
       "keywordId": "d26f6c2a7b284ecb6f0394c33f5ddb0a834461b4e21c58b297bcffe307fc4047",
       "searchQuery": "매스틱",
       "adEvidence": {
         "query": "매스틱",
         "matchType": "collected-with-query",
-        "adCount": 29,
+        "adCount": 30,
         "adIds": [
-          "1099355862559860",
-          "1770750960797435",
-          "1573460803877365",
+          "3389094334628844",
           "1131897752881199",
+          "1099355862559860",
           "1068299985832495",
           "2604014080034216",
-          "1614837057103850",
+          "1770750960797435",
+          "1573460803877365",
           "1433741312027188",
+          "1614837057103850",
+          "943320118362988",
           "2160039911390706",
           "1370312488508444",
-          "943320118362988",
+          "1088944333866221",
           "1985174032886940",
           "1805277960665829",
           "1764679644483779",
-          "1088944333866221",
           "1750388202680319",
-          "1715363529549178",
           "1626253415579039",
-          "4104074283060844",
+          "1715363529549178",
           "1618642469650567",
           "1101069309080111",
-          "1074250324964736",
+          "4104074283060844",
           "2574826649614277",
-          "1405639561517502",
+          "1074250324964736",
           "1007325835705312",
           "964287050028699",
-          "1488351379436907",
+          "1405639561517502",
           "1396625499156900",
+          "1488351379436907",
           "27111404678529400"
         ],
         "ads": [
           {
-            "id": "1099355862559860",
-            "advertiser": "매스티나 mastina",
-            "startedAt": "2026-09-30",
+            "id": "3389094334628844",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-10-09",
             "query": "매스틱",
-            "firstCollectedAt": "2026-10-09T22:35:20+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:20+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1770750960797435",
-            "advertiser": "매스티나 mastina",
-            "startedAt": "2026-09-30",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-09T22:35:19+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:19+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1573460803877365",
-            "advertiser": "매스티나 mastina",
-            "startedAt": "2026-09-30",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-09T22:35:19+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:19+00:00",
-            "startTiming": "before-window"
+            "firstCollectedAt": "2026-10-10T22:35:22+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:22+00:00",
+            "startTiming": "during-window"
           },
           {
             "id": "1131897752881199",
@@ -23024,7 +23017,16 @@
             "startedAt": "2026-09-22",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-09T22:35:19+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:19+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1099355862559860",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-09T22:35:20+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:21+00:00",
             "startTiming": "before-window"
           },
           {
@@ -23033,7 +23035,7 @@
             "startedAt": "2026-10-07",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-09T22:35:19+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:19+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:21+00:00",
             "startTiming": "during-window"
           },
           {
@@ -23042,7 +23044,34 @@
             "startedAt": "2026-09-22",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-09T22:35:18+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:18+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1770750960797435",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-09T22:35:19+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1573460803877365",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-09T22:35:19+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1433741312027188",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-09T22:35:18+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:20+00:00",
             "startTiming": "before-window"
           },
           {
@@ -23051,16 +23080,16 @@
             "startedAt": "2026-10-07",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-09T22:35:18+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:18+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:19+00:00",
             "startTiming": "during-window"
           },
           {
-            "id": "1433741312027188",
+            "id": "943320118362988",
             "advertiser": "매스티나 mastina",
             "startedAt": "2026-09-30",
             "query": "매스틱",
-            "firstCollectedAt": "2026-10-09T22:35:18+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:18+00:00",
+            "firstCollectedAt": "2026-10-07T16:00:26+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:08+00:00",
             "startTiming": "before-window"
           },
           {
@@ -23069,7 +23098,7 @@
             "startedAt": "2026-09-30",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-09T22:35:07+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:07+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:08+00:00",
             "startTiming": "before-window"
           },
           {
@@ -23078,43 +23107,7 @@
             "startedAt": "2026-09-22",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:26+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:07+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "943320118362988",
-            "advertiser": "매스티나 mastina",
-            "startedAt": "2026-09-30",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:26+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:06+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1985174032886940",
-            "advertiser": "매스티나 mastina",
-            "startedAt": "2026-09-30",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:26+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:06+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1805277960665829",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-10-04",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:26+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:06+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1764679644483779",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-09-22",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:25+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:06+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:08+00:00",
             "startTiming": "before-window"
           },
           {
@@ -23123,7 +23116,34 @@
             "startedAt": "2026-09-30",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:25+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:06+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1985174032886940",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:26+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1805277960665829",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-10-04",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:26+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:07+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1764679644483779",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-09-22",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:25+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:07+00:00",
             "startTiming": "before-window"
           },
           {
@@ -23132,16 +23152,7 @@
             "startedAt": "2026-09-30",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:25+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:05+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1715363529549178",
-            "advertiser": "매스티나 mastina",
-            "startedAt": "2026-09-30",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:24+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:05+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:07+00:00",
             "startTiming": "before-window"
           },
           {
@@ -23150,16 +23161,16 @@
             "startedAt": "2026-09-23",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:25+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:05+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:07+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "4104074283060844",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-08-21",
+            "id": "1715363529549178",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
             "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:19+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:00+00:00",
+            "firstCollectedAt": "2026-10-07T16:00:24+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:06+00:00",
             "startTiming": "before-window"
           },
           {
@@ -23168,7 +23179,7 @@
             "startedAt": "2026-09-30",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:24+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:00+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:02+00:00",
             "startTiming": "before-window"
           },
           {
@@ -23177,16 +23188,16 @@
             "startedAt": "2026-09-22",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:19+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:00+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:02+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1074250324964736",
+            "id": "4104074283060844",
             "advertiser": "프롬바이오",
-            "startedAt": "2026-08-24",
+            "startedAt": "2026-08-21",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:19+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:00+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:01+00:00",
             "startTiming": "before-window"
           },
           {
@@ -23195,16 +23206,16 @@
             "startedAt": "2026-09-10",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:18+00:00",
-            "lastCollectedAt": "2026-10-09T22:34:59+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:01+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1405639561517502",
-            "advertiser": "속편한세상",
-            "startedAt": "2026-09-10",
+            "id": "1074250324964736",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-08-24",
             "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:18+00:00",
-            "lastCollectedAt": "2026-10-09T22:34:59+00:00",
+            "firstCollectedAt": "2026-10-07T16:00:19+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:01+00:00",
             "startTiming": "before-window"
           },
           {
@@ -23213,7 +23224,7 @@
             "startedAt": "2026-09-15",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:18+00:00",
-            "lastCollectedAt": "2026-10-09T22:34:59+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:01+00:00",
             "startTiming": "before-window"
           },
           {
@@ -23222,16 +23233,16 @@
             "startedAt": "2026-08-24",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:17+00:00",
-            "lastCollectedAt": "2026-10-09T22:34:58+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:00+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1488351379436907",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
+            "id": "1405639561517502",
+            "advertiser": "속편한세상",
+            "startedAt": "2026-09-10",
             "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:17+00:00",
-            "lastCollectedAt": "2026-10-09T22:34:58+00:00",
+            "firstCollectedAt": "2026-10-07T16:00:18+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:00+00:00",
             "startTiming": "before-window"
           },
           {
@@ -23240,7 +23251,16 @@
             "startedAt": "2026-06-10",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:18+00:00",
-            "lastCollectedAt": "2026-10-09T22:34:58+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1488351379436907",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:17+00:00",
+            "lastCollectedAt": "2026-10-10T22:34:59+00:00",
             "startTiming": "before-window"
           },
           {
@@ -23253,7 +23273,7 @@
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-09T22:35:20+00:00",
+        "lastCollectedAt": "2026-10-10T22:35:22+00:00",
         "advertisers": [
           {
             "name": "매스티나 mastina",
@@ -23265,7 +23285,7 @@
           },
           {
             "name": "Naverplus.store",
-            "adCount": 2
+            "adCount": 3
           },
           {
             "name": "속편한세상",
@@ -33480,65 +33500,48 @@
       "adEvidence": {
         "query": "매스틱",
         "matchType": "collected-with-query",
-        "adCount": 29,
+        "adCount": 30,
         "adIds": [
-          "1099355862559860",
-          "1770750960797435",
-          "1573460803877365",
+          "3389094334628844",
           "1131897752881199",
+          "1099355862559860",
           "1068299985832495",
           "2604014080034216",
-          "1614837057103850",
+          "1770750960797435",
+          "1573460803877365",
           "1433741312027188",
+          "1614837057103850",
+          "943320118362988",
           "2160039911390706",
           "1370312488508444",
-          "943320118362988",
+          "1088944333866221",
           "1985174032886940",
           "1805277960665829",
           "1764679644483779",
-          "1088944333866221",
           "1750388202680319",
-          "1715363529549178",
           "1626253415579039",
-          "4104074283060844",
+          "1715363529549178",
           "1618642469650567",
           "1101069309080111",
-          "1074250324964736",
+          "4104074283060844",
           "2574826649614277",
-          "1405639561517502",
+          "1074250324964736",
           "1007325835705312",
           "964287050028699",
-          "1488351379436907",
+          "1405639561517502",
           "1396625499156900",
+          "1488351379436907",
           "27111404678529400"
         ],
         "ads": [
           {
-            "id": "1099355862559860",
-            "advertiser": "매스티나 mastina",
-            "startedAt": "2026-09-30",
+            "id": "3389094334628844",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-10-09",
             "query": "매스틱",
-            "firstCollectedAt": "2026-10-09T22:35:20+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:20+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1770750960797435",
-            "advertiser": "매스티나 mastina",
-            "startedAt": "2026-09-30",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-09T22:35:19+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:19+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1573460803877365",
-            "advertiser": "매스티나 mastina",
-            "startedAt": "2026-09-30",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-09T22:35:19+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:19+00:00",
-            "startTiming": "before-window"
+            "firstCollectedAt": "2026-10-10T22:35:22+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:22+00:00",
+            "startTiming": "after-window"
           },
           {
             "id": "1131897752881199",
@@ -33546,7 +33549,16 @@
             "startedAt": "2026-09-22",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-09T22:35:19+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:19+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1099355862559860",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-09T22:35:20+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:21+00:00",
             "startTiming": "before-window"
           },
           {
@@ -33555,7 +33567,7 @@
             "startedAt": "2026-10-07",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-09T22:35:19+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:19+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:21+00:00",
             "startTiming": "during-window"
           },
           {
@@ -33564,7 +33576,34 @@
             "startedAt": "2026-09-22",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-09T22:35:18+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:18+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1770750960797435",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-09T22:35:19+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1573460803877365",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-09T22:35:19+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1433741312027188",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-09T22:35:18+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:20+00:00",
             "startTiming": "before-window"
           },
           {
@@ -33573,16 +33612,16 @@
             "startedAt": "2026-10-07",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-09T22:35:18+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:18+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:19+00:00",
             "startTiming": "during-window"
           },
           {
-            "id": "1433741312027188",
+            "id": "943320118362988",
             "advertiser": "매스티나 mastina",
             "startedAt": "2026-09-30",
             "query": "매스틱",
-            "firstCollectedAt": "2026-10-09T22:35:18+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:18+00:00",
+            "firstCollectedAt": "2026-10-07T16:00:26+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:08+00:00",
             "startTiming": "before-window"
           },
           {
@@ -33591,7 +33630,7 @@
             "startedAt": "2026-09-30",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-09T22:35:07+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:07+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:08+00:00",
             "startTiming": "before-window"
           },
           {
@@ -33600,43 +33639,7 @@
             "startedAt": "2026-09-22",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:26+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:07+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "943320118362988",
-            "advertiser": "매스티나 mastina",
-            "startedAt": "2026-09-30",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:26+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:06+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1985174032886940",
-            "advertiser": "매스티나 mastina",
-            "startedAt": "2026-09-30",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:26+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:06+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1805277960665829",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-10-04",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:26+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:06+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1764679644483779",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-09-22",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:25+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:06+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:08+00:00",
             "startTiming": "before-window"
           },
           {
@@ -33645,7 +33648,34 @@
             "startedAt": "2026-09-30",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:25+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:06+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1985174032886940",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:26+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1805277960665829",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-10-04",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:26+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:07+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1764679644483779",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-09-22",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:25+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:07+00:00",
             "startTiming": "before-window"
           },
           {
@@ -33654,16 +33684,7 @@
             "startedAt": "2026-09-30",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:25+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:05+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1715363529549178",
-            "advertiser": "매스티나 mastina",
-            "startedAt": "2026-09-30",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:24+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:05+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:07+00:00",
             "startTiming": "before-window"
           },
           {
@@ -33672,16 +33693,16 @@
             "startedAt": "2026-09-23",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:25+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:05+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:07+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "4104074283060844",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-08-21",
+            "id": "1715363529549178",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
             "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:19+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:00+00:00",
+            "firstCollectedAt": "2026-10-07T16:00:24+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:06+00:00",
             "startTiming": "before-window"
           },
           {
@@ -33690,7 +33711,7 @@
             "startedAt": "2026-09-30",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:24+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:00+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:02+00:00",
             "startTiming": "before-window"
           },
           {
@@ -33699,16 +33720,16 @@
             "startedAt": "2026-09-22",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:19+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:00+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:02+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1074250324964736",
+            "id": "4104074283060844",
             "advertiser": "프롬바이오",
-            "startedAt": "2026-08-24",
+            "startedAt": "2026-08-21",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:19+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:00+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:01+00:00",
             "startTiming": "before-window"
           },
           {
@@ -33717,16 +33738,16 @@
             "startedAt": "2026-09-10",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:18+00:00",
-            "lastCollectedAt": "2026-10-09T22:34:59+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:01+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1405639561517502",
-            "advertiser": "속편한세상",
-            "startedAt": "2026-09-10",
+            "id": "1074250324964736",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-08-24",
             "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:18+00:00",
-            "lastCollectedAt": "2026-10-09T22:34:59+00:00",
+            "firstCollectedAt": "2026-10-07T16:00:19+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:01+00:00",
             "startTiming": "before-window"
           },
           {
@@ -33735,7 +33756,7 @@
             "startedAt": "2026-09-15",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:18+00:00",
-            "lastCollectedAt": "2026-10-09T22:34:59+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:01+00:00",
             "startTiming": "before-window"
           },
           {
@@ -33744,16 +33765,16 @@
             "startedAt": "2026-08-24",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:17+00:00",
-            "lastCollectedAt": "2026-10-09T22:34:58+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:00+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1488351379436907",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
+            "id": "1405639561517502",
+            "advertiser": "속편한세상",
+            "startedAt": "2026-09-10",
             "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:17+00:00",
-            "lastCollectedAt": "2026-10-09T22:34:58+00:00",
+            "firstCollectedAt": "2026-10-07T16:00:18+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:00+00:00",
             "startTiming": "before-window"
           },
           {
@@ -33762,7 +33783,16 @@
             "startedAt": "2026-06-10",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:18+00:00",
-            "lastCollectedAt": "2026-10-09T22:34:58+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1488351379436907",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:17+00:00",
+            "lastCollectedAt": "2026-10-10T22:34:59+00:00",
             "startTiming": "before-window"
           },
           {
@@ -33775,7 +33805,7 @@
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-09T22:35:20+00:00",
+        "lastCollectedAt": "2026-10-10T22:35:22+00:00",
         "advertisers": [
           {
             "name": "매스티나 mastina",
@@ -33787,7 +33817,7 @@
           },
           {
             "name": "Naverplus.store",
-            "adCount": 2
+            "adCount": 3
           },
           {
             "name": "속편한세상",
@@ -66417,65 +66447,48 @@
       "adEvidence": {
         "query": "매스틱",
         "matchType": "collected-with-query",
-        "adCount": 29,
+        "adCount": 30,
         "adIds": [
-          "1099355862559860",
-          "1770750960797435",
-          "1573460803877365",
+          "3389094334628844",
           "1131897752881199",
+          "1099355862559860",
           "1068299985832495",
           "2604014080034216",
-          "1614837057103850",
+          "1770750960797435",
+          "1573460803877365",
           "1433741312027188",
+          "1614837057103850",
+          "943320118362988",
           "2160039911390706",
           "1370312488508444",
-          "943320118362988",
+          "1088944333866221",
           "1985174032886940",
           "1805277960665829",
           "1764679644483779",
-          "1088944333866221",
           "1750388202680319",
-          "1715363529549178",
           "1626253415579039",
-          "4104074283060844",
+          "1715363529549178",
           "1618642469650567",
           "1101069309080111",
-          "1074250324964736",
+          "4104074283060844",
           "2574826649614277",
-          "1405639561517502",
+          "1074250324964736",
           "1007325835705312",
           "964287050028699",
-          "1488351379436907",
+          "1405639561517502",
           "1396625499156900",
+          "1488351379436907",
           "27111404678529400"
         ],
         "ads": [
           {
-            "id": "1099355862559860",
-            "advertiser": "매스티나 mastina",
-            "startedAt": "2026-09-30",
+            "id": "3389094334628844",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-10-09",
             "query": "매스틱",
-            "firstCollectedAt": "2026-10-09T22:35:20+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:20+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1770750960797435",
-            "advertiser": "매스티나 mastina",
-            "startedAt": "2026-09-30",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-09T22:35:19+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:19+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1573460803877365",
-            "advertiser": "매스티나 mastina",
-            "startedAt": "2026-09-30",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-09T22:35:19+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:19+00:00",
-            "startTiming": "during-window"
+            "firstCollectedAt": "2026-10-10T22:35:22+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:22+00:00",
+            "startTiming": "after-window"
           },
           {
             "id": "1131897752881199",
@@ -66483,8 +66496,17 @@
             "startedAt": "2026-09-22",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-09T22:35:19+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:19+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:21+00:00",
             "startTiming": "before-window"
+          },
+          {
+            "id": "1099355862559860",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-09T22:35:20+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:21+00:00",
+            "startTiming": "during-window"
           },
           {
             "id": "1068299985832495",
@@ -66492,7 +66514,7 @@
             "startedAt": "2026-10-07",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-09T22:35:19+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:19+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:21+00:00",
             "startTiming": "after-window"
           },
           {
@@ -66501,17 +66523,26 @@
             "startedAt": "2026-09-22",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-09T22:35:18+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:18+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:20+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1614837057103850",
+            "id": "1770750960797435",
             "advertiser": "매스티나 mastina",
-            "startedAt": "2026-10-07",
+            "startedAt": "2026-09-30",
             "query": "매스틱",
-            "firstCollectedAt": "2026-10-09T22:35:18+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:18+00:00",
-            "startTiming": "after-window"
+            "firstCollectedAt": "2026-10-09T22:35:19+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:20+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1573460803877365",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-09T22:35:19+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:20+00:00",
+            "startTiming": "during-window"
           },
           {
             "id": "1433741312027188",
@@ -66519,7 +66550,25 @@
             "startedAt": "2026-09-30",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-09T22:35:18+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:18+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:20+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1614837057103850",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-10-07",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-09T22:35:18+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:19+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "943320118362988",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:26+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:08+00:00",
             "startTiming": "during-window"
           },
           {
@@ -66528,7 +66577,7 @@
             "startedAt": "2026-09-30",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-09T22:35:07+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:07+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:08+00:00",
             "startTiming": "during-window"
           },
           {
@@ -66537,43 +66586,7 @@
             "startedAt": "2026-09-22",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:26+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:07+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "943320118362988",
-            "advertiser": "매스티나 mastina",
-            "startedAt": "2026-09-30",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:26+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:06+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1985174032886940",
-            "advertiser": "매스티나 mastina",
-            "startedAt": "2026-09-30",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:26+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:06+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1805277960665829",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-10-04",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:26+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:06+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1764679644483779",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-09-22",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:25+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:06+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:08+00:00",
             "startTiming": "before-window"
           },
           {
@@ -66582,8 +66595,35 @@
             "startedAt": "2026-09-30",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:25+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:06+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:08+00:00",
             "startTiming": "during-window"
+          },
+          {
+            "id": "1985174032886940",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:26+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:07+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1805277960665829",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-10-04",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:26+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:07+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1764679644483779",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-09-22",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:25+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:07+00:00",
+            "startTiming": "before-window"
           },
           {
             "id": "1750388202680319",
@@ -66591,16 +66631,7 @@
             "startedAt": "2026-09-30",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:25+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:05+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1715363529549178",
-            "advertiser": "매스티나 mastina",
-            "startedAt": "2026-09-30",
-            "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:24+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:05+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:07+00:00",
             "startTiming": "during-window"
           },
           {
@@ -66609,17 +66640,17 @@
             "startedAt": "2026-09-23",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:25+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:05+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:07+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "4104074283060844",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-08-21",
+            "id": "1715363529549178",
+            "advertiser": "매스티나 mastina",
+            "startedAt": "2026-09-30",
             "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:19+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:00+00:00",
-            "startTiming": "before-window"
+            "firstCollectedAt": "2026-10-07T16:00:24+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:06+00:00",
+            "startTiming": "during-window"
           },
           {
             "id": "1618642469650567",
@@ -66627,7 +66658,7 @@
             "startedAt": "2026-09-30",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:24+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:00+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:02+00:00",
             "startTiming": "during-window"
           },
           {
@@ -66636,16 +66667,16 @@
             "startedAt": "2026-09-22",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:19+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:00+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:02+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1074250324964736",
+            "id": "4104074283060844",
             "advertiser": "프롬바이오",
-            "startedAt": "2026-08-24",
+            "startedAt": "2026-08-21",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:19+00:00",
-            "lastCollectedAt": "2026-10-09T22:35:00+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:01+00:00",
             "startTiming": "before-window"
           },
           {
@@ -66654,16 +66685,16 @@
             "startedAt": "2026-09-10",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:18+00:00",
-            "lastCollectedAt": "2026-10-09T22:34:59+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:01+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1405639561517502",
-            "advertiser": "속편한세상",
-            "startedAt": "2026-09-10",
+            "id": "1074250324964736",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-08-24",
             "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:18+00:00",
-            "lastCollectedAt": "2026-10-09T22:34:59+00:00",
+            "firstCollectedAt": "2026-10-07T16:00:19+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:01+00:00",
             "startTiming": "before-window"
           },
           {
@@ -66672,7 +66703,7 @@
             "startedAt": "2026-09-15",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:18+00:00",
-            "lastCollectedAt": "2026-10-09T22:34:59+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:01+00:00",
             "startTiming": "before-window"
           },
           {
@@ -66681,16 +66712,16 @@
             "startedAt": "2026-08-24",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:17+00:00",
-            "lastCollectedAt": "2026-10-09T22:34:58+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:00+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1488351379436907",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
+            "id": "1405639561517502",
+            "advertiser": "속편한세상",
+            "startedAt": "2026-09-10",
             "query": "매스틱",
-            "firstCollectedAt": "2026-10-07T16:00:17+00:00",
-            "lastCollectedAt": "2026-10-09T22:34:58+00:00",
+            "firstCollectedAt": "2026-10-07T16:00:18+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:00+00:00",
             "startTiming": "before-window"
           },
           {
@@ -66699,7 +66730,16 @@
             "startedAt": "2026-06-10",
             "query": "매스틱",
             "firstCollectedAt": "2026-10-07T16:00:18+00:00",
-            "lastCollectedAt": "2026-10-09T22:34:58+00:00",
+            "lastCollectedAt": "2026-10-10T22:35:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1488351379436907",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "매스틱",
+            "firstCollectedAt": "2026-10-07T16:00:17+00:00",
+            "lastCollectedAt": "2026-10-10T22:34:59+00:00",
             "startTiming": "before-window"
           },
           {
@@ -66712,7 +66752,7 @@
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-09T22:35:20+00:00",
+        "lastCollectedAt": "2026-10-10T22:35:22+00:00",
         "advertisers": [
           {
             "name": "매스티나 mastina",
@@ -66724,7 +66764,7 @@
           },
           {
             "name": "Naverplus.store",
-            "adCount": 2
+            "adCount": 3
           },
           {
             "name": "속편한세상",
