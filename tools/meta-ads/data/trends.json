@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T21:31:46+00:00",
+  "updatedAt": "2026-10-10T22:18:06+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-10T21:31:46+00:00",
@@ -44,19 +44,19 @@
     "dailyUsed": 8,
     "dailyRemaining": 280,
     "pending": 0,
-    "nextDispatchAt": "2026-10-10T22:15:09+00:00",
+    "nextDispatchAt": "2026-10-10T22:18:06+00:00",
     "metaAutoEnabled": true,
-    "enabled": false,
+    "enabled": true,
     "collectionGuard": {
-      "state": "blocked",
-      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
-      "nextAllowedAt": "2026-10-10T22:15:09+00:00",
-      "blockedUntil": "2026-10-10T22:15:09+00:00",
-      "blockStreak": 1,
+      "state": "ready",
+      "reason": null,
+      "nextAllowedAt": null,
+      "blockedUntil": null,
+      "blockStreak": 0,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
+    "pausedReason": null
   },
   "settings": {
     "category": "50000023",
