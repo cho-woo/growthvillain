@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T13:27:00+00:00",
+  "updatedAt": "2026-10-10T13:30:59+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-10T00:20:37+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 46,
-    "dailyRemaining": 242,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-10T13:30:54+00:00",
+    "dailyUsed": 47,
+    "dailyRemaining": 241,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -5488,7 +5488,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "queued",
       "keywordId": "86a2c91334b2bbdd67f2a5dd18b59a27d762b940930a259898b5a93eab901001",
       "searchQuery": "흑염소진액",
       "adEvidence": {
@@ -22820,7 +22820,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-10T00:20:06+00:00",
       "lastObservedAt": "2026-10-10T00:20:06+00:00",
-      "state": "ready",
+      "state": "queued",
       "keywordId": "86a2c91334b2bbdd67f2a5dd18b59a27d762b940930a259898b5a93eab901001",
       "searchQuery": "흑염소진액",
       "adEvidence": {
