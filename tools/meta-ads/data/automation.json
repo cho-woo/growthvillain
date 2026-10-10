@@ -1,6 +1,6 @@
 {
   "mode": "snapshot",
-  "updatedAt": "2026-10-10T05:17:13+00:00",
+  "updatedAt": "2026-10-10T05:18:41+00:00",
   "automations": [
     {
       "id": "meta-ads",
@@ -8,9 +8,9 @@
       "enabled": true,
       "running": true,
       "state": "running",
-      "nextRunAt": "2026-10-10T05:17:13+00:00",
-      "lastSuccessAt": "2026-10-10T04:09:20+00:00",
-      "lastAttemptAt": "2026-10-10T05:15:30+00:00",
+      "nextRunAt": "2026-10-10T06:15:30+00:00",
+      "lastSuccessAt": "2026-10-10T05:17:39+00:00",
+      "lastAttemptAt": "2026-10-10T05:17:40+00:00",
       "message": "광고 라이브러리 수집 중",
       "intervalSeconds": 3600,
       "statusCheckIntervalSeconds": 900,
@@ -21,7 +21,7 @@
         "reason": null,
         "nextAllowedAt": null,
         "blockedUntil": null,
-        "blockStreak": 1,
+        "blockStreak": 0,
         "storageReady": true,
         "minimumFreeBytes": 5368709120
       }
@@ -95,11 +95,11 @@
       "name": "티스토리 연예",
       "enabled": true,
       "running": false,
-      "state": "waiting",
+      "state": "blocked",
       "nextRunAt": "2026-10-10T14:19:24+09:00",
       "lastSuccessAt": "2026-10-10T12:17:55+09:00",
       "lastAttemptAt": null,
-      "message": "후보 없음 또는 발행 한도·간격 대기 · AI 호출 없음",
+      "message": "작성/발행 확인 필요 (ImageProviderError) · 자동 재시도 중단",
       "intervalSeconds": 900,
       "statusCheckIntervalSeconds": null,
       "statusCheckBatchSize": null,
@@ -125,8 +125,8 @@
   ],
   "publication": {
     "state": "synced",
-    "lastAttemptAt": "2026-10-10T05:15:50+00:00",
-    "lastSuccessAt": "2026-10-10T05:15:55+00:00",
+    "lastAttemptAt": "2026-10-10T05:17:13+00:00",
+    "lastSuccessAt": "2026-10-10T05:17:17+00:00",
     "error": null,
     "enabled": true
   }
