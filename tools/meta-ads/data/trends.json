@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T06:25:49+00:00",
+  "updatedAt": "2026-10-10T06:27:59+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-10T00:20:37+00:00",
@@ -41,22 +41,22 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 36,
-    "dailyRemaining": 252,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "dailyUsed": 37,
+    "dailyRemaining": 251,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-10T07:27:59+00:00",
     "metaAutoEnabled": true,
-    "enabled": true,
+    "enabled": false,
     "collectionGuard": {
-      "state": "ready",
-      "reason": null,
-      "nextAllowedAt": null,
-      "blockedUntil": null,
-      "blockStreak": 0,
+      "state": "blocked",
+      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
+      "nextAllowedAt": "2026-10-10T07:27:59+00:00",
+      "blockedUntil": "2026-10-10T07:27:59+00:00",
+      "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": null
+    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
   },
   "settings": {
     "category": "50000023",
@@ -5755,7 +5755,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "failed",
       "keywordId": "bfd890dbd9ef0b2ab99c5eb7428950bf63c00b2f5bd08a768af2afb999d77a76",
       "searchQuery": "퀘르포민정",
       "adEvidence": {
@@ -8807,17 +8807,722 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "bd3cb59abc476635b276b22c122da97b5d0775c22ada4545370b319b67b65309",
       "searchQuery": "하이뮨",
       "adEvidence": {
         "query": "하이뮨",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 67,
+        "adIds": [
+          "4027477884214229",
+          "1538158858345788",
+          "1410952300971750",
+          "1328102215856276",
+          "1371959904699310",
+          "1150825020748338",
+          "1053701590832621",
+          "2940126873022710",
+          "28235258192799034",
+          "2295745281225450",
+          "1825895831738874",
+          "1609529507499368",
+          "1080967558020128",
+          "4228098667482013",
+          "2545775722592092",
+          "1661752625542828",
+          "1435327951870567",
+          "1725052041923934",
+          "1104452448979750",
+          "937652172301180",
+          "4583250231953496",
+          "1807834180226321",
+          "1607303047847176",
+          "949089374931500",
+          "28243883805314710",
+          "2274607416636804",
+          "2084626575507414",
+          "1094073273105845",
+          "2110894356177364",
+          "1628894272212407",
+          "3825226027616220",
+          "1669419754539906",
+          "3062031057332533",
+          "1748573153069786",
+          "1566857528045265",
+          "1465165875456293",
+          "1110252518036083",
+          "2539674786499463",
+          "1466930605248164",
+          "4694360544120297",
+          "4590517294526424",
+          "1564518761575924",
+          "1445126681023459",
+          "1107623618586656",
+          "1096229393358458",
+          "2348513435909628",
+          "2004394310367280",
+          "931214490068269",
+          "2177087549904496",
+          "2049513889260174",
+          "1341862414430231",
+          "1105623888486798",
+          "3059594544386285",
+          "1803613974329491",
+          "1392297186352484",
+          "2140249503508267",
+          "1695300458205766",
+          "3569430976567337",
+          "999745879405624",
+          "2045138699524307",
+          "1975814843116993",
+          "4194684670821992",
+          "1808729386798384",
+          "925908610357835",
+          "2456712811505018",
+          "1560168785319405",
+          "1485401350083790"
+        ],
+        "ads": [
+          {
+            "id": "4027477884214229",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:27:01+00:00",
+            "lastCollectedAt": "2026-10-10T06:27:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1538158858345788",
+            "advertiser": "하이뮨",
+            "startedAt": "2026-10-06",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:27:00+00:00",
+            "lastCollectedAt": "2026-10-10T06:27:00+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1410952300971750",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:27:00+00:00",
+            "lastCollectedAt": "2026-10-10T06:27:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1328102215856276",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-04",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:27:00+00:00",
+            "lastCollectedAt": "2026-10-10T06:27:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1371959904699310",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-10-02",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:59+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1150825020748338",
+            "advertiser": "하이뮨",
+            "startedAt": "2026-09-28",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:59+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1053701590832621",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:59+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2940126873022710",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-10-02",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:46+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28235258192799034",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-04",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:45+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2295745281225450",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-10-02",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:45+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1825895831738874",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-04",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:44+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1609529507499368",
+            "advertiser": "하이뮨 액티브",
+            "startedAt": "2026-09-30",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:44+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1080967558020128",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-04",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:44+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4228098667482013",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-10-02",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:43+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2545775722592092",
+            "advertiser": "하이뮨 액티브",
+            "startedAt": "2026-09-30",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:43+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1661752625542828",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-10-01",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:43+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1435327951870567",
+            "advertiser": "하이뮨",
+            "startedAt": "2026-09-28",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:42+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1725052041923934",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-10-01",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:35+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1104452448979750",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:35+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "937652172301180",
+            "advertiser": "하이뮨",
+            "startedAt": "2026-09-28",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:34+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4583250231953496",
+            "advertiser": "하이뮨",
+            "startedAt": "2026-09-28",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:34+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1807834180226321",
+            "advertiser": "하이뮨 액티브",
+            "startedAt": "2026-09-30",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:34+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1607303047847176",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:34+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "949089374931500",
+            "advertiser": "하이뮨 액티브",
+            "startedAt": "2026-09-30",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:33+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28243883805314710",
+            "advertiser": "하이뮨 액티브",
+            "startedAt": "2026-09-30",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:33+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2274607416636804",
+            "advertiser": "하이뮨 액티브",
+            "startedAt": "2026-10-02",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:33+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2084626575507414",
+            "advertiser": "하이뮨 액티브",
+            "startedAt": "2026-09-30",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:33+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1094073273105845",
+            "advertiser": "하이뮨 액티브",
+            "startedAt": "2026-09-29",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:26+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2110894356177364",
+            "advertiser": "지구를지키는소소한행동",
+            "startedAt": "2026-10-08",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:25+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:25+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1628894272212407",
+            "advertiser": "하이뮨 액티브",
+            "startedAt": "2026-09-30",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:25+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3825226027616220",
+            "advertiser": "하이뮨 액티브",
+            "startedAt": "2026-09-30",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:24+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1669419754539906",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-04",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:24+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3062031057332533",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:23+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1748573153069786",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-10-02",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:23+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1566857528045265",
+            "advertiser": "하이뮨 액티브",
+            "startedAt": "2026-09-29",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:22+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1465165875456293",
+            "advertiser": "하이뮨",
+            "startedAt": "2026-09-28",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:22+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1110252518036083",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:22+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2539674786499463",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:15+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1466930605248164",
+            "advertiser": "하이뮨",
+            "startedAt": "2026-09-28",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:15+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4694360544120297",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:14+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4590517294526424",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-04",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:14+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1564518761575924",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:13+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1445126681023459",
+            "advertiser": "Musinsa",
+            "startedAt": "2026-10-07",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:13+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:13+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1107623618586656",
+            "advertiser": "CJ온스타일",
+            "startedAt": "2026-10-01",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:13+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1096229393358458",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-04",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:13+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2348513435909628",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:12+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2004394310367280",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-04",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:12+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "931214490068269",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-22",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:05+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2177087549904496",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:05+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2049513889260174",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:04+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1341862414430231",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-04",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:04+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1105623888486798",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-04",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:04+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3059594544386285",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-04",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:03+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1803613974329491",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:03+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1392297186352484",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-22",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:03+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2140249503508267",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-04",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:02+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1695300458205766",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-04",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:02+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3569430976567337",
+            "advertiser": "하이뮨 액티브",
+            "startedAt": "2026-09-28",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:25:57+00:00",
+            "lastCollectedAt": "2026-10-10T06:25:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "999745879405624",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:25:56+00:00",
+            "lastCollectedAt": "2026-10-10T06:25:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2045138699524307",
+            "advertiser": "하이뮨",
+            "startedAt": "2026-09-28",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:25:56+00:00",
+            "lastCollectedAt": "2026-10-10T06:25:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1975814843116993",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:25:56+00:00",
+            "lastCollectedAt": "2026-10-10T06:25:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4194684670821992",
+            "advertiser": "하이뮨",
+            "startedAt": "2026-09-28",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:25:55+00:00",
+            "lastCollectedAt": "2026-10-10T06:25:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1808729386798384",
+            "advertiser": "하이뮨 액티브",
+            "startedAt": "2026-09-28",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:25:55+00:00",
+            "lastCollectedAt": "2026-10-10T06:25:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "925908610357835",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:25:54+00:00",
+            "lastCollectedAt": "2026-10-10T06:25:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2456712811505018",
+            "advertiser": "Musinsa",
+            "startedAt": "2026-09-17",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:25:54+00:00",
+            "lastCollectedAt": "2026-10-10T06:25:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1560168785319405",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:25:54+00:00",
+            "lastCollectedAt": "2026-10-10T06:25:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1485401350083790",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-04",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:25:54+00:00",
+            "lastCollectedAt": "2026-10-10T06:25:54+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-10T06:27:01+00:00",
+        "advertisers": [
+          {
+            "name": "쿠팡 Coupang",
+            "adCount": 23
+          },
+          {
+            "name": "후디스",
+            "adCount": 17
+          },
+          {
+            "name": "하이뮨 액티브",
+            "adCount": 13
+          },
+          {
+            "name": "하이뮨",
+            "adCount": 9
+          },
+          {
+            "name": "Musinsa",
+            "adCount": 2
+          },
+          {
+            "name": "CJ온스타일",
+            "adCount": 1
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 1
+          },
+          {
+            "name": "지구를지키는소소한행동",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -9810,17 +10515,722 @@
       "rankWindow": 100,
       "observedAt": "2026-10-10T00:20:37+00:00",
       "lastObservedAt": "2026-10-10T00:20:37+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "bd3cb59abc476635b276b22c122da97b5d0775c22ada4545370b319b67b65309",
       "searchQuery": "하이뮨",
       "adEvidence": {
         "query": "하이뮨",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 67,
+        "adIds": [
+          "4027477884214229",
+          "1538158858345788",
+          "1410952300971750",
+          "1328102215856276",
+          "1371959904699310",
+          "1150825020748338",
+          "1053701590832621",
+          "2940126873022710",
+          "28235258192799034",
+          "2295745281225450",
+          "1825895831738874",
+          "1609529507499368",
+          "1080967558020128",
+          "4228098667482013",
+          "2545775722592092",
+          "1661752625542828",
+          "1435327951870567",
+          "1725052041923934",
+          "1104452448979750",
+          "937652172301180",
+          "4583250231953496",
+          "1807834180226321",
+          "1607303047847176",
+          "949089374931500",
+          "28243883805314710",
+          "2274607416636804",
+          "2084626575507414",
+          "1094073273105845",
+          "2110894356177364",
+          "1628894272212407",
+          "3825226027616220",
+          "1669419754539906",
+          "3062031057332533",
+          "1748573153069786",
+          "1566857528045265",
+          "1465165875456293",
+          "1110252518036083",
+          "2539674786499463",
+          "1466930605248164",
+          "4694360544120297",
+          "4590517294526424",
+          "1564518761575924",
+          "1445126681023459",
+          "1107623618586656",
+          "1096229393358458",
+          "2348513435909628",
+          "2004394310367280",
+          "931214490068269",
+          "2177087549904496",
+          "2049513889260174",
+          "1341862414430231",
+          "1105623888486798",
+          "3059594544386285",
+          "1803613974329491",
+          "1392297186352484",
+          "2140249503508267",
+          "1695300458205766",
+          "3569430976567337",
+          "999745879405624",
+          "2045138699524307",
+          "1975814843116993",
+          "4194684670821992",
+          "1808729386798384",
+          "925908610357835",
+          "2456712811505018",
+          "1560168785319405",
+          "1485401350083790"
+        ],
+        "ads": [
+          {
+            "id": "4027477884214229",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:27:01+00:00",
+            "lastCollectedAt": "2026-10-10T06:27:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1538158858345788",
+            "advertiser": "하이뮨",
+            "startedAt": "2026-10-06",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:27:00+00:00",
+            "lastCollectedAt": "2026-10-10T06:27:00+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1410952300971750",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:27:00+00:00",
+            "lastCollectedAt": "2026-10-10T06:27:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1328102215856276",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-04",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:27:00+00:00",
+            "lastCollectedAt": "2026-10-10T06:27:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1371959904699310",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-10-02",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:59+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1150825020748338",
+            "advertiser": "하이뮨",
+            "startedAt": "2026-09-28",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:59+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1053701590832621",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:59+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2940126873022710",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-10-02",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:46+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28235258192799034",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-04",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:45+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2295745281225450",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-10-02",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:45+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1825895831738874",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-04",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:44+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1609529507499368",
+            "advertiser": "하이뮨 액티브",
+            "startedAt": "2026-09-30",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:44+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1080967558020128",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-04",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:44+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4228098667482013",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-10-02",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:43+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2545775722592092",
+            "advertiser": "하이뮨 액티브",
+            "startedAt": "2026-09-30",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:43+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1661752625542828",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-10-01",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:43+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1435327951870567",
+            "advertiser": "하이뮨",
+            "startedAt": "2026-09-28",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:42+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1725052041923934",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-10-01",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:35+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1104452448979750",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:35+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "937652172301180",
+            "advertiser": "하이뮨",
+            "startedAt": "2026-09-28",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:34+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4583250231953496",
+            "advertiser": "하이뮨",
+            "startedAt": "2026-09-28",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:34+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1807834180226321",
+            "advertiser": "하이뮨 액티브",
+            "startedAt": "2026-09-30",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:34+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1607303047847176",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:34+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "949089374931500",
+            "advertiser": "하이뮨 액티브",
+            "startedAt": "2026-09-30",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:33+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28243883805314710",
+            "advertiser": "하이뮨 액티브",
+            "startedAt": "2026-09-30",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:33+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2274607416636804",
+            "advertiser": "하이뮨 액티브",
+            "startedAt": "2026-10-02",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:33+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2084626575507414",
+            "advertiser": "하이뮨 액티브",
+            "startedAt": "2026-09-30",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:33+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1094073273105845",
+            "advertiser": "하이뮨 액티브",
+            "startedAt": "2026-09-29",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:26+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2110894356177364",
+            "advertiser": "지구를지키는소소한행동",
+            "startedAt": "2026-10-08",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:25+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:25+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1628894272212407",
+            "advertiser": "하이뮨 액티브",
+            "startedAt": "2026-09-30",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:25+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3825226027616220",
+            "advertiser": "하이뮨 액티브",
+            "startedAt": "2026-09-30",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:24+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1669419754539906",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-04",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:24+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3062031057332533",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:23+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1748573153069786",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-10-02",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:23+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1566857528045265",
+            "advertiser": "하이뮨 액티브",
+            "startedAt": "2026-09-29",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:22+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1465165875456293",
+            "advertiser": "하이뮨",
+            "startedAt": "2026-09-28",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:22+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1110252518036083",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:22+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2539674786499463",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:15+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1466930605248164",
+            "advertiser": "하이뮨",
+            "startedAt": "2026-09-28",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:15+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4694360544120297",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:14+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4590517294526424",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-04",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:14+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1564518761575924",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:13+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1445126681023459",
+            "advertiser": "Musinsa",
+            "startedAt": "2026-10-07",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:13+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:13+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1107623618586656",
+            "advertiser": "CJ온스타일",
+            "startedAt": "2026-10-01",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:13+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1096229393358458",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-04",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:13+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2348513435909628",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:12+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2004394310367280",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-04",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:12+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "931214490068269",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-22",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:05+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2177087549904496",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:05+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2049513889260174",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:04+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1341862414430231",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-04",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:04+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1105623888486798",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-04",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:04+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3059594544386285",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-04",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:03+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1803613974329491",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:03+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1392297186352484",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-22",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:03+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2140249503508267",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-04",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:02+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1695300458205766",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-04",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:26:02+00:00",
+            "lastCollectedAt": "2026-10-10T06:26:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3569430976567337",
+            "advertiser": "하이뮨 액티브",
+            "startedAt": "2026-09-28",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:25:57+00:00",
+            "lastCollectedAt": "2026-10-10T06:25:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "999745879405624",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:25:56+00:00",
+            "lastCollectedAt": "2026-10-10T06:25:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2045138699524307",
+            "advertiser": "하이뮨",
+            "startedAt": "2026-09-28",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:25:56+00:00",
+            "lastCollectedAt": "2026-10-10T06:25:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1975814843116993",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:25:56+00:00",
+            "lastCollectedAt": "2026-10-10T06:25:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4194684670821992",
+            "advertiser": "하이뮨",
+            "startedAt": "2026-09-28",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:25:55+00:00",
+            "lastCollectedAt": "2026-10-10T06:25:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1808729386798384",
+            "advertiser": "하이뮨 액티브",
+            "startedAt": "2026-09-28",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:25:55+00:00",
+            "lastCollectedAt": "2026-10-10T06:25:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "925908610357835",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:25:54+00:00",
+            "lastCollectedAt": "2026-10-10T06:25:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2456712811505018",
+            "advertiser": "Musinsa",
+            "startedAt": "2026-09-17",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:25:54+00:00",
+            "lastCollectedAt": "2026-10-10T06:25:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1560168785319405",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:25:54+00:00",
+            "lastCollectedAt": "2026-10-10T06:25:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1485401350083790",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-04",
+            "query": "하이뮨",
+            "firstCollectedAt": "2026-10-10T06:25:54+00:00",
+            "lastCollectedAt": "2026-10-10T06:25:54+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-10T06:27:01+00:00",
+        "advertisers": [
+          {
+            "name": "쿠팡 Coupang",
+            "adCount": 23
+          },
+          {
+            "name": "후디스",
+            "adCount": 17
+          },
+          {
+            "name": "하이뮨 액티브",
+            "adCount": 13
+          },
+          {
+            "name": "하이뮨",
+            "adCount": 9
+          },
+          {
+            "name": "Musinsa",
+            "adCount": 2
+          },
+          {
+            "name": "CJ온스타일",
+            "adCount": 1
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 1
+          },
+          {
+            "name": "지구를지키는소소한행동",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -12594,7 +14004,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-10T00:20:06+00:00",
       "lastObservedAt": "2026-10-10T00:20:06+00:00",
-      "state": "ready",
+      "state": "failed",
       "keywordId": "bfd890dbd9ef0b2ab99c5eb7428950bf63c00b2f5bd08a768af2afb999d77a76",
       "searchQuery": "퀘르포민정",
       "adEvidence": {
