@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T17:25:46+00:00",
+  "updatedAt": "2026-10-10T17:37:12+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-10T17:25:46+00:00",
@@ -41,22 +41,22 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 5,
-    "dailyRemaining": 283,
+    "dailyUsed": 6,
+    "dailyRemaining": 282,
     "pending": 0,
-    "nextDispatchAt": "2026-10-10T17:29:22+00:00",
+    "nextDispatchAt": "2026-10-10T17:41:39+00:00",
     "metaAutoEnabled": true,
-    "enabled": false,
+    "enabled": true,
     "collectionGuard": {
-      "state": "failure",
-      "reason": "Meta 조회 오류 · 5분 대기 후 다음 작업 확인",
-      "nextAllowedAt": "2026-10-10T17:29:22+00:00",
+      "state": "ready",
+      "reason": null,
+      "nextAllowedAt": null,
       "blockedUntil": null,
       "blockStreak": 0,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": "Meta 조회 오류 · 5분 대기 후 다음 작업 확인"
+    "pausedReason": null
   },
   "settings": {
     "category": "50000023",
@@ -1767,7 +1767,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "cooldown",
+      "state": "done",
       "keywordId": "5c0111843342825d1d828733f3a8692af2e2f530a46eb906f7efe4dd1d654e41",
       "searchQuery": "드시모네유산균",
       "adEvidence": {
@@ -1775,30 +1775,30 @@
         "matchType": "collected-with-query",
         "adCount": 2,
         "adIds": [
-          "1772166330568565",
-          "2939837116383954"
+          "2939837116383954",
+          "1772166330568565"
         ],
         "ads": [
-          {
-            "id": "1772166330568565",
-            "advertiser": "마키그램",
-            "startedAt": "2026-10-06",
-            "query": "드시모네유산균",
-            "firstCollectedAt": "2026-10-09T17:36:54+00:00",
-            "lastCollectedAt": "2026-10-09T17:36:54+00:00",
-            "startTiming": "during-window"
-          },
           {
             "id": "2939837116383954",
             "advertiser": "Lovesoso jungin",
             "startedAt": "2026-09-01",
             "query": "드시모네유산균",
             "firstCollectedAt": "2026-10-09T17:36:53+00:00",
-            "lastCollectedAt": "2026-10-09T17:36:53+00:00",
+            "lastCollectedAt": "2026-10-10T17:36:50+00:00",
             "startTiming": "before-window"
+          },
+          {
+            "id": "1772166330568565",
+            "advertiser": "마키그램",
+            "startedAt": "2026-10-06",
+            "query": "드시모네유산균",
+            "firstCollectedAt": "2026-10-09T17:36:54+00:00",
+            "lastCollectedAt": "2026-10-10T17:36:50+00:00",
+            "startTiming": "during-window"
           }
         ],
-        "lastCollectedAt": "2026-10-09T17:36:54+00:00",
+        "lastCollectedAt": "2026-10-10T17:36:50+00:00",
         "advertisers": [
           {
             "name": "Lovesoso jungin",
@@ -20382,7 +20382,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-10T00:20:06+00:00",
       "lastObservedAt": "2026-10-10T17:25:01+00:00",
-      "state": "cooldown",
+      "state": "done",
       "keywordId": "5c0111843342825d1d828733f3a8692af2e2f530a46eb906f7efe4dd1d654e41",
       "searchQuery": "드시모네유산균",
       "adEvidence": {
@@ -20390,30 +20390,30 @@
         "matchType": "collected-with-query",
         "adCount": 2,
         "adIds": [
-          "1772166330568565",
-          "2939837116383954"
+          "2939837116383954",
+          "1772166330568565"
         ],
         "ads": [
-          {
-            "id": "1772166330568565",
-            "advertiser": "마키그램",
-            "startedAt": "2026-10-06",
-            "query": "드시모네유산균",
-            "firstCollectedAt": "2026-10-09T17:36:54+00:00",
-            "lastCollectedAt": "2026-10-09T17:36:54+00:00",
-            "startTiming": "during-window"
-          },
           {
             "id": "2939837116383954",
             "advertiser": "Lovesoso jungin",
             "startedAt": "2026-09-01",
             "query": "드시모네유산균",
             "firstCollectedAt": "2026-10-09T17:36:53+00:00",
-            "lastCollectedAt": "2026-10-09T17:36:53+00:00",
+            "lastCollectedAt": "2026-10-10T17:36:50+00:00",
             "startTiming": "before-window"
+          },
+          {
+            "id": "1772166330568565",
+            "advertiser": "마키그램",
+            "startedAt": "2026-10-06",
+            "query": "드시모네유산균",
+            "firstCollectedAt": "2026-10-09T17:36:54+00:00",
+            "lastCollectedAt": "2026-10-10T17:36:50+00:00",
+            "startTiming": "during-window"
           }
         ],
-        "lastCollectedAt": "2026-10-09T17:36:54+00:00",
+        "lastCollectedAt": "2026-10-10T17:36:50+00:00",
         "advertisers": [
           {
             "name": "Lovesoso jungin",
@@ -31008,30 +31008,30 @@
         "matchType": "collected-with-query",
         "adCount": 2,
         "adIds": [
-          "1772166330568565",
-          "2939837116383954"
+          "2939837116383954",
+          "1772166330568565"
         ],
         "ads": [
-          {
-            "id": "1772166330568565",
-            "advertiser": "마키그램",
-            "startedAt": "2026-10-06",
-            "query": "드시모네유산균",
-            "firstCollectedAt": "2026-10-09T17:36:54+00:00",
-            "lastCollectedAt": "2026-10-09T17:36:54+00:00",
-            "startTiming": "during-window"
-          },
           {
             "id": "2939837116383954",
             "advertiser": "Lovesoso jungin",
             "startedAt": "2026-09-01",
             "query": "드시모네유산균",
             "firstCollectedAt": "2026-10-09T17:36:53+00:00",
-            "lastCollectedAt": "2026-10-09T17:36:53+00:00",
+            "lastCollectedAt": "2026-10-10T17:36:50+00:00",
             "startTiming": "before-window"
+          },
+          {
+            "id": "1772166330568565",
+            "advertiser": "마키그램",
+            "startedAt": "2026-10-06",
+            "query": "드시모네유산균",
+            "firstCollectedAt": "2026-10-09T17:36:54+00:00",
+            "lastCollectedAt": "2026-10-10T17:36:50+00:00",
+            "startTiming": "during-window"
           }
         ],
-        "lastCollectedAt": "2026-10-09T17:36:54+00:00",
+        "lastCollectedAt": "2026-10-10T17:36:50+00:00",
         "advertisers": [
           {
             "name": "Lovesoso jungin",
