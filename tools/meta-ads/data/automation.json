@@ -1,15 +1,15 @@
 {
   "mode": "snapshot",
-  "updatedAt": "2026-10-10T16:30:52+00:00",
+  "updatedAt": "2026-10-10T16:32:21+00:00",
   "automations": [
     {
       "id": "meta-ads",
       "name": "메타 광고",
       "enabled": true,
       "running": false,
-      "state": "running",
+      "state": "waiting",
       "nextRunAt": "2026-10-10T17:14:27+00:00",
-      "lastSuccessAt": "2026-10-10T16:18:28+00:00",
+      "lastSuccessAt": "2026-10-10T16:30:52+00:00",
       "lastAttemptAt": "2026-10-10T16:29:37+00:00",
       "message": "광고 라이브러리 수집 예약",
       "intervalSeconds": 3600,
@@ -125,8 +125,8 @@
   ],
   "publication": {
     "state": "synced",
-    "lastAttemptAt": "2026-10-10T16:25:29+00:00",
-    "lastSuccessAt": "2026-10-10T16:25:36+00:00",
+    "lastAttemptAt": "2026-10-10T16:30:52+00:00",
+    "lastSuccessAt": "2026-10-10T16:30:59+00:00",
     "error": null,
     "enabled": true
   }
