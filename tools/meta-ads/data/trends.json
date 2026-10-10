@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T13:22:29+00:00",
+  "updatedAt": "2026-10-10T13:25:55+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-10T00:20:37+00:00",
@@ -41,8 +41,8 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 45,
-    "dailyRemaining": 243,
+    "dailyUsed": 46,
+    "dailyRemaining": 242,
     "pending": 1,
     "nextDispatchAt": null,
     "metaAutoEnabled": true,
@@ -7038,7 +7038,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "queued",
       "keywordId": "95b07679ff469e159048159bdecd1808ddf7cc2c5fa7a45e56a4aafc2041662e",
       "searchQuery": "삼백초",
       "adEvidence": {
@@ -7782,62 +7782,76 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "de8dd8cf720920b49361fe9e65f0e0b14a67d767ef4d7ecdccaac397357d824e",
       "searchQuery": "센트룸",
       "adEvidence": {
         "query": "센트룸",
         "matchType": "collected-with-query",
-        "adCount": 20,
+        "adCount": 25,
         "adIds": [
-          "29397297379873226",
-          "1993152641345069",
-          "1578652396876106",
+          "2955403538132748",
+          "1868566327643263",
+          "1341689979026495",
+          "3277562679080829",
           "1571447140843157",
+          "29397297379873226",
           "1382828690633746",
           "2530326977468855",
+          "1993152641345069",
+          "1578652396876106",
+          "28688190997533871",
           "1607398040924712",
           "1571672674127593",
-          "28688190997533871",
           "1119287147314998",
-          "947339314604224",
-          "1634275401756868",
           "1313610900751921",
-          "1103440545524431",
+          "1634275401756868",
           "1089234823484628",
-          "1704701921659393",
+          "947339314604224",
+          "1103440545524431",
           "1628450298647761",
           "1999922714743634",
-          "29376720588597107",
-          "2320663695349496"
+          "1704701921659393",
+          "2320663695349496",
+          "1781160679719737",
+          "29376720588597107"
         ],
         "ads": [
           {
-            "id": "29397297379873226",
+            "id": "2955403538132748",
             "advertiser": "센트룸",
             "startedAt": "2026-09-30",
             "query": "센트룸",
-            "firstCollectedAt": "2026-10-07T03:16:43+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:43+00:00",
+            "firstCollectedAt": "2026-10-10T13:25:28+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:28+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1993152641345069",
-            "advertiser": "센트룸",
-            "startedAt": "2026-10-01",
-            "query": "센트룸",
-            "firstCollectedAt": "2026-10-07T03:16:43+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:43+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1578652396876106",
+            "id": "1868566327643263",
             "advertiser": "센트룸",
             "startedAt": "2026-09-30",
             "query": "센트룸",
-            "firstCollectedAt": "2026-10-07T03:16:43+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:43+00:00",
+            "firstCollectedAt": "2026-10-10T13:25:28+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:28+00:00",
             "startTiming": "before-window"
+          },
+          {
+            "id": "1341689979026495",
+            "advertiser": "센트룸",
+            "startedAt": "2026-09-30",
+            "query": "센트룸",
+            "firstCollectedAt": "2026-10-10T13:25:27+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3277562679080829",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-10-06",
+            "query": "센트룸",
+            "firstCollectedAt": "2026-10-10T13:25:26+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:26+00:00",
+            "startTiming": "during-window"
           },
           {
             "id": "1571447140843157",
@@ -7845,7 +7859,16 @@
             "startedAt": "2026-09-30",
             "query": "센트룸",
             "firstCollectedAt": "2026-10-07T03:16:43+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:43+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "29397297379873226",
+            "advertiser": "센트룸",
+            "startedAt": "2026-09-30",
+            "query": "센트룸",
+            "firstCollectedAt": "2026-10-07T03:16:43+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:15+00:00",
             "startTiming": "before-window"
           },
           {
@@ -7854,7 +7877,7 @@
             "startedAt": "2026-09-30",
             "query": "센트룸",
             "firstCollectedAt": "2026-10-07T03:16:43+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:43+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:15+00:00",
             "startTiming": "before-window"
           },
           {
@@ -7863,25 +7886,25 @@
             "startedAt": "2026-09-30",
             "query": "센트룸",
             "firstCollectedAt": "2026-10-07T03:16:42+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:42+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:14+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1607398040924712",
+            "id": "1993152641345069",
             "advertiser": "센트룸",
-            "startedAt": "2026-09-30",
+            "startedAt": "2026-10-01",
             "query": "센트룸",
-            "firstCollectedAt": "2026-10-07T03:16:42+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:42+00:00",
+            "firstCollectedAt": "2026-10-07T03:16:43+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:14+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1571672674127593",
+            "id": "1578652396876106",
             "advertiser": "센트룸",
             "startedAt": "2026-09-30",
             "query": "센트룸",
-            "firstCollectedAt": "2026-10-07T03:16:42+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:42+00:00",
+            "firstCollectedAt": "2026-10-07T03:16:43+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:14+00:00",
             "startTiming": "before-window"
           },
           {
@@ -7890,7 +7913,25 @@
             "startedAt": "2026-09-30",
             "query": "센트룸",
             "firstCollectedAt": "2026-10-07T03:16:41+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:41+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1607398040924712",
+            "advertiser": "센트룸",
+            "startedAt": "2026-09-30",
+            "query": "센트룸",
+            "firstCollectedAt": "2026-10-07T03:16:42+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1571672674127593",
+            "advertiser": "센트룸",
+            "startedAt": "2026-09-30",
+            "query": "센트룸",
+            "firstCollectedAt": "2026-10-07T03:16:42+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:12+00:00",
             "startTiming": "before-window"
           },
           {
@@ -7899,25 +7940,7 @@
             "startedAt": "2026-09-30",
             "query": "센트룸",
             "firstCollectedAt": "2026-10-07T03:16:41+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:41+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "947339314604224",
-            "advertiser": "센트룸",
-            "startedAt": "2026-09-30",
-            "query": "센트룸",
-            "firstCollectedAt": "2026-10-07T03:16:35+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:35+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1634275401756868",
-            "advertiser": "센트룸",
-            "startedAt": "2026-09-30",
-            "query": "센트룸",
-            "firstCollectedAt": "2026-10-07T03:16:35+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:35+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:12+00:00",
             "startTiming": "before-window"
           },
           {
@@ -7926,16 +7949,16 @@
             "startedAt": "2026-09-30",
             "query": "센트룸",
             "firstCollectedAt": "2026-10-07T03:16:35+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:35+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:11+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1103440545524431",
+            "id": "1634275401756868",
             "advertiser": "센트룸",
             "startedAt": "2026-09-30",
             "query": "센트룸",
-            "firstCollectedAt": "2026-10-07T03:16:34+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:34+00:00",
+            "firstCollectedAt": "2026-10-07T03:16:35+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:06+00:00",
             "startTiming": "before-window"
           },
           {
@@ -7944,16 +7967,25 @@
             "startedAt": "2026-09-30",
             "query": "센트룸",
             "firstCollectedAt": "2026-10-07T03:16:34+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:34+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:06+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1704701921659393",
+            "id": "947339314604224",
             "advertiser": "센트룸",
             "startedAt": "2026-09-30",
             "query": "센트룸",
-            "firstCollectedAt": "2026-10-07T03:16:33+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:33+00:00",
+            "firstCollectedAt": "2026-10-07T03:16:35+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1103440545524431",
+            "advertiser": "센트룸",
+            "startedAt": "2026-09-30",
+            "query": "센트룸",
+            "firstCollectedAt": "2026-10-07T03:16:34+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:05+00:00",
             "startTiming": "before-window"
           },
           {
@@ -7962,7 +7994,7 @@
             "startedAt": "2026-09-30",
             "query": "센트룸",
             "firstCollectedAt": "2026-10-07T03:16:33+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:33+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:04+00:00",
             "startTiming": "before-window"
           },
           {
@@ -7971,16 +8003,16 @@
             "startedAt": "2026-05-29",
             "query": "센트룸",
             "firstCollectedAt": "2026-10-07T03:16:32+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:32+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:03+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "29376720588597107",
-            "advertiser": "네이버플러스 스토어",
-            "startedAt": "2026-09-27",
+            "id": "1704701921659393",
+            "advertiser": "센트룸",
+            "startedAt": "2026-09-30",
             "query": "센트룸",
-            "firstCollectedAt": "2026-10-07T03:16:31+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:31+00:00",
+            "firstCollectedAt": "2026-10-07T03:16:33+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:03+00:00",
             "startTiming": "before-window"
           },
           {
@@ -7989,15 +8021,37 @@
             "startedAt": "2026-09-30",
             "query": "센트룸",
             "firstCollectedAt": "2026-10-07T03:16:31+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:31+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1781160679719737",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-22",
+            "query": "센트룸",
+            "firstCollectedAt": "2026-10-10T13:25:01+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "29376720588597107",
+            "advertiser": "네이버플러스 스토어",
+            "startedAt": "2026-09-27",
+            "query": "센트룸",
+            "firstCollectedAt": "2026-10-07T03:16:31+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:00+00:00",
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-07T03:16:43+00:00",
+        "lastCollectedAt": "2026-10-10T13:25:28+00:00",
         "advertisers": [
           {
             "name": "센트룸",
-            "adCount": 18
+            "adCount": 21
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 2
           },
           {
             "name": "네이버플러스 스토어",
@@ -18462,62 +18516,76 @@
       "rankWindow": 100,
       "observedAt": "2026-10-10T00:20:06+00:00",
       "lastObservedAt": "2026-10-10T00:20:06+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "de8dd8cf720920b49361fe9e65f0e0b14a67d767ef4d7ecdccaac397357d824e",
       "searchQuery": "센트룸",
       "adEvidence": {
         "query": "센트룸",
         "matchType": "collected-with-query",
-        "adCount": 20,
+        "adCount": 25,
         "adIds": [
-          "29397297379873226",
-          "1993152641345069",
-          "1578652396876106",
+          "2955403538132748",
+          "1868566327643263",
+          "1341689979026495",
+          "3277562679080829",
           "1571447140843157",
+          "29397297379873226",
           "1382828690633746",
           "2530326977468855",
+          "1993152641345069",
+          "1578652396876106",
+          "28688190997533871",
           "1607398040924712",
           "1571672674127593",
-          "28688190997533871",
           "1119287147314998",
-          "947339314604224",
-          "1634275401756868",
           "1313610900751921",
-          "1103440545524431",
+          "1634275401756868",
           "1089234823484628",
-          "1704701921659393",
+          "947339314604224",
+          "1103440545524431",
           "1628450298647761",
           "1999922714743634",
-          "29376720588597107",
-          "2320663695349496"
+          "1704701921659393",
+          "2320663695349496",
+          "1781160679719737",
+          "29376720588597107"
         ],
         "ads": [
           {
-            "id": "29397297379873226",
+            "id": "2955403538132748",
             "advertiser": "센트룸",
             "startedAt": "2026-09-30",
             "query": "센트룸",
-            "firstCollectedAt": "2026-10-07T03:16:43+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:43+00:00",
+            "firstCollectedAt": "2026-10-10T13:25:28+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:28+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1993152641345069",
-            "advertiser": "센트룸",
-            "startedAt": "2026-10-01",
-            "query": "센트룸",
-            "firstCollectedAt": "2026-10-07T03:16:43+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:43+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1578652396876106",
+            "id": "1868566327643263",
             "advertiser": "센트룸",
             "startedAt": "2026-09-30",
             "query": "센트룸",
-            "firstCollectedAt": "2026-10-07T03:16:43+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:43+00:00",
+            "firstCollectedAt": "2026-10-10T13:25:28+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:28+00:00",
             "startTiming": "before-window"
+          },
+          {
+            "id": "1341689979026495",
+            "advertiser": "센트룸",
+            "startedAt": "2026-09-30",
+            "query": "센트룸",
+            "firstCollectedAt": "2026-10-10T13:25:27+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3277562679080829",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-10-06",
+            "query": "센트룸",
+            "firstCollectedAt": "2026-10-10T13:25:26+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:26+00:00",
+            "startTiming": "during-window"
           },
           {
             "id": "1571447140843157",
@@ -18525,7 +18593,16 @@
             "startedAt": "2026-09-30",
             "query": "센트룸",
             "firstCollectedAt": "2026-10-07T03:16:43+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:43+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "29397297379873226",
+            "advertiser": "센트룸",
+            "startedAt": "2026-09-30",
+            "query": "센트룸",
+            "firstCollectedAt": "2026-10-07T03:16:43+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:15+00:00",
             "startTiming": "before-window"
           },
           {
@@ -18534,7 +18611,7 @@
             "startedAt": "2026-09-30",
             "query": "센트룸",
             "firstCollectedAt": "2026-10-07T03:16:43+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:43+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:15+00:00",
             "startTiming": "before-window"
           },
           {
@@ -18543,25 +18620,25 @@
             "startedAt": "2026-09-30",
             "query": "센트룸",
             "firstCollectedAt": "2026-10-07T03:16:42+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:42+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:14+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1607398040924712",
+            "id": "1993152641345069",
             "advertiser": "센트룸",
-            "startedAt": "2026-09-30",
+            "startedAt": "2026-10-01",
             "query": "센트룸",
-            "firstCollectedAt": "2026-10-07T03:16:42+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:42+00:00",
+            "firstCollectedAt": "2026-10-07T03:16:43+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:14+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1571672674127593",
+            "id": "1578652396876106",
             "advertiser": "센트룸",
             "startedAt": "2026-09-30",
             "query": "센트룸",
-            "firstCollectedAt": "2026-10-07T03:16:42+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:42+00:00",
+            "firstCollectedAt": "2026-10-07T03:16:43+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:14+00:00",
             "startTiming": "before-window"
           },
           {
@@ -18570,7 +18647,25 @@
             "startedAt": "2026-09-30",
             "query": "센트룸",
             "firstCollectedAt": "2026-10-07T03:16:41+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:41+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1607398040924712",
+            "advertiser": "센트룸",
+            "startedAt": "2026-09-30",
+            "query": "센트룸",
+            "firstCollectedAt": "2026-10-07T03:16:42+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1571672674127593",
+            "advertiser": "센트룸",
+            "startedAt": "2026-09-30",
+            "query": "센트룸",
+            "firstCollectedAt": "2026-10-07T03:16:42+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:12+00:00",
             "startTiming": "before-window"
           },
           {
@@ -18579,25 +18674,7 @@
             "startedAt": "2026-09-30",
             "query": "센트룸",
             "firstCollectedAt": "2026-10-07T03:16:41+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:41+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "947339314604224",
-            "advertiser": "센트룸",
-            "startedAt": "2026-09-30",
-            "query": "센트룸",
-            "firstCollectedAt": "2026-10-07T03:16:35+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:35+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1634275401756868",
-            "advertiser": "센트룸",
-            "startedAt": "2026-09-30",
-            "query": "센트룸",
-            "firstCollectedAt": "2026-10-07T03:16:35+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:35+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:12+00:00",
             "startTiming": "before-window"
           },
           {
@@ -18606,16 +18683,16 @@
             "startedAt": "2026-09-30",
             "query": "센트룸",
             "firstCollectedAt": "2026-10-07T03:16:35+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:35+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:11+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1103440545524431",
+            "id": "1634275401756868",
             "advertiser": "센트룸",
             "startedAt": "2026-09-30",
             "query": "센트룸",
-            "firstCollectedAt": "2026-10-07T03:16:34+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:34+00:00",
+            "firstCollectedAt": "2026-10-07T03:16:35+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:06+00:00",
             "startTiming": "before-window"
           },
           {
@@ -18624,16 +18701,25 @@
             "startedAt": "2026-09-30",
             "query": "센트룸",
             "firstCollectedAt": "2026-10-07T03:16:34+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:34+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:06+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1704701921659393",
+            "id": "947339314604224",
             "advertiser": "센트룸",
             "startedAt": "2026-09-30",
             "query": "센트룸",
-            "firstCollectedAt": "2026-10-07T03:16:33+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:33+00:00",
+            "firstCollectedAt": "2026-10-07T03:16:35+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1103440545524431",
+            "advertiser": "센트룸",
+            "startedAt": "2026-09-30",
+            "query": "센트룸",
+            "firstCollectedAt": "2026-10-07T03:16:34+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:05+00:00",
             "startTiming": "before-window"
           },
           {
@@ -18642,7 +18728,7 @@
             "startedAt": "2026-09-30",
             "query": "센트룸",
             "firstCollectedAt": "2026-10-07T03:16:33+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:33+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:04+00:00",
             "startTiming": "before-window"
           },
           {
@@ -18651,16 +18737,16 @@
             "startedAt": "2026-05-29",
             "query": "센트룸",
             "firstCollectedAt": "2026-10-07T03:16:32+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:32+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:03+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "29376720588597107",
-            "advertiser": "네이버플러스 스토어",
-            "startedAt": "2026-09-27",
+            "id": "1704701921659393",
+            "advertiser": "센트룸",
+            "startedAt": "2026-09-30",
             "query": "센트룸",
-            "firstCollectedAt": "2026-10-07T03:16:31+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:31+00:00",
+            "firstCollectedAt": "2026-10-07T03:16:33+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:03+00:00",
             "startTiming": "before-window"
           },
           {
@@ -18669,15 +18755,37 @@
             "startedAt": "2026-09-30",
             "query": "센트룸",
             "firstCollectedAt": "2026-10-07T03:16:31+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:31+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1781160679719737",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-22",
+            "query": "센트룸",
+            "firstCollectedAt": "2026-10-10T13:25:01+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "29376720588597107",
+            "advertiser": "네이버플러스 스토어",
+            "startedAt": "2026-09-27",
+            "query": "센트룸",
+            "firstCollectedAt": "2026-10-07T03:16:31+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:00+00:00",
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-07T03:16:43+00:00",
+        "lastCollectedAt": "2026-10-10T13:25:28+00:00",
         "advertisers": [
           {
             "name": "센트룸",
-            "adCount": 18
+            "adCount": 21
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 2
           },
           {
             "name": "네이버플러스 스토어",
@@ -19678,7 +19786,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-10T00:20:06+00:00",
       "lastObservedAt": "2026-10-10T00:20:06+00:00",
-      "state": "ready",
+      "state": "queued",
       "keywordId": "95b07679ff469e159048159bdecd1808ddf7cc2c5fa7a45e56a4aafc2041662e",
       "searchQuery": "삼백초",
       "adEvidence": {
@@ -60909,55 +61017,69 @@
       "adEvidence": {
         "query": "센트룸",
         "matchType": "collected-with-query",
-        "adCount": 20,
+        "adCount": 25,
         "adIds": [
-          "29397297379873226",
-          "1993152641345069",
-          "1578652396876106",
+          "2955403538132748",
+          "1868566327643263",
+          "1341689979026495",
+          "3277562679080829",
           "1571447140843157",
+          "29397297379873226",
           "1382828690633746",
           "2530326977468855",
+          "1993152641345069",
+          "1578652396876106",
+          "28688190997533871",
           "1607398040924712",
           "1571672674127593",
-          "28688190997533871",
           "1119287147314998",
-          "947339314604224",
-          "1634275401756868",
           "1313610900751921",
-          "1103440545524431",
+          "1634275401756868",
           "1089234823484628",
-          "1704701921659393",
+          "947339314604224",
+          "1103440545524431",
           "1628450298647761",
           "1999922714743634",
-          "29376720588597107",
-          "2320663695349496"
+          "1704701921659393",
+          "2320663695349496",
+          "1781160679719737",
+          "29376720588597107"
         ],
         "ads": [
           {
-            "id": "29397297379873226",
+            "id": "2955403538132748",
             "advertiser": "센트룸",
             "startedAt": "2026-09-30",
             "query": "센트룸",
-            "firstCollectedAt": "2026-10-07T03:16:43+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:43+00:00",
+            "firstCollectedAt": "2026-10-10T13:25:28+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:28+00:00",
             "startTiming": "during-window"
           },
           {
-            "id": "1993152641345069",
-            "advertiser": "센트룸",
-            "startedAt": "2026-10-01",
-            "query": "센트룸",
-            "firstCollectedAt": "2026-10-07T03:16:43+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:43+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1578652396876106",
+            "id": "1868566327643263",
             "advertiser": "센트룸",
             "startedAt": "2026-09-30",
             "query": "센트룸",
-            "firstCollectedAt": "2026-10-07T03:16:43+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:43+00:00",
+            "firstCollectedAt": "2026-10-10T13:25:28+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:28+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1341689979026495",
+            "advertiser": "센트룸",
+            "startedAt": "2026-09-30",
+            "query": "센트룸",
+            "firstCollectedAt": "2026-10-10T13:25:27+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:27+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "3277562679080829",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-10-06",
+            "query": "센트룸",
+            "firstCollectedAt": "2026-10-10T13:25:26+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:26+00:00",
             "startTiming": "during-window"
           },
           {
@@ -60966,7 +61088,16 @@
             "startedAt": "2026-09-30",
             "query": "센트룸",
             "firstCollectedAt": "2026-10-07T03:16:43+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:43+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:26+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "29397297379873226",
+            "advertiser": "센트룸",
+            "startedAt": "2026-09-30",
+            "query": "센트룸",
+            "firstCollectedAt": "2026-10-07T03:16:43+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:15+00:00",
             "startTiming": "during-window"
           },
           {
@@ -60975,7 +61106,7 @@
             "startedAt": "2026-09-30",
             "query": "센트룸",
             "firstCollectedAt": "2026-10-07T03:16:43+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:43+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:15+00:00",
             "startTiming": "during-window"
           },
           {
@@ -60984,25 +61115,25 @@
             "startedAt": "2026-09-30",
             "query": "센트룸",
             "firstCollectedAt": "2026-10-07T03:16:42+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:42+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:14+00:00",
             "startTiming": "during-window"
           },
           {
-            "id": "1607398040924712",
+            "id": "1993152641345069",
             "advertiser": "센트룸",
-            "startedAt": "2026-09-30",
+            "startedAt": "2026-10-01",
             "query": "센트룸",
-            "firstCollectedAt": "2026-10-07T03:16:42+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:42+00:00",
+            "firstCollectedAt": "2026-10-07T03:16:43+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:14+00:00",
             "startTiming": "during-window"
           },
           {
-            "id": "1571672674127593",
+            "id": "1578652396876106",
             "advertiser": "센트룸",
             "startedAt": "2026-09-30",
             "query": "센트룸",
-            "firstCollectedAt": "2026-10-07T03:16:42+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:42+00:00",
+            "firstCollectedAt": "2026-10-07T03:16:43+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:14+00:00",
             "startTiming": "during-window"
           },
           {
@@ -61011,7 +61142,25 @@
             "startedAt": "2026-09-30",
             "query": "센트룸",
             "firstCollectedAt": "2026-10-07T03:16:41+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:41+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:13+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1607398040924712",
+            "advertiser": "센트룸",
+            "startedAt": "2026-09-30",
+            "query": "센트룸",
+            "firstCollectedAt": "2026-10-07T03:16:42+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:13+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1571672674127593",
+            "advertiser": "센트룸",
+            "startedAt": "2026-09-30",
+            "query": "센트룸",
+            "firstCollectedAt": "2026-10-07T03:16:42+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:12+00:00",
             "startTiming": "during-window"
           },
           {
@@ -61020,25 +61169,7 @@
             "startedAt": "2026-09-30",
             "query": "센트룸",
             "firstCollectedAt": "2026-10-07T03:16:41+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:41+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "947339314604224",
-            "advertiser": "센트룸",
-            "startedAt": "2026-09-30",
-            "query": "센트룸",
-            "firstCollectedAt": "2026-10-07T03:16:35+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:35+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1634275401756868",
-            "advertiser": "센트룸",
-            "startedAt": "2026-09-30",
-            "query": "센트룸",
-            "firstCollectedAt": "2026-10-07T03:16:35+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:35+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:12+00:00",
             "startTiming": "during-window"
           },
           {
@@ -61047,16 +61178,16 @@
             "startedAt": "2026-09-30",
             "query": "센트룸",
             "firstCollectedAt": "2026-10-07T03:16:35+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:35+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:11+00:00",
             "startTiming": "during-window"
           },
           {
-            "id": "1103440545524431",
+            "id": "1634275401756868",
             "advertiser": "센트룸",
             "startedAt": "2026-09-30",
             "query": "센트룸",
-            "firstCollectedAt": "2026-10-07T03:16:34+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:34+00:00",
+            "firstCollectedAt": "2026-10-07T03:16:35+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:06+00:00",
             "startTiming": "during-window"
           },
           {
@@ -61065,16 +61196,25 @@
             "startedAt": "2026-09-30",
             "query": "센트룸",
             "firstCollectedAt": "2026-10-07T03:16:34+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:34+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:06+00:00",
             "startTiming": "during-window"
           },
           {
-            "id": "1704701921659393",
+            "id": "947339314604224",
             "advertiser": "센트룸",
             "startedAt": "2026-09-30",
             "query": "센트룸",
-            "firstCollectedAt": "2026-10-07T03:16:33+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:33+00:00",
+            "firstCollectedAt": "2026-10-07T03:16:35+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:05+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1103440545524431",
+            "advertiser": "센트룸",
+            "startedAt": "2026-09-30",
+            "query": "센트룸",
+            "firstCollectedAt": "2026-10-07T03:16:34+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:05+00:00",
             "startTiming": "during-window"
           },
           {
@@ -61083,7 +61223,7 @@
             "startedAt": "2026-09-30",
             "query": "센트룸",
             "firstCollectedAt": "2026-10-07T03:16:33+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:33+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:04+00:00",
             "startTiming": "during-window"
           },
           {
@@ -61092,7 +61232,34 @@
             "startedAt": "2026-05-29",
             "query": "센트룸",
             "firstCollectedAt": "2026-10-07T03:16:32+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:32+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1704701921659393",
+            "advertiser": "센트룸",
+            "startedAt": "2026-09-30",
+            "query": "센트룸",
+            "firstCollectedAt": "2026-10-07T03:16:33+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:03+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2320663695349496",
+            "advertiser": "센트룸",
+            "startedAt": "2026-09-30",
+            "query": "센트룸",
+            "firstCollectedAt": "2026-10-07T03:16:31+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:01+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1781160679719737",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-22",
+            "query": "센트룸",
+            "firstCollectedAt": "2026-10-10T13:25:01+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:01+00:00",
             "startTiming": "before-window"
           },
           {
@@ -61101,24 +61268,19 @@
             "startedAt": "2026-09-27",
             "query": "센트룸",
             "firstCollectedAt": "2026-10-07T03:16:31+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:31+00:00",
+            "lastCollectedAt": "2026-10-10T13:25:00+00:00",
             "startTiming": "before-window"
-          },
-          {
-            "id": "2320663695349496",
-            "advertiser": "센트룸",
-            "startedAt": "2026-09-30",
-            "query": "센트룸",
-            "firstCollectedAt": "2026-10-07T03:16:31+00:00",
-            "lastCollectedAt": "2026-10-07T03:16:31+00:00",
-            "startTiming": "during-window"
           }
         ],
-        "lastCollectedAt": "2026-10-07T03:16:43+00:00",
+        "lastCollectedAt": "2026-10-10T13:25:28+00:00",
         "advertisers": [
           {
             "name": "센트룸",
-            "adCount": 18
+            "adCount": 21
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 2
           },
           {
             "name": "네이버플러스 스토어",
