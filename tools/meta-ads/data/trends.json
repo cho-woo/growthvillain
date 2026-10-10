@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T04:09:20+00:00",
+  "updatedAt": "2026-10-10T04:14:30+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-10T00:20:37+00:00",
@@ -41,22 +41,22 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 33,
-    "dailyRemaining": 255,
+    "dailyUsed": 34,
+    "dailyRemaining": 254,
     "pending": 0,
-    "nextDispatchAt": "2026-10-10T04:13:53+00:00",
+    "nextDispatchAt": "2026-10-10T05:14:30+00:00",
     "metaAutoEnabled": true,
-    "enabled": true,
+    "enabled": false,
     "collectionGuard": {
-      "state": "ready",
-      "reason": null,
-      "nextAllowedAt": null,
-      "blockedUntil": null,
-      "blockStreak": 0,
+      "state": "blocked",
+      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
+      "nextAllowedAt": "2026-10-10T05:14:30+00:00",
+      "blockedUntil": "2026-10-10T05:14:30+00:00",
+      "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": null
+    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
   },
   "settings": {
     "category": "50000023",
@@ -8656,7 +8656,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "failed",
       "keywordId": "291c5ba652047d1df224377e35b4f48de52fae416188b0a3b0ba1bfd89751f58",
       "searchQuery": "파라다이스그레인빌모어",
       "adEvidence": {
@@ -10116,7 +10116,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-10T00:20:37+00:00",
       "lastObservedAt": "2026-10-10T00:20:37+00:00",
-      "state": "ready",
+      "state": "failed",
       "keywordId": "291c5ba652047d1df224377e35b4f48de52fae416188b0a3b0ba1bfd89751f58",
       "searchQuery": "파라다이스그레인빌모어",
       "adEvidence": {
