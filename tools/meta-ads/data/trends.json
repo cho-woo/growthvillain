@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T08:47:09+00:00",
+  "updatedAt": "2026-10-10T08:51:02+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-10T00:20:37+00:00",
@@ -43,8 +43,8 @@
     "backlogDays": 14,
     "dailyUsed": 40,
     "dailyRemaining": 248,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-10T08:52:09+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -10045,17 +10045,1200 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "f9464e9eb311de49bc9e725aaf411114d96c8b811317517a36cf3b7b70e33379",
       "searchQuery": "hw-3",
       "adEvidence": {
         "query": "hw-3",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 100,
+        "adIds": [
+          "1835886454044334",
+          "1195003819228727",
+          "1722408092352227",
+          "2170704387056636",
+          "1244458751100978",
+          "4269078166647349",
+          "2034404930505849",
+          "3593005084184183",
+          "24125074503835020",
+          "737955628739429",
+          "3891681257792317",
+          "1189394783143132",
+          "796396823341134",
+          "1299747365222362",
+          "2661591440903916",
+          "1425872159421994",
+          "668668676011549",
+          "1462054039163721",
+          "1202433718735963",
+          "995265013260715",
+          "1671784320832550",
+          "726734223769964",
+          "2001180600726935",
+          "1455824642409727",
+          "2124944534901740",
+          "834628499535487",
+          "2099184944354559",
+          "1035536358929899",
+          "958667530453656",
+          "1444014560965173",
+          "635747552864009",
+          "1622457072068617",
+          "3486481301528120",
+          "864624056391096",
+          "4340285882955608",
+          "1337974635099798",
+          "2345046242971382",
+          "855953210855599",
+          "1678371390119656",
+          "1004737231950929",
+          "1373059577679527",
+          "716987660928710",
+          "2246021716186066",
+          "1610063866865942",
+          "2367074427113978",
+          "1860013181623260",
+          "969459152179484",
+          "1903338861054154",
+          "768749142872668",
+          "1530723109089846",
+          "1073476432334118",
+          "3828366657460215",
+          "1727145635357279",
+          "1782736359764801",
+          "1740375473318920",
+          "1957423018454696",
+          "1473393214408146",
+          "997776273099807",
+          "811360684879309",
+          "2153907928779034",
+          "841205351566072",
+          "1573050607214665",
+          "868044288908575",
+          "1377993127021500",
+          "794935110262469",
+          "675773162258232",
+          "1476533497435836",
+          "1567444308047790",
+          "1415489630271918",
+          "1406122831480454",
+          "1735683167771757",
+          "1665667141145337",
+          "1542273860941181",
+          "1662043245016780",
+          "1349843407025310",
+          "1660824108248127",
+          "1345032064093274",
+          "1335061588549291",
+          "1005511341961361",
+          "2094770801066998",
+          "3032688163591503",
+          "1762284211817868",
+          "4335205513467112",
+          "1538408143519109",
+          "1179385487443794",
+          "3436568186542679",
+          "2292017494906442",
+          "1631014581910991",
+          "1483016586919489",
+          "2619848738448708",
+          "1622993862692980",
+          "1578450027410935",
+          "1571895157739301",
+          "1067967009203795",
+          "1751790859260694",
+          "1744897966780240",
+          "1413365180928815",
+          "1071718685825769",
+          "2162644577647862",
+          "1056419517145306"
+        ],
+        "ads": [
+          {
+            "id": "1835886454044334",
+            "advertiser": "Conor Harris",
+            "startedAt": "2026-08-23",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:50:47+00:00",
+            "lastCollectedAt": "2026-10-10T08:50:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1195003819228727",
+            "advertiser": "Tsuyoi Sushi",
+            "startedAt": "2025-12-03",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:50:35+00:00",
+            "lastCollectedAt": "2026-10-10T08:50:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1722408092352227",
+            "advertiser": "Hengwang Heavy Equipment",
+            "startedAt": "2026-08-26",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:50:34+00:00",
+            "lastCollectedAt": "2026-10-10T08:50:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2170704387056636",
+            "advertiser": "Neaw Dream Novels",
+            "startedAt": "2026-05-01",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:50:33+00:00",
+            "lastCollectedAt": "2026-10-10T08:50:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1244458751100978",
+            "advertiser": "Creatorka AI",
+            "startedAt": "2026-04-24",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:50:33+00:00",
+            "lastCollectedAt": "2026-10-10T08:50:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4269078166647349",
+            "advertiser": "Alibaba.com",
+            "startedAt": "2026-01-07",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:50:31+00:00",
+            "lastCollectedAt": "2026-10-10T08:50:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2034404930505849",
+            "advertiser": "Two notes Audio Engineering",
+            "startedAt": "2026-06-22",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:50:31+00:00",
+            "lastCollectedAt": "2026-10-10T08:50:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3593005084184183",
+            "advertiser": "The Best Novels",
+            "startedAt": "2026-06-28",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:50:30+00:00",
+            "lastCollectedAt": "2026-10-10T08:50:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "24125074503835020",
+            "advertiser": "Curvy-faja",
+            "startedAt": "2025-11-15",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:50:29+00:00",
+            "lastCollectedAt": "2026-10-10T08:50:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "737955628739429",
+            "advertiser": "Thesupermade",
+            "startedAt": "2025-12-08",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:50:28+00:00",
+            "lastCollectedAt": "2026-10-10T08:50:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3891681257792317",
+            "advertiser": "Shama Yen-Akat Bangkok",
+            "startedAt": "2026-06-06",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:50:27+00:00",
+            "lastCollectedAt": "2026-10-10T08:50:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1189394783143132",
+            "advertiser": "Wishe",
+            "startedAt": "2025-11-18",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:50:15+00:00",
+            "lastCollectedAt": "2026-10-10T08:50:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "796396823341134",
+            "advertiser": "",
+            "startedAt": "2025-09-24",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:50:07+00:00",
+            "lastCollectedAt": "2026-10-10T08:50:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1299747365222362",
+            "advertiser": "Creatorka AI",
+            "startedAt": "2026-01-13",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:50:06+00:00",
+            "lastCollectedAt": "2026-10-10T08:50:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2661591440903916",
+            "advertiser": "The Best Novels",
+            "startedAt": "2026-06-23",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:50:05+00:00",
+            "lastCollectedAt": "2026-10-10T08:50:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1425872159421994",
+            "advertiser": "The Best Novels",
+            "startedAt": "2026-07-15",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:50:03+00:00",
+            "lastCollectedAt": "2026-10-10T08:50:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "668668676011549",
+            "advertiser": "Top Shelf Realty, LLC",
+            "startedAt": "2025-10-23",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:50:01+00:00",
+            "lastCollectedAt": "2026-10-10T08:50:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1462054039163721",
+            "advertiser": "Giftops Delivery Services",
+            "startedAt": "2026-09-28",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:50:01+00:00",
+            "lastCollectedAt": "2026-10-10T08:50:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1202433718735963",
+            "advertiser": "Hisense HVAC",
+            "startedAt": "2026-08-03",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:49+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "995265013260715",
+            "advertiser": "The Best Novels",
+            "startedAt": "2026-06-13",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:47+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1671784320832550",
+            "advertiser": "Frozen Waterfall",
+            "startedAt": "2026-03-16",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:44+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "726734223769964",
+            "advertiser": "Curvy-faja",
+            "startedAt": "2025-11-05",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:33+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2001180600726935",
+            "advertiser": "Matchwornshirt",
+            "startedAt": "2025-10-31",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:33+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1455824642409727",
+            "advertiser": "Thesupermade",
+            "startedAt": "2025-09-02",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:33+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2124944534901740",
+            "advertiser": "Fearfully Wonderfully Made",
+            "startedAt": "2026-08-19",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:32+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "834628499535487",
+            "advertiser": "Makethingshappy",
+            "startedAt": "2025-12-14",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:31+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2099184944354559",
+            "advertiser": "Alibaba.com",
+            "startedAt": "2026-07-06",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:31+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1035536358929899",
+            "advertiser": "Alibaba.com",
+            "startedAt": "2026-07-01",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:31+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "958667530453656",
+            "advertiser": "Siamwell Fine Jewelry แหวนเพชร แหวนหมั้น แหวนแต่งงาน แหวนคู่ สั่งทำแหวน",
+            "startedAt": "2026-04-11",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:30+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1444014560965173",
+            "advertiser": "Conor Harris",
+            "startedAt": "2026-08-22",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:30+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "635747552864009",
+            "advertiser": "Somos Amigos Ministry",
+            "startedAt": "2025-11-21",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:29+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1622457072068617",
+            "advertiser": "Flourish with Louriz",
+            "startedAt": "2025-10-14",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:16+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3486481301528120",
+            "advertiser": "",
+            "startedAt": "2026-06-05",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:15+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "864624056391096",
+            "advertiser": "",
+            "startedAt": "2026-01-29",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:12+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4340285882955608",
+            "advertiser": "Frozen Waterfall",
+            "startedAt": "2026-03-20",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:12+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1337974635099798",
+            "advertiser": "The Best Novels",
+            "startedAt": "2026-06-19",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:11+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2345046242971382",
+            "advertiser": "Conor Harris",
+            "startedAt": "2026-08-18",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:08+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "855953210855599",
+            "advertiser": "Tennis Fitness",
+            "startedAt": "2026-04-27",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:07+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1678371390119656",
+            "advertiser": "Shama Yen-Akat Bangkok",
+            "startedAt": "2026-07-05",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:07+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1004737231950929",
+            "advertiser": "Shama Yen-Akat Bangkok",
+            "startedAt": "2026-06-06",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:05+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1373059577679527",
+            "advertiser": "Nutrition Bundle",
+            "startedAt": "2026-08-19",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:54+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "716987660928710",
+            "advertiser": "Wishe",
+            "startedAt": "2025-11-19",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:52+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2246021716186066",
+            "advertiser": "DISTANT",
+            "startedAt": "2026-09-05",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:44+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1610063866865942",
+            "advertiser": "คลีนิกฟัน ในเกาหลีใต้",
+            "startedAt": "2026-03-20",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:44+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2367074427113978",
+            "advertiser": "The Best Novels",
+            "startedAt": "2026-06-12",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:43+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1860013181623260",
+            "advertiser": "The Best Novels",
+            "startedAt": "2026-06-17",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:42+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "969459152179484",
+            "advertiser": "",
+            "startedAt": "2026-04-01",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:39+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1903338861054154",
+            "advertiser": "Flourish with Louriz",
+            "startedAt": "2026-05-06",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:37+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "768749142872668",
+            "advertiser": "Matchwornshirt",
+            "startedAt": "2025-10-31",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:35+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1530723109089846",
+            "advertiser": "The Best Novels",
+            "startedAt": "2026-07-25",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:35+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1073476432334118",
+            "advertiser": "Ann Broniola",
+            "startedAt": "2026-08-05",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:27+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3828366657460215",
+            "advertiser": "Alibaba.com",
+            "startedAt": "2026-03-13",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:26+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1727145635357279",
+            "advertiser": "Creatorka AI",
+            "startedAt": "2026-01-13",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:26+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1782736359764801",
+            "advertiser": "หิวของแซ่บ ของกินในเกาหลี",
+            "startedAt": "2026-06-13",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:25+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1740375473318920",
+            "advertiser": "Wi Ki",
+            "startedAt": "2025-11-05",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:06+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1957423018454696",
+            "advertiser": "Thesupermade",
+            "startedAt": "2025-12-05",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:05+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1473393214408146",
+            "advertiser": "PECB",
+            "startedAt": "2026-02-04",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:05+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "997776273099807",
+            "advertiser": "The Best Novels",
+            "startedAt": "2026-06-13",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:04+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "811360684879309",
+            "advertiser": "Alibaba.com",
+            "startedAt": "2025-09-23",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:04+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2153907928779034",
+            "advertiser": "Elektor Labs",
+            "startedAt": "2026-03-18",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:04+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "841205351566072",
+            "advertiser": "HW Drilling And Piling Machinery",
+            "startedAt": "2025-09-16",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:54+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1573050607214665",
+            "advertiser": "Tsuyoi Sushi",
+            "startedAt": "2025-12-05",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:52+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "868044288908575",
+            "advertiser": "Flourish with Louriz",
+            "startedAt": "2025-12-02",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:51+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1377993127021500",
+            "advertiser": "COPA",
+            "startedAt": "2025-11-18",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:51+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "794935110262469",
+            "advertiser": "COPA",
+            "startedAt": "2025-11-28",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:50+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "675773162258232",
+            "advertiser": "Alibaba.com",
+            "startedAt": "2025-10-13",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:50+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1476533497435836",
+            "advertiser": "Solis",
+            "startedAt": "2026-02-27",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:50+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1567444308047790",
+            "advertiser": "AIKO Energy",
+            "startedAt": "2026-06-04",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:49+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1415489630271918",
+            "advertiser": "Tsuyoi Sushi",
+            "startedAt": "2026-01-13",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:49+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1406122831480454",
+            "advertiser": "All about health",
+            "startedAt": "2026-09-05",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:49+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1735683167771757",
+            "advertiser": "DEPRAG",
+            "startedAt": "2026-07-24",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:41+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1665667141145337",
+            "advertiser": "AIKO Energy",
+            "startedAt": "2026-05-28",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:41+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1542273860941181",
+            "advertiser": "The Best Novels",
+            "startedAt": "2026-06-13",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:41+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1662043245016780",
+            "advertiser": "The Best Novels",
+            "startedAt": "2026-06-13",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:39+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1349843407025310",
+            "advertiser": "AIKO Energy",
+            "startedAt": "2026-05-28",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:39+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1660824108248127",
+            "advertiser": "RO:SE - Review Of Social Economy",
+            "startedAt": "2026-02-23",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:36+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1345032064093274",
+            "advertiser": "Meller",
+            "startedAt": "2026-02-05",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:34+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1335061588549291",
+            "advertiser": "AIKO Energy",
+            "startedAt": "2026-05-28",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:34+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1005511341961361",
+            "advertiser": "Flourish with Louriz",
+            "startedAt": "2026-06-09",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:34+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2094770801066998",
+            "advertiser": "Hongyang EV Charger",
+            "startedAt": "2026-04-29",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:32+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3032688163591503",
+            "advertiser": "Elektor Labs",
+            "startedAt": "2026-03-19",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:25+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1762284211817868",
+            "advertiser": "AIKO Energy",
+            "startedAt": "2026-05-28",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:25+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4335205513467112",
+            "advertiser": "Notion",
+            "startedAt": "2026-01-14",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:24+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1538408143519109",
+            "advertiser": "Usewhale",
+            "startedAt": "2025-03-18",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:24+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1179385487443794",
+            "advertiser": "Stellar Literary Press and Media",
+            "startedAt": "2025-10-28",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:24+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3436568186542679",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-09-21",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:23+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2292017494906442",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-09-19",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:23+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1631014581910991",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-09-18",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:23+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1483016586919489",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-09-23",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:23+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2619848738448708",
+            "advertiser": "타운카",
+            "startedAt": "2026-09-21",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:22+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1622993862692980",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-09-18",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:18+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1578450027410935",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:17+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1571895157739301",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:17+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1067967009203795",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-09-18",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:17+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1751790859260694",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:16+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1744897966780240",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:16+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1413365180928815",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-09-18",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:16+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1071718685825769",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:16+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2162644577647862",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-09-18",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:15+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1056419517145306",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:15+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:15+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-10T08:50:47+00:00",
+        "advertisers": [
+          {
+            "name": "주영엔에스",
+            "adCount": 14
+          },
+          {
+            "name": "The Best Novels",
+            "adCount": 11
+          },
+          {
+            "name": "Alibaba.com",
+            "adCount": 6
+          },
+          {
+            "name": "AIKO Energy",
+            "adCount": 5
+          },
+          {
+            "name": "Flourish with Louriz",
+            "adCount": 4
+          },
+          {
+            "name": "Conor Harris",
+            "adCount": 3
+          },
+          {
+            "name": "Creatorka AI",
+            "adCount": 3
+          },
+          {
+            "name": "Shama Yen-Akat Bangkok",
+            "adCount": 3
+          },
+          {
+            "name": "Thesupermade",
+            "adCount": 3
+          },
+          {
+            "name": "Tsuyoi Sushi",
+            "adCount": 3
+          },
+          {
+            "name": "COPA",
+            "adCount": 2
+          },
+          {
+            "name": "Curvy-faja",
+            "adCount": 2
+          },
+          {
+            "name": "Elektor Labs",
+            "adCount": 2
+          },
+          {
+            "name": "Frozen Waterfall",
+            "adCount": 2
+          },
+          {
+            "name": "Matchwornshirt",
+            "adCount": 2
+          },
+          {
+            "name": "Wishe",
+            "adCount": 2
+          },
+          {
+            "name": "All about health",
+            "adCount": 1
+          },
+          {
+            "name": "Ann Broniola",
+            "adCount": 1
+          },
+          {
+            "name": "DEPRAG",
+            "adCount": 1
+          },
+          {
+            "name": "DISTANT",
+            "adCount": 1
+          },
+          {
+            "name": "Fearfully Wonderfully Made",
+            "adCount": 1
+          },
+          {
+            "name": "Giftops Delivery Services",
+            "adCount": 1
+          },
+          {
+            "name": "HW Drilling And Piling Machinery",
+            "adCount": 1
+          },
+          {
+            "name": "Hengwang Heavy Equipment",
+            "adCount": 1
+          },
+          {
+            "name": "Hisense HVAC",
+            "adCount": 1
+          },
+          {
+            "name": "Hongyang EV Charger",
+            "adCount": 1
+          },
+          {
+            "name": "Makethingshappy",
+            "adCount": 1
+          },
+          {
+            "name": "Meller",
+            "adCount": 1
+          },
+          {
+            "name": "Neaw Dream Novels",
+            "adCount": 1
+          },
+          {
+            "name": "Notion",
+            "adCount": 1
+          },
+          {
+            "name": "Nutrition Bundle",
+            "adCount": 1
+          },
+          {
+            "name": "PECB",
+            "adCount": 1
+          },
+          {
+            "name": "RO:SE - Review Of Social Economy",
+            "adCount": 1
+          },
+          {
+            "name": "Siamwell Fine Jewelry แหวนเพชร แหวนหมั้น แหวนแต่งงาน แหวนคู่ สั่งทำแหวน",
+            "adCount": 1
+          },
+          {
+            "name": "Solis",
+            "adCount": 1
+          },
+          {
+            "name": "Somos Amigos Ministry",
+            "adCount": 1
+          },
+          {
+            "name": "Stellar Literary Press and Media",
+            "adCount": 1
+          },
+          {
+            "name": "Tennis Fitness",
+            "adCount": 1
+          },
+          {
+            "name": "Top Shelf Realty, LLC",
+            "adCount": 1
+          },
+          {
+            "name": "Two notes Audio Engineering",
+            "adCount": 1
+          },
+          {
+            "name": "Usewhale",
+            "adCount": 1
+          },
+          {
+            "name": "Wi Ki",
+            "adCount": 1
+          },
+          {
+            "name": "คลีนิกฟัน ในเกาหลีใต้",
+            "adCount": 1
+          },
+          {
+            "name": "หิวของแซ่บ ของกินในเกาหลี",
+            "adCount": 1
+          },
+          {
+            "name": "타운카",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -10149,17 +11332,1200 @@
       "rankWindow": 100,
       "observedAt": "2026-10-10T00:20:37+00:00",
       "lastObservedAt": "2026-10-10T00:20:37+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "f9464e9eb311de49bc9e725aaf411114d96c8b811317517a36cf3b7b70e33379",
       "searchQuery": "hw-3",
       "adEvidence": {
         "query": "hw-3",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 100,
+        "adIds": [
+          "1835886454044334",
+          "1195003819228727",
+          "1722408092352227",
+          "2170704387056636",
+          "1244458751100978",
+          "4269078166647349",
+          "2034404930505849",
+          "3593005084184183",
+          "24125074503835020",
+          "737955628739429",
+          "3891681257792317",
+          "1189394783143132",
+          "796396823341134",
+          "1299747365222362",
+          "2661591440903916",
+          "1425872159421994",
+          "668668676011549",
+          "1462054039163721",
+          "1202433718735963",
+          "995265013260715",
+          "1671784320832550",
+          "726734223769964",
+          "2001180600726935",
+          "1455824642409727",
+          "2124944534901740",
+          "834628499535487",
+          "2099184944354559",
+          "1035536358929899",
+          "958667530453656",
+          "1444014560965173",
+          "635747552864009",
+          "1622457072068617",
+          "3486481301528120",
+          "864624056391096",
+          "4340285882955608",
+          "1337974635099798",
+          "2345046242971382",
+          "855953210855599",
+          "1678371390119656",
+          "1004737231950929",
+          "1373059577679527",
+          "716987660928710",
+          "2246021716186066",
+          "1610063866865942",
+          "2367074427113978",
+          "1860013181623260",
+          "969459152179484",
+          "1903338861054154",
+          "768749142872668",
+          "1530723109089846",
+          "1073476432334118",
+          "3828366657460215",
+          "1727145635357279",
+          "1782736359764801",
+          "1740375473318920",
+          "1957423018454696",
+          "1473393214408146",
+          "997776273099807",
+          "811360684879309",
+          "2153907928779034",
+          "841205351566072",
+          "1573050607214665",
+          "868044288908575",
+          "1377993127021500",
+          "794935110262469",
+          "675773162258232",
+          "1476533497435836",
+          "1567444308047790",
+          "1415489630271918",
+          "1406122831480454",
+          "1735683167771757",
+          "1665667141145337",
+          "1542273860941181",
+          "1662043245016780",
+          "1349843407025310",
+          "1660824108248127",
+          "1345032064093274",
+          "1335061588549291",
+          "1005511341961361",
+          "2094770801066998",
+          "3032688163591503",
+          "1762284211817868",
+          "4335205513467112",
+          "1538408143519109",
+          "1179385487443794",
+          "3436568186542679",
+          "2292017494906442",
+          "1631014581910991",
+          "1483016586919489",
+          "2619848738448708",
+          "1622993862692980",
+          "1578450027410935",
+          "1571895157739301",
+          "1067967009203795",
+          "1751790859260694",
+          "1744897966780240",
+          "1413365180928815",
+          "1071718685825769",
+          "2162644577647862",
+          "1056419517145306"
+        ],
+        "ads": [
+          {
+            "id": "1835886454044334",
+            "advertiser": "Conor Harris",
+            "startedAt": "2026-08-23",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:50:47+00:00",
+            "lastCollectedAt": "2026-10-10T08:50:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1195003819228727",
+            "advertiser": "Tsuyoi Sushi",
+            "startedAt": "2025-12-03",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:50:35+00:00",
+            "lastCollectedAt": "2026-10-10T08:50:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1722408092352227",
+            "advertiser": "Hengwang Heavy Equipment",
+            "startedAt": "2026-08-26",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:50:34+00:00",
+            "lastCollectedAt": "2026-10-10T08:50:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2170704387056636",
+            "advertiser": "Neaw Dream Novels",
+            "startedAt": "2026-05-01",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:50:33+00:00",
+            "lastCollectedAt": "2026-10-10T08:50:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1244458751100978",
+            "advertiser": "Creatorka AI",
+            "startedAt": "2026-04-24",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:50:33+00:00",
+            "lastCollectedAt": "2026-10-10T08:50:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4269078166647349",
+            "advertiser": "Alibaba.com",
+            "startedAt": "2026-01-07",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:50:31+00:00",
+            "lastCollectedAt": "2026-10-10T08:50:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2034404930505849",
+            "advertiser": "Two notes Audio Engineering",
+            "startedAt": "2026-06-22",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:50:31+00:00",
+            "lastCollectedAt": "2026-10-10T08:50:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3593005084184183",
+            "advertiser": "The Best Novels",
+            "startedAt": "2026-06-28",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:50:30+00:00",
+            "lastCollectedAt": "2026-10-10T08:50:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "24125074503835020",
+            "advertiser": "Curvy-faja",
+            "startedAt": "2025-11-15",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:50:29+00:00",
+            "lastCollectedAt": "2026-10-10T08:50:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "737955628739429",
+            "advertiser": "Thesupermade",
+            "startedAt": "2025-12-08",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:50:28+00:00",
+            "lastCollectedAt": "2026-10-10T08:50:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3891681257792317",
+            "advertiser": "Shama Yen-Akat Bangkok",
+            "startedAt": "2026-06-06",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:50:27+00:00",
+            "lastCollectedAt": "2026-10-10T08:50:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1189394783143132",
+            "advertiser": "Wishe",
+            "startedAt": "2025-11-18",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:50:15+00:00",
+            "lastCollectedAt": "2026-10-10T08:50:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "796396823341134",
+            "advertiser": "",
+            "startedAt": "2025-09-24",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:50:07+00:00",
+            "lastCollectedAt": "2026-10-10T08:50:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1299747365222362",
+            "advertiser": "Creatorka AI",
+            "startedAt": "2026-01-13",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:50:06+00:00",
+            "lastCollectedAt": "2026-10-10T08:50:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2661591440903916",
+            "advertiser": "The Best Novels",
+            "startedAt": "2026-06-23",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:50:05+00:00",
+            "lastCollectedAt": "2026-10-10T08:50:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1425872159421994",
+            "advertiser": "The Best Novels",
+            "startedAt": "2026-07-15",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:50:03+00:00",
+            "lastCollectedAt": "2026-10-10T08:50:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "668668676011549",
+            "advertiser": "Top Shelf Realty, LLC",
+            "startedAt": "2025-10-23",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:50:01+00:00",
+            "lastCollectedAt": "2026-10-10T08:50:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1462054039163721",
+            "advertiser": "Giftops Delivery Services",
+            "startedAt": "2026-09-28",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:50:01+00:00",
+            "lastCollectedAt": "2026-10-10T08:50:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1202433718735963",
+            "advertiser": "Hisense HVAC",
+            "startedAt": "2026-08-03",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:49+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "995265013260715",
+            "advertiser": "The Best Novels",
+            "startedAt": "2026-06-13",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:47+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1671784320832550",
+            "advertiser": "Frozen Waterfall",
+            "startedAt": "2026-03-16",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:44+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "726734223769964",
+            "advertiser": "Curvy-faja",
+            "startedAt": "2025-11-05",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:33+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2001180600726935",
+            "advertiser": "Matchwornshirt",
+            "startedAt": "2025-10-31",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:33+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1455824642409727",
+            "advertiser": "Thesupermade",
+            "startedAt": "2025-09-02",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:33+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2124944534901740",
+            "advertiser": "Fearfully Wonderfully Made",
+            "startedAt": "2026-08-19",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:32+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "834628499535487",
+            "advertiser": "Makethingshappy",
+            "startedAt": "2025-12-14",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:31+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2099184944354559",
+            "advertiser": "Alibaba.com",
+            "startedAt": "2026-07-06",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:31+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1035536358929899",
+            "advertiser": "Alibaba.com",
+            "startedAt": "2026-07-01",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:31+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "958667530453656",
+            "advertiser": "Siamwell Fine Jewelry แหวนเพชร แหวนหมั้น แหวนแต่งงาน แหวนคู่ สั่งทำแหวน",
+            "startedAt": "2026-04-11",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:30+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1444014560965173",
+            "advertiser": "Conor Harris",
+            "startedAt": "2026-08-22",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:30+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "635747552864009",
+            "advertiser": "Somos Amigos Ministry",
+            "startedAt": "2025-11-21",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:29+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1622457072068617",
+            "advertiser": "Flourish with Louriz",
+            "startedAt": "2025-10-14",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:16+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3486481301528120",
+            "advertiser": "",
+            "startedAt": "2026-06-05",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:15+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "864624056391096",
+            "advertiser": "",
+            "startedAt": "2026-01-29",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:12+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4340285882955608",
+            "advertiser": "Frozen Waterfall",
+            "startedAt": "2026-03-20",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:12+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1337974635099798",
+            "advertiser": "The Best Novels",
+            "startedAt": "2026-06-19",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:11+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2345046242971382",
+            "advertiser": "Conor Harris",
+            "startedAt": "2026-08-18",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:08+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "855953210855599",
+            "advertiser": "Tennis Fitness",
+            "startedAt": "2026-04-27",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:07+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1678371390119656",
+            "advertiser": "Shama Yen-Akat Bangkok",
+            "startedAt": "2026-07-05",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:07+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1004737231950929",
+            "advertiser": "Shama Yen-Akat Bangkok",
+            "startedAt": "2026-06-06",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:49:05+00:00",
+            "lastCollectedAt": "2026-10-10T08:49:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1373059577679527",
+            "advertiser": "Nutrition Bundle",
+            "startedAt": "2026-08-19",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:54+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "716987660928710",
+            "advertiser": "Wishe",
+            "startedAt": "2025-11-19",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:52+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2246021716186066",
+            "advertiser": "DISTANT",
+            "startedAt": "2026-09-05",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:44+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1610063866865942",
+            "advertiser": "คลีนิกฟัน ในเกาหลีใต้",
+            "startedAt": "2026-03-20",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:44+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2367074427113978",
+            "advertiser": "The Best Novels",
+            "startedAt": "2026-06-12",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:43+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1860013181623260",
+            "advertiser": "The Best Novels",
+            "startedAt": "2026-06-17",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:42+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "969459152179484",
+            "advertiser": "",
+            "startedAt": "2026-04-01",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:39+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1903338861054154",
+            "advertiser": "Flourish with Louriz",
+            "startedAt": "2026-05-06",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:37+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "768749142872668",
+            "advertiser": "Matchwornshirt",
+            "startedAt": "2025-10-31",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:35+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1530723109089846",
+            "advertiser": "The Best Novels",
+            "startedAt": "2026-07-25",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:35+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1073476432334118",
+            "advertiser": "Ann Broniola",
+            "startedAt": "2026-08-05",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:27+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3828366657460215",
+            "advertiser": "Alibaba.com",
+            "startedAt": "2026-03-13",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:26+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1727145635357279",
+            "advertiser": "Creatorka AI",
+            "startedAt": "2026-01-13",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:26+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1782736359764801",
+            "advertiser": "หิวของแซ่บ ของกินในเกาหลี",
+            "startedAt": "2026-06-13",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:25+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1740375473318920",
+            "advertiser": "Wi Ki",
+            "startedAt": "2025-11-05",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:06+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1957423018454696",
+            "advertiser": "Thesupermade",
+            "startedAt": "2025-12-05",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:05+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1473393214408146",
+            "advertiser": "PECB",
+            "startedAt": "2026-02-04",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:05+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "997776273099807",
+            "advertiser": "The Best Novels",
+            "startedAt": "2026-06-13",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:04+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "811360684879309",
+            "advertiser": "Alibaba.com",
+            "startedAt": "2025-09-23",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:04+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2153907928779034",
+            "advertiser": "Elektor Labs",
+            "startedAt": "2026-03-18",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:48:04+00:00",
+            "lastCollectedAt": "2026-10-10T08:48:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "841205351566072",
+            "advertiser": "HW Drilling And Piling Machinery",
+            "startedAt": "2025-09-16",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:54+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1573050607214665",
+            "advertiser": "Tsuyoi Sushi",
+            "startedAt": "2025-12-05",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:52+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "868044288908575",
+            "advertiser": "Flourish with Louriz",
+            "startedAt": "2025-12-02",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:51+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1377993127021500",
+            "advertiser": "COPA",
+            "startedAt": "2025-11-18",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:51+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "794935110262469",
+            "advertiser": "COPA",
+            "startedAt": "2025-11-28",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:50+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "675773162258232",
+            "advertiser": "Alibaba.com",
+            "startedAt": "2025-10-13",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:50+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1476533497435836",
+            "advertiser": "Solis",
+            "startedAt": "2026-02-27",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:50+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1567444308047790",
+            "advertiser": "AIKO Energy",
+            "startedAt": "2026-06-04",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:49+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1415489630271918",
+            "advertiser": "Tsuyoi Sushi",
+            "startedAt": "2026-01-13",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:49+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1406122831480454",
+            "advertiser": "All about health",
+            "startedAt": "2026-09-05",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:49+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1735683167771757",
+            "advertiser": "DEPRAG",
+            "startedAt": "2026-07-24",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:41+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1665667141145337",
+            "advertiser": "AIKO Energy",
+            "startedAt": "2026-05-28",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:41+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1542273860941181",
+            "advertiser": "The Best Novels",
+            "startedAt": "2026-06-13",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:41+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1662043245016780",
+            "advertiser": "The Best Novels",
+            "startedAt": "2026-06-13",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:39+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1349843407025310",
+            "advertiser": "AIKO Energy",
+            "startedAt": "2026-05-28",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:39+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1660824108248127",
+            "advertiser": "RO:SE - Review Of Social Economy",
+            "startedAt": "2026-02-23",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:36+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1345032064093274",
+            "advertiser": "Meller",
+            "startedAt": "2026-02-05",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:34+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1335061588549291",
+            "advertiser": "AIKO Energy",
+            "startedAt": "2026-05-28",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:34+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1005511341961361",
+            "advertiser": "Flourish with Louriz",
+            "startedAt": "2026-06-09",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:34+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2094770801066998",
+            "advertiser": "Hongyang EV Charger",
+            "startedAt": "2026-04-29",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:32+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3032688163591503",
+            "advertiser": "Elektor Labs",
+            "startedAt": "2026-03-19",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:25+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1762284211817868",
+            "advertiser": "AIKO Energy",
+            "startedAt": "2026-05-28",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:25+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4335205513467112",
+            "advertiser": "Notion",
+            "startedAt": "2026-01-14",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:24+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1538408143519109",
+            "advertiser": "Usewhale",
+            "startedAt": "2025-03-18",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:24+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1179385487443794",
+            "advertiser": "Stellar Literary Press and Media",
+            "startedAt": "2025-10-28",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:24+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3436568186542679",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-09-21",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:23+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2292017494906442",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-09-19",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:23+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1631014581910991",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-09-18",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:23+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1483016586919489",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-09-23",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:23+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2619848738448708",
+            "advertiser": "타운카",
+            "startedAt": "2026-09-21",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:22+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1622993862692980",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-09-18",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:18+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1578450027410935",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:17+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1571895157739301",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:17+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1067967009203795",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-09-18",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:17+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1751790859260694",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:16+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1744897966780240",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:16+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1413365180928815",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-09-18",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:16+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1071718685825769",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:16+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2162644577647862",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-09-18",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:15+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1056419517145306",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "hw-3",
+            "firstCollectedAt": "2026-10-10T08:47:15+00:00",
+            "lastCollectedAt": "2026-10-10T08:47:15+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-10T08:50:47+00:00",
+        "advertisers": [
+          {
+            "name": "주영엔에스",
+            "adCount": 14
+          },
+          {
+            "name": "The Best Novels",
+            "adCount": 11
+          },
+          {
+            "name": "Alibaba.com",
+            "adCount": 6
+          },
+          {
+            "name": "AIKO Energy",
+            "adCount": 5
+          },
+          {
+            "name": "Flourish with Louriz",
+            "adCount": 4
+          },
+          {
+            "name": "Conor Harris",
+            "adCount": 3
+          },
+          {
+            "name": "Creatorka AI",
+            "adCount": 3
+          },
+          {
+            "name": "Shama Yen-Akat Bangkok",
+            "adCount": 3
+          },
+          {
+            "name": "Thesupermade",
+            "adCount": 3
+          },
+          {
+            "name": "Tsuyoi Sushi",
+            "adCount": 3
+          },
+          {
+            "name": "COPA",
+            "adCount": 2
+          },
+          {
+            "name": "Curvy-faja",
+            "adCount": 2
+          },
+          {
+            "name": "Elektor Labs",
+            "adCount": 2
+          },
+          {
+            "name": "Frozen Waterfall",
+            "adCount": 2
+          },
+          {
+            "name": "Matchwornshirt",
+            "adCount": 2
+          },
+          {
+            "name": "Wishe",
+            "adCount": 2
+          },
+          {
+            "name": "All about health",
+            "adCount": 1
+          },
+          {
+            "name": "Ann Broniola",
+            "adCount": 1
+          },
+          {
+            "name": "DEPRAG",
+            "adCount": 1
+          },
+          {
+            "name": "DISTANT",
+            "adCount": 1
+          },
+          {
+            "name": "Fearfully Wonderfully Made",
+            "adCount": 1
+          },
+          {
+            "name": "Giftops Delivery Services",
+            "adCount": 1
+          },
+          {
+            "name": "HW Drilling And Piling Machinery",
+            "adCount": 1
+          },
+          {
+            "name": "Hengwang Heavy Equipment",
+            "adCount": 1
+          },
+          {
+            "name": "Hisense HVAC",
+            "adCount": 1
+          },
+          {
+            "name": "Hongyang EV Charger",
+            "adCount": 1
+          },
+          {
+            "name": "Makethingshappy",
+            "adCount": 1
+          },
+          {
+            "name": "Meller",
+            "adCount": 1
+          },
+          {
+            "name": "Neaw Dream Novels",
+            "adCount": 1
+          },
+          {
+            "name": "Notion",
+            "adCount": 1
+          },
+          {
+            "name": "Nutrition Bundle",
+            "adCount": 1
+          },
+          {
+            "name": "PECB",
+            "adCount": 1
+          },
+          {
+            "name": "RO:SE - Review Of Social Economy",
+            "adCount": 1
+          },
+          {
+            "name": "Siamwell Fine Jewelry แหวนเพชร แหวนหมั้น แหวนแต่งงาน แหวนคู่ สั่งทำแหวน",
+            "adCount": 1
+          },
+          {
+            "name": "Solis",
+            "adCount": 1
+          },
+          {
+            "name": "Somos Amigos Ministry",
+            "adCount": 1
+          },
+          {
+            "name": "Stellar Literary Press and Media",
+            "adCount": 1
+          },
+          {
+            "name": "Tennis Fitness",
+            "adCount": 1
+          },
+          {
+            "name": "Top Shelf Realty, LLC",
+            "adCount": 1
+          },
+          {
+            "name": "Two notes Audio Engineering",
+            "adCount": 1
+          },
+          {
+            "name": "Usewhale",
+            "adCount": 1
+          },
+          {
+            "name": "Wi Ki",
+            "adCount": 1
+          },
+          {
+            "name": "คลีนิกฟัน ในเกาหลีใต้",
+            "adCount": 1
+          },
+          {
+            "name": "หิวของแซ่บ ของกินในเกาหลี",
+            "adCount": 1
+          },
+          {
+            "name": "타운카",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
