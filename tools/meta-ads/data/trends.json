@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T02:48:14+00:00",
+  "updatedAt": "2026-10-10T02:51:15+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-10T00:20:37+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 29,
-    "dailyRemaining": 259,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-10T02:51:12+00:00",
+    "dailyUsed": 30,
+    "dailyRemaining": 258,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -1594,7 +1594,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "queued",
       "keywordId": "b6c21fe98c854ad045e7846a012b0548f0cad1119aefd6576aa07799cb90de0a",
       "searchQuery": "공진단",
       "adEvidence": {
@@ -13432,7 +13432,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-10T00:20:06+00:00",
       "lastObservedAt": "2026-10-10T00:20:06+00:00",
-      "state": "ready",
+      "state": "queued",
       "keywordId": "b6c21fe98c854ad045e7846a012b0548f0cad1119aefd6576aa07799cb90de0a",
       "searchQuery": "공진단",
       "adEvidence": {
