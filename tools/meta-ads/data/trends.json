@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T16:15:33+00:00",
+  "updatedAt": "2026-10-10T16:17:42+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-10T15:22:42+00:00",
@@ -43,8 +43,8 @@
     "backlogDays": 14,
     "dailyUsed": 3,
     "dailyRemaining": 285,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-10T16:17:43+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -6193,7 +6193,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "b183aeaa73c61755f8388493f638b53aab6077738cf365ab8849042f8e398477",
       "searchQuery": "비타민b",
       "adEvidence": {
@@ -6201,6 +6201,36 @@
         "matchType": "collected-with-query",
         "adCount": 100,
         "adIds": [
+          "2891793641178604",
+          "1646857950308923",
+          "1546127203861524",
+          "1488351379436907",
+          "1699923754386608",
+          "1318246116662590",
+          "2039951603392307",
+          "1397735959161477",
+          "1099308079500301",
+          "1055934593696061",
+          "1408672294727537",
+          "1324171059793020",
+          "1010837691984346",
+          "1429543802466377",
+          "26511485725218939",
+          "992543860083545",
+          "1733024547879151",
+          "779089931491543",
+          "867358426437809",
+          "824606287093878",
+          "1050303650800766",
+          "1553644958946793",
+          "1307916464876494",
+          "1559202799066544",
+          "1318841663063531",
+          "1299424088777170",
+          "1690978698453224",
+          "1564964875283542",
+          "2082618925649980",
+          "1076263328210738",
           "821807007057546",
           "1380672993891221",
           "2040166229967171",
@@ -6260,7 +6290,6 @@
           "1430499745595666",
           "1582336396870676",
           "1717715316162917",
-          "1408672294727537",
           "1276560037368680",
           "1098758959280069",
           "1066655009441757",
@@ -6271,38 +6300,279 @@
           "1046939740200849",
           "995283433291209",
           "1029852239430441",
-          "2891793641178604",
-          "1546127203861524",
-          "1488351379436907",
-          "1699923754386608",
-          "1646857950308923",
-          "1429543802466377",
-          "925803617112027",
-          "1099308079500301",
-          "1397735959161477",
-          "1324171059793020",
-          "1318246116662590",
-          "2039951603392307",
-          "1055934593696061",
-          "1010837691984346",
-          "992543860083545",
-          "26511485725218939",
-          "779089931491543",
-          "1733024547879151",
-          "867358426437809",
-          "824606287093878",
-          "1553644958946793",
-          "1307916464876494",
-          "1050303650800766",
-          "1559202799066544",
-          "1318841663063531",
-          "1299424088777170",
-          "1690978698453224",
-          "1564964875283542",
-          "1076263328210738",
-          "2082618925649980"
+          "925803617112027"
         ],
         "ads": [
+          {
+            "id": "2891793641178604",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-07-07",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:27+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1646857950308923",
+            "advertiser": "비타민인생",
+            "startedAt": "2026-08-03",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:26+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1546127203861524",
+            "advertiser": "Herbalife",
+            "startedAt": "2026-07-08",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:27+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1488351379436907",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:27+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1699923754386608",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:26+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1318246116662590",
+            "advertiser": "바디컬",
+            "startedAt": "2026-06-28",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:20+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2039951603392307",
+            "advertiser": "건강 ズl키ㅁl",
+            "startedAt": "2026-08-24",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:19+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1397735959161477",
+            "advertiser": "Dwmallofficial",
+            "startedAt": "2026-09-12",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:24+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1099308079500301",
+            "advertiser": "영양ㄴr무",
+            "startedAt": "2026-08-31",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:25+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1055934593696061",
+            "advertiser": "필요약",
+            "startedAt": "2026-08-23",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:19+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1408672294727537",
+            "advertiser": "오펠라 헬스케어 코리아 일반의약품",
+            "startedAt": "2026-10-02",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:46+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1324171059793020",
+            "advertiser": "리피어라",
+            "startedAt": "2026-09-03",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:24+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1010837691984346",
+            "advertiser": "건강꿀팁",
+            "startedAt": "2026-08-14",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:19+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1429543802466377",
+            "advertiser": "GC",
+            "startedAt": "2026-09-30",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:26+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "26511485725218939",
+            "advertiser": "힘가네",
+            "startedAt": "2026-05-16",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:18+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "992543860083545",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-20",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:18+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1733024547879151",
+            "advertiser": "Dwmall_official",
+            "startedAt": "2026-06-14",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:17+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "779089931491543",
+            "advertiser": "정약사의 건강나눔",
+            "startedAt": "2025-09-17",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:17+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "867358426437809",
+            "advertiser": "밍꾸",
+            "startedAt": "2026-06-18",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:16+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "824606287093878",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:16+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1050303650800766",
+            "advertiser": "진시황의 비밀",
+            "startedAt": "2026-07-27",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:10+00:00",
+            "lastCollectedAt": "2026-10-10T16:16:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1553644958946793",
+            "advertiser": "건강꿀팁",
+            "startedAt": "2025-07-29",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:10+00:00",
+            "lastCollectedAt": "2026-10-10T16:16:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1307916464876494",
+            "advertiser": "비타민 레ㅅ∣ ㅍ∣",
+            "startedAt": "2026-06-13",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:10+00:00",
+            "lastCollectedAt": "2026-10-10T16:16:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1559202799066544",
+            "advertiser": "더l일己l헬스노트",
+            "startedAt": "2026-07-15",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:09+00:00",
+            "lastCollectedAt": "2026-10-10T16:16:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1318841663063531",
+            "advertiser": "",
+            "startedAt": "2025-10-22",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:09+00:00",
+            "lastCollectedAt": "2026-10-10T16:16:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1299424088777170",
+            "advertiser": "Ph.Papa 팜파파",
+            "startedAt": "2026-04-02",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:09+00:00",
+            "lastCollectedAt": "2026-10-10T16:16:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1690978698453224",
+            "advertiser": "Dwmall_official",
+            "startedAt": "2026-06-14",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:08+00:00",
+            "lastCollectedAt": "2026-10-10T16:16:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1564964875283542",
+            "advertiser": "행복한 일상 클리닉",
+            "startedAt": "2026-07-15",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:08+00:00",
+            "lastCollectedAt": "2026-10-10T16:16:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2082618925649980",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:07+00:00",
+            "lastCollectedAt": "2026-10-10T16:16:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1076263328210738",
+            "advertiser": "닥터가",
+            "startedAt": "2026-08-24",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:08+00:00",
+            "lastCollectedAt": "2026-10-10T16:16:47+00:00",
+            "startTiming": "before-window"
+          },
           {
             "id": "821807007057546",
             "advertiser": "โสมเกาหลี บ้านน้องอินเตอร์",
@@ -6835,15 +7105,6 @@
             "startTiming": "before-window"
           },
           {
-            "id": "1408672294727537",
-            "advertiser": "오펠라 헬스케어 코리아 일반의약품",
-            "startedAt": "2026-10-02",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:46+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:46+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "1276560037368680",
             "advertiser": "매크리 by 이쁜걸",
             "startedAt": "2026-04-18",
@@ -6934,60 +7195,6 @@
             "startTiming": "before-window"
           },
           {
-            "id": "2891793641178604",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-07-07",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:27+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:27+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1546127203861524",
-            "advertiser": "Herbalife",
-            "startedAt": "2026-07-08",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:27+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:27+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1488351379436907",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:27+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:27+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1699923754386608",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:26+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:26+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1646857950308923",
-            "advertiser": "비타민인생",
-            "startedAt": "2026-08-03",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:26+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:26+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1429543802466377",
-            "advertiser": "GC",
-            "startedAt": "2026-09-30",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:26+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:26+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "925803617112027",
             "advertiser": "BlueMax",
             "startedAt": "2026-04-22",
@@ -6995,216 +7202,9 @@
             "firstCollectedAt": "2026-10-09T07:49:25+00:00",
             "lastCollectedAt": "2026-10-09T07:49:25+00:00",
             "startTiming": "before-window"
-          },
-          {
-            "id": "1099308079500301",
-            "advertiser": "영양ㄴr무",
-            "startedAt": "2026-08-31",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:25+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:25+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1397735959161477",
-            "advertiser": "Dwmallofficial",
-            "startedAt": "2026-09-12",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:24+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:24+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1324171059793020",
-            "advertiser": "리피어라",
-            "startedAt": "2026-09-03",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:24+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:24+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1318246116662590",
-            "advertiser": "바디컬",
-            "startedAt": "2026-06-28",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:20+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:20+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2039951603392307",
-            "advertiser": "건강 ズl키ㅁl",
-            "startedAt": "2026-08-24",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:19+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:19+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1055934593696061",
-            "advertiser": "필요약",
-            "startedAt": "2026-08-23",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:19+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:19+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1010837691984346",
-            "advertiser": "건강꿀팁",
-            "startedAt": "2026-08-14",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:19+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:19+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "992543860083545",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-06-20",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:18+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:18+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "26511485725218939",
-            "advertiser": "힘가네",
-            "startedAt": "2026-05-16",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:18+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:18+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "779089931491543",
-            "advertiser": "정약사의 건강나눔",
-            "startedAt": "2025-09-17",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:17+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:17+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1733024547879151",
-            "advertiser": "Dwmall_official",
-            "startedAt": "2026-06-14",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:17+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:17+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "867358426437809",
-            "advertiser": "밍꾸",
-            "startedAt": "2026-06-18",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:16+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:16+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "824606287093878",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:16+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:16+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1553644958946793",
-            "advertiser": "건강꿀팁",
-            "startedAt": "2025-07-29",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:10+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:10+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1307916464876494",
-            "advertiser": "비타민 레ㅅ∣ ㅍ∣",
-            "startedAt": "2026-06-13",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:10+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:10+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1050303650800766",
-            "advertiser": "진시황의 비밀",
-            "startedAt": "2026-07-27",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:10+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:10+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1559202799066544",
-            "advertiser": "더l일己l헬스노트",
-            "startedAt": "2026-07-15",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:09+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:09+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1318841663063531",
-            "advertiser": "",
-            "startedAt": "2025-10-22",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:09+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:09+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1299424088777170",
-            "advertiser": "Ph.Papa 팜파파",
-            "startedAt": "2026-04-02",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:09+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:09+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1690978698453224",
-            "advertiser": "Dwmall_official",
-            "startedAt": "2026-06-14",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:08+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:08+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1564964875283542",
-            "advertiser": "행복한 일상 클리닉",
-            "startedAt": "2026-07-15",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:08+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:08+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1076263328210738",
-            "advertiser": "닥터가",
-            "startedAt": "2026-08-24",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:08+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:08+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2082618925649980",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:07+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:07+00:00",
-            "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-09T07:50:58+00:00",
+        "lastCollectedAt": "2026-10-10T16:17:18+00:00",
         "advertisers": [
           {
             "name": "Naverplus.store",
@@ -15006,7 +15006,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-10T00:20:06+00:00",
       "lastObservedAt": "2026-10-10T15:21:57+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "b183aeaa73c61755f8388493f638b53aab6077738cf365ab8849042f8e398477",
       "searchQuery": "비타민b",
       "adEvidence": {
@@ -15014,6 +15014,36 @@
         "matchType": "collected-with-query",
         "adCount": 100,
         "adIds": [
+          "2891793641178604",
+          "1646857950308923",
+          "1546127203861524",
+          "1488351379436907",
+          "1699923754386608",
+          "1318246116662590",
+          "2039951603392307",
+          "1397735959161477",
+          "1099308079500301",
+          "1055934593696061",
+          "1408672294727537",
+          "1324171059793020",
+          "1010837691984346",
+          "1429543802466377",
+          "26511485725218939",
+          "992543860083545",
+          "1733024547879151",
+          "779089931491543",
+          "867358426437809",
+          "824606287093878",
+          "1050303650800766",
+          "1553644958946793",
+          "1307916464876494",
+          "1559202799066544",
+          "1318841663063531",
+          "1299424088777170",
+          "1690978698453224",
+          "1564964875283542",
+          "2082618925649980",
+          "1076263328210738",
           "821807007057546",
           "1380672993891221",
           "2040166229967171",
@@ -15073,7 +15103,6 @@
           "1430499745595666",
           "1582336396870676",
           "1717715316162917",
-          "1408672294727537",
           "1276560037368680",
           "1098758959280069",
           "1066655009441757",
@@ -15084,38 +15113,279 @@
           "1046939740200849",
           "995283433291209",
           "1029852239430441",
-          "2891793641178604",
-          "1546127203861524",
-          "1488351379436907",
-          "1699923754386608",
-          "1646857950308923",
-          "1429543802466377",
-          "925803617112027",
-          "1099308079500301",
-          "1397735959161477",
-          "1324171059793020",
-          "1318246116662590",
-          "2039951603392307",
-          "1055934593696061",
-          "1010837691984346",
-          "992543860083545",
-          "26511485725218939",
-          "779089931491543",
-          "1733024547879151",
-          "867358426437809",
-          "824606287093878",
-          "1553644958946793",
-          "1307916464876494",
-          "1050303650800766",
-          "1559202799066544",
-          "1318841663063531",
-          "1299424088777170",
-          "1690978698453224",
-          "1564964875283542",
-          "1076263328210738",
-          "2082618925649980"
+          "925803617112027"
         ],
         "ads": [
+          {
+            "id": "2891793641178604",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-07-07",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:27+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1646857950308923",
+            "advertiser": "비타민인생",
+            "startedAt": "2026-08-03",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:26+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1546127203861524",
+            "advertiser": "Herbalife",
+            "startedAt": "2026-07-08",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:27+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1488351379436907",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:27+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1699923754386608",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:26+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1318246116662590",
+            "advertiser": "바디컬",
+            "startedAt": "2026-06-28",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:20+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2039951603392307",
+            "advertiser": "건강 ズl키ㅁl",
+            "startedAt": "2026-08-24",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:19+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1397735959161477",
+            "advertiser": "Dwmallofficial",
+            "startedAt": "2026-09-12",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:24+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1099308079500301",
+            "advertiser": "영양ㄴr무",
+            "startedAt": "2026-08-31",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:25+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1055934593696061",
+            "advertiser": "필요약",
+            "startedAt": "2026-08-23",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:19+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1408672294727537",
+            "advertiser": "오펠라 헬스케어 코리아 일반의약품",
+            "startedAt": "2026-10-02",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:46+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1324171059793020",
+            "advertiser": "리피어라",
+            "startedAt": "2026-09-03",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:24+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1010837691984346",
+            "advertiser": "건강꿀팁",
+            "startedAt": "2026-08-14",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:19+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1429543802466377",
+            "advertiser": "GC",
+            "startedAt": "2026-09-30",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:26+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "26511485725218939",
+            "advertiser": "힘가네",
+            "startedAt": "2026-05-16",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:18+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "992543860083545",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-20",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:18+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1733024547879151",
+            "advertiser": "Dwmall_official",
+            "startedAt": "2026-06-14",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:17+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "779089931491543",
+            "advertiser": "정약사의 건강나눔",
+            "startedAt": "2025-09-17",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:17+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "867358426437809",
+            "advertiser": "밍꾸",
+            "startedAt": "2026-06-18",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:16+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "824606287093878",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:16+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1050303650800766",
+            "advertiser": "진시황의 비밀",
+            "startedAt": "2026-07-27",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:10+00:00",
+            "lastCollectedAt": "2026-10-10T16:16:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1553644958946793",
+            "advertiser": "건강꿀팁",
+            "startedAt": "2025-07-29",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:10+00:00",
+            "lastCollectedAt": "2026-10-10T16:16:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1307916464876494",
+            "advertiser": "비타민 레ㅅ∣ ㅍ∣",
+            "startedAt": "2026-06-13",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:10+00:00",
+            "lastCollectedAt": "2026-10-10T16:16:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1559202799066544",
+            "advertiser": "더l일己l헬스노트",
+            "startedAt": "2026-07-15",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:09+00:00",
+            "lastCollectedAt": "2026-10-10T16:16:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1318841663063531",
+            "advertiser": "",
+            "startedAt": "2025-10-22",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:09+00:00",
+            "lastCollectedAt": "2026-10-10T16:16:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1299424088777170",
+            "advertiser": "Ph.Papa 팜파파",
+            "startedAt": "2026-04-02",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:09+00:00",
+            "lastCollectedAt": "2026-10-10T16:16:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1690978698453224",
+            "advertiser": "Dwmall_official",
+            "startedAt": "2026-06-14",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:08+00:00",
+            "lastCollectedAt": "2026-10-10T16:16:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1564964875283542",
+            "advertiser": "행복한 일상 클리닉",
+            "startedAt": "2026-07-15",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:08+00:00",
+            "lastCollectedAt": "2026-10-10T16:16:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2082618925649980",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:07+00:00",
+            "lastCollectedAt": "2026-10-10T16:16:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1076263328210738",
+            "advertiser": "닥터가",
+            "startedAt": "2026-08-24",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:08+00:00",
+            "lastCollectedAt": "2026-10-10T16:16:47+00:00",
+            "startTiming": "before-window"
+          },
           {
             "id": "821807007057546",
             "advertiser": "โสมเกาหลี บ้านน้องอินเตอร์",
@@ -15648,15 +15918,6 @@
             "startTiming": "before-window"
           },
           {
-            "id": "1408672294727537",
-            "advertiser": "오펠라 헬스케어 코리아 일반의약품",
-            "startedAt": "2026-10-02",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:46+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:46+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "1276560037368680",
             "advertiser": "매크리 by 이쁜걸",
             "startedAt": "2026-04-18",
@@ -15747,60 +16008,6 @@
             "startTiming": "before-window"
           },
           {
-            "id": "2891793641178604",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-07-07",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:27+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:27+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1546127203861524",
-            "advertiser": "Herbalife",
-            "startedAt": "2026-07-08",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:27+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:27+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1488351379436907",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:27+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:27+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1699923754386608",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:26+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:26+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1646857950308923",
-            "advertiser": "비타민인생",
-            "startedAt": "2026-08-03",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:26+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:26+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1429543802466377",
-            "advertiser": "GC",
-            "startedAt": "2026-09-30",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:26+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:26+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "925803617112027",
             "advertiser": "BlueMax",
             "startedAt": "2026-04-22",
@@ -15808,216 +16015,9 @@
             "firstCollectedAt": "2026-10-09T07:49:25+00:00",
             "lastCollectedAt": "2026-10-09T07:49:25+00:00",
             "startTiming": "before-window"
-          },
-          {
-            "id": "1099308079500301",
-            "advertiser": "영양ㄴr무",
-            "startedAt": "2026-08-31",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:25+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:25+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1397735959161477",
-            "advertiser": "Dwmallofficial",
-            "startedAt": "2026-09-12",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:24+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:24+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1324171059793020",
-            "advertiser": "리피어라",
-            "startedAt": "2026-09-03",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:24+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:24+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1318246116662590",
-            "advertiser": "바디컬",
-            "startedAt": "2026-06-28",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:20+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:20+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2039951603392307",
-            "advertiser": "건강 ズl키ㅁl",
-            "startedAt": "2026-08-24",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:19+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:19+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1055934593696061",
-            "advertiser": "필요약",
-            "startedAt": "2026-08-23",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:19+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:19+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1010837691984346",
-            "advertiser": "건강꿀팁",
-            "startedAt": "2026-08-14",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:19+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:19+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "992543860083545",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-06-20",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:18+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:18+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "26511485725218939",
-            "advertiser": "힘가네",
-            "startedAt": "2026-05-16",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:18+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:18+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "779089931491543",
-            "advertiser": "정약사의 건강나눔",
-            "startedAt": "2025-09-17",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:17+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:17+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1733024547879151",
-            "advertiser": "Dwmall_official",
-            "startedAt": "2026-06-14",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:17+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:17+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "867358426437809",
-            "advertiser": "밍꾸",
-            "startedAt": "2026-06-18",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:16+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:16+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "824606287093878",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:16+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:16+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1553644958946793",
-            "advertiser": "건강꿀팁",
-            "startedAt": "2025-07-29",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:10+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:10+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1307916464876494",
-            "advertiser": "비타민 레ㅅ∣ ㅍ∣",
-            "startedAt": "2026-06-13",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:10+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:10+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1050303650800766",
-            "advertiser": "진시황의 비밀",
-            "startedAt": "2026-07-27",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:10+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:10+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1559202799066544",
-            "advertiser": "더l일己l헬스노트",
-            "startedAt": "2026-07-15",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:09+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:09+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1318841663063531",
-            "advertiser": "",
-            "startedAt": "2025-10-22",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:09+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:09+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1299424088777170",
-            "advertiser": "Ph.Papa 팜파파",
-            "startedAt": "2026-04-02",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:09+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:09+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1690978698453224",
-            "advertiser": "Dwmall_official",
-            "startedAt": "2026-06-14",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:08+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:08+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1564964875283542",
-            "advertiser": "행복한 일상 클리닉",
-            "startedAt": "2026-07-15",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:08+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:08+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1076263328210738",
-            "advertiser": "닥터가",
-            "startedAt": "2026-08-24",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:08+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:08+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2082618925649980",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:07+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:07+00:00",
-            "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-09T07:50:58+00:00",
+        "lastCollectedAt": "2026-10-10T16:17:18+00:00",
         "advertisers": [
           {
             "name": "Naverplus.store",
@@ -29498,6 +29498,36 @@
         "matchType": "collected-with-query",
         "adCount": 100,
         "adIds": [
+          "2891793641178604",
+          "1646857950308923",
+          "1546127203861524",
+          "1488351379436907",
+          "1699923754386608",
+          "1318246116662590",
+          "2039951603392307",
+          "1397735959161477",
+          "1099308079500301",
+          "1055934593696061",
+          "1408672294727537",
+          "1324171059793020",
+          "1010837691984346",
+          "1429543802466377",
+          "26511485725218939",
+          "992543860083545",
+          "1733024547879151",
+          "779089931491543",
+          "867358426437809",
+          "824606287093878",
+          "1050303650800766",
+          "1553644958946793",
+          "1307916464876494",
+          "1559202799066544",
+          "1318841663063531",
+          "1299424088777170",
+          "1690978698453224",
+          "1564964875283542",
+          "2082618925649980",
+          "1076263328210738",
           "821807007057546",
           "1380672993891221",
           "2040166229967171",
@@ -29557,7 +29587,6 @@
           "1430499745595666",
           "1582336396870676",
           "1717715316162917",
-          "1408672294727537",
           "1276560037368680",
           "1098758959280069",
           "1066655009441757",
@@ -29568,38 +29597,279 @@
           "1046939740200849",
           "995283433291209",
           "1029852239430441",
-          "2891793641178604",
-          "1546127203861524",
-          "1488351379436907",
-          "1699923754386608",
-          "1646857950308923",
-          "1429543802466377",
-          "925803617112027",
-          "1099308079500301",
-          "1397735959161477",
-          "1324171059793020",
-          "1318246116662590",
-          "2039951603392307",
-          "1055934593696061",
-          "1010837691984346",
-          "992543860083545",
-          "26511485725218939",
-          "779089931491543",
-          "1733024547879151",
-          "867358426437809",
-          "824606287093878",
-          "1553644958946793",
-          "1307916464876494",
-          "1050303650800766",
-          "1559202799066544",
-          "1318841663063531",
-          "1299424088777170",
-          "1690978698453224",
-          "1564964875283542",
-          "1076263328210738",
-          "2082618925649980"
+          "925803617112027"
         ],
         "ads": [
+          {
+            "id": "2891793641178604",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-07-07",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:27+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1646857950308923",
+            "advertiser": "비타민인생",
+            "startedAt": "2026-08-03",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:26+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1546127203861524",
+            "advertiser": "Herbalife",
+            "startedAt": "2026-07-08",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:27+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1488351379436907",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:27+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1699923754386608",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:26+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1318246116662590",
+            "advertiser": "바디컬",
+            "startedAt": "2026-06-28",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:20+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2039951603392307",
+            "advertiser": "건강 ズl키ㅁl",
+            "startedAt": "2026-08-24",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:19+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1397735959161477",
+            "advertiser": "Dwmallofficial",
+            "startedAt": "2026-09-12",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:24+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1099308079500301",
+            "advertiser": "영양ㄴr무",
+            "startedAt": "2026-08-31",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:25+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1055934593696061",
+            "advertiser": "필요약",
+            "startedAt": "2026-08-23",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:19+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1408672294727537",
+            "advertiser": "오펠라 헬스케어 코리아 일반의약품",
+            "startedAt": "2026-10-02",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:46+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:08+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1324171059793020",
+            "advertiser": "리피어라",
+            "startedAt": "2026-09-03",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:24+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1010837691984346",
+            "advertiser": "건강꿀팁",
+            "startedAt": "2026-08-14",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:19+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1429543802466377",
+            "advertiser": "GC",
+            "startedAt": "2026-09-30",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:26+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "26511485725218939",
+            "advertiser": "힘가네",
+            "startedAt": "2026-05-16",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:18+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "992543860083545",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-20",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:18+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1733024547879151",
+            "advertiser": "Dwmall_official",
+            "startedAt": "2026-06-14",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:17+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "779089931491543",
+            "advertiser": "정약사의 건강나눔",
+            "startedAt": "2025-09-17",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:17+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "867358426437809",
+            "advertiser": "밍꾸",
+            "startedAt": "2026-06-18",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:16+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "824606287093878",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:16+00:00",
+            "lastCollectedAt": "2026-10-10T16:17:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1050303650800766",
+            "advertiser": "진시황의 비밀",
+            "startedAt": "2026-07-27",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:10+00:00",
+            "lastCollectedAt": "2026-10-10T16:16:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1553644958946793",
+            "advertiser": "건강꿀팁",
+            "startedAt": "2025-07-29",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:10+00:00",
+            "lastCollectedAt": "2026-10-10T16:16:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1307916464876494",
+            "advertiser": "비타민 레ㅅ∣ ㅍ∣",
+            "startedAt": "2026-06-13",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:10+00:00",
+            "lastCollectedAt": "2026-10-10T16:16:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1559202799066544",
+            "advertiser": "더l일己l헬스노트",
+            "startedAt": "2026-07-15",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:09+00:00",
+            "lastCollectedAt": "2026-10-10T16:16:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1318841663063531",
+            "advertiser": "",
+            "startedAt": "2025-10-22",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:09+00:00",
+            "lastCollectedAt": "2026-10-10T16:16:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1299424088777170",
+            "advertiser": "Ph.Papa 팜파파",
+            "startedAt": "2026-04-02",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:09+00:00",
+            "lastCollectedAt": "2026-10-10T16:16:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1690978698453224",
+            "advertiser": "Dwmall_official",
+            "startedAt": "2026-06-14",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:08+00:00",
+            "lastCollectedAt": "2026-10-10T16:16:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1564964875283542",
+            "advertiser": "행복한 일상 클리닉",
+            "startedAt": "2026-07-15",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:08+00:00",
+            "lastCollectedAt": "2026-10-10T16:16:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2082618925649980",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:07+00:00",
+            "lastCollectedAt": "2026-10-10T16:16:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1076263328210738",
+            "advertiser": "닥터가",
+            "startedAt": "2026-08-24",
+            "query": "비타민b",
+            "firstCollectedAt": "2026-10-09T07:49:08+00:00",
+            "lastCollectedAt": "2026-10-10T16:16:47+00:00",
+            "startTiming": "before-window"
+          },
           {
             "id": "821807007057546",
             "advertiser": "โสมเกาหลี บ้านน้องอินเตอร์",
@@ -30132,15 +30402,6 @@
             "startTiming": "before-window"
           },
           {
-            "id": "1408672294727537",
-            "advertiser": "오펠라 헬스케어 코리아 일반의약품",
-            "startedAt": "2026-10-02",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:46+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:46+00:00",
-            "startTiming": "during-window"
-          },
-          {
             "id": "1276560037368680",
             "advertiser": "매크리 by 이쁜걸",
             "startedAt": "2026-04-18",
@@ -30231,60 +30492,6 @@
             "startTiming": "before-window"
           },
           {
-            "id": "2891793641178604",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-07-07",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:27+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:27+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1546127203861524",
-            "advertiser": "Herbalife",
-            "startedAt": "2026-07-08",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:27+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:27+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1488351379436907",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:27+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:27+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1699923754386608",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:26+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:26+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1646857950308923",
-            "advertiser": "비타민인생",
-            "startedAt": "2026-08-03",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:26+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:26+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1429543802466377",
-            "advertiser": "GC",
-            "startedAt": "2026-09-30",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:26+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:26+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "925803617112027",
             "advertiser": "BlueMax",
             "startedAt": "2026-04-22",
@@ -30292,216 +30499,9 @@
             "firstCollectedAt": "2026-10-09T07:49:25+00:00",
             "lastCollectedAt": "2026-10-09T07:49:25+00:00",
             "startTiming": "before-window"
-          },
-          {
-            "id": "1099308079500301",
-            "advertiser": "영양ㄴr무",
-            "startedAt": "2026-08-31",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:25+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:25+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1397735959161477",
-            "advertiser": "Dwmallofficial",
-            "startedAt": "2026-09-12",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:24+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:24+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1324171059793020",
-            "advertiser": "리피어라",
-            "startedAt": "2026-09-03",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:24+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:24+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1318246116662590",
-            "advertiser": "바디컬",
-            "startedAt": "2026-06-28",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:20+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:20+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2039951603392307",
-            "advertiser": "건강 ズl키ㅁl",
-            "startedAt": "2026-08-24",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:19+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:19+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1055934593696061",
-            "advertiser": "필요약",
-            "startedAt": "2026-08-23",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:19+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:19+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1010837691984346",
-            "advertiser": "건강꿀팁",
-            "startedAt": "2026-08-14",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:19+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:19+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "992543860083545",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-06-20",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:18+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:18+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "26511485725218939",
-            "advertiser": "힘가네",
-            "startedAt": "2026-05-16",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:18+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:18+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "779089931491543",
-            "advertiser": "정약사의 건강나눔",
-            "startedAt": "2025-09-17",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:17+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:17+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1733024547879151",
-            "advertiser": "Dwmall_official",
-            "startedAt": "2026-06-14",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:17+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:17+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "867358426437809",
-            "advertiser": "밍꾸",
-            "startedAt": "2026-06-18",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:16+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:16+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "824606287093878",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:16+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:16+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1553644958946793",
-            "advertiser": "건강꿀팁",
-            "startedAt": "2025-07-29",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:10+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:10+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1307916464876494",
-            "advertiser": "비타민 레ㅅ∣ ㅍ∣",
-            "startedAt": "2026-06-13",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:10+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:10+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1050303650800766",
-            "advertiser": "진시황의 비밀",
-            "startedAt": "2026-07-27",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:10+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:10+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1559202799066544",
-            "advertiser": "더l일己l헬스노트",
-            "startedAt": "2026-07-15",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:09+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:09+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1318841663063531",
-            "advertiser": "",
-            "startedAt": "2025-10-22",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:09+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:09+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1299424088777170",
-            "advertiser": "Ph.Papa 팜파파",
-            "startedAt": "2026-04-02",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:09+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:09+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1690978698453224",
-            "advertiser": "Dwmall_official",
-            "startedAt": "2026-06-14",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:08+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:08+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1564964875283542",
-            "advertiser": "행복한 일상 클리닉",
-            "startedAt": "2026-07-15",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:08+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:08+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1076263328210738",
-            "advertiser": "닥터가",
-            "startedAt": "2026-08-24",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:08+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:08+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2082618925649980",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "비타민b",
-            "firstCollectedAt": "2026-10-09T07:49:07+00:00",
-            "lastCollectedAt": "2026-10-09T07:49:07+00:00",
-            "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-09T07:50:58+00:00",
+        "lastCollectedAt": "2026-10-10T16:17:18+00:00",
         "advertisers": [
           {
             "name": "Naverplus.store",
