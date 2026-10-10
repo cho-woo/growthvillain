@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T13:36:03+00:00",
+  "updatedAt": "2026-10-10T13:37:04+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-10T00:20:37+00:00",
@@ -43,8 +43,8 @@
     "backlogDays": 14,
     "dailyUsed": 48,
     "dailyRemaining": 240,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-10T13:41:03+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -5299,7 +5299,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "a54110504b0a1643670e45d486c65b7171949fd91e46ca17830c9492da1efc70",
       "searchQuery": "덴마크유산균",
       "adEvidence": {
@@ -5308,12 +5308,12 @@
         "adCount": 11,
         "adIds": [
           "29245068415099543",
-          "1336701151704337",
           "863191070092793",
+          "1336701151704337",
           "1968683280398367",
           "2752845968450480",
-          "1827198995370874",
           "1847514319751706",
+          "1827198995370874",
           "2414463782414034",
           "2241266550162030",
           "2563676980735974",
@@ -5326,16 +5326,7 @@
             "startedAt": "2026-10-01",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:56:19+00:00",
-            "lastCollectedAt": "2026-10-08T01:56:19+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1336701151704337",
-            "advertiser": "탤뷰",
-            "startedAt": "2026-10-01",
-            "query": "덴마크유산균",
-            "firstCollectedAt": "2026-10-08T01:56:08+00:00",
-            "lastCollectedAt": "2026-10-08T01:56:08+00:00",
+            "lastCollectedAt": "2026-10-10T13:36:43+00:00",
             "startTiming": "before-window"
           },
           {
@@ -5344,7 +5335,16 @@
             "startedAt": "2026-09-03",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:56:07+00:00",
-            "lastCollectedAt": "2026-10-08T01:56:07+00:00",
+            "lastCollectedAt": "2026-10-10T13:36:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1336701151704337",
+            "advertiser": "탤뷰",
+            "startedAt": "2026-10-01",
+            "query": "덴마크유산균",
+            "firstCollectedAt": "2026-10-08T01:56:08+00:00",
+            "lastCollectedAt": "2026-10-10T13:36:32+00:00",
             "startTiming": "before-window"
           },
           {
@@ -5353,7 +5353,7 @@
             "startedAt": "2026-10-01",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:55:57+00:00",
-            "lastCollectedAt": "2026-10-08T01:55:57+00:00",
+            "lastCollectedAt": "2026-10-10T13:36:13+00:00",
             "startTiming": "before-window"
           },
           {
@@ -5362,16 +5362,7 @@
             "startedAt": "2026-09-11",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:55:56+00:00",
-            "lastCollectedAt": "2026-10-08T01:55:56+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1827198995370874",
-            "advertiser": "Ehcl15",
-            "startedAt": "2026-10-02",
-            "query": "덴마크유산균",
-            "firstCollectedAt": "2026-10-08T01:55:56+00:00",
-            "lastCollectedAt": "2026-10-08T01:55:56+00:00",
+            "lastCollectedAt": "2026-10-10T13:36:12+00:00",
             "startTiming": "before-window"
           },
           {
@@ -5380,7 +5371,16 @@
             "startedAt": "2026-10-01",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:55:55+00:00",
-            "lastCollectedAt": "2026-10-08T01:55:55+00:00",
+            "lastCollectedAt": "2026-10-10T13:36:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1827198995370874",
+            "advertiser": "Ehcl15",
+            "startedAt": "2026-10-02",
+            "query": "덴마크유산균",
+            "firstCollectedAt": "2026-10-08T01:55:56+00:00",
+            "lastCollectedAt": "2026-10-10T13:36:11+00:00",
             "startTiming": "before-window"
           },
           {
@@ -5389,7 +5389,7 @@
             "startedAt": "2026-09-11",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:55:54+00:00",
-            "lastCollectedAt": "2026-10-08T01:55:54+00:00",
+            "lastCollectedAt": "2026-10-10T13:36:10+00:00",
             "startTiming": "before-window"
           },
           {
@@ -5398,7 +5398,7 @@
             "startedAt": "2026-07-26",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:55:54+00:00",
-            "lastCollectedAt": "2026-10-08T01:55:54+00:00",
+            "lastCollectedAt": "2026-10-10T13:36:09+00:00",
             "startTiming": "before-window"
           },
           {
@@ -5407,7 +5407,7 @@
             "startedAt": "2026-07-26",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:55:53+00:00",
-            "lastCollectedAt": "2026-10-08T01:55:53+00:00",
+            "lastCollectedAt": "2026-10-10T13:36:08+00:00",
             "startTiming": "before-window"
           },
           {
@@ -5416,11 +5416,11 @@
             "startedAt": "2026-09-11",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:55:53+00:00",
-            "lastCollectedAt": "2026-10-08T01:55:53+00:00",
+            "lastCollectedAt": "2026-10-10T13:36:08+00:00",
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-08T01:56:19+00:00",
+        "lastCollectedAt": "2026-10-10T13:36:43+00:00",
         "advertisers": [
           {
             "name": "Ehcl15",
@@ -18662,7 +18662,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-10T00:20:06+00:00",
       "lastObservedAt": "2026-10-10T00:20:06+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "a54110504b0a1643670e45d486c65b7171949fd91e46ca17830c9492da1efc70",
       "searchQuery": "덴마크유산균",
       "adEvidence": {
@@ -18671,12 +18671,12 @@
         "adCount": 11,
         "adIds": [
           "29245068415099543",
-          "1336701151704337",
           "863191070092793",
+          "1336701151704337",
           "1968683280398367",
           "2752845968450480",
-          "1827198995370874",
           "1847514319751706",
+          "1827198995370874",
           "2414463782414034",
           "2241266550162030",
           "2563676980735974",
@@ -18689,16 +18689,7 @@
             "startedAt": "2026-10-01",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:56:19+00:00",
-            "lastCollectedAt": "2026-10-08T01:56:19+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1336701151704337",
-            "advertiser": "탤뷰",
-            "startedAt": "2026-10-01",
-            "query": "덴마크유산균",
-            "firstCollectedAt": "2026-10-08T01:56:08+00:00",
-            "lastCollectedAt": "2026-10-08T01:56:08+00:00",
+            "lastCollectedAt": "2026-10-10T13:36:43+00:00",
             "startTiming": "before-window"
           },
           {
@@ -18707,7 +18698,16 @@
             "startedAt": "2026-09-03",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:56:07+00:00",
-            "lastCollectedAt": "2026-10-08T01:56:07+00:00",
+            "lastCollectedAt": "2026-10-10T13:36:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1336701151704337",
+            "advertiser": "탤뷰",
+            "startedAt": "2026-10-01",
+            "query": "덴마크유산균",
+            "firstCollectedAt": "2026-10-08T01:56:08+00:00",
+            "lastCollectedAt": "2026-10-10T13:36:32+00:00",
             "startTiming": "before-window"
           },
           {
@@ -18716,7 +18716,7 @@
             "startedAt": "2026-10-01",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:55:57+00:00",
-            "lastCollectedAt": "2026-10-08T01:55:57+00:00",
+            "lastCollectedAt": "2026-10-10T13:36:13+00:00",
             "startTiming": "before-window"
           },
           {
@@ -18725,16 +18725,7 @@
             "startedAt": "2026-09-11",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:55:56+00:00",
-            "lastCollectedAt": "2026-10-08T01:55:56+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1827198995370874",
-            "advertiser": "Ehcl15",
-            "startedAt": "2026-10-02",
-            "query": "덴마크유산균",
-            "firstCollectedAt": "2026-10-08T01:55:56+00:00",
-            "lastCollectedAt": "2026-10-08T01:55:56+00:00",
+            "lastCollectedAt": "2026-10-10T13:36:12+00:00",
             "startTiming": "before-window"
           },
           {
@@ -18743,7 +18734,16 @@
             "startedAt": "2026-10-01",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:55:55+00:00",
-            "lastCollectedAt": "2026-10-08T01:55:55+00:00",
+            "lastCollectedAt": "2026-10-10T13:36:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1827198995370874",
+            "advertiser": "Ehcl15",
+            "startedAt": "2026-10-02",
+            "query": "덴마크유산균",
+            "firstCollectedAt": "2026-10-08T01:55:56+00:00",
+            "lastCollectedAt": "2026-10-10T13:36:11+00:00",
             "startTiming": "before-window"
           },
           {
@@ -18752,7 +18752,7 @@
             "startedAt": "2026-09-11",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:55:54+00:00",
-            "lastCollectedAt": "2026-10-08T01:55:54+00:00",
+            "lastCollectedAt": "2026-10-10T13:36:10+00:00",
             "startTiming": "before-window"
           },
           {
@@ -18761,7 +18761,7 @@
             "startedAt": "2026-07-26",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:55:54+00:00",
-            "lastCollectedAt": "2026-10-08T01:55:54+00:00",
+            "lastCollectedAt": "2026-10-10T13:36:09+00:00",
             "startTiming": "before-window"
           },
           {
@@ -18770,7 +18770,7 @@
             "startedAt": "2026-07-26",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:55:53+00:00",
-            "lastCollectedAt": "2026-10-08T01:55:53+00:00",
+            "lastCollectedAt": "2026-10-10T13:36:08+00:00",
             "startTiming": "before-window"
           },
           {
@@ -18779,11 +18779,11 @@
             "startedAt": "2026-09-11",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:55:53+00:00",
-            "lastCollectedAt": "2026-10-08T01:55:53+00:00",
+            "lastCollectedAt": "2026-10-10T13:36:08+00:00",
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-08T01:56:19+00:00",
+        "lastCollectedAt": "2026-10-10T13:36:43+00:00",
         "advertisers": [
           {
             "name": "Ehcl15",
@@ -51422,12 +51422,12 @@
         "adCount": 11,
         "adIds": [
           "29245068415099543",
-          "1336701151704337",
           "863191070092793",
+          "1336701151704337",
           "1968683280398367",
           "2752845968450480",
-          "1827198995370874",
           "1847514319751706",
+          "1827198995370874",
           "2414463782414034",
           "2241266550162030",
           "2563676980735974",
@@ -51440,16 +51440,7 @@
             "startedAt": "2026-10-01",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:56:19+00:00",
-            "lastCollectedAt": "2026-10-08T01:56:19+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1336701151704337",
-            "advertiser": "탤뷰",
-            "startedAt": "2026-10-01",
-            "query": "덴마크유산균",
-            "firstCollectedAt": "2026-10-08T01:56:08+00:00",
-            "lastCollectedAt": "2026-10-08T01:56:08+00:00",
+            "lastCollectedAt": "2026-10-10T13:36:43+00:00",
             "startTiming": "during-window"
           },
           {
@@ -51458,8 +51449,17 @@
             "startedAt": "2026-09-03",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:56:07+00:00",
-            "lastCollectedAt": "2026-10-08T01:56:07+00:00",
+            "lastCollectedAt": "2026-10-10T13:36:32+00:00",
             "startTiming": "before-window"
+          },
+          {
+            "id": "1336701151704337",
+            "advertiser": "탤뷰",
+            "startedAt": "2026-10-01",
+            "query": "덴마크유산균",
+            "firstCollectedAt": "2026-10-08T01:56:08+00:00",
+            "lastCollectedAt": "2026-10-10T13:36:32+00:00",
+            "startTiming": "during-window"
           },
           {
             "id": "1968683280398367",
@@ -51467,7 +51467,7 @@
             "startedAt": "2026-10-01",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:55:57+00:00",
-            "lastCollectedAt": "2026-10-08T01:55:57+00:00",
+            "lastCollectedAt": "2026-10-10T13:36:13+00:00",
             "startTiming": "during-window"
           },
           {
@@ -51476,17 +51476,8 @@
             "startedAt": "2026-09-11",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:55:56+00:00",
-            "lastCollectedAt": "2026-10-08T01:55:56+00:00",
+            "lastCollectedAt": "2026-10-10T13:36:12+00:00",
             "startTiming": "before-window"
-          },
-          {
-            "id": "1827198995370874",
-            "advertiser": "Ehcl15",
-            "startedAt": "2026-10-02",
-            "query": "덴마크유산균",
-            "firstCollectedAt": "2026-10-08T01:55:56+00:00",
-            "lastCollectedAt": "2026-10-08T01:55:56+00:00",
-            "startTiming": "during-window"
           },
           {
             "id": "1847514319751706",
@@ -51494,7 +51485,16 @@
             "startedAt": "2026-10-01",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:55:55+00:00",
-            "lastCollectedAt": "2026-10-08T01:55:55+00:00",
+            "lastCollectedAt": "2026-10-10T13:36:12+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1827198995370874",
+            "advertiser": "Ehcl15",
+            "startedAt": "2026-10-02",
+            "query": "덴마크유산균",
+            "firstCollectedAt": "2026-10-08T01:55:56+00:00",
+            "lastCollectedAt": "2026-10-10T13:36:11+00:00",
             "startTiming": "during-window"
           },
           {
@@ -51503,7 +51503,7 @@
             "startedAt": "2026-09-11",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:55:54+00:00",
-            "lastCollectedAt": "2026-10-08T01:55:54+00:00",
+            "lastCollectedAt": "2026-10-10T13:36:10+00:00",
             "startTiming": "before-window"
           },
           {
@@ -51512,7 +51512,7 @@
             "startedAt": "2026-07-26",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:55:54+00:00",
-            "lastCollectedAt": "2026-10-08T01:55:54+00:00",
+            "lastCollectedAt": "2026-10-10T13:36:09+00:00",
             "startTiming": "before-window"
           },
           {
@@ -51521,7 +51521,7 @@
             "startedAt": "2026-07-26",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:55:53+00:00",
-            "lastCollectedAt": "2026-10-08T01:55:53+00:00",
+            "lastCollectedAt": "2026-10-10T13:36:08+00:00",
             "startTiming": "before-window"
           },
           {
@@ -51530,11 +51530,11 @@
             "startedAt": "2026-09-11",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:55:53+00:00",
-            "lastCollectedAt": "2026-10-08T01:55:53+00:00",
+            "lastCollectedAt": "2026-10-10T13:36:08+00:00",
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-08T01:56:19+00:00",
+        "lastCollectedAt": "2026-10-10T13:36:43+00:00",
         "advertisers": [
           {
             "name": "Ehcl15",
