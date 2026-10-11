@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-11T13:36:42+00:00",
+  "updatedAt": "2026-10-11T13:39:31+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-11T00:35:53+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 27,
-    "dailyRemaining": 261,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "dailyUsed": 28,
+    "dailyRemaining": 260,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-11T13:44:00+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -11933,17 +11933,1188 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "a34ba4d382edebcfcd73973150ae04e4a30d01d14e44ac555e763c63ab4a7feb",
       "searchQuery": "프로틴",
       "adEvidence": {
         "query": "프로틴",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 100,
+        "adIds": [
+          "1140501851979756",
+          "1051914661048698",
+          "1101988195516018",
+          "1490381992894346",
+          "1082135927937966",
+          "1065759072969772",
+          "28288586600783640",
+          "872453302539560",
+          "1666128568304330",
+          "1669209901205604",
+          "2242345523221380",
+          "2193595197874552",
+          "2972946856400849",
+          "1716053847187920",
+          "1650637626449394",
+          "2308643693236298",
+          "1624516319402063",
+          "1685163599158366",
+          "1507683754331048",
+          "1392843735527511",
+          "27942221178814268",
+          "1783570653062347",
+          "1661024422031654",
+          "2548492145582515",
+          "1603007138125926",
+          "1497779244830735",
+          "1112425394878910",
+          "2265187867591768",
+          "1871084513868113",
+          "959867883811853",
+          "1659544642356450",
+          "1725544471847511",
+          "1498132551704272",
+          "1323563172493071",
+          "1485401350083790",
+          "1072986575717006",
+          "916859127817326",
+          "1861531878190137",
+          "1135629892319619",
+          "2830197403996197",
+          "1677312963823350",
+          "1410546227659896",
+          "2702032793586900",
+          "1684387386172258",
+          "4515339875371699",
+          "2134516837111115",
+          "1391949779071109",
+          "1014637104418871",
+          "1642053917438908",
+          "1551232979505523",
+          "1136068148984327",
+          "2914073372292547",
+          "1078582235037992",
+          "1008696371483202",
+          "1005340188795151",
+          "1317707360447142",
+          "1742339893452421",
+          "1560168785319405",
+          "1578608710438958",
+          "1094794749637538",
+          "1676103904522987",
+          "1426883022704523",
+          "2456712811505018",
+          "1548234443162136",
+          "1392402499576525",
+          "3354393541433102",
+          "1629582942173993",
+          "1114298674267956",
+          "1075108618429214",
+          "1062140306671812",
+          "925806673110609",
+          "38780300534917628",
+          "2018163065744908",
+          "2099633980926088",
+          "1138765008487562",
+          "2536413896870322",
+          "1058290116891899",
+          "1782801936423592",
+          "1081663598151612",
+          "831966962624387",
+          "1652234506050470",
+          "1135681502083588",
+          "1756122995713689",
+          "1054544937249637",
+          "1342460824425745",
+          "3014419015560358",
+          "1944089266286581",
+          "1788188482377218",
+          "1335379445200636",
+          "1501380141722602",
+          "2191369815006851",
+          "1078412234820575",
+          "25853200801023391",
+          "1504353821176925",
+          "1350514173799442",
+          "4391599597777142",
+          "1906116636690207",
+          "977147104701434",
+          "870825218747054",
+          "837393455939405"
+        ],
+        "ads": [
+          {
+            "id": "1140501851979756",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-10-02",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:43+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1051914661048698",
+            "advertiser": "JI Kwon",
+            "startedAt": "2026-09-14",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:43+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1101988195516018",
+            "advertiser": "BUP :: Beyond Your Power",
+            "startedAt": "2026-09-11",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:42+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1490381992894346",
+            "advertiser": "BUP :: Beyond Your Power",
+            "startedAt": "2026-08-19",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:41+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1082135927937966",
+            "advertiser": "DA",
+            "startedAt": "2026-09-08",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:40+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1065759072969772",
+            "advertiser": "NS_official",
+            "startedAt": "2026-09-10",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:40+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28288586600783640",
+            "advertiser": "ㅇㄹㅇㄹ",
+            "startedAt": "2026-09-11",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:38+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "872453302539560",
+            "advertiser": "도리도리맛도리",
+            "startedAt": "2026-05-21",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:37+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1666128568304330",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-29",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:37+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1669209901205604",
+            "advertiser": "오전남",
+            "startedAt": "2026-09-14",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:36+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2242345523221380",
+            "advertiser": "동원F&B",
+            "startedAt": "2026-09-06",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:27+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2193595197874552",
+            "advertiser": "다신샵&다이어트신 - 다이어트 맛있게 관리하자",
+            "startedAt": "2026-09-09",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:27+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2972946856400849",
+            "advertiser": "NS_official",
+            "startedAt": "2026-09-29",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:26+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1716053847187920",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-29",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:26+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1650637626449394",
+            "advertiser": "득근 꿀템.zip",
+            "startedAt": "2026-10-05",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:26+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:26+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2308643693236298",
+            "advertiser": "핵딜모음",
+            "startedAt": "2026-08-29",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:25+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1624516319402063",
+            "advertiser": "김동원",
+            "startedAt": "2026-10-01",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:25+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1685163599158366",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-05-06",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:24+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1507683754331048",
+            "advertiser": "올가니카 Organica",
+            "startedAt": "2026-05-18",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:24+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1392843735527511",
+            "advertiser": "쨍쨍한 정보들",
+            "startedAt": "2026-09-03",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:24+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27942221178814268",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-22",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:15+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1783570653062347",
+            "advertiser": "치키차카초코맛",
+            "startedAt": "2026-08-27",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:14+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1661024422031654",
+            "advertiser": "이데아뉴트리션",
+            "startedAt": "2026-09-28",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:14+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2548492145582515",
+            "advertiser": "PLCO 플코",
+            "startedAt": "2026-07-05",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:13+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1603007138125926",
+            "advertiser": "다신샵&다이어트신 - 다이어트 맛있게 관리하자",
+            "startedAt": "2026-09-15",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:13+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1497779244830735",
+            "advertiser": "이데아뉴트리션",
+            "startedAt": "2026-06-25",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:12+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1112425394878910",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-29",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:12+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2265187867591768",
+            "advertiser": "Jambaekee",
+            "startedAt": "2026-09-27",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:11+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1871084513868113",
+            "advertiser": "NS_official",
+            "startedAt": "2026-09-02",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:11+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "959867883811853",
+            "advertiser": "NS_official",
+            "startedAt": "2026-09-01",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:10+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1659544642356450",
+            "advertiser": "이거 보고 흥해라",
+            "startedAt": "2026-08-27",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:59+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1725544471847511",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-10-05",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:58+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:58+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1498132551704272",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-05-06",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:58+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1323563172493071",
+            "advertiser": "이데아뉴트리션",
+            "startedAt": "2026-06-01",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:58+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1485401350083790",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-04",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:57+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1072986575717006",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-08-29",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:57+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "916859127817326",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-17",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:56+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1861531878190137",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-17",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:56+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1135629892319619",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-09-18",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:56+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2830197403996197",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-04-26",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:55+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1677312963823350",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-23",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:48+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1410546227659896",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-08-21",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:48+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2702032793586900",
+            "advertiser": "Tangle Pasta",
+            "startedAt": "2026-10-02",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:47+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1684387386172258",
+            "advertiser": "꼭 알아야할 금덩어리 정보들",
+            "startedAt": "2026-07-02",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:47+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4515339875371699",
+            "advertiser": "이 시대의 가장 완벽한 단백질",
+            "startedAt": "2026-09-22",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:46+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2134516837111115",
+            "advertiser": "건강한범벨이",
+            "startedAt": "2026-06-21",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:46+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1391949779071109",
+            "advertiser": "NS_official",
+            "startedAt": "2026-09-14",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:46+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1014637104418871",
+            "advertiser": "Myprotein.AD",
+            "startedAt": "2026-05-28",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:46+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1642053917438908",
+            "advertiser": "이 시대의 가장 완벽한 단백질",
+            "startedAt": "2026-09-03",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:45+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1551232979505523",
+            "advertiser": "동원F&B",
+            "startedAt": "2026-09-04",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:45+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1136068148984327",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-22",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:38+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2914073372292547",
+            "advertiser": "이 시대의 가장 완벽한 단백질",
+            "startedAt": "2026-09-22",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:37+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1078582235037992",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-22",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:37+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1008696371483202",
+            "advertiser": "Wemove",
+            "startedAt": "2026-05-14",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:37+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1005340188795151",
+            "advertiser": "입 벌려 보충제 들어간다",
+            "startedAt": "2026-07-02",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:37+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1317707360447142",
+            "advertiser": "노캡디자인",
+            "startedAt": "2026-06-16",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:36+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1742339893452421",
+            "advertiser": "이데아뉴트리션",
+            "startedAt": "2026-07-29",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:35+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1560168785319405",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:35+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1578608710438958",
+            "advertiser": "이 시대의 가장 완벽한 단백질",
+            "startedAt": "2026-08-04",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:34+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1094794749637538",
+            "advertiser": "쨍쨍한 정보들",
+            "startedAt": "2026-09-04",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:34+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1676103904522987",
+            "advertiser": "이데아뉴트리션",
+            "startedAt": "2026-07-07",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:27+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1426883022704523",
+            "advertiser": "매일유업(Maeil)",
+            "startedAt": "2026-09-23",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:27+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2456712811505018",
+            "advertiser": "Musinsa",
+            "startedAt": "2026-09-17",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:26+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1548234443162136",
+            "advertiser": "득근 딱 대",
+            "startedAt": "2026-09-04",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:26+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1392402499576525",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-04-26",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:26+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3354393541433102",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-06-27",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:25+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1629582942173993",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-22",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:25+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1114298674267956",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-15",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:25+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1075108618429214",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-08-05",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:24+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1062140306671812",
+            "advertiser": "쨍쨍한 정보들",
+            "startedAt": "2026-09-04",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:24+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "925806673110609",
+            "advertiser": "쨍쨍한 정보들",
+            "startedAt": "2026-07-27",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:17+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "38780300534917628",
+            "advertiser": "김동원",
+            "startedAt": "2026-09-22",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:17+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2018163065744908",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-22",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:17+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2099633980926088",
+            "advertiser": "Tangle Pasta",
+            "startedAt": "2026-10-02",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:16+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1138765008487562",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-22",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:16+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2536413896870322",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-15",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:15+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1058290116891899",
+            "advertiser": "NS_official",
+            "startedAt": "2026-07-21",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:15+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1782801936423592",
+            "advertiser": "쨍쨍한 정보들",
+            "startedAt": "2026-06-01",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:14+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1081663598151612",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-08-14",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:14+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "831966962624387",
+            "advertiser": "",
+            "startedAt": "2025-10-22",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:13+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1652234506050470",
+            "advertiser": "이데아뉴트리션",
+            "startedAt": "2026-06-01",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:08+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1135681502083588",
+            "advertiser": "당신은 행운아",
+            "startedAt": "2026-05-13",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:08+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1756122995713689",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-15",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:06+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1054544937249637",
+            "advertiser": "세상에서 가장 가벼운 프로틴바",
+            "startedAt": "2026-06-17",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:06+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1342460824425745",
+            "advertiser": "동원참치",
+            "startedAt": "2026-09-23",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:05+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3014419015560358",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-22",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:04+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1944089266286581",
+            "advertiser": "이 시대의 가장 완벽한 단백질",
+            "startedAt": "2026-05-22",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:04+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1788188482377218",
+            "advertiser": "Tangle Pasta",
+            "startedAt": "2026-10-01",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:03+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1335379445200636",
+            "advertiser": "득근 꿀템.zip",
+            "startedAt": "2026-09-30",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:03+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1501380141722602",
+            "advertiser": "NS_official",
+            "startedAt": "2026-04-27",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:02+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2191369815006851",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-02-16",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:36:56+00:00",
+            "lastCollectedAt": "2026-10-11T13:36:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1078412234820575",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-10-08",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:36:56+00:00",
+            "lastCollectedAt": "2026-10-11T13:36:56+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "25853200801023391",
+            "advertiser": "NS_official",
+            "startedAt": "2026-05-05",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:36:55+00:00",
+            "lastCollectedAt": "2026-10-11T13:36:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1504353821176925",
+            "advertiser": "보충제업업",
+            "startedAt": "2026-06-02",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:36:54+00:00",
+            "lastCollectedAt": "2026-10-11T13:36:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1350514173799442",
+            "advertiser": "NS_official",
+            "startedAt": "2026-05-10",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:36:52+00:00",
+            "lastCollectedAt": "2026-10-11T13:36:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4391599597777142",
+            "advertiser": "수영의 비결",
+            "startedAt": "2026-05-29",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:36:51+00:00",
+            "lastCollectedAt": "2026-10-11T13:36:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1906116636690207",
+            "advertiser": "입 벌려 보충제 들어간다",
+            "startedAt": "2026-04-16",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:36:51+00:00",
+            "lastCollectedAt": "2026-10-11T13:36:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "977147104701434",
+            "advertiser": "NS_official",
+            "startedAt": "2026-05-19",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:36:50+00:00",
+            "lastCollectedAt": "2026-10-11T13:36:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "870825218747054",
+            "advertiser": "NS_official",
+            "startedAt": "2025-11-25",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:36:48+00:00",
+            "lastCollectedAt": "2026-10-11T13:36:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "837393455939405",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-02-02",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:36:48+00:00",
+            "lastCollectedAt": "2026-10-11T13:36:48+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-11T13:38:43+00:00",
+        "advertisers": [
+          {
+            "name": "써브웨이 Subway Korea",
+            "adCount": 16
+          },
+          {
+            "name": "NS_official",
+            "adCount": 11
+          },
+          {
+            "name": "Myprotein",
+            "adCount": 8
+          },
+          {
+            "name": "이데아뉴트리션",
+            "adCount": 6
+          },
+          {
+            "name": "이 시대의 가장 완벽한 단백질",
+            "adCount": 5
+          },
+          {
+            "name": "쨍쨍한 정보들",
+            "adCount": 5
+          },
+          {
+            "name": "Tangle Pasta",
+            "adCount": 3
+          },
+          {
+            "name": "다다쿵",
+            "adCount": 3
+          },
+          {
+            "name": "BNR17 비에날씬 BNRThin",
+            "adCount": 2
+          },
+          {
+            "name": "BUP :: Beyond Your Power",
+            "adCount": 2
+          },
+          {
+            "name": "김동원",
+            "adCount": 2
+          },
+          {
+            "name": "다신샵&다이어트신 - 다이어트 맛있게 관리하자",
+            "adCount": 2
+          },
+          {
+            "name": "동원F&B",
+            "adCount": 2
+          },
+          {
+            "name": "득근 꿀템.zip",
+            "adCount": 2
+          },
+          {
+            "name": "입 벌려 보충제 들어간다",
+            "adCount": 2
+          },
+          {
+            "name": "쿠팡 Coupang",
+            "adCount": 2
+          },
+          {
+            "name": "DA",
+            "adCount": 1
+          },
+          {
+            "name": "JI Kwon",
+            "adCount": 1
+          },
+          {
+            "name": "Jambaekee",
+            "adCount": 1
+          },
+          {
+            "name": "Musinsa",
+            "adCount": 1
+          },
+          {
+            "name": "Myprotein.AD",
+            "adCount": 1
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 1
+          },
+          {
+            "name": "PLCO 플코",
+            "adCount": 1
+          },
+          {
+            "name": "Wemove",
+            "adCount": 1
+          },
+          {
+            "name": "ㅇㄹㅇㄹ",
+            "adCount": 1
+          },
+          {
+            "name": "건강한범벨이",
+            "adCount": 1
+          },
+          {
+            "name": "꼭 알아야할 금덩어리 정보들",
+            "adCount": 1
+          },
+          {
+            "name": "노캡디자인",
+            "adCount": 1
+          },
+          {
+            "name": "당신은 행운아",
+            "adCount": 1
+          },
+          {
+            "name": "도리도리맛도리",
+            "adCount": 1
+          },
+          {
+            "name": "동원참치",
+            "adCount": 1
+          },
+          {
+            "name": "득근 딱 대",
+            "adCount": 1
+          },
+          {
+            "name": "매일유업(Maeil)",
+            "adCount": 1
+          },
+          {
+            "name": "보충제업업",
+            "adCount": 1
+          },
+          {
+            "name": "세상에서 가장 가벼운 프로틴바",
+            "adCount": 1
+          },
+          {
+            "name": "수영의 비결",
+            "adCount": 1
+          },
+          {
+            "name": "오전남",
+            "adCount": 1
+          },
+          {
+            "name": "올가니카 Organica",
+            "adCount": 1
+          },
+          {
+            "name": "이거 보고 흥해라",
+            "adCount": 1
+          },
+          {
+            "name": "치키차카초코맛",
+            "adCount": 1
+          },
+          {
+            "name": "핵딜모음",
+            "adCount": 1
+          },
+          {
+            "name": "후디스",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -11965,17 +13136,132 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "done",
       "keywordId": "43b5c356b15b8479573c9582d6e98dce37afbd1777bedb0f4ecb186d4d6a9a58",
       "searchQuery": "프로티원",
       "adEvidence": {
         "query": "프로티원",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 10,
+        "adIds": [
+          "1978403022855599",
+          "1859002195462671",
+          "1651215286365636",
+          "28704432552558236",
+          "1083577504370963",
+          "1051568371053112",
+          "1080728924598893",
+          "1661872368689097",
+          "2108308790061626",
+          "1061258936828052"
+        ],
+        "ads": [
+          {
+            "id": "1978403022855599",
+            "advertiser": "핏언니꿀팁",
+            "startedAt": "2026-09-09",
+            "query": "프로티원",
+            "firstCollectedAt": "2026-10-11T13:39:10+00:00",
+            "lastCollectedAt": "2026-10-11T13:39:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1859002195462671",
+            "advertiser": "핏언니꿀팁",
+            "startedAt": "2026-09-19",
+            "query": "프로티원",
+            "firstCollectedAt": "2026-10-11T13:39:09+00:00",
+            "lastCollectedAt": "2026-10-11T13:39:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1651215286365636",
+            "advertiser": "Protee.one",
+            "startedAt": "2026-10-10",
+            "query": "프로티원",
+            "firstCollectedAt": "2026-10-11T13:39:09+00:00",
+            "lastCollectedAt": "2026-10-11T13:39:09+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "28704432552558236",
+            "advertiser": "Protee.one",
+            "startedAt": "2026-10-10",
+            "query": "프로티원",
+            "firstCollectedAt": "2026-10-11T13:39:08+00:00",
+            "lastCollectedAt": "2026-10-11T13:39:08+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1083577504370963",
+            "advertiser": "핏언니꿀팁",
+            "startedAt": "2026-09-09",
+            "query": "프로티원",
+            "firstCollectedAt": "2026-10-11T13:39:08+00:00",
+            "lastCollectedAt": "2026-10-11T13:39:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1051568371053112",
+            "advertiser": "핏언니꿀팁",
+            "startedAt": "2026-09-09",
+            "query": "프로티원",
+            "firstCollectedAt": "2026-10-11T13:39:08+00:00",
+            "lastCollectedAt": "2026-10-11T13:39:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1080728924598893",
+            "advertiser": "Protee.one",
+            "startedAt": "2026-10-06",
+            "query": "프로티원",
+            "firstCollectedAt": "2026-10-11T13:39:07+00:00",
+            "lastCollectedAt": "2026-10-11T13:39:07+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1661872368689097",
+            "advertiser": "먹짱사용설명서",
+            "startedAt": "2026-09-09",
+            "query": "프로티원",
+            "firstCollectedAt": "2026-10-11T13:39:05+00:00",
+            "lastCollectedAt": "2026-10-11T13:39:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2108308790061626",
+            "advertiser": "Protee.one",
+            "startedAt": "2026-09-09",
+            "query": "프로티원",
+            "firstCollectedAt": "2026-10-11T13:39:04+00:00",
+            "lastCollectedAt": "2026-10-11T13:39:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1061258936828052",
+            "advertiser": "먹짱사용설명서",
+            "startedAt": "2026-09-09",
+            "query": "프로티원",
+            "firstCollectedAt": "2026-10-11T13:39:04+00:00",
+            "lastCollectedAt": "2026-10-11T13:39:04+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-11T13:39:10+00:00",
+        "advertisers": [
+          {
+            "name": "Protee.one",
+            "adCount": 4
+          },
+          {
+            "name": "핏언니꿀팁",
+            "adCount": 4
+          },
+          {
+            "name": "먹짱사용설명서",
+            "adCount": 2
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -13858,17 +15144,1188 @@
       "rankWindow": 100,
       "observedAt": "2026-10-11T00:35:53+00:00",
       "lastObservedAt": "2026-10-11T00:35:53+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "a34ba4d382edebcfcd73973150ae04e4a30d01d14e44ac555e763c63ab4a7feb",
       "searchQuery": "프로틴",
       "adEvidence": {
         "query": "프로틴",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 100,
+        "adIds": [
+          "1140501851979756",
+          "1051914661048698",
+          "1101988195516018",
+          "1490381992894346",
+          "1082135927937966",
+          "1065759072969772",
+          "28288586600783640",
+          "872453302539560",
+          "1666128568304330",
+          "1669209901205604",
+          "2242345523221380",
+          "2193595197874552",
+          "2972946856400849",
+          "1716053847187920",
+          "1650637626449394",
+          "2308643693236298",
+          "1624516319402063",
+          "1685163599158366",
+          "1507683754331048",
+          "1392843735527511",
+          "27942221178814268",
+          "1783570653062347",
+          "1661024422031654",
+          "2548492145582515",
+          "1603007138125926",
+          "1497779244830735",
+          "1112425394878910",
+          "2265187867591768",
+          "1871084513868113",
+          "959867883811853",
+          "1659544642356450",
+          "1725544471847511",
+          "1498132551704272",
+          "1323563172493071",
+          "1485401350083790",
+          "1072986575717006",
+          "916859127817326",
+          "1861531878190137",
+          "1135629892319619",
+          "2830197403996197",
+          "1677312963823350",
+          "1410546227659896",
+          "2702032793586900",
+          "1684387386172258",
+          "4515339875371699",
+          "2134516837111115",
+          "1391949779071109",
+          "1014637104418871",
+          "1642053917438908",
+          "1551232979505523",
+          "1136068148984327",
+          "2914073372292547",
+          "1078582235037992",
+          "1008696371483202",
+          "1005340188795151",
+          "1317707360447142",
+          "1742339893452421",
+          "1560168785319405",
+          "1578608710438958",
+          "1094794749637538",
+          "1676103904522987",
+          "1426883022704523",
+          "2456712811505018",
+          "1548234443162136",
+          "1392402499576525",
+          "3354393541433102",
+          "1629582942173993",
+          "1114298674267956",
+          "1075108618429214",
+          "1062140306671812",
+          "925806673110609",
+          "38780300534917628",
+          "2018163065744908",
+          "2099633980926088",
+          "1138765008487562",
+          "2536413896870322",
+          "1058290116891899",
+          "1782801936423592",
+          "1081663598151612",
+          "831966962624387",
+          "1652234506050470",
+          "1135681502083588",
+          "1756122995713689",
+          "1054544937249637",
+          "1342460824425745",
+          "3014419015560358",
+          "1944089266286581",
+          "1788188482377218",
+          "1335379445200636",
+          "1501380141722602",
+          "2191369815006851",
+          "1078412234820575",
+          "25853200801023391",
+          "1504353821176925",
+          "1350514173799442",
+          "4391599597777142",
+          "1906116636690207",
+          "977147104701434",
+          "870825218747054",
+          "837393455939405"
+        ],
+        "ads": [
+          {
+            "id": "1140501851979756",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-10-02",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:43+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1051914661048698",
+            "advertiser": "JI Kwon",
+            "startedAt": "2026-09-14",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:43+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1101988195516018",
+            "advertiser": "BUP :: Beyond Your Power",
+            "startedAt": "2026-09-11",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:42+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1490381992894346",
+            "advertiser": "BUP :: Beyond Your Power",
+            "startedAt": "2026-08-19",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:41+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1082135927937966",
+            "advertiser": "DA",
+            "startedAt": "2026-09-08",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:40+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1065759072969772",
+            "advertiser": "NS_official",
+            "startedAt": "2026-09-10",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:40+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28288586600783640",
+            "advertiser": "ㅇㄹㅇㄹ",
+            "startedAt": "2026-09-11",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:38+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "872453302539560",
+            "advertiser": "도리도리맛도리",
+            "startedAt": "2026-05-21",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:37+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1666128568304330",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-29",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:37+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1669209901205604",
+            "advertiser": "오전남",
+            "startedAt": "2026-09-14",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:36+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2242345523221380",
+            "advertiser": "동원F&B",
+            "startedAt": "2026-09-06",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:27+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2193595197874552",
+            "advertiser": "다신샵&다이어트신 - 다이어트 맛있게 관리하자",
+            "startedAt": "2026-09-09",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:27+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2972946856400849",
+            "advertiser": "NS_official",
+            "startedAt": "2026-09-29",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:26+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1716053847187920",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-29",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:26+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1650637626449394",
+            "advertiser": "득근 꿀템.zip",
+            "startedAt": "2026-10-05",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:26+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:26+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2308643693236298",
+            "advertiser": "핵딜모음",
+            "startedAt": "2026-08-29",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:25+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1624516319402063",
+            "advertiser": "김동원",
+            "startedAt": "2026-10-01",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:25+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1685163599158366",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-05-06",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:24+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1507683754331048",
+            "advertiser": "올가니카 Organica",
+            "startedAt": "2026-05-18",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:24+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1392843735527511",
+            "advertiser": "쨍쨍한 정보들",
+            "startedAt": "2026-09-03",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:24+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27942221178814268",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-22",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:15+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1783570653062347",
+            "advertiser": "치키차카초코맛",
+            "startedAt": "2026-08-27",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:14+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1661024422031654",
+            "advertiser": "이데아뉴트리션",
+            "startedAt": "2026-09-28",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:14+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2548492145582515",
+            "advertiser": "PLCO 플코",
+            "startedAt": "2026-07-05",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:13+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1603007138125926",
+            "advertiser": "다신샵&다이어트신 - 다이어트 맛있게 관리하자",
+            "startedAt": "2026-09-15",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:13+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1497779244830735",
+            "advertiser": "이데아뉴트리션",
+            "startedAt": "2026-06-25",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:12+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1112425394878910",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-29",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:12+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2265187867591768",
+            "advertiser": "Jambaekee",
+            "startedAt": "2026-09-27",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:11+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1871084513868113",
+            "advertiser": "NS_official",
+            "startedAt": "2026-09-02",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:11+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "959867883811853",
+            "advertiser": "NS_official",
+            "startedAt": "2026-09-01",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:38:10+00:00",
+            "lastCollectedAt": "2026-10-11T13:38:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1659544642356450",
+            "advertiser": "이거 보고 흥해라",
+            "startedAt": "2026-08-27",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:59+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1725544471847511",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-10-05",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:58+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:58+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1498132551704272",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-05-06",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:58+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1323563172493071",
+            "advertiser": "이데아뉴트리션",
+            "startedAt": "2026-06-01",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:58+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1485401350083790",
+            "advertiser": "쿠팡 Coupang",
+            "startedAt": "2026-09-04",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:57+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1072986575717006",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-08-29",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:57+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "916859127817326",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-17",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:56+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1861531878190137",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-17",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:56+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1135629892319619",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-09-18",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:56+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2830197403996197",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-04-26",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:55+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1677312963823350",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-23",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:48+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1410546227659896",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-08-21",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:48+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2702032793586900",
+            "advertiser": "Tangle Pasta",
+            "startedAt": "2026-10-02",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:47+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1684387386172258",
+            "advertiser": "꼭 알아야할 금덩어리 정보들",
+            "startedAt": "2026-07-02",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:47+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4515339875371699",
+            "advertiser": "이 시대의 가장 완벽한 단백질",
+            "startedAt": "2026-09-22",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:46+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2134516837111115",
+            "advertiser": "건강한범벨이",
+            "startedAt": "2026-06-21",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:46+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1391949779071109",
+            "advertiser": "NS_official",
+            "startedAt": "2026-09-14",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:46+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1014637104418871",
+            "advertiser": "Myprotein.AD",
+            "startedAt": "2026-05-28",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:46+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1642053917438908",
+            "advertiser": "이 시대의 가장 완벽한 단백질",
+            "startedAt": "2026-09-03",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:45+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1551232979505523",
+            "advertiser": "동원F&B",
+            "startedAt": "2026-09-04",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:45+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1136068148984327",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-22",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:38+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2914073372292547",
+            "advertiser": "이 시대의 가장 완벽한 단백질",
+            "startedAt": "2026-09-22",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:37+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1078582235037992",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-22",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:37+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1008696371483202",
+            "advertiser": "Wemove",
+            "startedAt": "2026-05-14",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:37+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1005340188795151",
+            "advertiser": "입 벌려 보충제 들어간다",
+            "startedAt": "2026-07-02",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:37+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1317707360447142",
+            "advertiser": "노캡디자인",
+            "startedAt": "2026-06-16",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:36+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1742339893452421",
+            "advertiser": "이데아뉴트리션",
+            "startedAt": "2026-07-29",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:35+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1560168785319405",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:35+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1578608710438958",
+            "advertiser": "이 시대의 가장 완벽한 단백질",
+            "startedAt": "2026-08-04",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:34+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1094794749637538",
+            "advertiser": "쨍쨍한 정보들",
+            "startedAt": "2026-09-04",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:34+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1676103904522987",
+            "advertiser": "이데아뉴트리션",
+            "startedAt": "2026-07-07",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:27+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1426883022704523",
+            "advertiser": "매일유업(Maeil)",
+            "startedAt": "2026-09-23",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:27+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2456712811505018",
+            "advertiser": "Musinsa",
+            "startedAt": "2026-09-17",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:26+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1548234443162136",
+            "advertiser": "득근 딱 대",
+            "startedAt": "2026-09-04",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:26+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1392402499576525",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-04-26",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:26+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3354393541433102",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-06-27",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:25+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1629582942173993",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-22",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:25+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1114298674267956",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-15",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:25+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1075108618429214",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-08-05",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:24+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1062140306671812",
+            "advertiser": "쨍쨍한 정보들",
+            "startedAt": "2026-09-04",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:24+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "925806673110609",
+            "advertiser": "쨍쨍한 정보들",
+            "startedAt": "2026-07-27",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:17+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "38780300534917628",
+            "advertiser": "김동원",
+            "startedAt": "2026-09-22",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:17+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2018163065744908",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-22",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:17+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2099633980926088",
+            "advertiser": "Tangle Pasta",
+            "startedAt": "2026-10-02",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:16+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1138765008487562",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-22",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:16+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2536413896870322",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-15",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:15+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1058290116891899",
+            "advertiser": "NS_official",
+            "startedAt": "2026-07-21",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:15+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1782801936423592",
+            "advertiser": "쨍쨍한 정보들",
+            "startedAt": "2026-06-01",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:14+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1081663598151612",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-08-14",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:14+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "831966962624387",
+            "advertiser": "",
+            "startedAt": "2025-10-22",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:13+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1652234506050470",
+            "advertiser": "이데아뉴트리션",
+            "startedAt": "2026-06-01",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:08+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1135681502083588",
+            "advertiser": "당신은 행운아",
+            "startedAt": "2026-05-13",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:08+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1756122995713689",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-15",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:06+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1054544937249637",
+            "advertiser": "세상에서 가장 가벼운 프로틴바",
+            "startedAt": "2026-06-17",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:06+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1342460824425745",
+            "advertiser": "동원참치",
+            "startedAt": "2026-09-23",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:05+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3014419015560358",
+            "advertiser": "써브웨이 Subway Korea",
+            "startedAt": "2026-09-22",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:04+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1944089266286581",
+            "advertiser": "이 시대의 가장 완벽한 단백질",
+            "startedAt": "2026-05-22",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:04+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1788188482377218",
+            "advertiser": "Tangle Pasta",
+            "startedAt": "2026-10-01",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:03+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1335379445200636",
+            "advertiser": "득근 꿀템.zip",
+            "startedAt": "2026-09-30",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:03+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1501380141722602",
+            "advertiser": "NS_official",
+            "startedAt": "2026-04-27",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:37:02+00:00",
+            "lastCollectedAt": "2026-10-11T13:37:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2191369815006851",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-02-16",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:36:56+00:00",
+            "lastCollectedAt": "2026-10-11T13:36:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1078412234820575",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-10-08",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:36:56+00:00",
+            "lastCollectedAt": "2026-10-11T13:36:56+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "25853200801023391",
+            "advertiser": "NS_official",
+            "startedAt": "2026-05-05",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:36:55+00:00",
+            "lastCollectedAt": "2026-10-11T13:36:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1504353821176925",
+            "advertiser": "보충제업업",
+            "startedAt": "2026-06-02",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:36:54+00:00",
+            "lastCollectedAt": "2026-10-11T13:36:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1350514173799442",
+            "advertiser": "NS_official",
+            "startedAt": "2026-05-10",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:36:52+00:00",
+            "lastCollectedAt": "2026-10-11T13:36:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4391599597777142",
+            "advertiser": "수영의 비결",
+            "startedAt": "2026-05-29",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:36:51+00:00",
+            "lastCollectedAt": "2026-10-11T13:36:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1906116636690207",
+            "advertiser": "입 벌려 보충제 들어간다",
+            "startedAt": "2026-04-16",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:36:51+00:00",
+            "lastCollectedAt": "2026-10-11T13:36:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "977147104701434",
+            "advertiser": "NS_official",
+            "startedAt": "2026-05-19",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:36:50+00:00",
+            "lastCollectedAt": "2026-10-11T13:36:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "870825218747054",
+            "advertiser": "NS_official",
+            "startedAt": "2025-11-25",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:36:48+00:00",
+            "lastCollectedAt": "2026-10-11T13:36:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "837393455939405",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-02-02",
+            "query": "프로틴",
+            "firstCollectedAt": "2026-10-11T13:36:48+00:00",
+            "lastCollectedAt": "2026-10-11T13:36:48+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-11T13:38:43+00:00",
+        "advertisers": [
+          {
+            "name": "써브웨이 Subway Korea",
+            "adCount": 16
+          },
+          {
+            "name": "NS_official",
+            "adCount": 11
+          },
+          {
+            "name": "Myprotein",
+            "adCount": 8
+          },
+          {
+            "name": "이데아뉴트리션",
+            "adCount": 6
+          },
+          {
+            "name": "이 시대의 가장 완벽한 단백질",
+            "adCount": 5
+          },
+          {
+            "name": "쨍쨍한 정보들",
+            "adCount": 5
+          },
+          {
+            "name": "Tangle Pasta",
+            "adCount": 3
+          },
+          {
+            "name": "다다쿵",
+            "adCount": 3
+          },
+          {
+            "name": "BNR17 비에날씬 BNRThin",
+            "adCount": 2
+          },
+          {
+            "name": "BUP :: Beyond Your Power",
+            "adCount": 2
+          },
+          {
+            "name": "김동원",
+            "adCount": 2
+          },
+          {
+            "name": "다신샵&다이어트신 - 다이어트 맛있게 관리하자",
+            "adCount": 2
+          },
+          {
+            "name": "동원F&B",
+            "adCount": 2
+          },
+          {
+            "name": "득근 꿀템.zip",
+            "adCount": 2
+          },
+          {
+            "name": "입 벌려 보충제 들어간다",
+            "adCount": 2
+          },
+          {
+            "name": "쿠팡 Coupang",
+            "adCount": 2
+          },
+          {
+            "name": "DA",
+            "adCount": 1
+          },
+          {
+            "name": "JI Kwon",
+            "adCount": 1
+          },
+          {
+            "name": "Jambaekee",
+            "adCount": 1
+          },
+          {
+            "name": "Musinsa",
+            "adCount": 1
+          },
+          {
+            "name": "Myprotein.AD",
+            "adCount": 1
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 1
+          },
+          {
+            "name": "PLCO 플코",
+            "adCount": 1
+          },
+          {
+            "name": "Wemove",
+            "adCount": 1
+          },
+          {
+            "name": "ㅇㄹㅇㄹ",
+            "adCount": 1
+          },
+          {
+            "name": "건강한범벨이",
+            "adCount": 1
+          },
+          {
+            "name": "꼭 알아야할 금덩어리 정보들",
+            "adCount": 1
+          },
+          {
+            "name": "노캡디자인",
+            "adCount": 1
+          },
+          {
+            "name": "당신은 행운아",
+            "adCount": 1
+          },
+          {
+            "name": "도리도리맛도리",
+            "adCount": 1
+          },
+          {
+            "name": "동원참치",
+            "adCount": 1
+          },
+          {
+            "name": "득근 딱 대",
+            "adCount": 1
+          },
+          {
+            "name": "매일유업(Maeil)",
+            "adCount": 1
+          },
+          {
+            "name": "보충제업업",
+            "adCount": 1
+          },
+          {
+            "name": "세상에서 가장 가벼운 프로틴바",
+            "adCount": 1
+          },
+          {
+            "name": "수영의 비결",
+            "adCount": 1
+          },
+          {
+            "name": "오전남",
+            "adCount": 1
+          },
+          {
+            "name": "올가니카 Organica",
+            "adCount": 1
+          },
+          {
+            "name": "이거 보고 흥해라",
+            "adCount": 1
+          },
+          {
+            "name": "치키차카초코맛",
+            "adCount": 1
+          },
+          {
+            "name": "핵딜모음",
+            "adCount": 1
+          },
+          {
+            "name": "후디스",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -14755,17 +17212,132 @@
       "rankWindow": 100,
       "observedAt": "2026-10-11T00:35:53+00:00",
       "lastObservedAt": "2026-10-11T00:35:53+00:00",
-      "state": "ready",
+      "state": "done",
       "keywordId": "43b5c356b15b8479573c9582d6e98dce37afbd1777bedb0f4ecb186d4d6a9a58",
       "searchQuery": "프로티원",
       "adEvidence": {
         "query": "프로티원",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 10,
+        "adIds": [
+          "1978403022855599",
+          "1859002195462671",
+          "1651215286365636",
+          "28704432552558236",
+          "1083577504370963",
+          "1051568371053112",
+          "1080728924598893",
+          "1661872368689097",
+          "2108308790061626",
+          "1061258936828052"
+        ],
+        "ads": [
+          {
+            "id": "1978403022855599",
+            "advertiser": "핏언니꿀팁",
+            "startedAt": "2026-09-09",
+            "query": "프로티원",
+            "firstCollectedAt": "2026-10-11T13:39:10+00:00",
+            "lastCollectedAt": "2026-10-11T13:39:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1859002195462671",
+            "advertiser": "핏언니꿀팁",
+            "startedAt": "2026-09-19",
+            "query": "프로티원",
+            "firstCollectedAt": "2026-10-11T13:39:09+00:00",
+            "lastCollectedAt": "2026-10-11T13:39:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1651215286365636",
+            "advertiser": "Protee.one",
+            "startedAt": "2026-10-10",
+            "query": "프로티원",
+            "firstCollectedAt": "2026-10-11T13:39:09+00:00",
+            "lastCollectedAt": "2026-10-11T13:39:09+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "28704432552558236",
+            "advertiser": "Protee.one",
+            "startedAt": "2026-10-10",
+            "query": "프로티원",
+            "firstCollectedAt": "2026-10-11T13:39:08+00:00",
+            "lastCollectedAt": "2026-10-11T13:39:08+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1083577504370963",
+            "advertiser": "핏언니꿀팁",
+            "startedAt": "2026-09-09",
+            "query": "프로티원",
+            "firstCollectedAt": "2026-10-11T13:39:08+00:00",
+            "lastCollectedAt": "2026-10-11T13:39:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1051568371053112",
+            "advertiser": "핏언니꿀팁",
+            "startedAt": "2026-09-09",
+            "query": "프로티원",
+            "firstCollectedAt": "2026-10-11T13:39:08+00:00",
+            "lastCollectedAt": "2026-10-11T13:39:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1080728924598893",
+            "advertiser": "Protee.one",
+            "startedAt": "2026-10-06",
+            "query": "프로티원",
+            "firstCollectedAt": "2026-10-11T13:39:07+00:00",
+            "lastCollectedAt": "2026-10-11T13:39:07+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1661872368689097",
+            "advertiser": "먹짱사용설명서",
+            "startedAt": "2026-09-09",
+            "query": "프로티원",
+            "firstCollectedAt": "2026-10-11T13:39:05+00:00",
+            "lastCollectedAt": "2026-10-11T13:39:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2108308790061626",
+            "advertiser": "Protee.one",
+            "startedAt": "2026-09-09",
+            "query": "프로티원",
+            "firstCollectedAt": "2026-10-11T13:39:04+00:00",
+            "lastCollectedAt": "2026-10-11T13:39:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1061258936828052",
+            "advertiser": "먹짱사용설명서",
+            "startedAt": "2026-09-09",
+            "query": "프로티원",
+            "firstCollectedAt": "2026-10-11T13:39:04+00:00",
+            "lastCollectedAt": "2026-10-11T13:39:04+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-11T13:39:10+00:00",
+        "advertisers": [
+          {
+            "name": "Protee.one",
+            "adCount": 4
+          },
+          {
+            "name": "핏언니꿀팁",
+            "adCount": 4
+          },
+          {
+            "name": "먹짱사용설명서",
+            "adCount": 2
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
