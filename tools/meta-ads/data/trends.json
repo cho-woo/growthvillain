@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-11T20:56:58+00:00",
+  "updatedAt": "2026-10-11T21:00:29+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-11T20:45:51+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 8,
-    "dailyRemaining": 280,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "dailyUsed": 9,
+    "dailyRemaining": 279,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-11T21:04:56+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -1753,7 +1753,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "done",
       "keywordId": "9b29e717777f83f6f58541187923738cca6263e9f3e68c4724448e2289c2c460",
       "searchQuery": "피크노제놀",
       "adEvidence": {
@@ -1772,7 +1772,7 @@
             "startedAt": "2026-09-21",
             "query": "피크노제놀",
             "firstCollectedAt": "2026-10-09T17:31:07+00:00",
-            "lastCollectedAt": "2026-10-09T17:31:07+00:00",
+            "lastCollectedAt": "2026-10-11T21:00:07+00:00",
             "startTiming": "before-window"
           },
           {
@@ -1781,7 +1781,7 @@
             "startedAt": "2026-10-08",
             "query": "피크노제놀",
             "firstCollectedAt": "2026-10-09T17:31:07+00:00",
-            "lastCollectedAt": "2026-10-09T17:31:07+00:00",
+            "lastCollectedAt": "2026-10-11T21:00:07+00:00",
             "startTiming": "during-window"
           },
           {
@@ -1790,11 +1790,11 @@
             "startedAt": "2026-08-13",
             "query": "피크노제놀",
             "firstCollectedAt": "2026-10-09T17:31:06+00:00",
-            "lastCollectedAt": "2026-10-09T17:31:06+00:00",
+            "lastCollectedAt": "2026-10-11T21:00:06+00:00",
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-09T17:31:07+00:00",
+        "lastCollectedAt": "2026-10-11T21:00:07+00:00",
         "advertisers": [
           {
             "name": "Herbalife",
@@ -12404,7 +12404,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "c8efc02b43372bce37412c3d77da1a5b524a7ae58fa085201a1f4133a5d24887",
       "searchQuery": "파라다이스그레인버닝",
       "adEvidence": {
@@ -12422,7 +12422,7 @@
             "startedAt": "2026-09-07",
             "query": "파라다이스그레인버닝",
             "firstCollectedAt": "2026-10-09T11:28:56+00:00",
-            "lastCollectedAt": "2026-10-09T11:28:56+00:00",
+            "lastCollectedAt": "2026-10-11T20:59:28+00:00",
             "startTiming": "before-window"
           },
           {
@@ -12431,11 +12431,11 @@
             "startedAt": "2026-09-30",
             "query": "파라다이스그레인버닝",
             "firstCollectedAt": "2026-10-09T11:28:56+00:00",
-            "lastCollectedAt": "2026-10-09T11:28:56+00:00",
+            "lastCollectedAt": "2026-10-11T20:59:28+00:00",
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-09T11:28:56+00:00",
+        "lastCollectedAt": "2026-10-11T20:59:28+00:00",
         "advertisers": [
           {
             "name": "데이즈온",
@@ -18855,7 +18855,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-11T00:35:53+00:00",
       "lastObservedAt": "2026-10-11T20:45:51+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "c8efc02b43372bce37412c3d77da1a5b524a7ae58fa085201a1f4133a5d24887",
       "searchQuery": "파라다이스그레인버닝",
       "adEvidence": {
@@ -18873,7 +18873,7 @@
             "startedAt": "2026-09-07",
             "query": "파라다이스그레인버닝",
             "firstCollectedAt": "2026-10-09T11:28:56+00:00",
-            "lastCollectedAt": "2026-10-09T11:28:56+00:00",
+            "lastCollectedAt": "2026-10-11T20:59:28+00:00",
             "startTiming": "before-window"
           },
           {
@@ -18882,11 +18882,11 @@
             "startedAt": "2026-09-30",
             "query": "파라다이스그레인버닝",
             "firstCollectedAt": "2026-10-09T11:28:56+00:00",
-            "lastCollectedAt": "2026-10-09T11:28:56+00:00",
+            "lastCollectedAt": "2026-10-11T20:59:28+00:00",
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-09T11:28:56+00:00",
+        "lastCollectedAt": "2026-10-11T20:59:28+00:00",
         "advertisers": [
           {
             "name": "데이즈온",
@@ -21003,7 +21003,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-11T00:35:21+00:00",
       "lastObservedAt": "2026-10-11T20:45:07+00:00",
-      "state": "backlog",
+      "state": "done",
       "keywordId": "9b29e717777f83f6f58541187923738cca6263e9f3e68c4724448e2289c2c460",
       "searchQuery": "피크노제놀",
       "adEvidence": {
@@ -21022,7 +21022,7 @@
             "startedAt": "2026-09-21",
             "query": "피크노제놀",
             "firstCollectedAt": "2026-10-09T17:31:07+00:00",
-            "lastCollectedAt": "2026-10-09T17:31:07+00:00",
+            "lastCollectedAt": "2026-10-11T21:00:07+00:00",
             "startTiming": "before-window"
           },
           {
@@ -21031,7 +21031,7 @@
             "startedAt": "2026-10-08",
             "query": "피크노제놀",
             "firstCollectedAt": "2026-10-09T17:31:07+00:00",
-            "lastCollectedAt": "2026-10-09T17:31:07+00:00",
+            "lastCollectedAt": "2026-10-11T21:00:07+00:00",
             "startTiming": "during-window"
           },
           {
@@ -21040,11 +21040,11 @@
             "startedAt": "2026-08-13",
             "query": "피크노제놀",
             "firstCollectedAt": "2026-10-09T17:31:06+00:00",
-            "lastCollectedAt": "2026-10-09T17:31:06+00:00",
+            "lastCollectedAt": "2026-10-11T21:00:06+00:00",
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-09T17:31:07+00:00",
+        "lastCollectedAt": "2026-10-11T21:00:07+00:00",
         "advertisers": [
           {
             "name": "Herbalife",
@@ -43995,7 +43995,7 @@
             "startedAt": "2026-09-07",
             "query": "파라다이스그레인버닝",
             "firstCollectedAt": "2026-10-09T11:28:56+00:00",
-            "lastCollectedAt": "2026-10-09T11:28:56+00:00",
+            "lastCollectedAt": "2026-10-11T20:59:28+00:00",
             "startTiming": "before-window"
           },
           {
@@ -44004,11 +44004,11 @@
             "startedAt": "2026-09-30",
             "query": "파라다이스그레인버닝",
             "firstCollectedAt": "2026-10-09T11:28:56+00:00",
-            "lastCollectedAt": "2026-10-09T11:28:56+00:00",
+            "lastCollectedAt": "2026-10-11T20:59:28+00:00",
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-09T11:28:56+00:00",
+        "lastCollectedAt": "2026-10-11T20:59:28+00:00",
         "advertisers": [
           {
             "name": "데이즈온",
@@ -49335,7 +49335,7 @@
             "startedAt": "2026-09-21",
             "query": "피크노제놀",
             "firstCollectedAt": "2026-10-09T17:31:07+00:00",
-            "lastCollectedAt": "2026-10-09T17:31:07+00:00",
+            "lastCollectedAt": "2026-10-11T21:00:07+00:00",
             "startTiming": "before-window"
           },
           {
@@ -49344,7 +49344,7 @@
             "startedAt": "2026-10-08",
             "query": "피크노제놀",
             "firstCollectedAt": "2026-10-09T17:31:07+00:00",
-            "lastCollectedAt": "2026-10-09T17:31:07+00:00",
+            "lastCollectedAt": "2026-10-11T21:00:07+00:00",
             "startTiming": "during-window"
           },
           {
@@ -49353,11 +49353,11 @@
             "startedAt": "2026-08-13",
             "query": "피크노제놀",
             "firstCollectedAt": "2026-10-09T17:31:06+00:00",
-            "lastCollectedAt": "2026-10-09T17:31:06+00:00",
+            "lastCollectedAt": "2026-10-11T21:00:06+00:00",
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-09T17:31:07+00:00",
+        "lastCollectedAt": "2026-10-11T21:00:07+00:00",
         "advertisers": [
           {
             "name": "Herbalife",
