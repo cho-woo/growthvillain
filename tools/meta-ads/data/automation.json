@@ -1,6 +1,6 @@
 {
   "mode": "snapshot",
-  "updatedAt": "2026-10-11T05:39:32+00:00",
+  "updatedAt": "2026-10-11T05:46:26+00:00",
   "automations": [
     {
       "id": "meta-ads",
@@ -95,11 +95,11 @@
       "name": "티스토리 연예",
       "enabled": true,
       "running": false,
-      "state": "blocked",
+      "state": "waiting",
       "nextRunAt": "2026-10-11T14:53:56+09:00",
-      "lastSuccessAt": "2026-10-10T12:17:55+09:00",
+      "lastSuccessAt": "2026-10-11T14:23:46+09:00",
       "lastAttemptAt": null,
-      "message": "작성/발행 확인 필요 (Gemini 글 작성 요청 실패 (HTTP 429). 자동 재시도하지 않습니다.) · 자동 재시도 중단",
+      "message": "후보 없음 또는 발행 한도·간격 대기 · AI 호출 없음",
       "intervalSeconds": 900,
       "statusCheckIntervalSeconds": null,
       "statusCheckBatchSize": null,
@@ -109,13 +109,13 @@
     {
       "id": "tistory-investment",
       "name": "티스토리 주식",
-      "enabled": false,
+      "enabled": true,
       "running": false,
-      "state": "paused",
+      "state": "offline",
       "nextRunAt": null,
       "lastSuccessAt": null,
       "lastAttemptAt": null,
-      "message": "예약 실행 OFF",
+      "message": "스케줄러 연결 파일이 필요합니다.",
       "intervalSeconds": 900,
       "statusCheckIntervalSeconds": null,
       "statusCheckBatchSize": null,
@@ -140,9 +140,9 @@
     }
   ],
   "publication": {
-    "state": "idle",
-    "lastAttemptAt": "2026-10-11T05:37:16+00:00",
-    "lastSuccessAt": "2026-10-11T05:37:21+00:00",
+    "state": "synced",
+    "lastAttemptAt": "2026-10-11T05:39:32+00:00",
+    "lastSuccessAt": "2026-10-11T05:39:36+00:00",
     "error": null,
     "enabled": true
   }
