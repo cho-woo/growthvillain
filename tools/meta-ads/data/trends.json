@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-11T10:53:48+00:00",
+  "updatedAt": "2026-10-11T11:02:24+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-11T00:35:53+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 21,
-    "dailyRemaining": 267,
+    "dailyUsed": 22,
+    "dailyRemaining": 266,
     "pending": 0,
-    "nextDispatchAt": "2026-10-11T10:56:38+00:00",
+    "nextDispatchAt": "2026-10-11T11:06:25+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -3733,17 +3733,484 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "done",
       "keywordId": "dd18d11e594463c0e1988871025e5c5597673a04f7d9fda5d11d53bfd8dae373",
       "searchQuery": "알티지오메가3",
       "adEvidence": {
         "query": "알티지오메가3",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 40,
+        "adIds": [
+          "2348795645896135",
+          "1592585205886738",
+          "2925383587840741",
+          "1386796610321822",
+          "1093146889926638",
+          "1616105706626251",
+          "966277692612951",
+          "2131480254473637",
+          "1309636540930389",
+          "1161350642891802",
+          "29489504604035264",
+          "1750748162876373",
+          "3049733835483434",
+          "1897715387851827",
+          "1575076093892285",
+          "28487507344275454",
+          "2112584556007359",
+          "1592155042579766",
+          "1427059366050598",
+          "1434750558835125",
+          "1804056517574906",
+          "2888226264878161",
+          "1588640835521568",
+          "1569931117734771",
+          "1382755630637712",
+          "1107179821737565",
+          "1071867942288763",
+          "922610860237629",
+          "882045661336130",
+          "3469854353174053",
+          "4543254509334783",
+          "1576027963952397",
+          "2520680028453852",
+          "2002340060455839",
+          "1299470145324751",
+          "2822688094797428",
+          "1746597033297523",
+          "1669906040892632",
+          "1401046122008768",
+          "1092566953318842"
+        ],
+        "ads": [
+          {
+            "id": "2348795645896135",
+            "advertiser": "모비타",
+            "startedAt": "2026-10-08",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:02:02+00:00",
+            "lastCollectedAt": "2026-10-11T11:02:02+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1592585205886738",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-10-06",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:02:02+00:00",
+            "lastCollectedAt": "2026-10-11T11:02:02+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2925383587840741",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-10-06",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:02:01+00:00",
+            "lastCollectedAt": "2026-10-11T11:02:01+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1386796610321822",
+            "advertiser": "예블리맘",
+            "startedAt": "2026-09-03",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:02:01+00:00",
+            "lastCollectedAt": "2026-10-11T11:02:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1093146889926638",
+            "advertiser": "셀트리온 이너랩",
+            "startedAt": "2026-09-30",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:02:01+00:00",
+            "lastCollectedAt": "2026-10-11T11:02:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1616105706626251",
+            "advertiser": "엔웰스",
+            "startedAt": "2026-10-07",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:02:00+00:00",
+            "lastCollectedAt": "2026-10-11T11:02:00+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "966277692612951",
+            "advertiser": "모비타",
+            "startedAt": "2026-10-08",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:59+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:59+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2131480254473637",
+            "advertiser": "나우푸드",
+            "startedAt": "2026-10-04",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:59+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:59+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1309636540930389",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-07-14",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:59+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1161350642891802",
+            "advertiser": "나우푸드",
+            "startedAt": "2026-10-04",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:59+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:59+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "29489504604035264",
+            "advertiser": "나우푸드",
+            "startedAt": "2026-10-01",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:52+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1750748162876373",
+            "advertiser": "필그램",
+            "startedAt": "2026-09-28",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:52+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3049733835483434",
+            "advertiser": "펫스타그램",
+            "startedAt": "2026-07-03",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:51+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1897715387851827",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-07-14",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:51+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1575076093892285",
+            "advertiser": "뉴트리원",
+            "startedAt": "2026-10-05",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:51+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:51+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "28487507344275454",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-10-06",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:50+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:50+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2112584556007359",
+            "advertiser": "셀트리온 이너랩",
+            "startedAt": "2026-09-30",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:50+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1592155042579766",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-07-14",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:50+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1427059366050598",
+            "advertiser": "셀트리온 이너랩",
+            "startedAt": "2026-09-30",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:50+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1434750558835125",
+            "advertiser": "클라리온",
+            "startedAt": "2026-09-26",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:49+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1804056517574906",
+            "advertiser": "Jaedolpharm Connected Page",
+            "startedAt": "2026-10-06",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:45+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:45+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2888226264878161",
+            "advertiser": "",
+            "startedAt": "2026-10-05",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:43+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1588640835521568",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-02-19",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:42+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1569931117734771",
+            "advertiser": "네이버플러스 스토어",
+            "startedAt": "2026-10-08",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:42+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:42+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1382755630637712",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-07",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:41+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1107179821737565",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-07",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:41+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1071867942288763",
+            "advertiser": "뉴트리원",
+            "startedAt": "2026-09-27",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:41+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "922610860237629",
+            "advertiser": "나우푸드",
+            "startedAt": "2026-06-26",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:40+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "882045661336130",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-02-19",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:40+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3469854353174053",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-07",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:40+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4543254509334783",
+            "advertiser": "มารีน เฮลท์ช้อป",
+            "startedAt": "2026-08-30",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:35+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1576027963952397",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:35+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2520680028453852",
+            "advertiser": "oao.mag",
+            "startedAt": "2026-07-01",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:32+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2002340060455839",
+            "advertiser": "네이버플러스 스토어",
+            "startedAt": "2026-09-27",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:32+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1299470145324751",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-02-19",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:32+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2822688094797428",
+            "advertiser": "네이버플러스 스토어",
+            "startedAt": "2026-09-27",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:31+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1746597033297523",
+            "advertiser": "네이버플러스 스토어",
+            "startedAt": "2026-09-27",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:31+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1669906040892632",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:31+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1401046122008768",
+            "advertiser": "네이버플러스 스토어",
+            "startedAt": "2026-09-27",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:31+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1092566953318842",
+            "advertiser": "네이버플러스 스토어",
+            "startedAt": "2026-09-27",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:31+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:31+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-11T11:02:02+00:00",
+        "advertisers": [
+          {
+            "name": "내츄럴플러스",
+            "adCount": 9
+          },
+          {
+            "name": "네이버플러스 스토어",
+            "adCount": 6
+          },
+          {
+            "name": "나우푸드",
+            "adCount": 4
+          },
+          {
+            "name": "셀트리온 이너랩",
+            "adCount": 3
+          },
+          {
+            "name": "키즈텐",
+            "adCount": 3
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 2
+          },
+          {
+            "name": "뉴트리원",
+            "adCount": 2
+          },
+          {
+            "name": "모비타",
+            "adCount": 2
+          },
+          {
+            "name": "Jaedolpharm Connected Page",
+            "adCount": 1
+          },
+          {
+            "name": "oao.mag",
+            "adCount": 1
+          },
+          {
+            "name": "มารีน เฮลท์ช้อป",
+            "adCount": 1
+          },
+          {
+            "name": "엔웰스",
+            "adCount": 1
+          },
+          {
+            "name": "예블리맘",
+            "adCount": 1
+          },
+          {
+            "name": "클라리온",
+            "adCount": 1
+          },
+          {
+            "name": "펫스타그램",
+            "adCount": 1
+          },
+          {
+            "name": "필그램",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -14827,17 +15294,484 @@
       "rankWindow": 100,
       "observedAt": "2026-10-11T00:35:21+00:00",
       "lastObservedAt": "2026-10-11T00:35:21+00:00",
-      "state": "ready",
+      "state": "done",
       "keywordId": "dd18d11e594463c0e1988871025e5c5597673a04f7d9fda5d11d53bfd8dae373",
       "searchQuery": "알티지오메가3",
       "adEvidence": {
         "query": "알티지오메가3",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 40,
+        "adIds": [
+          "2348795645896135",
+          "1592585205886738",
+          "2925383587840741",
+          "1386796610321822",
+          "1093146889926638",
+          "1616105706626251",
+          "966277692612951",
+          "2131480254473637",
+          "1309636540930389",
+          "1161350642891802",
+          "29489504604035264",
+          "1750748162876373",
+          "3049733835483434",
+          "1897715387851827",
+          "1575076093892285",
+          "28487507344275454",
+          "2112584556007359",
+          "1592155042579766",
+          "1427059366050598",
+          "1434750558835125",
+          "1804056517574906",
+          "2888226264878161",
+          "1588640835521568",
+          "1569931117734771",
+          "1382755630637712",
+          "1107179821737565",
+          "1071867942288763",
+          "922610860237629",
+          "882045661336130",
+          "3469854353174053",
+          "4543254509334783",
+          "1576027963952397",
+          "2520680028453852",
+          "2002340060455839",
+          "1299470145324751",
+          "2822688094797428",
+          "1746597033297523",
+          "1669906040892632",
+          "1401046122008768",
+          "1092566953318842"
+        ],
+        "ads": [
+          {
+            "id": "2348795645896135",
+            "advertiser": "모비타",
+            "startedAt": "2026-10-08",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:02:02+00:00",
+            "lastCollectedAt": "2026-10-11T11:02:02+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1592585205886738",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-10-06",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:02:02+00:00",
+            "lastCollectedAt": "2026-10-11T11:02:02+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2925383587840741",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-10-06",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:02:01+00:00",
+            "lastCollectedAt": "2026-10-11T11:02:01+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1386796610321822",
+            "advertiser": "예블리맘",
+            "startedAt": "2026-09-03",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:02:01+00:00",
+            "lastCollectedAt": "2026-10-11T11:02:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1093146889926638",
+            "advertiser": "셀트리온 이너랩",
+            "startedAt": "2026-09-30",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:02:01+00:00",
+            "lastCollectedAt": "2026-10-11T11:02:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1616105706626251",
+            "advertiser": "엔웰스",
+            "startedAt": "2026-10-07",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:02:00+00:00",
+            "lastCollectedAt": "2026-10-11T11:02:00+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "966277692612951",
+            "advertiser": "모비타",
+            "startedAt": "2026-10-08",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:59+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:59+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2131480254473637",
+            "advertiser": "나우푸드",
+            "startedAt": "2026-10-04",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:59+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:59+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1309636540930389",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-07-14",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:59+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1161350642891802",
+            "advertiser": "나우푸드",
+            "startedAt": "2026-10-04",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:59+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:59+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "29489504604035264",
+            "advertiser": "나우푸드",
+            "startedAt": "2026-10-01",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:52+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1750748162876373",
+            "advertiser": "필그램",
+            "startedAt": "2026-09-28",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:52+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3049733835483434",
+            "advertiser": "펫스타그램",
+            "startedAt": "2026-07-03",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:51+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1897715387851827",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-07-14",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:51+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1575076093892285",
+            "advertiser": "뉴트리원",
+            "startedAt": "2026-10-05",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:51+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:51+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "28487507344275454",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-10-06",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:50+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:50+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2112584556007359",
+            "advertiser": "셀트리온 이너랩",
+            "startedAt": "2026-09-30",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:50+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1592155042579766",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-07-14",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:50+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1427059366050598",
+            "advertiser": "셀트리온 이너랩",
+            "startedAt": "2026-09-30",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:50+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1434750558835125",
+            "advertiser": "클라리온",
+            "startedAt": "2026-09-26",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:49+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1804056517574906",
+            "advertiser": "Jaedolpharm Connected Page",
+            "startedAt": "2026-10-06",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:45+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:45+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2888226264878161",
+            "advertiser": "",
+            "startedAt": "2026-10-05",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:43+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1588640835521568",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-02-19",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:42+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1569931117734771",
+            "advertiser": "네이버플러스 스토어",
+            "startedAt": "2026-10-08",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:42+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:42+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1382755630637712",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-07",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:41+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1107179821737565",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-07",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:41+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1071867942288763",
+            "advertiser": "뉴트리원",
+            "startedAt": "2026-09-27",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:41+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "922610860237629",
+            "advertiser": "나우푸드",
+            "startedAt": "2026-06-26",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:40+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "882045661336130",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-02-19",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:40+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3469854353174053",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-07",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:40+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4543254509334783",
+            "advertiser": "มารีน เฮลท์ช้อป",
+            "startedAt": "2026-08-30",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:35+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1576027963952397",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:35+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2520680028453852",
+            "advertiser": "oao.mag",
+            "startedAt": "2026-07-01",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:32+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2002340060455839",
+            "advertiser": "네이버플러스 스토어",
+            "startedAt": "2026-09-27",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:32+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1299470145324751",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-02-19",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:32+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2822688094797428",
+            "advertiser": "네이버플러스 스토어",
+            "startedAt": "2026-09-27",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:31+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1746597033297523",
+            "advertiser": "네이버플러스 스토어",
+            "startedAt": "2026-09-27",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:31+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1669906040892632",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:31+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1401046122008768",
+            "advertiser": "네이버플러스 스토어",
+            "startedAt": "2026-09-27",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:31+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1092566953318842",
+            "advertiser": "네이버플러스 스토어",
+            "startedAt": "2026-09-27",
+            "query": "알티지오메가3",
+            "firstCollectedAt": "2026-10-11T11:01:31+00:00",
+            "lastCollectedAt": "2026-10-11T11:01:31+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-11T11:02:02+00:00",
+        "advertisers": [
+          {
+            "name": "내츄럴플러스",
+            "adCount": 9
+          },
+          {
+            "name": "네이버플러스 스토어",
+            "adCount": 6
+          },
+          {
+            "name": "나우푸드",
+            "adCount": 4
+          },
+          {
+            "name": "셀트리온 이너랩",
+            "adCount": 3
+          },
+          {
+            "name": "키즈텐",
+            "adCount": 3
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 2
+          },
+          {
+            "name": "뉴트리원",
+            "adCount": 2
+          },
+          {
+            "name": "모비타",
+            "adCount": 2
+          },
+          {
+            "name": "Jaedolpharm Connected Page",
+            "adCount": 1
+          },
+          {
+            "name": "oao.mag",
+            "adCount": 1
+          },
+          {
+            "name": "มารีน เฮลท์ช้อป",
+            "adCount": 1
+          },
+          {
+            "name": "엔웰스",
+            "adCount": 1
+          },
+          {
+            "name": "예블리맘",
+            "adCount": 1
+          },
+          {
+            "name": "클라리온",
+            "adCount": 1
+          },
+          {
+            "name": "펫스타그램",
+            "adCount": 1
+          },
+          {
+            "name": "필그램",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
