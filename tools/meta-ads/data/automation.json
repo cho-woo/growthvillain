@@ -1,27 +1,27 @@
 {
   "mode": "snapshot",
-  "updatedAt": "2026-10-11T09:37:39+00:00",
+  "updatedAt": "2026-10-11T09:40:25+00:00",
   "automations": [
     {
       "id": "meta-ads",
       "name": "메타 광고",
       "enabled": true,
-      "running": true,
-      "state": "running",
-      "nextRunAt": "2026-10-11T10:34:37+00:00",
-      "lastSuccessAt": "2026-10-11T09:36:57+00:00",
-      "lastAttemptAt": "2026-10-11T09:36:58+00:00",
-      "message": "광고 라이브러리 수집 중",
+      "running": false,
+      "state": "waiting",
+      "nextRunAt": "2026-10-11T10:39:50+00:00",
+      "lastSuccessAt": "2026-10-11T09:39:17+00:00",
+      "lastAttemptAt": "2026-10-11T09:39:18+00:00",
+      "message": "Meta 접근 제한 · 다음 자동 시도까지 대기",
       "intervalSeconds": 3600,
       "statusCheckIntervalSeconds": 900,
       "statusCheckBatchSize": 10,
-      "nextStatusCheckAt": "2026-10-11T09:48:36+00:00",
+      "nextStatusCheckAt": "2026-10-11T10:39:50+00:00",
       "collectionGuard": {
-        "state": "ready",
-        "reason": null,
-        "nextAllowedAt": null,
-        "blockedUntil": null,
-        "blockStreak": 0,
+        "state": "blocked",
+        "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
+        "nextAllowedAt": "2026-10-11T10:39:50+00:00",
+        "blockedUntil": "2026-10-11T10:39:50+00:00",
+        "blockStreak": 1,
         "storageReady": true,
         "minimumFreeBytes": 5368709120
       }
@@ -96,7 +96,7 @@
       "enabled": true,
       "running": false,
       "state": "waiting",
-      "nextRunAt": "2026-10-11T18:39:34+09:00",
+      "nextRunAt": "2026-10-11T18:54:37+09:00",
       "lastSuccessAt": "2026-10-11T14:23:46+09:00",
       "lastAttemptAt": null,
       "message": "발행 간격 대기 · 뉴스만 수집 · 다음 작성 20:50",
@@ -141,8 +141,8 @@
   ],
   "publication": {
     "state": "synced",
-    "lastAttemptAt": "2026-10-11T09:36:10+00:00",
-    "lastSuccessAt": "2026-10-11T09:36:14+00:00",
+    "lastAttemptAt": "2026-10-11T09:37:39+00:00",
+    "lastSuccessAt": "2026-10-11T09:37:44+00:00",
     "error": null,
     "enabled": true
   }
