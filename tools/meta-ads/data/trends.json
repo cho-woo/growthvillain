@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-11T13:52:02+00:00",
+  "updatedAt": "2026-10-11T13:54:35+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-11T00:35:53+00:00",
@@ -43,8 +43,8 @@
     "backlogDays": 14,
     "dailyUsed": 30,
     "dailyRemaining": 258,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-11T13:57:02+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -9373,17 +9373,1188 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "5bd1269b11fc4c7c128e36854805a009bde2de968bbe5ddf287cab7bdb1bd6d8",
       "searchQuery": "dem",
       "adEvidence": {
         "query": "dem",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 100,
+        "adIds": [
+          "2419326955264088",
+          "1360708995790320",
+          "25489156557438296",
+          "2043953072849355",
+          "2153188545227732",
+          "855370890997038",
+          "1357139352524024",
+          "1800578288050895",
+          "1297028872370143",
+          "1811427136665449",
+          "1627785058874850",
+          "1383345343310784",
+          "865978209507178",
+          "2141653039723387",
+          "1451006129824468",
+          "1670886000818848",
+          "1566479958441186",
+          "1359390978996804",
+          "1184017747261893",
+          "2059432611668965",
+          "1150593023505360",
+          "2105236990421435",
+          "1415033143381264",
+          "1419410479604702",
+          "1045266748474883",
+          "2176894426218635",
+          "1000906552929344",
+          "4117495201875084",
+          "2515881448926215",
+          "1389408589541717",
+          "609813365362421",
+          "2572476999580330",
+          "1468942331170943",
+          "1903623604370424",
+          "1438782168293183",
+          "1303255455228349",
+          "949662521210366",
+          "299481604070434",
+          "1109064841434177",
+          "1675378636880571",
+          "763685359331075",
+          "1053021666653385",
+          "1496671608623867",
+          "1336037792016888",
+          "2954225424924010",
+          "987793264245392",
+          "1721334185794585",
+          "1534184595026125",
+          "1445590934145041",
+          "1795497174931904",
+          "983759684723275",
+          "27313286511639696",
+          "986029000604011",
+          "2238460673576746",
+          "1736540201035622",
+          "1056959796654644",
+          "934001683011222",
+          "1543629327461393",
+          "1538230053869945",
+          "1437888128094605",
+          "3286994301471119",
+          "1493051891934839",
+          "2714346252278374",
+          "2435548206946708",
+          "2157546865044474",
+          "1185057566995723",
+          "858367276702004",
+          "1465426678147559",
+          "981560964408117",
+          "2103415530577665",
+          "1467383184523954",
+          "1387614739854895",
+          "1619189505823393",
+          "1713084773339936",
+          "1516325966641294",
+          "1892302218339471",
+          "1781705575737400",
+          "993709403682899",
+          "29311386325117201",
+          "1734860557838376",
+          "1544248757376995",
+          "1496731018575766",
+          "1367555094845318",
+          "1201554408643773",
+          "2835209729993630",
+          "1776445450395946",
+          "1024424313404602",
+          "2812367292453507",
+          "2191063005019462",
+          "952354564466278",
+          "1470418121140306",
+          "809268412182132",
+          "2100901270843799",
+          "1383438223473039",
+          "2516237971904614",
+          "2509172162899830",
+          "977650778451917",
+          "1535161114826040",
+          "1427312029305530",
+          "1353723726587085"
+        ],
+        "ads": [
+          {
+            "id": "2419326955264088",
+            "advertiser": "ALDI SÜD",
+            "startedAt": "2026-06-03",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:54:21+00:00",
+            "lastCollectedAt": "2026-10-11T13:54:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1360708995790320",
+            "advertiser": "Vital Generation",
+            "startedAt": "2025-11-05",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:54:11+00:00",
+            "lastCollectedAt": "2026-10-11T13:54:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "25489156557438296",
+            "advertiser": "World Food Programme",
+            "startedAt": "2025-12-22",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:54:10+00:00",
+            "lastCollectedAt": "2026-10-11T13:54:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2043953072849355",
+            "advertiser": "Tom Hannemann",
+            "startedAt": "2026-02-28",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:54:10+00:00",
+            "lastCollectedAt": "2026-10-11T13:54:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2153188545227732",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-28",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:54:09+00:00",
+            "lastCollectedAt": "2026-10-11T13:54:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "855370890997038",
+            "advertiser": "Lindhardt og Ringhof",
+            "startedAt": "2026-09-16",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:54:08+00:00",
+            "lastCollectedAt": "2026-10-11T13:54:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1357139352524024",
+            "advertiser": "LLWIN Trang Chủ Sự Kiện",
+            "startedAt": "2026-07-26",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:54:08+00:00",
+            "lastCollectedAt": "2026-10-11T13:54:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1800578288050895",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-21",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:54:05+00:00",
+            "lastCollectedAt": "2026-10-11T13:54:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1297028872370143",
+            "advertiser": "The Booker Prizes",
+            "startedAt": "2026-04-24",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:54:04+00:00",
+            "lastCollectedAt": "2026-10-11T13:54:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1811427136665449",
+            "advertiser": "The Nation Thailand",
+            "startedAt": "2026-09-30",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:54:03+00:00",
+            "lastCollectedAt": "2026-10-11T13:54:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1627785058874850",
+            "advertiser": "GAZOO Racing Global",
+            "startedAt": "2026-09-10",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:54:03+00:00",
+            "lastCollectedAt": "2026-10-11T13:54:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1383345343310784",
+            "advertiser": "thyssenkrupp",
+            "startedAt": "2025-10-22",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:52+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "865978209507178",
+            "advertiser": "China in Lens",
+            "startedAt": "2026-01-02",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:51+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2141653039723387",
+            "advertiser": "GAZOO Racing Global",
+            "startedAt": "2026-08-31",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:48+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1451006129824468",
+            "advertiser": "Raid: Shadow Legends",
+            "startedAt": "2026-02-25",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:48+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1670886000818848",
+            "advertiser": "LVM Versicherung",
+            "startedAt": "2026-05-04",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:47+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1566479958441186",
+            "advertiser": "Fritten & Kaviar",
+            "startedAt": "2026-07-15",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:47+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1359390978996804",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-08-02",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:45+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1184017747261893",
+            "advertiser": "World Food Programme",
+            "startedAt": "2026-01-13",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:45+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2059432611668965",
+            "advertiser": "ALDI SÜD",
+            "startedAt": "2026-07-06",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:44+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1150593023505360",
+            "advertiser": "Matches Puzzle",
+            "startedAt": "2025-05-14",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:44+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2105236990421435",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-30",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:32+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1415033143381264",
+            "advertiser": "Nexus - AI Video Generator",
+            "startedAt": "2026-09-28",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:32+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1419410479604702",
+            "advertiser": "Learna AI: Language Learning App",
+            "startedAt": "2025-12-24",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:31+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1045266748474883",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-23",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:31+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2176894426218635",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-06-30",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:30+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1000906552929344",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-16",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:30+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4117495201875084",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-05-21",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:29+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2515881448926215",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-30",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:29+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1389408589541717",
+            "advertiser": "Zurück zum Ursprung",
+            "startedAt": "2025-12-30",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:29+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "609813365362421",
+            "advertiser": "Light of the World",
+            "startedAt": "2025-01-31",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:20+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2572476999580330",
+            "advertiser": "Der Leadership Coach",
+            "startedAt": "2023-12-19",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:20+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1468942331170943",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-05-28",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:20+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1903623604370424",
+            "advertiser": "Plan7Architekt - Architektursoftware",
+            "startedAt": "2025-12-03",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:19+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1438782168293183",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-06-14",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:19+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1303255455228349",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-05-29",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:19+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "949662521210366",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-05-08",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:18+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "299481604070434",
+            "advertiser": "Campingpark Groß-Reken",
+            "startedAt": "2018-06-07",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:17+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1109064841434177",
+            "advertiser": "مهاجر نيوز - InfoMigrants Arabic",
+            "startedAt": "2026-04-27",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:17+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1675378636880571",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-08-02",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:16+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "763685359331075",
+            "advertiser": "Medivet Tierarztpraxen",
+            "startedAt": "2025-06-09",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:08+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1053021666653385",
+            "advertiser": "Praxisteam für gesunde Zähne",
+            "startedAt": "2025-04-04",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:08+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1496671608623867",
+            "advertiser": "Vera Clinic",
+            "startedAt": "2026-04-30",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:07+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1336037792016888",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-06-25",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:07+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2954225424924010",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-06-02",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:06+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "987793264245392",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-06-11",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:05+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1721334185794585",
+            "advertiser": "ProcterandGambleatcvs",
+            "startedAt": "2026-06-06",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:05+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1534184595026125",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-02",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:05+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1445590934145041",
+            "advertiser": "Städel Museum",
+            "startedAt": "2026-09-18",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:05+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1795497174931904",
+            "advertiser": "Speak Daily",
+            "startedAt": "2026-07-20",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:04+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "983759684723275",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-08-20",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:56+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27313286511639696",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-06-03",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:56+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "986029000604011",
+            "advertiser": "ALDI SÜD",
+            "startedAt": "2026-04-27",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:55+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2238460673576746",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-06-22",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:55+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1736540201035622",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-05-14",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:54+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1056959796654644",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-06-16",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:54+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "934001683011222",
+            "advertiser": "Rossmann",
+            "startedAt": "2026-06-07",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:53+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1543629327461393",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-08-06",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:53+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1538230053869945",
+            "advertiser": "Freedom Filmmaker",
+            "startedAt": "2025-10-09",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:53+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1437888128094605",
+            "advertiser": "007 Elements",
+            "startedAt": "2026-05-08",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:53+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3286994301471119",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-08-13",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:45+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1493051891934839",
+            "advertiser": "Futurium",
+            "startedAt": "2025-11-03",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:45+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2714346252278374",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-05-15",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:44+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2435548206946708",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-06-01",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:44+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2157546865044474",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-05",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:43+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1185057566995723",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-05-17",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:43+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "858367276702004",
+            "advertiser": "Educational Games",
+            "startedAt": "2025-10-16",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:42+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1465426678147559",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-05-31",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:42+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "981560964408117",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-05-17",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:41+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2103415530577665",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-08-09",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:41+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1467383184523954",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-05-24",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:34+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1387614739854895",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-06-21",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:34+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1619189505823393",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-06-14",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:33+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1713084773339936",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-06-07",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:32+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1516325966641294",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-12",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:32+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1892302218339471",
+            "advertiser": "Medivet Tierarztpraxen",
+            "startedAt": "2025-12-01",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:31+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1781705575737400",
+            "advertiser": "Matchandmake",
+            "startedAt": "2025-03-20",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:31+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "993709403682899",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-08-16",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:30+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "29311386325117201",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-08-23",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:29+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1734860557838376",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-08-09",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:29+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1544248757376995",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-05",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:22+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1496731018575766",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-06-07",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:21+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1367555094845318",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-08-16",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:21+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1201554408643773",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-05-24",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:21+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2835209729993630",
+            "advertiser": "",
+            "startedAt": "2025-01-23",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:20+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1776445450395946",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-19",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:20+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1024424313404602",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-12",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:20+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2812367292453507",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-26",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:19+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2191063005019462",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-19",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:19+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "952354564466278",
+            "advertiser": "Erzbistum Paderborn",
+            "startedAt": "2026-05-01",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:18+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1470418121140306",
+            "advertiser": "Raid: Shadow Legends",
+            "startedAt": "2026-02-19",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:13+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "809268412182132",
+            "advertiser": "Raid: Shadow Legends",
+            "startedAt": "2026-02-19",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:12+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2100901270843799",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-26",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:12+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1383438223473039",
+            "advertiser": "Zurück zum Ursprung",
+            "startedAt": "2025-12-24",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:12+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2516237971904614",
+            "advertiser": "verlobungsring.de",
+            "startedAt": "2024-11-12",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:11+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2509172162899830",
+            "advertiser": "RAF Global",
+            "startedAt": "2026-08-28",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:11+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "977650778451917",
+            "advertiser": "",
+            "startedAt": "2026-06-05",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:10+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1535161114826040",
+            "advertiser": "Bitburger",
+            "startedAt": "2026-07-24",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:10+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1427312029305530",
+            "advertiser": "IFA Berlin",
+            "startedAt": "2026-09-02",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:09+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1353723726587085",
+            "advertiser": "GoDaddy Deutschland",
+            "startedAt": "2026-05-05",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:09+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:09+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-11T13:54:21+00:00",
+        "advertisers": [
+          {
+            "name": "ALDI Nord",
+            "adCount": 49
+          },
+          {
+            "name": "ALDI SÜD",
+            "adCount": 3
+          },
+          {
+            "name": "Raid: Shadow Legends",
+            "adCount": 3
+          },
+          {
+            "name": "GAZOO Racing Global",
+            "adCount": 2
+          },
+          {
+            "name": "Medivet Tierarztpraxen",
+            "adCount": 2
+          },
+          {
+            "name": "World Food Programme",
+            "adCount": 2
+          },
+          {
+            "name": "Zurück zum Ursprung",
+            "adCount": 2
+          },
+          {
+            "name": "007 Elements",
+            "adCount": 1
+          },
+          {
+            "name": "Bitburger",
+            "adCount": 1
+          },
+          {
+            "name": "Campingpark Groß-Reken",
+            "adCount": 1
+          },
+          {
+            "name": "China in Lens",
+            "adCount": 1
+          },
+          {
+            "name": "Der Leadership Coach",
+            "adCount": 1
+          },
+          {
+            "name": "Educational Games",
+            "adCount": 1
+          },
+          {
+            "name": "Erzbistum Paderborn",
+            "adCount": 1
+          },
+          {
+            "name": "Freedom Filmmaker",
+            "adCount": 1
+          },
+          {
+            "name": "Fritten & Kaviar",
+            "adCount": 1
+          },
+          {
+            "name": "Futurium",
+            "adCount": 1
+          },
+          {
+            "name": "GoDaddy Deutschland",
+            "adCount": 1
+          },
+          {
+            "name": "IFA Berlin",
+            "adCount": 1
+          },
+          {
+            "name": "LLWIN Trang Chủ Sự Kiện",
+            "adCount": 1
+          },
+          {
+            "name": "LVM Versicherung",
+            "adCount": 1
+          },
+          {
+            "name": "Learna AI: Language Learning App",
+            "adCount": 1
+          },
+          {
+            "name": "Light of the World",
+            "adCount": 1
+          },
+          {
+            "name": "Lindhardt og Ringhof",
+            "adCount": 1
+          },
+          {
+            "name": "Matchandmake",
+            "adCount": 1
+          },
+          {
+            "name": "Matches Puzzle",
+            "adCount": 1
+          },
+          {
+            "name": "Nexus - AI Video Generator",
+            "adCount": 1
+          },
+          {
+            "name": "Plan7Architekt - Architektursoftware",
+            "adCount": 1
+          },
+          {
+            "name": "Praxisteam für gesunde Zähne",
+            "adCount": 1
+          },
+          {
+            "name": "ProcterandGambleatcvs",
+            "adCount": 1
+          },
+          {
+            "name": "RAF Global",
+            "adCount": 1
+          },
+          {
+            "name": "Rossmann",
+            "adCount": 1
+          },
+          {
+            "name": "Speak Daily",
+            "adCount": 1
+          },
+          {
+            "name": "Städel Museum",
+            "adCount": 1
+          },
+          {
+            "name": "The Booker Prizes",
+            "adCount": 1
+          },
+          {
+            "name": "The Nation Thailand",
+            "adCount": 1
+          },
+          {
+            "name": "Tom Hannemann",
+            "adCount": 1
+          },
+          {
+            "name": "Vera Clinic",
+            "adCount": 1
+          },
+          {
+            "name": "Vital Generation",
+            "adCount": 1
+          },
+          {
+            "name": "thyssenkrupp",
+            "adCount": 1
+          },
+          {
+            "name": "verlobungsring.de",
+            "adCount": 1
+          },
+          {
+            "name": "مهاجر نيوز - InfoMigrants Arabic",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -17670,17 +18841,1188 @@
       "rankWindow": 100,
       "observedAt": "2026-10-11T00:35:21+00:00",
       "lastObservedAt": "2026-10-11T00:35:21+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "5bd1269b11fc4c7c128e36854805a009bde2de968bbe5ddf287cab7bdb1bd6d8",
       "searchQuery": "dem",
       "adEvidence": {
         "query": "dem",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 100,
+        "adIds": [
+          "2419326955264088",
+          "1360708995790320",
+          "25489156557438296",
+          "2043953072849355",
+          "2153188545227732",
+          "855370890997038",
+          "1357139352524024",
+          "1800578288050895",
+          "1297028872370143",
+          "1811427136665449",
+          "1627785058874850",
+          "1383345343310784",
+          "865978209507178",
+          "2141653039723387",
+          "1451006129824468",
+          "1670886000818848",
+          "1566479958441186",
+          "1359390978996804",
+          "1184017747261893",
+          "2059432611668965",
+          "1150593023505360",
+          "2105236990421435",
+          "1415033143381264",
+          "1419410479604702",
+          "1045266748474883",
+          "2176894426218635",
+          "1000906552929344",
+          "4117495201875084",
+          "2515881448926215",
+          "1389408589541717",
+          "609813365362421",
+          "2572476999580330",
+          "1468942331170943",
+          "1903623604370424",
+          "1438782168293183",
+          "1303255455228349",
+          "949662521210366",
+          "299481604070434",
+          "1109064841434177",
+          "1675378636880571",
+          "763685359331075",
+          "1053021666653385",
+          "1496671608623867",
+          "1336037792016888",
+          "2954225424924010",
+          "987793264245392",
+          "1721334185794585",
+          "1534184595026125",
+          "1445590934145041",
+          "1795497174931904",
+          "983759684723275",
+          "27313286511639696",
+          "986029000604011",
+          "2238460673576746",
+          "1736540201035622",
+          "1056959796654644",
+          "934001683011222",
+          "1543629327461393",
+          "1538230053869945",
+          "1437888128094605",
+          "3286994301471119",
+          "1493051891934839",
+          "2714346252278374",
+          "2435548206946708",
+          "2157546865044474",
+          "1185057566995723",
+          "858367276702004",
+          "1465426678147559",
+          "981560964408117",
+          "2103415530577665",
+          "1467383184523954",
+          "1387614739854895",
+          "1619189505823393",
+          "1713084773339936",
+          "1516325966641294",
+          "1892302218339471",
+          "1781705575737400",
+          "993709403682899",
+          "29311386325117201",
+          "1734860557838376",
+          "1544248757376995",
+          "1496731018575766",
+          "1367555094845318",
+          "1201554408643773",
+          "2835209729993630",
+          "1776445450395946",
+          "1024424313404602",
+          "2812367292453507",
+          "2191063005019462",
+          "952354564466278",
+          "1470418121140306",
+          "809268412182132",
+          "2100901270843799",
+          "1383438223473039",
+          "2516237971904614",
+          "2509172162899830",
+          "977650778451917",
+          "1535161114826040",
+          "1427312029305530",
+          "1353723726587085"
+        ],
+        "ads": [
+          {
+            "id": "2419326955264088",
+            "advertiser": "ALDI SÜD",
+            "startedAt": "2026-06-03",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:54:21+00:00",
+            "lastCollectedAt": "2026-10-11T13:54:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1360708995790320",
+            "advertiser": "Vital Generation",
+            "startedAt": "2025-11-05",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:54:11+00:00",
+            "lastCollectedAt": "2026-10-11T13:54:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "25489156557438296",
+            "advertiser": "World Food Programme",
+            "startedAt": "2025-12-22",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:54:10+00:00",
+            "lastCollectedAt": "2026-10-11T13:54:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2043953072849355",
+            "advertiser": "Tom Hannemann",
+            "startedAt": "2026-02-28",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:54:10+00:00",
+            "lastCollectedAt": "2026-10-11T13:54:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2153188545227732",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-28",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:54:09+00:00",
+            "lastCollectedAt": "2026-10-11T13:54:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "855370890997038",
+            "advertiser": "Lindhardt og Ringhof",
+            "startedAt": "2026-09-16",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:54:08+00:00",
+            "lastCollectedAt": "2026-10-11T13:54:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1357139352524024",
+            "advertiser": "LLWIN Trang Chủ Sự Kiện",
+            "startedAt": "2026-07-26",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:54:08+00:00",
+            "lastCollectedAt": "2026-10-11T13:54:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1800578288050895",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-21",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:54:05+00:00",
+            "lastCollectedAt": "2026-10-11T13:54:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1297028872370143",
+            "advertiser": "The Booker Prizes",
+            "startedAt": "2026-04-24",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:54:04+00:00",
+            "lastCollectedAt": "2026-10-11T13:54:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1811427136665449",
+            "advertiser": "The Nation Thailand",
+            "startedAt": "2026-09-30",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:54:03+00:00",
+            "lastCollectedAt": "2026-10-11T13:54:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1627785058874850",
+            "advertiser": "GAZOO Racing Global",
+            "startedAt": "2026-09-10",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:54:03+00:00",
+            "lastCollectedAt": "2026-10-11T13:54:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1383345343310784",
+            "advertiser": "thyssenkrupp",
+            "startedAt": "2025-10-22",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:52+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "865978209507178",
+            "advertiser": "China in Lens",
+            "startedAt": "2026-01-02",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:51+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2141653039723387",
+            "advertiser": "GAZOO Racing Global",
+            "startedAt": "2026-08-31",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:48+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1451006129824468",
+            "advertiser": "Raid: Shadow Legends",
+            "startedAt": "2026-02-25",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:48+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1670886000818848",
+            "advertiser": "LVM Versicherung",
+            "startedAt": "2026-05-04",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:47+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1566479958441186",
+            "advertiser": "Fritten & Kaviar",
+            "startedAt": "2026-07-15",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:47+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1359390978996804",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-08-02",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:45+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1184017747261893",
+            "advertiser": "World Food Programme",
+            "startedAt": "2026-01-13",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:45+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2059432611668965",
+            "advertiser": "ALDI SÜD",
+            "startedAt": "2026-07-06",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:44+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1150593023505360",
+            "advertiser": "Matches Puzzle",
+            "startedAt": "2025-05-14",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:44+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2105236990421435",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-30",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:32+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1415033143381264",
+            "advertiser": "Nexus - AI Video Generator",
+            "startedAt": "2026-09-28",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:32+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1419410479604702",
+            "advertiser": "Learna AI: Language Learning App",
+            "startedAt": "2025-12-24",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:31+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1045266748474883",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-23",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:31+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2176894426218635",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-06-30",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:30+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1000906552929344",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-16",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:30+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4117495201875084",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-05-21",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:29+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2515881448926215",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-30",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:29+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1389408589541717",
+            "advertiser": "Zurück zum Ursprung",
+            "startedAt": "2025-12-30",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:29+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "609813365362421",
+            "advertiser": "Light of the World",
+            "startedAt": "2025-01-31",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:20+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2572476999580330",
+            "advertiser": "Der Leadership Coach",
+            "startedAt": "2023-12-19",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:20+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1468942331170943",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-05-28",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:20+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1903623604370424",
+            "advertiser": "Plan7Architekt - Architektursoftware",
+            "startedAt": "2025-12-03",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:19+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1438782168293183",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-06-14",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:19+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1303255455228349",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-05-29",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:19+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "949662521210366",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-05-08",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:18+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "299481604070434",
+            "advertiser": "Campingpark Groß-Reken",
+            "startedAt": "2018-06-07",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:17+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1109064841434177",
+            "advertiser": "مهاجر نيوز - InfoMigrants Arabic",
+            "startedAt": "2026-04-27",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:17+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1675378636880571",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-08-02",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:16+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "763685359331075",
+            "advertiser": "Medivet Tierarztpraxen",
+            "startedAt": "2025-06-09",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:08+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1053021666653385",
+            "advertiser": "Praxisteam für gesunde Zähne",
+            "startedAt": "2025-04-04",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:08+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1496671608623867",
+            "advertiser": "Vera Clinic",
+            "startedAt": "2026-04-30",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:07+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1336037792016888",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-06-25",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:07+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2954225424924010",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-06-02",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:06+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "987793264245392",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-06-11",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:05+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1721334185794585",
+            "advertiser": "ProcterandGambleatcvs",
+            "startedAt": "2026-06-06",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:05+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1534184595026125",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-02",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:05+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1445590934145041",
+            "advertiser": "Städel Museum",
+            "startedAt": "2026-09-18",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:05+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1795497174931904",
+            "advertiser": "Speak Daily",
+            "startedAt": "2026-07-20",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:04+00:00",
+            "lastCollectedAt": "2026-10-11T13:53:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "983759684723275",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-08-20",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:56+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27313286511639696",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-06-03",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:56+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "986029000604011",
+            "advertiser": "ALDI SÜD",
+            "startedAt": "2026-04-27",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:55+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2238460673576746",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-06-22",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:55+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1736540201035622",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-05-14",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:54+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1056959796654644",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-06-16",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:54+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "934001683011222",
+            "advertiser": "Rossmann",
+            "startedAt": "2026-06-07",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:53+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1543629327461393",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-08-06",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:53+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1538230053869945",
+            "advertiser": "Freedom Filmmaker",
+            "startedAt": "2025-10-09",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:53+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1437888128094605",
+            "advertiser": "007 Elements",
+            "startedAt": "2026-05-08",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:53+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3286994301471119",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-08-13",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:45+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1493051891934839",
+            "advertiser": "Futurium",
+            "startedAt": "2025-11-03",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:45+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2714346252278374",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-05-15",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:44+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2435548206946708",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-06-01",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:44+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2157546865044474",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-05",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:43+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1185057566995723",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-05-17",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:43+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "858367276702004",
+            "advertiser": "Educational Games",
+            "startedAt": "2025-10-16",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:42+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1465426678147559",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-05-31",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:42+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "981560964408117",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-05-17",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:41+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2103415530577665",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-08-09",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:41+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1467383184523954",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-05-24",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:34+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1387614739854895",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-06-21",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:34+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1619189505823393",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-06-14",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:33+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1713084773339936",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-06-07",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:32+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1516325966641294",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-12",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:32+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1892302218339471",
+            "advertiser": "Medivet Tierarztpraxen",
+            "startedAt": "2025-12-01",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:31+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1781705575737400",
+            "advertiser": "Matchandmake",
+            "startedAt": "2025-03-20",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:31+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "993709403682899",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-08-16",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:30+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "29311386325117201",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-08-23",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:29+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1734860557838376",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-08-09",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:29+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1544248757376995",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-05",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:22+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1496731018575766",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-06-07",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:21+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1367555094845318",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-08-16",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:21+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1201554408643773",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-05-24",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:21+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2835209729993630",
+            "advertiser": "",
+            "startedAt": "2025-01-23",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:20+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1776445450395946",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-19",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:20+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1024424313404602",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-12",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:20+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2812367292453507",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-26",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:19+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2191063005019462",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-19",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:19+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "952354564466278",
+            "advertiser": "Erzbistum Paderborn",
+            "startedAt": "2026-05-01",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:18+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1470418121140306",
+            "advertiser": "Raid: Shadow Legends",
+            "startedAt": "2026-02-19",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:13+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "809268412182132",
+            "advertiser": "Raid: Shadow Legends",
+            "startedAt": "2026-02-19",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:12+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2100901270843799",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-26",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:12+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1383438223473039",
+            "advertiser": "Zurück zum Ursprung",
+            "startedAt": "2025-12-24",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:12+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2516237971904614",
+            "advertiser": "verlobungsring.de",
+            "startedAt": "2024-11-12",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:11+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2509172162899830",
+            "advertiser": "RAF Global",
+            "startedAt": "2026-08-28",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:11+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "977650778451917",
+            "advertiser": "",
+            "startedAt": "2026-06-05",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:10+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1535161114826040",
+            "advertiser": "Bitburger",
+            "startedAt": "2026-07-24",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:10+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1427312029305530",
+            "advertiser": "IFA Berlin",
+            "startedAt": "2026-09-02",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:09+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1353723726587085",
+            "advertiser": "GoDaddy Deutschland",
+            "startedAt": "2026-05-05",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:09+00:00",
+            "lastCollectedAt": "2026-10-11T13:52:09+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-11T13:54:21+00:00",
+        "advertisers": [
+          {
+            "name": "ALDI Nord",
+            "adCount": 49
+          },
+          {
+            "name": "ALDI SÜD",
+            "adCount": 3
+          },
+          {
+            "name": "Raid: Shadow Legends",
+            "adCount": 3
+          },
+          {
+            "name": "GAZOO Racing Global",
+            "adCount": 2
+          },
+          {
+            "name": "Medivet Tierarztpraxen",
+            "adCount": 2
+          },
+          {
+            "name": "World Food Programme",
+            "adCount": 2
+          },
+          {
+            "name": "Zurück zum Ursprung",
+            "adCount": 2
+          },
+          {
+            "name": "007 Elements",
+            "adCount": 1
+          },
+          {
+            "name": "Bitburger",
+            "adCount": 1
+          },
+          {
+            "name": "Campingpark Groß-Reken",
+            "adCount": 1
+          },
+          {
+            "name": "China in Lens",
+            "adCount": 1
+          },
+          {
+            "name": "Der Leadership Coach",
+            "adCount": 1
+          },
+          {
+            "name": "Educational Games",
+            "adCount": 1
+          },
+          {
+            "name": "Erzbistum Paderborn",
+            "adCount": 1
+          },
+          {
+            "name": "Freedom Filmmaker",
+            "adCount": 1
+          },
+          {
+            "name": "Fritten & Kaviar",
+            "adCount": 1
+          },
+          {
+            "name": "Futurium",
+            "adCount": 1
+          },
+          {
+            "name": "GoDaddy Deutschland",
+            "adCount": 1
+          },
+          {
+            "name": "IFA Berlin",
+            "adCount": 1
+          },
+          {
+            "name": "LLWIN Trang Chủ Sự Kiện",
+            "adCount": 1
+          },
+          {
+            "name": "LVM Versicherung",
+            "adCount": 1
+          },
+          {
+            "name": "Learna AI: Language Learning App",
+            "adCount": 1
+          },
+          {
+            "name": "Light of the World",
+            "adCount": 1
+          },
+          {
+            "name": "Lindhardt og Ringhof",
+            "adCount": 1
+          },
+          {
+            "name": "Matchandmake",
+            "adCount": 1
+          },
+          {
+            "name": "Matches Puzzle",
+            "adCount": 1
+          },
+          {
+            "name": "Nexus - AI Video Generator",
+            "adCount": 1
+          },
+          {
+            "name": "Plan7Architekt - Architektursoftware",
+            "adCount": 1
+          },
+          {
+            "name": "Praxisteam für gesunde Zähne",
+            "adCount": 1
+          },
+          {
+            "name": "ProcterandGambleatcvs",
+            "adCount": 1
+          },
+          {
+            "name": "RAF Global",
+            "adCount": 1
+          },
+          {
+            "name": "Rossmann",
+            "adCount": 1
+          },
+          {
+            "name": "Speak Daily",
+            "adCount": 1
+          },
+          {
+            "name": "Städel Museum",
+            "adCount": 1
+          },
+          {
+            "name": "The Booker Prizes",
+            "adCount": 1
+          },
+          {
+            "name": "The Nation Thailand",
+            "adCount": 1
+          },
+          {
+            "name": "Tom Hannemann",
+            "adCount": 1
+          },
+          {
+            "name": "Vera Clinic",
+            "adCount": 1
+          },
+          {
+            "name": "Vital Generation",
+            "adCount": 1
+          },
+          {
+            "name": "thyssenkrupp",
+            "adCount": 1
+          },
+          {
+            "name": "verlobungsring.de",
+            "adCount": 1
+          },
+          {
+            "name": "مهاجر نيوز - InfoMigrants Arabic",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
