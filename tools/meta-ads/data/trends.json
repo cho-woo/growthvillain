@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-11T13:54:35+00:00",
+  "updatedAt": "2026-10-11T13:57:37+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-11T00:35:53+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 30,
-    "dailyRemaining": 258,
+    "dailyUsed": 31,
+    "dailyRemaining": 257,
     "pending": 0,
-    "nextDispatchAt": "2026-10-11T13:57:02+00:00",
+    "nextDispatchAt": "2026-10-11T14:02:07+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -14605,17 +14605,44 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "done",
       "keywordId": "d5459a37b7db4a67707b21591f4f58e33bf540e1b6292fef88bc52b5b75be8ff",
       "searchQuery": "굿다인핑크",
       "adEvidence": {
         "query": "굿다인핑크",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 2,
+        "adIds": [
+          "1050404124475496",
+          "1716786986269677"
+        ],
+        "ads": [
+          {
+            "id": "1050404124475496",
+            "advertiser": "지라이프",
+            "startedAt": "2026-08-19",
+            "query": "굿다인핑크",
+            "firstCollectedAt": "2026-10-11T13:57:17+00:00",
+            "lastCollectedAt": "2026-10-11T13:57:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1716786986269677",
+            "advertiser": "지라이프",
+            "startedAt": "2026-08-18",
+            "query": "굿다인핑크",
+            "firstCollectedAt": "2026-10-11T13:57:16+00:00",
+            "lastCollectedAt": "2026-10-11T13:57:16+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-11T13:57:17+00:00",
+        "advertisers": [
+          {
+            "name": "지라이프",
+            "adCount": 2
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -18719,17 +18746,44 @@
       "rankWindow": 100,
       "observedAt": "2026-10-11T00:35:53+00:00",
       "lastObservedAt": "2026-10-11T00:35:53+00:00",
-      "state": "ready",
+      "state": "done",
       "keywordId": "d5459a37b7db4a67707b21591f4f58e33bf540e1b6292fef88bc52b5b75be8ff",
       "searchQuery": "굿다인핑크",
       "adEvidence": {
         "query": "굿다인핑크",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 2,
+        "adIds": [
+          "1050404124475496",
+          "1716786986269677"
+        ],
+        "ads": [
+          {
+            "id": "1050404124475496",
+            "advertiser": "지라이프",
+            "startedAt": "2026-08-19",
+            "query": "굿다인핑크",
+            "firstCollectedAt": "2026-10-11T13:57:17+00:00",
+            "lastCollectedAt": "2026-10-11T13:57:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1716786986269677",
+            "advertiser": "지라이프",
+            "startedAt": "2026-08-18",
+            "query": "굿다인핑크",
+            "firstCollectedAt": "2026-10-11T13:57:16+00:00",
+            "lastCollectedAt": "2026-10-11T13:57:16+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-11T13:57:17+00:00",
+        "advertisers": [
+          {
+            "name": "지라이프",
+            "adCount": 2
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
