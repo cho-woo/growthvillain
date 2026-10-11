@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-11T19:48:25+00:00",
+  "updatedAt": "2026-10-11T19:52:42+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-11T19:44:18+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 6,
-    "dailyRemaining": 282,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-11T19:52:41+00:00",
+    "dailyUsed": 7,
+    "dailyRemaining": 281,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -11661,7 +11661,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "88be42e8ab1778f052eb397a9720641e47e8922dc93a536176204206626da4fb",
       "searchQuery": "ns프로틴",
       "adEvidence": {
@@ -18089,7 +18089,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-11T00:35:53+00:00",
       "lastObservedAt": "2026-10-11T19:44:18+00:00",
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "88be42e8ab1778f052eb397a9720641e47e8922dc93a536176204206626da4fb",
       "searchQuery": "ns프로틴",
       "adEvidence": {
