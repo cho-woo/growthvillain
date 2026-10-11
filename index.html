@@ -26,6 +26,7 @@
 <link rel="stylesheet" href="/css/dark.css">
 <link rel="stylesheet" href="/css/portfolio-ux.css">
 <link rel="stylesheet" href="/css/portfolio-editorial.css">
+<link rel="stylesheet" href="/css/portfolio-video.css">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +67,27 @@
   </div>
   <div class="reading-progress" aria-hidden="true"><span></span></div>
 </nav>
+
+<section class="portfolio-intro" aria-label="조우형 포트폴리오 영상">
+  <div class="portfolio-intro-screen">
+    <video id="portfolio-intro-video" autoplay muted loop playsinline controls preload="metadata" poster="/img/posters/portfolio-showreel-20261011.jpg" width="1920" height="1080" aria-label="조우형 포트폴리오 모션그래픽 영상">
+      <source src="/video/portfolio-showreel-20261011.mp4" type="video/mp4">
+      <p>브라우저에서 영상을 재생할 수 없습니다. <a href="/video/portfolio-showreel-20261011.mp4">포트폴리오 영상 보기</a></p>
+    </video>
+  </div>
+  <div class="portfolio-intro-bar">
+    <p class="portfolio-intro-label">JOWOOHYUNG · PORTFOLIO FILM</p>
+    <div class="portfolio-intro-actions">
+      <button class="portfolio-intro-button" type="button" data-intro-play hidden>영상 재생 ▶</button>
+      <button class="portfolio-intro-button" type="button" data-intro-sound aria-controls="portfolio-intro-video" aria-pressed="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9v6h4l5 4V5L7 9H3zm12.5 3a3.5 3.5 0 0 0-1.5-2.87v5.74A3.5 3.5 0 0 0 15.5 12zM14 3.23v2.06a7 7 0 0 1 0 13.42v2.06a9 9 0 0 0 0-17.54z"/></svg>
+        <span>소리 켜기</span>
+      </button>
+      <a class="portfolio-intro-link" href="#ai">포트폴리오 보기 ↓</a>
+    </div>
+  </div>
+  <p class="portfolio-intro-status" data-intro-status role="status" hidden></p>
+</section>
 
 <main class="dwrap" id="portfolio-content" tabindex="-1">
 
@@ -683,5 +705,6 @@
 })();
 </script>
 <script src="/js/portfolio-ux.js" defer></script>
+<script src="/js/portfolio-video.js" defer></script>
 </body>
 </html>
