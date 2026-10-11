@@ -1,6 +1,6 @@
 {
   "mode": "snapshot",
-  "updatedAt": "2026-10-11T08:40:28+00:00",
+  "updatedAt": "2026-10-11T08:51:58+00:00",
   "automations": [
     {
       "id": "meta-ads",
@@ -99,7 +99,7 @@
       "nextRunAt": "2026-10-11T17:54:21+09:00",
       "lastSuccessAt": "2026-10-11T14:23:46+09:00",
       "lastAttemptAt": null,
-      "message": "발행 간격 대기 · 뉴스만 수집 · 다음 작성 17:50",
+      "message": "발행 간격 대기 · 뉴스만 수집 · 다음 작성 20:50",
       "intervalSeconds": 900,
       "statusCheckIntervalSeconds": null,
       "statusCheckBatchSize": null,
@@ -141,8 +141,8 @@
   ],
   "publication": {
     "state": "synced",
-    "lastAttemptAt": "2026-10-11T08:37:19+00:00",
-    "lastSuccessAt": "2026-10-11T08:37:25+00:00",
+    "lastAttemptAt": "2026-10-11T08:40:28+00:00",
+    "lastSuccessAt": "2026-10-11T08:40:32+00:00",
     "error": null,
     "enabled": true
   }
