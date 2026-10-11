@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-11T22:23:30+00:00",
+  "updatedAt": "2026-10-11T22:26:55+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-11T21:47:20+00:00",
@@ -41,8 +41,8 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 12,
-    "dailyRemaining": 276,
+    "dailyUsed": 13,
+    "dailyRemaining": 275,
     "pending": 1,
     "nextDispatchAt": null,
     "metaAutoEnabled": true,
@@ -7741,7 +7741,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "631327d2f460dfbaccf4bcc4992e74327fd148471487e1b58724a418331fd626",
       "searchQuery": "nmn영양제",
       "adEvidence": {
@@ -11345,7 +11345,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "1ceb09eb2f2ed9fc0c05455a35bdf4b06afcfc3725d0703a0d2d2c1aea878654",
       "searchQuery": "마이프로틴",
       "adEvidence": {
@@ -11355,32 +11355,32 @@
         "adIds": [
           "4127098654094278",
           "1806224950727586",
+          "1573507707358390",
           "1442005601359516",
+          "2161046188157842",
           "1835677434093524",
           "1639771817496496",
-          "1573507707358390",
           "2833919070298068",
-          "2161046188157842",
+          "1100531762929832",
           "1075743064892808",
           "3348395048674049",
-          "1488516589700095",
-          "1100531762929832",
           "3304870319696417",
           "28275224888834436",
-          "1069646535429714",
+          "1488516589700095",
           "1039016918864313",
           "1034242799456931",
-          "1078412234820575",
-          "1564810661814713",
+          "1069646535429714",
           "938923012484330",
-          "932696709872405",
+          "1564810661814713",
           "1014637104418871",
+          "932696709872405",
           "1510792047222355",
+          "1593486462311777",
           "1091273039994164",
           "2191369815006851",
           "2040281700194483",
-          "1593486462311777",
-          "1978669046108467"
+          "1978669046108467",
+          "1078412234820575"
         ],
         "ads": [
           {
@@ -11389,7 +11389,7 @@
             "startedAt": "2026-10-07",
             "query": "마이프로틴",
             "firstCollectedAt": "2026-10-08T03:05:51+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:36+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:26+00:00",
             "startTiming": "during-window"
           },
           {
@@ -11398,34 +11398,7 @@
             "startedAt": "2026-10-07",
             "query": "마이프로틴",
             "firstCollectedAt": "2026-10-08T03:05:51+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:36+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1442005601359516",
-            "advertiser": "Myprotein.AD",
-            "startedAt": "2026-10-07",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:51+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:36+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1835677434093524",
-            "advertiser": "Myprotein.AD",
-            "startedAt": "2026-10-07",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:50+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:35+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1639771817496496",
-            "advertiser": "Myprotein.AD",
-            "startedAt": "2026-10-07",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:50+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:35+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:26+00:00",
             "startTiming": "during-window"
           },
           {
@@ -11434,7 +11407,43 @@
             "startedAt": "2026-10-07",
             "query": "마이프로틴",
             "firstCollectedAt": "2026-10-08T03:05:50+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:35+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:25+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1442005601359516",
+            "advertiser": "Myprotein.AD",
+            "startedAt": "2026-10-07",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:51+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:25+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2161046188157842",
+            "advertiser": "Myprotein.AD",
+            "startedAt": "2026-10-07",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:50+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:24+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1835677434093524",
+            "advertiser": "Myprotein.AD",
+            "startedAt": "2026-10-07",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:50+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:24+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1639771817496496",
+            "advertiser": "Myprotein.AD",
+            "startedAt": "2026-10-07",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:50+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:24+00:00",
             "startTiming": "during-window"
           },
           {
@@ -11443,43 +11452,7 @@
             "startedAt": "2026-08-19",
             "query": "마이프로틴",
             "firstCollectedAt": "2026-10-08T03:05:39+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:34+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2161046188157842",
-            "advertiser": "Myprotein.AD",
-            "startedAt": "2026-10-07",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:50+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:34+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1075743064892808",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-08-19",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:38+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:23+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "3348395048674049",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-08-19",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:37+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:22+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1488516589700095",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-08-14",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:37+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:22+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:12+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11488,7 +11461,25 @@
             "startedAt": "2026-08-14",
             "query": "마이프로틴",
             "firstCollectedAt": "2026-10-08T03:05:38+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:22+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1075743064892808",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-08-19",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:38+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3348395048674049",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-08-19",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:37+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:11+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11497,7 +11488,7 @@
             "startedAt": "2026-08-19",
             "query": "마이프로틴",
             "firstCollectedAt": "2026-10-08T03:05:36+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:21+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:10+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11506,16 +11497,16 @@
             "startedAt": "2026-08-19",
             "query": "마이프로틴",
             "firstCollectedAt": "2026-10-08T03:05:36+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:21+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:10+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1069646535429714",
+            "id": "1488516589700095",
             "advertiser": "Myprotein",
-            "startedAt": "2026-08-19",
+            "startedAt": "2026-08-14",
             "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:35+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:20+00:00",
+            "firstCollectedAt": "2026-10-08T03:05:37+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:10+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11524,7 +11515,7 @@
             "startedAt": "2026-08-19",
             "query": "마이프로틴",
             "firstCollectedAt": "2026-10-08T03:05:35+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:20+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:09+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11533,7 +11524,106 @@
             "startedAt": "2026-08-14",
             "query": "마이프로틴",
             "firstCollectedAt": "2026-10-08T03:05:36+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:20+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1069646535429714",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-08-19",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:35+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "938923012484330",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:29+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1564810661814713",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-08-19",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:30+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1014637104418871",
+            "advertiser": "Myprotein.AD",
+            "startedAt": "2026-05-28",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:30+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "932696709872405",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-08-19",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:29+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1510792047222355",
+            "advertiser": "김민수",
+            "startedAt": "2026-05-07",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:28+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1593486462311777",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-08-19",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:28+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1091273039994164",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-08-19",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:29+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2191369815006851",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-02-16",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:27+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2040281700194483",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-07-23",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:28+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1978669046108467",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-07-23",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:27+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:00+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11544,99 +11634,9 @@
             "firstCollectedAt": "2026-10-09T22:55:19+00:00",
             "lastCollectedAt": "2026-10-09T22:55:19+00:00",
             "startTiming": "during-window"
-          },
-          {
-            "id": "1564810661814713",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-08-19",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:30+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:15+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "938923012484330",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:29+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:14+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "932696709872405",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-08-19",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:29+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:14+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1014637104418871",
-            "advertiser": "Myprotein.AD",
-            "startedAt": "2026-05-28",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:30+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:14+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1510792047222355",
-            "advertiser": "김민수",
-            "startedAt": "2026-05-07",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:28+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:13+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1091273039994164",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-08-19",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:29+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:13+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2191369815006851",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-02-16",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:27+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:12+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2040281700194483",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-07-23",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:28+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:12+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1593486462311777",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-08-19",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:28+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:12+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1978669046108467",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-07-23",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:27+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:11+00:00",
-            "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-09T22:55:36+00:00",
+        "lastCollectedAt": "2026-10-11T22:26:26+00:00",
         "advertisers": [
           {
             "name": "Myprotein",
@@ -16320,7 +16320,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-11T00:35:53+00:00",
       "lastObservedAt": "2026-10-11T21:47:20+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "1ceb09eb2f2ed9fc0c05455a35bdf4b06afcfc3725d0703a0d2d2c1aea878654",
       "searchQuery": "마이프로틴",
       "adEvidence": {
@@ -16330,32 +16330,32 @@
         "adIds": [
           "4127098654094278",
           "1806224950727586",
+          "1573507707358390",
           "1442005601359516",
+          "2161046188157842",
           "1835677434093524",
           "1639771817496496",
-          "1573507707358390",
           "2833919070298068",
-          "2161046188157842",
+          "1100531762929832",
           "1075743064892808",
           "3348395048674049",
-          "1488516589700095",
-          "1100531762929832",
           "3304870319696417",
           "28275224888834436",
-          "1069646535429714",
+          "1488516589700095",
           "1039016918864313",
           "1034242799456931",
-          "1078412234820575",
-          "1564810661814713",
+          "1069646535429714",
           "938923012484330",
-          "932696709872405",
+          "1564810661814713",
           "1014637104418871",
+          "932696709872405",
           "1510792047222355",
+          "1593486462311777",
           "1091273039994164",
           "2191369815006851",
           "2040281700194483",
-          "1593486462311777",
-          "1978669046108467"
+          "1978669046108467",
+          "1078412234820575"
         ],
         "ads": [
           {
@@ -16364,7 +16364,7 @@
             "startedAt": "2026-10-07",
             "query": "마이프로틴",
             "firstCollectedAt": "2026-10-08T03:05:51+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:36+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:26+00:00",
             "startTiming": "during-window"
           },
           {
@@ -16373,34 +16373,7 @@
             "startedAt": "2026-10-07",
             "query": "마이프로틴",
             "firstCollectedAt": "2026-10-08T03:05:51+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:36+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1442005601359516",
-            "advertiser": "Myprotein.AD",
-            "startedAt": "2026-10-07",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:51+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:36+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1835677434093524",
-            "advertiser": "Myprotein.AD",
-            "startedAt": "2026-10-07",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:50+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:35+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1639771817496496",
-            "advertiser": "Myprotein.AD",
-            "startedAt": "2026-10-07",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:50+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:35+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:26+00:00",
             "startTiming": "during-window"
           },
           {
@@ -16409,7 +16382,43 @@
             "startedAt": "2026-10-07",
             "query": "마이프로틴",
             "firstCollectedAt": "2026-10-08T03:05:50+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:35+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:25+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1442005601359516",
+            "advertiser": "Myprotein.AD",
+            "startedAt": "2026-10-07",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:51+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:25+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2161046188157842",
+            "advertiser": "Myprotein.AD",
+            "startedAt": "2026-10-07",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:50+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:24+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1835677434093524",
+            "advertiser": "Myprotein.AD",
+            "startedAt": "2026-10-07",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:50+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:24+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1639771817496496",
+            "advertiser": "Myprotein.AD",
+            "startedAt": "2026-10-07",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:50+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:24+00:00",
             "startTiming": "during-window"
           },
           {
@@ -16418,43 +16427,7 @@
             "startedAt": "2026-08-19",
             "query": "마이프로틴",
             "firstCollectedAt": "2026-10-08T03:05:39+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:34+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2161046188157842",
-            "advertiser": "Myprotein.AD",
-            "startedAt": "2026-10-07",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:50+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:34+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1075743064892808",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-08-19",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:38+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:23+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "3348395048674049",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-08-19",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:37+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:22+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1488516589700095",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-08-14",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:37+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:22+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:12+00:00",
             "startTiming": "before-window"
           },
           {
@@ -16463,7 +16436,25 @@
             "startedAt": "2026-08-14",
             "query": "마이프로틴",
             "firstCollectedAt": "2026-10-08T03:05:38+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:22+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1075743064892808",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-08-19",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:38+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3348395048674049",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-08-19",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:37+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:11+00:00",
             "startTiming": "before-window"
           },
           {
@@ -16472,7 +16463,7 @@
             "startedAt": "2026-08-19",
             "query": "마이프로틴",
             "firstCollectedAt": "2026-10-08T03:05:36+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:21+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:10+00:00",
             "startTiming": "before-window"
           },
           {
@@ -16481,16 +16472,16 @@
             "startedAt": "2026-08-19",
             "query": "마이프로틴",
             "firstCollectedAt": "2026-10-08T03:05:36+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:21+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:10+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1069646535429714",
+            "id": "1488516589700095",
             "advertiser": "Myprotein",
-            "startedAt": "2026-08-19",
+            "startedAt": "2026-08-14",
             "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:35+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:20+00:00",
+            "firstCollectedAt": "2026-10-08T03:05:37+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:10+00:00",
             "startTiming": "before-window"
           },
           {
@@ -16499,7 +16490,7 @@
             "startedAt": "2026-08-19",
             "query": "마이프로틴",
             "firstCollectedAt": "2026-10-08T03:05:35+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:20+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:09+00:00",
             "startTiming": "before-window"
           },
           {
@@ -16508,7 +16499,106 @@
             "startedAt": "2026-08-14",
             "query": "마이프로틴",
             "firstCollectedAt": "2026-10-08T03:05:36+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:20+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1069646535429714",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-08-19",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:35+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "938923012484330",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:29+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1564810661814713",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-08-19",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:30+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1014637104418871",
+            "advertiser": "Myprotein.AD",
+            "startedAt": "2026-05-28",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:30+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "932696709872405",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-08-19",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:29+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1510792047222355",
+            "advertiser": "김민수",
+            "startedAt": "2026-05-07",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:28+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1593486462311777",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-08-19",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:28+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1091273039994164",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-08-19",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:29+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2191369815006851",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-02-16",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:27+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2040281700194483",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-07-23",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:28+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1978669046108467",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-07-23",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:27+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:00+00:00",
             "startTiming": "before-window"
           },
           {
@@ -16519,99 +16609,9 @@
             "firstCollectedAt": "2026-10-09T22:55:19+00:00",
             "lastCollectedAt": "2026-10-09T22:55:19+00:00",
             "startTiming": "during-window"
-          },
-          {
-            "id": "1564810661814713",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-08-19",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:30+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:15+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "938923012484330",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:29+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:14+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "932696709872405",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-08-19",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:29+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:14+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1014637104418871",
-            "advertiser": "Myprotein.AD",
-            "startedAt": "2026-05-28",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:30+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:14+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1510792047222355",
-            "advertiser": "김민수",
-            "startedAt": "2026-05-07",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:28+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:13+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1091273039994164",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-08-19",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:29+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:13+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2191369815006851",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-02-16",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:27+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:12+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2040281700194483",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-07-23",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:28+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:12+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1593486462311777",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-08-19",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:28+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:12+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1978669046108467",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-07-23",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:27+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:11+00:00",
-            "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-09T22:55:36+00:00",
+        "lastCollectedAt": "2026-10-11T22:26:26+00:00",
         "advertisers": [
           {
             "name": "Myprotein",
@@ -30101,7 +30101,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-11T00:35:21+00:00",
       "lastObservedAt": "2026-10-11T21:46:36+00:00",
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "631327d2f460dfbaccf4bcc4992e74327fd148471487e1b58724a418331fd626",
       "searchQuery": "nmn영양제",
       "adEvidence": {
@@ -42516,32 +42516,32 @@
         "adIds": [
           "4127098654094278",
           "1806224950727586",
+          "1573507707358390",
           "1442005601359516",
+          "2161046188157842",
           "1835677434093524",
           "1639771817496496",
-          "1573507707358390",
           "2833919070298068",
-          "2161046188157842",
+          "1100531762929832",
           "1075743064892808",
           "3348395048674049",
-          "1488516589700095",
-          "1100531762929832",
           "3304870319696417",
           "28275224888834436",
-          "1069646535429714",
+          "1488516589700095",
           "1039016918864313",
           "1034242799456931",
-          "1078412234820575",
-          "1564810661814713",
+          "1069646535429714",
           "938923012484330",
-          "932696709872405",
+          "1564810661814713",
           "1014637104418871",
+          "932696709872405",
           "1510792047222355",
+          "1593486462311777",
           "1091273039994164",
           "2191369815006851",
           "2040281700194483",
-          "1593486462311777",
-          "1978669046108467"
+          "1978669046108467",
+          "1078412234820575"
         ],
         "ads": [
           {
@@ -42550,7 +42550,7 @@
             "startedAt": "2026-10-07",
             "query": "마이프로틴",
             "firstCollectedAt": "2026-10-08T03:05:51+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:36+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:26+00:00",
             "startTiming": "during-window"
           },
           {
@@ -42559,34 +42559,7 @@
             "startedAt": "2026-10-07",
             "query": "마이프로틴",
             "firstCollectedAt": "2026-10-08T03:05:51+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:36+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1442005601359516",
-            "advertiser": "Myprotein.AD",
-            "startedAt": "2026-10-07",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:51+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:36+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1835677434093524",
-            "advertiser": "Myprotein.AD",
-            "startedAt": "2026-10-07",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:50+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:35+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1639771817496496",
-            "advertiser": "Myprotein.AD",
-            "startedAt": "2026-10-07",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:50+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:35+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:26+00:00",
             "startTiming": "during-window"
           },
           {
@@ -42595,7 +42568,43 @@
             "startedAt": "2026-10-07",
             "query": "마이프로틴",
             "firstCollectedAt": "2026-10-08T03:05:50+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:35+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:25+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1442005601359516",
+            "advertiser": "Myprotein.AD",
+            "startedAt": "2026-10-07",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:51+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:25+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2161046188157842",
+            "advertiser": "Myprotein.AD",
+            "startedAt": "2026-10-07",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:50+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:24+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1835677434093524",
+            "advertiser": "Myprotein.AD",
+            "startedAt": "2026-10-07",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:50+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:24+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1639771817496496",
+            "advertiser": "Myprotein.AD",
+            "startedAt": "2026-10-07",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:50+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:24+00:00",
             "startTiming": "during-window"
           },
           {
@@ -42604,43 +42613,7 @@
             "startedAt": "2026-08-19",
             "query": "마이프로틴",
             "firstCollectedAt": "2026-10-08T03:05:39+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:34+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2161046188157842",
-            "advertiser": "Myprotein.AD",
-            "startedAt": "2026-10-07",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:50+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:34+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1075743064892808",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-08-19",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:38+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:23+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "3348395048674049",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-08-19",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:37+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:22+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1488516589700095",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-08-14",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:37+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:22+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:12+00:00",
             "startTiming": "before-window"
           },
           {
@@ -42649,7 +42622,25 @@
             "startedAt": "2026-08-14",
             "query": "마이프로틴",
             "firstCollectedAt": "2026-10-08T03:05:38+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:22+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1075743064892808",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-08-19",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:38+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3348395048674049",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-08-19",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:37+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:11+00:00",
             "startTiming": "before-window"
           },
           {
@@ -42658,7 +42649,7 @@
             "startedAt": "2026-08-19",
             "query": "마이프로틴",
             "firstCollectedAt": "2026-10-08T03:05:36+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:21+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:10+00:00",
             "startTiming": "before-window"
           },
           {
@@ -42667,16 +42658,16 @@
             "startedAt": "2026-08-19",
             "query": "마이프로틴",
             "firstCollectedAt": "2026-10-08T03:05:36+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:21+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:10+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1069646535429714",
+            "id": "1488516589700095",
             "advertiser": "Myprotein",
-            "startedAt": "2026-08-19",
+            "startedAt": "2026-08-14",
             "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:35+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:20+00:00",
+            "firstCollectedAt": "2026-10-08T03:05:37+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:10+00:00",
             "startTiming": "before-window"
           },
           {
@@ -42685,7 +42676,7 @@
             "startedAt": "2026-08-19",
             "query": "마이프로틴",
             "firstCollectedAt": "2026-10-08T03:05:35+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:20+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:09+00:00",
             "startTiming": "before-window"
           },
           {
@@ -42694,7 +42685,106 @@
             "startedAt": "2026-08-14",
             "query": "마이프로틴",
             "firstCollectedAt": "2026-10-08T03:05:36+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:20+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1069646535429714",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-08-19",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:35+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "938923012484330",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:29+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1564810661814713",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-08-19",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:30+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1014637104418871",
+            "advertiser": "Myprotein.AD",
+            "startedAt": "2026-05-28",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:30+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "932696709872405",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-08-19",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:29+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1510792047222355",
+            "advertiser": "김민수",
+            "startedAt": "2026-05-07",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:28+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1593486462311777",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-08-19",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:28+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1091273039994164",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-08-19",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:29+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2191369815006851",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-02-16",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:27+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2040281700194483",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-07-23",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:28+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1978669046108467",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-07-23",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:27+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:00+00:00",
             "startTiming": "before-window"
           },
           {
@@ -42705,99 +42795,9 @@
             "firstCollectedAt": "2026-10-09T22:55:19+00:00",
             "lastCollectedAt": "2026-10-09T22:55:19+00:00",
             "startTiming": "during-window"
-          },
-          {
-            "id": "1564810661814713",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-08-19",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:30+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:15+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "938923012484330",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:29+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:14+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "932696709872405",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-08-19",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:29+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:14+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1014637104418871",
-            "advertiser": "Myprotein.AD",
-            "startedAt": "2026-05-28",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:30+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:14+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1510792047222355",
-            "advertiser": "김민수",
-            "startedAt": "2026-05-07",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:28+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:13+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1091273039994164",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-08-19",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:29+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:13+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2191369815006851",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-02-16",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:27+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:12+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2040281700194483",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-07-23",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:28+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:12+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1593486462311777",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-08-19",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:28+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:12+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1978669046108467",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-07-23",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:27+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:11+00:00",
-            "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-09T22:55:36+00:00",
+        "lastCollectedAt": "2026-10-11T22:26:26+00:00",
         "advertisers": [
           {
             "name": "Myprotein",
@@ -59084,32 +59084,32 @@
         "adIds": [
           "4127098654094278",
           "1806224950727586",
+          "1573507707358390",
           "1442005601359516",
+          "2161046188157842",
           "1835677434093524",
           "1639771817496496",
-          "1573507707358390",
           "2833919070298068",
-          "2161046188157842",
+          "1100531762929832",
           "1075743064892808",
           "3348395048674049",
-          "1488516589700095",
-          "1100531762929832",
           "3304870319696417",
           "28275224888834436",
-          "1069646535429714",
+          "1488516589700095",
           "1039016918864313",
           "1034242799456931",
-          "1078412234820575",
-          "1564810661814713",
+          "1069646535429714",
           "938923012484330",
-          "932696709872405",
+          "1564810661814713",
           "1014637104418871",
+          "932696709872405",
           "1510792047222355",
+          "1593486462311777",
           "1091273039994164",
           "2191369815006851",
           "2040281700194483",
-          "1593486462311777",
-          "1978669046108467"
+          "1978669046108467",
+          "1078412234820575"
         ],
         "ads": [
           {
@@ -59118,7 +59118,7 @@
             "startedAt": "2026-10-07",
             "query": "마이프로틴",
             "firstCollectedAt": "2026-10-08T03:05:51+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:36+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:26+00:00",
             "startTiming": "during-window"
           },
           {
@@ -59127,34 +59127,7 @@
             "startedAt": "2026-10-07",
             "query": "마이프로틴",
             "firstCollectedAt": "2026-10-08T03:05:51+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:36+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1442005601359516",
-            "advertiser": "Myprotein.AD",
-            "startedAt": "2026-10-07",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:51+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:36+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1835677434093524",
-            "advertiser": "Myprotein.AD",
-            "startedAt": "2026-10-07",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:50+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:35+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1639771817496496",
-            "advertiser": "Myprotein.AD",
-            "startedAt": "2026-10-07",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:50+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:35+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:26+00:00",
             "startTiming": "during-window"
           },
           {
@@ -59163,7 +59136,43 @@
             "startedAt": "2026-10-07",
             "query": "마이프로틴",
             "firstCollectedAt": "2026-10-08T03:05:50+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:35+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:25+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1442005601359516",
+            "advertiser": "Myprotein.AD",
+            "startedAt": "2026-10-07",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:51+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:25+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2161046188157842",
+            "advertiser": "Myprotein.AD",
+            "startedAt": "2026-10-07",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:50+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:24+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1835677434093524",
+            "advertiser": "Myprotein.AD",
+            "startedAt": "2026-10-07",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:50+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:24+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1639771817496496",
+            "advertiser": "Myprotein.AD",
+            "startedAt": "2026-10-07",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:50+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:24+00:00",
             "startTiming": "during-window"
           },
           {
@@ -59172,43 +59181,7 @@
             "startedAt": "2026-08-19",
             "query": "마이프로틴",
             "firstCollectedAt": "2026-10-08T03:05:39+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:34+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2161046188157842",
-            "advertiser": "Myprotein.AD",
-            "startedAt": "2026-10-07",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:50+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:34+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1075743064892808",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-08-19",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:38+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:23+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "3348395048674049",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-08-19",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:37+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:22+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1488516589700095",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-08-14",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:37+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:22+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:12+00:00",
             "startTiming": "before-window"
           },
           {
@@ -59217,7 +59190,25 @@
             "startedAt": "2026-08-14",
             "query": "마이프로틴",
             "firstCollectedAt": "2026-10-08T03:05:38+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:22+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1075743064892808",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-08-19",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:38+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3348395048674049",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-08-19",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:37+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:11+00:00",
             "startTiming": "before-window"
           },
           {
@@ -59226,7 +59217,7 @@
             "startedAt": "2026-08-19",
             "query": "마이프로틴",
             "firstCollectedAt": "2026-10-08T03:05:36+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:21+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:10+00:00",
             "startTiming": "before-window"
           },
           {
@@ -59235,16 +59226,16 @@
             "startedAt": "2026-08-19",
             "query": "마이프로틴",
             "firstCollectedAt": "2026-10-08T03:05:36+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:21+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:10+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1069646535429714",
+            "id": "1488516589700095",
             "advertiser": "Myprotein",
-            "startedAt": "2026-08-19",
+            "startedAt": "2026-08-14",
             "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:35+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:20+00:00",
+            "firstCollectedAt": "2026-10-08T03:05:37+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:10+00:00",
             "startTiming": "before-window"
           },
           {
@@ -59253,7 +59244,7 @@
             "startedAt": "2026-08-19",
             "query": "마이프로틴",
             "firstCollectedAt": "2026-10-08T03:05:35+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:20+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:09+00:00",
             "startTiming": "before-window"
           },
           {
@@ -59262,7 +59253,106 @@
             "startedAt": "2026-08-14",
             "query": "마이프로틴",
             "firstCollectedAt": "2026-10-08T03:05:36+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:20+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1069646535429714",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-08-19",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:35+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "938923012484330",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:29+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1564810661814713",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-08-19",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:30+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1014637104418871",
+            "advertiser": "Myprotein.AD",
+            "startedAt": "2026-05-28",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:30+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "932696709872405",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-08-19",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:29+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1510792047222355",
+            "advertiser": "김민수",
+            "startedAt": "2026-05-07",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:28+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1593486462311777",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-08-19",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:28+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1091273039994164",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-08-19",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:29+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2191369815006851",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-02-16",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:27+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2040281700194483",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-07-23",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:28+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1978669046108467",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-07-23",
+            "query": "마이프로틴",
+            "firstCollectedAt": "2026-10-08T03:05:27+00:00",
+            "lastCollectedAt": "2026-10-11T22:26:00+00:00",
             "startTiming": "before-window"
           },
           {
@@ -59273,99 +59363,9 @@
             "firstCollectedAt": "2026-10-09T22:55:19+00:00",
             "lastCollectedAt": "2026-10-09T22:55:19+00:00",
             "startTiming": "after-window"
-          },
-          {
-            "id": "1564810661814713",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-08-19",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:30+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:15+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "938923012484330",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:29+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:14+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "932696709872405",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-08-19",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:29+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:14+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1014637104418871",
-            "advertiser": "Myprotein.AD",
-            "startedAt": "2026-05-28",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:30+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:14+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1510792047222355",
-            "advertiser": "김민수",
-            "startedAt": "2026-05-07",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:28+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:13+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1091273039994164",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-08-19",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:29+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:13+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2191369815006851",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-02-16",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:27+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:12+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2040281700194483",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-07-23",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:28+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:12+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1593486462311777",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-08-19",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:28+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:12+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1978669046108467",
-            "advertiser": "Myprotein",
-            "startedAt": "2026-07-23",
-            "query": "마이프로틴",
-            "firstCollectedAt": "2026-10-08T03:05:27+00:00",
-            "lastCollectedAt": "2026-10-09T22:55:11+00:00",
-            "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-09T22:55:36+00:00",
+        "lastCollectedAt": "2026-10-11T22:26:26+00:00",
         "advertisers": [
           {
             "name": "Myprotein",
@@ -70523,7 +70523,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "backlog",
+      "state": "cooldown",
       "keywordId": "631327d2f460dfbaccf4bcc4992e74327fd148471487e1b58724a418331fd626",
       "searchQuery": "nmn영양제",
       "adEvidence": {
