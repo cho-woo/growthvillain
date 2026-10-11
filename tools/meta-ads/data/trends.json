@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-11T13:57:37+00:00",
+  "updatedAt": "2026-10-11T14:02:56+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-11T00:35:53+00:00",
@@ -41,22 +41,22 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 31,
-    "dailyRemaining": 257,
+    "dailyUsed": 32,
+    "dailyRemaining": 256,
     "pending": 0,
-    "nextDispatchAt": "2026-10-11T14:02:07+00:00",
+    "nextDispatchAt": "2026-10-11T15:02:46+00:00",
     "metaAutoEnabled": true,
-    "enabled": true,
+    "enabled": false,
     "collectionGuard": {
-      "state": "ready",
-      "reason": null,
-      "nextAllowedAt": null,
-      "blockedUntil": null,
-      "blockStreak": 0,
+      "state": "blocked",
+      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
+      "nextAllowedAt": "2026-10-11T15:02:46+00:00",
+      "blockedUntil": "2026-10-11T15:02:46+00:00",
+      "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": null
+    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
   },
   "settings": {
     "category": "50000023",
@@ -10576,17 +10576,372 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "done",
       "keywordId": "edc3e76d927558242585a6cbbeb37bab67fa0749d38bf7e4a7df49409740712f",
       "searchQuery": "아스타잔틴",
       "adEvidence": {
         "query": "아스타잔틴",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 30,
+        "adIds": [
+          "1018100517892275",
+          "28551138091148145",
+          "1333118972132449",
+          "1051392724459261",
+          "973857619102989",
+          "2055647928413931",
+          "1952429838736323",
+          "1404171441889305",
+          "2730177954034929",
+          "1372035114504748",
+          "2623357321439457",
+          "1813540129674769",
+          "1327309175975568",
+          "924303830749526",
+          "958036063958491",
+          "1439909518056175",
+          "1436660251676374",
+          "25004121099263335",
+          "2052968515346053",
+          "1740821060508924",
+          "1401153861836035",
+          "4415059042077810",
+          "2580883582352661",
+          "1751833122767564",
+          "1740236407201698",
+          "1527486396068581",
+          "1401758471374047",
+          "1989271378357447",
+          "1397735959161477",
+          "1066655009441757"
+        ],
+        "ads": [
+          {
+            "id": "1018100517892275",
+            "advertiser": "성장건강꿀팁",
+            "startedAt": "2026-07-12",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:38+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28551138091148145",
+            "advertiser": "안국건강",
+            "startedAt": "2026-09-09",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:37+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1333118972132449",
+            "advertiser": "안국건강",
+            "startedAt": "2026-06-30",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:37+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1051392724459261",
+            "advertiser": "Noble Daily",
+            "startedAt": "2026-09-11",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:37+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "973857619102989",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-30",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:36+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2055647928413931",
+            "advertiser": "Dwmallofficial",
+            "startedAt": "2026-09-12",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:36+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1952429838736323",
+            "advertiser": "부업정보",
+            "startedAt": "2026-08-13",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:36+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1404171441889305",
+            "advertiser": "안국약품",
+            "startedAt": "2026-09-27",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:36+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2730177954034929",
+            "advertiser": "키즈 건강 꿀팁",
+            "startedAt": "2026-05-14",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:35+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1372035114504748",
+            "advertiser": "",
+            "startedAt": "2025-11-18",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:34+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2623357321439457",
+            "advertiser": "멍스타그램",
+            "startedAt": "2026-07-27",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:28+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1813540129674769",
+            "advertiser": "Dwmallofficial",
+            "startedAt": "2026-09-29",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:28+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1327309175975568",
+            "advertiser": "Dwmallofficial",
+            "startedAt": "2026-09-17",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:28+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "924303830749526",
+            "advertiser": "Noble Daily",
+            "startedAt": "2026-09-10",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:26+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "958036063958491",
+            "advertiser": "웰로리아",
+            "startedAt": "2026-06-21",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:25+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1439909518056175",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-30",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:25+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1436660251676374",
+            "advertiser": "Dwmallofficial",
+            "startedAt": "2026-09-19",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:25+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "25004121099263335",
+            "advertiser": "건기남",
+            "startedAt": "2026-02-02",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:24+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2052968515346053",
+            "advertiser": "Dwmallofficial",
+            "startedAt": "2026-09-20",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:24+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1740821060508924",
+            "advertiser": "Dwmallofficial",
+            "startedAt": "2026-09-12",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:24+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1401153861836035",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:19+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4415059042077810",
+            "advertiser": "Noble Daily",
+            "startedAt": "2026-09-23",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:18+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2580883582352661",
+            "advertiser": "Dwmallofficial",
+            "startedAt": "2026-10-06",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:18+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:18+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1751833122767564",
+            "advertiser": "건강口ざㅇlŁйパㅔバ6",
+            "startedAt": "2026-09-12",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:18+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1740236407201698",
+            "advertiser": "Dwmallofficial",
+            "startedAt": "2026-09-29",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:17+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1527486396068581",
+            "advertiser": "Dwmallofficial",
+            "startedAt": "2026-09-29",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:17+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1401758471374047",
+            "advertiser": "Dwmallofficial",
+            "startedAt": "2026-09-20",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:17+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1989271378357447",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:16+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1397735959161477",
+            "advertiser": "Dwmallofficial",
+            "startedAt": "2026-09-12",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:16+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1066655009441757",
+            "advertiser": "Dwmallofficial",
+            "startedAt": "2026-09-17",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:16+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:16+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-11T14:02:38+00:00",
+        "advertisers": [
+          {
+            "name": "Dwmallofficial",
+            "adCount": 12
+          },
+          {
+            "name": "Noble Daily",
+            "adCount": 3
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 2
+          },
+          {
+            "name": "안국건강",
+            "adCount": 2
+          },
+          {
+            "name": "종근당",
+            "adCount": 2
+          },
+          {
+            "name": "건강口ざㅇlŁйパㅔバ6",
+            "adCount": 1
+          },
+          {
+            "name": "건기남",
+            "adCount": 1
+          },
+          {
+            "name": "멍스타그램",
+            "adCount": 1
+          },
+          {
+            "name": "부업정보",
+            "adCount": 1
+          },
+          {
+            "name": "성장건강꿀팁",
+            "adCount": 1
+          },
+          {
+            "name": "안국약품",
+            "adCount": 1
+          },
+          {
+            "name": "웰로리아",
+            "adCount": 1
+          },
+          {
+            "name": "키즈 건강 꿀팁",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -22151,17 +22506,372 @@
       "rankWindow": 100,
       "observedAt": "2026-10-11T00:35:21+00:00",
       "lastObservedAt": "2026-10-11T00:35:21+00:00",
-      "state": "ready",
+      "state": "done",
       "keywordId": "edc3e76d927558242585a6cbbeb37bab67fa0749d38bf7e4a7df49409740712f",
       "searchQuery": "아스타잔틴",
       "adEvidence": {
         "query": "아스타잔틴",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 30,
+        "adIds": [
+          "1018100517892275",
+          "28551138091148145",
+          "1333118972132449",
+          "1051392724459261",
+          "973857619102989",
+          "2055647928413931",
+          "1952429838736323",
+          "1404171441889305",
+          "2730177954034929",
+          "1372035114504748",
+          "2623357321439457",
+          "1813540129674769",
+          "1327309175975568",
+          "924303830749526",
+          "958036063958491",
+          "1439909518056175",
+          "1436660251676374",
+          "25004121099263335",
+          "2052968515346053",
+          "1740821060508924",
+          "1401153861836035",
+          "4415059042077810",
+          "2580883582352661",
+          "1751833122767564",
+          "1740236407201698",
+          "1527486396068581",
+          "1401758471374047",
+          "1989271378357447",
+          "1397735959161477",
+          "1066655009441757"
+        ],
+        "ads": [
+          {
+            "id": "1018100517892275",
+            "advertiser": "성장건강꿀팁",
+            "startedAt": "2026-07-12",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:38+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28551138091148145",
+            "advertiser": "안국건강",
+            "startedAt": "2026-09-09",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:37+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1333118972132449",
+            "advertiser": "안국건강",
+            "startedAt": "2026-06-30",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:37+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1051392724459261",
+            "advertiser": "Noble Daily",
+            "startedAt": "2026-09-11",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:37+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "973857619102989",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-30",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:36+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2055647928413931",
+            "advertiser": "Dwmallofficial",
+            "startedAt": "2026-09-12",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:36+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1952429838736323",
+            "advertiser": "부업정보",
+            "startedAt": "2026-08-13",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:36+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1404171441889305",
+            "advertiser": "안국약품",
+            "startedAt": "2026-09-27",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:36+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2730177954034929",
+            "advertiser": "키즈 건강 꿀팁",
+            "startedAt": "2026-05-14",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:35+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1372035114504748",
+            "advertiser": "",
+            "startedAt": "2025-11-18",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:34+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2623357321439457",
+            "advertiser": "멍스타그램",
+            "startedAt": "2026-07-27",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:28+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1813540129674769",
+            "advertiser": "Dwmallofficial",
+            "startedAt": "2026-09-29",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:28+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1327309175975568",
+            "advertiser": "Dwmallofficial",
+            "startedAt": "2026-09-17",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:28+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "924303830749526",
+            "advertiser": "Noble Daily",
+            "startedAt": "2026-09-10",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:26+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "958036063958491",
+            "advertiser": "웰로리아",
+            "startedAt": "2026-06-21",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:25+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1439909518056175",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-30",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:25+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1436660251676374",
+            "advertiser": "Dwmallofficial",
+            "startedAt": "2026-09-19",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:25+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "25004121099263335",
+            "advertiser": "건기남",
+            "startedAt": "2026-02-02",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:24+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2052968515346053",
+            "advertiser": "Dwmallofficial",
+            "startedAt": "2026-09-20",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:24+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1740821060508924",
+            "advertiser": "Dwmallofficial",
+            "startedAt": "2026-09-12",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:24+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1401153861836035",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:19+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4415059042077810",
+            "advertiser": "Noble Daily",
+            "startedAt": "2026-09-23",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:18+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2580883582352661",
+            "advertiser": "Dwmallofficial",
+            "startedAt": "2026-10-06",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:18+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:18+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1751833122767564",
+            "advertiser": "건강口ざㅇlŁйパㅔバ6",
+            "startedAt": "2026-09-12",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:18+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1740236407201698",
+            "advertiser": "Dwmallofficial",
+            "startedAt": "2026-09-29",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:17+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1527486396068581",
+            "advertiser": "Dwmallofficial",
+            "startedAt": "2026-09-29",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:17+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1401758471374047",
+            "advertiser": "Dwmallofficial",
+            "startedAt": "2026-09-20",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:17+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1989271378357447",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:16+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1397735959161477",
+            "advertiser": "Dwmallofficial",
+            "startedAt": "2026-09-12",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:16+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1066655009441757",
+            "advertiser": "Dwmallofficial",
+            "startedAt": "2026-09-17",
+            "query": "아스타잔틴",
+            "firstCollectedAt": "2026-10-11T14:02:16+00:00",
+            "lastCollectedAt": "2026-10-11T14:02:16+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-11T14:02:38+00:00",
+        "advertisers": [
+          {
+            "name": "Dwmallofficial",
+            "adCount": 12
+          },
+          {
+            "name": "Noble Daily",
+            "adCount": 3
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 2
+          },
+          {
+            "name": "안국건강",
+            "adCount": 2
+          },
+          {
+            "name": "종근당",
+            "adCount": 2
+          },
+          {
+            "name": "건강口ざㅇlŁйパㅔバ6",
+            "adCount": 1
+          },
+          {
+            "name": "건기남",
+            "adCount": 1
+          },
+          {
+            "name": "멍스타그램",
+            "adCount": 1
+          },
+          {
+            "name": "부업정보",
+            "adCount": 1
+          },
+          {
+            "name": "성장건강꿀팁",
+            "adCount": 1
+          },
+          {
+            "name": "안국약품",
+            "adCount": 1
+          },
+          {
+            "name": "웰로리아",
+            "adCount": 1
+          },
+          {
+            "name": "키즈 건강 꿀팁",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
