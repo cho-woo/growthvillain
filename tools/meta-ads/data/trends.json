@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-11T08:36:17+00:00",
+  "updatedAt": "2026-10-11T09:33:37+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-11T00:35:53+00:00",
@@ -41,22 +41,22 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 18,
-    "dailyRemaining": 270,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-11T09:33:35+00:00",
+    "dailyUsed": 19,
+    "dailyRemaining": 269,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
-    "enabled": false,
+    "enabled": true,
     "collectionGuard": {
-      "state": "blocked",
-      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
-      "nextAllowedAt": "2026-10-11T09:33:35+00:00",
-      "blockedUntil": "2026-10-11T09:33:35+00:00",
+      "state": "ready",
+      "reason": null,
+      "nextAllowedAt": null,
+      "blockedUntil": null,
       "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
+    "pausedReason": null
   },
   "settings": {
     "category": "50000023",
@@ -1862,7 +1862,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "cooldown",
+      "state": "ready",
       "keywordId": "beb785e6a823a38108b5b1cdc89fd88049901f5f0f0c4ab26a9f78fec00c8028",
       "searchQuery": "비피더스유산균",
       "adEvidence": {
@@ -6418,7 +6418,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "queued",
       "keywordId": "f6d92818742cac86fd2c9851d2ed0763fe03256bd4703658a9c121bdb1f5bca5",
       "searchQuery": "더단백프로틴",
       "adEvidence": {
@@ -7918,7 +7918,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "cooldown",
+      "state": "ready",
       "keywordId": "21452d38d86c7cd7f856009febaff220c78b8ca91ae59541255f277f828e6261",
       "searchQuery": "콜라겐아마빌레",
       "adEvidence": {
@@ -8488,7 +8488,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-11T00:35:53+00:00",
       "lastObservedAt": "2026-10-11T00:35:53+00:00",
-      "state": "cooldown",
+      "state": "ready",
       "keywordId": "21452d38d86c7cd7f856009febaff220c78b8ca91ae59541255f277f828e6261",
       "searchQuery": "콜라겐아마빌레",
       "adEvidence": {
@@ -9612,7 +9612,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-11T00:35:53+00:00",
       "lastObservedAt": "2026-10-11T00:35:53+00:00",
-      "state": "ready",
+      "state": "queued",
       "keywordId": "f6d92818742cac86fd2c9851d2ed0763fe03256bd4703658a9c121bdb1f5bca5",
       "searchQuery": "더단백프로틴",
       "adEvidence": {
@@ -9804,7 +9804,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-11T00:35:21+00:00",
       "lastObservedAt": "2026-10-11T00:35:21+00:00",
-      "state": "cooldown",
+      "state": "ready",
       "keywordId": "beb785e6a823a38108b5b1cdc89fd88049901f5f0f0c4ab26a9f78fec00c8028",
       "searchQuery": "비피더스유산균",
       "adEvidence": {
