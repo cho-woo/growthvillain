@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-11T12:36:29+00:00",
+  "updatedAt": "2026-10-11T13:31:06+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-11T00:35:53+00:00",
@@ -41,22 +41,22 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 26,
-    "dailyRemaining": 262,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-11T13:31:03+00:00",
+    "dailyUsed": 27,
+    "dailyRemaining": 261,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
-    "enabled": false,
+    "enabled": true,
     "collectionGuard": {
-      "state": "blocked",
-      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
-      "nextAllowedAt": "2026-10-11T13:31:03+00:00",
-      "blockedUntil": "2026-10-11T13:31:03+00:00",
+      "state": "ready",
+      "reason": null,
+      "nextAllowedAt": null,
+      "blockedUntil": null,
       "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
+    "pausedReason": null
   },
   "settings": {
     "category": "50000023",
@@ -85,7 +85,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "cooldown",
+      "state": "ready",
       "keywordId": "95b07679ff469e159048159bdecd1808ddf7cc2c5fa7a45e56a4aafc2041662e",
       "searchQuery": "삼백초",
       "adEvidence": {
@@ -11933,7 +11933,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "queued",
       "keywordId": "a34ba4d382edebcfcd73973150ae04e4a30d01d14e44ac555e763c63ab4a7feb",
       "searchQuery": "프로틴",
       "adEvidence": {
@@ -13858,7 +13858,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-11T00:35:53+00:00",
       "lastObservedAt": "2026-10-11T00:35:53+00:00",
-      "state": "ready",
+      "state": "queued",
       "keywordId": "a34ba4d382edebcfcd73973150ae04e4a30d01d14e44ac555e763c63ab4a7feb",
       "searchQuery": "프로틴",
       "adEvidence": {
@@ -20344,7 +20344,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-11T00:35:21+00:00",
       "lastObservedAt": "2026-10-11T00:35:21+00:00",
-      "state": "cooldown",
+      "state": "ready",
       "keywordId": "95b07679ff469e159048159bdecd1808ddf7cc2c5fa7a45e56a4aafc2041662e",
       "searchQuery": "삼백초",
       "adEvidence": {
