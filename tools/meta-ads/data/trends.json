@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-11T22:52:22+00:00",
+  "updatedAt": "2026-10-11T22:56:34+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-11T22:48:53+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 16,
-    "dailyRemaining": 272,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-11T22:56:29+00:00",
+    "dailyUsed": 17,
+    "dailyRemaining": 271,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -8154,7 +8154,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "304fbb1a972d232d3079f5c8862038074b61f170350280a83fec688f71fcf4f1",
       "searchQuery": "프로폴리스",
       "adEvidence": {
@@ -25006,7 +25006,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-11T00:35:21+00:00",
       "lastObservedAt": "2026-10-11T22:48:09+00:00",
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "304fbb1a972d232d3079f5c8862038074b61f170350280a83fec688f71fcf4f1",
       "searchQuery": "프로폴리스",
       "adEvidence": {
