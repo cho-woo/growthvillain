@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-11T12:22:32+00:00",
+  "updatedAt": "2026-10-11T12:30:32+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-11T00:35:53+00:00",
@@ -41,8 +41,8 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 25,
-    "dailyRemaining": 263,
+    "dailyUsed": 26,
+    "dailyRemaining": 262,
     "pending": 1,
     "nextDispatchAt": null,
     "metaAutoEnabled": true,
@@ -10802,17 +10802,1084 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "c348f86f21a7c5de83ae8b32c259c7694f6716d907922c5e317dc43b7ffa17e6",
       "searchQuery": "맥스컷",
       "adEvidence": {
         "query": "맥스컷",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 100,
+        "adIds": [
+          "1617504423211829",
+          "1090869836981170",
+          "3545269288955653",
+          "1776984603336061",
+          "1880445423759835",
+          "1968711483798659",
+          "1683664187092446",
+          "2357828061649047",
+          "1516306693549895",
+          "1126130836560994",
+          "1098141425926008",
+          "4177272299231920",
+          "1589838065306284",
+          "1099093816174382",
+          "868076129633750",
+          "1431026403420221",
+          "1097873986556609",
+          "1747220836733772",
+          "1590501669236358",
+          "1130377893255481",
+          "28460732990233417",
+          "2390763548416496",
+          "2378773022950549",
+          "2238071570380674",
+          "2168323817059215",
+          "1856809382335062",
+          "1656533882794648",
+          "1304636115007876",
+          "1774029760557064",
+          "1782896242957621",
+          "1082573917962571",
+          "1077332175093901",
+          "1885918489064350",
+          "2587816078352988",
+          "1482947593282384",
+          "1115281137669751",
+          "29075429278731226",
+          "1096361393033081",
+          "4403702483293907",
+          "1033150339754931",
+          "1846661209840136",
+          "1773551300606015",
+          "2551081625394772",
+          "1406749291648050",
+          "1135145435706052",
+          "1856331298913159",
+          "1649894990101916",
+          "1567916364547999",
+          "979159568541480",
+          "1106716278715509",
+          "1385528393741516",
+          "4414479802146140",
+          "1858351652014305",
+          "28728550240116937",
+          "1058516987090454",
+          "4475733929341078",
+          "1467602858513850",
+          "1711064129988105",
+          "1570706231218012",
+          "28461877203449750",
+          "1590895749402212",
+          "1399752162284755",
+          "2646716875741510",
+          "1063203486476944",
+          "1791265445376771",
+          "1610320633864264",
+          "1687315262795047",
+          "1749463052942737",
+          "2328665304637168",
+          "1079562001437538",
+          "39148333624780834",
+          "2052987792000793",
+          "1090271236940368",
+          "1620976239694445",
+          "1559791512018102",
+          "1077374985079698",
+          "1633836014936229",
+          "1603559478130209",
+          "1143702821487632",
+          "38825329677082040",
+          "2207507016475375",
+          "1121209990246408",
+          "2524661314710006",
+          "1072065991957617",
+          "2776193476107974",
+          "1598550545135685",
+          "1439975291408316",
+          "1376949980976370",
+          "1874927896803588",
+          "1401878351438196",
+          "1455005486517269",
+          "1616113583445883",
+          "1104373775576238",
+          "2120997655292271",
+          "2055018142050582",
+          "2157727015165001",
+          "1717802342615462",
+          "3024399237906893",
+          "1358443459157037",
+          "2719146485169520"
+        ],
+        "ads": [
+          {
+            "id": "1617504423211829",
+            "advertiser": "Slim changer",
+            "startedAt": "2026-10-02",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:30:12+00:00",
+            "lastCollectedAt": "2026-10-11T12:30:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1090869836981170",
+            "advertiser": "아줌마헬스",
+            "startedAt": "2026-09-30",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:30:12+00:00",
+            "lastCollectedAt": "2026-10-11T12:30:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3545269288955653",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-01",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:30:11+00:00",
+            "lastCollectedAt": "2026-10-11T12:30:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1776984603336061",
+            "advertiser": "핫딜꿀팁",
+            "startedAt": "2026-09-02",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:30:11+00:00",
+            "lastCollectedAt": "2026-10-11T12:30:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1880445423759835",
+            "advertiser": "유니",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:30:10+00:00",
+            "lastCollectedAt": "2026-10-11T12:30:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1968711483798659",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-01",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:30:09+00:00",
+            "lastCollectedAt": "2026-10-11T12:30:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1683664187092446",
+            "advertiser": "꿀팁모음",
+            "startedAt": "2026-09-30",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:30:08+00:00",
+            "lastCollectedAt": "2026-10-11T12:30:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2357828061649047",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:30:07+00:00",
+            "lastCollectedAt": "2026-10-11T12:30:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1516306693549895",
+            "advertiser": "Misa bakery_JM",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:30:07+00:00",
+            "lastCollectedAt": "2026-10-11T12:30:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1126130836560994",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-04",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:30:06+00:00",
+            "lastCollectedAt": "2026-10-11T12:30:06+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1098141425926008",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-02",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:57+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4177272299231920",
+            "advertiser": "떠둥이",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:56+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1589838065306284",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-30",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:56+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1099093816174382",
+            "advertiser": "Slim changer",
+            "startedAt": "2026-10-07",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:56+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:56+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "868076129633750",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:55+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1431026403420221",
+            "advertiser": "꿀팁당첨",
+            "startedAt": "2026-09-30",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:55+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1097873986556609",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-06",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:55+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:55+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1747220836733772",
+            "advertiser": "쏘e",
+            "startedAt": "2026-10-01",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:54+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1590501669236358",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-30",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:54+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1130377893255481",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-06",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:54+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "28460732990233417",
+            "advertiser": "Slim changer",
+            "startedAt": "2026-10-07",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:45+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:45+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2390763548416496",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-07",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:44+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:44+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2378773022950549",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-30",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:44+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2238071570380674",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-03",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:44+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2168323817059215",
+            "advertiser": "꿀팁모음",
+            "startedAt": "2026-10-06",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:43+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1856809382335062",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-07",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:43+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1656533882794648",
+            "advertiser": "Slim changer",
+            "startedAt": "2026-10-07",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:43+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1304636115007876",
+            "advertiser": "Slim changer",
+            "startedAt": "2026-10-05",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:43+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1774029760557064",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-06",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:42+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:42+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1782896242957621",
+            "advertiser": "한비 뷰티",
+            "startedAt": "2026-10-02",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:41+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1082573917962571",
+            "advertiser": "Misa bakery_JM",
+            "startedAt": "2026-10-07",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:33+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:33+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1077332175093901",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:33+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1885918489064350",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:32+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2587816078352988",
+            "advertiser": "핫딜꿀팁",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:31+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1482947593282384",
+            "advertiser": "꿀팁당첨",
+            "startedAt": "2026-09-17",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:31+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1115281137669751",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-07",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:31+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:31+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "29075429278731226",
+            "advertiser": "서병진",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:30+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1096361393033081",
+            "advertiser": "Slim changer",
+            "startedAt": "2026-10-07",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:30+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:30+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4403702483293907",
+            "advertiser": "Slim changer",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:29+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1033150339754931",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-02",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:29+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1846661209840136",
+            "advertiser": "주주핏",
+            "startedAt": "2026-10-02",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:21+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1773551300606015",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-07",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:21+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:21+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2551081625394772",
+            "advertiser": "꿀팁당첨",
+            "startedAt": "2026-10-06",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:20+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:20+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1406749291648050",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-30",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:20+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1135145435706052",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-30",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:19+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1856331298913159",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:18+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1649894990101916",
+            "advertiser": "꿀팁모음",
+            "startedAt": "2026-09-30",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:18+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1567916364547999",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:18+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "979159568541480",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-02",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:17+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1106716278715509",
+            "advertiser": "꿀팁당첨",
+            "startedAt": "2026-10-01",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:16+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1385528393741516",
+            "advertiser": "헤이민",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:09+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4414479802146140",
+            "advertiser": "꿀팁당첨",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:08+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1858351652014305",
+            "advertiser": "핫딜꿀팁",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:08+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28728550240116937",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:07+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1058516987090454",
+            "advertiser": "꿀팁당첨",
+            "startedAt": "2026-09-15",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:07+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4475733929341078",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:06+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1467602858513850",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-04",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:06+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:06+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1711064129988105",
+            "advertiser": "핫딜꿀팁",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:05+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1570706231218012",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-10",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:05+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28461877203449750",
+            "advertiser": "꿀팁당첨",
+            "startedAt": "2026-09-17",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:04+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1590895749402212",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-08-27",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:57+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1399752162284755",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-30",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:57+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2646716875741510",
+            "advertiser": "꿀팁당첨",
+            "startedAt": "2026-10-01",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:56+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1063203486476944",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-10",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:56+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1791265445376771",
+            "advertiser": "핫딜꿀팁",
+            "startedAt": "2026-09-16",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:55+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1610320633864264",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:55+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1687315262795047",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-02",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:54+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1749463052942737",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-14",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:53+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2328665304637168",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-04",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:52+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:52+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1079562001437538",
+            "advertiser": "핫딜꿀팁",
+            "startedAt": "2026-09-16",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:52+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "39148333624780834",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-30",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:45+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2052987792000793",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-01",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:45+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1090271236940368",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:44+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1620976239694445",
+            "advertiser": "핫딜꿀팁",
+            "startedAt": "2026-10-02",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:43+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1559791512018102",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-21",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:43+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1077374985079698",
+            "advertiser": "꿀팁당첨",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:43+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1633836014936229",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-30",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:42+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1603559478130209",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:42+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1143702821487632",
+            "advertiser": "핫딜꿀팁",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:42+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "38825329677082040",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-02",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:41+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2207507016475375",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:35+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1121209990246408",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:35+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2524661314710006",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-01",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:34+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1072065991957617",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-08-25",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:34+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2776193476107974",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:33+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1598550545135685",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:32+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1439975291408316",
+            "advertiser": "Slim changer",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:32+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1376949980976370",
+            "advertiser": "웃긴대학원",
+            "startedAt": "2026-07-13",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:32+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1874927896803588",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:31+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1401878351438196",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-08-27",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:31+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1455005486517269",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:26+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1616113583445883",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-10",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:25+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1104373775576238",
+            "advertiser": "햄찌피티",
+            "startedAt": "2026-09-15",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:25+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2120997655292271",
+            "advertiser": "핫딜꿀팁",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:24+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2055018142050582",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-08-21",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:24+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2157727015165001",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-18",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:23+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1717802342615462",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-07",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:23+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:23+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "3024399237906893",
+            "advertiser": "꿀팁당첨",
+            "startedAt": "2026-09-15",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:22+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1358443459157037",
+            "advertiser": "꿀팁당첨",
+            "startedAt": "2026-08-03",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:22+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2719146485169520",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:21+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:21+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-11T12:30:12+00:00",
+        "advertisers": [
+          {
+            "name": "헬스헬퍼",
+            "adCount": 57
+          },
+          {
+            "name": "꿀팁당첨",
+            "adCount": 11
+          },
+          {
+            "name": "핫딜꿀팁",
+            "adCount": 9
+          },
+          {
+            "name": "Slim changer",
+            "adCount": 8
+          },
+          {
+            "name": "꿀팁모음",
+            "adCount": 3
+          },
+          {
+            "name": "Misa bakery_JM",
+            "adCount": 2
+          },
+          {
+            "name": "떠둥이",
+            "adCount": 1
+          },
+          {
+            "name": "서병진",
+            "adCount": 1
+          },
+          {
+            "name": "쏘e",
+            "adCount": 1
+          },
+          {
+            "name": "아줌마헬스",
+            "adCount": 1
+          },
+          {
+            "name": "웃긴대학원",
+            "adCount": 1
+          },
+          {
+            "name": "유니",
+            "adCount": 1
+          },
+          {
+            "name": "주주핏",
+            "adCount": 1
+          },
+          {
+            "name": "한비 뷰티",
+            "adCount": 1
+          },
+          {
+            "name": "햄찌피티",
+            "adCount": 1
+          },
+          {
+            "name": "헤이민",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -10834,7 +11901,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "queued",
       "keywordId": "00e43bb040a9faef0bbe7996731ed7206b0173da0fec820a4533418ca049296f",
       "searchQuery": "셀렉스프로핏wpi",
       "adEvidence": {
@@ -10999,17 +12066,1084 @@
       "rankWindow": 100,
       "observedAt": "2026-10-11T00:35:53+00:00",
       "lastObservedAt": "2026-10-11T00:35:53+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "c348f86f21a7c5de83ae8b32c259c7694f6716d907922c5e317dc43b7ffa17e6",
       "searchQuery": "맥스컷",
       "adEvidence": {
         "query": "맥스컷",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 100,
+        "adIds": [
+          "1617504423211829",
+          "1090869836981170",
+          "3545269288955653",
+          "1776984603336061",
+          "1880445423759835",
+          "1968711483798659",
+          "1683664187092446",
+          "2357828061649047",
+          "1516306693549895",
+          "1126130836560994",
+          "1098141425926008",
+          "4177272299231920",
+          "1589838065306284",
+          "1099093816174382",
+          "868076129633750",
+          "1431026403420221",
+          "1097873986556609",
+          "1747220836733772",
+          "1590501669236358",
+          "1130377893255481",
+          "28460732990233417",
+          "2390763548416496",
+          "2378773022950549",
+          "2238071570380674",
+          "2168323817059215",
+          "1856809382335062",
+          "1656533882794648",
+          "1304636115007876",
+          "1774029760557064",
+          "1782896242957621",
+          "1082573917962571",
+          "1077332175093901",
+          "1885918489064350",
+          "2587816078352988",
+          "1482947593282384",
+          "1115281137669751",
+          "29075429278731226",
+          "1096361393033081",
+          "4403702483293907",
+          "1033150339754931",
+          "1846661209840136",
+          "1773551300606015",
+          "2551081625394772",
+          "1406749291648050",
+          "1135145435706052",
+          "1856331298913159",
+          "1649894990101916",
+          "1567916364547999",
+          "979159568541480",
+          "1106716278715509",
+          "1385528393741516",
+          "4414479802146140",
+          "1858351652014305",
+          "28728550240116937",
+          "1058516987090454",
+          "4475733929341078",
+          "1467602858513850",
+          "1711064129988105",
+          "1570706231218012",
+          "28461877203449750",
+          "1590895749402212",
+          "1399752162284755",
+          "2646716875741510",
+          "1063203486476944",
+          "1791265445376771",
+          "1610320633864264",
+          "1687315262795047",
+          "1749463052942737",
+          "2328665304637168",
+          "1079562001437538",
+          "39148333624780834",
+          "2052987792000793",
+          "1090271236940368",
+          "1620976239694445",
+          "1559791512018102",
+          "1077374985079698",
+          "1633836014936229",
+          "1603559478130209",
+          "1143702821487632",
+          "38825329677082040",
+          "2207507016475375",
+          "1121209990246408",
+          "2524661314710006",
+          "1072065991957617",
+          "2776193476107974",
+          "1598550545135685",
+          "1439975291408316",
+          "1376949980976370",
+          "1874927896803588",
+          "1401878351438196",
+          "1455005486517269",
+          "1616113583445883",
+          "1104373775576238",
+          "2120997655292271",
+          "2055018142050582",
+          "2157727015165001",
+          "1717802342615462",
+          "3024399237906893",
+          "1358443459157037",
+          "2719146485169520"
+        ],
+        "ads": [
+          {
+            "id": "1617504423211829",
+            "advertiser": "Slim changer",
+            "startedAt": "2026-10-02",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:30:12+00:00",
+            "lastCollectedAt": "2026-10-11T12:30:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1090869836981170",
+            "advertiser": "아줌마헬스",
+            "startedAt": "2026-09-30",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:30:12+00:00",
+            "lastCollectedAt": "2026-10-11T12:30:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3545269288955653",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-01",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:30:11+00:00",
+            "lastCollectedAt": "2026-10-11T12:30:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1776984603336061",
+            "advertiser": "핫딜꿀팁",
+            "startedAt": "2026-09-02",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:30:11+00:00",
+            "lastCollectedAt": "2026-10-11T12:30:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1880445423759835",
+            "advertiser": "유니",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:30:10+00:00",
+            "lastCollectedAt": "2026-10-11T12:30:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1968711483798659",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-01",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:30:09+00:00",
+            "lastCollectedAt": "2026-10-11T12:30:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1683664187092446",
+            "advertiser": "꿀팁모음",
+            "startedAt": "2026-09-30",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:30:08+00:00",
+            "lastCollectedAt": "2026-10-11T12:30:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2357828061649047",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:30:07+00:00",
+            "lastCollectedAt": "2026-10-11T12:30:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1516306693549895",
+            "advertiser": "Misa bakery_JM",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:30:07+00:00",
+            "lastCollectedAt": "2026-10-11T12:30:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1126130836560994",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-04",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:30:06+00:00",
+            "lastCollectedAt": "2026-10-11T12:30:06+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1098141425926008",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-02",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:57+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4177272299231920",
+            "advertiser": "떠둥이",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:56+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1589838065306284",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-30",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:56+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1099093816174382",
+            "advertiser": "Slim changer",
+            "startedAt": "2026-10-07",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:56+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:56+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "868076129633750",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:55+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1431026403420221",
+            "advertiser": "꿀팁당첨",
+            "startedAt": "2026-09-30",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:55+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1097873986556609",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-06",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:55+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:55+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1747220836733772",
+            "advertiser": "쏘e",
+            "startedAt": "2026-10-01",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:54+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1590501669236358",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-30",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:54+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1130377893255481",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-06",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:54+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "28460732990233417",
+            "advertiser": "Slim changer",
+            "startedAt": "2026-10-07",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:45+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:45+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2390763548416496",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-07",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:44+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:44+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2378773022950549",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-30",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:44+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2238071570380674",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-03",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:44+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2168323817059215",
+            "advertiser": "꿀팁모음",
+            "startedAt": "2026-10-06",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:43+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1856809382335062",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-07",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:43+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1656533882794648",
+            "advertiser": "Slim changer",
+            "startedAt": "2026-10-07",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:43+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1304636115007876",
+            "advertiser": "Slim changer",
+            "startedAt": "2026-10-05",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:43+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1774029760557064",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-06",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:42+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:42+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1782896242957621",
+            "advertiser": "한비 뷰티",
+            "startedAt": "2026-10-02",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:41+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1082573917962571",
+            "advertiser": "Misa bakery_JM",
+            "startedAt": "2026-10-07",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:33+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:33+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1077332175093901",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:33+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1885918489064350",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:32+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2587816078352988",
+            "advertiser": "핫딜꿀팁",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:31+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1482947593282384",
+            "advertiser": "꿀팁당첨",
+            "startedAt": "2026-09-17",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:31+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1115281137669751",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-07",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:31+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:31+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "29075429278731226",
+            "advertiser": "서병진",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:30+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1096361393033081",
+            "advertiser": "Slim changer",
+            "startedAt": "2026-10-07",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:30+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:30+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4403702483293907",
+            "advertiser": "Slim changer",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:29+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1033150339754931",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-02",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:29+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1846661209840136",
+            "advertiser": "주주핏",
+            "startedAt": "2026-10-02",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:21+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1773551300606015",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-07",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:21+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:21+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2551081625394772",
+            "advertiser": "꿀팁당첨",
+            "startedAt": "2026-10-06",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:20+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:20+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1406749291648050",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-30",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:20+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1135145435706052",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-30",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:19+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1856331298913159",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:18+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1649894990101916",
+            "advertiser": "꿀팁모음",
+            "startedAt": "2026-09-30",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:18+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1567916364547999",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:18+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "979159568541480",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-02",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:17+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1106716278715509",
+            "advertiser": "꿀팁당첨",
+            "startedAt": "2026-10-01",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:16+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1385528393741516",
+            "advertiser": "헤이민",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:09+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4414479802146140",
+            "advertiser": "꿀팁당첨",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:08+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1858351652014305",
+            "advertiser": "핫딜꿀팁",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:08+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28728550240116937",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:07+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1058516987090454",
+            "advertiser": "꿀팁당첨",
+            "startedAt": "2026-09-15",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:07+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4475733929341078",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:06+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1467602858513850",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-04",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:06+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:06+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1711064129988105",
+            "advertiser": "핫딜꿀팁",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:05+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1570706231218012",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-10",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:05+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28461877203449750",
+            "advertiser": "꿀팁당첨",
+            "startedAt": "2026-09-17",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:29:04+00:00",
+            "lastCollectedAt": "2026-10-11T12:29:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1590895749402212",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-08-27",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:57+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1399752162284755",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-30",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:57+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2646716875741510",
+            "advertiser": "꿀팁당첨",
+            "startedAt": "2026-10-01",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:56+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1063203486476944",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-10",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:56+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1791265445376771",
+            "advertiser": "핫딜꿀팁",
+            "startedAt": "2026-09-16",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:55+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1610320633864264",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:55+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1687315262795047",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-02",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:54+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1749463052942737",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-14",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:53+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2328665304637168",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-04",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:52+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:52+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1079562001437538",
+            "advertiser": "핫딜꿀팁",
+            "startedAt": "2026-09-16",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:52+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "39148333624780834",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-30",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:45+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2052987792000793",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-01",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:45+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1090271236940368",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:44+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1620976239694445",
+            "advertiser": "핫딜꿀팁",
+            "startedAt": "2026-10-02",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:43+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1559791512018102",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-21",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:43+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1077374985079698",
+            "advertiser": "꿀팁당첨",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:43+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1633836014936229",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-30",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:42+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1603559478130209",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:42+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1143702821487632",
+            "advertiser": "핫딜꿀팁",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:42+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "38825329677082040",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-02",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:41+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2207507016475375",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:35+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1121209990246408",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:35+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2524661314710006",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-01",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:34+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1072065991957617",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-08-25",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:34+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2776193476107974",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:33+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1598550545135685",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:32+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1439975291408316",
+            "advertiser": "Slim changer",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:32+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1376949980976370",
+            "advertiser": "웃긴대학원",
+            "startedAt": "2026-07-13",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:32+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1874927896803588",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:31+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1401878351438196",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-08-27",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:31+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1455005486517269",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:26+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1616113583445883",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-10",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:25+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1104373775576238",
+            "advertiser": "햄찌피티",
+            "startedAt": "2026-09-15",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:25+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2120997655292271",
+            "advertiser": "핫딜꿀팁",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:24+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2055018142050582",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-08-21",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:24+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2157727015165001",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-18",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:23+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1717802342615462",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-10-07",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:23+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:23+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "3024399237906893",
+            "advertiser": "꿀팁당첨",
+            "startedAt": "2026-09-15",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:22+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1358443459157037",
+            "advertiser": "꿀팁당첨",
+            "startedAt": "2026-08-03",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:22+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2719146485169520",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-29",
+            "query": "맥스컷",
+            "firstCollectedAt": "2026-10-11T12:28:21+00:00",
+            "lastCollectedAt": "2026-10-11T12:28:21+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-11T12:30:12+00:00",
+        "advertisers": [
+          {
+            "name": "헬스헬퍼",
+            "adCount": 57
+          },
+          {
+            "name": "꿀팁당첨",
+            "adCount": 11
+          },
+          {
+            "name": "핫딜꿀팁",
+            "adCount": 9
+          },
+          {
+            "name": "Slim changer",
+            "adCount": 8
+          },
+          {
+            "name": "꿀팁모음",
+            "adCount": 3
+          },
+          {
+            "name": "Misa bakery_JM",
+            "adCount": 2
+          },
+          {
+            "name": "떠둥이",
+            "adCount": 1
+          },
+          {
+            "name": "서병진",
+            "adCount": 1
+          },
+          {
+            "name": "쏘e",
+            "adCount": 1
+          },
+          {
+            "name": "아줌마헬스",
+            "adCount": 1
+          },
+          {
+            "name": "웃긴대학원",
+            "adCount": 1
+          },
+          {
+            "name": "유니",
+            "adCount": 1
+          },
+          {
+            "name": "주주핏",
+            "adCount": 1
+          },
+          {
+            "name": "한비 뷰티",
+            "adCount": 1
+          },
+          {
+            "name": "햄찌피티",
+            "adCount": 1
+          },
+          {
+            "name": "헤이민",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -12586,7 +14720,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-11T00:35:53+00:00",
       "lastObservedAt": "2026-10-11T00:35:53+00:00",
-      "state": "ready",
+      "state": "queued",
       "keywordId": "00e43bb040a9faef0bbe7996731ed7206b0173da0fec820a4533418ca049296f",
       "searchQuery": "셀렉스프로핏wpi",
       "adEvidence": {
