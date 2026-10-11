@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-11T21:47:21+00:00",
+  "updatedAt": "2026-10-11T22:15:27+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-11T21:47:20+00:00",
@@ -41,22 +41,22 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 11,
-    "dailyRemaining": 277,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-11T22:15:25+00:00",
+    "dailyUsed": 12,
+    "dailyRemaining": 276,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
-    "enabled": false,
+    "enabled": true,
     "collectionGuard": {
-      "state": "blocked",
-      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
-      "nextAllowedAt": "2026-10-11T22:15:25+00:00",
-      "blockedUntil": "2026-10-11T22:15:25+00:00",
+      "state": "ready",
+      "reason": null,
+      "nextAllowedAt": null,
+      "blockedUntil": null,
       "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
+    "pausedReason": null
   },
   "settings": {
     "category": "50000023",
@@ -11345,7 +11345,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "1ceb09eb2f2ed9fc0c05455a35bdf4b06afcfc3725d0703a0d2d2c1aea878654",
       "searchQuery": "마이프로틴",
       "adEvidence": {
@@ -16320,7 +16320,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-11T00:35:53+00:00",
       "lastObservedAt": "2026-10-11T21:47:20+00:00",
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "1ceb09eb2f2ed9fc0c05455a35bdf4b06afcfc3725d0703a0d2d2c1aea878654",
       "searchQuery": "마이프로틴",
       "adEvidence": {
