@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-11T17:41:16+00:00",
+  "updatedAt": "2026-10-11T18:30:33+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-11T17:41:15+00:00",
@@ -41,22 +41,22 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 3,
-    "dailyRemaining": 285,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-11T18:30:28+00:00",
+    "dailyUsed": 4,
+    "dailyRemaining": 284,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
-    "enabled": false,
+    "enabled": true,
     "collectionGuard": {
-      "state": "blocked",
-      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
-      "nextAllowedAt": "2026-10-11T18:30:28+00:00",
-      "blockedUntil": "2026-10-11T18:30:28+00:00",
+      "state": "ready",
+      "reason": null,
+      "nextAllowedAt": null,
+      "blockedUntil": null,
       "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
+    "pausedReason": null
   },
   "settings": {
     "category": "50000023",
@@ -11044,7 +11044,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "9ad2ad62019bb3b75237733aa2610c4d865129430c5c0f9647bccbdc393a00e8",
       "searchQuery": "울트라컷24",
       "adEvidence": {
@@ -16813,7 +16813,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-11T00:35:53+00:00",
       "lastObservedAt": "2026-10-11T17:41:15+00:00",
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "9ad2ad62019bb3b75237733aa2610c4d865129430c5c0f9647bccbdc393a00e8",
       "searchQuery": "울트라컷24",
       "adEvidence": {
