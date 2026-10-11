@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-11T08:17:51+00:00",
+  "updatedAt": "2026-10-11T08:19:51+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-11T00:35:53+00:00",
@@ -43,8 +43,8 @@
     "backlogDays": 14,
     "dailyUsed": 16,
     "dailyRemaining": 272,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-11T08:22:51+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -542,17 +542,1164 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "8f18a5b7bc20c1f7f3197cb76b01220a6e4df74d8ec86f3feb1c77a6f0091db1",
       "searchQuery": "질유산균",
       "adEvidence": {
         "query": "질유산균",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 100,
+        "adIds": [
+          "3705400636292201",
+          "1421576616593784",
+          "4063071157163888",
+          "3367128243466563",
+          "966277692612951",
+          "1825711038602346",
+          "1062022313050197",
+          "1037473972431248",
+          "2278164486312935",
+          "1449001997237960",
+          "853478491108480",
+          "1596607845587853",
+          "1089152770647793",
+          "2885628955132330",
+          "3250538308476293",
+          "1521712749762946",
+          "1093817376480901",
+          "2603875103366558",
+          "1108766208178268",
+          "1080297161195007",
+          "2148331202441245",
+          "1404826744958186",
+          "1819580795861487",
+          "1392464226252186",
+          "2666587467112267",
+          "1955975775083590",
+          "28678139101880563",
+          "1590132799445018",
+          "1107849205474884",
+          "1044728544841152",
+          "2575384072890587",
+          "1059078383403295",
+          "1056672477372911",
+          "2181748966087052",
+          "1673280524319971",
+          "1544507106877157",
+          "1399920121689963",
+          "4579425032344713",
+          "1706900564772618",
+          "1638388717428916",
+          "2940625442956144",
+          "1571238634460805",
+          "1081040991216764",
+          "978788315231532",
+          "3790723934401540",
+          "2254557548722468",
+          "1122568946868989",
+          "1754770882261300",
+          "1741749713829335",
+          "1080684641217606",
+          "4400941606787881",
+          "1108342401753111",
+          "1055799250388919",
+          "903711872589322",
+          "2187738615459939",
+          "1096408682920444",
+          "1108099138540817",
+          "1081877304739345",
+          "1600383958097099",
+          "1098914939266517",
+          "1101782049133104",
+          "2038859296826177",
+          "1073400992220265",
+          "2012146089595022",
+          "1583902496848462",
+          "1394768242762752",
+          "1407999711454058",
+          "1313362274071234",
+          "1115122367607915",
+          "1036675576070595",
+          "3970737893236170",
+          "1901661750471046",
+          "1095691752837693",
+          "2296914504399898",
+          "1411130797883450",
+          "1346001267736581",
+          "1817917046050729",
+          "1349003950107838",
+          "1078141275012865",
+          "1591475499233036",
+          "1603141291541968",
+          "1070202388354056",
+          "4728353297486777",
+          "2557193418050392",
+          "1622811579564802",
+          "1006876755745476",
+          "24436663359368386",
+          "1790500678931313",
+          "1886088472378893",
+          "1576027963952397",
+          "1332415081660370",
+          "24762566823436798",
+          "1607428054339855",
+          "903568089414784",
+          "2064158607505219",
+          "1348955300735483",
+          "1868829217432134",
+          "845149425085756",
+          "1722483172100552",
+          "847560871276334"
+        ],
+        "ads": [
+          {
+            "id": "3705400636292201",
+            "advertiser": "락토필듀오",
+            "startedAt": "2026-09-27",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:40+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1421576616593784",
+            "advertiser": "정수비",
+            "startedAt": "2026-10-07",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:40+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:40+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4063071157163888",
+            "advertiser": "모비타",
+            "startedAt": "2026-10-07",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:39+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:39+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "3367128243466563",
+            "advertiser": "leehyejin2da._.s2",
+            "startedAt": "2026-10-07",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:39+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:39+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "966277692612951",
+            "advertiser": "모비타",
+            "startedAt": "2026-10-08",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:38+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:38+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1825711038602346",
+            "advertiser": "민트",
+            "startedAt": "2026-09-21",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:38+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1062022313050197",
+            "advertiser": "웅니들의 허니템",
+            "startedAt": "2026-07-26",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:38+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1037473972431248",
+            "advertiser": "걸즈쇼핑꿀템",
+            "startedAt": "2026-09-01",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:37+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2278164486312935",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-09-30",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:36+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1449001997237960",
+            "advertiser": "모비타",
+            "startedAt": "2026-10-07",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:36+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:36+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "853478491108480",
+            "advertiser": "힘가네",
+            "startedAt": "2026-09-21",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:28+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1596607845587853",
+            "advertiser": "레뷰셀렉트",
+            "startedAt": "2026-09-01",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:27+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1089152770647793",
+            "advertiser": "올영핫템",
+            "startedAt": "2026-09-17",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:27+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2885628955132330",
+            "advertiser": "걸즈토크모음집",
+            "startedAt": "2026-08-17",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:26+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3250538308476293",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-10-10",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:25+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:25+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1521712749762946",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-09-30",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:25+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1093817376480901",
+            "advertiser": "씽블리",
+            "startedAt": "2026-09-21",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:25+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2603875103366558",
+            "advertiser": "락토필듀오",
+            "startedAt": "2026-09-27",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:24+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1108766208178268",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-10-10",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:24+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:24+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1080297161195007",
+            "advertiser": "걸즈토크모음집",
+            "startedAt": "2026-08-17",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:24+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2148331202441245",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-10-10",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:15+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:15+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1404826744958186",
+            "advertiser": "레뷰셀렉트",
+            "startedAt": "2026-09-10",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:15+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1819580795861487",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-10-10",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:14+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:14+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1392464226252186",
+            "advertiser": "뷰티블로그 리어린",
+            "startedAt": "2026-09-28",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:14+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2666587467112267",
+            "advertiser": "올영핫템",
+            "startedAt": "2026-09-17",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:13+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1955975775083590",
+            "advertiser": "락토필듀오",
+            "startedAt": "2026-09-21",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:13+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28678139101880563",
+            "advertiser": "최저가핫딜정보",
+            "startedAt": "2026-10-10",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:12+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:12+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1590132799445018",
+            "advertiser": "웅니들의 허니템",
+            "startedAt": "2026-08-23",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:12+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1107849205474884",
+            "advertiser": "올영핫템",
+            "startedAt": "2026-09-17",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:12+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1044728544841152",
+            "advertiser": "탑헬스_official",
+            "startedAt": "2026-08-21",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:11+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2575384072890587",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-09-14",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:03+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1059078383403295",
+            "advertiser": "dasom_lovely",
+            "startedAt": "2026-09-10",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:03+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1056672477372911",
+            "advertiser": "락토필듀오",
+            "startedAt": "2026-09-27",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:03+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2181748966087052",
+            "advertiser": "Innerflora",
+            "startedAt": "2026-09-22",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:02+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1673280524319971",
+            "advertiser": "Innerflora",
+            "startedAt": "2026-09-22",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:02+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1544507106877157",
+            "advertiser": "라엘코리아",
+            "startedAt": "2026-08-27",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:02+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1399920121689963",
+            "advertiser": "데일리 꿀팁",
+            "startedAt": "2026-09-27",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:02+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4579425032344713",
+            "advertiser": "마스터바이옴",
+            "startedAt": "2026-10-05",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:01+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:01+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1706900564772618",
+            "advertiser": "데일리 꿀팁",
+            "startedAt": "2026-09-22",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:01+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1638388717428916",
+            "advertiser": "웅니들의 허니템",
+            "startedAt": "2026-05-28",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:01+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2940625442956144",
+            "advertiser": "락토필듀오",
+            "startedAt": "2026-09-27",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:53+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1571238634460805",
+            "advertiser": "웅니들의 허니템",
+            "startedAt": "2026-07-27",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:53+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1081040991216764",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-09-30",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:53+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "978788315231532",
+            "advertiser": "언니올영가자",
+            "startedAt": "2026-09-17",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:52+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3790723934401540",
+            "advertiser": "락토필듀오",
+            "startedAt": "2026-09-27",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:52+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2254557548722468",
+            "advertiser": "박도전씨",
+            "startedAt": "2026-08-30",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:52+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1122568946868989",
+            "advertiser": "chaeala",
+            "startedAt": "2026-09-22",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:51+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1754770882261300",
+            "advertiser": "라엘코리아",
+            "startedAt": "2026-09-28",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:50+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1741749713829335",
+            "advertiser": "걸즈토크모음집",
+            "startedAt": "2026-08-17",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:50+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1080684641217606",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-09-30",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:50+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4400941606787881",
+            "advertiser": "Innerflora",
+            "startedAt": "2026-09-22",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:42+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1108342401753111",
+            "advertiser": "성분 읽어주는 언니",
+            "startedAt": "2026-10-07",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:42+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:42+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1055799250388919",
+            "advertiser": "박도전씨",
+            "startedAt": "2026-09-10",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:42+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "903711872589322",
+            "advertiser": "매일 실천하는 야채 루틴",
+            "startedAt": "2026-09-14",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:41+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2187738615459939",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-09-30",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:41+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1096408682920444",
+            "advertiser": "라엘코리아",
+            "startedAt": "2026-09-27",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:41+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1108099138540817",
+            "advertiser": "올영핫템",
+            "startedAt": "2026-09-17",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:40+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1081877304739345",
+            "advertiser": "Innerflora",
+            "startedAt": "2026-09-16",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:40+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1600383958097099",
+            "advertiser": "웅니들의 허니템",
+            "startedAt": "2026-08-23",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:39+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1098914939266517",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-09-14",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:39+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1101782049133104",
+            "advertiser": "라엘코리아",
+            "startedAt": "2026-09-27",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:30+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2038859296826177",
+            "advertiser": "마스터바이옴",
+            "startedAt": "2026-10-05",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:29+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:29+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1073400992220265",
+            "advertiser": "Innerflora",
+            "startedAt": "2026-09-16",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:29+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2012146089595022",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-09-28",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:28+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1583902496848462",
+            "advertiser": "Innerflora",
+            "startedAt": "2026-09-22",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:28+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1394768242762752",
+            "advertiser": "Innerflora",
+            "startedAt": "2026-09-16",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:28+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1407999711454058",
+            "advertiser": "Innerflora",
+            "startedAt": "2026-09-16",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:27+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1313362274071234",
+            "advertiser": "매일 실천하는 야채 루틴",
+            "startedAt": "2026-09-15",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:27+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1115122367607915",
+            "advertiser": "Innerflora",
+            "startedAt": "2026-09-22",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:26+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1036675576070595",
+            "advertiser": "Innerflora",
+            "startedAt": "2026-09-22",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:26+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3970737893236170",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-09-30",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:19+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1901661750471046",
+            "advertiser": "꿀템 리뷰",
+            "startedAt": "2026-06-30",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:19+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1095691752837693",
+            "advertiser": "leehyejin2da._.s2",
+            "startedAt": "2026-09-21",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:18+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2296914504399898",
+            "advertiser": "Bycla",
+            "startedAt": "2026-09-22",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:17+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1411130797883450",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-09-28",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:17+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1346001267736581",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-09-14",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:17+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1817917046050729",
+            "advertiser": "Innerflora",
+            "startedAt": "2026-09-22",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:16+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1349003950107838",
+            "advertiser": "건강뷰티",
+            "startedAt": "2025-10-13",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:16+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1078141275012865",
+            "advertiser": "라엘코리아",
+            "startedAt": "2026-09-28",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:16+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1591475499233036",
+            "advertiser": "뷰티블로그 리어린",
+            "startedAt": "2026-07-29",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:15+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1603141291541968",
+            "advertiser": "mariehwanya",
+            "startedAt": "2026-09-21",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:10+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1070202388354056",
+            "advertiser": "미미",
+            "startedAt": "2025-10-12",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:10+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4728353297486777",
+            "advertiser": "Innerflora",
+            "startedAt": "2026-09-22",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:09+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2557193418050392",
+            "advertiser": "락토필듀오",
+            "startedAt": "2026-09-27",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:09+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1622811579564802",
+            "advertiser": "매일 실천하는 야채 루틴",
+            "startedAt": "2026-09-14",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:08+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1006876755745476",
+            "advertiser": "올영핫템",
+            "startedAt": "2026-09-17",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:08+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "24436663359368386",
+            "advertiser": "메디온 medion",
+            "startedAt": "2025-10-12",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:07+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1790500678931313",
+            "advertiser": "Innerflora",
+            "startedAt": "2026-09-22",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:07+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1886088472378893",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-09-11",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:06+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1576027963952397",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:06+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1332415081660370",
+            "advertiser": "For UUU",
+            "startedAt": "2026-06-21",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:02+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "24762566823436798",
+            "advertiser": "메디온 medion",
+            "startedAt": "2025-10-13",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:01+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1607428054339855",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-09-14",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:01+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "903568089414784",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:00+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2064158607505219",
+            "advertiser": "건기남",
+            "startedAt": "2026-06-14",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:00+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1348955300735483",
+            "advertiser": "10초 꿀템 소개",
+            "startedAt": "2026-08-19",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:00+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1868829217432134",
+            "advertiser": "10초 꿀템 소개",
+            "startedAt": "2026-08-26",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:17:59+00:00",
+            "lastCollectedAt": "2026-10-11T08:17:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "845149425085756",
+            "advertiser": "꿀템 리뷰",
+            "startedAt": "2026-06-30",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:17:58+00:00",
+            "lastCollectedAt": "2026-10-11T08:17:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1722483172100552",
+            "advertiser": "꿀템 리뷰",
+            "startedAt": "2026-06-30",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:17:57+00:00",
+            "lastCollectedAt": "2026-10-11T08:17:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "847560871276334",
+            "advertiser": "메디온 medion",
+            "startedAt": "2025-10-12",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:17:56+00:00",
+            "lastCollectedAt": "2026-10-11T08:17:56+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-11T08:19:40+00:00",
+        "advertisers": [
+          {
+            "name": "뉴트리몰",
+            "adCount": 17
+          },
+          {
+            "name": "Innerflora",
+            "adCount": 13
+          },
+          {
+            "name": "락토필듀오",
+            "adCount": 7
+          },
+          {
+            "name": "라엘코리아",
+            "adCount": 5
+          },
+          {
+            "name": "올영핫템",
+            "adCount": 5
+          },
+          {
+            "name": "웅니들의 허니템",
+            "adCount": 5
+          },
+          {
+            "name": "걸즈토크모음집",
+            "adCount": 3
+          },
+          {
+            "name": "꿀템 리뷰",
+            "adCount": 3
+          },
+          {
+            "name": "매일 실천하는 야채 루틴",
+            "adCount": 3
+          },
+          {
+            "name": "메디온 medion",
+            "adCount": 3
+          },
+          {
+            "name": "모비타",
+            "adCount": 3
+          },
+          {
+            "name": "10초 꿀템 소개",
+            "adCount": 2
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 2
+          },
+          {
+            "name": "leehyejin2da._.s2",
+            "adCount": 2
+          },
+          {
+            "name": "데일리 꿀팁",
+            "adCount": 2
+          },
+          {
+            "name": "레뷰셀렉트",
+            "adCount": 2
+          },
+          {
+            "name": "마스터바이옴",
+            "adCount": 2
+          },
+          {
+            "name": "박도전씨",
+            "adCount": 2
+          },
+          {
+            "name": "뷰티블로그 리어린",
+            "adCount": 2
+          },
+          {
+            "name": "Bycla",
+            "adCount": 1
+          },
+          {
+            "name": "For UUU",
+            "adCount": 1
+          },
+          {
+            "name": "chaeala",
+            "adCount": 1
+          },
+          {
+            "name": "dasom_lovely",
+            "adCount": 1
+          },
+          {
+            "name": "mariehwanya",
+            "adCount": 1
+          },
+          {
+            "name": "정수비",
+            "adCount": 1
+          },
+          {
+            "name": "건강뷰티",
+            "adCount": 1
+          },
+          {
+            "name": "건기남",
+            "adCount": 1
+          },
+          {
+            "name": "걸즈쇼핑꿀템",
+            "adCount": 1
+          },
+          {
+            "name": "미미",
+            "adCount": 1
+          },
+          {
+            "name": "민트",
+            "adCount": 1
+          },
+          {
+            "name": "성분 읽어주는 언니",
+            "adCount": 1
+          },
+          {
+            "name": "씽블리",
+            "adCount": 1
+          },
+          {
+            "name": "언니올영가자",
+            "adCount": 1
+          },
+          {
+            "name": "최저가핫딜정보",
+            "adCount": 1
+          },
+          {
+            "name": "탑헬스_official",
+            "adCount": 1
+          },
+          {
+            "name": "힘가네",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -13079,17 +14226,1164 @@
       "rankWindow": 100,
       "observedAt": "2026-10-11T00:35:21+00:00",
       "lastObservedAt": "2026-10-11T00:35:21+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "8f18a5b7bc20c1f7f3197cb76b01220a6e4df74d8ec86f3feb1c77a6f0091db1",
       "searchQuery": "질유산균",
       "adEvidence": {
         "query": "질유산균",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 100,
+        "adIds": [
+          "3705400636292201",
+          "1421576616593784",
+          "4063071157163888",
+          "3367128243466563",
+          "966277692612951",
+          "1825711038602346",
+          "1062022313050197",
+          "1037473972431248",
+          "2278164486312935",
+          "1449001997237960",
+          "853478491108480",
+          "1596607845587853",
+          "1089152770647793",
+          "2885628955132330",
+          "3250538308476293",
+          "1521712749762946",
+          "1093817376480901",
+          "2603875103366558",
+          "1108766208178268",
+          "1080297161195007",
+          "2148331202441245",
+          "1404826744958186",
+          "1819580795861487",
+          "1392464226252186",
+          "2666587467112267",
+          "1955975775083590",
+          "28678139101880563",
+          "1590132799445018",
+          "1107849205474884",
+          "1044728544841152",
+          "2575384072890587",
+          "1059078383403295",
+          "1056672477372911",
+          "2181748966087052",
+          "1673280524319971",
+          "1544507106877157",
+          "1399920121689963",
+          "4579425032344713",
+          "1706900564772618",
+          "1638388717428916",
+          "2940625442956144",
+          "1571238634460805",
+          "1081040991216764",
+          "978788315231532",
+          "3790723934401540",
+          "2254557548722468",
+          "1122568946868989",
+          "1754770882261300",
+          "1741749713829335",
+          "1080684641217606",
+          "4400941606787881",
+          "1108342401753111",
+          "1055799250388919",
+          "903711872589322",
+          "2187738615459939",
+          "1096408682920444",
+          "1108099138540817",
+          "1081877304739345",
+          "1600383958097099",
+          "1098914939266517",
+          "1101782049133104",
+          "2038859296826177",
+          "1073400992220265",
+          "2012146089595022",
+          "1583902496848462",
+          "1394768242762752",
+          "1407999711454058",
+          "1313362274071234",
+          "1115122367607915",
+          "1036675576070595",
+          "3970737893236170",
+          "1901661750471046",
+          "1095691752837693",
+          "2296914504399898",
+          "1411130797883450",
+          "1346001267736581",
+          "1817917046050729",
+          "1349003950107838",
+          "1078141275012865",
+          "1591475499233036",
+          "1603141291541968",
+          "1070202388354056",
+          "4728353297486777",
+          "2557193418050392",
+          "1622811579564802",
+          "1006876755745476",
+          "24436663359368386",
+          "1790500678931313",
+          "1886088472378893",
+          "1576027963952397",
+          "1332415081660370",
+          "24762566823436798",
+          "1607428054339855",
+          "903568089414784",
+          "2064158607505219",
+          "1348955300735483",
+          "1868829217432134",
+          "845149425085756",
+          "1722483172100552",
+          "847560871276334"
+        ],
+        "ads": [
+          {
+            "id": "3705400636292201",
+            "advertiser": "락토필듀오",
+            "startedAt": "2026-09-27",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:40+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1421576616593784",
+            "advertiser": "정수비",
+            "startedAt": "2026-10-07",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:40+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:40+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4063071157163888",
+            "advertiser": "모비타",
+            "startedAt": "2026-10-07",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:39+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:39+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "3367128243466563",
+            "advertiser": "leehyejin2da._.s2",
+            "startedAt": "2026-10-07",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:39+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:39+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "966277692612951",
+            "advertiser": "모비타",
+            "startedAt": "2026-10-08",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:38+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:38+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1825711038602346",
+            "advertiser": "민트",
+            "startedAt": "2026-09-21",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:38+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1062022313050197",
+            "advertiser": "웅니들의 허니템",
+            "startedAt": "2026-07-26",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:38+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1037473972431248",
+            "advertiser": "걸즈쇼핑꿀템",
+            "startedAt": "2026-09-01",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:37+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2278164486312935",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-09-30",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:36+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1449001997237960",
+            "advertiser": "모비타",
+            "startedAt": "2026-10-07",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:36+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:36+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "853478491108480",
+            "advertiser": "힘가네",
+            "startedAt": "2026-09-21",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:28+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1596607845587853",
+            "advertiser": "레뷰셀렉트",
+            "startedAt": "2026-09-01",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:27+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1089152770647793",
+            "advertiser": "올영핫템",
+            "startedAt": "2026-09-17",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:27+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2885628955132330",
+            "advertiser": "걸즈토크모음집",
+            "startedAt": "2026-08-17",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:26+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3250538308476293",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-10-10",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:25+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:25+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1521712749762946",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-09-30",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:25+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1093817376480901",
+            "advertiser": "씽블리",
+            "startedAt": "2026-09-21",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:25+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2603875103366558",
+            "advertiser": "락토필듀오",
+            "startedAt": "2026-09-27",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:24+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1108766208178268",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-10-10",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:24+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:24+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1080297161195007",
+            "advertiser": "걸즈토크모음집",
+            "startedAt": "2026-08-17",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:24+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2148331202441245",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-10-10",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:15+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:15+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1404826744958186",
+            "advertiser": "레뷰셀렉트",
+            "startedAt": "2026-09-10",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:15+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1819580795861487",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-10-10",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:14+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:14+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1392464226252186",
+            "advertiser": "뷰티블로그 리어린",
+            "startedAt": "2026-09-28",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:14+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2666587467112267",
+            "advertiser": "올영핫템",
+            "startedAt": "2026-09-17",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:13+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1955975775083590",
+            "advertiser": "락토필듀오",
+            "startedAt": "2026-09-21",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:13+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28678139101880563",
+            "advertiser": "최저가핫딜정보",
+            "startedAt": "2026-10-10",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:12+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:12+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1590132799445018",
+            "advertiser": "웅니들의 허니템",
+            "startedAt": "2026-08-23",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:12+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1107849205474884",
+            "advertiser": "올영핫템",
+            "startedAt": "2026-09-17",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:12+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1044728544841152",
+            "advertiser": "탑헬스_official",
+            "startedAt": "2026-08-21",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:11+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2575384072890587",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-09-14",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:03+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1059078383403295",
+            "advertiser": "dasom_lovely",
+            "startedAt": "2026-09-10",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:03+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1056672477372911",
+            "advertiser": "락토필듀오",
+            "startedAt": "2026-09-27",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:03+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2181748966087052",
+            "advertiser": "Innerflora",
+            "startedAt": "2026-09-22",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:02+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1673280524319971",
+            "advertiser": "Innerflora",
+            "startedAt": "2026-09-22",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:02+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1544507106877157",
+            "advertiser": "라엘코리아",
+            "startedAt": "2026-08-27",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:02+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1399920121689963",
+            "advertiser": "데일리 꿀팁",
+            "startedAt": "2026-09-27",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:02+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4579425032344713",
+            "advertiser": "마스터바이옴",
+            "startedAt": "2026-10-05",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:01+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:01+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1706900564772618",
+            "advertiser": "데일리 꿀팁",
+            "startedAt": "2026-09-22",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:01+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1638388717428916",
+            "advertiser": "웅니들의 허니템",
+            "startedAt": "2026-05-28",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:19:01+00:00",
+            "lastCollectedAt": "2026-10-11T08:19:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2940625442956144",
+            "advertiser": "락토필듀오",
+            "startedAt": "2026-09-27",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:53+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1571238634460805",
+            "advertiser": "웅니들의 허니템",
+            "startedAt": "2026-07-27",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:53+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1081040991216764",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-09-30",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:53+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "978788315231532",
+            "advertiser": "언니올영가자",
+            "startedAt": "2026-09-17",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:52+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3790723934401540",
+            "advertiser": "락토필듀오",
+            "startedAt": "2026-09-27",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:52+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2254557548722468",
+            "advertiser": "박도전씨",
+            "startedAt": "2026-08-30",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:52+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1122568946868989",
+            "advertiser": "chaeala",
+            "startedAt": "2026-09-22",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:51+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1754770882261300",
+            "advertiser": "라엘코리아",
+            "startedAt": "2026-09-28",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:50+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1741749713829335",
+            "advertiser": "걸즈토크모음집",
+            "startedAt": "2026-08-17",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:50+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1080684641217606",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-09-30",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:50+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4400941606787881",
+            "advertiser": "Innerflora",
+            "startedAt": "2026-09-22",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:42+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1108342401753111",
+            "advertiser": "성분 읽어주는 언니",
+            "startedAt": "2026-10-07",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:42+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:42+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1055799250388919",
+            "advertiser": "박도전씨",
+            "startedAt": "2026-09-10",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:42+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "903711872589322",
+            "advertiser": "매일 실천하는 야채 루틴",
+            "startedAt": "2026-09-14",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:41+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2187738615459939",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-09-30",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:41+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1096408682920444",
+            "advertiser": "라엘코리아",
+            "startedAt": "2026-09-27",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:41+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1108099138540817",
+            "advertiser": "올영핫템",
+            "startedAt": "2026-09-17",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:40+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1081877304739345",
+            "advertiser": "Innerflora",
+            "startedAt": "2026-09-16",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:40+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1600383958097099",
+            "advertiser": "웅니들의 허니템",
+            "startedAt": "2026-08-23",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:39+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1098914939266517",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-09-14",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:39+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1101782049133104",
+            "advertiser": "라엘코리아",
+            "startedAt": "2026-09-27",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:30+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2038859296826177",
+            "advertiser": "마스터바이옴",
+            "startedAt": "2026-10-05",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:29+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:29+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1073400992220265",
+            "advertiser": "Innerflora",
+            "startedAt": "2026-09-16",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:29+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2012146089595022",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-09-28",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:28+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1583902496848462",
+            "advertiser": "Innerflora",
+            "startedAt": "2026-09-22",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:28+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1394768242762752",
+            "advertiser": "Innerflora",
+            "startedAt": "2026-09-16",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:28+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1407999711454058",
+            "advertiser": "Innerflora",
+            "startedAt": "2026-09-16",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:27+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1313362274071234",
+            "advertiser": "매일 실천하는 야채 루틴",
+            "startedAt": "2026-09-15",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:27+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1115122367607915",
+            "advertiser": "Innerflora",
+            "startedAt": "2026-09-22",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:26+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1036675576070595",
+            "advertiser": "Innerflora",
+            "startedAt": "2026-09-22",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:26+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3970737893236170",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-09-30",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:19+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1901661750471046",
+            "advertiser": "꿀템 리뷰",
+            "startedAt": "2026-06-30",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:19+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1095691752837693",
+            "advertiser": "leehyejin2da._.s2",
+            "startedAt": "2026-09-21",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:18+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2296914504399898",
+            "advertiser": "Bycla",
+            "startedAt": "2026-09-22",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:17+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1411130797883450",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-09-28",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:17+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1346001267736581",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-09-14",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:17+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1817917046050729",
+            "advertiser": "Innerflora",
+            "startedAt": "2026-09-22",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:16+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1349003950107838",
+            "advertiser": "건강뷰티",
+            "startedAt": "2025-10-13",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:16+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1078141275012865",
+            "advertiser": "라엘코리아",
+            "startedAt": "2026-09-28",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:16+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1591475499233036",
+            "advertiser": "뷰티블로그 리어린",
+            "startedAt": "2026-07-29",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:15+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1603141291541968",
+            "advertiser": "mariehwanya",
+            "startedAt": "2026-09-21",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:10+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1070202388354056",
+            "advertiser": "미미",
+            "startedAt": "2025-10-12",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:10+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4728353297486777",
+            "advertiser": "Innerflora",
+            "startedAt": "2026-09-22",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:09+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2557193418050392",
+            "advertiser": "락토필듀오",
+            "startedAt": "2026-09-27",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:09+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1622811579564802",
+            "advertiser": "매일 실천하는 야채 루틴",
+            "startedAt": "2026-09-14",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:08+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1006876755745476",
+            "advertiser": "올영핫템",
+            "startedAt": "2026-09-17",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:08+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "24436663359368386",
+            "advertiser": "메디온 medion",
+            "startedAt": "2025-10-12",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:07+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1790500678931313",
+            "advertiser": "Innerflora",
+            "startedAt": "2026-09-22",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:07+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1886088472378893",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-09-11",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:06+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1576027963952397",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:06+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1332415081660370",
+            "advertiser": "For UUU",
+            "startedAt": "2026-06-21",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:02+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "24762566823436798",
+            "advertiser": "메디온 medion",
+            "startedAt": "2025-10-13",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:01+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1607428054339855",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-09-14",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:01+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "903568089414784",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:00+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2064158607505219",
+            "advertiser": "건기남",
+            "startedAt": "2026-06-14",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:00+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1348955300735483",
+            "advertiser": "10초 꿀템 소개",
+            "startedAt": "2026-08-19",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:18:00+00:00",
+            "lastCollectedAt": "2026-10-11T08:18:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1868829217432134",
+            "advertiser": "10초 꿀템 소개",
+            "startedAt": "2026-08-26",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:17:59+00:00",
+            "lastCollectedAt": "2026-10-11T08:17:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "845149425085756",
+            "advertiser": "꿀템 리뷰",
+            "startedAt": "2026-06-30",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:17:58+00:00",
+            "lastCollectedAt": "2026-10-11T08:17:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1722483172100552",
+            "advertiser": "꿀템 리뷰",
+            "startedAt": "2026-06-30",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:17:57+00:00",
+            "lastCollectedAt": "2026-10-11T08:17:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "847560871276334",
+            "advertiser": "메디온 medion",
+            "startedAt": "2025-10-12",
+            "query": "질유산균",
+            "firstCollectedAt": "2026-10-11T08:17:56+00:00",
+            "lastCollectedAt": "2026-10-11T08:17:56+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-11T08:19:40+00:00",
+        "advertisers": [
+          {
+            "name": "뉴트리몰",
+            "adCount": 17
+          },
+          {
+            "name": "Innerflora",
+            "adCount": 13
+          },
+          {
+            "name": "락토필듀오",
+            "adCount": 7
+          },
+          {
+            "name": "라엘코리아",
+            "adCount": 5
+          },
+          {
+            "name": "올영핫템",
+            "adCount": 5
+          },
+          {
+            "name": "웅니들의 허니템",
+            "adCount": 5
+          },
+          {
+            "name": "걸즈토크모음집",
+            "adCount": 3
+          },
+          {
+            "name": "꿀템 리뷰",
+            "adCount": 3
+          },
+          {
+            "name": "매일 실천하는 야채 루틴",
+            "adCount": 3
+          },
+          {
+            "name": "메디온 medion",
+            "adCount": 3
+          },
+          {
+            "name": "모비타",
+            "adCount": 3
+          },
+          {
+            "name": "10초 꿀템 소개",
+            "adCount": 2
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 2
+          },
+          {
+            "name": "leehyejin2da._.s2",
+            "adCount": 2
+          },
+          {
+            "name": "데일리 꿀팁",
+            "adCount": 2
+          },
+          {
+            "name": "레뷰셀렉트",
+            "adCount": 2
+          },
+          {
+            "name": "마스터바이옴",
+            "adCount": 2
+          },
+          {
+            "name": "박도전씨",
+            "adCount": 2
+          },
+          {
+            "name": "뷰티블로그 리어린",
+            "adCount": 2
+          },
+          {
+            "name": "Bycla",
+            "adCount": 1
+          },
+          {
+            "name": "For UUU",
+            "adCount": 1
+          },
+          {
+            "name": "chaeala",
+            "adCount": 1
+          },
+          {
+            "name": "dasom_lovely",
+            "adCount": 1
+          },
+          {
+            "name": "mariehwanya",
+            "adCount": 1
+          },
+          {
+            "name": "정수비",
+            "adCount": 1
+          },
+          {
+            "name": "건강뷰티",
+            "adCount": 1
+          },
+          {
+            "name": "건기남",
+            "adCount": 1
+          },
+          {
+            "name": "걸즈쇼핑꿀템",
+            "adCount": 1
+          },
+          {
+            "name": "미미",
+            "adCount": 1
+          },
+          {
+            "name": "민트",
+            "adCount": 1
+          },
+          {
+            "name": "성분 읽어주는 언니",
+            "adCount": 1
+          },
+          {
+            "name": "씽블리",
+            "adCount": 1
+          },
+          {
+            "name": "언니올영가자",
+            "adCount": 1
+          },
+          {
+            "name": "최저가핫딜정보",
+            "adCount": 1
+          },
+          {
+            "name": "탑헬스_official",
+            "adCount": 1
+          },
+          {
+            "name": "힘가네",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
