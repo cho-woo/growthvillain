@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-11T16:21:37+00:00",
+  "updatedAt": "2026-10-11T16:24:26+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-11T15:38:15+00:00",
@@ -43,20 +43,20 @@
     "backlogDays": 14,
     "dailyUsed": 2,
     "dailyRemaining": 286,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-11T17:24:26+00:00",
     "metaAutoEnabled": true,
-    "enabled": true,
+    "enabled": false,
     "collectionGuard": {
-      "state": "ready",
-      "reason": null,
-      "nextAllowedAt": null,
-      "blockedUntil": null,
-      "blockStreak": 0,
+      "state": "blocked",
+      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
+      "nextAllowedAt": "2026-10-11T17:24:26+00:00",
+      "blockedUntil": "2026-10-11T17:24:26+00:00",
+      "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": null
+    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
   },
   "settings": {
     "category": "50000023",
@@ -4232,7 +4232,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "failed",
       "keywordId": "a33445ed53dfd0d017e06b28260c81930d5bc1168d1fe2413d32be8644302d2b",
       "searchQuery": "뼈엔엠비피mbp",
       "adEvidence": {
@@ -7958,7 +7958,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "cooldown",
+      "state": "backlog",
       "keywordId": "304fbb1a972d232d3079f5c8862038074b61f170350280a83fec688f71fcf4f1",
       "searchQuery": "프로폴리스",
       "adEvidence": {
@@ -20928,7 +20928,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-11T00:35:21+00:00",
       "lastObservedAt": "2026-10-11T15:37:31+00:00",
-      "state": "queued",
+      "state": "failed",
       "keywordId": "a33445ed53dfd0d017e06b28260c81930d5bc1168d1fe2413d32be8644302d2b",
       "searchQuery": "뼈엔엠비피mbp",
       "adEvidence": {
@@ -24584,7 +24584,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-11T00:35:21+00:00",
       "lastObservedAt": "2026-10-11T15:37:31+00:00",
-      "state": "cooldown",
+      "state": "backlog",
       "keywordId": "304fbb1a972d232d3079f5c8862038074b61f170350280a83fec688f71fcf4f1",
       "searchQuery": "프로폴리스",
       "adEvidence": {
