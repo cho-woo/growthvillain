@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-11T13:39:31+00:00",
+  "updatedAt": "2026-10-11T13:44:42+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-11T00:35:53+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 28,
-    "dailyRemaining": 260,
+    "dailyUsed": 29,
+    "dailyRemaining": 259,
     "pending": 0,
-    "nextDispatchAt": "2026-10-11T13:44:00+00:00",
+    "nextDispatchAt": "2026-10-11T13:49:03+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -9190,17 +9190,168 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "done",
       "keywordId": "bf431df1505cea75ed66bce40af40888bfc19069515fe286a6bcecebc76bd9b0",
       "searchQuery": "비에날17유산균",
       "adEvidence": {
         "query": "비에날17유산균",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 14,
+        "adIds": [
+          "1293634542840374",
+          "956606697358480",
+          "1346565384322956",
+          "1419018553440720",
+          "27755263657506806",
+          "961811489803116",
+          "917762724414972",
+          "847270601141800",
+          "2830197403996197",
+          "1115839444310184",
+          "1512832129944239",
+          "1392402499576525",
+          "1341602097791026",
+          "1004251078710599"
+        ],
+        "ads": [
+          {
+            "id": "1293634542840374",
+            "advertiser": "디디양마켓",
+            "startedAt": "2026-10-09",
+            "query": "비에날17유산균",
+            "firstCollectedAt": "2026-10-11T13:44:21+00:00",
+            "lastCollectedAt": "2026-10-11T13:44:21+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "956606697358480",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-05-08",
+            "query": "비에날17유산균",
+            "firstCollectedAt": "2026-10-11T13:44:20+00:00",
+            "lastCollectedAt": "2026-10-11T13:44:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1346565384322956",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-08-17",
+            "query": "비에날17유산균",
+            "firstCollectedAt": "2026-10-11T13:44:20+00:00",
+            "lastCollectedAt": "2026-10-11T13:44:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1419018553440720",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-08-07",
+            "query": "비에날17유산균",
+            "firstCollectedAt": "2026-10-11T13:44:19+00:00",
+            "lastCollectedAt": "2026-10-11T13:44:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27755263657506806",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-09-02",
+            "query": "비에날17유산균",
+            "firstCollectedAt": "2026-10-11T13:44:09+00:00",
+            "lastCollectedAt": "2026-10-11T13:44:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "961811489803116",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-05-11",
+            "query": "비에날17유산균",
+            "firstCollectedAt": "2026-10-11T13:44:08+00:00",
+            "lastCollectedAt": "2026-10-11T13:44:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "917762724414972",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-04-28",
+            "query": "비에날17유산균",
+            "firstCollectedAt": "2026-10-11T13:44:08+00:00",
+            "lastCollectedAt": "2026-10-11T13:44:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "847270601141800",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-05-08",
+            "query": "비에날17유산균",
+            "firstCollectedAt": "2026-10-11T13:44:08+00:00",
+            "lastCollectedAt": "2026-10-11T13:44:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2830197403996197",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-04-26",
+            "query": "비에날17유산균",
+            "firstCollectedAt": "2026-10-11T13:44:08+00:00",
+            "lastCollectedAt": "2026-10-11T13:44:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1115839444310184",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-09-02",
+            "query": "비에날17유산균",
+            "firstCollectedAt": "2026-10-11T13:44:08+00:00",
+            "lastCollectedAt": "2026-10-11T13:44:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1512832129944239",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2025-11-24",
+            "query": "비에날17유산균",
+            "firstCollectedAt": "2026-10-11T13:44:07+00:00",
+            "lastCollectedAt": "2026-10-11T13:44:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1392402499576525",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-04-26",
+            "query": "비에날17유산균",
+            "firstCollectedAt": "2026-10-11T13:44:07+00:00",
+            "lastCollectedAt": "2026-10-11T13:44:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1341602097791026",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-04-21",
+            "query": "비에날17유산균",
+            "firstCollectedAt": "2026-10-11T13:44:07+00:00",
+            "lastCollectedAt": "2026-10-11T13:44:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1004251078710599",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-05-14",
+            "query": "비에날17유산균",
+            "firstCollectedAt": "2026-10-11T13:44:07+00:00",
+            "lastCollectedAt": "2026-10-11T13:44:07+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-11T13:44:21+00:00",
+        "advertisers": [
+          {
+            "name": "BNR17 비에날씬 BNRThin",
+            "adCount": 13
+          },
+          {
+            "name": "디디양마켓",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -9367,7 +9518,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "cooldown",
+      "state": "ready",
       "keywordId": "9ad2ad62019bb3b75237733aa2610c4d865129430c5c0f9647bccbdc393a00e8",
       "searchQuery": "울트라컷24",
       "adEvidence": {
@@ -15109,7 +15260,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-11T00:35:53+00:00",
       "lastObservedAt": "2026-10-11T00:35:53+00:00",
-      "state": "cooldown",
+      "state": "ready",
       "keywordId": "9ad2ad62019bb3b75237733aa2610c4d865129430c5c0f9647bccbdc393a00e8",
       "searchQuery": "울트라컷24",
       "adEvidence": {
@@ -19418,17 +19569,168 @@
       "rankWindow": 100,
       "observedAt": "2026-10-11T00:35:21+00:00",
       "lastObservedAt": "2026-10-11T00:35:21+00:00",
-      "state": "ready",
+      "state": "done",
       "keywordId": "bf431df1505cea75ed66bce40af40888bfc19069515fe286a6bcecebc76bd9b0",
       "searchQuery": "비에날17유산균",
       "adEvidence": {
         "query": "비에날17유산균",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 14,
+        "adIds": [
+          "1293634542840374",
+          "956606697358480",
+          "1346565384322956",
+          "1419018553440720",
+          "27755263657506806",
+          "961811489803116",
+          "917762724414972",
+          "847270601141800",
+          "2830197403996197",
+          "1115839444310184",
+          "1512832129944239",
+          "1392402499576525",
+          "1341602097791026",
+          "1004251078710599"
+        ],
+        "ads": [
+          {
+            "id": "1293634542840374",
+            "advertiser": "디디양마켓",
+            "startedAt": "2026-10-09",
+            "query": "비에날17유산균",
+            "firstCollectedAt": "2026-10-11T13:44:21+00:00",
+            "lastCollectedAt": "2026-10-11T13:44:21+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "956606697358480",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-05-08",
+            "query": "비에날17유산균",
+            "firstCollectedAt": "2026-10-11T13:44:20+00:00",
+            "lastCollectedAt": "2026-10-11T13:44:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1346565384322956",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-08-17",
+            "query": "비에날17유산균",
+            "firstCollectedAt": "2026-10-11T13:44:20+00:00",
+            "lastCollectedAt": "2026-10-11T13:44:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1419018553440720",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-08-07",
+            "query": "비에날17유산균",
+            "firstCollectedAt": "2026-10-11T13:44:19+00:00",
+            "lastCollectedAt": "2026-10-11T13:44:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27755263657506806",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-09-02",
+            "query": "비에날17유산균",
+            "firstCollectedAt": "2026-10-11T13:44:09+00:00",
+            "lastCollectedAt": "2026-10-11T13:44:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "961811489803116",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-05-11",
+            "query": "비에날17유산균",
+            "firstCollectedAt": "2026-10-11T13:44:08+00:00",
+            "lastCollectedAt": "2026-10-11T13:44:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "917762724414972",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-04-28",
+            "query": "비에날17유산균",
+            "firstCollectedAt": "2026-10-11T13:44:08+00:00",
+            "lastCollectedAt": "2026-10-11T13:44:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "847270601141800",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-05-08",
+            "query": "비에날17유산균",
+            "firstCollectedAt": "2026-10-11T13:44:08+00:00",
+            "lastCollectedAt": "2026-10-11T13:44:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2830197403996197",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-04-26",
+            "query": "비에날17유산균",
+            "firstCollectedAt": "2026-10-11T13:44:08+00:00",
+            "lastCollectedAt": "2026-10-11T13:44:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1115839444310184",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-09-02",
+            "query": "비에날17유산균",
+            "firstCollectedAt": "2026-10-11T13:44:08+00:00",
+            "lastCollectedAt": "2026-10-11T13:44:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1512832129944239",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2025-11-24",
+            "query": "비에날17유산균",
+            "firstCollectedAt": "2026-10-11T13:44:07+00:00",
+            "lastCollectedAt": "2026-10-11T13:44:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1392402499576525",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-04-26",
+            "query": "비에날17유산균",
+            "firstCollectedAt": "2026-10-11T13:44:07+00:00",
+            "lastCollectedAt": "2026-10-11T13:44:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1341602097791026",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-04-21",
+            "query": "비에날17유산균",
+            "firstCollectedAt": "2026-10-11T13:44:07+00:00",
+            "lastCollectedAt": "2026-10-11T13:44:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1004251078710599",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-05-14",
+            "query": "비에날17유산균",
+            "firstCollectedAt": "2026-10-11T13:44:07+00:00",
+            "lastCollectedAt": "2026-10-11T13:44:07+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-11T13:44:21+00:00",
+        "advertisers": [
+          {
+            "name": "BNR17 비에날씬 BNRThin",
+            "adCount": 13
+          },
+          {
+            "name": "디디양마켓",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
