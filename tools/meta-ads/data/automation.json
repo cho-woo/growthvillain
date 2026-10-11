@@ -1,6 +1,6 @@
 {
   "mode": "snapshot",
-  "updatedAt": "2026-10-11T05:46:26+00:00",
+  "updatedAt": "2026-10-11T05:47:49+00:00",
   "automations": [
     {
       "id": "meta-ads",
@@ -111,11 +111,11 @@
       "name": "티스토리 주식",
       "enabled": true,
       "running": false,
-      "state": "offline",
-      "nextRunAt": null,
+      "state": "waiting",
+      "nextRunAt": "2026-10-12T13:42:00+09:00",
       "lastSuccessAt": null,
       "lastAttemptAt": null,
-      "message": "스케줄러 연결 파일이 필요합니다.",
+      "message": "평일 예약 시각 대기 · AI 호출 없음",
       "intervalSeconds": 900,
       "statusCheckIntervalSeconds": null,
       "statusCheckBatchSize": null,
@@ -141,8 +141,8 @@
   ],
   "publication": {
     "state": "synced",
-    "lastAttemptAt": "2026-10-11T05:39:32+00:00",
-    "lastSuccessAt": "2026-10-11T05:39:36+00:00",
+    "lastAttemptAt": "2026-10-11T05:46:26+00:00",
+    "lastSuccessAt": "2026-10-11T05:46:31+00:00",
     "error": null,
     "enabled": true
   }
