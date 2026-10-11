@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-11T21:00:29+00:00",
+  "updatedAt": "2026-10-11T21:04:58+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-11T20:45:51+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 9,
-    "dailyRemaining": 279,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-11T21:04:56+00:00",
+    "dailyUsed": 10,
+    "dailyRemaining": 278,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -4264,7 +4264,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "9dbfa34f6897fba10ad761c65ee65ad9f2e2690ba93c2150b04e76403dcadcd8",
       "searchQuery": "인삼",
       "adEvidence": {
@@ -23388,7 +23388,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-11T00:35:21+00:00",
       "lastObservedAt": "2026-10-11T20:45:07+00:00",
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "9dbfa34f6897fba10ad761c65ee65ad9f2e2690ba93c2150b04e76403dcadcd8",
       "searchQuery": "인삼",
       "adEvidence": {
