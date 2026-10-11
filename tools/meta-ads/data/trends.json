@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-11T22:37:41+00:00",
+  "updatedAt": "2026-10-11T22:42:44+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-11T21:47:20+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 14,
-    "dailyRemaining": 274,
+    "dailyUsed": 15,
+    "dailyRemaining": 273,
     "pending": 0,
-    "nextDispatchAt": "2026-10-11T22:41:34+00:00",
+    "nextDispatchAt": "2026-10-11T22:46:38+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -85,7 +85,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "done",
       "keywordId": "95b07679ff469e159048159bdecd1808ddf7cc2c5fa7a45e56a4aafc2041662e",
       "searchQuery": "삼백초",
       "adEvidence": {
@@ -94,17 +94,17 @@
         "adCount": 35,
         "adIds": [
           "1639744197522514",
-          "1458355716175991",
           "3761840077291076",
           "994985353611171",
+          "2255626091901176",
           "1420746363245718",
+          "1418303740259373",
           "1041306355391539",
           "976028491493230",
-          "2255626091901176",
-          "1418303740259373",
+          "2121110975401403",
+          "1458355716175991",
           "1097669586084701",
           "2136633077245419",
-          "2121110975401403",
           "1142039228253983",
           "2616182375462647",
           "2059377648054267",
@@ -115,11 +115,11 @@
           "869337822836136",
           "1852745819224819",
           "1078853048377602",
-          "3134691266862153",
           "28065311763140822",
+          "3134691266862153",
           "1612124547046823",
-          "1296790732489100",
           "2228267734736946",
+          "1296790732489100",
           "2526792637820227",
           "1689080752336003",
           "2591434501297249",
@@ -136,17 +136,8 @@
             "startedAt": "2026-10-02",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-10T13:26:38+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:38+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:21+00:00",
             "startTiming": "before-window"
-          },
-          {
-            "id": "1458355716175991",
-            "advertiser": "더 한방울",
-            "startedAt": "2026-10-09",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-10T13:26:38+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:38+00:00",
-            "startTiming": "during-window"
           },
           {
             "id": "3761840077291076",
@@ -154,7 +145,7 @@
             "startedAt": "2026-08-19",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-10T13:26:26+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:26+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:20+00:00",
             "startTiming": "before-window"
           },
           {
@@ -163,7 +154,16 @@
             "startedAt": "2026-10-02",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-10T13:26:24+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:24+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2255626091901176",
+            "advertiser": "ヱસુન",
+            "startedAt": "2026-08-11",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:23+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:07+00:00",
             "startTiming": "before-window"
           },
           {
@@ -172,34 +172,7 @@
             "startedAt": "2026-08-11",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-10T13:26:24+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:24+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1041306355391539",
-            "advertiser": "ヱસુન",
-            "startedAt": "2026-08-11",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-10T13:26:24+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:24+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "976028491493230",
-            "advertiser": "디어랩스",
-            "startedAt": "2026-10-07",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-10T13:26:23+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:23+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "2255626091901176",
-            "advertiser": "ヱસુન",
-            "startedAt": "2026-08-11",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-10T13:26:23+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:23+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:07+00:00",
             "startTiming": "before-window"
           },
           {
@@ -208,25 +181,25 @@
             "startedAt": "2026-09-25",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-10T13:26:23+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:23+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:07+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1097669586084701",
-            "advertiser": "헬스인사이트",
-            "startedAt": "2026-09-30",
+            "id": "1041306355391539",
+            "advertiser": "ヱસુન",
+            "startedAt": "2026-08-11",
             "query": "삼백초",
-            "firstCollectedAt": "2026-10-10T13:26:22+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:22+00:00",
+            "firstCollectedAt": "2026-10-10T13:26:24+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:07+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "2136633077245419",
-            "advertiser": "요즘엄마의 육아팁",
-            "startedAt": "2026-10-05",
+            "id": "976028491493230",
+            "advertiser": "디어랩스",
+            "startedAt": "2026-10-07",
             "query": "삼백초",
-            "firstCollectedAt": "2026-10-10T13:26:21+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:21+00:00",
+            "firstCollectedAt": "2026-10-10T13:26:23+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:06+00:00",
             "startTiming": "during-window"
           },
           {
@@ -235,8 +208,35 @@
             "startedAt": "2026-08-11",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-10T13:26:21+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:21+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:06+00:00",
             "startTiming": "before-window"
+          },
+          {
+            "id": "1458355716175991",
+            "advertiser": "더 한방울",
+            "startedAt": "2026-10-09",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:38+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:06+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1097669586084701",
+            "advertiser": "헬스인사이트",
+            "startedAt": "2026-09-30",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:22+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2136633077245419",
+            "advertiser": "요즘엄마의 육아팁",
+            "startedAt": "2026-10-05",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:21+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:04+00:00",
+            "startTiming": "during-window"
           },
           {
             "id": "1142039228253983",
@@ -244,7 +244,7 @@
             "startedAt": "2026-10-04",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-10T13:26:14+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:14+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:58+00:00",
             "startTiming": "during-window"
           },
           {
@@ -253,7 +253,7 @@
             "startedAt": "2026-09-30",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-10T13:26:13+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:13+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:57+00:00",
             "startTiming": "before-window"
           },
           {
@@ -262,7 +262,7 @@
             "startedAt": "2026-08-20",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:09:00+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:13+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:57+00:00",
             "startTiming": "before-window"
           },
           {
@@ -271,7 +271,7 @@
             "startedAt": "2026-09-27",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:09:02+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:12+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:56+00:00",
             "startTiming": "before-window"
           },
           {
@@ -280,7 +280,7 @@
             "startedAt": "2026-10-02",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:09:00+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:12+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:56+00:00",
             "startTiming": "before-window"
           },
           {
@@ -289,7 +289,7 @@
             "startedAt": "2026-09-27",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:09:00+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:11+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:55+00:00",
             "startTiming": "before-window"
           },
           {
@@ -298,7 +298,7 @@
             "startedAt": "2026-10-02",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:09:01+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:11+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:55+00:00",
             "startTiming": "before-window"
           },
           {
@@ -307,7 +307,7 @@
             "startedAt": "2026-10-01",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:09:01+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:10+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:54+00:00",
             "startTiming": "before-window"
           },
           {
@@ -316,7 +316,7 @@
             "startedAt": "2026-10-02",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:09:01+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:10+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:54+00:00",
             "startTiming": "before-window"
           },
           {
@@ -325,16 +325,7 @@
             "startedAt": "2026-09-27",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:08:53+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:10+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "3134691266862153",
-            "advertiser": "Dmall-동아제약 디몰",
-            "startedAt": "2026-10-01",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:08:59+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:05+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:54+00:00",
             "startTiming": "before-window"
           },
           {
@@ -343,7 +334,16 @@
             "startedAt": "2026-09-22",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:08:53+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:04+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3134691266862153",
+            "advertiser": "Dmall-동아제약 디몰",
+            "startedAt": "2026-10-01",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:08:59+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:48+00:00",
             "startTiming": "before-window"
           },
           {
@@ -352,17 +352,8 @@
             "startedAt": "2026-10-04",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-10T13:26:04+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:04+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:48+00:00",
             "startTiming": "during-window"
-          },
-          {
-            "id": "1296790732489100",
-            "advertiser": "순초롬 Shopend",
-            "startedAt": "2026-10-02",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:08:54+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:04+00:00",
-            "startTiming": "before-window"
           },
           {
             "id": "2228267734736946",
@@ -370,7 +361,16 @@
             "startedAt": "2026-09-29",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:08:52+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:03+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1296790732489100",
+            "advertiser": "순초롬 Shopend",
+            "startedAt": "2026-10-02",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:08:54+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:47+00:00",
             "startTiming": "before-window"
           },
           {
@@ -379,7 +379,7 @@
             "startedAt": "2026-09-18",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:08:52+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:02+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:46+00:00",
             "startTiming": "before-window"
           },
           {
@@ -388,7 +388,7 @@
             "startedAt": "2026-06-06",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:08:51+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:02+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:46+00:00",
             "startTiming": "before-window"
           },
           {
@@ -397,7 +397,7 @@
             "startedAt": "2026-07-23",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:08:50+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:01+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:45+00:00",
             "startTiming": "before-window"
           },
           {
@@ -406,7 +406,7 @@
             "startedAt": "2026-09-10",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:08:50+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:00+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:44+00:00",
             "startTiming": "before-window"
           },
           {
@@ -415,7 +415,7 @@
             "startedAt": "2026-10-02",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:08:51+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:00+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:44+00:00",
             "startTiming": "before-window"
           },
           {
@@ -446,7 +446,7 @@
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-10T13:26:38+00:00",
+        "lastCollectedAt": "2026-10-11T22:42:21+00:00",
         "advertisers": [
           {
             "name": "요즘엄마의 육아팁",
@@ -26706,7 +26706,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-11T00:35:21+00:00",
       "lastObservedAt": "2026-10-11T21:46:36+00:00",
-      "state": "backlog",
+      "state": "done",
       "keywordId": "95b07679ff469e159048159bdecd1808ddf7cc2c5fa7a45e56a4aafc2041662e",
       "searchQuery": "삼백초",
       "adEvidence": {
@@ -26715,17 +26715,17 @@
         "adCount": 35,
         "adIds": [
           "1639744197522514",
-          "1458355716175991",
           "3761840077291076",
           "994985353611171",
+          "2255626091901176",
           "1420746363245718",
+          "1418303740259373",
           "1041306355391539",
           "976028491493230",
-          "2255626091901176",
-          "1418303740259373",
+          "2121110975401403",
+          "1458355716175991",
           "1097669586084701",
           "2136633077245419",
-          "2121110975401403",
           "1142039228253983",
           "2616182375462647",
           "2059377648054267",
@@ -26736,11 +26736,11 @@
           "869337822836136",
           "1852745819224819",
           "1078853048377602",
-          "3134691266862153",
           "28065311763140822",
+          "3134691266862153",
           "1612124547046823",
-          "1296790732489100",
           "2228267734736946",
+          "1296790732489100",
           "2526792637820227",
           "1689080752336003",
           "2591434501297249",
@@ -26757,17 +26757,8 @@
             "startedAt": "2026-10-02",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-10T13:26:38+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:38+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:21+00:00",
             "startTiming": "before-window"
-          },
-          {
-            "id": "1458355716175991",
-            "advertiser": "더 한방울",
-            "startedAt": "2026-10-09",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-10T13:26:38+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:38+00:00",
-            "startTiming": "during-window"
           },
           {
             "id": "3761840077291076",
@@ -26775,7 +26766,7 @@
             "startedAt": "2026-08-19",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-10T13:26:26+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:26+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:20+00:00",
             "startTiming": "before-window"
           },
           {
@@ -26784,7 +26775,16 @@
             "startedAt": "2026-10-02",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-10T13:26:24+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:24+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2255626091901176",
+            "advertiser": "ヱસુન",
+            "startedAt": "2026-08-11",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:23+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:07+00:00",
             "startTiming": "before-window"
           },
           {
@@ -26793,34 +26793,7 @@
             "startedAt": "2026-08-11",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-10T13:26:24+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:24+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1041306355391539",
-            "advertiser": "ヱસુન",
-            "startedAt": "2026-08-11",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-10T13:26:24+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:24+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "976028491493230",
-            "advertiser": "디어랩스",
-            "startedAt": "2026-10-07",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-10T13:26:23+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:23+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "2255626091901176",
-            "advertiser": "ヱસુન",
-            "startedAt": "2026-08-11",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-10T13:26:23+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:23+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:07+00:00",
             "startTiming": "before-window"
           },
           {
@@ -26829,25 +26802,25 @@
             "startedAt": "2026-09-25",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-10T13:26:23+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:23+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:07+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1097669586084701",
-            "advertiser": "헬스인사이트",
-            "startedAt": "2026-09-30",
+            "id": "1041306355391539",
+            "advertiser": "ヱસુન",
+            "startedAt": "2026-08-11",
             "query": "삼백초",
-            "firstCollectedAt": "2026-10-10T13:26:22+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:22+00:00",
+            "firstCollectedAt": "2026-10-10T13:26:24+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:07+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "2136633077245419",
-            "advertiser": "요즘엄마의 육아팁",
-            "startedAt": "2026-10-05",
+            "id": "976028491493230",
+            "advertiser": "디어랩스",
+            "startedAt": "2026-10-07",
             "query": "삼백초",
-            "firstCollectedAt": "2026-10-10T13:26:21+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:21+00:00",
+            "firstCollectedAt": "2026-10-10T13:26:23+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:06+00:00",
             "startTiming": "during-window"
           },
           {
@@ -26856,8 +26829,35 @@
             "startedAt": "2026-08-11",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-10T13:26:21+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:21+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:06+00:00",
             "startTiming": "before-window"
+          },
+          {
+            "id": "1458355716175991",
+            "advertiser": "더 한방울",
+            "startedAt": "2026-10-09",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:38+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:06+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1097669586084701",
+            "advertiser": "헬스인사이트",
+            "startedAt": "2026-09-30",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:22+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2136633077245419",
+            "advertiser": "요즘엄마의 육아팁",
+            "startedAt": "2026-10-05",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:21+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:04+00:00",
+            "startTiming": "during-window"
           },
           {
             "id": "1142039228253983",
@@ -26865,7 +26865,7 @@
             "startedAt": "2026-10-04",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-10T13:26:14+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:14+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:58+00:00",
             "startTiming": "during-window"
           },
           {
@@ -26874,7 +26874,7 @@
             "startedAt": "2026-09-30",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-10T13:26:13+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:13+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:57+00:00",
             "startTiming": "before-window"
           },
           {
@@ -26883,7 +26883,7 @@
             "startedAt": "2026-08-20",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:09:00+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:13+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:57+00:00",
             "startTiming": "before-window"
           },
           {
@@ -26892,7 +26892,7 @@
             "startedAt": "2026-09-27",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:09:02+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:12+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:56+00:00",
             "startTiming": "before-window"
           },
           {
@@ -26901,7 +26901,7 @@
             "startedAt": "2026-10-02",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:09:00+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:12+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:56+00:00",
             "startTiming": "before-window"
           },
           {
@@ -26910,7 +26910,7 @@
             "startedAt": "2026-09-27",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:09:00+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:11+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:55+00:00",
             "startTiming": "before-window"
           },
           {
@@ -26919,7 +26919,7 @@
             "startedAt": "2026-10-02",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:09:01+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:11+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:55+00:00",
             "startTiming": "before-window"
           },
           {
@@ -26928,7 +26928,7 @@
             "startedAt": "2026-10-01",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:09:01+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:10+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:54+00:00",
             "startTiming": "before-window"
           },
           {
@@ -26937,7 +26937,7 @@
             "startedAt": "2026-10-02",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:09:01+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:10+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:54+00:00",
             "startTiming": "before-window"
           },
           {
@@ -26946,16 +26946,7 @@
             "startedAt": "2026-09-27",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:08:53+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:10+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "3134691266862153",
-            "advertiser": "Dmall-동아제약 디몰",
-            "startedAt": "2026-10-01",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:08:59+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:05+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:54+00:00",
             "startTiming": "before-window"
           },
           {
@@ -26964,7 +26955,16 @@
             "startedAt": "2026-09-22",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:08:53+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:04+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3134691266862153",
+            "advertiser": "Dmall-동아제약 디몰",
+            "startedAt": "2026-10-01",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:08:59+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:48+00:00",
             "startTiming": "before-window"
           },
           {
@@ -26973,17 +26973,8 @@
             "startedAt": "2026-10-04",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-10T13:26:04+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:04+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:48+00:00",
             "startTiming": "during-window"
-          },
-          {
-            "id": "1296790732489100",
-            "advertiser": "순초롬 Shopend",
-            "startedAt": "2026-10-02",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:08:54+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:04+00:00",
-            "startTiming": "before-window"
           },
           {
             "id": "2228267734736946",
@@ -26991,7 +26982,16 @@
             "startedAt": "2026-09-29",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:08:52+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:03+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1296790732489100",
+            "advertiser": "순초롬 Shopend",
+            "startedAt": "2026-10-02",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:08:54+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:47+00:00",
             "startTiming": "before-window"
           },
           {
@@ -27000,7 +27000,7 @@
             "startedAt": "2026-09-18",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:08:52+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:02+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:46+00:00",
             "startTiming": "before-window"
           },
           {
@@ -27009,7 +27009,7 @@
             "startedAt": "2026-06-06",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:08:51+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:02+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:46+00:00",
             "startTiming": "before-window"
           },
           {
@@ -27018,7 +27018,7 @@
             "startedAt": "2026-07-23",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:08:50+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:01+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:45+00:00",
             "startTiming": "before-window"
           },
           {
@@ -27027,7 +27027,7 @@
             "startedAt": "2026-09-10",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:08:50+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:00+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:44+00:00",
             "startTiming": "before-window"
           },
           {
@@ -27036,7 +27036,7 @@
             "startedAt": "2026-10-02",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:08:51+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:00+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:44+00:00",
             "startTiming": "before-window"
           },
           {
@@ -27067,7 +27067,7 @@
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-10T13:26:38+00:00",
+        "lastCollectedAt": "2026-10-11T22:42:21+00:00",
         "advertisers": [
           {
             "name": "요즘엄마의 육아팁",
@@ -39073,17 +39073,17 @@
         "adCount": 35,
         "adIds": [
           "1639744197522514",
-          "1458355716175991",
           "3761840077291076",
           "994985353611171",
+          "2255626091901176",
           "1420746363245718",
+          "1418303740259373",
           "1041306355391539",
           "976028491493230",
-          "2255626091901176",
-          "1418303740259373",
+          "2121110975401403",
+          "1458355716175991",
           "1097669586084701",
           "2136633077245419",
-          "2121110975401403",
           "1142039228253983",
           "2616182375462647",
           "2059377648054267",
@@ -39094,11 +39094,11 @@
           "869337822836136",
           "1852745819224819",
           "1078853048377602",
-          "3134691266862153",
           "28065311763140822",
+          "3134691266862153",
           "1612124547046823",
-          "1296790732489100",
           "2228267734736946",
+          "1296790732489100",
           "2526792637820227",
           "1689080752336003",
           "2591434501297249",
@@ -39115,17 +39115,8 @@
             "startedAt": "2026-10-02",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-10T13:26:38+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:38+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:21+00:00",
             "startTiming": "before-window"
-          },
-          {
-            "id": "1458355716175991",
-            "advertiser": "더 한방울",
-            "startedAt": "2026-10-09",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-10T13:26:38+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:38+00:00",
-            "startTiming": "during-window"
           },
           {
             "id": "3761840077291076",
@@ -39133,7 +39124,7 @@
             "startedAt": "2026-08-19",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-10T13:26:26+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:26+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:20+00:00",
             "startTiming": "before-window"
           },
           {
@@ -39142,7 +39133,16 @@
             "startedAt": "2026-10-02",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-10T13:26:24+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:24+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2255626091901176",
+            "advertiser": "ヱસુન",
+            "startedAt": "2026-08-11",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:23+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:07+00:00",
             "startTiming": "before-window"
           },
           {
@@ -39151,34 +39151,7 @@
             "startedAt": "2026-08-11",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-10T13:26:24+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:24+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1041306355391539",
-            "advertiser": "ヱસુન",
-            "startedAt": "2026-08-11",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-10T13:26:24+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:24+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "976028491493230",
-            "advertiser": "디어랩스",
-            "startedAt": "2026-10-07",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-10T13:26:23+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:23+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "2255626091901176",
-            "advertiser": "ヱસુન",
-            "startedAt": "2026-08-11",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-10T13:26:23+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:23+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:07+00:00",
             "startTiming": "before-window"
           },
           {
@@ -39187,25 +39160,25 @@
             "startedAt": "2026-09-25",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-10T13:26:23+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:23+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:07+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1097669586084701",
-            "advertiser": "헬스인사이트",
-            "startedAt": "2026-09-30",
+            "id": "1041306355391539",
+            "advertiser": "ヱસુન",
+            "startedAt": "2026-08-11",
             "query": "삼백초",
-            "firstCollectedAt": "2026-10-10T13:26:22+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:22+00:00",
+            "firstCollectedAt": "2026-10-10T13:26:24+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:07+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "2136633077245419",
-            "advertiser": "요즘엄마의 육아팁",
-            "startedAt": "2026-10-05",
+            "id": "976028491493230",
+            "advertiser": "디어랩스",
+            "startedAt": "2026-10-07",
             "query": "삼백초",
-            "firstCollectedAt": "2026-10-10T13:26:21+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:21+00:00",
+            "firstCollectedAt": "2026-10-10T13:26:23+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:06+00:00",
             "startTiming": "during-window"
           },
           {
@@ -39214,8 +39187,35 @@
             "startedAt": "2026-08-11",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-10T13:26:21+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:21+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:06+00:00",
             "startTiming": "before-window"
+          },
+          {
+            "id": "1458355716175991",
+            "advertiser": "더 한방울",
+            "startedAt": "2026-10-09",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:38+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:06+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1097669586084701",
+            "advertiser": "헬스인사이트",
+            "startedAt": "2026-09-30",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:22+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2136633077245419",
+            "advertiser": "요즘엄마의 육아팁",
+            "startedAt": "2026-10-05",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:21+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:04+00:00",
+            "startTiming": "during-window"
           },
           {
             "id": "1142039228253983",
@@ -39223,7 +39223,7 @@
             "startedAt": "2026-10-04",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-10T13:26:14+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:14+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:58+00:00",
             "startTiming": "during-window"
           },
           {
@@ -39232,7 +39232,7 @@
             "startedAt": "2026-09-30",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-10T13:26:13+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:13+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:57+00:00",
             "startTiming": "before-window"
           },
           {
@@ -39241,7 +39241,7 @@
             "startedAt": "2026-08-20",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:09:00+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:13+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:57+00:00",
             "startTiming": "before-window"
           },
           {
@@ -39250,7 +39250,7 @@
             "startedAt": "2026-09-27",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:09:02+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:12+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:56+00:00",
             "startTiming": "before-window"
           },
           {
@@ -39259,7 +39259,7 @@
             "startedAt": "2026-10-02",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:09:00+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:12+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:56+00:00",
             "startTiming": "before-window"
           },
           {
@@ -39268,7 +39268,7 @@
             "startedAt": "2026-09-27",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:09:00+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:11+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:55+00:00",
             "startTiming": "before-window"
           },
           {
@@ -39277,7 +39277,7 @@
             "startedAt": "2026-10-02",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:09:01+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:11+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:55+00:00",
             "startTiming": "before-window"
           },
           {
@@ -39286,7 +39286,7 @@
             "startedAt": "2026-10-01",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:09:01+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:10+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:54+00:00",
             "startTiming": "before-window"
           },
           {
@@ -39295,7 +39295,7 @@
             "startedAt": "2026-10-02",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:09:01+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:10+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:54+00:00",
             "startTiming": "before-window"
           },
           {
@@ -39304,16 +39304,7 @@
             "startedAt": "2026-09-27",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:08:53+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:10+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "3134691266862153",
-            "advertiser": "Dmall-동아제약 디몰",
-            "startedAt": "2026-10-01",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:08:59+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:05+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:54+00:00",
             "startTiming": "before-window"
           },
           {
@@ -39322,7 +39313,16 @@
             "startedAt": "2026-09-22",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:08:53+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:04+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3134691266862153",
+            "advertiser": "Dmall-동아제약 디몰",
+            "startedAt": "2026-10-01",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:08:59+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:48+00:00",
             "startTiming": "before-window"
           },
           {
@@ -39331,17 +39331,8 @@
             "startedAt": "2026-10-04",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-10T13:26:04+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:04+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:48+00:00",
             "startTiming": "during-window"
-          },
-          {
-            "id": "1296790732489100",
-            "advertiser": "순초롬 Shopend",
-            "startedAt": "2026-10-02",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:08:54+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:04+00:00",
-            "startTiming": "before-window"
           },
           {
             "id": "2228267734736946",
@@ -39349,7 +39340,16 @@
             "startedAt": "2026-09-29",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:08:52+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:03+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1296790732489100",
+            "advertiser": "순초롬 Shopend",
+            "startedAt": "2026-10-02",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:08:54+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:47+00:00",
             "startTiming": "before-window"
           },
           {
@@ -39358,7 +39358,7 @@
             "startedAt": "2026-09-18",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:08:52+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:02+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:46+00:00",
             "startTiming": "before-window"
           },
           {
@@ -39367,7 +39367,7 @@
             "startedAt": "2026-06-06",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:08:51+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:02+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:46+00:00",
             "startTiming": "before-window"
           },
           {
@@ -39376,7 +39376,7 @@
             "startedAt": "2026-07-23",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:08:50+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:01+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:45+00:00",
             "startTiming": "before-window"
           },
           {
@@ -39385,7 +39385,7 @@
             "startedAt": "2026-09-10",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:08:50+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:00+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:44+00:00",
             "startTiming": "before-window"
           },
           {
@@ -39394,7 +39394,7 @@
             "startedAt": "2026-10-02",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:08:51+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:00+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:44+00:00",
             "startTiming": "before-window"
           },
           {
@@ -39425,7 +39425,7 @@
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-10T13:26:38+00:00",
+        "lastCollectedAt": "2026-10-11T22:42:21+00:00",
         "advertisers": [
           {
             "name": "요즘엄마의 육아팁",
@@ -82715,17 +82715,17 @@
         "adCount": 35,
         "adIds": [
           "1639744197522514",
-          "1458355716175991",
           "3761840077291076",
           "994985353611171",
+          "2255626091901176",
           "1420746363245718",
+          "1418303740259373",
           "1041306355391539",
           "976028491493230",
-          "2255626091901176",
-          "1418303740259373",
+          "2121110975401403",
+          "1458355716175991",
           "1097669586084701",
           "2136633077245419",
-          "2121110975401403",
           "1142039228253983",
           "2616182375462647",
           "2059377648054267",
@@ -82736,11 +82736,11 @@
           "869337822836136",
           "1852745819224819",
           "1078853048377602",
-          "3134691266862153",
           "28065311763140822",
+          "3134691266862153",
           "1612124547046823",
-          "1296790732489100",
           "2228267734736946",
+          "1296790732489100",
           "2526792637820227",
           "1689080752336003",
           "2591434501297249",
@@ -82757,17 +82757,8 @@
             "startedAt": "2026-10-02",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-10T13:26:38+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:38+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:21+00:00",
             "startTiming": "during-window"
-          },
-          {
-            "id": "1458355716175991",
-            "advertiser": "더 한방울",
-            "startedAt": "2026-10-09",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-10T13:26:38+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:38+00:00",
-            "startTiming": "after-window"
           },
           {
             "id": "3761840077291076",
@@ -82775,7 +82766,7 @@
             "startedAt": "2026-08-19",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-10T13:26:26+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:26+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:20+00:00",
             "startTiming": "before-window"
           },
           {
@@ -82784,35 +82775,8 @@
             "startedAt": "2026-10-02",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-10T13:26:24+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:24+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:08+00:00",
             "startTiming": "during-window"
-          },
-          {
-            "id": "1420746363245718",
-            "advertiser": "ગપ⩟",
-            "startedAt": "2026-08-11",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-10T13:26:24+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:24+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1041306355391539",
-            "advertiser": "ヱસુન",
-            "startedAt": "2026-08-11",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-10T13:26:24+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:24+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "976028491493230",
-            "advertiser": "디어랩스",
-            "startedAt": "2026-10-07",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-10T13:26:23+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:23+00:00",
-            "startTiming": "after-window"
           },
           {
             "id": "2255626091901176",
@@ -82820,7 +82784,16 @@
             "startedAt": "2026-08-11",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-10T13:26:23+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:23+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1420746363245718",
+            "advertiser": "ગપ⩟",
+            "startedAt": "2026-08-11",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:24+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:07+00:00",
             "startTiming": "before-window"
           },
           {
@@ -82829,8 +82802,44 @@
             "startedAt": "2026-09-25",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-10T13:26:23+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:23+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:07+00:00",
             "startTiming": "before-window"
+          },
+          {
+            "id": "1041306355391539",
+            "advertiser": "ヱસુન",
+            "startedAt": "2026-08-11",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:24+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "976028491493230",
+            "advertiser": "디어랩스",
+            "startedAt": "2026-10-07",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:23+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:06+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "2121110975401403",
+            "advertiser": "ꔌપય",
+            "startedAt": "2026-08-11",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:21+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1458355716175991",
+            "advertiser": "더 한방울",
+            "startedAt": "2026-10-09",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-10T13:26:38+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:06+00:00",
+            "startTiming": "after-window"
           },
           {
             "id": "1097669586084701",
@@ -82838,7 +82847,7 @@
             "startedAt": "2026-09-30",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-10T13:26:22+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:22+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:05+00:00",
             "startTiming": "during-window"
           },
           {
@@ -82847,17 +82856,8 @@
             "startedAt": "2026-10-05",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-10T13:26:21+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:21+00:00",
+            "lastCollectedAt": "2026-10-11T22:42:04+00:00",
             "startTiming": "during-window"
-          },
-          {
-            "id": "2121110975401403",
-            "advertiser": "ꔌપય",
-            "startedAt": "2026-08-11",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-10T13:26:21+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:21+00:00",
-            "startTiming": "before-window"
           },
           {
             "id": "1142039228253983",
@@ -82865,7 +82865,7 @@
             "startedAt": "2026-10-04",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-10T13:26:14+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:14+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:58+00:00",
             "startTiming": "during-window"
           },
           {
@@ -82874,7 +82874,7 @@
             "startedAt": "2026-09-30",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-10T13:26:13+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:13+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:57+00:00",
             "startTiming": "during-window"
           },
           {
@@ -82883,7 +82883,7 @@
             "startedAt": "2026-08-20",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:09:00+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:13+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:57+00:00",
             "startTiming": "before-window"
           },
           {
@@ -82892,7 +82892,7 @@
             "startedAt": "2026-09-27",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:09:02+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:12+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:56+00:00",
             "startTiming": "before-window"
           },
           {
@@ -82901,7 +82901,7 @@
             "startedAt": "2026-10-02",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:09:00+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:12+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:56+00:00",
             "startTiming": "during-window"
           },
           {
@@ -82910,7 +82910,7 @@
             "startedAt": "2026-09-27",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:09:00+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:11+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:55+00:00",
             "startTiming": "before-window"
           },
           {
@@ -82919,7 +82919,7 @@
             "startedAt": "2026-10-02",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:09:01+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:11+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:55+00:00",
             "startTiming": "during-window"
           },
           {
@@ -82928,7 +82928,7 @@
             "startedAt": "2026-10-01",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:09:01+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:10+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:54+00:00",
             "startTiming": "during-window"
           },
           {
@@ -82937,7 +82937,7 @@
             "startedAt": "2026-10-02",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:09:01+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:10+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:54+00:00",
             "startTiming": "during-window"
           },
           {
@@ -82946,7 +82946,16 @@
             "startedAt": "2026-09-27",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:08:53+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:10+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28065311763140822",
+            "advertiser": "Sejuhee Home ღ",
+            "startedAt": "2026-09-22",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:08:53+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:49+00:00",
             "startTiming": "before-window"
           },
           {
@@ -82955,17 +82964,8 @@
             "startedAt": "2026-10-01",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:08:59+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:05+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:48+00:00",
             "startTiming": "during-window"
-          },
-          {
-            "id": "28065311763140822",
-            "advertiser": "Sejuhee Home ღ",
-            "startedAt": "2026-09-22",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:08:53+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:04+00:00",
-            "startTiming": "before-window"
           },
           {
             "id": "1612124547046823",
@@ -82973,16 +82973,7 @@
             "startedAt": "2026-10-04",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-10T13:26:04+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:04+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1296790732489100",
-            "advertiser": "순초롬 Shopend",
-            "startedAt": "2026-10-02",
-            "query": "삼백초",
-            "firstCollectedAt": "2026-10-07T05:08:54+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:04+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:48+00:00",
             "startTiming": "during-window"
           },
           {
@@ -82991,8 +82982,17 @@
             "startedAt": "2026-09-29",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:08:52+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:03+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:47+00:00",
             "startTiming": "before-window"
+          },
+          {
+            "id": "1296790732489100",
+            "advertiser": "순초롬 Shopend",
+            "startedAt": "2026-10-02",
+            "query": "삼백초",
+            "firstCollectedAt": "2026-10-07T05:08:54+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:47+00:00",
+            "startTiming": "during-window"
           },
           {
             "id": "2526792637820227",
@@ -83000,7 +83000,7 @@
             "startedAt": "2026-09-18",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:08:52+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:02+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:46+00:00",
             "startTiming": "before-window"
           },
           {
@@ -83009,7 +83009,7 @@
             "startedAt": "2026-06-06",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:08:51+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:02+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:46+00:00",
             "startTiming": "before-window"
           },
           {
@@ -83018,7 +83018,7 @@
             "startedAt": "2026-07-23",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:08:50+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:01+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:45+00:00",
             "startTiming": "before-window"
           },
           {
@@ -83027,7 +83027,7 @@
             "startedAt": "2026-09-10",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:08:50+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:00+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:44+00:00",
             "startTiming": "before-window"
           },
           {
@@ -83036,7 +83036,7 @@
             "startedAt": "2026-10-02",
             "query": "삼백초",
             "firstCollectedAt": "2026-10-07T05:08:51+00:00",
-            "lastCollectedAt": "2026-10-10T13:26:00+00:00",
+            "lastCollectedAt": "2026-10-11T22:41:44+00:00",
             "startTiming": "during-window"
           },
           {
@@ -83067,7 +83067,7 @@
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-10T13:26:38+00:00",
+        "lastCollectedAt": "2026-10-11T22:42:21+00:00",
         "advertisers": [
           {
             "name": "요즘엄마의 육아팁",
