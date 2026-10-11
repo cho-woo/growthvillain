@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-11T10:51:38+00:00",
+  "updatedAt": "2026-10-11T10:53:48+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-11T00:35:53+00:00",
@@ -43,8 +43,8 @@
     "backlogDays": 14,
     "dailyUsed": 21,
     "dailyRemaining": 267,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-11T10:56:38+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -2538,17 +2538,1180 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "f8631d161aad4aaae45cfa8218ed67f270159e2f046a6ec4706c7f4fc72b0ad5",
       "searchQuery": "구강유산균",
       "adEvidence": {
         "query": "구강유산균",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 100,
+        "adIds": [
+          "1720559542379640",
+          "1063324616604614",
+          "2633444783764480",
+          "2329498137869797",
+          "1596807742147540",
+          "1620414589514395",
+          "1594531258779389",
+          "1699711287774514",
+          "1451600593618676",
+          "1164102309218443",
+          "1409852527917464",
+          "27485041501122819",
+          "2040359236589825",
+          "1061147416554315",
+          "2978506639160509",
+          "1547419427137555",
+          "1479013284057369",
+          "1086173000775996",
+          "1727758141745963",
+          "1564509878810119",
+          "2968493056821273",
+          "1745678266555993",
+          "1110979432109239",
+          "4538329476449196",
+          "2334547240631732",
+          "1987225022123849",
+          "1624178729499147",
+          "1549568293215943",
+          "4444563849116812",
+          "1755381692347277",
+          "1813290933305074",
+          "2257773018345902",
+          "1120969610506297",
+          "2324653904997723",
+          "1554536029687342",
+          "1464817085541113",
+          "28854055640878852",
+          "1400297442231520",
+          "1819307305717447",
+          "1596197558834851",
+          "956427410190728",
+          "1130585432983715",
+          "1648727320387632",
+          "1504850624808538",
+          "844068818695423",
+          "2184213725836839",
+          "1073535431965068",
+          "2833984973627896",
+          "2441337296377410",
+          "1393944902255585",
+          "2630029664080064",
+          "1545483677201490",
+          "1148759214144243",
+          "2168204964118696",
+          "1899979747634163",
+          "2028550787787270",
+          "1125582290413126",
+          "1460378799313926",
+          "1356095746265401",
+          "1683005206271647",
+          "1712399656686701",
+          "801693589540955",
+          "1842220900743989",
+          "1841385570363061",
+          "1823449778661189",
+          "4746610238958443",
+          "2889423141415831",
+          "1387571733349670",
+          "2447577095746238",
+          "1764437338105773",
+          "1649957450053173",
+          "1150507567308303",
+          "1080048174804050",
+          "1626755215469029",
+          "1052802193797171",
+          "1632736138359572",
+          "1040470268807292",
+          "1766769474566531",
+          "1700392074409803",
+          "2712623835799955",
+          "1505699867604030",
+          "2207854309771714",
+          "1490426933140981",
+          "1811413376524427",
+          "947679177606298",
+          "1313387017647860",
+          "1546194736945930",
+          "1363661420158305",
+          "1123184290161952",
+          "1054887090210548",
+          "1593991305696889",
+          "881987678324468",
+          "1379613997462171",
+          "955322894215141",
+          "1555122109270094",
+          "1401932011803042",
+          "1080973885107544",
+          "1737706490769990",
+          "1504491744815549",
+          "1166086165730894"
+        ],
+        "ads": [
+          {
+            "id": "1720559542379640",
+            "advertiser": "Límpialo",
+            "startedAt": "2026-09-28",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:36+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1063324616604614",
+            "advertiser": "Bebe Holding Company Inc.",
+            "startedAt": "2026-10-06",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:35+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:35+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2633444783764480",
+            "advertiser": "Límpialo",
+            "startedAt": "2026-10-02",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:34+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2329498137869797",
+            "advertiser": "Luvchaei",
+            "startedAt": "2026-09-14",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:34+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1596807742147540",
+            "advertiser": "Zion8.13",
+            "startedAt": "2026-08-18",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:34+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1620414589514395",
+            "advertiser": "고양이건강상식",
+            "startedAt": "2026-08-27",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:33+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1594531258779389",
+            "advertiser": "멍스타그램",
+            "startedAt": "2026-08-18",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:33+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1699711287774514",
+            "advertiser": "Límpialo",
+            "startedAt": "2026-09-02",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:32+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1451600593618676",
+            "advertiser": "Límpialo",
+            "startedAt": "2026-10-04",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:32+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:32+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1164102309218443",
+            "advertiser": "멍스타그램",
+            "startedAt": "2025-12-11",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:31+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1409852527917464",
+            "advertiser": "Límpialo",
+            "startedAt": "2026-10-06",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:22+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:22+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "27485041501122819",
+            "advertiser": "구강건강꿀팁",
+            "startedAt": "2026-07-29",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:21+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2040359236589825",
+            "advertiser": "Bebe Holding Company Inc.",
+            "startedAt": "2026-08-18",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:20+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1061147416554315",
+            "advertiser": "Губы",
+            "startedAt": "2026-09-28",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:20+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2978506639160509",
+            "advertiser": "건강템연구중",
+            "startedAt": "2026-09-29",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:19+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1547419427137555",
+            "advertiser": "위바이옴",
+            "startedAt": "2026-10-04",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:19+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:19+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1479013284057369",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-10-04",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:19+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:19+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1086173000775996",
+            "advertiser": "Bebe Holding Company Inc.",
+            "startedAt": "2026-09-10",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:19+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1727758141745963",
+            "advertiser": "Bebe Holding Company Inc.",
+            "startedAt": "2026-06-30",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:18+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1564509878810119",
+            "advertiser": "덴티조이",
+            "startedAt": "2026-10-08",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:18+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:18+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2968493056821273",
+            "advertiser": "Fresh.mate",
+            "startedAt": "2026-10-05",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:09+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:09+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1745678266555993",
+            "advertiser": "Siriusnewstar",
+            "startedAt": "2026-08-20",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:09+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1110979432109239",
+            "advertiser": "올영세일추천템",
+            "startedAt": "2026-07-10",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:09+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4538329476449196",
+            "advertiser": "Bebe Holding Company Inc.",
+            "startedAt": "2026-07-13",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:08+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2334547240631732",
+            "advertiser": "댕냥이는사랑",
+            "startedAt": "2026-09-30",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:07+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1987225022123849",
+            "advertiser": "멍스타그램",
+            "startedAt": "2025-12-04",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:07+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1624178729499147",
+            "advertiser": "닥스메디",
+            "startedAt": "2026-10-06",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:07+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:07+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1549568293215943",
+            "advertiser": "강아지건강상식",
+            "startedAt": "2026-07-03",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:07+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4444563849116812",
+            "advertiser": "Губы",
+            "startedAt": "2026-10-06",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:06+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:06+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1755381692347277",
+            "advertiser": "건강템연구중",
+            "startedAt": "2026-09-29",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:06+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1813290933305074",
+            "advertiser": "건강템연구중",
+            "startedAt": "2026-10-01",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:57+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2257773018345902",
+            "advertiser": "Губы",
+            "startedAt": "2026-10-06",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:56+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:56+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1120969610506297",
+            "advertiser": "어바인랩 Irvinelab",
+            "startedAt": "2026-10-01",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:56+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2324653904997723",
+            "advertiser": "Límpialo",
+            "startedAt": "2026-10-06",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:55+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:55+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1554536029687342",
+            "advertiser": "luv_xxo_",
+            "startedAt": "2026-08-13",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:55+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1464817085541113",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-04",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:55+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:55+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "28854055640878852",
+            "advertiser": "구강건강꿀팁",
+            "startedAt": "2026-09-30",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:54+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1400297442231520",
+            "advertiser": "Губы",
+            "startedAt": "2026-10-06",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:54+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1819307305717447",
+            "advertiser": "Denomics",
+            "startedAt": "2026-08-11",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:53+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1596197558834851",
+            "advertiser": "Denomics",
+            "startedAt": "2026-08-12",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:53+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "956427410190728",
+            "advertiser": "Denomics",
+            "startedAt": "2026-08-11",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:45+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1130585432983715",
+            "advertiser": "Губы",
+            "startedAt": "2026-10-07",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:45+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:45+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1648727320387632",
+            "advertiser": "댕냥이는사랑",
+            "startedAt": "2026-09-09",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:44+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1504850624808538",
+            "advertiser": "Губы",
+            "startedAt": "2026-10-06",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:44+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:44+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "844068818695423",
+            "advertiser": "CoreLabs",
+            "startedAt": "2026-08-28",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:43+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2184213725836839",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-04",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:43+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1073535431965068",
+            "advertiser": "Губы",
+            "startedAt": "2026-10-07",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:43+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2833984973627896",
+            "advertiser": "CoreLabs",
+            "startedAt": "2026-08-27",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:42+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2441337296377410",
+            "advertiser": "올영세일추천템",
+            "startedAt": "2026-06-18",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:42+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1393944902255585",
+            "advertiser": "Kibumik",
+            "startedAt": "2026-09-21",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:42+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2630029664080064",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-08-27",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:32+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1545483677201490",
+            "advertiser": "경동제약",
+            "startedAt": "2026-06-09",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:32+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1148759214144243",
+            "advertiser": "market_oli",
+            "startedAt": "2026-10-01",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:32+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2168204964118696",
+            "advertiser": "위바이옴",
+            "startedAt": "2026-10-04",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:31+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:31+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1899979747634163",
+            "advertiser": "Губы",
+            "startedAt": "2026-09-27",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:31+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2028550787787270",
+            "advertiser": "댕냥이는사랑",
+            "startedAt": "2026-08-17",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:30+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1125582290413126",
+            "advertiser": "Bebe Holding Company Inc.",
+            "startedAt": "2026-10-06",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:30+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:30+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1460378799313926",
+            "advertiser": "Límpialo",
+            "startedAt": "2026-10-08",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:29+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:29+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1356095746265401",
+            "advertiser": "Губы",
+            "startedAt": "2026-09-04",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:29+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1683005206271647",
+            "advertiser": "올영세일추천템",
+            "startedAt": "2026-06-12",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:28+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1712399656686701",
+            "advertiser": "올영세일추천템",
+            "startedAt": "2026-08-05",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:21+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "801693589540955",
+            "advertiser": "Yourvet",
+            "startedAt": "2026-05-31",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:20+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1842220900743989",
+            "advertiser": "조앤픽 맛 여행 기록",
+            "startedAt": "2026-10-06",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:20+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:20+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1841385570363061",
+            "advertiser": "Bebe Holding Company Inc.",
+            "startedAt": "2026-10-07",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:19+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:19+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1823449778661189",
+            "advertiser": "위바이옴",
+            "startedAt": "2026-10-04",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:19+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:19+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4746610238958443",
+            "advertiser": "P.zjzbals",
+            "startedAt": "2026-09-02",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:18+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2889423141415831",
+            "advertiser": "Bebe Holding Company Inc.",
+            "startedAt": "2026-09-30",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:18+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1387571733349670",
+            "advertiser": "댕냥이는사랑",
+            "startedAt": "2026-08-15",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:18+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2447577095746238",
+            "advertiser": "엣츠",
+            "startedAt": "2026-06-02",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:17+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1764437338105773",
+            "advertiser": "라이브오랄스",
+            "startedAt": "2026-10-05",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:16+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:16+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1649957450053173",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-09",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:09+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1150507567308303",
+            "advertiser": "Osstem Oxchi",
+            "startedAt": "2026-10-06",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:09+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:09+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1080048174804050",
+            "advertiser": "Límpialo",
+            "startedAt": "2026-10-07",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:09+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:09+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1626755215469029",
+            "advertiser": "Osstem Oxchi",
+            "startedAt": "2026-10-06",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:08+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:08+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1052802193797171",
+            "advertiser": "ন९क",
+            "startedAt": "2026-08-05",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:08+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1632736138359572",
+            "advertiser": "구강건강꿀팁",
+            "startedAt": "2026-10-03",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:07+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1040470268807292",
+            "advertiser": "멍스타그램",
+            "startedAt": "2026-08-28",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:07+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1766769474566531",
+            "advertiser": "올영세일추천템",
+            "startedAt": "2026-08-28",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:06+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1700392074409803",
+            "advertiser": "댕냥이는사랑",
+            "startedAt": "2026-08-12",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:06+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2712623835799955",
+            "advertiser": "Pdjin",
+            "startedAt": "2026-09-15",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:05+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1505699867604030",
+            "advertiser": "댕냥이는사랑",
+            "startedAt": "2026-05-27",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:00+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2207854309771714",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-30",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:51:59+00:00",
+            "lastCollectedAt": "2026-10-11T10:51:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1490426933140981",
+            "advertiser": "제로가이드",
+            "startedAt": "2026-10-05",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:51:59+00:00",
+            "lastCollectedAt": "2026-10-11T10:51:59+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1811413376524427",
+            "advertiser": "토르",
+            "startedAt": "2026-09-16",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:51:56+00:00",
+            "lastCollectedAt": "2026-10-11T10:51:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "947679177606298",
+            "advertiser": "Bebe Holding Company Inc.",
+            "startedAt": "2026-08-28",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:51:55+00:00",
+            "lastCollectedAt": "2026-10-11T10:51:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1313387017647860",
+            "advertiser": "고양이건강상식",
+            "startedAt": "2026-05-29",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:51:55+00:00",
+            "lastCollectedAt": "2026-10-11T10:51:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1546194736945930",
+            "advertiser": "ন९क",
+            "startedAt": "2026-07-09",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:51:54+00:00",
+            "lastCollectedAt": "2026-10-11T10:51:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1363661420158305",
+            "advertiser": "구강건강꿀팁",
+            "startedAt": "2026-09-16",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:51:54+00:00",
+            "lastCollectedAt": "2026-10-11T10:51:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1123184290161952",
+            "advertiser": "라이브오랄스",
+            "startedAt": "2026-10-05",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:51:53+00:00",
+            "lastCollectedAt": "2026-10-11T10:51:53+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1054887090210548",
+            "advertiser": "구강의모든이야기",
+            "startedAt": "2026-07-21",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:51:53+00:00",
+            "lastCollectedAt": "2026-10-11T10:51:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1593991305696889",
+            "advertiser": "유네미",
+            "startedAt": "2026-08-05",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:51:48+00:00",
+            "lastCollectedAt": "2026-10-11T10:51:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "881987678324468",
+            "advertiser": "종근당",
+            "startedAt": "2026-07-31",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:51:47+00:00",
+            "lastCollectedAt": "2026-10-11T10:51:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1379613997462171",
+            "advertiser": "Límpialo",
+            "startedAt": "2026-07-30",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:51:47+00:00",
+            "lastCollectedAt": "2026-10-11T10:51:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "955322894215141",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-04",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:51:46+00:00",
+            "lastCollectedAt": "2026-10-11T10:51:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1555122109270094",
+            "advertiser": "Límpialo",
+            "startedAt": "2026-09-17",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:51:46+00:00",
+            "lastCollectedAt": "2026-10-11T10:51:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1401932011803042",
+            "advertiser": "Korea vd",
+            "startedAt": "2026-07-27",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:51:45+00:00",
+            "lastCollectedAt": "2026-10-11T10:51:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1080973885107544",
+            "advertiser": "덴티조이",
+            "startedAt": "2026-05-29",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:51:45+00:00",
+            "lastCollectedAt": "2026-10-11T10:51:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1737706490769990",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-01",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:51:44+00:00",
+            "lastCollectedAt": "2026-10-11T10:51:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1504491744815549",
+            "advertiser": "Korea vd",
+            "startedAt": "2026-07-27",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:51:44+00:00",
+            "lastCollectedAt": "2026-10-11T10:51:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1166086165730894",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-30",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:51:44+00:00",
+            "lastCollectedAt": "2026-10-11T10:51:44+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-11T10:53:36+00:00",
+        "advertisers": [
+          {
+            "name": "Límpialo",
+            "adCount": 10
+          },
+          {
+            "name": "Bebe Holding Company Inc.",
+            "adCount": 9
+          },
+          {
+            "name": "Губы",
+            "adCount": 9
+          },
+          {
+            "name": "댕냥이는사랑",
+            "adCount": 6
+          },
+          {
+            "name": "종근당",
+            "adCount": 6
+          },
+          {
+            "name": "올영세일추천템",
+            "adCount": 5
+          },
+          {
+            "name": "구강건강꿀팁",
+            "adCount": 4
+          },
+          {
+            "name": "멍스타그램",
+            "adCount": 4
+          },
+          {
+            "name": "Denomics",
+            "adCount": 3
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 3
+          },
+          {
+            "name": "건강템연구중",
+            "adCount": 3
+          },
+          {
+            "name": "위바이옴",
+            "adCount": 3
+          },
+          {
+            "name": "CoreLabs",
+            "adCount": 2
+          },
+          {
+            "name": "Korea vd",
+            "adCount": 2
+          },
+          {
+            "name": "Osstem Oxchi",
+            "adCount": 2
+          },
+          {
+            "name": "ন९क",
+            "adCount": 2
+          },
+          {
+            "name": "고양이건강상식",
+            "adCount": 2
+          },
+          {
+            "name": "덴티조이",
+            "adCount": 2
+          },
+          {
+            "name": "라이브오랄스",
+            "adCount": 2
+          },
+          {
+            "name": "Fresh.mate",
+            "adCount": 1
+          },
+          {
+            "name": "Kibumik",
+            "adCount": 1
+          },
+          {
+            "name": "Luvchaei",
+            "adCount": 1
+          },
+          {
+            "name": "P.zjzbals",
+            "adCount": 1
+          },
+          {
+            "name": "Pdjin",
+            "adCount": 1
+          },
+          {
+            "name": "Siriusnewstar",
+            "adCount": 1
+          },
+          {
+            "name": "Yourvet",
+            "adCount": 1
+          },
+          {
+            "name": "Zion8.13",
+            "adCount": 1
+          },
+          {
+            "name": "luv_xxo_",
+            "adCount": 1
+          },
+          {
+            "name": "market_oli",
+            "adCount": 1
+          },
+          {
+            "name": "강아지건강상식",
+            "adCount": 1
+          },
+          {
+            "name": "경동제약",
+            "adCount": 1
+          },
+          {
+            "name": "구강의모든이야기",
+            "adCount": 1
+          },
+          {
+            "name": "내츄럴플러스",
+            "adCount": 1
+          },
+          {
+            "name": "닥스메디",
+            "adCount": 1
+          },
+          {
+            "name": "어바인랩 Irvinelab",
+            "adCount": 1
+          },
+          {
+            "name": "엣츠",
+            "adCount": 1
+          },
+          {
+            "name": "유네미",
+            "adCount": 1
+          },
+          {
+            "name": "제로가이드",
+            "adCount": 1
+          },
+          {
+            "name": "조앤픽 맛 여행 기록",
+            "adCount": 1
+          },
+          {
+            "name": "토르",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -15677,17 +16840,1180 @@
       "rankWindow": 100,
       "observedAt": "2026-10-11T00:35:21+00:00",
       "lastObservedAt": "2026-10-11T00:35:21+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "f8631d161aad4aaae45cfa8218ed67f270159e2f046a6ec4706c7f4fc72b0ad5",
       "searchQuery": "구강유산균",
       "adEvidence": {
         "query": "구강유산균",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 100,
+        "adIds": [
+          "1720559542379640",
+          "1063324616604614",
+          "2633444783764480",
+          "2329498137869797",
+          "1596807742147540",
+          "1620414589514395",
+          "1594531258779389",
+          "1699711287774514",
+          "1451600593618676",
+          "1164102309218443",
+          "1409852527917464",
+          "27485041501122819",
+          "2040359236589825",
+          "1061147416554315",
+          "2978506639160509",
+          "1547419427137555",
+          "1479013284057369",
+          "1086173000775996",
+          "1727758141745963",
+          "1564509878810119",
+          "2968493056821273",
+          "1745678266555993",
+          "1110979432109239",
+          "4538329476449196",
+          "2334547240631732",
+          "1987225022123849",
+          "1624178729499147",
+          "1549568293215943",
+          "4444563849116812",
+          "1755381692347277",
+          "1813290933305074",
+          "2257773018345902",
+          "1120969610506297",
+          "2324653904997723",
+          "1554536029687342",
+          "1464817085541113",
+          "28854055640878852",
+          "1400297442231520",
+          "1819307305717447",
+          "1596197558834851",
+          "956427410190728",
+          "1130585432983715",
+          "1648727320387632",
+          "1504850624808538",
+          "844068818695423",
+          "2184213725836839",
+          "1073535431965068",
+          "2833984973627896",
+          "2441337296377410",
+          "1393944902255585",
+          "2630029664080064",
+          "1545483677201490",
+          "1148759214144243",
+          "2168204964118696",
+          "1899979747634163",
+          "2028550787787270",
+          "1125582290413126",
+          "1460378799313926",
+          "1356095746265401",
+          "1683005206271647",
+          "1712399656686701",
+          "801693589540955",
+          "1842220900743989",
+          "1841385570363061",
+          "1823449778661189",
+          "4746610238958443",
+          "2889423141415831",
+          "1387571733349670",
+          "2447577095746238",
+          "1764437338105773",
+          "1649957450053173",
+          "1150507567308303",
+          "1080048174804050",
+          "1626755215469029",
+          "1052802193797171",
+          "1632736138359572",
+          "1040470268807292",
+          "1766769474566531",
+          "1700392074409803",
+          "2712623835799955",
+          "1505699867604030",
+          "2207854309771714",
+          "1490426933140981",
+          "1811413376524427",
+          "947679177606298",
+          "1313387017647860",
+          "1546194736945930",
+          "1363661420158305",
+          "1123184290161952",
+          "1054887090210548",
+          "1593991305696889",
+          "881987678324468",
+          "1379613997462171",
+          "955322894215141",
+          "1555122109270094",
+          "1401932011803042",
+          "1080973885107544",
+          "1737706490769990",
+          "1504491744815549",
+          "1166086165730894"
+        ],
+        "ads": [
+          {
+            "id": "1720559542379640",
+            "advertiser": "Límpialo",
+            "startedAt": "2026-09-28",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:36+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1063324616604614",
+            "advertiser": "Bebe Holding Company Inc.",
+            "startedAt": "2026-10-06",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:35+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:35+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2633444783764480",
+            "advertiser": "Límpialo",
+            "startedAt": "2026-10-02",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:34+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2329498137869797",
+            "advertiser": "Luvchaei",
+            "startedAt": "2026-09-14",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:34+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1596807742147540",
+            "advertiser": "Zion8.13",
+            "startedAt": "2026-08-18",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:34+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1620414589514395",
+            "advertiser": "고양이건강상식",
+            "startedAt": "2026-08-27",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:33+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1594531258779389",
+            "advertiser": "멍스타그램",
+            "startedAt": "2026-08-18",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:33+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1699711287774514",
+            "advertiser": "Límpialo",
+            "startedAt": "2026-09-02",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:32+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1451600593618676",
+            "advertiser": "Límpialo",
+            "startedAt": "2026-10-04",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:32+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:32+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1164102309218443",
+            "advertiser": "멍스타그램",
+            "startedAt": "2025-12-11",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:31+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1409852527917464",
+            "advertiser": "Límpialo",
+            "startedAt": "2026-10-06",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:22+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:22+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "27485041501122819",
+            "advertiser": "구강건강꿀팁",
+            "startedAt": "2026-07-29",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:21+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2040359236589825",
+            "advertiser": "Bebe Holding Company Inc.",
+            "startedAt": "2026-08-18",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:20+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1061147416554315",
+            "advertiser": "Губы",
+            "startedAt": "2026-09-28",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:20+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2978506639160509",
+            "advertiser": "건강템연구중",
+            "startedAt": "2026-09-29",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:19+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1547419427137555",
+            "advertiser": "위바이옴",
+            "startedAt": "2026-10-04",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:19+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:19+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1479013284057369",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-10-04",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:19+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:19+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1086173000775996",
+            "advertiser": "Bebe Holding Company Inc.",
+            "startedAt": "2026-09-10",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:19+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1727758141745963",
+            "advertiser": "Bebe Holding Company Inc.",
+            "startedAt": "2026-06-30",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:18+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1564509878810119",
+            "advertiser": "덴티조이",
+            "startedAt": "2026-10-08",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:18+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:18+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2968493056821273",
+            "advertiser": "Fresh.mate",
+            "startedAt": "2026-10-05",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:09+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:09+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1745678266555993",
+            "advertiser": "Siriusnewstar",
+            "startedAt": "2026-08-20",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:09+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1110979432109239",
+            "advertiser": "올영세일추천템",
+            "startedAt": "2026-07-10",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:09+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4538329476449196",
+            "advertiser": "Bebe Holding Company Inc.",
+            "startedAt": "2026-07-13",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:08+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2334547240631732",
+            "advertiser": "댕냥이는사랑",
+            "startedAt": "2026-09-30",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:07+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1987225022123849",
+            "advertiser": "멍스타그램",
+            "startedAt": "2025-12-04",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:07+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1624178729499147",
+            "advertiser": "닥스메디",
+            "startedAt": "2026-10-06",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:07+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:07+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1549568293215943",
+            "advertiser": "강아지건강상식",
+            "startedAt": "2026-07-03",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:07+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4444563849116812",
+            "advertiser": "Губы",
+            "startedAt": "2026-10-06",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:06+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:06+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1755381692347277",
+            "advertiser": "건강템연구중",
+            "startedAt": "2026-09-29",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:53:06+00:00",
+            "lastCollectedAt": "2026-10-11T10:53:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1813290933305074",
+            "advertiser": "건강템연구중",
+            "startedAt": "2026-10-01",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:57+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2257773018345902",
+            "advertiser": "Губы",
+            "startedAt": "2026-10-06",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:56+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:56+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1120969610506297",
+            "advertiser": "어바인랩 Irvinelab",
+            "startedAt": "2026-10-01",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:56+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2324653904997723",
+            "advertiser": "Límpialo",
+            "startedAt": "2026-10-06",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:55+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:55+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1554536029687342",
+            "advertiser": "luv_xxo_",
+            "startedAt": "2026-08-13",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:55+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1464817085541113",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-04",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:55+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:55+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "28854055640878852",
+            "advertiser": "구강건강꿀팁",
+            "startedAt": "2026-09-30",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:54+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1400297442231520",
+            "advertiser": "Губы",
+            "startedAt": "2026-10-06",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:54+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1819307305717447",
+            "advertiser": "Denomics",
+            "startedAt": "2026-08-11",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:53+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1596197558834851",
+            "advertiser": "Denomics",
+            "startedAt": "2026-08-12",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:53+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "956427410190728",
+            "advertiser": "Denomics",
+            "startedAt": "2026-08-11",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:45+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1130585432983715",
+            "advertiser": "Губы",
+            "startedAt": "2026-10-07",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:45+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:45+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1648727320387632",
+            "advertiser": "댕냥이는사랑",
+            "startedAt": "2026-09-09",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:44+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1504850624808538",
+            "advertiser": "Губы",
+            "startedAt": "2026-10-06",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:44+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:44+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "844068818695423",
+            "advertiser": "CoreLabs",
+            "startedAt": "2026-08-28",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:43+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2184213725836839",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-04",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:43+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1073535431965068",
+            "advertiser": "Губы",
+            "startedAt": "2026-10-07",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:43+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2833984973627896",
+            "advertiser": "CoreLabs",
+            "startedAt": "2026-08-27",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:42+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2441337296377410",
+            "advertiser": "올영세일추천템",
+            "startedAt": "2026-06-18",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:42+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1393944902255585",
+            "advertiser": "Kibumik",
+            "startedAt": "2026-09-21",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:42+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2630029664080064",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-08-27",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:32+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1545483677201490",
+            "advertiser": "경동제약",
+            "startedAt": "2026-06-09",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:32+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1148759214144243",
+            "advertiser": "market_oli",
+            "startedAt": "2026-10-01",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:32+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2168204964118696",
+            "advertiser": "위바이옴",
+            "startedAt": "2026-10-04",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:31+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:31+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1899979747634163",
+            "advertiser": "Губы",
+            "startedAt": "2026-09-27",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:31+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2028550787787270",
+            "advertiser": "댕냥이는사랑",
+            "startedAt": "2026-08-17",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:30+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1125582290413126",
+            "advertiser": "Bebe Holding Company Inc.",
+            "startedAt": "2026-10-06",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:30+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:30+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1460378799313926",
+            "advertiser": "Límpialo",
+            "startedAt": "2026-10-08",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:29+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:29+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1356095746265401",
+            "advertiser": "Губы",
+            "startedAt": "2026-09-04",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:29+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1683005206271647",
+            "advertiser": "올영세일추천템",
+            "startedAt": "2026-06-12",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:28+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1712399656686701",
+            "advertiser": "올영세일추천템",
+            "startedAt": "2026-08-05",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:21+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "801693589540955",
+            "advertiser": "Yourvet",
+            "startedAt": "2026-05-31",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:20+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1842220900743989",
+            "advertiser": "조앤픽 맛 여행 기록",
+            "startedAt": "2026-10-06",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:20+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:20+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1841385570363061",
+            "advertiser": "Bebe Holding Company Inc.",
+            "startedAt": "2026-10-07",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:19+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:19+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1823449778661189",
+            "advertiser": "위바이옴",
+            "startedAt": "2026-10-04",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:19+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:19+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4746610238958443",
+            "advertiser": "P.zjzbals",
+            "startedAt": "2026-09-02",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:18+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2889423141415831",
+            "advertiser": "Bebe Holding Company Inc.",
+            "startedAt": "2026-09-30",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:18+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1387571733349670",
+            "advertiser": "댕냥이는사랑",
+            "startedAt": "2026-08-15",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:18+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2447577095746238",
+            "advertiser": "엣츠",
+            "startedAt": "2026-06-02",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:17+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1764437338105773",
+            "advertiser": "라이브오랄스",
+            "startedAt": "2026-10-05",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:16+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:16+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1649957450053173",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-09",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:09+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1150507567308303",
+            "advertiser": "Osstem Oxchi",
+            "startedAt": "2026-10-06",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:09+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:09+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1080048174804050",
+            "advertiser": "Límpialo",
+            "startedAt": "2026-10-07",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:09+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:09+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1626755215469029",
+            "advertiser": "Osstem Oxchi",
+            "startedAt": "2026-10-06",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:08+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:08+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1052802193797171",
+            "advertiser": "ন९क",
+            "startedAt": "2026-08-05",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:08+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1632736138359572",
+            "advertiser": "구강건강꿀팁",
+            "startedAt": "2026-10-03",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:07+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1040470268807292",
+            "advertiser": "멍스타그램",
+            "startedAt": "2026-08-28",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:07+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1766769474566531",
+            "advertiser": "올영세일추천템",
+            "startedAt": "2026-08-28",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:06+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1700392074409803",
+            "advertiser": "댕냥이는사랑",
+            "startedAt": "2026-08-12",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:06+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2712623835799955",
+            "advertiser": "Pdjin",
+            "startedAt": "2026-09-15",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:05+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1505699867604030",
+            "advertiser": "댕냥이는사랑",
+            "startedAt": "2026-05-27",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:52:00+00:00",
+            "lastCollectedAt": "2026-10-11T10:52:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2207854309771714",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-30",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:51:59+00:00",
+            "lastCollectedAt": "2026-10-11T10:51:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1490426933140981",
+            "advertiser": "제로가이드",
+            "startedAt": "2026-10-05",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:51:59+00:00",
+            "lastCollectedAt": "2026-10-11T10:51:59+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1811413376524427",
+            "advertiser": "토르",
+            "startedAt": "2026-09-16",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:51:56+00:00",
+            "lastCollectedAt": "2026-10-11T10:51:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "947679177606298",
+            "advertiser": "Bebe Holding Company Inc.",
+            "startedAt": "2026-08-28",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:51:55+00:00",
+            "lastCollectedAt": "2026-10-11T10:51:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1313387017647860",
+            "advertiser": "고양이건강상식",
+            "startedAt": "2026-05-29",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:51:55+00:00",
+            "lastCollectedAt": "2026-10-11T10:51:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1546194736945930",
+            "advertiser": "ন९क",
+            "startedAt": "2026-07-09",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:51:54+00:00",
+            "lastCollectedAt": "2026-10-11T10:51:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1363661420158305",
+            "advertiser": "구강건강꿀팁",
+            "startedAt": "2026-09-16",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:51:54+00:00",
+            "lastCollectedAt": "2026-10-11T10:51:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1123184290161952",
+            "advertiser": "라이브오랄스",
+            "startedAt": "2026-10-05",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:51:53+00:00",
+            "lastCollectedAt": "2026-10-11T10:51:53+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1054887090210548",
+            "advertiser": "구강의모든이야기",
+            "startedAt": "2026-07-21",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:51:53+00:00",
+            "lastCollectedAt": "2026-10-11T10:51:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1593991305696889",
+            "advertiser": "유네미",
+            "startedAt": "2026-08-05",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:51:48+00:00",
+            "lastCollectedAt": "2026-10-11T10:51:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "881987678324468",
+            "advertiser": "종근당",
+            "startedAt": "2026-07-31",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:51:47+00:00",
+            "lastCollectedAt": "2026-10-11T10:51:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1379613997462171",
+            "advertiser": "Límpialo",
+            "startedAt": "2026-07-30",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:51:47+00:00",
+            "lastCollectedAt": "2026-10-11T10:51:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "955322894215141",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-04",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:51:46+00:00",
+            "lastCollectedAt": "2026-10-11T10:51:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1555122109270094",
+            "advertiser": "Límpialo",
+            "startedAt": "2026-09-17",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:51:46+00:00",
+            "lastCollectedAt": "2026-10-11T10:51:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1401932011803042",
+            "advertiser": "Korea vd",
+            "startedAt": "2026-07-27",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:51:45+00:00",
+            "lastCollectedAt": "2026-10-11T10:51:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1080973885107544",
+            "advertiser": "덴티조이",
+            "startedAt": "2026-05-29",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:51:45+00:00",
+            "lastCollectedAt": "2026-10-11T10:51:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1737706490769990",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-01",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:51:44+00:00",
+            "lastCollectedAt": "2026-10-11T10:51:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1504491744815549",
+            "advertiser": "Korea vd",
+            "startedAt": "2026-07-27",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:51:44+00:00",
+            "lastCollectedAt": "2026-10-11T10:51:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1166086165730894",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-30",
+            "query": "구강유산균",
+            "firstCollectedAt": "2026-10-11T10:51:44+00:00",
+            "lastCollectedAt": "2026-10-11T10:51:44+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-11T10:53:36+00:00",
+        "advertisers": [
+          {
+            "name": "Límpialo",
+            "adCount": 10
+          },
+          {
+            "name": "Bebe Holding Company Inc.",
+            "adCount": 9
+          },
+          {
+            "name": "Губы",
+            "adCount": 9
+          },
+          {
+            "name": "댕냥이는사랑",
+            "adCount": 6
+          },
+          {
+            "name": "종근당",
+            "adCount": 6
+          },
+          {
+            "name": "올영세일추천템",
+            "adCount": 5
+          },
+          {
+            "name": "구강건강꿀팁",
+            "adCount": 4
+          },
+          {
+            "name": "멍스타그램",
+            "adCount": 4
+          },
+          {
+            "name": "Denomics",
+            "adCount": 3
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 3
+          },
+          {
+            "name": "건강템연구중",
+            "adCount": 3
+          },
+          {
+            "name": "위바이옴",
+            "adCount": 3
+          },
+          {
+            "name": "CoreLabs",
+            "adCount": 2
+          },
+          {
+            "name": "Korea vd",
+            "adCount": 2
+          },
+          {
+            "name": "Osstem Oxchi",
+            "adCount": 2
+          },
+          {
+            "name": "ন९क",
+            "adCount": 2
+          },
+          {
+            "name": "고양이건강상식",
+            "adCount": 2
+          },
+          {
+            "name": "덴티조이",
+            "adCount": 2
+          },
+          {
+            "name": "라이브오랄스",
+            "adCount": 2
+          },
+          {
+            "name": "Fresh.mate",
+            "adCount": 1
+          },
+          {
+            "name": "Kibumik",
+            "adCount": 1
+          },
+          {
+            "name": "Luvchaei",
+            "adCount": 1
+          },
+          {
+            "name": "P.zjzbals",
+            "adCount": 1
+          },
+          {
+            "name": "Pdjin",
+            "adCount": 1
+          },
+          {
+            "name": "Siriusnewstar",
+            "adCount": 1
+          },
+          {
+            "name": "Yourvet",
+            "adCount": 1
+          },
+          {
+            "name": "Zion8.13",
+            "adCount": 1
+          },
+          {
+            "name": "luv_xxo_",
+            "adCount": 1
+          },
+          {
+            "name": "market_oli",
+            "adCount": 1
+          },
+          {
+            "name": "강아지건강상식",
+            "adCount": 1
+          },
+          {
+            "name": "경동제약",
+            "adCount": 1
+          },
+          {
+            "name": "구강의모든이야기",
+            "adCount": 1
+          },
+          {
+            "name": "내츄럴플러스",
+            "adCount": 1
+          },
+          {
+            "name": "닥스메디",
+            "adCount": 1
+          },
+          {
+            "name": "어바인랩 Irvinelab",
+            "adCount": 1
+          },
+          {
+            "name": "엣츠",
+            "adCount": 1
+          },
+          {
+            "name": "유네미",
+            "adCount": 1
+          },
+          {
+            "name": "제로가이드",
+            "adCount": 1
+          },
+          {
+            "name": "조앤픽 맛 여행 기록",
+            "adCount": 1
+          },
+          {
+            "name": "토르",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
