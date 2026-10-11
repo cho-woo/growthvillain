@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-11T08:19:51+00:00",
+  "updatedAt": "2026-10-11T08:23:22+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-11T00:35:53+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 16,
-    "dailyRemaining": 272,
+    "dailyUsed": 17,
+    "dailyRemaining": 271,
     "pending": 0,
-    "nextDispatchAt": "2026-10-11T08:22:51+00:00",
+    "nextDispatchAt": "2026-10-11T08:27:53+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -6355,17 +6355,48 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "done",
       "keywordId": "c1604200f87af7550b1dc531b51045e70cd3d5a83f40acf14d9c6f74cb569445",
       "searchQuery": "분리유청단백질",
       "adEvidence": {
         "query": "분리유청단백질",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 2,
+        "adIds": [
+          "2184933699106740",
+          "2938969903106672"
+        ],
+        "ads": [
+          {
+            "id": "2184933699106740",
+            "advertiser": "모닝파파-시환이아빠",
+            "startedAt": "2026-09-14",
+            "query": "분리유청단백질",
+            "firstCollectedAt": "2026-10-11T08:23:03+00:00",
+            "lastCollectedAt": "2026-10-11T08:23:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2938969903106672",
+            "advertiser": "BSN Supplements Korea",
+            "startedAt": "2026-09-30",
+            "query": "분리유청단백질",
+            "firstCollectedAt": "2026-10-11T08:23:02+00:00",
+            "lastCollectedAt": "2026-10-11T08:23:02+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-11T08:23:03+00:00",
+        "advertisers": [
+          {
+            "name": "BSN Supplements Korea",
+            "adCount": 1
+          },
+          {
+            "name": "모닝파파-시환이아빠",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -8391,17 +8422,48 @@
       "rankWindow": 100,
       "observedAt": "2026-10-11T00:35:53+00:00",
       "lastObservedAt": "2026-10-11T00:35:53+00:00",
-      "state": "ready",
+      "state": "done",
       "keywordId": "c1604200f87af7550b1dc531b51045e70cd3d5a83f40acf14d9c6f74cb569445",
       "searchQuery": "분리유청단백질",
       "adEvidence": {
         "query": "분리유청단백질",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 2,
+        "adIds": [
+          "2184933699106740",
+          "2938969903106672"
+        ],
+        "ads": [
+          {
+            "id": "2184933699106740",
+            "advertiser": "모닝파파-시환이아빠",
+            "startedAt": "2026-09-14",
+            "query": "분리유청단백질",
+            "firstCollectedAt": "2026-10-11T08:23:03+00:00",
+            "lastCollectedAt": "2026-10-11T08:23:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2938969903106672",
+            "advertiser": "BSN Supplements Korea",
+            "startedAt": "2026-09-30",
+            "query": "분리유청단백질",
+            "firstCollectedAt": "2026-10-11T08:23:02+00:00",
+            "lastCollectedAt": "2026-10-11T08:23:02+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-11T08:23:03+00:00",
+        "advertisers": [
+          {
+            "name": "BSN Supplements Korea",
+            "adCount": 1
+          },
+          {
+            "name": "모닝파파-시환이아빠",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
