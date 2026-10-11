@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-11T12:30:32+00:00",
+  "updatedAt": "2026-10-11T12:31:04+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-11T00:35:53+00:00",
@@ -43,20 +43,20 @@
     "backlogDays": 14,
     "dailyUsed": 26,
     "dailyRemaining": 262,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-11T13:31:03+00:00",
     "metaAutoEnabled": true,
-    "enabled": true,
+    "enabled": false,
     "collectionGuard": {
-      "state": "ready",
-      "reason": null,
-      "nextAllowedAt": null,
-      "blockedUntil": null,
-      "blockStreak": 0,
+      "state": "blocked",
+      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
+      "nextAllowedAt": "2026-10-11T13:31:03+00:00",
+      "blockedUntil": "2026-10-11T13:31:03+00:00",
+      "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": null
+    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
   },
   "settings": {
     "category": "50000023",
@@ -11901,7 +11901,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "failed",
       "keywordId": "00e43bb040a9faef0bbe7996731ed7206b0173da0fec820a4533418ca049296f",
       "searchQuery": "셀렉스프로핏wpi",
       "adEvidence": {
@@ -14720,7 +14720,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-11T00:35:53+00:00",
       "lastObservedAt": "2026-10-11T00:35:53+00:00",
-      "state": "queued",
+      "state": "failed",
       "keywordId": "00e43bb040a9faef0bbe7996731ed7206b0173da0fec820a4533418ca049296f",
       "searchQuery": "셀렉스프로핏wpi",
       "adEvidence": {
