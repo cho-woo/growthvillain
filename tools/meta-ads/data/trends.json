@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-11T22:48:54+00:00",
+  "updatedAt": "2026-10-11T22:52:22+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-11T22:48:53+00:00",
@@ -41,22 +41,22 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 15,
-    "dailyRemaining": 273,
+    "dailyUsed": 16,
+    "dailyRemaining": 272,
     "pending": 0,
-    "nextDispatchAt": "2026-10-11T22:51:28+00:00",
+    "nextDispatchAt": "2026-10-11T22:56:29+00:00",
     "metaAutoEnabled": true,
-    "enabled": false,
+    "enabled": true,
     "collectionGuard": {
-      "state": "failure",
-      "reason": "Meta 조회 오류 · 5분 대기 후 다음 작업 확인",
-      "nextAllowedAt": "2026-10-11T22:51:28+00:00",
+      "state": "ready",
+      "reason": null,
+      "nextAllowedAt": null,
       "blockedUntil": null,
       "blockStreak": 0,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": "Meta 조회 오류 · 5분 대기 후 다음 작업 확인"
+    "pausedReason": null
   },
   "settings": {
     "category": "50000023",
@@ -5695,44 +5695,46 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "done",
       "keywordId": "cf7f5635a38ad217a8aa25f9be3a8a95c82f08486a73664657cd7a27cab9ede4",
       "searchQuery": "침향환",
       "adEvidence": {
         "query": "침향환",
         "matchType": "collected-with-query",
-        "adCount": 37,
+        "adCount": 39,
         "adIds": [
           "1140933961787063",
+          "1760675671892000",
           "1394013727124700",
           "1045273544934028",
           "2294845428006454",
-          "1760675671892000",
+          "2086666152218369",
           "1663895741911350",
-          "1434780324866008",
           "1062130026828199",
-          "2003991684337455",
           "1631954731664489",
-          "1801361140953547",
+          "2003991684337455",
           "1660622885048359",
           "2995579087448748",
-          "2063574917664778",
           "1969287627079000",
+          "1801361140953547",
           "1272268551645368",
-          "1035974762868086",
           "859702577168985",
-          "4527306947514380",
           "29157164603972272",
+          "2063574917664778",
+          "4527306947514380",
           "1344520917648366",
-          "2207854309771714",
+          "1035974762868086",
           "1718661182680475",
-          "1598460718726052",
           "739933079116652",
           "27788306264140233",
-          "2468978510274334",
+          "2207854309771714",
           "27166657842976079",
+          "1767027160989111",
           "2194590560945407",
           "1008758698224010",
+          "1434780324866008",
+          "1598460718726052",
+          "2468978510274334",
           "1462384749039964",
           "1670051234733189",
           "4092463721054625",
@@ -5748,34 +5750,7 @@
             "startedAt": "2026-10-06",
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:30:23+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:22+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1394013727124700",
-            "advertiser": "비타민마을",
-            "startedAt": "2026-10-06",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:21+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1045273544934028",
-            "advertiser": "늘푸른케어",
-            "startedAt": "2026-08-26",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:21+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2294845428006454",
-            "advertiser": "비타민마을",
-            "startedAt": "2026-10-06",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:20+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:59+00:00",
             "startTiming": "during-window"
           },
           {
@@ -5784,8 +5759,44 @@
             "startedAt": "2026-10-06",
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:30:22+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:20+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:58+00:00",
             "startTiming": "during-window"
+          },
+          {
+            "id": "1394013727124700",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:58+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1045273544934028",
+            "advertiser": "늘푸른케어",
+            "startedAt": "2026-08-26",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2294845428006454",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:57+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2086666152218369",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-11",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-11T22:51:57+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:57+00:00",
+            "startTiming": "after-window"
           },
           {
             "id": "1663895741911350",
@@ -5793,8 +5804,206 @@
             "startedAt": "2026-10-06",
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:30:09+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:20+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:57+00:00",
             "startTiming": "during-window"
+          },
+          {
+            "id": "1062130026828199",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:07+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:57+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1631954731664489",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:56+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2003991684337455",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:45+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1660622885048359",
+            "advertiser": "늘푸른케어",
+            "startedAt": "2026-06-24",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:02+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2995579087448748",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:09+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:44+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1969287627079000",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:44+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1801361140953547",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:44+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1272268551645368",
+            "advertiser": "조선비책",
+            "startedAt": "2026-06-17",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "859702577168985",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "29157164603972272",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2063574917664778",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4527306947514380",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:42+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1344520917648366",
+            "advertiser": "늘푸른케어",
+            "startedAt": "2026-06-29",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:56+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1035974762868086",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:38+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1718661182680475",
+            "advertiser": "조선비책",
+            "startedAt": "2026-06-16",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "739933079116652",
+            "advertiser": "오나한",
+            "startedAt": "2025-11-25",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27788306264140233",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-03",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2207854309771714",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-30",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27166657842976079",
+            "advertiser": "조선비책",
+            "startedAt": "2026-06-16",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1767027160989111",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-01",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-11T22:51:35+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2194590560945407",
+            "advertiser": "홍동비책",
+            "startedAt": "2026-06-10",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1008758698224010",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:34+00:00",
+            "startTiming": "before-window"
           },
           {
             "id": "1434780324866008",
@@ -5806,150 +6015,6 @@
             "startTiming": "during-window"
           },
           {
-            "id": "1062130026828199",
-            "advertiser": "비타민마을",
-            "startedAt": "2026-10-06",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:07+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:19+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "2003991684337455",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:18+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1631954731664489",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:18+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1801361140953547",
-            "advertiser": "비타민마을",
-            "startedAt": "2026-10-06",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:13+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1660622885048359",
-            "advertiser": "늘푸른케어",
-            "startedAt": "2026-06-24",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:02+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:13+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2995579087448748",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:09+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:12+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "2063574917664778",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:12+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1969287627079000",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:11+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1272268551645368",
-            "advertiser": "조선비책",
-            "startedAt": "2026-06-17",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:11+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1035974762868086",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:11+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "859702577168985",
-            "advertiser": "비타민마을",
-            "startedAt": "2026-10-06",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:10+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "4527306947514380",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:10+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "29157164603972272",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:10+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1344520917648366",
-            "advertiser": "늘푸른케어",
-            "startedAt": "2026-06-29",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:56+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:05+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2207854309771714",
-            "advertiser": "종근당",
-            "startedAt": "2026-09-30",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:04+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1718661182680475",
-            "advertiser": "조선비책",
-            "startedAt": "2026-06-16",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:04+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "1598460718726052",
             "advertiser": "종근당",
             "startedAt": "2026-10-01",
@@ -5959,57 +6024,12 @@
             "startTiming": "before-window"
           },
           {
-            "id": "739933079116652",
-            "advertiser": "오나한",
-            "startedAt": "2025-11-25",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:03+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "27788306264140233",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-07-03",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:03+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "2468978510274334",
             "advertiser": "한약사가 만드는 한방식품 - 설아래",
             "startedAt": "2026-08-13",
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:29:54+00:00",
             "lastCollectedAt": "2026-10-10T15:03:03+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "27166657842976079",
-            "advertiser": "조선비책",
-            "startedAt": "2026-06-16",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:01+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2194590560945407",
-            "advertiser": "홍동비책",
-            "startedAt": "2026-06-10",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:01+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1008758698224010",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:01+00:00",
             "startTiming": "before-window"
           },
           {
@@ -6076,7 +6096,7 @@
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-10T15:03:22+00:00",
+        "lastCollectedAt": "2026-10-11T22:51:59+00:00",
         "advertisers": [
           {
             "name": "비타민마을",
@@ -6088,11 +6108,11 @@
           },
           {
             "name": "종근당",
-            "adCount": 7
+            "adCount": 8
           },
           {
             "name": "Naverplus.store",
-            "adCount": 3
+            "adCount": 4
           },
           {
             "name": "늘푸른케어",
@@ -23136,44 +23156,46 @@
       "rankWindow": 100,
       "observedAt": "2026-10-11T00:35:21+00:00",
       "lastObservedAt": "2026-10-11T22:48:09+00:00",
-      "state": "backlog",
+      "state": "done",
       "keywordId": "cf7f5635a38ad217a8aa25f9be3a8a95c82f08486a73664657cd7a27cab9ede4",
       "searchQuery": "침향환",
       "adEvidence": {
         "query": "침향환",
         "matchType": "collected-with-query",
-        "adCount": 37,
+        "adCount": 39,
         "adIds": [
           "1140933961787063",
+          "1760675671892000",
           "1394013727124700",
           "1045273544934028",
           "2294845428006454",
-          "1760675671892000",
+          "2086666152218369",
           "1663895741911350",
-          "1434780324866008",
           "1062130026828199",
-          "2003991684337455",
           "1631954731664489",
-          "1801361140953547",
+          "2003991684337455",
           "1660622885048359",
           "2995579087448748",
-          "2063574917664778",
           "1969287627079000",
+          "1801361140953547",
           "1272268551645368",
-          "1035974762868086",
           "859702577168985",
-          "4527306947514380",
           "29157164603972272",
+          "2063574917664778",
+          "4527306947514380",
           "1344520917648366",
-          "2207854309771714",
+          "1035974762868086",
           "1718661182680475",
-          "1598460718726052",
           "739933079116652",
           "27788306264140233",
-          "2468978510274334",
+          "2207854309771714",
           "27166657842976079",
+          "1767027160989111",
           "2194590560945407",
           "1008758698224010",
+          "1434780324866008",
+          "1598460718726052",
+          "2468978510274334",
           "1462384749039964",
           "1670051234733189",
           "4092463721054625",
@@ -23189,34 +23211,7 @@
             "startedAt": "2026-10-06",
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:30:23+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:22+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1394013727124700",
-            "advertiser": "비타민마을",
-            "startedAt": "2026-10-06",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:21+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1045273544934028",
-            "advertiser": "늘푸른케어",
-            "startedAt": "2026-08-26",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:21+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2294845428006454",
-            "advertiser": "비타민마을",
-            "startedAt": "2026-10-06",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:20+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:59+00:00",
             "startTiming": "during-window"
           },
           {
@@ -23225,8 +23220,44 @@
             "startedAt": "2026-10-06",
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:30:22+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:20+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:58+00:00",
             "startTiming": "during-window"
+          },
+          {
+            "id": "1394013727124700",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:58+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1045273544934028",
+            "advertiser": "늘푸른케어",
+            "startedAt": "2026-08-26",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2294845428006454",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:57+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2086666152218369",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-11",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-11T22:51:57+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:57+00:00",
+            "startTiming": "after-window"
           },
           {
             "id": "1663895741911350",
@@ -23234,8 +23265,206 @@
             "startedAt": "2026-10-06",
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:30:09+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:20+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:57+00:00",
             "startTiming": "during-window"
+          },
+          {
+            "id": "1062130026828199",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:07+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:57+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1631954731664489",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:56+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2003991684337455",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:45+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1660622885048359",
+            "advertiser": "늘푸른케어",
+            "startedAt": "2026-06-24",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:02+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2995579087448748",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:09+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:44+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1969287627079000",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:44+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1801361140953547",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:44+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1272268551645368",
+            "advertiser": "조선비책",
+            "startedAt": "2026-06-17",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "859702577168985",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "29157164603972272",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2063574917664778",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4527306947514380",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:42+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1344520917648366",
+            "advertiser": "늘푸른케어",
+            "startedAt": "2026-06-29",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:56+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1035974762868086",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:38+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1718661182680475",
+            "advertiser": "조선비책",
+            "startedAt": "2026-06-16",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "739933079116652",
+            "advertiser": "오나한",
+            "startedAt": "2025-11-25",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27788306264140233",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-03",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2207854309771714",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-30",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27166657842976079",
+            "advertiser": "조선비책",
+            "startedAt": "2026-06-16",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1767027160989111",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-01",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-11T22:51:35+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2194590560945407",
+            "advertiser": "홍동비책",
+            "startedAt": "2026-06-10",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1008758698224010",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:34+00:00",
+            "startTiming": "before-window"
           },
           {
             "id": "1434780324866008",
@@ -23247,150 +23476,6 @@
             "startTiming": "during-window"
           },
           {
-            "id": "1062130026828199",
-            "advertiser": "비타민마을",
-            "startedAt": "2026-10-06",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:07+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:19+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "2003991684337455",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:18+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1631954731664489",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:18+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1801361140953547",
-            "advertiser": "비타민마을",
-            "startedAt": "2026-10-06",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:13+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1660622885048359",
-            "advertiser": "늘푸른케어",
-            "startedAt": "2026-06-24",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:02+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:13+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2995579087448748",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:09+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:12+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "2063574917664778",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:12+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1969287627079000",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:11+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1272268551645368",
-            "advertiser": "조선비책",
-            "startedAt": "2026-06-17",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:11+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1035974762868086",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:11+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "859702577168985",
-            "advertiser": "비타민마을",
-            "startedAt": "2026-10-06",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:10+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "4527306947514380",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:10+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "29157164603972272",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:10+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1344520917648366",
-            "advertiser": "늘푸른케어",
-            "startedAt": "2026-06-29",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:56+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:05+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2207854309771714",
-            "advertiser": "종근당",
-            "startedAt": "2026-09-30",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:04+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1718661182680475",
-            "advertiser": "조선비책",
-            "startedAt": "2026-06-16",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:04+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "1598460718726052",
             "advertiser": "종근당",
             "startedAt": "2026-10-01",
@@ -23400,57 +23485,12 @@
             "startTiming": "before-window"
           },
           {
-            "id": "739933079116652",
-            "advertiser": "오나한",
-            "startedAt": "2025-11-25",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:03+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "27788306264140233",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-07-03",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:03+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "2468978510274334",
             "advertiser": "한약사가 만드는 한방식품 - 설아래",
             "startedAt": "2026-08-13",
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:29:54+00:00",
             "lastCollectedAt": "2026-10-10T15:03:03+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "27166657842976079",
-            "advertiser": "조선비책",
-            "startedAt": "2026-06-16",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:01+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2194590560945407",
-            "advertiser": "홍동비책",
-            "startedAt": "2026-06-10",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:01+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1008758698224010",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:01+00:00",
             "startTiming": "before-window"
           },
           {
@@ -23517,7 +23557,7 @@
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-10T15:03:22+00:00",
+        "lastCollectedAt": "2026-10-11T22:51:59+00:00",
         "advertisers": [
           {
             "name": "비타민마을",
@@ -23529,11 +23569,11 @@
           },
           {
             "name": "종근당",
-            "adCount": 7
+            "adCount": 8
           },
           {
             "name": "Naverplus.store",
-            "adCount": 3
+            "adCount": 4
           },
           {
             "name": "늘푸른케어",
@@ -51226,38 +51266,40 @@
       "adEvidence": {
         "query": "침향환",
         "matchType": "collected-with-query",
-        "adCount": 37,
+        "adCount": 39,
         "adIds": [
           "1140933961787063",
+          "1760675671892000",
           "1394013727124700",
           "1045273544934028",
           "2294845428006454",
-          "1760675671892000",
+          "2086666152218369",
           "1663895741911350",
-          "1434780324866008",
           "1062130026828199",
-          "2003991684337455",
           "1631954731664489",
-          "1801361140953547",
+          "2003991684337455",
           "1660622885048359",
           "2995579087448748",
-          "2063574917664778",
           "1969287627079000",
+          "1801361140953547",
           "1272268551645368",
-          "1035974762868086",
           "859702577168985",
-          "4527306947514380",
           "29157164603972272",
+          "2063574917664778",
+          "4527306947514380",
           "1344520917648366",
-          "2207854309771714",
+          "1035974762868086",
           "1718661182680475",
-          "1598460718726052",
           "739933079116652",
           "27788306264140233",
-          "2468978510274334",
+          "2207854309771714",
           "27166657842976079",
+          "1767027160989111",
           "2194590560945407",
           "1008758698224010",
+          "1434780324866008",
+          "1598460718726052",
+          "2468978510274334",
           "1462384749039964",
           "1670051234733189",
           "4092463721054625",
@@ -51273,34 +51315,7 @@
             "startedAt": "2026-10-06",
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:30:23+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:22+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1394013727124700",
-            "advertiser": "비타민마을",
-            "startedAt": "2026-10-06",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:21+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1045273544934028",
-            "advertiser": "늘푸른케어",
-            "startedAt": "2026-08-26",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:21+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2294845428006454",
-            "advertiser": "비타민마을",
-            "startedAt": "2026-10-06",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:20+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:59+00:00",
             "startTiming": "during-window"
           },
           {
@@ -51309,8 +51324,44 @@
             "startedAt": "2026-10-06",
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:30:22+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:20+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:58+00:00",
             "startTiming": "during-window"
+          },
+          {
+            "id": "1394013727124700",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:58+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1045273544934028",
+            "advertiser": "늘푸른케어",
+            "startedAt": "2026-08-26",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2294845428006454",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:57+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2086666152218369",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-11",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-11T22:51:57+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:57+00:00",
+            "startTiming": "after-window"
           },
           {
             "id": "1663895741911350",
@@ -51318,8 +51369,206 @@
             "startedAt": "2026-10-06",
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:30:09+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:20+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:57+00:00",
             "startTiming": "during-window"
+          },
+          {
+            "id": "1062130026828199",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:07+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:57+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1631954731664489",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:56+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2003991684337455",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:45+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1660622885048359",
+            "advertiser": "늘푸른케어",
+            "startedAt": "2026-06-24",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:02+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2995579087448748",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:09+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:44+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1969287627079000",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:44+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1801361140953547",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:44+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1272268551645368",
+            "advertiser": "조선비책",
+            "startedAt": "2026-06-17",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "859702577168985",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "29157164603972272",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2063574917664778",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4527306947514380",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:42+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1344520917648366",
+            "advertiser": "늘푸른케어",
+            "startedAt": "2026-06-29",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:56+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1035974762868086",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:38+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1718661182680475",
+            "advertiser": "조선비책",
+            "startedAt": "2026-06-16",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "739933079116652",
+            "advertiser": "오나한",
+            "startedAt": "2025-11-25",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27788306264140233",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-03",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2207854309771714",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-30",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27166657842976079",
+            "advertiser": "조선비책",
+            "startedAt": "2026-06-16",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1767027160989111",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-01",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-11T22:51:35+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2194590560945407",
+            "advertiser": "홍동비책",
+            "startedAt": "2026-06-10",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1008758698224010",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:34+00:00",
+            "startTiming": "before-window"
           },
           {
             "id": "1434780324866008",
@@ -51331,150 +51580,6 @@
             "startTiming": "during-window"
           },
           {
-            "id": "1062130026828199",
-            "advertiser": "비타민마을",
-            "startedAt": "2026-10-06",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:07+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:19+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "2003991684337455",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:18+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1631954731664489",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:18+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1801361140953547",
-            "advertiser": "비타민마을",
-            "startedAt": "2026-10-06",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:13+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1660622885048359",
-            "advertiser": "늘푸른케어",
-            "startedAt": "2026-06-24",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:02+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:13+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2995579087448748",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:09+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:12+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "2063574917664778",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:12+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1969287627079000",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:11+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1272268551645368",
-            "advertiser": "조선비책",
-            "startedAt": "2026-06-17",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:11+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1035974762868086",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:11+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "859702577168985",
-            "advertiser": "비타민마을",
-            "startedAt": "2026-10-06",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:10+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "4527306947514380",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:10+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "29157164603972272",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:10+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1344520917648366",
-            "advertiser": "늘푸른케어",
-            "startedAt": "2026-06-29",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:56+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:05+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2207854309771714",
-            "advertiser": "종근당",
-            "startedAt": "2026-09-30",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:04+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1718661182680475",
-            "advertiser": "조선비책",
-            "startedAt": "2026-06-16",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:04+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "1598460718726052",
             "advertiser": "종근당",
             "startedAt": "2026-10-01",
@@ -51484,57 +51589,12 @@
             "startTiming": "before-window"
           },
           {
-            "id": "739933079116652",
-            "advertiser": "오나한",
-            "startedAt": "2025-11-25",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:03+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "27788306264140233",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-07-03",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:03+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "2468978510274334",
             "advertiser": "한약사가 만드는 한방식품 - 설아래",
             "startedAt": "2026-08-13",
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:29:54+00:00",
             "lastCollectedAt": "2026-10-10T15:03:03+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "27166657842976079",
-            "advertiser": "조선비책",
-            "startedAt": "2026-06-16",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:01+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2194590560945407",
-            "advertiser": "홍동비책",
-            "startedAt": "2026-06-10",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:01+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1008758698224010",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:01+00:00",
             "startTiming": "before-window"
           },
           {
@@ -51601,7 +51661,7 @@
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-10T15:03:22+00:00",
+        "lastCollectedAt": "2026-10-11T22:51:59+00:00",
         "advertisers": [
           {
             "name": "비타민마을",
@@ -51613,11 +51673,11 @@
           },
           {
             "name": "종근당",
-            "adCount": 7
+            "adCount": 8
           },
           {
             "name": "Naverplus.store",
-            "adCount": 3
+            "adCount": 4
           },
           {
             "name": "늘푸른케어",
@@ -59658,38 +59718,40 @@
       "adEvidence": {
         "query": "침향환",
         "matchType": "collected-with-query",
-        "adCount": 37,
+        "adCount": 39,
         "adIds": [
           "1140933961787063",
+          "1760675671892000",
           "1394013727124700",
           "1045273544934028",
           "2294845428006454",
-          "1760675671892000",
+          "2086666152218369",
           "1663895741911350",
-          "1434780324866008",
           "1062130026828199",
-          "2003991684337455",
           "1631954731664489",
-          "1801361140953547",
+          "2003991684337455",
           "1660622885048359",
           "2995579087448748",
-          "2063574917664778",
           "1969287627079000",
+          "1801361140953547",
           "1272268551645368",
-          "1035974762868086",
           "859702577168985",
-          "4527306947514380",
           "29157164603972272",
+          "2063574917664778",
+          "4527306947514380",
           "1344520917648366",
-          "2207854309771714",
+          "1035974762868086",
           "1718661182680475",
-          "1598460718726052",
           "739933079116652",
           "27788306264140233",
-          "2468978510274334",
+          "2207854309771714",
           "27166657842976079",
+          "1767027160989111",
           "2194590560945407",
           "1008758698224010",
+          "1434780324866008",
+          "1598460718726052",
+          "2468978510274334",
           "1462384749039964",
           "1670051234733189",
           "4092463721054625",
@@ -59705,34 +59767,7 @@
             "startedAt": "2026-10-06",
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:30:23+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:22+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1394013727124700",
-            "advertiser": "비타민마을",
-            "startedAt": "2026-10-06",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:21+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1045273544934028",
-            "advertiser": "늘푸른케어",
-            "startedAt": "2026-08-26",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:21+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2294845428006454",
-            "advertiser": "비타민마을",
-            "startedAt": "2026-10-06",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:20+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:59+00:00",
             "startTiming": "during-window"
           },
           {
@@ -59741,8 +59776,44 @@
             "startedAt": "2026-10-06",
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:30:22+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:20+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:58+00:00",
             "startTiming": "during-window"
+          },
+          {
+            "id": "1394013727124700",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:58+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1045273544934028",
+            "advertiser": "늘푸른케어",
+            "startedAt": "2026-08-26",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2294845428006454",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:57+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2086666152218369",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-11",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-11T22:51:57+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:57+00:00",
+            "startTiming": "after-window"
           },
           {
             "id": "1663895741911350",
@@ -59750,8 +59821,206 @@
             "startedAt": "2026-10-06",
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:30:09+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:20+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:57+00:00",
             "startTiming": "during-window"
+          },
+          {
+            "id": "1062130026828199",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:07+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:57+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1631954731664489",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:56+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2003991684337455",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:45+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1660622885048359",
+            "advertiser": "늘푸른케어",
+            "startedAt": "2026-06-24",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:02+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2995579087448748",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:09+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:44+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1969287627079000",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:44+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1801361140953547",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:44+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1272268551645368",
+            "advertiser": "조선비책",
+            "startedAt": "2026-06-17",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "859702577168985",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "29157164603972272",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2063574917664778",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4527306947514380",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:42+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1344520917648366",
+            "advertiser": "늘푸른케어",
+            "startedAt": "2026-06-29",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:56+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1035974762868086",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:38+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1718661182680475",
+            "advertiser": "조선비책",
+            "startedAt": "2026-06-16",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "739933079116652",
+            "advertiser": "오나한",
+            "startedAt": "2025-11-25",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27788306264140233",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-03",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2207854309771714",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-30",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27166657842976079",
+            "advertiser": "조선비책",
+            "startedAt": "2026-06-16",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1767027160989111",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-01",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-11T22:51:35+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2194590560945407",
+            "advertiser": "홍동비책",
+            "startedAt": "2026-06-10",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1008758698224010",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:34+00:00",
+            "startTiming": "before-window"
           },
           {
             "id": "1434780324866008",
@@ -59763,150 +60032,6 @@
             "startTiming": "during-window"
           },
           {
-            "id": "1062130026828199",
-            "advertiser": "비타민마을",
-            "startedAt": "2026-10-06",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:07+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:19+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "2003991684337455",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:18+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1631954731664489",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:18+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1801361140953547",
-            "advertiser": "비타민마을",
-            "startedAt": "2026-10-06",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:13+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1660622885048359",
-            "advertiser": "늘푸른케어",
-            "startedAt": "2026-06-24",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:02+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:13+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2995579087448748",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:09+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:12+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "2063574917664778",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:12+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1969287627079000",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:11+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1272268551645368",
-            "advertiser": "조선비책",
-            "startedAt": "2026-06-17",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:11+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1035974762868086",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:11+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "859702577168985",
-            "advertiser": "비타민마을",
-            "startedAt": "2026-10-06",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:10+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "4527306947514380",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:10+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "29157164603972272",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:10+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1344520917648366",
-            "advertiser": "늘푸른케어",
-            "startedAt": "2026-06-29",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:56+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:05+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2207854309771714",
-            "advertiser": "종근당",
-            "startedAt": "2026-09-30",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:04+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1718661182680475",
-            "advertiser": "조선비책",
-            "startedAt": "2026-06-16",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:04+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "1598460718726052",
             "advertiser": "종근당",
             "startedAt": "2026-10-01",
@@ -59916,57 +60041,12 @@
             "startTiming": "during-window"
           },
           {
-            "id": "739933079116652",
-            "advertiser": "오나한",
-            "startedAt": "2025-11-25",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:03+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "27788306264140233",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-07-03",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:03+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "2468978510274334",
             "advertiser": "한약사가 만드는 한방식품 - 설아래",
             "startedAt": "2026-08-13",
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:29:54+00:00",
             "lastCollectedAt": "2026-10-10T15:03:03+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "27166657842976079",
-            "advertiser": "조선비책",
-            "startedAt": "2026-06-16",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:01+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2194590560945407",
-            "advertiser": "홍동비책",
-            "startedAt": "2026-06-10",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:01+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1008758698224010",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:01+00:00",
             "startTiming": "before-window"
           },
           {
@@ -60033,7 +60113,7 @@
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-10T15:03:22+00:00",
+        "lastCollectedAt": "2026-10-11T22:51:59+00:00",
         "advertisers": [
           {
             "name": "비타민마을",
@@ -60045,11 +60125,11 @@
           },
           {
             "name": "종근당",
-            "adCount": 7
+            "adCount": 8
           },
           {
             "name": "Naverplus.store",
-            "adCount": 3
+            "adCount": 4
           },
           {
             "name": "늘푸른케어",
@@ -74446,44 +74526,46 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "backlog",
+      "state": "cooldown",
       "keywordId": "cf7f5635a38ad217a8aa25f9be3a8a95c82f08486a73664657cd7a27cab9ede4",
       "searchQuery": "침향환",
       "adEvidence": {
         "query": "침향환",
         "matchType": "collected-with-query",
-        "adCount": 37,
+        "adCount": 39,
         "adIds": [
           "1140933961787063",
+          "1760675671892000",
           "1394013727124700",
           "1045273544934028",
           "2294845428006454",
-          "1760675671892000",
+          "2086666152218369",
           "1663895741911350",
-          "1434780324866008",
           "1062130026828199",
-          "2003991684337455",
           "1631954731664489",
-          "1801361140953547",
+          "2003991684337455",
           "1660622885048359",
           "2995579087448748",
-          "2063574917664778",
           "1969287627079000",
+          "1801361140953547",
           "1272268551645368",
-          "1035974762868086",
           "859702577168985",
-          "4527306947514380",
           "29157164603972272",
+          "2063574917664778",
+          "4527306947514380",
           "1344520917648366",
-          "2207854309771714",
+          "1035974762868086",
           "1718661182680475",
-          "1598460718726052",
           "739933079116652",
           "27788306264140233",
-          "2468978510274334",
+          "2207854309771714",
           "27166657842976079",
+          "1767027160989111",
           "2194590560945407",
           "1008758698224010",
+          "1434780324866008",
+          "1598460718726052",
+          "2468978510274334",
           "1462384749039964",
           "1670051234733189",
           "4092463721054625",
@@ -74499,34 +74581,7 @@
             "startedAt": "2026-10-06",
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:30:23+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:22+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1394013727124700",
-            "advertiser": "비타민마을",
-            "startedAt": "2026-10-06",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:21+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1045273544934028",
-            "advertiser": "늘푸른케어",
-            "startedAt": "2026-08-26",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:21+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2294845428006454",
-            "advertiser": "비타민마을",
-            "startedAt": "2026-10-06",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:20+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:59+00:00",
             "startTiming": "during-window"
           },
           {
@@ -74535,8 +74590,44 @@
             "startedAt": "2026-10-06",
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:30:22+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:20+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:58+00:00",
             "startTiming": "during-window"
+          },
+          {
+            "id": "1394013727124700",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:58+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1045273544934028",
+            "advertiser": "늘푸른케어",
+            "startedAt": "2026-08-26",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2294845428006454",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:57+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2086666152218369",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-11",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-11T22:51:57+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:57+00:00",
+            "startTiming": "after-window"
           },
           {
             "id": "1663895741911350",
@@ -74544,8 +74635,206 @@
             "startedAt": "2026-10-06",
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:30:09+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:20+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:57+00:00",
             "startTiming": "during-window"
+          },
+          {
+            "id": "1062130026828199",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:07+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:57+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1631954731664489",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:56+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "2003991684337455",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:45+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1660622885048359",
+            "advertiser": "늘푸른케어",
+            "startedAt": "2026-06-24",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:02+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2995579087448748",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:09+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:44+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1969287627079000",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:44+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1801361140953547",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:44+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1272268551645368",
+            "advertiser": "조선비책",
+            "startedAt": "2026-06-17",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "859702577168985",
+            "advertiser": "비타민마을",
+            "startedAt": "2026-10-06",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "29157164603972272",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:43+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "2063574917664778",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:43+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "4527306947514380",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:42+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1344520917648366",
+            "advertiser": "늘푸른케어",
+            "startedAt": "2026-06-29",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:56+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1035974762868086",
+            "advertiser": "익수제약",
+            "startedAt": "2026-10-07",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:38+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1718661182680475",
+            "advertiser": "조선비책",
+            "startedAt": "2026-06-16",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "739933079116652",
+            "advertiser": "오나한",
+            "startedAt": "2025-11-25",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27788306264140233",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-03",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2207854309771714",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-30",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:36+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "27166657842976079",
+            "advertiser": "조선비책",
+            "startedAt": "2026-06-16",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1767027160989111",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-01",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-11T22:51:35+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2194590560945407",
+            "advertiser": "홍동비책",
+            "startedAt": "2026-06-10",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1008758698224010",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "침향환",
+            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
+            "lastCollectedAt": "2026-10-11T22:51:34+00:00",
+            "startTiming": "before-window"
           },
           {
             "id": "1434780324866008",
@@ -74557,150 +74846,6 @@
             "startTiming": "during-window"
           },
           {
-            "id": "1062130026828199",
-            "advertiser": "비타민마을",
-            "startedAt": "2026-10-06",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:07+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:19+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "2003991684337455",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:18+00:00",
-            "startTiming": "after-window"
-          },
-          {
-            "id": "1631954731664489",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:23+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:18+00:00",
-            "startTiming": "after-window"
-          },
-          {
-            "id": "1801361140953547",
-            "advertiser": "비타민마을",
-            "startedAt": "2026-10-06",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:22+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:13+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1660622885048359",
-            "advertiser": "늘푸른케어",
-            "startedAt": "2026-06-24",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:02+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:13+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2995579087448748",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:09+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:12+00:00",
-            "startTiming": "after-window"
-          },
-          {
-            "id": "2063574917664778",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:12+00:00",
-            "startTiming": "after-window"
-          },
-          {
-            "id": "1969287627079000",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:10+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:11+00:00",
-            "startTiming": "after-window"
-          },
-          {
-            "id": "1272268551645368",
-            "advertiser": "조선비책",
-            "startedAt": "2026-06-17",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:11+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1035974762868086",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:11+00:00",
-            "startTiming": "after-window"
-          },
-          {
-            "id": "859702577168985",
-            "advertiser": "비타민마을",
-            "startedAt": "2026-10-06",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:01+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:10+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "4527306947514380",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:10+00:00",
-            "startTiming": "after-window"
-          },
-          {
-            "id": "29157164603972272",
-            "advertiser": "익수제약",
-            "startedAt": "2026-10-07",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:30:08+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:10+00:00",
-            "startTiming": "after-window"
-          },
-          {
-            "id": "1344520917648366",
-            "advertiser": "늘푸른케어",
-            "startedAt": "2026-06-29",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:56+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:05+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2207854309771714",
-            "advertiser": "종근당",
-            "startedAt": "2026-09-30",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:04+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1718661182680475",
-            "advertiser": "조선비책",
-            "startedAt": "2026-06-16",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:55+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:04+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "1598460718726052",
             "advertiser": "종근당",
             "startedAt": "2026-10-01",
@@ -74710,57 +74855,12 @@
             "startTiming": "during-window"
           },
           {
-            "id": "739933079116652",
-            "advertiser": "오나한",
-            "startedAt": "2025-11-25",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:03+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "27788306264140233",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-07-03",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:54+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:03+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "2468978510274334",
             "advertiser": "한약사가 만드는 한방식품 - 설아래",
             "startedAt": "2026-08-13",
             "query": "침향환",
             "firstCollectedAt": "2026-10-09T00:29:54+00:00",
             "lastCollectedAt": "2026-10-10T15:03:03+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "27166657842976079",
-            "advertiser": "조선비책",
-            "startedAt": "2026-06-16",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:01+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2194590560945407",
-            "advertiser": "홍동비책",
-            "startedAt": "2026-06-10",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:01+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1008758698224010",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "침향환",
-            "firstCollectedAt": "2026-10-09T00:29:53+00:00",
-            "lastCollectedAt": "2026-10-10T15:03:01+00:00",
             "startTiming": "before-window"
           },
           {
@@ -74827,7 +74927,7 @@
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-10T15:03:22+00:00",
+        "lastCollectedAt": "2026-10-11T22:51:59+00:00",
         "advertisers": [
           {
             "name": "비타민마을",
@@ -74839,11 +74939,11 @@
           },
           {
             "name": "종근당",
-            "adCount": 7
+            "adCount": 8
           },
           {
             "name": "Naverplus.store",
-            "adCount": 3
+            "adCount": 4
           },
           {
             "name": "늘푸른케어",
