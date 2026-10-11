@@ -1,6 +1,6 @@
 {
   "mode": "snapshot",
-  "updatedAt": "2026-10-11T05:47:49+00:00",
+  "updatedAt": "2026-10-11T05:54:03+00:00",
   "automations": [
     {
       "id": "meta-ads",
@@ -63,11 +63,11 @@
       "name": "뷰티 블로그",
       "enabled": true,
       "running": false,
-      "state": "blocked",
+      "state": "error",
       "nextRunAt": "2026-10-12T07:00:00+09:00",
       "lastSuccessAt": null,
       "lastAttemptAt": null,
-      "message": "로그인 확인 대기 · 발행 보류 · 수집 ON",
+      "message": "최근 수집 실패 · 다음 일정에 재시도",
       "intervalSeconds": null,
       "statusCheckIntervalSeconds": null,
       "statusCheckBatchSize": null,
@@ -94,12 +94,12 @@
       "id": "tistory-blog",
       "name": "티스토리 연예",
       "enabled": true,
-      "running": false,
-      "state": "waiting",
-      "nextRunAt": "2026-10-11T14:53:56+09:00",
+      "running": true,
+      "state": "running",
+      "nextRunAt": "2026-10-11T15:09:01+09:00",
       "lastSuccessAt": "2026-10-11T14:23:46+09:00",
       "lastAttemptAt": null,
-      "message": "후보 없음 또는 발행 한도·간격 대기 · AI 호출 없음",
+      "message": "Python 뉴스 확인·중복 검사 중 · AI 호출 없음",
       "intervalSeconds": 900,
       "statusCheckIntervalSeconds": null,
       "statusCheckBatchSize": null,
@@ -141,8 +141,8 @@
   ],
   "publication": {
     "state": "synced",
-    "lastAttemptAt": "2026-10-11T05:46:26+00:00",
-    "lastSuccessAt": "2026-10-11T05:46:31+00:00",
+    "lastAttemptAt": "2026-10-11T05:47:49+00:00",
+    "lastSuccessAt": "2026-10-11T05:47:54+00:00",
     "error": null,
     "enabled": true
   }
