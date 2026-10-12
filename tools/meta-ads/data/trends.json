@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12T20:30:39+00:00",
+  "updatedAt": "2026-10-12T20:33:14+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-12T19:59:42+00:00",
@@ -43,8 +43,8 @@
     "backlogDays": 14,
     "dailyUsed": 16,
     "dailyRemaining": 272,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-12T20:35:39+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -10451,7 +10451,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "5bd1269b11fc4c7c128e36854805a009bde2de968bbe5ddf287cab7bdb1bd6d8",
       "searchQuery": "dem",
       "adEvidence": {
@@ -10467,33 +10467,33 @@
           "855370890997038",
           "1357139352524024",
           "1800578288050895",
+          "1627785058874850",
           "1297028872370143",
           "1811427136665449",
-          "1627785058874850",
           "1383345343310784",
           "865978209507178",
           "2141653039723387",
-          "1451006129824468",
           "1670886000818848",
+          "1451006129824468",
           "1566479958441186",
           "1359390978996804",
           "1184017747261893",
           "2059432611668965",
           "1150593023505360",
-          "2105236990421435",
           "1415033143381264",
-          "1419410479604702",
+          "2105236990421435",
           "1045266748474883",
-          "2176894426218635",
+          "1419410479604702",
           "1000906552929344",
-          "4117495201875084",
           "2515881448926215",
+          "2176894426218635",
+          "4117495201875084",
           "1389408589541717",
           "609813365362421",
-          "2572476999580330",
           "1468942331170943",
-          "1903623604370424",
+          "2572476999580330",
           "1438782168293183",
+          "1903623604370424",
           "1303255455228349",
           "949662521210366",
           "299481604070434",
@@ -10506,12 +10506,12 @@
           "2954225424924010",
           "987793264245392",
           "1721334185794585",
-          "1534184595026125",
           "1445590934145041",
           "1795497174931904",
+          "1534184595026125",
           "983759684723275",
-          "27313286511639696",
           "986029000604011",
+          "27313286511639696",
           "2238460673576746",
           "1736540201035622",
           "1056959796654644",
@@ -10523,42 +10523,42 @@
           "1493051891934839",
           "2714346252278374",
           "2435548206946708",
+          "858367276702004",
           "2157546865044474",
           "1185057566995723",
-          "858367276702004",
+          "2103415530577665",
           "1465426678147559",
           "981560964408117",
-          "2103415530577665",
           "1467383184523954",
-          "1387614739854895",
           "1619189505823393",
-          "1713084773339936",
           "1516325966641294",
-          "1892302218339471",
+          "1387614739854895",
           "1781705575737400",
+          "1713084773339936",
+          "1892302218339471",
           "993709403682899",
           "29311386325117201",
           "1734860557838376",
           "1544248757376995",
           "1496731018575766",
           "1367555094845318",
-          "1201554408643773",
           "2835209729993630",
-          "1776445450395946",
+          "1201554408643773",
           "1024424313404602",
-          "2812367292453507",
           "2191063005019462",
+          "1776445450395946",
           "952354564466278",
+          "2812367292453507",
+          "2100901270843799",
           "1470418121140306",
           "809268412182132",
-          "2100901270843799",
           "1383438223473039",
+          "977650778451917",
           "2516237971904614",
           "2509172162899830",
-          "977650778451917",
           "1535161114826040",
-          "1427312029305530",
-          "1353723726587085"
+          "1353723726587085",
+          "1427312029305530"
         ],
         "ads": [
           {
@@ -10567,7 +10567,7 @@
             "startedAt": "2026-06-03",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:54:21+00:00",
-            "lastCollectedAt": "2026-10-11T13:54:21+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:59+00:00",
             "startTiming": "before-window"
           },
           {
@@ -10576,7 +10576,7 @@
             "startedAt": "2025-11-05",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:54:11+00:00",
-            "lastCollectedAt": "2026-10-11T13:54:11+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:49+00:00",
             "startTiming": "before-window"
           },
           {
@@ -10585,7 +10585,7 @@
             "startedAt": "2025-12-22",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:54:10+00:00",
-            "lastCollectedAt": "2026-10-11T13:54:10+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:48+00:00",
             "startTiming": "before-window"
           },
           {
@@ -10594,7 +10594,7 @@
             "startedAt": "2026-02-28",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:54:10+00:00",
-            "lastCollectedAt": "2026-10-11T13:54:10+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:48+00:00",
             "startTiming": "before-window"
           },
           {
@@ -10603,7 +10603,7 @@
             "startedAt": "2026-07-28",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:54:09+00:00",
-            "lastCollectedAt": "2026-10-11T13:54:09+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:47+00:00",
             "startTiming": "before-window"
           },
           {
@@ -10612,7 +10612,7 @@
             "startedAt": "2026-09-16",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:54:08+00:00",
-            "lastCollectedAt": "2026-10-11T13:54:08+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:46+00:00",
             "startTiming": "before-window"
           },
           {
@@ -10621,7 +10621,7 @@
             "startedAt": "2026-07-26",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:54:08+00:00",
-            "lastCollectedAt": "2026-10-11T13:54:08+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:46+00:00",
             "startTiming": "before-window"
           },
           {
@@ -10630,25 +10630,7 @@
             "startedAt": "2026-07-21",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:54:05+00:00",
-            "lastCollectedAt": "2026-10-11T13:54:05+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1297028872370143",
-            "advertiser": "The Booker Prizes",
-            "startedAt": "2026-04-24",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:54:04+00:00",
-            "lastCollectedAt": "2026-10-11T13:54:04+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1811427136665449",
-            "advertiser": "The Nation Thailand",
-            "startedAt": "2026-09-30",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:54:03+00:00",
-            "lastCollectedAt": "2026-10-11T13:54:03+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:44+00:00",
             "startTiming": "before-window"
           },
           {
@@ -10657,7 +10639,25 @@
             "startedAt": "2026-09-10",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:54:03+00:00",
-            "lastCollectedAt": "2026-10-11T13:54:03+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1297028872370143",
+            "advertiser": "The Booker Prizes",
+            "startedAt": "2026-04-24",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:54:04+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1811427136665449",
+            "advertiser": "The Nation Thailand",
+            "startedAt": "2026-09-30",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:54:03+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:42+00:00",
             "startTiming": "before-window"
           },
           {
@@ -10666,7 +10666,7 @@
             "startedAt": "2025-10-22",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:52+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:52+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:32+00:00",
             "startTiming": "before-window"
           },
           {
@@ -10675,7 +10675,7 @@
             "startedAt": "2026-01-02",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:51+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:51+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:31+00:00",
             "startTiming": "before-window"
           },
           {
@@ -10684,16 +10684,7 @@
             "startedAt": "2026-08-31",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:48+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:48+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1451006129824468",
-            "advertiser": "Raid: Shadow Legends",
-            "startedAt": "2026-02-25",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:53:48+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:48+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:28+00:00",
             "startTiming": "before-window"
           },
           {
@@ -10702,7 +10693,16 @@
             "startedAt": "2026-05-04",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:47+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:47+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1451006129824468",
+            "advertiser": "Raid: Shadow Legends",
+            "startedAt": "2026-02-25",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:48+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:28+00:00",
             "startTiming": "before-window"
           },
           {
@@ -10711,7 +10711,7 @@
             "startedAt": "2026-07-15",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:47+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:47+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:27+00:00",
             "startTiming": "before-window"
           },
           {
@@ -10720,7 +10720,7 @@
             "startedAt": "2026-08-02",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:45+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:45+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:26+00:00",
             "startTiming": "before-window"
           },
           {
@@ -10729,7 +10729,7 @@
             "startedAt": "2026-01-13",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:45+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:45+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:26+00:00",
             "startTiming": "before-window"
           },
           {
@@ -10738,7 +10738,7 @@
             "startedAt": "2026-07-06",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:44+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:44+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:25+00:00",
             "startTiming": "before-window"
           },
           {
@@ -10747,16 +10747,7 @@
             "startedAt": "2025-05-14",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:44+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:44+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2105236990421435",
-            "advertiser": "ALDI Nord",
-            "startedAt": "2026-07-30",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:53:32+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:32+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:25+00:00",
             "startTiming": "before-window"
           },
           {
@@ -10765,16 +10756,16 @@
             "startedAt": "2026-09-28",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:32+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:32+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:13+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1419410479604702",
-            "advertiser": "Learna AI: Language Learning App",
-            "startedAt": "2025-12-24",
+            "id": "2105236990421435",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-30",
             "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:53:31+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:31+00:00",
+            "firstCollectedAt": "2026-10-11T13:53:32+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:12+00:00",
             "startTiming": "before-window"
           },
           {
@@ -10783,16 +10774,16 @@
             "startedAt": "2026-07-23",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:31+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:31+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:12+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "2176894426218635",
-            "advertiser": "ALDI Nord",
-            "startedAt": "2026-06-30",
+            "id": "1419410479604702",
+            "advertiser": "Learna AI: Language Learning App",
+            "startedAt": "2025-12-24",
             "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:53:30+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:30+00:00",
+            "firstCollectedAt": "2026-10-11T13:53:31+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:11+00:00",
             "startTiming": "before-window"
           },
           {
@@ -10801,16 +10792,7 @@
             "startedAt": "2026-07-16",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:30+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:30+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "4117495201875084",
-            "advertiser": "ALDI Nord",
-            "startedAt": "2026-05-21",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:53:29+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:29+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:11+00:00",
             "startTiming": "before-window"
           },
           {
@@ -10819,7 +10801,25 @@
             "startedAt": "2026-07-30",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:29+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:29+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2176894426218635",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-06-30",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:30+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4117495201875084",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-05-21",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:29+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:09+00:00",
             "startTiming": "before-window"
           },
           {
@@ -10828,7 +10828,7 @@
             "startedAt": "2025-12-30",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:29+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:29+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:09+00:00",
             "startTiming": "before-window"
           },
           {
@@ -10837,16 +10837,7 @@
             "startedAt": "2025-01-31",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:20+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:20+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2572476999580330",
-            "advertiser": "Der Leadership Coach",
-            "startedAt": "2023-12-19",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:53:20+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:20+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:58+00:00",
             "startTiming": "before-window"
           },
           {
@@ -10855,16 +10846,16 @@
             "startedAt": "2026-05-28",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:20+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:20+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:58+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1903623604370424",
-            "advertiser": "Plan7Architekt - Architektursoftware",
-            "startedAt": "2025-12-03",
+            "id": "2572476999580330",
+            "advertiser": "Der Leadership Coach",
+            "startedAt": "2023-12-19",
             "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:53:19+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:19+00:00",
+            "firstCollectedAt": "2026-10-11T13:53:20+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:57+00:00",
             "startTiming": "before-window"
           },
           {
@@ -10873,7 +10864,16 @@
             "startedAt": "2026-06-14",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:19+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:19+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1903623604370424",
+            "advertiser": "Plan7Architekt - Architektursoftware",
+            "startedAt": "2025-12-03",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:19+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:55+00:00",
             "startTiming": "before-window"
           },
           {
@@ -10882,7 +10882,7 @@
             "startedAt": "2026-05-29",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:19+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:19+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:55+00:00",
             "startTiming": "before-window"
           },
           {
@@ -10891,7 +10891,7 @@
             "startedAt": "2026-05-08",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:18+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:18+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:54+00:00",
             "startTiming": "before-window"
           },
           {
@@ -10900,7 +10900,7 @@
             "startedAt": "2018-06-07",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:17+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:17+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:54+00:00",
             "startTiming": "before-window"
           },
           {
@@ -10909,7 +10909,7 @@
             "startedAt": "2026-04-27",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:17+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:17+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:53+00:00",
             "startTiming": "before-window"
           },
           {
@@ -10918,7 +10918,7 @@
             "startedAt": "2026-08-02",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:16+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:16+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:52+00:00",
             "startTiming": "before-window"
           },
           {
@@ -10927,7 +10927,7 @@
             "startedAt": "2025-06-09",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:08+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:08+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:43+00:00",
             "startTiming": "before-window"
           },
           {
@@ -10936,7 +10936,7 @@
             "startedAt": "2025-04-04",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:08+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:08+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:43+00:00",
             "startTiming": "before-window"
           },
           {
@@ -10945,7 +10945,7 @@
             "startedAt": "2026-04-30",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:07+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:07+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:42+00:00",
             "startTiming": "before-window"
           },
           {
@@ -10954,7 +10954,7 @@
             "startedAt": "2026-06-25",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:07+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:07+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:42+00:00",
             "startTiming": "before-window"
           },
           {
@@ -10963,7 +10963,7 @@
             "startedAt": "2026-06-02",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:06+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:06+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:41+00:00",
             "startTiming": "before-window"
           },
           {
@@ -10972,7 +10972,7 @@
             "startedAt": "2026-06-11",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:05+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:05+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:40+00:00",
             "startTiming": "before-window"
           },
           {
@@ -10981,16 +10981,7 @@
             "startedAt": "2026-06-06",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:05+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:05+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1534184595026125",
-            "advertiser": "ALDI Nord",
-            "startedAt": "2026-07-02",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:53:05+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:05+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:40+00:00",
             "startTiming": "before-window"
           },
           {
@@ -10999,7 +10990,7 @@
             "startedAt": "2026-09-18",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:05+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:05+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:40+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11008,7 +10999,16 @@
             "startedAt": "2026-07-20",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:04+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:04+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1534184595026125",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-02",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:05+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:39+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11017,16 +11017,7 @@
             "startedAt": "2026-08-20",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:56+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:56+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "27313286511639696",
-            "advertiser": "ALDI Nord",
-            "startedAt": "2026-06-03",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:56+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:56+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:31+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11035,7 +11026,16 @@
             "startedAt": "2026-04-27",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:55+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:55+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27313286511639696",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-06-03",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:56+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:30+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11044,7 +11044,7 @@
             "startedAt": "2026-06-22",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:55+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:55+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:29+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11053,7 +11053,7 @@
             "startedAt": "2026-05-14",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:54+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:54+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:29+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11062,7 +11062,7 @@
             "startedAt": "2026-06-16",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:54+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:54+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:29+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11071,7 +11071,7 @@
             "startedAt": "2026-06-07",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:53+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:53+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:28+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11080,7 +11080,7 @@
             "startedAt": "2026-08-06",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:53+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:53+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:28+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11089,7 +11089,7 @@
             "startedAt": "2025-10-09",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:53+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:53+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:28+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11098,7 +11098,7 @@
             "startedAt": "2026-05-08",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:53+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:53+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:28+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11107,7 +11107,7 @@
             "startedAt": "2026-08-13",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:45+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:45+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:20+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11116,7 +11116,7 @@
             "startedAt": "2025-11-03",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:45+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:45+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:20+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11125,7 +11125,7 @@
             "startedAt": "2026-05-15",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:44+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:44+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:19+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11134,25 +11134,7 @@
             "startedAt": "2026-06-01",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:44+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:44+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2157546865044474",
-            "advertiser": "ALDI Nord",
-            "startedAt": "2026-07-05",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:43+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:43+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1185057566995723",
-            "advertiser": "ALDI Nord",
-            "startedAt": "2026-05-17",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:43+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:43+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:19+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11161,25 +11143,25 @@
             "startedAt": "2025-10-16",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:42+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:42+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:18+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1465426678147559",
+            "id": "2157546865044474",
             "advertiser": "ALDI Nord",
-            "startedAt": "2026-05-31",
+            "startedAt": "2026-07-05",
             "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:42+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:42+00:00",
+            "firstCollectedAt": "2026-10-11T13:52:43+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:18+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "981560964408117",
+            "id": "1185057566995723",
             "advertiser": "ALDI Nord",
             "startedAt": "2026-05-17",
             "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:41+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:41+00:00",
+            "firstCollectedAt": "2026-10-11T13:52:43+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:18+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11188,7 +11170,25 @@
             "startedAt": "2026-08-09",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:41+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:41+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1465426678147559",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-05-31",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:42+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "981560964408117",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-05-17",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:41+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:16+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11197,16 +11197,7 @@
             "startedAt": "2026-05-24",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:34+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:34+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1387614739854895",
-            "advertiser": "ALDI Nord",
-            "startedAt": "2026-06-21",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:34+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:34+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:09+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11215,16 +11206,7 @@
             "startedAt": "2026-06-14",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:33+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:33+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1713084773339936",
-            "advertiser": "ALDI Nord",
-            "startedAt": "2026-06-07",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:32+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:32+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:08+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11233,16 +11215,16 @@
             "startedAt": "2026-07-12",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:32+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:32+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:08+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1892302218339471",
-            "advertiser": "Medivet Tierarztpraxen",
-            "startedAt": "2025-12-01",
+            "id": "1387614739854895",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-06-21",
             "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:31+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:31+00:00",
+            "firstCollectedAt": "2026-10-11T13:52:34+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:08+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11251,7 +11233,25 @@
             "startedAt": "2025-03-20",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:31+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:31+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1713084773339936",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-06-07",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:32+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1892302218339471",
+            "advertiser": "Medivet Tierarztpraxen",
+            "startedAt": "2025-12-01",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:31+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:06+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11260,7 +11260,7 @@
             "startedAt": "2026-08-16",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:30+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:30+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:05+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11269,7 +11269,7 @@
             "startedAt": "2026-08-23",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:29+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:29+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:05+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11278,7 +11278,7 @@
             "startedAt": "2026-08-09",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:29+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:29+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:04+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11287,7 +11287,7 @@
             "startedAt": "2026-07-05",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:22+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:22+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:57+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11296,7 +11296,7 @@
             "startedAt": "2026-06-07",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:21+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:21+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:57+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11305,16 +11305,7 @@
             "startedAt": "2026-08-16",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:21+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:21+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1201554408643773",
-            "advertiser": "ALDI Nord",
-            "startedAt": "2026-05-24",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:21+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:21+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:57+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11323,16 +11314,16 @@
             "startedAt": "2025-01-23",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:20+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:20+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:56+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1776445450395946",
+            "id": "1201554408643773",
             "advertiser": "ALDI Nord",
-            "startedAt": "2026-07-19",
+            "startedAt": "2026-05-24",
             "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:20+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:20+00:00",
+            "firstCollectedAt": "2026-10-11T13:52:21+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:56+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11341,16 +11332,7 @@
             "startedAt": "2026-07-12",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:20+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:20+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2812367292453507",
-            "advertiser": "ALDI Nord",
-            "startedAt": "2026-07-26",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:19+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:19+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:56+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11359,7 +11341,16 @@
             "startedAt": "2026-07-19",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:19+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:19+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1776445450395946",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-19",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:20+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:55+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11368,25 +11359,16 @@
             "startedAt": "2026-05-01",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:18+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:18+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:54+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1470418121140306",
-            "advertiser": "Raid: Shadow Legends",
-            "startedAt": "2026-02-19",
+            "id": "2812367292453507",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-26",
             "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:13+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:13+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "809268412182132",
-            "advertiser": "Raid: Shadow Legends",
-            "startedAt": "2026-02-19",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:12+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:12+00:00",
+            "firstCollectedAt": "2026-10-11T13:52:19+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:54+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11395,7 +11377,25 @@
             "startedAt": "2026-07-26",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:12+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:12+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1470418121140306",
+            "advertiser": "Raid: Shadow Legends",
+            "startedAt": "2026-02-19",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:13+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "809268412182132",
+            "advertiser": "Raid: Shadow Legends",
+            "startedAt": "2026-02-19",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:12+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:48+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11404,25 +11404,7 @@
             "startedAt": "2025-12-24",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:12+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:12+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2516237971904614",
-            "advertiser": "verlobungsring.de",
-            "startedAt": "2024-11-12",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:11+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:11+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2509172162899830",
-            "advertiser": "RAF Global",
-            "startedAt": "2026-08-28",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:11+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:11+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:48+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11431,7 +11413,25 @@
             "startedAt": "2026-06-05",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:10+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:10+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2516237971904614",
+            "advertiser": "verlobungsring.de",
+            "startedAt": "2024-11-12",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:11+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2509172162899830",
+            "advertiser": "RAF Global",
+            "startedAt": "2026-08-28",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:11+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:47+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11440,16 +11440,7 @@
             "startedAt": "2026-07-24",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:10+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:10+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1427312029305530",
-            "advertiser": "IFA Berlin",
-            "startedAt": "2026-09-02",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:09+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:09+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:46+00:00",
             "startTiming": "before-window"
           },
           {
@@ -11458,11 +11449,20 @@
             "startedAt": "2026-05-05",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:09+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:09+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1427312029305530",
+            "advertiser": "IFA Berlin",
+            "startedAt": "2026-09-02",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:09+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:45+00:00",
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-11T13:54:21+00:00",
+        "lastCollectedAt": "2026-10-12T20:32:59+00:00",
         "advertisers": [
           {
             "name": "ALDI Nord",
@@ -34465,7 +34465,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-12T00:50:59+00:00",
       "lastObservedAt": "2026-10-12T19:58:59+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "5bd1269b11fc4c7c128e36854805a009bde2de968bbe5ddf287cab7bdb1bd6d8",
       "searchQuery": "dem",
       "adEvidence": {
@@ -34481,33 +34481,33 @@
           "855370890997038",
           "1357139352524024",
           "1800578288050895",
+          "1627785058874850",
           "1297028872370143",
           "1811427136665449",
-          "1627785058874850",
           "1383345343310784",
           "865978209507178",
           "2141653039723387",
-          "1451006129824468",
           "1670886000818848",
+          "1451006129824468",
           "1566479958441186",
           "1359390978996804",
           "1184017747261893",
           "2059432611668965",
           "1150593023505360",
-          "2105236990421435",
           "1415033143381264",
-          "1419410479604702",
+          "2105236990421435",
           "1045266748474883",
-          "2176894426218635",
+          "1419410479604702",
           "1000906552929344",
-          "4117495201875084",
           "2515881448926215",
+          "2176894426218635",
+          "4117495201875084",
           "1389408589541717",
           "609813365362421",
-          "2572476999580330",
           "1468942331170943",
-          "1903623604370424",
+          "2572476999580330",
           "1438782168293183",
+          "1903623604370424",
           "1303255455228349",
           "949662521210366",
           "299481604070434",
@@ -34520,12 +34520,12 @@
           "2954225424924010",
           "987793264245392",
           "1721334185794585",
-          "1534184595026125",
           "1445590934145041",
           "1795497174931904",
+          "1534184595026125",
           "983759684723275",
-          "27313286511639696",
           "986029000604011",
+          "27313286511639696",
           "2238460673576746",
           "1736540201035622",
           "1056959796654644",
@@ -34537,42 +34537,42 @@
           "1493051891934839",
           "2714346252278374",
           "2435548206946708",
+          "858367276702004",
           "2157546865044474",
           "1185057566995723",
-          "858367276702004",
+          "2103415530577665",
           "1465426678147559",
           "981560964408117",
-          "2103415530577665",
           "1467383184523954",
-          "1387614739854895",
           "1619189505823393",
-          "1713084773339936",
           "1516325966641294",
-          "1892302218339471",
+          "1387614739854895",
           "1781705575737400",
+          "1713084773339936",
+          "1892302218339471",
           "993709403682899",
           "29311386325117201",
           "1734860557838376",
           "1544248757376995",
           "1496731018575766",
           "1367555094845318",
-          "1201554408643773",
           "2835209729993630",
-          "1776445450395946",
+          "1201554408643773",
           "1024424313404602",
-          "2812367292453507",
           "2191063005019462",
+          "1776445450395946",
           "952354564466278",
+          "2812367292453507",
+          "2100901270843799",
           "1470418121140306",
           "809268412182132",
-          "2100901270843799",
           "1383438223473039",
+          "977650778451917",
           "2516237971904614",
           "2509172162899830",
-          "977650778451917",
           "1535161114826040",
-          "1427312029305530",
-          "1353723726587085"
+          "1353723726587085",
+          "1427312029305530"
         ],
         "ads": [
           {
@@ -34581,7 +34581,7 @@
             "startedAt": "2026-06-03",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:54:21+00:00",
-            "lastCollectedAt": "2026-10-11T13:54:21+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:59+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34590,7 +34590,7 @@
             "startedAt": "2025-11-05",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:54:11+00:00",
-            "lastCollectedAt": "2026-10-11T13:54:11+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:49+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34599,7 +34599,7 @@
             "startedAt": "2025-12-22",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:54:10+00:00",
-            "lastCollectedAt": "2026-10-11T13:54:10+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:48+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34608,7 +34608,7 @@
             "startedAt": "2026-02-28",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:54:10+00:00",
-            "lastCollectedAt": "2026-10-11T13:54:10+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:48+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34617,7 +34617,7 @@
             "startedAt": "2026-07-28",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:54:09+00:00",
-            "lastCollectedAt": "2026-10-11T13:54:09+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:47+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34626,7 +34626,7 @@
             "startedAt": "2026-09-16",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:54:08+00:00",
-            "lastCollectedAt": "2026-10-11T13:54:08+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:46+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34635,7 +34635,7 @@
             "startedAt": "2026-07-26",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:54:08+00:00",
-            "lastCollectedAt": "2026-10-11T13:54:08+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:46+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34644,25 +34644,7 @@
             "startedAt": "2026-07-21",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:54:05+00:00",
-            "lastCollectedAt": "2026-10-11T13:54:05+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1297028872370143",
-            "advertiser": "The Booker Prizes",
-            "startedAt": "2026-04-24",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:54:04+00:00",
-            "lastCollectedAt": "2026-10-11T13:54:04+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1811427136665449",
-            "advertiser": "The Nation Thailand",
-            "startedAt": "2026-09-30",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:54:03+00:00",
-            "lastCollectedAt": "2026-10-11T13:54:03+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:44+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34671,7 +34653,25 @@
             "startedAt": "2026-09-10",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:54:03+00:00",
-            "lastCollectedAt": "2026-10-11T13:54:03+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1297028872370143",
+            "advertiser": "The Booker Prizes",
+            "startedAt": "2026-04-24",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:54:04+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1811427136665449",
+            "advertiser": "The Nation Thailand",
+            "startedAt": "2026-09-30",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:54:03+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:42+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34680,7 +34680,7 @@
             "startedAt": "2025-10-22",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:52+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:52+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:32+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34689,7 +34689,7 @@
             "startedAt": "2026-01-02",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:51+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:51+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:31+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34698,16 +34698,7 @@
             "startedAt": "2026-08-31",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:48+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:48+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1451006129824468",
-            "advertiser": "Raid: Shadow Legends",
-            "startedAt": "2026-02-25",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:53:48+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:48+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:28+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34716,7 +34707,16 @@
             "startedAt": "2026-05-04",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:47+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:47+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1451006129824468",
+            "advertiser": "Raid: Shadow Legends",
+            "startedAt": "2026-02-25",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:48+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:28+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34725,7 +34725,7 @@
             "startedAt": "2026-07-15",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:47+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:47+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:27+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34734,7 +34734,7 @@
             "startedAt": "2026-08-02",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:45+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:45+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:26+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34743,7 +34743,7 @@
             "startedAt": "2026-01-13",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:45+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:45+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:26+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34752,7 +34752,7 @@
             "startedAt": "2026-07-06",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:44+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:44+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:25+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34761,16 +34761,7 @@
             "startedAt": "2025-05-14",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:44+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:44+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2105236990421435",
-            "advertiser": "ALDI Nord",
-            "startedAt": "2026-07-30",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:53:32+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:32+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:25+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34779,16 +34770,16 @@
             "startedAt": "2026-09-28",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:32+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:32+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:13+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1419410479604702",
-            "advertiser": "Learna AI: Language Learning App",
-            "startedAt": "2025-12-24",
+            "id": "2105236990421435",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-30",
             "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:53:31+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:31+00:00",
+            "firstCollectedAt": "2026-10-11T13:53:32+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:12+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34797,16 +34788,16 @@
             "startedAt": "2026-07-23",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:31+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:31+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:12+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "2176894426218635",
-            "advertiser": "ALDI Nord",
-            "startedAt": "2026-06-30",
+            "id": "1419410479604702",
+            "advertiser": "Learna AI: Language Learning App",
+            "startedAt": "2025-12-24",
             "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:53:30+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:30+00:00",
+            "firstCollectedAt": "2026-10-11T13:53:31+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:11+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34815,16 +34806,7 @@
             "startedAt": "2026-07-16",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:30+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:30+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "4117495201875084",
-            "advertiser": "ALDI Nord",
-            "startedAt": "2026-05-21",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:53:29+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:29+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:11+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34833,7 +34815,25 @@
             "startedAt": "2026-07-30",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:29+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:29+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2176894426218635",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-06-30",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:30+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4117495201875084",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-05-21",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:29+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:09+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34842,7 +34842,7 @@
             "startedAt": "2025-12-30",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:29+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:29+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:09+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34851,16 +34851,7 @@
             "startedAt": "2025-01-31",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:20+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:20+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2572476999580330",
-            "advertiser": "Der Leadership Coach",
-            "startedAt": "2023-12-19",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:53:20+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:20+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:58+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34869,16 +34860,16 @@
             "startedAt": "2026-05-28",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:20+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:20+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:58+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1903623604370424",
-            "advertiser": "Plan7Architekt - Architektursoftware",
-            "startedAt": "2025-12-03",
+            "id": "2572476999580330",
+            "advertiser": "Der Leadership Coach",
+            "startedAt": "2023-12-19",
             "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:53:19+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:19+00:00",
+            "firstCollectedAt": "2026-10-11T13:53:20+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:57+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34887,7 +34878,16 @@
             "startedAt": "2026-06-14",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:19+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:19+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1903623604370424",
+            "advertiser": "Plan7Architekt - Architektursoftware",
+            "startedAt": "2025-12-03",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:19+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:55+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34896,7 +34896,7 @@
             "startedAt": "2026-05-29",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:19+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:19+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:55+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34905,7 +34905,7 @@
             "startedAt": "2026-05-08",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:18+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:18+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:54+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34914,7 +34914,7 @@
             "startedAt": "2018-06-07",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:17+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:17+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:54+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34923,7 +34923,7 @@
             "startedAt": "2026-04-27",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:17+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:17+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:53+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34932,7 +34932,7 @@
             "startedAt": "2026-08-02",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:16+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:16+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:52+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34941,7 +34941,7 @@
             "startedAt": "2025-06-09",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:08+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:08+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:43+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34950,7 +34950,7 @@
             "startedAt": "2025-04-04",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:08+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:08+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:43+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34959,7 +34959,7 @@
             "startedAt": "2026-04-30",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:07+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:07+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:42+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34968,7 +34968,7 @@
             "startedAt": "2026-06-25",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:07+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:07+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:42+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34977,7 +34977,7 @@
             "startedAt": "2026-06-02",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:06+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:06+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:41+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34986,7 +34986,7 @@
             "startedAt": "2026-06-11",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:05+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:05+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:40+00:00",
             "startTiming": "before-window"
           },
           {
@@ -34995,16 +34995,7 @@
             "startedAt": "2026-06-06",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:05+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:05+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1534184595026125",
-            "advertiser": "ALDI Nord",
-            "startedAt": "2026-07-02",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:53:05+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:05+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:40+00:00",
             "startTiming": "before-window"
           },
           {
@@ -35013,7 +35004,7 @@
             "startedAt": "2026-09-18",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:05+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:05+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:40+00:00",
             "startTiming": "before-window"
           },
           {
@@ -35022,7 +35013,16 @@
             "startedAt": "2026-07-20",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:04+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:04+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1534184595026125",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-02",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:05+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:39+00:00",
             "startTiming": "before-window"
           },
           {
@@ -35031,16 +35031,7 @@
             "startedAt": "2026-08-20",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:56+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:56+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "27313286511639696",
-            "advertiser": "ALDI Nord",
-            "startedAt": "2026-06-03",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:56+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:56+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:31+00:00",
             "startTiming": "before-window"
           },
           {
@@ -35049,7 +35040,16 @@
             "startedAt": "2026-04-27",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:55+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:55+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27313286511639696",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-06-03",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:56+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:30+00:00",
             "startTiming": "before-window"
           },
           {
@@ -35058,7 +35058,7 @@
             "startedAt": "2026-06-22",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:55+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:55+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:29+00:00",
             "startTiming": "before-window"
           },
           {
@@ -35067,7 +35067,7 @@
             "startedAt": "2026-05-14",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:54+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:54+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:29+00:00",
             "startTiming": "before-window"
           },
           {
@@ -35076,7 +35076,7 @@
             "startedAt": "2026-06-16",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:54+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:54+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:29+00:00",
             "startTiming": "before-window"
           },
           {
@@ -35085,7 +35085,7 @@
             "startedAt": "2026-06-07",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:53+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:53+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:28+00:00",
             "startTiming": "before-window"
           },
           {
@@ -35094,7 +35094,7 @@
             "startedAt": "2026-08-06",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:53+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:53+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:28+00:00",
             "startTiming": "before-window"
           },
           {
@@ -35103,7 +35103,7 @@
             "startedAt": "2025-10-09",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:53+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:53+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:28+00:00",
             "startTiming": "before-window"
           },
           {
@@ -35112,7 +35112,7 @@
             "startedAt": "2026-05-08",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:53+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:53+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:28+00:00",
             "startTiming": "before-window"
           },
           {
@@ -35121,7 +35121,7 @@
             "startedAt": "2026-08-13",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:45+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:45+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:20+00:00",
             "startTiming": "before-window"
           },
           {
@@ -35130,7 +35130,7 @@
             "startedAt": "2025-11-03",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:45+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:45+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:20+00:00",
             "startTiming": "before-window"
           },
           {
@@ -35139,7 +35139,7 @@
             "startedAt": "2026-05-15",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:44+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:44+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:19+00:00",
             "startTiming": "before-window"
           },
           {
@@ -35148,25 +35148,7 @@
             "startedAt": "2026-06-01",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:44+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:44+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2157546865044474",
-            "advertiser": "ALDI Nord",
-            "startedAt": "2026-07-05",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:43+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:43+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1185057566995723",
-            "advertiser": "ALDI Nord",
-            "startedAt": "2026-05-17",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:43+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:43+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:19+00:00",
             "startTiming": "before-window"
           },
           {
@@ -35175,25 +35157,25 @@
             "startedAt": "2025-10-16",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:42+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:42+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:18+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1465426678147559",
+            "id": "2157546865044474",
             "advertiser": "ALDI Nord",
-            "startedAt": "2026-05-31",
+            "startedAt": "2026-07-05",
             "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:42+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:42+00:00",
+            "firstCollectedAt": "2026-10-11T13:52:43+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:18+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "981560964408117",
+            "id": "1185057566995723",
             "advertiser": "ALDI Nord",
             "startedAt": "2026-05-17",
             "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:41+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:41+00:00",
+            "firstCollectedAt": "2026-10-11T13:52:43+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:18+00:00",
             "startTiming": "before-window"
           },
           {
@@ -35202,7 +35184,25 @@
             "startedAt": "2026-08-09",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:41+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:41+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1465426678147559",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-05-31",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:42+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "981560964408117",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-05-17",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:41+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:16+00:00",
             "startTiming": "before-window"
           },
           {
@@ -35211,16 +35211,7 @@
             "startedAt": "2026-05-24",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:34+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:34+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1387614739854895",
-            "advertiser": "ALDI Nord",
-            "startedAt": "2026-06-21",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:34+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:34+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:09+00:00",
             "startTiming": "before-window"
           },
           {
@@ -35229,16 +35220,7 @@
             "startedAt": "2026-06-14",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:33+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:33+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1713084773339936",
-            "advertiser": "ALDI Nord",
-            "startedAt": "2026-06-07",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:32+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:32+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:08+00:00",
             "startTiming": "before-window"
           },
           {
@@ -35247,16 +35229,16 @@
             "startedAt": "2026-07-12",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:32+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:32+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:08+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1892302218339471",
-            "advertiser": "Medivet Tierarztpraxen",
-            "startedAt": "2025-12-01",
+            "id": "1387614739854895",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-06-21",
             "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:31+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:31+00:00",
+            "firstCollectedAt": "2026-10-11T13:52:34+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:08+00:00",
             "startTiming": "before-window"
           },
           {
@@ -35265,7 +35247,25 @@
             "startedAt": "2025-03-20",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:31+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:31+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1713084773339936",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-06-07",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:32+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1892302218339471",
+            "advertiser": "Medivet Tierarztpraxen",
+            "startedAt": "2025-12-01",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:31+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:06+00:00",
             "startTiming": "before-window"
           },
           {
@@ -35274,7 +35274,7 @@
             "startedAt": "2026-08-16",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:30+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:30+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:05+00:00",
             "startTiming": "before-window"
           },
           {
@@ -35283,7 +35283,7 @@
             "startedAt": "2026-08-23",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:29+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:29+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:05+00:00",
             "startTiming": "before-window"
           },
           {
@@ -35292,7 +35292,7 @@
             "startedAt": "2026-08-09",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:29+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:29+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:04+00:00",
             "startTiming": "before-window"
           },
           {
@@ -35301,7 +35301,7 @@
             "startedAt": "2026-07-05",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:22+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:22+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:57+00:00",
             "startTiming": "before-window"
           },
           {
@@ -35310,7 +35310,7 @@
             "startedAt": "2026-06-07",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:21+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:21+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:57+00:00",
             "startTiming": "before-window"
           },
           {
@@ -35319,16 +35319,7 @@
             "startedAt": "2026-08-16",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:21+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:21+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1201554408643773",
-            "advertiser": "ALDI Nord",
-            "startedAt": "2026-05-24",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:21+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:21+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:57+00:00",
             "startTiming": "before-window"
           },
           {
@@ -35337,16 +35328,16 @@
             "startedAt": "2025-01-23",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:20+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:20+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:56+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1776445450395946",
+            "id": "1201554408643773",
             "advertiser": "ALDI Nord",
-            "startedAt": "2026-07-19",
+            "startedAt": "2026-05-24",
             "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:20+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:20+00:00",
+            "firstCollectedAt": "2026-10-11T13:52:21+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:56+00:00",
             "startTiming": "before-window"
           },
           {
@@ -35355,16 +35346,7 @@
             "startedAt": "2026-07-12",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:20+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:20+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2812367292453507",
-            "advertiser": "ALDI Nord",
-            "startedAt": "2026-07-26",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:19+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:19+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:56+00:00",
             "startTiming": "before-window"
           },
           {
@@ -35373,7 +35355,16 @@
             "startedAt": "2026-07-19",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:19+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:19+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1776445450395946",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-19",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:20+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:55+00:00",
             "startTiming": "before-window"
           },
           {
@@ -35382,25 +35373,16 @@
             "startedAt": "2026-05-01",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:18+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:18+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:54+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1470418121140306",
-            "advertiser": "Raid: Shadow Legends",
-            "startedAt": "2026-02-19",
+            "id": "2812367292453507",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-26",
             "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:13+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:13+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "809268412182132",
-            "advertiser": "Raid: Shadow Legends",
-            "startedAt": "2026-02-19",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:12+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:12+00:00",
+            "firstCollectedAt": "2026-10-11T13:52:19+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:54+00:00",
             "startTiming": "before-window"
           },
           {
@@ -35409,7 +35391,25 @@
             "startedAt": "2026-07-26",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:12+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:12+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1470418121140306",
+            "advertiser": "Raid: Shadow Legends",
+            "startedAt": "2026-02-19",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:13+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "809268412182132",
+            "advertiser": "Raid: Shadow Legends",
+            "startedAt": "2026-02-19",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:12+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:48+00:00",
             "startTiming": "before-window"
           },
           {
@@ -35418,25 +35418,7 @@
             "startedAt": "2025-12-24",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:12+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:12+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2516237971904614",
-            "advertiser": "verlobungsring.de",
-            "startedAt": "2024-11-12",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:11+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:11+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2509172162899830",
-            "advertiser": "RAF Global",
-            "startedAt": "2026-08-28",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:11+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:11+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:48+00:00",
             "startTiming": "before-window"
           },
           {
@@ -35445,7 +35427,25 @@
             "startedAt": "2026-06-05",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:10+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:10+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2516237971904614",
+            "advertiser": "verlobungsring.de",
+            "startedAt": "2024-11-12",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:11+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2509172162899830",
+            "advertiser": "RAF Global",
+            "startedAt": "2026-08-28",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:11+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:47+00:00",
             "startTiming": "before-window"
           },
           {
@@ -35454,16 +35454,7 @@
             "startedAt": "2026-07-24",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:10+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:10+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1427312029305530",
-            "advertiser": "IFA Berlin",
-            "startedAt": "2026-09-02",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:09+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:09+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:46+00:00",
             "startTiming": "before-window"
           },
           {
@@ -35472,11 +35463,20 @@
             "startedAt": "2026-05-05",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:09+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:09+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1427312029305530",
+            "advertiser": "IFA Berlin",
+            "startedAt": "2026-09-02",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:09+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:45+00:00",
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-11T13:54:21+00:00",
+        "lastCollectedAt": "2026-10-12T20:32:59+00:00",
         "advertisers": [
           {
             "name": "ALDI Nord",
@@ -40979,33 +40979,33 @@
           "855370890997038",
           "1357139352524024",
           "1800578288050895",
+          "1627785058874850",
           "1297028872370143",
           "1811427136665449",
-          "1627785058874850",
           "1383345343310784",
           "865978209507178",
           "2141653039723387",
-          "1451006129824468",
           "1670886000818848",
+          "1451006129824468",
           "1566479958441186",
           "1359390978996804",
           "1184017747261893",
           "2059432611668965",
           "1150593023505360",
-          "2105236990421435",
           "1415033143381264",
-          "1419410479604702",
+          "2105236990421435",
           "1045266748474883",
-          "2176894426218635",
+          "1419410479604702",
           "1000906552929344",
-          "4117495201875084",
           "2515881448926215",
+          "2176894426218635",
+          "4117495201875084",
           "1389408589541717",
           "609813365362421",
-          "2572476999580330",
           "1468942331170943",
-          "1903623604370424",
+          "2572476999580330",
           "1438782168293183",
+          "1903623604370424",
           "1303255455228349",
           "949662521210366",
           "299481604070434",
@@ -41018,12 +41018,12 @@
           "2954225424924010",
           "987793264245392",
           "1721334185794585",
-          "1534184595026125",
           "1445590934145041",
           "1795497174931904",
+          "1534184595026125",
           "983759684723275",
-          "27313286511639696",
           "986029000604011",
+          "27313286511639696",
           "2238460673576746",
           "1736540201035622",
           "1056959796654644",
@@ -41035,42 +41035,42 @@
           "1493051891934839",
           "2714346252278374",
           "2435548206946708",
+          "858367276702004",
           "2157546865044474",
           "1185057566995723",
-          "858367276702004",
+          "2103415530577665",
           "1465426678147559",
           "981560964408117",
-          "2103415530577665",
           "1467383184523954",
-          "1387614739854895",
           "1619189505823393",
-          "1713084773339936",
           "1516325966641294",
-          "1892302218339471",
+          "1387614739854895",
           "1781705575737400",
+          "1713084773339936",
+          "1892302218339471",
           "993709403682899",
           "29311386325117201",
           "1734860557838376",
           "1544248757376995",
           "1496731018575766",
           "1367555094845318",
-          "1201554408643773",
           "2835209729993630",
-          "1776445450395946",
+          "1201554408643773",
           "1024424313404602",
-          "2812367292453507",
           "2191063005019462",
+          "1776445450395946",
           "952354564466278",
+          "2812367292453507",
+          "2100901270843799",
           "1470418121140306",
           "809268412182132",
-          "2100901270843799",
           "1383438223473039",
+          "977650778451917",
           "2516237971904614",
           "2509172162899830",
-          "977650778451917",
           "1535161114826040",
-          "1427312029305530",
-          "1353723726587085"
+          "1353723726587085",
+          "1427312029305530"
         ],
         "ads": [
           {
@@ -41079,7 +41079,7 @@
             "startedAt": "2026-06-03",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:54:21+00:00",
-            "lastCollectedAt": "2026-10-11T13:54:21+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:59+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41088,7 +41088,7 @@
             "startedAt": "2025-11-05",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:54:11+00:00",
-            "lastCollectedAt": "2026-10-11T13:54:11+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:49+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41097,7 +41097,7 @@
             "startedAt": "2025-12-22",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:54:10+00:00",
-            "lastCollectedAt": "2026-10-11T13:54:10+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:48+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41106,7 +41106,7 @@
             "startedAt": "2026-02-28",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:54:10+00:00",
-            "lastCollectedAt": "2026-10-11T13:54:10+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:48+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41115,7 +41115,7 @@
             "startedAt": "2026-07-28",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:54:09+00:00",
-            "lastCollectedAt": "2026-10-11T13:54:09+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:47+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41124,7 +41124,7 @@
             "startedAt": "2026-09-16",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:54:08+00:00",
-            "lastCollectedAt": "2026-10-11T13:54:08+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:46+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41133,7 +41133,7 @@
             "startedAt": "2026-07-26",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:54:08+00:00",
-            "lastCollectedAt": "2026-10-11T13:54:08+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:46+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41142,25 +41142,7 @@
             "startedAt": "2026-07-21",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:54:05+00:00",
-            "lastCollectedAt": "2026-10-11T13:54:05+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1297028872370143",
-            "advertiser": "The Booker Prizes",
-            "startedAt": "2026-04-24",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:54:04+00:00",
-            "lastCollectedAt": "2026-10-11T13:54:04+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1811427136665449",
-            "advertiser": "The Nation Thailand",
-            "startedAt": "2026-09-30",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:54:03+00:00",
-            "lastCollectedAt": "2026-10-11T13:54:03+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:44+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41169,7 +41151,25 @@
             "startedAt": "2026-09-10",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:54:03+00:00",
-            "lastCollectedAt": "2026-10-11T13:54:03+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1297028872370143",
+            "advertiser": "The Booker Prizes",
+            "startedAt": "2026-04-24",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:54:04+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1811427136665449",
+            "advertiser": "The Nation Thailand",
+            "startedAt": "2026-09-30",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:54:03+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:42+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41178,7 +41178,7 @@
             "startedAt": "2025-10-22",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:52+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:52+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:32+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41187,7 +41187,7 @@
             "startedAt": "2026-01-02",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:51+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:51+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:31+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41196,16 +41196,7 @@
             "startedAt": "2026-08-31",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:48+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:48+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1451006129824468",
-            "advertiser": "Raid: Shadow Legends",
-            "startedAt": "2026-02-25",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:53:48+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:48+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:28+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41214,7 +41205,16 @@
             "startedAt": "2026-05-04",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:47+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:47+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1451006129824468",
+            "advertiser": "Raid: Shadow Legends",
+            "startedAt": "2026-02-25",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:48+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:28+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41223,7 +41223,7 @@
             "startedAt": "2026-07-15",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:47+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:47+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:27+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41232,7 +41232,7 @@
             "startedAt": "2026-08-02",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:45+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:45+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:26+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41241,7 +41241,7 @@
             "startedAt": "2026-01-13",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:45+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:45+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:26+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41250,7 +41250,7 @@
             "startedAt": "2026-07-06",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:44+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:44+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:25+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41259,16 +41259,7 @@
             "startedAt": "2025-05-14",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:44+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:44+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2105236990421435",
-            "advertiser": "ALDI Nord",
-            "startedAt": "2026-07-30",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:53:32+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:32+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:25+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41277,16 +41268,16 @@
             "startedAt": "2026-09-28",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:32+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:32+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:13+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1419410479604702",
-            "advertiser": "Learna AI: Language Learning App",
-            "startedAt": "2025-12-24",
+            "id": "2105236990421435",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-30",
             "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:53:31+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:31+00:00",
+            "firstCollectedAt": "2026-10-11T13:53:32+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:12+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41295,16 +41286,16 @@
             "startedAt": "2026-07-23",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:31+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:31+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:12+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "2176894426218635",
-            "advertiser": "ALDI Nord",
-            "startedAt": "2026-06-30",
+            "id": "1419410479604702",
+            "advertiser": "Learna AI: Language Learning App",
+            "startedAt": "2025-12-24",
             "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:53:30+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:30+00:00",
+            "firstCollectedAt": "2026-10-11T13:53:31+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:11+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41313,16 +41304,7 @@
             "startedAt": "2026-07-16",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:30+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:30+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "4117495201875084",
-            "advertiser": "ALDI Nord",
-            "startedAt": "2026-05-21",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:53:29+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:29+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:11+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41331,7 +41313,25 @@
             "startedAt": "2026-07-30",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:29+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:29+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2176894426218635",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-06-30",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:30+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4117495201875084",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-05-21",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:29+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:09+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41340,7 +41340,7 @@
             "startedAt": "2025-12-30",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:29+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:29+00:00",
+            "lastCollectedAt": "2026-10-12T20:32:09+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41349,16 +41349,7 @@
             "startedAt": "2025-01-31",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:20+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:20+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2572476999580330",
-            "advertiser": "Der Leadership Coach",
-            "startedAt": "2023-12-19",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:53:20+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:20+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:58+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41367,16 +41358,16 @@
             "startedAt": "2026-05-28",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:20+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:20+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:58+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1903623604370424",
-            "advertiser": "Plan7Architekt - Architektursoftware",
-            "startedAt": "2025-12-03",
+            "id": "2572476999580330",
+            "advertiser": "Der Leadership Coach",
+            "startedAt": "2023-12-19",
             "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:53:19+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:19+00:00",
+            "firstCollectedAt": "2026-10-11T13:53:20+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:57+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41385,7 +41376,16 @@
             "startedAt": "2026-06-14",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:19+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:19+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1903623604370424",
+            "advertiser": "Plan7Architekt - Architektursoftware",
+            "startedAt": "2025-12-03",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:19+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:55+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41394,7 +41394,7 @@
             "startedAt": "2026-05-29",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:19+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:19+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:55+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41403,7 +41403,7 @@
             "startedAt": "2026-05-08",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:18+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:18+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:54+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41412,7 +41412,7 @@
             "startedAt": "2018-06-07",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:17+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:17+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:54+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41421,7 +41421,7 @@
             "startedAt": "2026-04-27",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:17+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:17+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:53+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41430,7 +41430,7 @@
             "startedAt": "2026-08-02",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:16+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:16+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:52+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41439,7 +41439,7 @@
             "startedAt": "2025-06-09",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:08+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:08+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:43+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41448,7 +41448,7 @@
             "startedAt": "2025-04-04",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:08+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:08+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:43+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41457,7 +41457,7 @@
             "startedAt": "2026-04-30",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:07+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:07+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:42+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41466,7 +41466,7 @@
             "startedAt": "2026-06-25",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:07+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:07+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:42+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41475,7 +41475,7 @@
             "startedAt": "2026-06-02",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:06+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:06+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:41+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41484,7 +41484,7 @@
             "startedAt": "2026-06-11",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:05+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:05+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:40+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41493,16 +41493,7 @@
             "startedAt": "2026-06-06",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:05+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:05+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1534184595026125",
-            "advertiser": "ALDI Nord",
-            "startedAt": "2026-07-02",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:53:05+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:05+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:40+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41511,7 +41502,7 @@
             "startedAt": "2026-09-18",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:05+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:05+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:40+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41520,7 +41511,16 @@
             "startedAt": "2026-07-20",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:53:04+00:00",
-            "lastCollectedAt": "2026-10-11T13:53:04+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1534184595026125",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-02",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:53:05+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:39+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41529,16 +41529,7 @@
             "startedAt": "2026-08-20",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:56+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:56+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "27313286511639696",
-            "advertiser": "ALDI Nord",
-            "startedAt": "2026-06-03",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:56+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:56+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:31+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41547,7 +41538,16 @@
             "startedAt": "2026-04-27",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:55+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:55+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27313286511639696",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-06-03",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:56+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:30+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41556,7 +41556,7 @@
             "startedAt": "2026-06-22",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:55+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:55+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:29+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41565,7 +41565,7 @@
             "startedAt": "2026-05-14",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:54+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:54+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:29+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41574,7 +41574,7 @@
             "startedAt": "2026-06-16",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:54+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:54+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:29+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41583,7 +41583,7 @@
             "startedAt": "2026-06-07",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:53+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:53+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:28+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41592,7 +41592,7 @@
             "startedAt": "2026-08-06",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:53+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:53+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:28+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41601,7 +41601,7 @@
             "startedAt": "2025-10-09",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:53+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:53+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:28+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41610,7 +41610,7 @@
             "startedAt": "2026-05-08",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:53+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:53+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:28+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41619,7 +41619,7 @@
             "startedAt": "2026-08-13",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:45+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:45+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:20+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41628,7 +41628,7 @@
             "startedAt": "2025-11-03",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:45+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:45+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:20+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41637,7 +41637,7 @@
             "startedAt": "2026-05-15",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:44+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:44+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:19+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41646,25 +41646,7 @@
             "startedAt": "2026-06-01",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:44+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:44+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2157546865044474",
-            "advertiser": "ALDI Nord",
-            "startedAt": "2026-07-05",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:43+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:43+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1185057566995723",
-            "advertiser": "ALDI Nord",
-            "startedAt": "2026-05-17",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:43+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:43+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:19+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41673,25 +41655,25 @@
             "startedAt": "2025-10-16",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:42+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:42+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:18+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1465426678147559",
+            "id": "2157546865044474",
             "advertiser": "ALDI Nord",
-            "startedAt": "2026-05-31",
+            "startedAt": "2026-07-05",
             "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:42+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:42+00:00",
+            "firstCollectedAt": "2026-10-11T13:52:43+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:18+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "981560964408117",
+            "id": "1185057566995723",
             "advertiser": "ALDI Nord",
             "startedAt": "2026-05-17",
             "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:41+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:41+00:00",
+            "firstCollectedAt": "2026-10-11T13:52:43+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:18+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41700,7 +41682,25 @@
             "startedAt": "2026-08-09",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:41+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:41+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1465426678147559",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-05-31",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:42+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "981560964408117",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-05-17",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:41+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:16+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41709,16 +41709,7 @@
             "startedAt": "2026-05-24",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:34+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:34+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1387614739854895",
-            "advertiser": "ALDI Nord",
-            "startedAt": "2026-06-21",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:34+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:34+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:09+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41727,16 +41718,7 @@
             "startedAt": "2026-06-14",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:33+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:33+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1713084773339936",
-            "advertiser": "ALDI Nord",
-            "startedAt": "2026-06-07",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:32+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:32+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:08+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41745,16 +41727,16 @@
             "startedAt": "2026-07-12",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:32+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:32+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:08+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1892302218339471",
-            "advertiser": "Medivet Tierarztpraxen",
-            "startedAt": "2025-12-01",
+            "id": "1387614739854895",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-06-21",
             "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:31+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:31+00:00",
+            "firstCollectedAt": "2026-10-11T13:52:34+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:08+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41763,7 +41745,25 @@
             "startedAt": "2025-03-20",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:31+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:31+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1713084773339936",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-06-07",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:32+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1892302218339471",
+            "advertiser": "Medivet Tierarztpraxen",
+            "startedAt": "2025-12-01",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:31+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:06+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41772,7 +41772,7 @@
             "startedAt": "2026-08-16",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:30+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:30+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:05+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41781,7 +41781,7 @@
             "startedAt": "2026-08-23",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:29+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:29+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:05+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41790,7 +41790,7 @@
             "startedAt": "2026-08-09",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:29+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:29+00:00",
+            "lastCollectedAt": "2026-10-12T20:31:04+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41799,7 +41799,7 @@
             "startedAt": "2026-07-05",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:22+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:22+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:57+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41808,7 +41808,7 @@
             "startedAt": "2026-06-07",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:21+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:21+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:57+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41817,16 +41817,7 @@
             "startedAt": "2026-08-16",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:21+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:21+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1201554408643773",
-            "advertiser": "ALDI Nord",
-            "startedAt": "2026-05-24",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:21+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:21+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:57+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41835,16 +41826,16 @@
             "startedAt": "2025-01-23",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:20+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:20+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:56+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1776445450395946",
+            "id": "1201554408643773",
             "advertiser": "ALDI Nord",
-            "startedAt": "2026-07-19",
+            "startedAt": "2026-05-24",
             "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:20+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:20+00:00",
+            "firstCollectedAt": "2026-10-11T13:52:21+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:56+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41853,16 +41844,7 @@
             "startedAt": "2026-07-12",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:20+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:20+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2812367292453507",
-            "advertiser": "ALDI Nord",
-            "startedAt": "2026-07-26",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:19+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:19+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:56+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41871,7 +41853,16 @@
             "startedAt": "2026-07-19",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:19+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:19+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1776445450395946",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-19",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:20+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:55+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41880,25 +41871,16 @@
             "startedAt": "2026-05-01",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:18+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:18+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:54+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1470418121140306",
-            "advertiser": "Raid: Shadow Legends",
-            "startedAt": "2026-02-19",
+            "id": "2812367292453507",
+            "advertiser": "ALDI Nord",
+            "startedAt": "2026-07-26",
             "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:13+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:13+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "809268412182132",
-            "advertiser": "Raid: Shadow Legends",
-            "startedAt": "2026-02-19",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:12+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:12+00:00",
+            "firstCollectedAt": "2026-10-11T13:52:19+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:54+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41907,7 +41889,25 @@
             "startedAt": "2026-07-26",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:12+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:12+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1470418121140306",
+            "advertiser": "Raid: Shadow Legends",
+            "startedAt": "2026-02-19",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:13+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "809268412182132",
+            "advertiser": "Raid: Shadow Legends",
+            "startedAt": "2026-02-19",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:12+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:48+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41916,25 +41916,7 @@
             "startedAt": "2025-12-24",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:12+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:12+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2516237971904614",
-            "advertiser": "verlobungsring.de",
-            "startedAt": "2024-11-12",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:11+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:11+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2509172162899830",
-            "advertiser": "RAF Global",
-            "startedAt": "2026-08-28",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:11+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:11+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:48+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41943,7 +41925,25 @@
             "startedAt": "2026-06-05",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:10+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:10+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2516237971904614",
+            "advertiser": "verlobungsring.de",
+            "startedAt": "2024-11-12",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:11+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2509172162899830",
+            "advertiser": "RAF Global",
+            "startedAt": "2026-08-28",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:11+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:47+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41952,16 +41952,7 @@
             "startedAt": "2026-07-24",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:10+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:10+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1427312029305530",
-            "advertiser": "IFA Berlin",
-            "startedAt": "2026-09-02",
-            "query": "dem",
-            "firstCollectedAt": "2026-10-11T13:52:09+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:09+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:46+00:00",
             "startTiming": "before-window"
           },
           {
@@ -41970,11 +41961,20 @@
             "startedAt": "2026-05-05",
             "query": "dem",
             "firstCollectedAt": "2026-10-11T13:52:09+00:00",
-            "lastCollectedAt": "2026-10-11T13:52:09+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1427312029305530",
+            "advertiser": "IFA Berlin",
+            "startedAt": "2026-09-02",
+            "query": "dem",
+            "firstCollectedAt": "2026-10-11T13:52:09+00:00",
+            "lastCollectedAt": "2026-10-12T20:30:45+00:00",
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-11T13:54:21+00:00",
+        "lastCollectedAt": "2026-10-12T20:32:59+00:00",
         "advertisers": [
           {
             "name": "ALDI Nord",
