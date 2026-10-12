@@ -1,6 +1,6 @@
 {
   "mode": "snapshot",
-  "updatedAt": "2026-10-12T22:27:31+00:00",
+  "updatedAt": "2026-10-12T22:31:42+00:00",
   "automations": [
     {
       "id": "meta-ads",
@@ -11,15 +11,15 @@
       "nextRunAt": "2026-10-12T23:21:56+00:00",
       "lastSuccessAt": "2026-10-12T22:27:19+00:00",
       "lastAttemptAt": "2026-10-12T22:26:27+00:00",
-      "message": "광고 라이브러리 수집 예약",
+      "message": "Meta 조회 오류 · 5분 대기 후 다음 작업 확인",
       "intervalSeconds": 3600,
       "statusCheckIntervalSeconds": 900,
       "statusCheckBatchSize": 10,
-      "nextStatusCheckAt": "2026-10-12T22:30:27+00:00",
+      "nextStatusCheckAt": "2026-10-12T22:45:28+00:00",
       "collectionGuard": {
-        "state": "ready",
-        "reason": null,
-        "nextAllowedAt": null,
+        "state": "failure",
+        "reason": "Meta 조회 오류 · 5분 대기 후 다음 작업 확인",
+        "nextAllowedAt": "2026-10-12T22:36:26+00:00",
         "blockedUntil": null,
         "blockStreak": 0,
         "storageReady": true,
@@ -94,12 +94,12 @@
       "id": "tistory-blog",
       "name": "티스토리 연예",
       "enabled": true,
-      "running": false,
-      "state": "waiting",
-      "nextRunAt": "2026-10-13T07:31:33+09:00",
+      "running": true,
+      "state": "running",
+      "nextRunAt": "2026-10-13T07:46:34+09:00",
       "lastSuccessAt": "2026-10-13T07:01:25+09:00",
       "lastAttemptAt": null,
-      "message": "후보 없음 또는 발행 한도·간격 대기 · AI 호출 없음",
+      "message": "Python 뉴스 확인·중복 검사 중 · AI 호출 없음",
       "intervalSeconds": 900,
       "statusCheckIntervalSeconds": null,
       "statusCheckBatchSize": null,
@@ -157,8 +157,8 @@
   ],
   "publication": {
     "state": "synced",
-    "lastAttemptAt": "2026-10-12T22:24:37+00:00",
-    "lastSuccessAt": "2026-10-12T22:24:43+00:00",
+    "lastAttemptAt": "2026-10-12T22:27:31+00:00",
+    "lastSuccessAt": "2026-10-12T22:27:37+00:00",
     "error": null,
     "enabled": true
   }
