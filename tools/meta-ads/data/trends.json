@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12T18:22:09+00:00",
+  "updatedAt": "2026-10-12T18:27:10+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-12T17:56:40+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 4,
-    "dailyRemaining": 284,
+    "dailyUsed": 5,
+    "dailyRemaining": 283,
     "pending": 0,
-    "nextDispatchAt": "2026-10-12T18:26:27+00:00",
+    "nextDispatchAt": "2026-10-12T18:31:31+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -14730,24 +14730,31 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "done",
       "keywordId": "ff4189c37c2ca2617281a87d168523e6f09373e2146d00b982b2b19e88869fd5",
       "searchQuery": "셀렉스",
       "adEvidence": {
         "query": "셀렉스",
         "matchType": "collected-with-query",
-        "adCount": 14,
+        "adCount": 21,
         "adIds": [
-          "1529442892273451",
+          "29168530646084717",
+          "1129854859435369",
+          "2130348477872650",
+          "1646027623650725",
           "4948904172009015",
+          "1529442892273451",
+          "1418638836266437",
+          "1623435262759181",
+          "1445105174199416",
+          "1397332845448642",
+          "1367658545373132",
+          "1086979867523985",
           "1571501480920341",
           "1727285898379918",
           "2311392569626237",
-          "1623435262759181",
-          "1418638836266437",
           "1722242525542484",
           "1445126681023459",
-          "1445105174199416",
           "1124383286909929",
           "2456712811505018",
           "2018163065744908",
@@ -14755,13 +14762,40 @@
         ],
         "ads": [
           {
-            "id": "1529442892273451",
-            "advertiser": "매일유업(Maeil)",
-            "startedAt": "2026-10-07",
+            "id": "29168530646084717",
+            "advertiser": "올리브베러",
+            "startedAt": "2026-10-11",
             "query": "셀렉스",
-            "firstCollectedAt": "2026-10-09T09:02:49+00:00",
-            "lastCollectedAt": "2026-10-09T09:02:49+00:00",
+            "firstCollectedAt": "2026-10-12T18:26:49+00:00",
+            "lastCollectedAt": "2026-10-12T18:26:49+00:00",
             "startTiming": "during-window"
+          },
+          {
+            "id": "1129854859435369",
+            "advertiser": "셀렉스",
+            "startedAt": "2026-10-12",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-12T18:26:48+00:00",
+            "lastCollectedAt": "2026-10-12T18:26:48+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "2130348477872650",
+            "advertiser": "Musinsa",
+            "startedAt": "2026-10-12",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-12T18:26:37+00:00",
+            "lastCollectedAt": "2026-10-12T18:26:37+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1646027623650725",
+            "advertiser": "Musinsa",
+            "startedAt": "2026-10-12",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-12T18:26:37+00:00",
+            "lastCollectedAt": "2026-10-12T18:26:37+00:00",
+            "startTiming": "after-window"
           },
           {
             "id": "4948904172009015",
@@ -14769,7 +14803,70 @@
             "startedAt": "2026-10-07",
             "query": "셀렉스",
             "firstCollectedAt": "2026-10-09T09:02:48+00:00",
-            "lastCollectedAt": "2026-10-09T09:02:48+00:00",
+            "lastCollectedAt": "2026-10-12T18:26:36+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1529442892273451",
+            "advertiser": "매일유업(Maeil)",
+            "startedAt": "2026-10-07",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:49+00:00",
+            "lastCollectedAt": "2026-10-12T18:26:36+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1418638836266437",
+            "advertiser": "셀렉스",
+            "startedAt": "2025-12-21",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:35+00:00",
+            "lastCollectedAt": "2026-10-12T18:26:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1623435262759181",
+            "advertiser": "올리브영",
+            "startedAt": "2026-09-30",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:35+00:00",
+            "lastCollectedAt": "2026-10-12T18:26:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1445105174199416",
+            "advertiser": "셀렉스",
+            "startedAt": "2026-09-28",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:34+00:00",
+            "lastCollectedAt": "2026-10-12T18:26:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1397332845448642",
+            "advertiser": "Musinsa",
+            "startedAt": "2026-10-12",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-12T18:26:35+00:00",
+            "lastCollectedAt": "2026-10-12T18:26:35+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1367658545373132",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-15",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-12T18:26:35+00:00",
+            "lastCollectedAt": "2026-10-12T18:26:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1086979867523985",
+            "advertiser": "Musinsa",
+            "startedAt": "2026-10-11",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-12T18:26:35+00:00",
+            "lastCollectedAt": "2026-10-12T18:26:35+00:00",
             "startTiming": "during-window"
           },
           {
@@ -14800,24 +14897,6 @@
             "startTiming": "before-window"
           },
           {
-            "id": "1623435262759181",
-            "advertiser": "올리브영",
-            "startedAt": "2026-09-30",
-            "query": "셀렉스",
-            "firstCollectedAt": "2026-10-09T09:02:35+00:00",
-            "lastCollectedAt": "2026-10-09T09:02:35+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1418638836266437",
-            "advertiser": "셀렉스",
-            "startedAt": "2025-12-21",
-            "query": "셀렉스",
-            "firstCollectedAt": "2026-10-09T09:02:35+00:00",
-            "lastCollectedAt": "2026-10-09T09:02:35+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "1722242525542484",
             "advertiser": "Musinsa",
             "startedAt": "2026-10-07",
@@ -14834,15 +14913,6 @@
             "firstCollectedAt": "2026-10-09T09:02:34+00:00",
             "lastCollectedAt": "2026-10-09T09:02:34+00:00",
             "startTiming": "during-window"
-          },
-          {
-            "id": "1445105174199416",
-            "advertiser": "셀렉스",
-            "startedAt": "2026-09-28",
-            "query": "셀렉스",
-            "firstCollectedAt": "2026-10-09T09:02:34+00:00",
-            "lastCollectedAt": "2026-10-09T09:02:34+00:00",
-            "startTiming": "before-window"
           },
           {
             "id": "1124383286909929",
@@ -14881,19 +14951,23 @@
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-09T09:02:49+00:00",
+        "lastCollectedAt": "2026-10-12T18:26:49+00:00",
         "advertisers": [
           {
-            "name": "셀렉스",
-            "adCount": 6
+            "name": "Musinsa",
+            "adCount": 7
           },
           {
-            "name": "Musinsa",
-            "adCount": 3
+            "name": "셀렉스",
+            "adCount": 7
           },
           {
             "name": "써브웨이 Subway Korea",
             "adCount": 2
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 1
           },
           {
             "name": "Promalspace",
@@ -14901,6 +14975,10 @@
           },
           {
             "name": "매일유업(Maeil)",
+            "adCount": 1
+          },
+          {
+            "name": "올리브베러",
             "adCount": 1
           },
           {
@@ -17453,24 +17531,31 @@
       "rankWindow": 100,
       "observedAt": "2026-10-12T00:51:31+00:00",
       "lastObservedAt": "2026-10-12T17:56:40+00:00",
-      "state": "backlog",
+      "state": "done",
       "keywordId": "ff4189c37c2ca2617281a87d168523e6f09373e2146d00b982b2b19e88869fd5",
       "searchQuery": "셀렉스",
       "adEvidence": {
         "query": "셀렉스",
         "matchType": "collected-with-query",
-        "adCount": 14,
+        "adCount": 21,
         "adIds": [
-          "1529442892273451",
+          "29168530646084717",
+          "1129854859435369",
+          "2130348477872650",
+          "1646027623650725",
           "4948904172009015",
+          "1529442892273451",
+          "1418638836266437",
+          "1623435262759181",
+          "1445105174199416",
+          "1397332845448642",
+          "1367658545373132",
+          "1086979867523985",
           "1571501480920341",
           "1727285898379918",
           "2311392569626237",
-          "1623435262759181",
-          "1418638836266437",
           "1722242525542484",
           "1445126681023459",
-          "1445105174199416",
           "1124383286909929",
           "2456712811505018",
           "2018163065744908",
@@ -17478,13 +17563,40 @@
         ],
         "ads": [
           {
-            "id": "1529442892273451",
-            "advertiser": "매일유업(Maeil)",
-            "startedAt": "2026-10-07",
+            "id": "29168530646084717",
+            "advertiser": "올리브베러",
+            "startedAt": "2026-10-11",
             "query": "셀렉스",
-            "firstCollectedAt": "2026-10-09T09:02:49+00:00",
-            "lastCollectedAt": "2026-10-09T09:02:49+00:00",
+            "firstCollectedAt": "2026-10-12T18:26:49+00:00",
+            "lastCollectedAt": "2026-10-12T18:26:49+00:00",
             "startTiming": "during-window"
+          },
+          {
+            "id": "1129854859435369",
+            "advertiser": "셀렉스",
+            "startedAt": "2026-10-12",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-12T18:26:48+00:00",
+            "lastCollectedAt": "2026-10-12T18:26:48+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "2130348477872650",
+            "advertiser": "Musinsa",
+            "startedAt": "2026-10-12",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-12T18:26:37+00:00",
+            "lastCollectedAt": "2026-10-12T18:26:37+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1646027623650725",
+            "advertiser": "Musinsa",
+            "startedAt": "2026-10-12",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-12T18:26:37+00:00",
+            "lastCollectedAt": "2026-10-12T18:26:37+00:00",
+            "startTiming": "after-window"
           },
           {
             "id": "4948904172009015",
@@ -17492,7 +17604,70 @@
             "startedAt": "2026-10-07",
             "query": "셀렉스",
             "firstCollectedAt": "2026-10-09T09:02:48+00:00",
-            "lastCollectedAt": "2026-10-09T09:02:48+00:00",
+            "lastCollectedAt": "2026-10-12T18:26:36+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1529442892273451",
+            "advertiser": "매일유업(Maeil)",
+            "startedAt": "2026-10-07",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:49+00:00",
+            "lastCollectedAt": "2026-10-12T18:26:36+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1418638836266437",
+            "advertiser": "셀렉스",
+            "startedAt": "2025-12-21",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:35+00:00",
+            "lastCollectedAt": "2026-10-12T18:26:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1623435262759181",
+            "advertiser": "올리브영",
+            "startedAt": "2026-09-30",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:35+00:00",
+            "lastCollectedAt": "2026-10-12T18:26:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1445105174199416",
+            "advertiser": "셀렉스",
+            "startedAt": "2026-09-28",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:34+00:00",
+            "lastCollectedAt": "2026-10-12T18:26:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1397332845448642",
+            "advertiser": "Musinsa",
+            "startedAt": "2026-10-12",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-12T18:26:35+00:00",
+            "lastCollectedAt": "2026-10-12T18:26:35+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1367658545373132",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-15",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-12T18:26:35+00:00",
+            "lastCollectedAt": "2026-10-12T18:26:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1086979867523985",
+            "advertiser": "Musinsa",
+            "startedAt": "2026-10-11",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-12T18:26:35+00:00",
+            "lastCollectedAt": "2026-10-12T18:26:35+00:00",
             "startTiming": "during-window"
           },
           {
@@ -17523,24 +17698,6 @@
             "startTiming": "before-window"
           },
           {
-            "id": "1623435262759181",
-            "advertiser": "올리브영",
-            "startedAt": "2026-09-30",
-            "query": "셀렉스",
-            "firstCollectedAt": "2026-10-09T09:02:35+00:00",
-            "lastCollectedAt": "2026-10-09T09:02:35+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1418638836266437",
-            "advertiser": "셀렉스",
-            "startedAt": "2025-12-21",
-            "query": "셀렉스",
-            "firstCollectedAt": "2026-10-09T09:02:35+00:00",
-            "lastCollectedAt": "2026-10-09T09:02:35+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "1722242525542484",
             "advertiser": "Musinsa",
             "startedAt": "2026-10-07",
@@ -17557,15 +17714,6 @@
             "firstCollectedAt": "2026-10-09T09:02:34+00:00",
             "lastCollectedAt": "2026-10-09T09:02:34+00:00",
             "startTiming": "during-window"
-          },
-          {
-            "id": "1445105174199416",
-            "advertiser": "셀렉스",
-            "startedAt": "2026-09-28",
-            "query": "셀렉스",
-            "firstCollectedAt": "2026-10-09T09:02:34+00:00",
-            "lastCollectedAt": "2026-10-09T09:02:34+00:00",
-            "startTiming": "before-window"
           },
           {
             "id": "1124383286909929",
@@ -17604,19 +17752,23 @@
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-09T09:02:49+00:00",
+        "lastCollectedAt": "2026-10-12T18:26:49+00:00",
         "advertisers": [
           {
-            "name": "셀렉스",
-            "adCount": 6
+            "name": "Musinsa",
+            "adCount": 7
           },
           {
-            "name": "Musinsa",
-            "adCount": 3
+            "name": "셀렉스",
+            "adCount": 7
           },
           {
             "name": "써브웨이 Subway Korea",
             "adCount": 2
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 1
           },
           {
             "name": "Promalspace",
@@ -17624,6 +17776,10 @@
           },
           {
             "name": "매일유업(Maeil)",
+            "adCount": 1
+          },
+          {
+            "name": "올리브베러",
             "adCount": 1
           },
           {
@@ -65863,18 +66019,25 @@
       "adEvidence": {
         "query": "셀렉스",
         "matchType": "collected-with-query",
-        "adCount": 14,
+        "adCount": 21,
         "adIds": [
-          "1529442892273451",
+          "29168530646084717",
+          "1129854859435369",
+          "2130348477872650",
+          "1646027623650725",
           "4948904172009015",
+          "1529442892273451",
+          "1418638836266437",
+          "1623435262759181",
+          "1445105174199416",
+          "1397332845448642",
+          "1367658545373132",
+          "1086979867523985",
           "1571501480920341",
           "1727285898379918",
           "2311392569626237",
-          "1623435262759181",
-          "1418638836266437",
           "1722242525542484",
           "1445126681023459",
-          "1445105174199416",
           "1124383286909929",
           "2456712811505018",
           "2018163065744908",
@@ -65882,13 +66045,40 @@
         ],
         "ads": [
           {
-            "id": "1529442892273451",
-            "advertiser": "매일유업(Maeil)",
-            "startedAt": "2026-10-07",
+            "id": "29168530646084717",
+            "advertiser": "올리브베러",
+            "startedAt": "2026-10-11",
             "query": "셀렉스",
-            "firstCollectedAt": "2026-10-09T09:02:49+00:00",
-            "lastCollectedAt": "2026-10-09T09:02:49+00:00",
-            "startTiming": "during-window"
+            "firstCollectedAt": "2026-10-12T18:26:49+00:00",
+            "lastCollectedAt": "2026-10-12T18:26:49+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1129854859435369",
+            "advertiser": "셀렉스",
+            "startedAt": "2026-10-12",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-12T18:26:48+00:00",
+            "lastCollectedAt": "2026-10-12T18:26:48+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "2130348477872650",
+            "advertiser": "Musinsa",
+            "startedAt": "2026-10-12",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-12T18:26:37+00:00",
+            "lastCollectedAt": "2026-10-12T18:26:37+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1646027623650725",
+            "advertiser": "Musinsa",
+            "startedAt": "2026-10-12",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-12T18:26:37+00:00",
+            "lastCollectedAt": "2026-10-12T18:26:37+00:00",
+            "startTiming": "after-window"
           },
           {
             "id": "4948904172009015",
@@ -65896,8 +66086,71 @@
             "startedAt": "2026-10-07",
             "query": "셀렉스",
             "firstCollectedAt": "2026-10-09T09:02:48+00:00",
-            "lastCollectedAt": "2026-10-09T09:02:48+00:00",
+            "lastCollectedAt": "2026-10-12T18:26:36+00:00",
             "startTiming": "during-window"
+          },
+          {
+            "id": "1529442892273451",
+            "advertiser": "매일유업(Maeil)",
+            "startedAt": "2026-10-07",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:49+00:00",
+            "lastCollectedAt": "2026-10-12T18:26:36+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1418638836266437",
+            "advertiser": "셀렉스",
+            "startedAt": "2025-12-21",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:35+00:00",
+            "lastCollectedAt": "2026-10-12T18:26:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1623435262759181",
+            "advertiser": "올리브영",
+            "startedAt": "2026-09-30",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:35+00:00",
+            "lastCollectedAt": "2026-10-12T18:26:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1445105174199416",
+            "advertiser": "셀렉스",
+            "startedAt": "2026-09-28",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-09T09:02:34+00:00",
+            "lastCollectedAt": "2026-10-12T18:26:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1397332845448642",
+            "advertiser": "Musinsa",
+            "startedAt": "2026-10-12",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-12T18:26:35+00:00",
+            "lastCollectedAt": "2026-10-12T18:26:35+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1367658545373132",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-15",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-12T18:26:35+00:00",
+            "lastCollectedAt": "2026-10-12T18:26:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1086979867523985",
+            "advertiser": "Musinsa",
+            "startedAt": "2026-10-11",
+            "query": "셀렉스",
+            "firstCollectedAt": "2026-10-12T18:26:35+00:00",
+            "lastCollectedAt": "2026-10-12T18:26:35+00:00",
+            "startTiming": "after-window"
           },
           {
             "id": "1571501480920341",
@@ -65927,24 +66180,6 @@
             "startTiming": "during-window"
           },
           {
-            "id": "1623435262759181",
-            "advertiser": "올리브영",
-            "startedAt": "2026-09-30",
-            "query": "셀렉스",
-            "firstCollectedAt": "2026-10-09T09:02:35+00:00",
-            "lastCollectedAt": "2026-10-09T09:02:35+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1418638836266437",
-            "advertiser": "셀렉스",
-            "startedAt": "2025-12-21",
-            "query": "셀렉스",
-            "firstCollectedAt": "2026-10-09T09:02:35+00:00",
-            "lastCollectedAt": "2026-10-09T09:02:35+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "1722242525542484",
             "advertiser": "Musinsa",
             "startedAt": "2026-10-07",
@@ -65961,15 +66196,6 @@
             "firstCollectedAt": "2026-10-09T09:02:34+00:00",
             "lastCollectedAt": "2026-10-09T09:02:34+00:00",
             "startTiming": "during-window"
-          },
-          {
-            "id": "1445105174199416",
-            "advertiser": "셀렉스",
-            "startedAt": "2026-09-28",
-            "query": "셀렉스",
-            "firstCollectedAt": "2026-10-09T09:02:34+00:00",
-            "lastCollectedAt": "2026-10-09T09:02:34+00:00",
-            "startTiming": "before-window"
           },
           {
             "id": "1124383286909929",
@@ -66008,19 +66234,23 @@
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-09T09:02:49+00:00",
+        "lastCollectedAt": "2026-10-12T18:26:49+00:00",
         "advertisers": [
           {
-            "name": "셀렉스",
-            "adCount": 6
+            "name": "Musinsa",
+            "adCount": 7
           },
           {
-            "name": "Musinsa",
-            "adCount": 3
+            "name": "셀렉스",
+            "adCount": 7
           },
           {
             "name": "써브웨이 Subway Korea",
             "adCount": 2
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 1
           },
           {
             "name": "Promalspace",
@@ -66028,6 +66258,10 @@
           },
           {
             "name": "매일유업(Maeil)",
+            "adCount": 1
+          },
+          {
+            "name": "올리브베러",
             "adCount": 1
           },
           {
