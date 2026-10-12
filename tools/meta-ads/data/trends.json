@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12T07:02:51+00:00",
+  "updatedAt": "2026-10-12T07:05:18+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-12T00:51:31+00:00",
@@ -43,8 +43,8 @@
     "backlogDays": 14,
     "dailyUsed": 28,
     "dailyRemaining": 260,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-12T07:07:51+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -9964,17 +9964,1224 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "4b5641f071061534858ef3a8f967f34e62b9fa79758a4b187db5d5d388d62cda",
       "searchQuery": "bcaa",
       "adEvidence": {
         "query": "bcaa",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 100,
+        "adIds": [
+          "997534489533520",
+          "2148054425686283",
+          "2077293509586579",
+          "1972407706670170",
+          "1754539752372527",
+          "1416359787275631",
+          "1061023720270089",
+          "1596515988000525",
+          "1354383412196713",
+          "1480815602907814",
+          "966504699020412",
+          "4694360544120297",
+          "4432572390329567",
+          "2081107786028757",
+          "1823187401646988",
+          "2019906702523910",
+          "1092968463372420",
+          "1031971619658585",
+          "1016158884315878",
+          "1814561523017540",
+          "1818712682344999",
+          "1271243398357163",
+          "841481808655251",
+          "995761096247686",
+          "930802342634781",
+          "2002056230363275",
+          "1852284059271269",
+          "965641259808089",
+          "1575066030958915",
+          "1150852170069931",
+          "1797779634579172",
+          "964613209709172",
+          "882860780807445",
+          "4238468536427861",
+          "2348513435909628",
+          "1582734710011304",
+          "3080473888823670",
+          "1050433147859471",
+          "4359442681035653",
+          "1441103531162619",
+          "1403011998184884",
+          "2049513889260174",
+          "1276780861162398",
+          "1158775059710559",
+          "1420983976474313",
+          "1207574041561619",
+          "1195064032736999",
+          "872107482158243",
+          "1042782805351531",
+          "1005503098112716",
+          "2542768936149334",
+          "8064949150288186",
+          "2166041663939175",
+          "1093789010291877",
+          "2376869273119572",
+          "2314265882364932",
+          "1578422423600245",
+          "855065031010373",
+          "1702530377524853",
+          "1415704247117492",
+          "1771873806846044",
+          "1048848627953067",
+          "1038930475339289",
+          "1034812286173098",
+          "29138049039135015",
+          "2166005100995544",
+          "1048562121170729",
+          "2218980868857485",
+          "2157208018538914",
+          "1106251245686278",
+          "957046340021921",
+          "3345521302314350",
+          "1677543383366576",
+          "1044408477847188",
+          "773875088515911",
+          "2097365167492574",
+          "1101988195516018",
+          "991129603383378",
+          "28288586600783640",
+          "873482225047119",
+          "1014466677663099",
+          "1871084513868113",
+          "1727285898379918",
+          "2090464178354565",
+          "1432387911768918",
+          "2175175323023202",
+          "1410546227659896",
+          "1391949779071109",
+          "3130283450514312",
+          "1554208755786127",
+          "927663913425089",
+          "3354393541433102",
+          "848976427514977",
+          "717646734273454",
+          "1545424820550293",
+          "1090318494057218",
+          "1501380141722602",
+          "977147104701434",
+          "4391599597777142",
+          "870825218747054"
+        ],
+        "ads": [
+          {
+            "id": "997534489533520",
+            "advertiser": "LuvianPros LLC",
+            "startedAt": "2026-06-07",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:05:02+00:00",
+            "lastCollectedAt": "2026-10-12T07:05:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2148054425686283",
+            "advertiser": "Its Moong",
+            "startedAt": "2025-09-28",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:05:01+00:00",
+            "lastCollectedAt": "2026-10-12T07:05:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2077293509586579",
+            "advertiser": "오리온 ORION",
+            "startedAt": "2026-08-31",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:05:01+00:00",
+            "lastCollectedAt": "2026-10-12T07:05:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1972407706670170",
+            "advertiser": "PredatorNutrition",
+            "startedAt": "2025-12-02",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:05:01+00:00",
+            "lastCollectedAt": "2026-10-12T07:05:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1754539752372527",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-06-30",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:05:01+00:00",
+            "lastCollectedAt": "2026-10-12T07:05:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1416359787275631",
+            "advertiser": "매일유업(Maeil)",
+            "startedAt": "2026-10-01",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:05:00+00:00",
+            "lastCollectedAt": "2026-10-12T07:05:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1061023720270089",
+            "advertiser": "BUP :: Beyond Your Power",
+            "startedAt": "2026-10-01",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:05:00+00:00",
+            "lastCollectedAt": "2026-10-12T07:05:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1596515988000525",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-10-09",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:59+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:59+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1354383412196713",
+            "advertiser": "MDPI",
+            "startedAt": "2025-11-21",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:59+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1480815602907814",
+            "advertiser": "Welmi App - Calorie Counter & Nutrition Assistant",
+            "startedAt": "2026-05-18",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:58+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "966504699020412",
+            "advertiser": "Alibaba.com",
+            "startedAt": "2025-10-11",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:48+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4694360544120297",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:48+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4432572390329567",
+            "advertiser": "아미노바이탈",
+            "startedAt": "2026-10-08",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:48+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:48+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2081107786028757",
+            "advertiser": "Journal of Clinical Medicine MDPI",
+            "startedAt": "2025-10-31",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:48+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1823187401646988",
+            "advertiser": "McDaniel Morgan Angie",
+            "startedAt": "2025-12-05",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:48+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2019906702523910",
+            "advertiser": "제주도푸른밤",
+            "startedAt": "2026-08-29",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:47+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1092968463372420",
+            "advertiser": "Siruuu",
+            "startedAt": "2026-09-30",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:47+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1031971619658585",
+            "advertiser": "Dailyenergy.log",
+            "startedAt": "2026-09-03",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:46+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1016158884315878",
+            "advertiser": "Coach Greg",
+            "startedAt": "2026-05-16",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:46+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1814561523017540",
+            "advertiser": "Didaofficiᶏl",
+            "startedAt": "2026-09-14",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:45+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1818712682344999",
+            "advertiser": "Alibaba.com",
+            "startedAt": "2025-11-13",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:36+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1271243398357163",
+            "advertiser": "MDPI",
+            "startedAt": "2025-11-21",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:36+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "841481808655251",
+            "advertiser": "잊지마 이건 먹어야해",
+            "startedAt": "2026-06-08",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:35+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "995761096247686",
+            "advertiser": "Transparent Labs",
+            "startedAt": "2026-05-21",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:34+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "930802342634781",
+            "advertiser": "Alibaba.com",
+            "startedAt": "2026-01-11",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:34+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2002056230363275",
+            "advertiser": "Its Moong",
+            "startedAt": "2026-01-11",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:34+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1852284059271269",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:34+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "965641259808089",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-06-27",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:33+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1575066030958915",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-06-27",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:33+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1150852170069931",
+            "advertiser": "MDPI",
+            "startedAt": "2025-11-21",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:33+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1797779634579172",
+            "advertiser": "Beginwell",
+            "startedAt": "2026-10-02",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:24+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "964613209709172",
+            "advertiser": "YOGA BURN",
+            "startedAt": "2026-05-31",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:23+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "882860780807445",
+            "advertiser": "Eashort IOS",
+            "startedAt": "2025-12-16",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:20+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4238468536427861",
+            "advertiser": "Its Moong",
+            "startedAt": "2026-01-12",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:20+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2348513435909628",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:20+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1582734710011304",
+            "advertiser": "리뷰",
+            "startedAt": "2026-08-24",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:18+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3080473888823670",
+            "advertiser": "BUP :: Beyond Your Power",
+            "startedAt": "2026-09-28",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:17+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1050433147859471",
+            "advertiser": "옥타미녹스 Octaminox",
+            "startedAt": "2026-09-09",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:17+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4359442681035653",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-06-27",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:15+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1441103531162619",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-06-26",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:15+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1403011998184884",
+            "advertiser": "Hero's Builder - Bodybuilding Coaching Group",
+            "startedAt": "2026-01-20",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:07+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2049513889260174",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:06+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1276780861162398",
+            "advertiser": "Alibaba.com",
+            "startedAt": "2025-11-13",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:06+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1158775059710559",
+            "advertiser": "Alibaba.com",
+            "startedAt": "2025-11-13",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:06+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1420983976474313",
+            "advertiser": "Cardiovascular Innovations and Applications",
+            "startedAt": "2026-03-06",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:05+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1207574041561619",
+            "advertiser": "Muscle & Strength",
+            "startedAt": "2026-01-17",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:05+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1195064032736999",
+            "advertiser": "British GQ",
+            "startedAt": "2026-02-02",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:03+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "872107482158243",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-06-29",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:02+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1042782805351531",
+            "advertiser": "Diario del Pueblo",
+            "startedAt": "2026-07-16",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:02+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1005503098112716",
+            "advertiser": "빨강제약",
+            "startedAt": "2025-03-03",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:02+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2542768936149334",
+            "advertiser": "Didaofficiᶏl",
+            "startedAt": "2026-09-15",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:53+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "8064949150288186",
+            "advertiser": "IALWellness",
+            "startedAt": "2024-08-16",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:52+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2166041663939175",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-06-30",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:52+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1093789010291877",
+            "advertiser": "NS_official",
+            "startedAt": "2026-09-28",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:52+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2376869273119572",
+            "advertiser": "BUP :: Beyond Your Power",
+            "startedAt": "2026-09-28",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:50+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2314265882364932",
+            "advertiser": "Its Moong",
+            "startedAt": "2025-09-28",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:50+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1578422423600245",
+            "advertiser": "Gacksung",
+            "startedAt": "2026-09-28",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:48+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "855065031010373",
+            "advertiser": "YOGA BURN",
+            "startedAt": "2026-06-26",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:47+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1702530377524853",
+            "advertiser": "도파미너",
+            "startedAt": "2026-09-01",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:47+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1415704247117492",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-08-29",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:46+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1771873806846044",
+            "advertiser": "GNC Live Well",
+            "startedAt": "2025-11-27",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:39+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1048848627953067",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-09-03",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:39+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1038930475339289",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-06-27",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:39+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1034812286173098",
+            "advertiser": "Hjjiin",
+            "startedAt": "2026-07-01",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:38+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "29138049039135015",
+            "advertiser": "득근 꿀템.zip",
+            "startedAt": "2026-10-03",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:37+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2166005100995544",
+            "advertiser": "오리온 ORION",
+            "startedAt": "2026-08-31",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:37+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1048562121170729",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-06-26",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:37+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2218980868857485",
+            "advertiser": "근뿜쟁이",
+            "startedAt": "2026-06-26",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:36+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2157208018538914",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:36+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1106251245686278",
+            "advertiser": "medipuppy",
+            "startedAt": "2026-08-25",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:36+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "957046340021921",
+            "advertiser": "Gacksung",
+            "startedAt": "2026-09-11",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:29+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3345521302314350",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:27+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1677543383366576",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-06-27",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:27+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1044408477847188",
+            "advertiser": "Muscle & Strength",
+            "startedAt": "2025-11-25",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:27+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "773875088515911",
+            "advertiser": "Alibaba.com",
+            "startedAt": "2025-08-26",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:25+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2097365167492574",
+            "advertiser": "Transparent Labs",
+            "startedAt": "2026-05-21",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:25+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1101988195516018",
+            "advertiser": "BUP :: Beyond Your Power",
+            "startedAt": "2026-09-11",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:25+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "991129603383378",
+            "advertiser": "잊지마 이건 먹어야해",
+            "startedAt": "2026-04-28",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:23+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28288586600783640",
+            "advertiser": "ㅇㄹㅇㄹ",
+            "startedAt": "2026-09-11",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:23+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "873482225047119",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:21+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1014466677663099",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:15+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1871084513868113",
+            "advertiser": "NS_official",
+            "startedAt": "2026-09-02",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:14+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1727285898379918",
+            "advertiser": "Promalspace",
+            "startedAt": "2026-10-08",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:14+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:14+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2090464178354565",
+            "advertiser": "Muscle & Strength",
+            "startedAt": "2026-01-30",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:11+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1432387911768918",
+            "advertiser": "밀팜",
+            "startedAt": "2026-03-14",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:11+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2175175323023202",
+            "advertiser": "Reign Body Fuel",
+            "startedAt": "2026-05-28",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:10+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1410546227659896",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-08-21",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:09+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1391949779071109",
+            "advertiser": "NS_official",
+            "startedAt": "2026-09-14",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:09+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3130283450514312",
+            "advertiser": "옥타미녹스 Octaminox",
+            "startedAt": "2026-05-21",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:08+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1554208755786127",
+            "advertiser": "British GQ",
+            "startedAt": "2026-01-29",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:08+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "927663913425089",
+            "advertiser": "익스트림 Extreme",
+            "startedAt": "2026-04-23",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:03+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3354393541433102",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-06-27",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:03+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "848976427514977",
+            "advertiser": "익스트림 Extreme",
+            "startedAt": "2026-04-23",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:02+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "717646734273454",
+            "advertiser": "Mn Supps",
+            "startedAt": "2025-12-02",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:02+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1545424820550293",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-06-27",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:02+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1090318494057218",
+            "advertiser": "Nutrabay.com",
+            "startedAt": "2026-10-06",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:02+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:02+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1501380141722602",
+            "advertiser": "NS_official",
+            "startedAt": "2026-04-27",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:01+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "977147104701434",
+            "advertiser": "NS_official",
+            "startedAt": "2026-05-19",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:02:59+00:00",
+            "lastCollectedAt": "2026-10-12T07:02:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4391599597777142",
+            "advertiser": "수영의 비결",
+            "startedAt": "2026-05-29",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:02:59+00:00",
+            "lastCollectedAt": "2026-10-12T07:02:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "870825218747054",
+            "advertiser": "NS_official",
+            "startedAt": "2025-11-25",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:02:57+00:00",
+            "lastCollectedAt": "2026-10-12T07:02:57+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-12T07:05:02+00:00",
+        "advertisers": [
+          {
+            "name": "다다쿵",
+            "adCount": 14
+          },
+          {
+            "name": "Alibaba.com",
+            "adCount": 6
+          },
+          {
+            "name": "NS_official",
+            "adCount": 6
+          },
+          {
+            "name": "후디스",
+            "adCount": 6
+          },
+          {
+            "name": "BUP :: Beyond Your Power",
+            "adCount": 4
+          },
+          {
+            "name": "Its Moong",
+            "adCount": 4
+          },
+          {
+            "name": "MDPI",
+            "adCount": 3
+          },
+          {
+            "name": "Muscle & Strength",
+            "adCount": 3
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 3
+          },
+          {
+            "name": "British GQ",
+            "adCount": 2
+          },
+          {
+            "name": "Didaofficiᶏl",
+            "adCount": 2
+          },
+          {
+            "name": "Gacksung",
+            "adCount": 2
+          },
+          {
+            "name": "Transparent Labs",
+            "adCount": 2
+          },
+          {
+            "name": "YOGA BURN",
+            "adCount": 2
+          },
+          {
+            "name": "오리온 ORION",
+            "adCount": 2
+          },
+          {
+            "name": "옥타미녹스 Octaminox",
+            "adCount": 2
+          },
+          {
+            "name": "익스트림 Extreme",
+            "adCount": 2
+          },
+          {
+            "name": "잊지마 이건 먹어야해",
+            "adCount": 2
+          },
+          {
+            "name": "Beginwell",
+            "adCount": 1
+          },
+          {
+            "name": "Cardiovascular Innovations and Applications",
+            "adCount": 1
+          },
+          {
+            "name": "Coach Greg",
+            "adCount": 1
+          },
+          {
+            "name": "Dailyenergy.log",
+            "adCount": 1
+          },
+          {
+            "name": "Diario del Pueblo",
+            "adCount": 1
+          },
+          {
+            "name": "Eashort IOS",
+            "adCount": 1
+          },
+          {
+            "name": "GNC Live Well",
+            "adCount": 1
+          },
+          {
+            "name": "Hero's Builder - Bodybuilding Coaching Group",
+            "adCount": 1
+          },
+          {
+            "name": "Hjjiin",
+            "adCount": 1
+          },
+          {
+            "name": "IALWellness",
+            "adCount": 1
+          },
+          {
+            "name": "Journal of Clinical Medicine MDPI",
+            "adCount": 1
+          },
+          {
+            "name": "LuvianPros LLC",
+            "adCount": 1
+          },
+          {
+            "name": "McDaniel Morgan Angie",
+            "adCount": 1
+          },
+          {
+            "name": "Mn Supps",
+            "adCount": 1
+          },
+          {
+            "name": "Myprotein",
+            "adCount": 1
+          },
+          {
+            "name": "Nutrabay.com",
+            "adCount": 1
+          },
+          {
+            "name": "PredatorNutrition",
+            "adCount": 1
+          },
+          {
+            "name": "Promalspace",
+            "adCount": 1
+          },
+          {
+            "name": "Reign Body Fuel",
+            "adCount": 1
+          },
+          {
+            "name": "Siruuu",
+            "adCount": 1
+          },
+          {
+            "name": "Welmi App - Calorie Counter & Nutrition Assistant",
+            "adCount": 1
+          },
+          {
+            "name": "medipuppy",
+            "adCount": 1
+          },
+          {
+            "name": "ㅇㄹㅇㄹ",
+            "adCount": 1
+          },
+          {
+            "name": "근뿜쟁이",
+            "adCount": 1
+          },
+          {
+            "name": "도파미너",
+            "adCount": 1
+          },
+          {
+            "name": "득근 꿀템.zip",
+            "adCount": 1
+          },
+          {
+            "name": "리뷰",
+            "adCount": 1
+          },
+          {
+            "name": "매일유업(Maeil)",
+            "adCount": 1
+          },
+          {
+            "name": "밀팜",
+            "adCount": 1
+          },
+          {
+            "name": "빨강제약",
+            "adCount": 1
+          },
+          {
+            "name": "수영의 비결",
+            "adCount": 1
+          },
+          {
+            "name": "아미노바이탈",
+            "adCount": 1
+          },
+          {
+            "name": "제주도푸른밤",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -12462,17 +13669,1224 @@
       "rankWindow": 100,
       "observedAt": "2026-10-12T00:51:31+00:00",
       "lastObservedAt": "2026-10-12T00:51:31+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "4b5641f071061534858ef3a8f967f34e62b9fa79758a4b187db5d5d388d62cda",
       "searchQuery": "bcaa",
       "adEvidence": {
         "query": "bcaa",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 100,
+        "adIds": [
+          "997534489533520",
+          "2148054425686283",
+          "2077293509586579",
+          "1972407706670170",
+          "1754539752372527",
+          "1416359787275631",
+          "1061023720270089",
+          "1596515988000525",
+          "1354383412196713",
+          "1480815602907814",
+          "966504699020412",
+          "4694360544120297",
+          "4432572390329567",
+          "2081107786028757",
+          "1823187401646988",
+          "2019906702523910",
+          "1092968463372420",
+          "1031971619658585",
+          "1016158884315878",
+          "1814561523017540",
+          "1818712682344999",
+          "1271243398357163",
+          "841481808655251",
+          "995761096247686",
+          "930802342634781",
+          "2002056230363275",
+          "1852284059271269",
+          "965641259808089",
+          "1575066030958915",
+          "1150852170069931",
+          "1797779634579172",
+          "964613209709172",
+          "882860780807445",
+          "4238468536427861",
+          "2348513435909628",
+          "1582734710011304",
+          "3080473888823670",
+          "1050433147859471",
+          "4359442681035653",
+          "1441103531162619",
+          "1403011998184884",
+          "2049513889260174",
+          "1276780861162398",
+          "1158775059710559",
+          "1420983976474313",
+          "1207574041561619",
+          "1195064032736999",
+          "872107482158243",
+          "1042782805351531",
+          "1005503098112716",
+          "2542768936149334",
+          "8064949150288186",
+          "2166041663939175",
+          "1093789010291877",
+          "2376869273119572",
+          "2314265882364932",
+          "1578422423600245",
+          "855065031010373",
+          "1702530377524853",
+          "1415704247117492",
+          "1771873806846044",
+          "1048848627953067",
+          "1038930475339289",
+          "1034812286173098",
+          "29138049039135015",
+          "2166005100995544",
+          "1048562121170729",
+          "2218980868857485",
+          "2157208018538914",
+          "1106251245686278",
+          "957046340021921",
+          "3345521302314350",
+          "1677543383366576",
+          "1044408477847188",
+          "773875088515911",
+          "2097365167492574",
+          "1101988195516018",
+          "991129603383378",
+          "28288586600783640",
+          "873482225047119",
+          "1014466677663099",
+          "1871084513868113",
+          "1727285898379918",
+          "2090464178354565",
+          "1432387911768918",
+          "2175175323023202",
+          "1410546227659896",
+          "1391949779071109",
+          "3130283450514312",
+          "1554208755786127",
+          "927663913425089",
+          "3354393541433102",
+          "848976427514977",
+          "717646734273454",
+          "1545424820550293",
+          "1090318494057218",
+          "1501380141722602",
+          "977147104701434",
+          "4391599597777142",
+          "870825218747054"
+        ],
+        "ads": [
+          {
+            "id": "997534489533520",
+            "advertiser": "LuvianPros LLC",
+            "startedAt": "2026-06-07",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:05:02+00:00",
+            "lastCollectedAt": "2026-10-12T07:05:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2148054425686283",
+            "advertiser": "Its Moong",
+            "startedAt": "2025-09-28",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:05:01+00:00",
+            "lastCollectedAt": "2026-10-12T07:05:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2077293509586579",
+            "advertiser": "오리온 ORION",
+            "startedAt": "2026-08-31",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:05:01+00:00",
+            "lastCollectedAt": "2026-10-12T07:05:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1972407706670170",
+            "advertiser": "PredatorNutrition",
+            "startedAt": "2025-12-02",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:05:01+00:00",
+            "lastCollectedAt": "2026-10-12T07:05:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1754539752372527",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-06-30",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:05:01+00:00",
+            "lastCollectedAt": "2026-10-12T07:05:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1416359787275631",
+            "advertiser": "매일유업(Maeil)",
+            "startedAt": "2026-10-01",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:05:00+00:00",
+            "lastCollectedAt": "2026-10-12T07:05:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1061023720270089",
+            "advertiser": "BUP :: Beyond Your Power",
+            "startedAt": "2026-10-01",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:05:00+00:00",
+            "lastCollectedAt": "2026-10-12T07:05:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1596515988000525",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-10-09",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:59+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:59+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1354383412196713",
+            "advertiser": "MDPI",
+            "startedAt": "2025-11-21",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:59+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1480815602907814",
+            "advertiser": "Welmi App - Calorie Counter & Nutrition Assistant",
+            "startedAt": "2026-05-18",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:58+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "966504699020412",
+            "advertiser": "Alibaba.com",
+            "startedAt": "2025-10-11",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:48+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4694360544120297",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:48+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4432572390329567",
+            "advertiser": "아미노바이탈",
+            "startedAt": "2026-10-08",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:48+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:48+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2081107786028757",
+            "advertiser": "Journal of Clinical Medicine MDPI",
+            "startedAt": "2025-10-31",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:48+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1823187401646988",
+            "advertiser": "McDaniel Morgan Angie",
+            "startedAt": "2025-12-05",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:48+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2019906702523910",
+            "advertiser": "제주도푸른밤",
+            "startedAt": "2026-08-29",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:47+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1092968463372420",
+            "advertiser": "Siruuu",
+            "startedAt": "2026-09-30",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:47+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1031971619658585",
+            "advertiser": "Dailyenergy.log",
+            "startedAt": "2026-09-03",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:46+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1016158884315878",
+            "advertiser": "Coach Greg",
+            "startedAt": "2026-05-16",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:46+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1814561523017540",
+            "advertiser": "Didaofficiᶏl",
+            "startedAt": "2026-09-14",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:45+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1818712682344999",
+            "advertiser": "Alibaba.com",
+            "startedAt": "2025-11-13",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:36+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1271243398357163",
+            "advertiser": "MDPI",
+            "startedAt": "2025-11-21",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:36+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "841481808655251",
+            "advertiser": "잊지마 이건 먹어야해",
+            "startedAt": "2026-06-08",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:35+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "995761096247686",
+            "advertiser": "Transparent Labs",
+            "startedAt": "2026-05-21",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:34+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "930802342634781",
+            "advertiser": "Alibaba.com",
+            "startedAt": "2026-01-11",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:34+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2002056230363275",
+            "advertiser": "Its Moong",
+            "startedAt": "2026-01-11",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:34+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1852284059271269",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:34+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "965641259808089",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-06-27",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:33+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1575066030958915",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-06-27",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:33+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1150852170069931",
+            "advertiser": "MDPI",
+            "startedAt": "2025-11-21",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:33+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1797779634579172",
+            "advertiser": "Beginwell",
+            "startedAt": "2026-10-02",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:24+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "964613209709172",
+            "advertiser": "YOGA BURN",
+            "startedAt": "2026-05-31",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:23+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "882860780807445",
+            "advertiser": "Eashort IOS",
+            "startedAt": "2025-12-16",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:20+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4238468536427861",
+            "advertiser": "Its Moong",
+            "startedAt": "2026-01-12",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:20+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2348513435909628",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:20+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1582734710011304",
+            "advertiser": "리뷰",
+            "startedAt": "2026-08-24",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:18+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3080473888823670",
+            "advertiser": "BUP :: Beyond Your Power",
+            "startedAt": "2026-09-28",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:17+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1050433147859471",
+            "advertiser": "옥타미녹스 Octaminox",
+            "startedAt": "2026-09-09",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:17+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4359442681035653",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-06-27",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:15+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1441103531162619",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-06-26",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:15+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1403011998184884",
+            "advertiser": "Hero's Builder - Bodybuilding Coaching Group",
+            "startedAt": "2026-01-20",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:07+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2049513889260174",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:06+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1276780861162398",
+            "advertiser": "Alibaba.com",
+            "startedAt": "2025-11-13",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:06+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1158775059710559",
+            "advertiser": "Alibaba.com",
+            "startedAt": "2025-11-13",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:06+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1420983976474313",
+            "advertiser": "Cardiovascular Innovations and Applications",
+            "startedAt": "2026-03-06",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:05+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1207574041561619",
+            "advertiser": "Muscle & Strength",
+            "startedAt": "2026-01-17",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:05+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1195064032736999",
+            "advertiser": "British GQ",
+            "startedAt": "2026-02-02",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:03+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "872107482158243",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-06-29",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:02+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1042782805351531",
+            "advertiser": "Diario del Pueblo",
+            "startedAt": "2026-07-16",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:02+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1005503098112716",
+            "advertiser": "빨강제약",
+            "startedAt": "2025-03-03",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:04:02+00:00",
+            "lastCollectedAt": "2026-10-12T07:04:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2542768936149334",
+            "advertiser": "Didaofficiᶏl",
+            "startedAt": "2026-09-15",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:53+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "8064949150288186",
+            "advertiser": "IALWellness",
+            "startedAt": "2024-08-16",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:52+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2166041663939175",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-06-30",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:52+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1093789010291877",
+            "advertiser": "NS_official",
+            "startedAt": "2026-09-28",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:52+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2376869273119572",
+            "advertiser": "BUP :: Beyond Your Power",
+            "startedAt": "2026-09-28",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:50+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2314265882364932",
+            "advertiser": "Its Moong",
+            "startedAt": "2025-09-28",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:50+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1578422423600245",
+            "advertiser": "Gacksung",
+            "startedAt": "2026-09-28",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:48+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "855065031010373",
+            "advertiser": "YOGA BURN",
+            "startedAt": "2026-06-26",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:47+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1702530377524853",
+            "advertiser": "도파미너",
+            "startedAt": "2026-09-01",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:47+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1415704247117492",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-08-29",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:46+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1771873806846044",
+            "advertiser": "GNC Live Well",
+            "startedAt": "2025-11-27",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:39+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1048848627953067",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-09-03",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:39+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1038930475339289",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-06-27",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:39+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1034812286173098",
+            "advertiser": "Hjjiin",
+            "startedAt": "2026-07-01",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:38+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "29138049039135015",
+            "advertiser": "득근 꿀템.zip",
+            "startedAt": "2026-10-03",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:37+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2166005100995544",
+            "advertiser": "오리온 ORION",
+            "startedAt": "2026-08-31",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:37+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1048562121170729",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-06-26",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:37+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2218980868857485",
+            "advertiser": "근뿜쟁이",
+            "startedAt": "2026-06-26",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:36+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2157208018538914",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:36+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1106251245686278",
+            "advertiser": "medipuppy",
+            "startedAt": "2026-08-25",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:36+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "957046340021921",
+            "advertiser": "Gacksung",
+            "startedAt": "2026-09-11",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:29+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3345521302314350",
+            "advertiser": "후디스",
+            "startedAt": "2026-09-22",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:27+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1677543383366576",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-06-27",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:27+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1044408477847188",
+            "advertiser": "Muscle & Strength",
+            "startedAt": "2025-11-25",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:27+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:27+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "773875088515911",
+            "advertiser": "Alibaba.com",
+            "startedAt": "2025-08-26",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:25+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2097365167492574",
+            "advertiser": "Transparent Labs",
+            "startedAt": "2026-05-21",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:25+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1101988195516018",
+            "advertiser": "BUP :: Beyond Your Power",
+            "startedAt": "2026-09-11",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:25+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "991129603383378",
+            "advertiser": "잊지마 이건 먹어야해",
+            "startedAt": "2026-04-28",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:23+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28288586600783640",
+            "advertiser": "ㅇㄹㅇㄹ",
+            "startedAt": "2026-09-11",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:23+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "873482225047119",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:21+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1014466677663099",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:15+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1871084513868113",
+            "advertiser": "NS_official",
+            "startedAt": "2026-09-02",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:14+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1727285898379918",
+            "advertiser": "Promalspace",
+            "startedAt": "2026-10-08",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:14+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:14+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2090464178354565",
+            "advertiser": "Muscle & Strength",
+            "startedAt": "2026-01-30",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:11+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1432387911768918",
+            "advertiser": "밀팜",
+            "startedAt": "2026-03-14",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:11+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2175175323023202",
+            "advertiser": "Reign Body Fuel",
+            "startedAt": "2026-05-28",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:10+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1410546227659896",
+            "advertiser": "Myprotein",
+            "startedAt": "2026-08-21",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:09+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1391949779071109",
+            "advertiser": "NS_official",
+            "startedAt": "2026-09-14",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:09+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3130283450514312",
+            "advertiser": "옥타미녹스 Octaminox",
+            "startedAt": "2026-05-21",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:08+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1554208755786127",
+            "advertiser": "British GQ",
+            "startedAt": "2026-01-29",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:08+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "927663913425089",
+            "advertiser": "익스트림 Extreme",
+            "startedAt": "2026-04-23",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:03+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3354393541433102",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-06-27",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:03+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "848976427514977",
+            "advertiser": "익스트림 Extreme",
+            "startedAt": "2026-04-23",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:02+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "717646734273454",
+            "advertiser": "Mn Supps",
+            "startedAt": "2025-12-02",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:02+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1545424820550293",
+            "advertiser": "다다쿵",
+            "startedAt": "2026-06-27",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:02+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1090318494057218",
+            "advertiser": "Nutrabay.com",
+            "startedAt": "2026-10-06",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:02+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:02+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1501380141722602",
+            "advertiser": "NS_official",
+            "startedAt": "2026-04-27",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:03:01+00:00",
+            "lastCollectedAt": "2026-10-12T07:03:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "977147104701434",
+            "advertiser": "NS_official",
+            "startedAt": "2026-05-19",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:02:59+00:00",
+            "lastCollectedAt": "2026-10-12T07:02:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4391599597777142",
+            "advertiser": "수영의 비결",
+            "startedAt": "2026-05-29",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:02:59+00:00",
+            "lastCollectedAt": "2026-10-12T07:02:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "870825218747054",
+            "advertiser": "NS_official",
+            "startedAt": "2025-11-25",
+            "query": "bcaa",
+            "firstCollectedAt": "2026-10-12T07:02:57+00:00",
+            "lastCollectedAt": "2026-10-12T07:02:57+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-12T07:05:02+00:00",
+        "advertisers": [
+          {
+            "name": "다다쿵",
+            "adCount": 14
+          },
+          {
+            "name": "Alibaba.com",
+            "adCount": 6
+          },
+          {
+            "name": "NS_official",
+            "adCount": 6
+          },
+          {
+            "name": "후디스",
+            "adCount": 6
+          },
+          {
+            "name": "BUP :: Beyond Your Power",
+            "adCount": 4
+          },
+          {
+            "name": "Its Moong",
+            "adCount": 4
+          },
+          {
+            "name": "MDPI",
+            "adCount": 3
+          },
+          {
+            "name": "Muscle & Strength",
+            "adCount": 3
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 3
+          },
+          {
+            "name": "British GQ",
+            "adCount": 2
+          },
+          {
+            "name": "Didaofficiᶏl",
+            "adCount": 2
+          },
+          {
+            "name": "Gacksung",
+            "adCount": 2
+          },
+          {
+            "name": "Transparent Labs",
+            "adCount": 2
+          },
+          {
+            "name": "YOGA BURN",
+            "adCount": 2
+          },
+          {
+            "name": "오리온 ORION",
+            "adCount": 2
+          },
+          {
+            "name": "옥타미녹스 Octaminox",
+            "adCount": 2
+          },
+          {
+            "name": "익스트림 Extreme",
+            "adCount": 2
+          },
+          {
+            "name": "잊지마 이건 먹어야해",
+            "adCount": 2
+          },
+          {
+            "name": "Beginwell",
+            "adCount": 1
+          },
+          {
+            "name": "Cardiovascular Innovations and Applications",
+            "adCount": 1
+          },
+          {
+            "name": "Coach Greg",
+            "adCount": 1
+          },
+          {
+            "name": "Dailyenergy.log",
+            "adCount": 1
+          },
+          {
+            "name": "Diario del Pueblo",
+            "adCount": 1
+          },
+          {
+            "name": "Eashort IOS",
+            "adCount": 1
+          },
+          {
+            "name": "GNC Live Well",
+            "adCount": 1
+          },
+          {
+            "name": "Hero's Builder - Bodybuilding Coaching Group",
+            "adCount": 1
+          },
+          {
+            "name": "Hjjiin",
+            "adCount": 1
+          },
+          {
+            "name": "IALWellness",
+            "adCount": 1
+          },
+          {
+            "name": "Journal of Clinical Medicine MDPI",
+            "adCount": 1
+          },
+          {
+            "name": "LuvianPros LLC",
+            "adCount": 1
+          },
+          {
+            "name": "McDaniel Morgan Angie",
+            "adCount": 1
+          },
+          {
+            "name": "Mn Supps",
+            "adCount": 1
+          },
+          {
+            "name": "Myprotein",
+            "adCount": 1
+          },
+          {
+            "name": "Nutrabay.com",
+            "adCount": 1
+          },
+          {
+            "name": "PredatorNutrition",
+            "adCount": 1
+          },
+          {
+            "name": "Promalspace",
+            "adCount": 1
+          },
+          {
+            "name": "Reign Body Fuel",
+            "adCount": 1
+          },
+          {
+            "name": "Siruuu",
+            "adCount": 1
+          },
+          {
+            "name": "Welmi App - Calorie Counter & Nutrition Assistant",
+            "adCount": 1
+          },
+          {
+            "name": "medipuppy",
+            "adCount": 1
+          },
+          {
+            "name": "ㅇㄹㅇㄹ",
+            "adCount": 1
+          },
+          {
+            "name": "근뿜쟁이",
+            "adCount": 1
+          },
+          {
+            "name": "도파미너",
+            "adCount": 1
+          },
+          {
+            "name": "득근 꿀템.zip",
+            "adCount": 1
+          },
+          {
+            "name": "리뷰",
+            "adCount": 1
+          },
+          {
+            "name": "매일유업(Maeil)",
+            "adCount": 1
+          },
+          {
+            "name": "밀팜",
+            "adCount": 1
+          },
+          {
+            "name": "빨강제약",
+            "adCount": 1
+          },
+          {
+            "name": "수영의 비결",
+            "adCount": 1
+          },
+          {
+            "name": "아미노바이탈",
+            "adCount": 1
+          },
+          {
+            "name": "제주도푸른밤",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
