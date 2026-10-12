@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12T12:52:02+00:00",
+  "updatedAt": "2026-10-12T13:14:44+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-12T00:51:31+00:00",
@@ -41,22 +41,22 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 38,
-    "dailyRemaining": 250,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-12T13:14:41+00:00",
+    "dailyUsed": 39,
+    "dailyRemaining": 249,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
-    "enabled": false,
+    "enabled": true,
     "collectionGuard": {
-      "state": "blocked",
-      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
-      "nextAllowedAt": "2026-10-12T13:14:41+00:00",
-      "blockedUntil": "2026-10-12T13:14:41+00:00",
+      "state": "ready",
+      "reason": null,
+      "nextAllowedAt": null,
+      "blockedUntil": null,
       "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
+    "pausedReason": null
   },
   "settings": {
     "category": "50000023",
@@ -8018,7 +8018,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "queued",
       "keywordId": "002f1703b37f6570f534fd8d93b642e3fb7d7c1311a7882ee4c0e54b25d28cf3",
       "searchQuery": "양배추즙",
       "adEvidence": {
@@ -22566,7 +22566,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-12T00:50:59+00:00",
       "lastObservedAt": "2026-10-12T00:50:59+00:00",
-      "state": "ready",
+      "state": "queued",
       "keywordId": "002f1703b37f6570f534fd8d93b642e3fb7d7c1311a7882ee4c0e54b25d28cf3",
       "searchQuery": "양배추즙",
       "adEvidence": {
