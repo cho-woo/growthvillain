@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12T18:31:34+00:00",
+  "updatedAt": "2026-10-12T18:32:06+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-12T17:56:40+00:00",
@@ -43,20 +43,20 @@
     "backlogDays": 14,
     "dailyUsed": 6,
     "dailyRemaining": 282,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-12T19:32:06+00:00",
     "metaAutoEnabled": true,
-    "enabled": true,
+    "enabled": false,
     "collectionGuard": {
-      "state": "ready",
-      "reason": null,
-      "nextAllowedAt": null,
-      "blockedUntil": null,
-      "blockStreak": 0,
+      "state": "blocked",
+      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
+      "nextAllowedAt": "2026-10-12T19:32:06+00:00",
+      "blockedUntil": "2026-10-12T19:32:06+00:00",
+      "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": null
+    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
   },
   "settings": {
     "category": "50000023",
@@ -10894,7 +10894,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "failed",
       "keywordId": "9ad2ad62019bb3b75237733aa2610c4d865129430c5c0f9647bccbdc393a00e8",
       "searchQuery": "울트라컷24",
       "adEvidence": {
@@ -23734,7 +23734,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-12T00:51:31+00:00",
       "lastObservedAt": "2026-10-12T17:56:40+00:00",
-      "state": "queued",
+      "state": "failed",
       "keywordId": "9ad2ad62019bb3b75237733aa2610c4d865129430c5c0f9647bccbdc393a00e8",
       "searchQuery": "울트라컷24",
       "adEvidence": {
