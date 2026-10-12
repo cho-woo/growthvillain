@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12T15:54:37+00:00",
+  "updatedAt": "2026-10-12T15:57:22+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-12T15:53:35+00:00",
@@ -43,20 +43,20 @@
     "backlogDays": 14,
     "dailyUsed": 1,
     "dailyRemaining": 287,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-12T16:57:22+00:00",
     "metaAutoEnabled": true,
-    "enabled": true,
+    "enabled": false,
     "collectionGuard": {
-      "state": "ready",
-      "reason": null,
-      "nextAllowedAt": null,
-      "blockedUntil": null,
-      "blockStreak": 0,
+      "state": "blocked",
+      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
+      "nextAllowedAt": "2026-10-12T16:57:22+00:00",
+      "blockedUntil": "2026-10-12T16:57:22+00:00",
+      "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": null
+    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
   },
   "settings": {
     "category": "50000023",
@@ -12032,7 +12032,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "failed",
       "keywordId": "3501c40f1106cfc2be0036eea0c11f4e3a0d49f2a869e711bba16e96333434a7",
       "searchQuery": "라이필더마콜라겐",
       "adEvidence": {
@@ -17160,7 +17160,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-12T00:51:31+00:00",
       "lastObservedAt": "2026-10-12T15:53:35+00:00",
-      "state": "queued",
+      "state": "failed",
       "keywordId": "3501c40f1106cfc2be0036eea0c11f4e3a0d49f2a869e711bba16e96333434a7",
       "searchQuery": "라이필더마콜라겐",
       "adEvidence": {
