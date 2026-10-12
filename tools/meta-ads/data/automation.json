@@ -1,6 +1,6 @@
 {
   "mode": "snapshot",
-  "updatedAt": "2026-10-12T22:01:18+00:00",
+  "updatedAt": "2026-10-12T22:02:43+00:00",
   "automations": [
     {
       "id": "meta-ads",
@@ -33,7 +33,7 @@
       "running": true,
       "state": "running",
       "nextRunAt": "2026-10-12T23:01:17+00:00",
-      "lastSuccessAt": "2026-10-12T21:01:15+00:00",
+      "lastSuccessAt": "2026-10-12T22:02:03+00:00",
       "lastAttemptAt": null,
       "message": "1시간마다 확인 · 일간 순위 기준",
       "intervalSeconds": 3600,
@@ -94,12 +94,12 @@
       "id": "tistory-blog",
       "name": "티스토리 연예",
       "enabled": true,
-      "running": true,
-      "state": "running",
-      "nextRunAt": "2026-10-13T07:01:10+09:00",
-      "lastSuccessAt": "2026-10-13T03:25:34+09:00",
+      "running": false,
+      "state": "waiting",
+      "nextRunAt": "2026-10-13T07:16:30+09:00",
+      "lastSuccessAt": "2026-10-13T07:01:25+09:00",
       "lastAttemptAt": null,
-      "message": "Python 발행·공개 결과 확인 중 · 추가 AI 호출 없음",
+      "message": "후보 없음 또는 발행 한도·간격 대기 · AI 호출 없음",
       "intervalSeconds": 900,
       "statusCheckIntervalSeconds": null,
       "statusCheckBatchSize": null,
@@ -157,8 +157,8 @@
   ],
   "publication": {
     "state": "synced",
-    "lastAttemptAt": "2026-10-12T21:53:30+00:00",
-    "lastSuccessAt": "2026-10-12T21:53:37+00:00",
+    "lastAttemptAt": "2026-10-12T22:01:18+00:00",
+    "lastSuccessAt": "2026-10-12T22:01:27+00:00",
     "error": null,
     "enabled": true
   }
