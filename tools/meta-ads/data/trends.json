@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12T19:50:13+00:00",
+  "updatedAt": "2026-10-12T19:54:41+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-12T18:58:11+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 9,
-    "dailyRemaining": 279,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-12T19:54:37+00:00",
+    "dailyUsed": 10,
+    "dailyRemaining": 278,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -16140,7 +16140,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "bd3cb59abc476635b276b22c122da97b5d0775c22ada4545370b319b67b65309",
       "searchQuery": "하이뮨",
       "adEvidence": {
@@ -21572,7 +21572,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-12T00:51:31+00:00",
       "lastObservedAt": "2026-10-12T18:58:11+00:00",
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "bd3cb59abc476635b276b22c122da97b5d0775c22ada4545370b319b67b65309",
       "searchQuery": "하이뮨",
       "adEvidence": {
