@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12T10:50:21+00:00",
+  "updatedAt": "2026-10-12T10:53:18+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-12T00:51:31+00:00",
   "error": null,
   "sourceUrl": "https://datalab.naver.com/shoppingInsight/sCategory.naver",
-  "nextRunAt": "2026-10-12T10:51:54+00:00",
+  "nextRunAt": "2026-10-12T11:51:56+00:00",
   "intervalSeconds": 3600,
   "sourceCadence": "daily",
   "comparisonDays": 7,
@@ -43,8 +43,8 @@
     "backlogDays": 14,
     "dailyUsed": 35,
     "dailyRemaining": 253,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-12T10:53:19+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -14606,17 +14606,98 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "c500e8ce13d53218c423b4b97609b1ec2675053c6e5cc1852481c81866ddc0bd",
       "searchQuery": "gph콜라겐",
       "adEvidence": {
         "query": "gph콜라겐",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 7,
+        "adIds": [
+          "4525587167701310",
+          "1745780773304678",
+          "1139797895150712",
+          "1068689689108621",
+          "1790792972067860",
+          "1603321674907681",
+          "1832030364824830"
+        ],
+        "ads": [
+          {
+            "id": "4525587167701310",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-10-07",
+            "query": "gph콜라겐",
+            "firstCollectedAt": "2026-10-12T10:52:56+00:00",
+            "lastCollectedAt": "2026-10-12T10:52:56+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1745780773304678",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-09-14",
+            "query": "gph콜라겐",
+            "firstCollectedAt": "2026-10-12T10:52:56+00:00",
+            "lastCollectedAt": "2026-10-12T10:52:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1139797895150712",
+            "advertiser": "데일리꿀템",
+            "startedAt": "2026-09-24",
+            "query": "gph콜라겐",
+            "firstCollectedAt": "2026-10-12T10:52:56+00:00",
+            "lastCollectedAt": "2026-10-12T10:52:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1068689689108621",
+            "advertiser": "데일리꿀템",
+            "startedAt": "2026-09-24",
+            "query": "gph콜라겐",
+            "firstCollectedAt": "2026-10-12T10:52:56+00:00",
+            "lastCollectedAt": "2026-10-12T10:52:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1790792972067860",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-09-30",
+            "query": "gph콜라겐",
+            "firstCollectedAt": "2026-10-12T10:52:55+00:00",
+            "lastCollectedAt": "2026-10-12T10:52:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1603321674907681",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-09-30",
+            "query": "gph콜라겐",
+            "firstCollectedAt": "2026-10-12T10:52:55+00:00",
+            "lastCollectedAt": "2026-10-12T10:52:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1832030364824830",
+            "advertiser": "",
+            "startedAt": "2026-08-04",
+            "query": "gph콜라겐",
+            "firstCollectedAt": "2026-10-12T10:52:54+00:00",
+            "lastCollectedAt": "2026-10-12T10:52:54+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-12T10:52:56+00:00",
+        "advertisers": [
+          {
+            "name": "뉴트리몰",
+            "adCount": 4
+          },
+          {
+            "name": "데일리꿀템",
+            "adCount": 2
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -21675,17 +21756,98 @@
       "rankWindow": 100,
       "observedAt": "2026-10-12T00:51:31+00:00",
       "lastObservedAt": "2026-10-12T00:51:31+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "c500e8ce13d53218c423b4b97609b1ec2675053c6e5cc1852481c81866ddc0bd",
       "searchQuery": "gph콜라겐",
       "adEvidence": {
         "query": "gph콜라겐",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 7,
+        "adIds": [
+          "4525587167701310",
+          "1745780773304678",
+          "1139797895150712",
+          "1068689689108621",
+          "1790792972067860",
+          "1603321674907681",
+          "1832030364824830"
+        ],
+        "ads": [
+          {
+            "id": "4525587167701310",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-10-07",
+            "query": "gph콜라겐",
+            "firstCollectedAt": "2026-10-12T10:52:56+00:00",
+            "lastCollectedAt": "2026-10-12T10:52:56+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1745780773304678",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-09-14",
+            "query": "gph콜라겐",
+            "firstCollectedAt": "2026-10-12T10:52:56+00:00",
+            "lastCollectedAt": "2026-10-12T10:52:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1139797895150712",
+            "advertiser": "데일리꿀템",
+            "startedAt": "2026-09-24",
+            "query": "gph콜라겐",
+            "firstCollectedAt": "2026-10-12T10:52:56+00:00",
+            "lastCollectedAt": "2026-10-12T10:52:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1068689689108621",
+            "advertiser": "데일리꿀템",
+            "startedAt": "2026-09-24",
+            "query": "gph콜라겐",
+            "firstCollectedAt": "2026-10-12T10:52:56+00:00",
+            "lastCollectedAt": "2026-10-12T10:52:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1790792972067860",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-09-30",
+            "query": "gph콜라겐",
+            "firstCollectedAt": "2026-10-12T10:52:55+00:00",
+            "lastCollectedAt": "2026-10-12T10:52:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1603321674907681",
+            "advertiser": "뉴트리몰",
+            "startedAt": "2026-09-30",
+            "query": "gph콜라겐",
+            "firstCollectedAt": "2026-10-12T10:52:55+00:00",
+            "lastCollectedAt": "2026-10-12T10:52:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1832030364824830",
+            "advertiser": "",
+            "startedAt": "2026-08-04",
+            "query": "gph콜라겐",
+            "firstCollectedAt": "2026-10-12T10:52:54+00:00",
+            "lastCollectedAt": "2026-10-12T10:52:54+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-12T10:52:56+00:00",
+        "advertisers": [
+          {
+            "name": "뉴트리몰",
+            "adCount": 4
+          },
+          {
+            "name": "데일리꿀템",
+            "adCount": 2
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
