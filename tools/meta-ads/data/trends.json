@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12T20:13:46+00:00",
+  "updatedAt": "2026-10-12T20:18:15+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-12T19:59:42+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 13,
-    "dailyRemaining": 275,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-12T20:18:13+00:00",
+    "dailyUsed": 14,
+    "dailyRemaining": 274,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -1297,7 +1297,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "b183aeaa73c61755f8388493f638b53aab6077738cf365ab8849042f8e398477",
       "searchQuery": "비타민b",
       "adEvidence": {
@@ -27022,7 +27022,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-12T00:50:59+00:00",
       "lastObservedAt": "2026-10-12T19:58:59+00:00",
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "b183aeaa73c61755f8388493f638b53aab6077738cf365ab8849042f8e398477",
       "searchQuery": "비타민b",
       "adEvidence": {
