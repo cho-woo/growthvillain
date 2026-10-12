@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12T06:47:21+00:00",
+  "updatedAt": "2026-10-12T06:50:09+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-12T00:51:31+00:00",
@@ -41,8 +41,8 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 25,
-    "dailyRemaining": 263,
+    "dailyUsed": 26,
+    "dailyRemaining": 262,
     "pending": 1,
     "nextDispatchAt": null,
     "metaAutoEnabled": true,
@@ -85,17 +85,1148 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "4e5af721d4019c5d22b76efa5323b3d065d48e270538598ddd84d969252f5afc",
       "searchQuery": "nmn",
       "adEvidence": {
         "query": "nmn",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 100,
+        "adIds": [
+          "1419863722650390",
+          "1932136337371333",
+          "1130200759168219",
+          "2097983251114650",
+          "1641096640385394",
+          "1303842481770037",
+          "1300774915441876",
+          "1168478741734326",
+          "1507826414058326",
+          "846820678183147",
+          "1923028458294522",
+          "882346110959504",
+          "3223055711222777",
+          "2385346575308274",
+          "1103314398791142",
+          "940433485103466",
+          "919092167759451",
+          "1851626029332206",
+          "598246333255164",
+          "4373893466267737",
+          "1498119434816647",
+          "823058183812979",
+          "1284163826542605",
+          "1112619594270390",
+          "1583473776908622",
+          "1044705434841925",
+          "1499222688287235",
+          "1141877757371562",
+          "4121283571417065",
+          "2026019024756454",
+          "1389727969262080",
+          "26536992312662399",
+          "1539358637175293",
+          "1091489039939545",
+          "1007203938725761",
+          "849361157991601",
+          "1360559482514541",
+          "855418064069079",
+          "1271977364923502",
+          "1245552077440545",
+          "1481993416885672",
+          "1731441568052502",
+          "882524190775949",
+          "877351758172683",
+          "1514875232904101",
+          "4237989676444697",
+          "857842500595407",
+          "2169617897180920",
+          "1414034280248080",
+          "685533134237538",
+          "2714294288904334",
+          "1134019924965833",
+          "967228839165290",
+          "1251192840445112",
+          "1528179205310583",
+          "1822031821809142",
+          "2434521863640213",
+          "1234571758616158",
+          "543396922202333",
+          "1256069616575848",
+          "964744506613319",
+          "1435871027921821",
+          "814472927652430",
+          "4397704983817105",
+          "1502521080828202",
+          "2056242905144832",
+          "1773667233342595",
+          "1163198609173151",
+          "1136483655306369",
+          "2436781093391383",
+          "836700918863996",
+          "1744061219485634",
+          "1757706555229454",
+          "1744977970208313",
+          "1700967670925453",
+          "1556131372896575",
+          "1315923393356845",
+          "2203494920468704",
+          "1550968043435002",
+          "1019504114362909",
+          "2258668524938658",
+          "1162177326071146",
+          "948719247909335",
+          "1492605372281229",
+          "815378694611956",
+          "1173455874896281",
+          "1415012036977504",
+          "1358759545628615",
+          "3890810361051468",
+          "1541113990861969",
+          "4290634684532932",
+          "1496393048875022",
+          "819509583786751",
+          "25253643724329474",
+          "2498383460590259",
+          "1656882309379828",
+          "1346273643962748",
+          "1537082954062852",
+          "746559917903009",
+          "3231312393714512"
+        ],
+        "ads": [
+          {
+            "id": "1419863722650390",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-03-19",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:47+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1932136337371333",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2026-01-28",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:35+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1130200759168219",
+            "advertiser": "vintageamy0817",
+            "startedAt": "2026-03-08",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:35+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2097983251114650",
+            "advertiser": "hyobeen.lee",
+            "startedAt": "2026-06-24",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:34+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1641096640385394",
+            "advertiser": "Dr. Ara On-Call",
+            "startedAt": "2026-01-07",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:34+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1303842481770037",
+            "advertiser": "IM8 Global",
+            "startedAt": "2026-01-29",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:33+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1300774915441876",
+            "advertiser": "숨은 올영 꿀템",
+            "startedAt": "2026-03-07",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:32+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1168478741734326",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2026-01-15",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:32+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1507826414058326",
+            "advertiser": "Dr. Ara On-Call",
+            "startedAt": "2026-06-03",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:31+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "846820678183147",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2026-01-06",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:30+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1923028458294522",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-01-21",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:30+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "882346110959504",
+            "advertiser": "Ben Greenfield Fitness",
+            "startedAt": "2026-01-12",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:19+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3223055711222777",
+            "advertiser": "낫포유 NOT4U",
+            "startedAt": "2026-09-16",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:19+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2385346575308274",
+            "advertiser": "Tim Gray",
+            "startedAt": "2026-03-11",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:18+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1103314398791142",
+            "advertiser": "iHerb",
+            "startedAt": "2026-08-21",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:18+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "940433485103466",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2026-03-11",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:17+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "919092167759451",
+            "advertiser": "Tavi Castro",
+            "startedAt": "2026-03-09",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:17+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1851626029332206",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-09-18",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:16+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "598246333255164",
+            "advertiser": "Cellics",
+            "startedAt": "2025-09-16",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:15+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4373893466267737",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2026-01-07",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:15+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1498119434816647",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2025-10-30",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:14+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "823058183812979",
+            "advertiser": "Video st",
+            "startedAt": "2026-05-12",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:02+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1284163826542605",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2026-04-20",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:01+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1112619594270390",
+            "advertiser": "Life Science",
+            "startedAt": "2025-09-25",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:01+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1583473776908622",
+            "advertiser": "RoseRoseShop",
+            "startedAt": "2026-08-07",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:00+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1044705434841925",
+            "advertiser": "Vivopet",
+            "startedAt": "2026-08-16",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:59+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1499222688287235",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-03-11",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:58+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1141877757371562",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2025-10-08",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:58+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4121283571417065",
+            "advertiser": "IM8",
+            "startedAt": "2025-11-21",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:57+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2026019024756454",
+            "advertiser": "동안 연구소",
+            "startedAt": "2026-09-08",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:57+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1389727969262080",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2026-01-12",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:49+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "26536992312662399",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-04-25",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:48+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1539358637175293",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2026-01-06",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:47+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1091489039939545",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-09-28",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:47+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1007203938725761",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-06-12",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:47+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "849361157991601",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2026-01-06",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:45+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1360559482514541",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-04-30",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:45+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "855418064069079",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2025-12-20",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:44+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1271977364923502",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-05-18",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:43+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1245552077440545",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2026-01-15",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:43+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1481993416885672",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-04-30",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:35+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1731441568052502",
+            "advertiser": "Alibaba.com",
+            "startedAt": "2026-07-08",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:34+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "882524190775949",
+            "advertiser": "IM8 Health",
+            "startedAt": "2025-11-21",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:33+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "877351758172683",
+            "advertiser": "Dr. Ara On-Call",
+            "startedAt": "2025-11-24",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:33+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1514875232904101",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-01-14",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:33+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4237989676444697",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2025-12-02",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:32+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "857842500595407",
+            "advertiser": "Tavi Castro",
+            "startedAt": "2026-03-05",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:31+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2169617897180920",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2025-11-21",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:31+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1414034280248080",
+            "advertiser": "IM8 Health",
+            "startedAt": "2025-12-20",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:31+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "685533134237538",
+            "advertiser": "Cellics",
+            "startedAt": "2025-11-03",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:30+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2714294288904334",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2025-12-20",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:22+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1134019924965833",
+            "advertiser": "IM8",
+            "startedAt": "2025-10-08",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:22+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "967228839165290",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-03-09",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:21+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1251192840445112",
+            "advertiser": "Chanwon Sweetie♥",
+            "startedAt": "2026-03-01",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:20+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1528179205310583",
+            "advertiser": "Video st",
+            "startedAt": "2026-05-21",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:19+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1822031821809142",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-02-25",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:18+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2434521863640213",
+            "advertiser": "Genetic Labs Australia",
+            "startedAt": "2026-06-07",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:17+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1234571758616158",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2026-01-29",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:17+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "543396922202333",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2025-11-25",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:16+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1256069616575848",
+            "advertiser": "숨은 올영 꿀템",
+            "startedAt": "2025-12-22",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:15+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "964744506613319",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-03-19",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:08+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1435871027921821",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-03-04",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:07+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "814472927652430",
+            "advertiser": "Tavi Castro",
+            "startedAt": "2026-03-11",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:06+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4397704983817105",
+            "advertiser": "IM8 Global",
+            "startedAt": "2026-05-02",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:06+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1502521080828202",
+            "advertiser": "Dr. Ara On-Call",
+            "startedAt": "2026-01-07",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:06+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2056242905144832",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2025-12-20",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:05+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1773667233342595",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2025-11-25",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:04+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1163198609173151",
+            "advertiser": "Codeage",
+            "startedAt": "2026-01-12",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:04+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1136483655306369",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2025-11-21",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:03+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2436781093391383",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2025-12-17",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:02+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "836700918863996",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-04-25",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:55+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1744061219485634",
+            "advertiser": "Codeage",
+            "startedAt": "2025-10-27",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:54+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1757706555229454",
+            "advertiser": "Readyyoung",
+            "startedAt": "2026-07-08",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:53+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1744977970208313",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-05-29",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:53+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1700967670925453",
+            "advertiser": "Genetic Labs Australia",
+            "startedAt": "2026-05-20",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:53+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1556131372896575",
+            "advertiser": "Readyyoung",
+            "startedAt": "2026-06-30",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:52+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1315923393356845",
+            "advertiser": "DuoChat - Dating and Chat",
+            "startedAt": "2025-09-22",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:52+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2203494920468704",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-04-25",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:51+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1550968043435002",
+            "advertiser": "Readyyoung",
+            "startedAt": "2026-06-30",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:51+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1019504114362909",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-05-19",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:51+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2258668524938658",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-05-29",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:44+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1162177326071146",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2025-12-20",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:43+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "948719247909335",
+            "advertiser": "Genetic Labs Australia",
+            "startedAt": "2026-04-14",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:42+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1492605372281229",
+            "advertiser": "Tim Gray",
+            "startedAt": "2026-03-16",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:42+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "815378694611956",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2025-10-30",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:41+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1173455874896281",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2025-11-25",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:40+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1415012036977504",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-04-25",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:39+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1358759545628615",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2025-12-02",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:39+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3890810361051468",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-04-13",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:38+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1541113990861969",
+            "advertiser": "והב אותך",
+            "startedAt": "2026-05-28",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:38+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4290634684532932",
+            "advertiser": "Diane Mercer",
+            "startedAt": "2026-08-12",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:33+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1496393048875022",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2026-04-23",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:33+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "819509583786751",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2025-10-08",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:32+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "25253643724329474",
+            "advertiser": "Swanson Health",
+            "startedAt": "2025-10-20",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:31+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2498383460590259",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-03-12",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:31+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1656882309379828",
+            "advertiser": "Aeternum - The Longevity Experts",
+            "startedAt": "2026-08-24",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:30+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1346273643962748",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2025-12-20",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:30+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1537082954062852",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-02-04",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:29+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "746559917903009",
+            "advertiser": "Ben Greenfield Fitness",
+            "startedAt": "2025-06-18",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:28+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3231312393714512",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-02-04",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:28+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:28+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-12T06:49:47+00:00",
+        "advertisers": [
+          {
+            "name": "Mona Sharma Health and Wellness",
+            "adCount": 28
+          },
+          {
+            "name": "IM8 Health",
+            "adCount": 16
+          },
+          {
+            "name": "Dr. James DiNicolantonio",
+            "adCount": 10
+          },
+          {
+            "name": "Dr. Ara On-Call",
+            "adCount": 4
+          },
+          {
+            "name": "Genetic Labs Australia",
+            "adCount": 3
+          },
+          {
+            "name": "Readyyoung",
+            "adCount": 3
+          },
+          {
+            "name": "Tavi Castro",
+            "adCount": 3
+          },
+          {
+            "name": "Ben Greenfield Fitness",
+            "adCount": 2
+          },
+          {
+            "name": "Cellics",
+            "adCount": 2
+          },
+          {
+            "name": "Codeage",
+            "adCount": 2
+          },
+          {
+            "name": "IM8",
+            "adCount": 2
+          },
+          {
+            "name": "IM8 Global",
+            "adCount": 2
+          },
+          {
+            "name": "Tim Gray",
+            "adCount": 2
+          },
+          {
+            "name": "Video st",
+            "adCount": 2
+          },
+          {
+            "name": "숨은 올영 꿀템",
+            "adCount": 2
+          },
+          {
+            "name": "Aeternum - The Longevity Experts",
+            "adCount": 1
+          },
+          {
+            "name": "Alibaba.com",
+            "adCount": 1
+          },
+          {
+            "name": "Chanwon Sweetie♥",
+            "adCount": 1
+          },
+          {
+            "name": "Diane Mercer",
+            "adCount": 1
+          },
+          {
+            "name": "DuoChat - Dating and Chat",
+            "adCount": 1
+          },
+          {
+            "name": "Life Science",
+            "adCount": 1
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 1
+          },
+          {
+            "name": "RoseRoseShop",
+            "adCount": 1
+          },
+          {
+            "name": "Swanson Health",
+            "adCount": 1
+          },
+          {
+            "name": "Vivopet",
+            "adCount": 1
+          },
+          {
+            "name": "hyobeen.lee",
+            "adCount": 1
+          },
+          {
+            "name": "iHerb",
+            "adCount": 1
+          },
+          {
+            "name": "vintageamy0817",
+            "adCount": 1
+          },
+          {
+            "name": "והב אותך",
+            "adCount": 1
+          },
+          {
+            "name": "낫포유 NOT4U",
+            "adCount": 1
+          },
+          {
+            "name": "동안 연구소",
+            "adCount": 1
+          },
+          {
+            "name": "면역력 연구소",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -7555,7 +8686,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "queued",
       "keywordId": "3ba09977c1c6d26a86349ab3729c1bba5dac05b761f1f0724f63fa9027fdc8de",
       "searchQuery": "다이어트보조제",
       "adEvidence": {
@@ -10503,7 +11634,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-12T00:51:31+00:00",
       "lastObservedAt": "2026-10-12T00:51:31+00:00",
-      "state": "ready",
+      "state": "queued",
       "keywordId": "3ba09977c1c6d26a86349ab3729c1bba5dac05b761f1f0724f63fa9027fdc8de",
       "searchQuery": "다이어트보조제",
       "adEvidence": {
@@ -12391,17 +13522,1148 @@
       "rankWindow": 100,
       "observedAt": "2026-10-12T00:50:59+00:00",
       "lastObservedAt": "2026-10-12T00:50:59+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "4e5af721d4019c5d22b76efa5323b3d065d48e270538598ddd84d969252f5afc",
       "searchQuery": "nmn",
       "adEvidence": {
         "query": "nmn",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 100,
+        "adIds": [
+          "1419863722650390",
+          "1932136337371333",
+          "1130200759168219",
+          "2097983251114650",
+          "1641096640385394",
+          "1303842481770037",
+          "1300774915441876",
+          "1168478741734326",
+          "1507826414058326",
+          "846820678183147",
+          "1923028458294522",
+          "882346110959504",
+          "3223055711222777",
+          "2385346575308274",
+          "1103314398791142",
+          "940433485103466",
+          "919092167759451",
+          "1851626029332206",
+          "598246333255164",
+          "4373893466267737",
+          "1498119434816647",
+          "823058183812979",
+          "1284163826542605",
+          "1112619594270390",
+          "1583473776908622",
+          "1044705434841925",
+          "1499222688287235",
+          "1141877757371562",
+          "4121283571417065",
+          "2026019024756454",
+          "1389727969262080",
+          "26536992312662399",
+          "1539358637175293",
+          "1091489039939545",
+          "1007203938725761",
+          "849361157991601",
+          "1360559482514541",
+          "855418064069079",
+          "1271977364923502",
+          "1245552077440545",
+          "1481993416885672",
+          "1731441568052502",
+          "882524190775949",
+          "877351758172683",
+          "1514875232904101",
+          "4237989676444697",
+          "857842500595407",
+          "2169617897180920",
+          "1414034280248080",
+          "685533134237538",
+          "2714294288904334",
+          "1134019924965833",
+          "967228839165290",
+          "1251192840445112",
+          "1528179205310583",
+          "1822031821809142",
+          "2434521863640213",
+          "1234571758616158",
+          "543396922202333",
+          "1256069616575848",
+          "964744506613319",
+          "1435871027921821",
+          "814472927652430",
+          "4397704983817105",
+          "1502521080828202",
+          "2056242905144832",
+          "1773667233342595",
+          "1163198609173151",
+          "1136483655306369",
+          "2436781093391383",
+          "836700918863996",
+          "1744061219485634",
+          "1757706555229454",
+          "1744977970208313",
+          "1700967670925453",
+          "1556131372896575",
+          "1315923393356845",
+          "2203494920468704",
+          "1550968043435002",
+          "1019504114362909",
+          "2258668524938658",
+          "1162177326071146",
+          "948719247909335",
+          "1492605372281229",
+          "815378694611956",
+          "1173455874896281",
+          "1415012036977504",
+          "1358759545628615",
+          "3890810361051468",
+          "1541113990861969",
+          "4290634684532932",
+          "1496393048875022",
+          "819509583786751",
+          "25253643724329474",
+          "2498383460590259",
+          "1656882309379828",
+          "1346273643962748",
+          "1537082954062852",
+          "746559917903009",
+          "3231312393714512"
+        ],
+        "ads": [
+          {
+            "id": "1419863722650390",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-03-19",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:47+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1932136337371333",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2026-01-28",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:35+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1130200759168219",
+            "advertiser": "vintageamy0817",
+            "startedAt": "2026-03-08",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:35+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2097983251114650",
+            "advertiser": "hyobeen.lee",
+            "startedAt": "2026-06-24",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:34+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1641096640385394",
+            "advertiser": "Dr. Ara On-Call",
+            "startedAt": "2026-01-07",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:34+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1303842481770037",
+            "advertiser": "IM8 Global",
+            "startedAt": "2026-01-29",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:33+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1300774915441876",
+            "advertiser": "숨은 올영 꿀템",
+            "startedAt": "2026-03-07",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:32+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1168478741734326",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2026-01-15",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:32+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1507826414058326",
+            "advertiser": "Dr. Ara On-Call",
+            "startedAt": "2026-06-03",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:31+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "846820678183147",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2026-01-06",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:30+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1923028458294522",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-01-21",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:30+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "882346110959504",
+            "advertiser": "Ben Greenfield Fitness",
+            "startedAt": "2026-01-12",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:19+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3223055711222777",
+            "advertiser": "낫포유 NOT4U",
+            "startedAt": "2026-09-16",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:19+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2385346575308274",
+            "advertiser": "Tim Gray",
+            "startedAt": "2026-03-11",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:18+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1103314398791142",
+            "advertiser": "iHerb",
+            "startedAt": "2026-08-21",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:18+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "940433485103466",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2026-03-11",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:17+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "919092167759451",
+            "advertiser": "Tavi Castro",
+            "startedAt": "2026-03-09",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:17+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1851626029332206",
+            "advertiser": "면역력 연구소",
+            "startedAt": "2026-09-18",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:16+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "598246333255164",
+            "advertiser": "Cellics",
+            "startedAt": "2025-09-16",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:15+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4373893466267737",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2026-01-07",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:15+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1498119434816647",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2025-10-30",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:14+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "823058183812979",
+            "advertiser": "Video st",
+            "startedAt": "2026-05-12",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:02+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1284163826542605",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2026-04-20",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:01+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1112619594270390",
+            "advertiser": "Life Science",
+            "startedAt": "2025-09-25",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:01+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1583473776908622",
+            "advertiser": "RoseRoseShop",
+            "startedAt": "2026-08-07",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:49:00+00:00",
+            "lastCollectedAt": "2026-10-12T06:49:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1044705434841925",
+            "advertiser": "Vivopet",
+            "startedAt": "2026-08-16",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:59+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1499222688287235",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-03-11",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:58+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1141877757371562",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2025-10-08",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:58+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4121283571417065",
+            "advertiser": "IM8",
+            "startedAt": "2025-11-21",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:57+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2026019024756454",
+            "advertiser": "동안 연구소",
+            "startedAt": "2026-09-08",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:57+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1389727969262080",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2026-01-12",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:49+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "26536992312662399",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-04-25",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:48+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1539358637175293",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2026-01-06",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:47+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1091489039939545",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-09-28",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:47+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1007203938725761",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-06-12",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:47+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "849361157991601",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2026-01-06",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:45+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1360559482514541",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-04-30",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:45+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "855418064069079",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2025-12-20",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:44+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1271977364923502",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-05-18",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:43+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1245552077440545",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2026-01-15",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:43+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1481993416885672",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-04-30",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:35+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1731441568052502",
+            "advertiser": "Alibaba.com",
+            "startedAt": "2026-07-08",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:34+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "882524190775949",
+            "advertiser": "IM8 Health",
+            "startedAt": "2025-11-21",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:33+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "877351758172683",
+            "advertiser": "Dr. Ara On-Call",
+            "startedAt": "2025-11-24",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:33+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1514875232904101",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-01-14",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:33+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4237989676444697",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2025-12-02",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:32+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "857842500595407",
+            "advertiser": "Tavi Castro",
+            "startedAt": "2026-03-05",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:31+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2169617897180920",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2025-11-21",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:31+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1414034280248080",
+            "advertiser": "IM8 Health",
+            "startedAt": "2025-12-20",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:31+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "685533134237538",
+            "advertiser": "Cellics",
+            "startedAt": "2025-11-03",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:30+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2714294288904334",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2025-12-20",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:22+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1134019924965833",
+            "advertiser": "IM8",
+            "startedAt": "2025-10-08",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:22+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "967228839165290",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-03-09",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:21+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1251192840445112",
+            "advertiser": "Chanwon Sweetie♥",
+            "startedAt": "2026-03-01",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:20+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1528179205310583",
+            "advertiser": "Video st",
+            "startedAt": "2026-05-21",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:19+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1822031821809142",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-02-25",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:18+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2434521863640213",
+            "advertiser": "Genetic Labs Australia",
+            "startedAt": "2026-06-07",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:17+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1234571758616158",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2026-01-29",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:17+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "543396922202333",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2025-11-25",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:16+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1256069616575848",
+            "advertiser": "숨은 올영 꿀템",
+            "startedAt": "2025-12-22",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:15+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "964744506613319",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-03-19",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:08+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1435871027921821",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-03-04",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:07+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "814472927652430",
+            "advertiser": "Tavi Castro",
+            "startedAt": "2026-03-11",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:06+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4397704983817105",
+            "advertiser": "IM8 Global",
+            "startedAt": "2026-05-02",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:06+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1502521080828202",
+            "advertiser": "Dr. Ara On-Call",
+            "startedAt": "2026-01-07",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:06+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2056242905144832",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2025-12-20",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:05+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1773667233342595",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2025-11-25",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:04+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1163198609173151",
+            "advertiser": "Codeage",
+            "startedAt": "2026-01-12",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:04+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1136483655306369",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2025-11-21",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:03+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2436781093391383",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2025-12-17",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:48:02+00:00",
+            "lastCollectedAt": "2026-10-12T06:48:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "836700918863996",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-04-25",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:55+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1744061219485634",
+            "advertiser": "Codeage",
+            "startedAt": "2025-10-27",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:54+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1757706555229454",
+            "advertiser": "Readyyoung",
+            "startedAt": "2026-07-08",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:53+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1744977970208313",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-05-29",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:53+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1700967670925453",
+            "advertiser": "Genetic Labs Australia",
+            "startedAt": "2026-05-20",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:53+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1556131372896575",
+            "advertiser": "Readyyoung",
+            "startedAt": "2026-06-30",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:52+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1315923393356845",
+            "advertiser": "DuoChat - Dating and Chat",
+            "startedAt": "2025-09-22",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:52+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2203494920468704",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-04-25",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:51+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1550968043435002",
+            "advertiser": "Readyyoung",
+            "startedAt": "2026-06-30",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:51+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1019504114362909",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-05-19",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:51+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2258668524938658",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-05-29",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:44+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1162177326071146",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2025-12-20",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:43+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "948719247909335",
+            "advertiser": "Genetic Labs Australia",
+            "startedAt": "2026-04-14",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:42+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1492605372281229",
+            "advertiser": "Tim Gray",
+            "startedAt": "2026-03-16",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:42+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "815378694611956",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2025-10-30",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:41+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1173455874896281",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2025-11-25",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:40+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1415012036977504",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-04-25",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:39+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1358759545628615",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2025-12-02",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:39+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3890810361051468",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-04-13",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:38+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1541113990861969",
+            "advertiser": "והב אותך",
+            "startedAt": "2026-05-28",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:38+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4290634684532932",
+            "advertiser": "Diane Mercer",
+            "startedAt": "2026-08-12",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:33+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1496393048875022",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2026-04-23",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:33+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "819509583786751",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2025-10-08",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:32+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "25253643724329474",
+            "advertiser": "Swanson Health",
+            "startedAt": "2025-10-20",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:31+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2498383460590259",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-03-12",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:31+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1656882309379828",
+            "advertiser": "Aeternum - The Longevity Experts",
+            "startedAt": "2026-08-24",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:30+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1346273643962748",
+            "advertiser": "Mona Sharma Health and Wellness",
+            "startedAt": "2025-12-20",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:30+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1537082954062852",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-02-04",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:29+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "746559917903009",
+            "advertiser": "Ben Greenfield Fitness",
+            "startedAt": "2025-06-18",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:28+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3231312393714512",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-02-04",
+            "query": "nmn",
+            "firstCollectedAt": "2026-10-12T06:47:28+00:00",
+            "lastCollectedAt": "2026-10-12T06:47:28+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-12T06:49:47+00:00",
+        "advertisers": [
+          {
+            "name": "Mona Sharma Health and Wellness",
+            "adCount": 28
+          },
+          {
+            "name": "IM8 Health",
+            "adCount": 16
+          },
+          {
+            "name": "Dr. James DiNicolantonio",
+            "adCount": 10
+          },
+          {
+            "name": "Dr. Ara On-Call",
+            "adCount": 4
+          },
+          {
+            "name": "Genetic Labs Australia",
+            "adCount": 3
+          },
+          {
+            "name": "Readyyoung",
+            "adCount": 3
+          },
+          {
+            "name": "Tavi Castro",
+            "adCount": 3
+          },
+          {
+            "name": "Ben Greenfield Fitness",
+            "adCount": 2
+          },
+          {
+            "name": "Cellics",
+            "adCount": 2
+          },
+          {
+            "name": "Codeage",
+            "adCount": 2
+          },
+          {
+            "name": "IM8",
+            "adCount": 2
+          },
+          {
+            "name": "IM8 Global",
+            "adCount": 2
+          },
+          {
+            "name": "Tim Gray",
+            "adCount": 2
+          },
+          {
+            "name": "Video st",
+            "adCount": 2
+          },
+          {
+            "name": "숨은 올영 꿀템",
+            "adCount": 2
+          },
+          {
+            "name": "Aeternum - The Longevity Experts",
+            "adCount": 1
+          },
+          {
+            "name": "Alibaba.com",
+            "adCount": 1
+          },
+          {
+            "name": "Chanwon Sweetie♥",
+            "adCount": 1
+          },
+          {
+            "name": "Diane Mercer",
+            "adCount": 1
+          },
+          {
+            "name": "DuoChat - Dating and Chat",
+            "adCount": 1
+          },
+          {
+            "name": "Life Science",
+            "adCount": 1
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 1
+          },
+          {
+            "name": "RoseRoseShop",
+            "adCount": 1
+          },
+          {
+            "name": "Swanson Health",
+            "adCount": 1
+          },
+          {
+            "name": "Vivopet",
+            "adCount": 1
+          },
+          {
+            "name": "hyobeen.lee",
+            "adCount": 1
+          },
+          {
+            "name": "iHerb",
+            "adCount": 1
+          },
+          {
+            "name": "vintageamy0817",
+            "adCount": 1
+          },
+          {
+            "name": "והב אותך",
+            "adCount": 1
+          },
+          {
+            "name": "낫포유 NOT4U",
+            "adCount": 1
+          },
+          {
+            "name": "동안 연구소",
+            "adCount": 1
+          },
+          {
+            "name": "면역력 연구소",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
