@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12T05:51:44+00:00",
+  "updatedAt": "2026-10-12T06:36:40+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-12T00:51:31+00:00",
@@ -41,22 +41,22 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 24,
-    "dailyRemaining": 264,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-12T06:36:37+00:00",
+    "dailyUsed": 25,
+    "dailyRemaining": 263,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
-    "enabled": false,
+    "enabled": true,
     "collectionGuard": {
-      "state": "blocked",
-      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
-      "nextAllowedAt": "2026-10-12T06:36:37+00:00",
-      "blockedUntil": "2026-10-12T06:36:37+00:00",
+      "state": "ready",
+      "reason": null,
+      "nextAllowedAt": null,
+      "blockedUntil": null,
       "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
+    "pausedReason": null
   },
   "settings": {
     "category": "50000023",
@@ -85,7 +85,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "queued",
       "keywordId": "4e5af721d4019c5d22b76efa5323b3d065d48e270538598ddd84d969252f5afc",
       "searchQuery": "nmn",
       "adEvidence": {
@@ -5736,7 +5736,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "cooldown",
+      "state": "ready",
       "keywordId": "13906ae6ceefbdada590a5cfe574571aa65601a3a3560cd1c52e992a0a245738",
       "searchQuery": "보스웰리아",
       "adEvidence": {
@@ -12321,7 +12321,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-12T00:50:59+00:00",
       "lastObservedAt": "2026-10-12T00:50:59+00:00",
-      "state": "cooldown",
+      "state": "ready",
       "keywordId": "13906ae6ceefbdada590a5cfe574571aa65601a3a3560cd1c52e992a0a245738",
       "searchQuery": "보스웰리아",
       "adEvidence": {
@@ -12391,7 +12391,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-12T00:50:59+00:00",
       "lastObservedAt": "2026-10-12T00:50:59+00:00",
-      "state": "ready",
+      "state": "queued",
       "keywordId": "4e5af721d4019c5d22b76efa5323b3d065d48e270538598ddd84d969252f5afc",
       "searchQuery": "nmn",
       "adEvidence": {
