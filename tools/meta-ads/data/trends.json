@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12T20:00:34+00:00",
+  "updatedAt": "2026-10-12T20:08:10+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-12T19:59:42+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 11,
-    "dailyRemaining": 277,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-12T20:04:43+00:00",
+    "dailyUsed": 12,
+    "dailyRemaining": 276,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -8895,7 +8895,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "a54110504b0a1643670e45d486c65b7171949fd91e46ca17830c9492da1efc70",
       "searchQuery": "덴마크유산균",
       "adEvidence": {
@@ -28262,7 +28262,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-12T00:50:59+00:00",
       "lastObservedAt": "2026-10-12T19:58:59+00:00",
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "a54110504b0a1643670e45d486c65b7171949fd91e46ca17830c9492da1efc70",
       "searchQuery": "덴마크유산균",
       "adEvidence": {
