@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12T13:26:00+00:00",
+  "updatedAt": "2026-10-12T13:28:51+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-12T00:51:31+00:00",
@@ -43,8 +43,8 @@
     "backlogDays": 14,
     "dailyUsed": 40,
     "dailyRemaining": 248,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-12T13:31:00+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -8480,17 +8480,1088 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "8ef853689a1a2d52e49fdcb10874dedb82ea2309e0c122e06b6f762c6a9f128c",
       "searchQuery": "pqq",
       "adEvidence": {
         "query": "pqq",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 100,
+        "adIds": [
+          "1541218930673303",
+          "1244101057823014",
+          "1583838129323751",
+          "2161558277915606",
+          "2728227480857745",
+          "2323409514778301",
+          "1029598609415109",
+          "25646946521583321",
+          "944780738090534",
+          "1888677995342336",
+          "2277258896116258",
+          "1447371743397515",
+          "1919344822037470",
+          "866180486405641",
+          "824826447142330",
+          "567405859786893",
+          "1380371810442510",
+          "1273070271376740",
+          "1511786787216730",
+          "892511536440936",
+          "1504965271190557",
+          "1481756536943084",
+          "1345169814180329",
+          "1625558865422995",
+          "1500067664453659",
+          "919517567677906",
+          "1033925642097777",
+          "2230157814486957",
+          "2203736103894215",
+          "1555314155642482",
+          "2303272403819765",
+          "1180946290551173",
+          "1008251371603699",
+          "1900453657274463",
+          "1678865933166223",
+          "2233100850512573",
+          "2099579564294776",
+          "3813974292235946",
+          "1650173397110289",
+          "1446215543142937",
+          "860055793524297",
+          "862272543085767",
+          "1237804431794844",
+          "2301220563719692",
+          "1901660730532673",
+          "1389744082650426",
+          "1269580595106385",
+          "1060722806493961",
+          "1869273320397685",
+          "1514420030083948",
+          "1584802956215843",
+          "776421405542861",
+          "1654133872430682",
+          "1242338014383029",
+          "858867863882538",
+          "813059774533167",
+          "1498612958350312",
+          "1322733073018851",
+          "1417976246426067",
+          "1417930843417951",
+          "1916833982264584",
+          "1210371253897345",
+          "1965811443970139",
+          "1570502971057833",
+          "2353203065138982",
+          "1748687169593724",
+          "916873734438721",
+          "1428923448928373",
+          "1279002320088604",
+          "1294358519207145",
+          "1419863722650390",
+          "919092167759451",
+          "1923028458294522",
+          "31750260077951201",
+          "3775046529298441",
+          "1368544411956347",
+          "2079604599451374",
+          "1499222688287235",
+          "1433379968398486",
+          "1044705434841925",
+          "26536992312662399",
+          "882524190775949",
+          "1271977364923502",
+          "1822031821809142",
+          "1514875232904101",
+          "1414034280248080",
+          "964744506613319",
+          "1435871027921821",
+          "814472927652430",
+          "1525871398931933",
+          "836700918863996",
+          "1744977970208313",
+          "888855220334483",
+          "2203494920468704",
+          "1716687579314057",
+          "1415012036977504",
+          "4290634684532932",
+          "2498383460590259",
+          "1537082954062852",
+          "3231312393714512"
+        ],
+        "ads": [
+          {
+            "id": "1541218930673303",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-06-04",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:28:37+00:00",
+            "lastCollectedAt": "2026-10-12T13:28:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1244101057823014",
+            "advertiser": "IM8 Global",
+            "startedAt": "2026-02-09",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:28:36+00:00",
+            "lastCollectedAt": "2026-10-12T13:28:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1583838129323751",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-02-13",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:28:25+00:00",
+            "lastCollectedAt": "2026-10-12T13:28:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2161558277915606",
+            "advertiser": "IM8 Health Global",
+            "startedAt": "2026-02-13",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:28:24+00:00",
+            "lastCollectedAt": "2026-10-12T13:28:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2728227480857745",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-03-12",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:28:23+00:00",
+            "lastCollectedAt": "2026-10-12T13:28:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2323409514778301",
+            "advertiser": "IM8",
+            "startedAt": "2025-11-21",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:28:23+00:00",
+            "lastCollectedAt": "2026-10-12T13:28:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1029598609415109",
+            "advertiser": "Hello Youth Labs",
+            "startedAt": "2026-05-29",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:28:23+00:00",
+            "lastCollectedAt": "2026-10-12T13:28:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "25646946521583321",
+            "advertiser": "IM8",
+            "startedAt": "2026-01-20",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:28:22+00:00",
+            "lastCollectedAt": "2026-10-12T13:28:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "944780738090534",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-03-09",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:28:21+00:00",
+            "lastCollectedAt": "2026-10-12T13:28:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1888677995342336",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-01-07",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:28:20+00:00",
+            "lastCollectedAt": "2026-10-12T13:28:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2277258896116258",
+            "advertiser": "Hello Youth Labs",
+            "startedAt": "2026-03-12",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:28:10+00:00",
+            "lastCollectedAt": "2026-10-12T13:28:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1447371743397515",
+            "advertiser": "IM8 Global",
+            "startedAt": "2026-02-09",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:28:10+00:00",
+            "lastCollectedAt": "2026-10-12T13:28:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1919344822037470",
+            "advertiser": "IM8",
+            "startedAt": "2026-01-20",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:28:09+00:00",
+            "lastCollectedAt": "2026-10-12T13:28:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "866180486405641",
+            "advertiser": "IM8",
+            "startedAt": "2026-01-20",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:28:08+00:00",
+            "lastCollectedAt": "2026-10-12T13:28:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "824826447142330",
+            "advertiser": "IM8",
+            "startedAt": "2025-11-14",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:28:08+00:00",
+            "lastCollectedAt": "2026-10-12T13:28:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "567405859786893",
+            "advertiser": "Youth Labs Exclusive",
+            "startedAt": "2025-07-30",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:28:08+00:00",
+            "lastCollectedAt": "2026-10-12T13:28:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1380371810442510",
+            "advertiser": "IM8",
+            "startedAt": "2026-01-20",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:28:08+00:00",
+            "lastCollectedAt": "2026-10-12T13:28:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1273070271376740",
+            "advertiser": "Youth Labs Exclusive",
+            "startedAt": "2026-02-05",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:28:08+00:00",
+            "lastCollectedAt": "2026-10-12T13:28:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1511786787216730",
+            "advertiser": "Tavi Castro",
+            "startedAt": "2026-02-16",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:58+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "892511536440936",
+            "advertiser": "IM8 Health",
+            "startedAt": "2025-12-04",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:57+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1504965271190557",
+            "advertiser": "IM8",
+            "startedAt": "2026-03-05",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:57+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1481756536943084",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-03-19",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:57+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1345169814180329",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-06-04",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:56+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1625558865422995",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-03-11",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:55+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1500067664453659",
+            "advertiser": "IM8 Health",
+            "startedAt": "2025-10-08",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:55+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "919517567677906",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-03-11",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:54+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1033925642097777",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2025-10-10",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:54+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2230157814486957",
+            "advertiser": "Diane Mercer",
+            "startedAt": "2026-08-13",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:42+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2203736103894215",
+            "advertiser": "Shoeeszone",
+            "startedAt": "2026-09-17",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:42+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1555314155642482",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2025-10-19",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:42+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2303272403819765",
+            "advertiser": "Diane Mercer",
+            "startedAt": "2026-08-13",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:41+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1180946290551173",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2025-10-17",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:41+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1008251371603699",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-06-22",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:41+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1900453657274463",
+            "advertiser": "Hello Youth Labs",
+            "startedAt": "2026-03-31",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:32+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1678865933166223",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-06-30",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:32+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2233100850512573",
+            "advertiser": "Marcello Ferri",
+            "startedAt": "2026-01-14",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:31+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2099579564294776",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-06-12",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:30+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3813974292235946",
+            "advertiser": "IM8 Global",
+            "startedAt": "2025-11-17",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:29+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1650173397110289",
+            "advertiser": "Hello Youth Labs",
+            "startedAt": "2026-05-29",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:29+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1446215543142937",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2025-10-17",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:29+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "860055793524297",
+            "advertiser": "IM8 Global",
+            "startedAt": "2026-02-09",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:21+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "862272543085767",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2025-12-17",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:20+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1237804431794844",
+            "advertiser": "IM8 Global",
+            "startedAt": "2026-03-03",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:19+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2301220563719692",
+            "advertiser": "Alibaba.com",
+            "startedAt": "2026-03-24",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:18+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1901660730532673",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-03-20",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:18+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1389744082650426",
+            "advertiser": "IM8",
+            "startedAt": "2026-01-20",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:18+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1269580595106385",
+            "advertiser": "Tavi Castro",
+            "startedAt": "2026-03-02",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:18+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1060722806493961",
+            "advertiser": "Diane Mercer",
+            "startedAt": "2026-08-13",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:17+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1869273320397685",
+            "advertiser": "Youth Labs Exclusive",
+            "startedAt": "2026-01-15",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:09+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1514420030083948",
+            "advertiser": "Youth Labs Global",
+            "startedAt": "2026-05-29",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:09+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1584802956215843",
+            "advertiser": "IM8 Global",
+            "startedAt": "2025-11-17",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:08+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "776421405542861",
+            "advertiser": "주식회사 엘리르",
+            "startedAt": "2026-03-09",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:07+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1654133872430682",
+            "advertiser": "Tavi Castro",
+            "startedAt": "2026-02-16",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:07+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1242338014383029",
+            "advertiser": "LVLUP Labs",
+            "startedAt": "2025-11-12",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:07+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "858867863882538",
+            "advertiser": "Hello Youth Labs",
+            "startedAt": "2026-09-16",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:06+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "813059774533167",
+            "advertiser": "IM8 Health",
+            "startedAt": "2025-10-10",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:05+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1498612958350312",
+            "advertiser": "Tavi Castro",
+            "startedAt": "2026-03-02",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:05+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1322733073018851",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-03-02",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:05+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1417976246426067",
+            "advertiser": "IM8 Health",
+            "startedAt": "2025-11-14",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:55+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1417930843417951",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-02-13",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:54+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1916833982264584",
+            "advertiser": "Tavi Castro",
+            "startedAt": "2026-02-16",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:53+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1210371253897345",
+            "advertiser": "Youth Labs Exclusive",
+            "startedAt": "2025-12-29",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:53+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1965811443970139",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-03-12",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:52+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1570502971057833",
+            "advertiser": "IM8 Health",
+            "startedAt": "2025-11-21",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:52+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2353203065138982",
+            "advertiser": "IM8 Health",
+            "startedAt": "2025-11-21",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:51+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1748687169593724",
+            "advertiser": "Vivopet",
+            "startedAt": "2026-08-11",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:44+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "916873734438721",
+            "advertiser": "Hello Youth Labs",
+            "startedAt": "2026-03-31",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:42+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1428923448928373",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-03-09",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:42+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1279002320088604",
+            "advertiser": "Shoeeszone",
+            "startedAt": "2024-11-25",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:42+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1294358519207145",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-03-11",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:41+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1419863722650390",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-03-19",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:40+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "919092167759451",
+            "advertiser": "Tavi Castro",
+            "startedAt": "2026-03-09",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:39+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1923028458294522",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-01-21",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:39+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "31750260077951201",
+            "advertiser": "Supplement Daily",
+            "startedAt": "2025-10-08",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:32+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3775046529298441",
+            "advertiser": "Youth Labs Exclusive",
+            "startedAt": "2025-08-06",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:31+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1368544411956347",
+            "advertiser": "Hello Youth Labs",
+            "startedAt": "2026-03-31",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:31+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2079604599451374",
+            "advertiser": "Hello Youth Labs",
+            "startedAt": "2025-11-25",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:30+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1499222688287235",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-03-11",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:30+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1433379968398486",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-01-12",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:30+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1044705434841925",
+            "advertiser": "Vivopet",
+            "startedAt": "2026-08-16",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:30+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "26536992312662399",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-04-25",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:23+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "882524190775949",
+            "advertiser": "IM8 Health",
+            "startedAt": "2025-11-21",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:22+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1271977364923502",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-05-18",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:22+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1822031821809142",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-02-25",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:21+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1514875232904101",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-01-14",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:21+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1414034280248080",
+            "advertiser": "IM8 Health",
+            "startedAt": "2025-12-20",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:21+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "964744506613319",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-03-19",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:20+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1435871027921821",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-03-04",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:19+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "814472927652430",
+            "advertiser": "Tavi Castro",
+            "startedAt": "2026-03-11",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:18+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1525871398931933",
+            "advertiser": "Hello Youth Labs",
+            "startedAt": "2026-05-29",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:17+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "836700918863996",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-04-25",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:12+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1744977970208313",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-05-29",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:11+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "888855220334483",
+            "advertiser": "Hello Youth Labs",
+            "startedAt": "2025-11-25",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:10+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2203494920468704",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-04-25",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:10+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1716687579314057",
+            "advertiser": "Hello Youth Labs",
+            "startedAt": "2026-03-20",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:10+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1415012036977504",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-04-25",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:09+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4290634684532932",
+            "advertiser": "Diane Mercer",
+            "startedAt": "2026-08-12",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:08+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2498383460590259",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-03-12",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:08+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1537082954062852",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-02-04",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:07+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3231312393714512",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-02-04",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:06+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:06+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-12T13:28:37+00:00",
+        "advertisers": [
+          {
+            "name": "IM8 Health",
+            "adCount": 30
+          },
+          {
+            "name": "Dr. James DiNicolantonio",
+            "adCount": 18
+          },
+          {
+            "name": "Hello Youth Labs",
+            "adCount": 11
+          },
+          {
+            "name": "IM8",
+            "adCount": 8
+          },
+          {
+            "name": "Tavi Castro",
+            "adCount": 7
+          },
+          {
+            "name": "IM8 Global",
+            "adCount": 6
+          },
+          {
+            "name": "Youth Labs Exclusive",
+            "adCount": 5
+          },
+          {
+            "name": "Diane Mercer",
+            "adCount": 4
+          },
+          {
+            "name": "Shoeeszone",
+            "adCount": 2
+          },
+          {
+            "name": "Vivopet",
+            "adCount": 2
+          },
+          {
+            "name": "Alibaba.com",
+            "adCount": 1
+          },
+          {
+            "name": "IM8 Health Global",
+            "adCount": 1
+          },
+          {
+            "name": "LVLUP Labs",
+            "adCount": 1
+          },
+          {
+            "name": "Marcello Ferri",
+            "adCount": 1
+          },
+          {
+            "name": "Supplement Daily",
+            "adCount": 1
+          },
+          {
+            "name": "Youth Labs Global",
+            "adCount": 1
+          },
+          {
+            "name": "주식회사 엘리르",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -29896,17 +30967,1088 @@
       "rankWindow": 100,
       "observedAt": "2026-10-12T00:50:59+00:00",
       "lastObservedAt": "2026-10-12T00:50:59+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "8ef853689a1a2d52e49fdcb10874dedb82ea2309e0c122e06b6f762c6a9f128c",
       "searchQuery": "pqq",
       "adEvidence": {
         "query": "pqq",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 100,
+        "adIds": [
+          "1541218930673303",
+          "1244101057823014",
+          "1583838129323751",
+          "2161558277915606",
+          "2728227480857745",
+          "2323409514778301",
+          "1029598609415109",
+          "25646946521583321",
+          "944780738090534",
+          "1888677995342336",
+          "2277258896116258",
+          "1447371743397515",
+          "1919344822037470",
+          "866180486405641",
+          "824826447142330",
+          "567405859786893",
+          "1380371810442510",
+          "1273070271376740",
+          "1511786787216730",
+          "892511536440936",
+          "1504965271190557",
+          "1481756536943084",
+          "1345169814180329",
+          "1625558865422995",
+          "1500067664453659",
+          "919517567677906",
+          "1033925642097777",
+          "2230157814486957",
+          "2203736103894215",
+          "1555314155642482",
+          "2303272403819765",
+          "1180946290551173",
+          "1008251371603699",
+          "1900453657274463",
+          "1678865933166223",
+          "2233100850512573",
+          "2099579564294776",
+          "3813974292235946",
+          "1650173397110289",
+          "1446215543142937",
+          "860055793524297",
+          "862272543085767",
+          "1237804431794844",
+          "2301220563719692",
+          "1901660730532673",
+          "1389744082650426",
+          "1269580595106385",
+          "1060722806493961",
+          "1869273320397685",
+          "1514420030083948",
+          "1584802956215843",
+          "776421405542861",
+          "1654133872430682",
+          "1242338014383029",
+          "858867863882538",
+          "813059774533167",
+          "1498612958350312",
+          "1322733073018851",
+          "1417976246426067",
+          "1417930843417951",
+          "1916833982264584",
+          "1210371253897345",
+          "1965811443970139",
+          "1570502971057833",
+          "2353203065138982",
+          "1748687169593724",
+          "916873734438721",
+          "1428923448928373",
+          "1279002320088604",
+          "1294358519207145",
+          "1419863722650390",
+          "919092167759451",
+          "1923028458294522",
+          "31750260077951201",
+          "3775046529298441",
+          "1368544411956347",
+          "2079604599451374",
+          "1499222688287235",
+          "1433379968398486",
+          "1044705434841925",
+          "26536992312662399",
+          "882524190775949",
+          "1271977364923502",
+          "1822031821809142",
+          "1514875232904101",
+          "1414034280248080",
+          "964744506613319",
+          "1435871027921821",
+          "814472927652430",
+          "1525871398931933",
+          "836700918863996",
+          "1744977970208313",
+          "888855220334483",
+          "2203494920468704",
+          "1716687579314057",
+          "1415012036977504",
+          "4290634684532932",
+          "2498383460590259",
+          "1537082954062852",
+          "3231312393714512"
+        ],
+        "ads": [
+          {
+            "id": "1541218930673303",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-06-04",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:28:37+00:00",
+            "lastCollectedAt": "2026-10-12T13:28:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1244101057823014",
+            "advertiser": "IM8 Global",
+            "startedAt": "2026-02-09",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:28:36+00:00",
+            "lastCollectedAt": "2026-10-12T13:28:36+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1583838129323751",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-02-13",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:28:25+00:00",
+            "lastCollectedAt": "2026-10-12T13:28:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2161558277915606",
+            "advertiser": "IM8 Health Global",
+            "startedAt": "2026-02-13",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:28:24+00:00",
+            "lastCollectedAt": "2026-10-12T13:28:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2728227480857745",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-03-12",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:28:23+00:00",
+            "lastCollectedAt": "2026-10-12T13:28:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2323409514778301",
+            "advertiser": "IM8",
+            "startedAt": "2025-11-21",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:28:23+00:00",
+            "lastCollectedAt": "2026-10-12T13:28:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1029598609415109",
+            "advertiser": "Hello Youth Labs",
+            "startedAt": "2026-05-29",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:28:23+00:00",
+            "lastCollectedAt": "2026-10-12T13:28:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "25646946521583321",
+            "advertiser": "IM8",
+            "startedAt": "2026-01-20",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:28:22+00:00",
+            "lastCollectedAt": "2026-10-12T13:28:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "944780738090534",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-03-09",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:28:21+00:00",
+            "lastCollectedAt": "2026-10-12T13:28:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1888677995342336",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-01-07",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:28:20+00:00",
+            "lastCollectedAt": "2026-10-12T13:28:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2277258896116258",
+            "advertiser": "Hello Youth Labs",
+            "startedAt": "2026-03-12",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:28:10+00:00",
+            "lastCollectedAt": "2026-10-12T13:28:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1447371743397515",
+            "advertiser": "IM8 Global",
+            "startedAt": "2026-02-09",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:28:10+00:00",
+            "lastCollectedAt": "2026-10-12T13:28:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1919344822037470",
+            "advertiser": "IM8",
+            "startedAt": "2026-01-20",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:28:09+00:00",
+            "lastCollectedAt": "2026-10-12T13:28:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "866180486405641",
+            "advertiser": "IM8",
+            "startedAt": "2026-01-20",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:28:08+00:00",
+            "lastCollectedAt": "2026-10-12T13:28:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "824826447142330",
+            "advertiser": "IM8",
+            "startedAt": "2025-11-14",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:28:08+00:00",
+            "lastCollectedAt": "2026-10-12T13:28:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "567405859786893",
+            "advertiser": "Youth Labs Exclusive",
+            "startedAt": "2025-07-30",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:28:08+00:00",
+            "lastCollectedAt": "2026-10-12T13:28:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1380371810442510",
+            "advertiser": "IM8",
+            "startedAt": "2026-01-20",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:28:08+00:00",
+            "lastCollectedAt": "2026-10-12T13:28:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1273070271376740",
+            "advertiser": "Youth Labs Exclusive",
+            "startedAt": "2026-02-05",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:28:08+00:00",
+            "lastCollectedAt": "2026-10-12T13:28:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1511786787216730",
+            "advertiser": "Tavi Castro",
+            "startedAt": "2026-02-16",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:58+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "892511536440936",
+            "advertiser": "IM8 Health",
+            "startedAt": "2025-12-04",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:57+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1504965271190557",
+            "advertiser": "IM8",
+            "startedAt": "2026-03-05",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:57+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1481756536943084",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-03-19",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:57+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1345169814180329",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-06-04",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:56+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1625558865422995",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-03-11",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:55+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1500067664453659",
+            "advertiser": "IM8 Health",
+            "startedAt": "2025-10-08",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:55+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "919517567677906",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-03-11",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:54+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1033925642097777",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2025-10-10",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:54+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2230157814486957",
+            "advertiser": "Diane Mercer",
+            "startedAt": "2026-08-13",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:42+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2203736103894215",
+            "advertiser": "Shoeeszone",
+            "startedAt": "2026-09-17",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:42+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1555314155642482",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2025-10-19",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:42+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2303272403819765",
+            "advertiser": "Diane Mercer",
+            "startedAt": "2026-08-13",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:41+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1180946290551173",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2025-10-17",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:41+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1008251371603699",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-06-22",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:41+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1900453657274463",
+            "advertiser": "Hello Youth Labs",
+            "startedAt": "2026-03-31",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:32+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1678865933166223",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-06-30",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:32+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2233100850512573",
+            "advertiser": "Marcello Ferri",
+            "startedAt": "2026-01-14",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:31+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2099579564294776",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-06-12",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:30+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3813974292235946",
+            "advertiser": "IM8 Global",
+            "startedAt": "2025-11-17",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:29+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1650173397110289",
+            "advertiser": "Hello Youth Labs",
+            "startedAt": "2026-05-29",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:29+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1446215543142937",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2025-10-17",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:29+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "860055793524297",
+            "advertiser": "IM8 Global",
+            "startedAt": "2026-02-09",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:21+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "862272543085767",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2025-12-17",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:20+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1237804431794844",
+            "advertiser": "IM8 Global",
+            "startedAt": "2026-03-03",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:19+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2301220563719692",
+            "advertiser": "Alibaba.com",
+            "startedAt": "2026-03-24",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:18+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1901660730532673",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-03-20",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:18+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1389744082650426",
+            "advertiser": "IM8",
+            "startedAt": "2026-01-20",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:18+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1269580595106385",
+            "advertiser": "Tavi Castro",
+            "startedAt": "2026-03-02",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:18+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1060722806493961",
+            "advertiser": "Diane Mercer",
+            "startedAt": "2026-08-13",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:17+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1869273320397685",
+            "advertiser": "Youth Labs Exclusive",
+            "startedAt": "2026-01-15",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:09+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1514420030083948",
+            "advertiser": "Youth Labs Global",
+            "startedAt": "2026-05-29",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:09+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1584802956215843",
+            "advertiser": "IM8 Global",
+            "startedAt": "2025-11-17",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:08+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "776421405542861",
+            "advertiser": "주식회사 엘리르",
+            "startedAt": "2026-03-09",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:07+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1654133872430682",
+            "advertiser": "Tavi Castro",
+            "startedAt": "2026-02-16",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:07+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1242338014383029",
+            "advertiser": "LVLUP Labs",
+            "startedAt": "2025-11-12",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:07+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "858867863882538",
+            "advertiser": "Hello Youth Labs",
+            "startedAt": "2026-09-16",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:06+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "813059774533167",
+            "advertiser": "IM8 Health",
+            "startedAt": "2025-10-10",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:05+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1498612958350312",
+            "advertiser": "Tavi Castro",
+            "startedAt": "2026-03-02",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:05+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1322733073018851",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-03-02",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:27:05+00:00",
+            "lastCollectedAt": "2026-10-12T13:27:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1417976246426067",
+            "advertiser": "IM8 Health",
+            "startedAt": "2025-11-14",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:55+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1417930843417951",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-02-13",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:54+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1916833982264584",
+            "advertiser": "Tavi Castro",
+            "startedAt": "2026-02-16",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:53+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1210371253897345",
+            "advertiser": "Youth Labs Exclusive",
+            "startedAt": "2025-12-29",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:53+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1965811443970139",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-03-12",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:52+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1570502971057833",
+            "advertiser": "IM8 Health",
+            "startedAt": "2025-11-21",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:52+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2353203065138982",
+            "advertiser": "IM8 Health",
+            "startedAt": "2025-11-21",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:51+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1748687169593724",
+            "advertiser": "Vivopet",
+            "startedAt": "2026-08-11",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:44+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "916873734438721",
+            "advertiser": "Hello Youth Labs",
+            "startedAt": "2026-03-31",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:42+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1428923448928373",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-03-09",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:42+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1279002320088604",
+            "advertiser": "Shoeeszone",
+            "startedAt": "2024-11-25",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:42+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1294358519207145",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-03-11",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:41+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1419863722650390",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-03-19",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:40+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "919092167759451",
+            "advertiser": "Tavi Castro",
+            "startedAt": "2026-03-09",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:39+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1923028458294522",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-01-21",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:39+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "31750260077951201",
+            "advertiser": "Supplement Daily",
+            "startedAt": "2025-10-08",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:32+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3775046529298441",
+            "advertiser": "Youth Labs Exclusive",
+            "startedAt": "2025-08-06",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:31+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1368544411956347",
+            "advertiser": "Hello Youth Labs",
+            "startedAt": "2026-03-31",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:31+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2079604599451374",
+            "advertiser": "Hello Youth Labs",
+            "startedAt": "2025-11-25",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:30+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1499222688287235",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-03-11",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:30+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1433379968398486",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-01-12",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:30+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1044705434841925",
+            "advertiser": "Vivopet",
+            "startedAt": "2026-08-16",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:30+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "26536992312662399",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-04-25",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:23+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "882524190775949",
+            "advertiser": "IM8 Health",
+            "startedAt": "2025-11-21",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:22+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1271977364923502",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-05-18",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:22+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1822031821809142",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-02-25",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:21+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1514875232904101",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-01-14",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:21+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1414034280248080",
+            "advertiser": "IM8 Health",
+            "startedAt": "2025-12-20",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:21+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "964744506613319",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-03-19",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:20+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1435871027921821",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-03-04",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:19+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "814472927652430",
+            "advertiser": "Tavi Castro",
+            "startedAt": "2026-03-11",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:18+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1525871398931933",
+            "advertiser": "Hello Youth Labs",
+            "startedAt": "2026-05-29",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:17+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "836700918863996",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-04-25",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:12+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1744977970208313",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-05-29",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:11+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "888855220334483",
+            "advertiser": "Hello Youth Labs",
+            "startedAt": "2025-11-25",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:10+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2203494920468704",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-04-25",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:10+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1716687579314057",
+            "advertiser": "Hello Youth Labs",
+            "startedAt": "2026-03-20",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:10+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1415012036977504",
+            "advertiser": "IM8 Health",
+            "startedAt": "2026-04-25",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:09+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4290634684532932",
+            "advertiser": "Diane Mercer",
+            "startedAt": "2026-08-12",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:08+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2498383460590259",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-03-12",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:08+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1537082954062852",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-02-04",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:07+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3231312393714512",
+            "advertiser": "Dr. James DiNicolantonio",
+            "startedAt": "2026-02-04",
+            "query": "pqq",
+            "firstCollectedAt": "2026-10-12T13:26:06+00:00",
+            "lastCollectedAt": "2026-10-12T13:26:06+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-12T13:28:37+00:00",
+        "advertisers": [
+          {
+            "name": "IM8 Health",
+            "adCount": 30
+          },
+          {
+            "name": "Dr. James DiNicolantonio",
+            "adCount": 18
+          },
+          {
+            "name": "Hello Youth Labs",
+            "adCount": 11
+          },
+          {
+            "name": "IM8",
+            "adCount": 8
+          },
+          {
+            "name": "Tavi Castro",
+            "adCount": 7
+          },
+          {
+            "name": "IM8 Global",
+            "adCount": 6
+          },
+          {
+            "name": "Youth Labs Exclusive",
+            "adCount": 5
+          },
+          {
+            "name": "Diane Mercer",
+            "adCount": 4
+          },
+          {
+            "name": "Shoeeszone",
+            "adCount": 2
+          },
+          {
+            "name": "Vivopet",
+            "adCount": 2
+          },
+          {
+            "name": "Alibaba.com",
+            "adCount": 1
+          },
+          {
+            "name": "IM8 Health Global",
+            "adCount": 1
+          },
+          {
+            "name": "LVLUP Labs",
+            "adCount": 1
+          },
+          {
+            "name": "Marcello Ferri",
+            "adCount": 1
+          },
+          {
+            "name": "Supplement Daily",
+            "adCount": 1
+          },
+          {
+            "name": "Youth Labs Global",
+            "adCount": 1
+          },
+          {
+            "name": "주식회사 엘리르",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
