@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12T10:53:18+00:00",
+  "updatedAt": "2026-10-12T10:54:17+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-12T00:51:31+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 35,
-    "dailyRemaining": 253,
+    "dailyUsed": 36,
+    "dailyRemaining": 252,
     "pending": 0,
-    "nextDispatchAt": "2026-10-12T10:53:19+00:00",
+    "nextDispatchAt": "2026-10-12T10:58:24+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -7645,17 +7645,294 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "done",
       "keywordId": "64e8401937d159707cb9d124fa29d2cad6e9899cdd1a2585f991407f86b69030",
       "searchQuery": "이알하나",
       "adEvidence": {
         "query": "이알하나",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 27,
+        "adIds": [
+          "2284762688973735",
+          "2168713407413910",
+          "2166645307605862",
+          "1790634185316786",
+          "1402074832124497",
+          "2176068863347737",
+          "1883169429334702",
+          "1102867772473729",
+          "1069145612781628",
+          "1067784172707899",
+          "2854392614931958",
+          "2553365231799324",
+          "1849270906454199",
+          "1888516732511012",
+          "1072178015777455",
+          "28737951645801412",
+          "2254413982072279",
+          "28672980658993663",
+          "1822794645405760",
+          "1826413288493565",
+          "1486979909926590",
+          "979035285208044",
+          "1582701026824438",
+          "1078681807991781",
+          "2003900490311904",
+          "1258748343082762",
+          "1077519875130850"
+        ],
+        "ads": [
+          {
+            "id": "2284762688973735",
+            "advertiser": "이알하나",
+            "startedAt": "2026-10-06",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:54+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2168713407413910",
+            "advertiser": "이알하나",
+            "startedAt": "2026-10-08",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:54+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2166645307605862",
+            "advertiser": "이알하나",
+            "startedAt": "2026-10-08",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:53+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:53+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1790634185316786",
+            "advertiser": "이알하나",
+            "startedAt": "2026-10-07",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:53+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:53+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1402074832124497",
+            "advertiser": "이알하나",
+            "startedAt": "2026-10-05",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:53+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:53+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2176068863347737",
+            "advertiser": "이알하나",
+            "startedAt": "2026-10-03",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:52+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1883169429334702",
+            "advertiser": "이알하나",
+            "startedAt": "2026-10-03",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:52+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1102867772473729",
+            "advertiser": "이알하나",
+            "startedAt": "2026-10-08",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:40+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:40+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1069145612781628",
+            "advertiser": "이알하나",
+            "startedAt": "2026-10-07",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:40+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:40+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1067784172707899",
+            "advertiser": "이알하나",
+            "startedAt": "2026-10-03",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:40+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2854392614931958",
+            "advertiser": "이알하나",
+            "startedAt": "2026-10-03",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:39+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2553365231799324",
+            "advertiser": "이알하나",
+            "startedAt": "2026-09-06",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:39+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1849270906454199",
+            "advertiser": "이알하나",
+            "startedAt": "2026-09-15",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:39+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1888516732511012",
+            "advertiser": "이알하나",
+            "startedAt": "2026-10-03",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:38+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1072178015777455",
+            "advertiser": "이알하나",
+            "startedAt": "2026-09-13",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:38+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28737951645801412",
+            "advertiser": "이알하나",
+            "startedAt": "2026-09-13",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:37+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2254413982072279",
+            "advertiser": "이알하나",
+            "startedAt": "2026-09-18",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:37+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28672980658993663",
+            "advertiser": "이알하나",
+            "startedAt": "2026-09-15",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:32+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1822794645405760",
+            "advertiser": "이알하나",
+            "startedAt": "2026-09-20",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:32+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1826413288493565",
+            "advertiser": "이알하나",
+            "startedAt": "2026-10-03",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:31+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1486979909926590",
+            "advertiser": "이알하나",
+            "startedAt": "2026-09-20",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:31+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "979035285208044",
+            "advertiser": "이알하나",
+            "startedAt": "2026-09-15",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:30+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1582701026824438",
+            "advertiser": "이알하나",
+            "startedAt": "2026-09-06",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:30+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1078681807991781",
+            "advertiser": "이알하나",
+            "startedAt": "2026-09-06",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:30+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2003900490311904",
+            "advertiser": "이알하나",
+            "startedAt": "2026-09-15",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:29+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1258748343082762",
+            "advertiser": "이알하나",
+            "startedAt": "2026-08-30",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:29+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1077519875130850",
+            "advertiser": "이알하나",
+            "startedAt": "2026-09-28",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:29+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:29+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-12T10:53:54+00:00",
+        "advertisers": [
+          {
+            "name": "이알하나",
+            "adCount": 27
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -21872,17 +22149,294 @@
       "rankWindow": 100,
       "observedAt": "2026-10-12T00:50:59+00:00",
       "lastObservedAt": "2026-10-12T00:50:59+00:00",
-      "state": "ready",
+      "state": "done",
       "keywordId": "64e8401937d159707cb9d124fa29d2cad6e9899cdd1a2585f991407f86b69030",
       "searchQuery": "이알하나",
       "adEvidence": {
         "query": "이알하나",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 27,
+        "adIds": [
+          "2284762688973735",
+          "2168713407413910",
+          "2166645307605862",
+          "1790634185316786",
+          "1402074832124497",
+          "2176068863347737",
+          "1883169429334702",
+          "1102867772473729",
+          "1069145612781628",
+          "1067784172707899",
+          "2854392614931958",
+          "2553365231799324",
+          "1849270906454199",
+          "1888516732511012",
+          "1072178015777455",
+          "28737951645801412",
+          "2254413982072279",
+          "28672980658993663",
+          "1822794645405760",
+          "1826413288493565",
+          "1486979909926590",
+          "979035285208044",
+          "1582701026824438",
+          "1078681807991781",
+          "2003900490311904",
+          "1258748343082762",
+          "1077519875130850"
+        ],
+        "ads": [
+          {
+            "id": "2284762688973735",
+            "advertiser": "이알하나",
+            "startedAt": "2026-10-06",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:54+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2168713407413910",
+            "advertiser": "이알하나",
+            "startedAt": "2026-10-08",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:54+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2166645307605862",
+            "advertiser": "이알하나",
+            "startedAt": "2026-10-08",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:53+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:53+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1790634185316786",
+            "advertiser": "이알하나",
+            "startedAt": "2026-10-07",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:53+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:53+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1402074832124497",
+            "advertiser": "이알하나",
+            "startedAt": "2026-10-05",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:53+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:53+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2176068863347737",
+            "advertiser": "이알하나",
+            "startedAt": "2026-10-03",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:52+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1883169429334702",
+            "advertiser": "이알하나",
+            "startedAt": "2026-10-03",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:52+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1102867772473729",
+            "advertiser": "이알하나",
+            "startedAt": "2026-10-08",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:40+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:40+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1069145612781628",
+            "advertiser": "이알하나",
+            "startedAt": "2026-10-07",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:40+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:40+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1067784172707899",
+            "advertiser": "이알하나",
+            "startedAt": "2026-10-03",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:40+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2854392614931958",
+            "advertiser": "이알하나",
+            "startedAt": "2026-10-03",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:39+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2553365231799324",
+            "advertiser": "이알하나",
+            "startedAt": "2026-09-06",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:39+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1849270906454199",
+            "advertiser": "이알하나",
+            "startedAt": "2026-09-15",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:39+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1888516732511012",
+            "advertiser": "이알하나",
+            "startedAt": "2026-10-03",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:38+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1072178015777455",
+            "advertiser": "이알하나",
+            "startedAt": "2026-09-13",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:38+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:38+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28737951645801412",
+            "advertiser": "이알하나",
+            "startedAt": "2026-09-13",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:37+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2254413982072279",
+            "advertiser": "이알하나",
+            "startedAt": "2026-09-18",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:37+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:37+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28672980658993663",
+            "advertiser": "이알하나",
+            "startedAt": "2026-09-15",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:32+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1822794645405760",
+            "advertiser": "이알하나",
+            "startedAt": "2026-09-20",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:32+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1826413288493565",
+            "advertiser": "이알하나",
+            "startedAt": "2026-10-03",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:31+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1486979909926590",
+            "advertiser": "이알하나",
+            "startedAt": "2026-09-20",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:31+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "979035285208044",
+            "advertiser": "이알하나",
+            "startedAt": "2026-09-15",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:30+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1582701026824438",
+            "advertiser": "이알하나",
+            "startedAt": "2026-09-06",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:30+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1078681807991781",
+            "advertiser": "이알하나",
+            "startedAt": "2026-09-06",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:30+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2003900490311904",
+            "advertiser": "이알하나",
+            "startedAt": "2026-09-15",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:29+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1258748343082762",
+            "advertiser": "이알하나",
+            "startedAt": "2026-08-30",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:29+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1077519875130850",
+            "advertiser": "이알하나",
+            "startedAt": "2026-09-28",
+            "query": "이알하나",
+            "firstCollectedAt": "2026-10-12T10:53:29+00:00",
+            "lastCollectedAt": "2026-10-12T10:53:29+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-12T10:53:54+00:00",
+        "advertisers": [
+          {
+            "name": "이알하나",
+            "adCount": 27
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
