@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12T20:08:10+00:00",
+  "updatedAt": "2026-10-12T20:09:01+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-12T19:59:42+00:00",
@@ -43,8 +43,8 @@
     "backlogDays": 14,
     "dailyUsed": 12,
     "dailyRemaining": 276,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-12T20:13:09+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -8895,43 +8895,44 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "a54110504b0a1643670e45d486c65b7171949fd91e46ca17830c9492da1efc70",
       "searchQuery": "덴마크유산균",
       "adEvidence": {
         "query": "덴마크유산균",
         "matchType": "collected-with-query",
-        "adCount": 11,
+        "adCount": 12,
         "adIds": [
-          "29245068415099543",
           "863191070092793",
+          "29245068415099543",
           "1336701151704337",
-          "1968683280398367",
           "2752845968450480",
-          "1847514319751706",
-          "1827198995370874",
+          "1968683280398367",
           "2414463782414034",
+          "1847514319751706",
           "2241266550162030",
-          "2563676980735974",
-          "1086997047351563"
+          "1827198995370874",
+          "2070963870436148",
+          "1086997047351563",
+          "2563676980735974"
         ],
         "ads": [
-          {
-            "id": "29245068415099543",
-            "advertiser": "다온 beauty",
-            "startedAt": "2026-10-01",
-            "query": "덴마크유산균",
-            "firstCollectedAt": "2026-10-08T01:56:19+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:43+00:00",
-            "startTiming": "before-window"
-          },
           {
             "id": "863191070092793",
             "advertiser": "Thailoveshop",
             "startedAt": "2026-09-03",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:56:07+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:32+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "29245068415099543",
+            "advertiser": "다온 beauty",
+            "startedAt": "2026-10-01",
+            "query": "덴마크유산균",
+            "firstCollectedAt": "2026-10-08T01:56:19+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:39+00:00",
             "startTiming": "before-window"
           },
           {
@@ -8940,16 +8941,7 @@
             "startedAt": "2026-10-01",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:56:08+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:32+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1968683280398367",
-            "advertiser": "foodmin123",
-            "startedAt": "2026-10-01",
-            "query": "덴마크유산균",
-            "firstCollectedAt": "2026-10-08T01:55:57+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:13+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:18+00:00",
             "startTiming": "before-window"
           },
           {
@@ -8958,25 +8950,16 @@
             "startedAt": "2026-09-11",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:55:56+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:12+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:17+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1847514319751706",
-            "advertiser": "_linsun__",
+            "id": "1968683280398367",
+            "advertiser": "foodmin123",
             "startedAt": "2026-10-01",
             "query": "덴마크유산균",
-            "firstCollectedAt": "2026-10-08T01:55:55+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:12+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1827198995370874",
-            "advertiser": "Ehcl15",
-            "startedAt": "2026-10-02",
-            "query": "덴마크유산균",
-            "firstCollectedAt": "2026-10-08T01:55:56+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:11+00:00",
+            "firstCollectedAt": "2026-10-08T01:55:57+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:17+00:00",
             "startTiming": "before-window"
           },
           {
@@ -8985,7 +8968,16 @@
             "startedAt": "2026-09-11",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:55:54+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:10+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1847514319751706",
+            "advertiser": "_linsun__",
+            "startedAt": "2026-10-01",
+            "query": "덴마크유산균",
+            "firstCollectedAt": "2026-10-08T01:55:55+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:16+00:00",
             "startTiming": "before-window"
           },
           {
@@ -8994,16 +8986,25 @@
             "startedAt": "2026-07-26",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:55:54+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:09+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:15+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "2563676980735974",
-            "advertiser": "뷰티",
-            "startedAt": "2026-07-26",
+            "id": "1827198995370874",
+            "advertiser": "Ehcl15",
+            "startedAt": "2026-10-02",
             "query": "덴마크유산균",
-            "firstCollectedAt": "2026-10-08T01:55:53+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:08+00:00",
+            "firstCollectedAt": "2026-10-08T01:55:56+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2070963870436148",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-16",
+            "query": "덴마크유산균",
+            "firstCollectedAt": "2026-10-12T20:08:14+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:14+00:00",
             "startTiming": "before-window"
           },
           {
@@ -9012,14 +9013,27 @@
             "startedAt": "2026-09-11",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:55:53+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:08+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2563676980735974",
+            "advertiser": "뷰티",
+            "startedAt": "2026-07-26",
+            "query": "덴마크유산균",
+            "firstCollectedAt": "2026-10-08T01:55:53+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:13+00:00",
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-10T13:36:43+00:00",
+        "lastCollectedAt": "2026-10-12T20:08:39+00:00",
         "advertisers": [
           {
             "name": "Ehcl15",
+            "adCount": 1
+          },
+          {
+            "name": "Naverplus.store",
             "adCount": 1
           },
           {
@@ -28262,43 +28276,44 @@
       "rankWindow": 100,
       "observedAt": "2026-10-12T00:50:59+00:00",
       "lastObservedAt": "2026-10-12T19:58:59+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "a54110504b0a1643670e45d486c65b7171949fd91e46ca17830c9492da1efc70",
       "searchQuery": "덴마크유산균",
       "adEvidence": {
         "query": "덴마크유산균",
         "matchType": "collected-with-query",
-        "adCount": 11,
+        "adCount": 12,
         "adIds": [
-          "29245068415099543",
           "863191070092793",
+          "29245068415099543",
           "1336701151704337",
-          "1968683280398367",
           "2752845968450480",
-          "1847514319751706",
-          "1827198995370874",
+          "1968683280398367",
           "2414463782414034",
+          "1847514319751706",
           "2241266550162030",
-          "2563676980735974",
-          "1086997047351563"
+          "1827198995370874",
+          "2070963870436148",
+          "1086997047351563",
+          "2563676980735974"
         ],
         "ads": [
-          {
-            "id": "29245068415099543",
-            "advertiser": "다온 beauty",
-            "startedAt": "2026-10-01",
-            "query": "덴마크유산균",
-            "firstCollectedAt": "2026-10-08T01:56:19+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:43+00:00",
-            "startTiming": "before-window"
-          },
           {
             "id": "863191070092793",
             "advertiser": "Thailoveshop",
             "startedAt": "2026-09-03",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:56:07+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:32+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "29245068415099543",
+            "advertiser": "다온 beauty",
+            "startedAt": "2026-10-01",
+            "query": "덴마크유산균",
+            "firstCollectedAt": "2026-10-08T01:56:19+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:39+00:00",
             "startTiming": "before-window"
           },
           {
@@ -28307,16 +28322,7 @@
             "startedAt": "2026-10-01",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:56:08+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:32+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1968683280398367",
-            "advertiser": "foodmin123",
-            "startedAt": "2026-10-01",
-            "query": "덴마크유산균",
-            "firstCollectedAt": "2026-10-08T01:55:57+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:13+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:18+00:00",
             "startTiming": "before-window"
           },
           {
@@ -28325,25 +28331,16 @@
             "startedAt": "2026-09-11",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:55:56+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:12+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:17+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1847514319751706",
-            "advertiser": "_linsun__",
+            "id": "1968683280398367",
+            "advertiser": "foodmin123",
             "startedAt": "2026-10-01",
             "query": "덴마크유산균",
-            "firstCollectedAt": "2026-10-08T01:55:55+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:12+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1827198995370874",
-            "advertiser": "Ehcl15",
-            "startedAt": "2026-10-02",
-            "query": "덴마크유산균",
-            "firstCollectedAt": "2026-10-08T01:55:56+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:11+00:00",
+            "firstCollectedAt": "2026-10-08T01:55:57+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:17+00:00",
             "startTiming": "before-window"
           },
           {
@@ -28352,7 +28349,16 @@
             "startedAt": "2026-09-11",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:55:54+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:10+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1847514319751706",
+            "advertiser": "_linsun__",
+            "startedAt": "2026-10-01",
+            "query": "덴마크유산균",
+            "firstCollectedAt": "2026-10-08T01:55:55+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:16+00:00",
             "startTiming": "before-window"
           },
           {
@@ -28361,16 +28367,25 @@
             "startedAt": "2026-07-26",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:55:54+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:09+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:15+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "2563676980735974",
-            "advertiser": "뷰티",
-            "startedAt": "2026-07-26",
+            "id": "1827198995370874",
+            "advertiser": "Ehcl15",
+            "startedAt": "2026-10-02",
             "query": "덴마크유산균",
-            "firstCollectedAt": "2026-10-08T01:55:53+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:08+00:00",
+            "firstCollectedAt": "2026-10-08T01:55:56+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2070963870436148",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-16",
+            "query": "덴마크유산균",
+            "firstCollectedAt": "2026-10-12T20:08:14+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:14+00:00",
             "startTiming": "before-window"
           },
           {
@@ -28379,14 +28394,27 @@
             "startedAt": "2026-09-11",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:55:53+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:08+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2563676980735974",
+            "advertiser": "뷰티",
+            "startedAt": "2026-07-26",
+            "query": "덴마크유산균",
+            "firstCollectedAt": "2026-10-08T01:55:53+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:13+00:00",
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-10T13:36:43+00:00",
+        "lastCollectedAt": "2026-10-12T20:08:39+00:00",
         "advertisers": [
           {
             "name": "Ehcl15",
+            "adCount": 1
+          },
+          {
+            "name": "Naverplus.store",
             "adCount": 1
           },
           {
@@ -58793,37 +58821,38 @@
       "adEvidence": {
         "query": "덴마크유산균",
         "matchType": "collected-with-query",
-        "adCount": 11,
+        "adCount": 12,
         "adIds": [
-          "29245068415099543",
           "863191070092793",
+          "29245068415099543",
           "1336701151704337",
-          "1968683280398367",
           "2752845968450480",
-          "1847514319751706",
-          "1827198995370874",
+          "1968683280398367",
           "2414463782414034",
+          "1847514319751706",
           "2241266550162030",
-          "2563676980735974",
-          "1086997047351563"
+          "1827198995370874",
+          "2070963870436148",
+          "1086997047351563",
+          "2563676980735974"
         ],
         "ads": [
-          {
-            "id": "29245068415099543",
-            "advertiser": "다온 beauty",
-            "startedAt": "2026-10-01",
-            "query": "덴마크유산균",
-            "firstCollectedAt": "2026-10-08T01:56:19+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:43+00:00",
-            "startTiming": "before-window"
-          },
           {
             "id": "863191070092793",
             "advertiser": "Thailoveshop",
             "startedAt": "2026-09-03",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:56:07+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:32+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "29245068415099543",
+            "advertiser": "다온 beauty",
+            "startedAt": "2026-10-01",
+            "query": "덴마크유산균",
+            "firstCollectedAt": "2026-10-08T01:56:19+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:39+00:00",
             "startTiming": "before-window"
           },
           {
@@ -58832,16 +58861,7 @@
             "startedAt": "2026-10-01",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:56:08+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:32+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1968683280398367",
-            "advertiser": "foodmin123",
-            "startedAt": "2026-10-01",
-            "query": "덴마크유산균",
-            "firstCollectedAt": "2026-10-08T01:55:57+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:13+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:18+00:00",
             "startTiming": "before-window"
           },
           {
@@ -58850,25 +58870,16 @@
             "startedAt": "2026-09-11",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:55:56+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:12+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:17+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1847514319751706",
-            "advertiser": "_linsun__",
+            "id": "1968683280398367",
+            "advertiser": "foodmin123",
             "startedAt": "2026-10-01",
             "query": "덴마크유산균",
-            "firstCollectedAt": "2026-10-08T01:55:55+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:12+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1827198995370874",
-            "advertiser": "Ehcl15",
-            "startedAt": "2026-10-02",
-            "query": "덴마크유산균",
-            "firstCollectedAt": "2026-10-08T01:55:56+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:11+00:00",
+            "firstCollectedAt": "2026-10-08T01:55:57+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:17+00:00",
             "startTiming": "before-window"
           },
           {
@@ -58877,7 +58888,16 @@
             "startedAt": "2026-09-11",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:55:54+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:10+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1847514319751706",
+            "advertiser": "_linsun__",
+            "startedAt": "2026-10-01",
+            "query": "덴마크유산균",
+            "firstCollectedAt": "2026-10-08T01:55:55+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:16+00:00",
             "startTiming": "before-window"
           },
           {
@@ -58886,16 +58906,25 @@
             "startedAt": "2026-07-26",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:55:54+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:09+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:15+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "2563676980735974",
-            "advertiser": "뷰티",
-            "startedAt": "2026-07-26",
+            "id": "1827198995370874",
+            "advertiser": "Ehcl15",
+            "startedAt": "2026-10-02",
             "query": "덴마크유산균",
-            "firstCollectedAt": "2026-10-08T01:55:53+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:08+00:00",
+            "firstCollectedAt": "2026-10-08T01:55:56+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2070963870436148",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-16",
+            "query": "덴마크유산균",
+            "firstCollectedAt": "2026-10-12T20:08:14+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:14+00:00",
             "startTiming": "before-window"
           },
           {
@@ -58904,14 +58933,27 @@
             "startedAt": "2026-09-11",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:55:53+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:08+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2563676980735974",
+            "advertiser": "뷰티",
+            "startedAt": "2026-07-26",
+            "query": "덴마크유산균",
+            "firstCollectedAt": "2026-10-08T01:55:53+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:13+00:00",
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-10T13:36:43+00:00",
+        "lastCollectedAt": "2026-10-12T20:08:39+00:00",
         "advertisers": [
           {
             "name": "Ehcl15",
+            "adCount": 1
+          },
+          {
+            "name": "Naverplus.store",
             "adCount": 1
           },
           {
@@ -92944,38 +92986,39 @@
       "adEvidence": {
         "query": "덴마크유산균",
         "matchType": "collected-with-query",
-        "adCount": 11,
+        "adCount": 12,
         "adIds": [
-          "29245068415099543",
           "863191070092793",
+          "29245068415099543",
           "1336701151704337",
-          "1968683280398367",
           "2752845968450480",
-          "1847514319751706",
-          "1827198995370874",
+          "1968683280398367",
           "2414463782414034",
+          "1847514319751706",
           "2241266550162030",
-          "2563676980735974",
-          "1086997047351563"
+          "1827198995370874",
+          "2070963870436148",
+          "1086997047351563",
+          "2563676980735974"
         ],
         "ads": [
-          {
-            "id": "29245068415099543",
-            "advertiser": "다온 beauty",
-            "startedAt": "2026-10-01",
-            "query": "덴마크유산균",
-            "firstCollectedAt": "2026-10-08T01:56:19+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:43+00:00",
-            "startTiming": "during-window"
-          },
           {
             "id": "863191070092793",
             "advertiser": "Thailoveshop",
             "startedAt": "2026-09-03",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:56:07+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:32+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:39+00:00",
             "startTiming": "before-window"
+          },
+          {
+            "id": "29245068415099543",
+            "advertiser": "다온 beauty",
+            "startedAt": "2026-10-01",
+            "query": "덴마크유산균",
+            "firstCollectedAt": "2026-10-08T01:56:19+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:39+00:00",
+            "startTiming": "during-window"
           },
           {
             "id": "1336701151704337",
@@ -92983,16 +93026,7 @@
             "startedAt": "2026-10-01",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:56:08+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:32+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1968683280398367",
-            "advertiser": "foodmin123",
-            "startedAt": "2026-10-01",
-            "query": "덴마크유산균",
-            "firstCollectedAt": "2026-10-08T01:55:57+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:13+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:18+00:00",
             "startTiming": "during-window"
           },
           {
@@ -93001,25 +93035,16 @@
             "startedAt": "2026-09-11",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:55:56+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:12+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:17+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "1847514319751706",
-            "advertiser": "_linsun__",
+            "id": "1968683280398367",
+            "advertiser": "foodmin123",
             "startedAt": "2026-10-01",
             "query": "덴마크유산균",
-            "firstCollectedAt": "2026-10-08T01:55:55+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:12+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1827198995370874",
-            "advertiser": "Ehcl15",
-            "startedAt": "2026-10-02",
-            "query": "덴마크유산균",
-            "firstCollectedAt": "2026-10-08T01:55:56+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:11+00:00",
+            "firstCollectedAt": "2026-10-08T01:55:57+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:17+00:00",
             "startTiming": "during-window"
           },
           {
@@ -93028,8 +93053,17 @@
             "startedAt": "2026-09-11",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:55:54+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:10+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:16+00:00",
             "startTiming": "before-window"
+          },
+          {
+            "id": "1847514319751706",
+            "advertiser": "_linsun__",
+            "startedAt": "2026-10-01",
+            "query": "덴마크유산균",
+            "firstCollectedAt": "2026-10-08T01:55:55+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:16+00:00",
+            "startTiming": "during-window"
           },
           {
             "id": "2241266550162030",
@@ -93037,16 +93071,25 @@
             "startedAt": "2026-07-26",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:55:54+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:09+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:15+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "2563676980735974",
-            "advertiser": "뷰티",
-            "startedAt": "2026-07-26",
+            "id": "1827198995370874",
+            "advertiser": "Ehcl15",
+            "startedAt": "2026-10-02",
             "query": "덴마크유산균",
-            "firstCollectedAt": "2026-10-08T01:55:53+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:08+00:00",
+            "firstCollectedAt": "2026-10-08T01:55:56+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:15+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2070963870436148",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-16",
+            "query": "덴마크유산균",
+            "firstCollectedAt": "2026-10-12T20:08:14+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:14+00:00",
             "startTiming": "before-window"
           },
           {
@@ -93055,14 +93098,27 @@
             "startedAt": "2026-09-11",
             "query": "덴마크유산균",
             "firstCollectedAt": "2026-10-08T01:55:53+00:00",
-            "lastCollectedAt": "2026-10-10T13:36:08+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2563676980735974",
+            "advertiser": "뷰티",
+            "startedAt": "2026-07-26",
+            "query": "덴마크유산균",
+            "firstCollectedAt": "2026-10-08T01:55:53+00:00",
+            "lastCollectedAt": "2026-10-12T20:08:13+00:00",
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-10T13:36:43+00:00",
+        "lastCollectedAt": "2026-10-12T20:08:39+00:00",
         "advertisers": [
           {
             "name": "Ehcl15",
+            "adCount": 1
+          },
+          {
+            "name": "Naverplus.store",
             "adCount": 1
           },
           {
