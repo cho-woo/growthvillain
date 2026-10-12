@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12T06:59:56+00:00",
+  "updatedAt": "2026-10-12T07:02:51+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-12T00:51:31+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 27,
-    "dailyRemaining": 261,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-12T07:02:49+00:00",
+    "dailyUsed": 28,
+    "dailyRemaining": 260,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -9964,7 +9964,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "queued",
       "keywordId": "4b5641f071061534858ef3a8f967f34e62b9fa79758a4b187db5d5d388d62cda",
       "searchQuery": "bcaa",
       "adEvidence": {
@@ -12462,7 +12462,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-12T00:51:31+00:00",
       "lastObservedAt": "2026-10-12T00:51:31+00:00",
-      "state": "ready",
+      "state": "queued",
       "keywordId": "4b5641f071061534858ef3a8f967f34e62b9fa79758a4b187db5d5d388d62cda",
       "searchQuery": "bcaa",
       "adEvidence": {
