@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12T18:58:11+00:00",
+  "updatedAt": "2026-10-12T19:32:08+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-12T18:58:11+00:00",
@@ -41,22 +41,22 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 6,
-    "dailyRemaining": 282,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-12T19:32:06+00:00",
+    "dailyUsed": 7,
+    "dailyRemaining": 281,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
-    "enabled": false,
+    "enabled": true,
     "collectionGuard": {
-      "state": "blocked",
-      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
-      "nextAllowedAt": "2026-10-12T19:32:06+00:00",
-      "blockedUntil": "2026-10-12T19:32:06+00:00",
+      "state": "ready",
+      "reason": null,
+      "nextAllowedAt": null,
+      "blockedUntil": null,
       "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
+    "pausedReason": null
   },
   "settings": {
     "category": "50000023",
@@ -3593,7 +3593,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "411a9642a4f535a890a20e9c08c13fcc7c8ca227df1d41bb704b4f448940231e",
       "searchQuery": "맥주효모",
       "adEvidence": {
@@ -29322,7 +29322,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-12T00:50:59+00:00",
       "lastObservedAt": "2026-10-12T18:57:27+00:00",
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "411a9642a4f535a890a20e9c08c13fcc7c8ca227df1d41bb704b4f448940231e",
       "searchQuery": "맥주효모",
       "adEvidence": {
