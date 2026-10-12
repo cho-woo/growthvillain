@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12T06:51:47+00:00",
+  "updatedAt": "2026-10-12T06:57:50+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-12T00:51:31+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 26,
-    "dailyRemaining": 262,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-12T06:55:09+00:00",
+    "dailyUsed": 27,
+    "dailyRemaining": 261,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -9141,7 +9141,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "queued",
       "keywordId": "2d1d2e6ec2555c5a9b5361ad68f8d36c1818dea77be2f8462dfe95f002b2fd89",
       "searchQuery": "가르시니아",
       "adEvidence": {
@@ -13603,7 +13603,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-12T00:51:31+00:00",
       "lastObservedAt": "2026-10-12T00:51:31+00:00",
-      "state": "ready",
+      "state": "queued",
       "keywordId": "2d1d2e6ec2555c5a9b5361ad68f8d36c1818dea77be2f8462dfe95f002b2fd89",
       "searchQuery": "가르시니아",
       "adEvidence": {
