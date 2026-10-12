@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12T06:50:09+00:00",
+  "updatedAt": "2026-10-12T06:51:47+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-12T00:51:31+00:00",
   "error": null,
   "sourceUrl": "https://datalab.naver.com/shoppingInsight/sCategory.naver",
-  "nextRunAt": "2026-10-12T06:51:43+00:00",
+  "nextRunAt": "2026-10-12T07:51:46+00:00",
   "intervalSeconds": 3600,
   "sourceCadence": "daily",
   "comparisonDays": 7,
@@ -43,8 +43,8 @@
     "backlogDays": 14,
     "dailyUsed": 26,
     "dailyRemaining": 262,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-12T06:55:09+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -8686,17 +8686,408 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "3ba09977c1c6d26a86349ab3729c1bba5dac05b761f1f0724f63fa9027fdc8de",
       "searchQuery": "다이어트보조제",
       "adEvidence": {
         "query": "다이어트보조제",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 32,
+        "adIds": [
+          "2262443047666073",
+          "1782362256214250",
+          "1110860231401587",
+          "996464580146482",
+          "1022586350735743",
+          "2144101206483674",
+          "1791084852032145",
+          "1766268137854695",
+          "1647440690328723",
+          "1428045892796302",
+          "1321148096688865",
+          "1602230808588817",
+          "2652904541891072",
+          "1483918653561956",
+          "3055485118135970",
+          "1618851069724407",
+          "4071585686478987",
+          "1419184943761723",
+          "1684997506375401",
+          "1634914288281888",
+          "1075658402083087",
+          "2578186689318943",
+          "2120595188847471",
+          "1786301832405678",
+          "1370843551807939",
+          "1140715888522465",
+          "2117502149174705",
+          "1072275269039489",
+          "1023550433794660",
+          "2134260180316627",
+          "1060950596708721",
+          "1188697559790260"
+        ],
+        "ads": [
+          {
+            "id": "2262443047666073",
+            "advertiser": "뉴니크",
+            "startedAt": "2026-10-11",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:58+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:58+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1782362256214250",
+            "advertiser": "공구다",
+            "startedAt": "2026-10-02",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:57+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1110860231401587",
+            "advertiser": "헬스꿀팁",
+            "startedAt": "2026-10-06",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:46+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:46+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "996464580146482",
+            "advertiser": "뉴니크",
+            "startedAt": "2026-10-10",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:45+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:45+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1022586350735743",
+            "advertiser": "Mong",
+            "startedAt": "2026-08-24",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:45+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2144101206483674",
+            "advertiser": "Dîdaofficial",
+            "startedAt": "2026-09-14",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:44+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1791084852032145",
+            "advertiser": "지누핏",
+            "startedAt": "2026-09-23",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:44+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1766268137854695",
+            "advertiser": "Daymix",
+            "startedAt": "2026-09-27",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:43+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1647440690328723",
+            "advertiser": "헤이데일리",
+            "startedAt": "2026-08-13",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:43+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1428045892796302",
+            "advertiser": "Nuebetter뉴베러",
+            "startedAt": "2026-10-07",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:42+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:42+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1321148096688865",
+            "advertiser": "지누핏",
+            "startedAt": "2026-09-23",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:42+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1602230808588817",
+            "advertiser": "헤이데일리",
+            "startedAt": "2026-09-28",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:41+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2652904541891072",
+            "advertiser": "햄치치",
+            "startedAt": "2026-10-07",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:34+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:34+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1483918653561956",
+            "advertiser": "슬림뉴욕 코리아",
+            "startedAt": "2026-09-27",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:34+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3055485118135970",
+            "advertiser": "lo_ve21111111",
+            "startedAt": "2026-10-07",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:33+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:33+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1618851069724407",
+            "advertiser": "Dîdaofficial",
+            "startedAt": "2026-09-15",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:33+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4071585686478987",
+            "advertiser": "wonyy.eat",
+            "startedAt": "2026-10-07",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:32+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:32+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1419184943761723",
+            "advertiser": "슬림뉴욕 코리아",
+            "startedAt": "2026-10-04",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:32+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1684997506375401",
+            "advertiser": "Dîdaofficial",
+            "startedAt": "2026-09-22",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:31+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1634914288281888",
+            "advertiser": "슬림뉴욕 코리아",
+            "startedAt": "2026-09-30",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:29+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1075658402083087",
+            "advertiser": "2doe0",
+            "startedAt": "2026-07-26",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:29+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2578186689318943",
+            "advertiser": "헤이데일리",
+            "startedAt": "2026-09-28",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:28+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2120595188847471",
+            "advertiser": "헤이데일리",
+            "startedAt": "2026-09-28",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:23+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1786301832405678",
+            "advertiser": "슬림뉴욕 코리아",
+            "startedAt": "2026-09-07",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:23+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1370843551807939",
+            "advertiser": "𝓶𝓮𝓻𝓬𝓮 - 메르세 이루리라 나비효과",
+            "startedAt": "2026-07-09",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:22+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1140715888522465",
+            "advertiser": "Dîdaofficial",
+            "startedAt": "2026-10-08",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:21+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:21+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2117502149174705",
+            "advertiser": "피토틱스 Phytotics",
+            "startedAt": "2026-08-11",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:20+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1072275269039489",
+            "advertiser": "Dîdaofficial",
+            "startedAt": "2026-09-22",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:19+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1023550433794660",
+            "advertiser": "enfoo",
+            "startedAt": "2026-08-03",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:17+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2134260180316627",
+            "advertiser": "",
+            "startedAt": "2025-11-01",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:16+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1060950596708721",
+            "advertiser": "헤이데일리",
+            "startedAt": "2026-09-02",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:16+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1188697559790260",
+            "advertiser": "",
+            "startedAt": "2025-10-22",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:15+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:15+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-12T06:50:58+00:00",
+        "advertisers": [
+          {
+            "name": "Dîdaofficial",
+            "adCount": 5
+          },
+          {
+            "name": "헤이데일리",
+            "adCount": 5
+          },
+          {
+            "name": "슬림뉴욕 코리아",
+            "adCount": 4
+          },
+          {
+            "name": "뉴니크",
+            "adCount": 2
+          },
+          {
+            "name": "지누핏",
+            "adCount": 2
+          },
+          {
+            "name": "2doe0",
+            "adCount": 1
+          },
+          {
+            "name": "Daymix",
+            "adCount": 1
+          },
+          {
+            "name": "Mong",
+            "adCount": 1
+          },
+          {
+            "name": "Nuebetter뉴베러",
+            "adCount": 1
+          },
+          {
+            "name": "enfoo",
+            "adCount": 1
+          },
+          {
+            "name": "lo_ve21111111",
+            "adCount": 1
+          },
+          {
+            "name": "wonyy.eat",
+            "adCount": 1
+          },
+          {
+            "name": "공구다",
+            "adCount": 1
+          },
+          {
+            "name": "피토틱스 Phytotics",
+            "adCount": 1
+          },
+          {
+            "name": "햄치치",
+            "adCount": 1
+          },
+          {
+            "name": "헬스꿀팁",
+            "adCount": 1
+          },
+          {
+            "name": "𝓶𝓮𝓻𝓬𝓮 - 메르세 이루리라 나비효과",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -11634,17 +12025,408 @@
       "rankWindow": 100,
       "observedAt": "2026-10-12T00:51:31+00:00",
       "lastObservedAt": "2026-10-12T00:51:31+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "3ba09977c1c6d26a86349ab3729c1bba5dac05b761f1f0724f63fa9027fdc8de",
       "searchQuery": "다이어트보조제",
       "adEvidence": {
         "query": "다이어트보조제",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 32,
+        "adIds": [
+          "2262443047666073",
+          "1782362256214250",
+          "1110860231401587",
+          "996464580146482",
+          "1022586350735743",
+          "2144101206483674",
+          "1791084852032145",
+          "1766268137854695",
+          "1647440690328723",
+          "1428045892796302",
+          "1321148096688865",
+          "1602230808588817",
+          "2652904541891072",
+          "1483918653561956",
+          "3055485118135970",
+          "1618851069724407",
+          "4071585686478987",
+          "1419184943761723",
+          "1684997506375401",
+          "1634914288281888",
+          "1075658402083087",
+          "2578186689318943",
+          "2120595188847471",
+          "1786301832405678",
+          "1370843551807939",
+          "1140715888522465",
+          "2117502149174705",
+          "1072275269039489",
+          "1023550433794660",
+          "2134260180316627",
+          "1060950596708721",
+          "1188697559790260"
+        ],
+        "ads": [
+          {
+            "id": "2262443047666073",
+            "advertiser": "뉴니크",
+            "startedAt": "2026-10-11",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:58+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:58+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1782362256214250",
+            "advertiser": "공구다",
+            "startedAt": "2026-10-02",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:57+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1110860231401587",
+            "advertiser": "헬스꿀팁",
+            "startedAt": "2026-10-06",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:46+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:46+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "996464580146482",
+            "advertiser": "뉴니크",
+            "startedAt": "2026-10-10",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:45+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:45+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1022586350735743",
+            "advertiser": "Mong",
+            "startedAt": "2026-08-24",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:45+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2144101206483674",
+            "advertiser": "Dîdaofficial",
+            "startedAt": "2026-09-14",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:44+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1791084852032145",
+            "advertiser": "지누핏",
+            "startedAt": "2026-09-23",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:44+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1766268137854695",
+            "advertiser": "Daymix",
+            "startedAt": "2026-09-27",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:43+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1647440690328723",
+            "advertiser": "헤이데일리",
+            "startedAt": "2026-08-13",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:43+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1428045892796302",
+            "advertiser": "Nuebetter뉴베러",
+            "startedAt": "2026-10-07",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:42+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:42+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1321148096688865",
+            "advertiser": "지누핏",
+            "startedAt": "2026-09-23",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:42+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1602230808588817",
+            "advertiser": "헤이데일리",
+            "startedAt": "2026-09-28",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:41+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2652904541891072",
+            "advertiser": "햄치치",
+            "startedAt": "2026-10-07",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:34+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:34+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1483918653561956",
+            "advertiser": "슬림뉴욕 코리아",
+            "startedAt": "2026-09-27",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:34+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3055485118135970",
+            "advertiser": "lo_ve21111111",
+            "startedAt": "2026-10-07",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:33+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:33+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1618851069724407",
+            "advertiser": "Dîdaofficial",
+            "startedAt": "2026-09-15",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:33+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4071585686478987",
+            "advertiser": "wonyy.eat",
+            "startedAt": "2026-10-07",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:32+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:32+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1419184943761723",
+            "advertiser": "슬림뉴욕 코리아",
+            "startedAt": "2026-10-04",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:32+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1684997506375401",
+            "advertiser": "Dîdaofficial",
+            "startedAt": "2026-09-22",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:31+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1634914288281888",
+            "advertiser": "슬림뉴욕 코리아",
+            "startedAt": "2026-09-30",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:29+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1075658402083087",
+            "advertiser": "2doe0",
+            "startedAt": "2026-07-26",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:29+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2578186689318943",
+            "advertiser": "헤이데일리",
+            "startedAt": "2026-09-28",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:28+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2120595188847471",
+            "advertiser": "헤이데일리",
+            "startedAt": "2026-09-28",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:23+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1786301832405678",
+            "advertiser": "슬림뉴욕 코리아",
+            "startedAt": "2026-09-07",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:23+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1370843551807939",
+            "advertiser": "𝓶𝓮𝓻𝓬𝓮 - 메르세 이루리라 나비효과",
+            "startedAt": "2026-07-09",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:22+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1140715888522465",
+            "advertiser": "Dîdaofficial",
+            "startedAt": "2026-10-08",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:21+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:21+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2117502149174705",
+            "advertiser": "피토틱스 Phytotics",
+            "startedAt": "2026-08-11",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:20+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1072275269039489",
+            "advertiser": "Dîdaofficial",
+            "startedAt": "2026-09-22",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:19+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1023550433794660",
+            "advertiser": "enfoo",
+            "startedAt": "2026-08-03",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:17+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2134260180316627",
+            "advertiser": "",
+            "startedAt": "2025-11-01",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:16+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1060950596708721",
+            "advertiser": "헤이데일리",
+            "startedAt": "2026-09-02",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:16+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1188697559790260",
+            "advertiser": "",
+            "startedAt": "2025-10-22",
+            "query": "다이어트보조제",
+            "firstCollectedAt": "2026-10-12T06:50:15+00:00",
+            "lastCollectedAt": "2026-10-12T06:50:15+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-12T06:50:58+00:00",
+        "advertisers": [
+          {
+            "name": "Dîdaofficial",
+            "adCount": 5
+          },
+          {
+            "name": "헤이데일리",
+            "adCount": 5
+          },
+          {
+            "name": "슬림뉴욕 코리아",
+            "adCount": 4
+          },
+          {
+            "name": "뉴니크",
+            "adCount": 2
+          },
+          {
+            "name": "지누핏",
+            "adCount": 2
+          },
+          {
+            "name": "2doe0",
+            "adCount": 1
+          },
+          {
+            "name": "Daymix",
+            "adCount": 1
+          },
+          {
+            "name": "Mong",
+            "adCount": 1
+          },
+          {
+            "name": "Nuebetter뉴베러",
+            "adCount": 1
+          },
+          {
+            "name": "enfoo",
+            "adCount": 1
+          },
+          {
+            "name": "lo_ve21111111",
+            "adCount": 1
+          },
+          {
+            "name": "wonyy.eat",
+            "adCount": 1
+          },
+          {
+            "name": "공구다",
+            "adCount": 1
+          },
+          {
+            "name": "피토틱스 Phytotics",
+            "adCount": 1
+          },
+          {
+            "name": "햄치치",
+            "adCount": 1
+          },
+          {
+            "name": "헬스꿀팁",
+            "adCount": 1
+          },
+          {
+            "name": "𝓶𝓮𝓻𝓬𝓮 - 메르세 이루리라 나비효과",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
