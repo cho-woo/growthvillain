@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12T09:38:24+00:00",
+  "updatedAt": "2026-10-12T09:41:59+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-12T00:51:31+00:00",
@@ -41,22 +41,22 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 33,
-    "dailyRemaining": 255,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "dailyUsed": 34,
+    "dailyRemaining": 254,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-12T10:41:59+00:00",
     "metaAutoEnabled": true,
-    "enabled": true,
+    "enabled": false,
     "collectionGuard": {
-      "state": "ready",
-      "reason": null,
-      "nextAllowedAt": null,
-      "blockedUntil": null,
-      "blockStreak": 0,
+      "state": "blocked",
+      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
+      "nextAllowedAt": "2026-10-12T10:41:59+00:00",
+      "blockedUntil": "2026-10-12T10:41:59+00:00",
+      "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": null
+    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
   },
   "settings": {
     "category": "50000023",
@@ -13718,17 +13718,104 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "ced9f37042f9679f98daa2d4bad1918847071d6f2d165ac3b6bfbd5fb1e83606",
       "searchQuery": "신타6",
       "adEvidence": {
         "query": "신타6",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 8,
+        "adIds": [
+          "1301161202057663",
+          "1173036081818322",
+          "1085482060939300",
+          "1560468989217399",
+          "1449878540355476",
+          "2313089902819154",
+          "1601045538184301",
+          "1336042572928019"
+        ],
+        "ads": [
+          {
+            "id": "1301161202057663",
+            "advertiser": "BSN Supplements Korea",
+            "startedAt": "2026-10-11",
+            "query": "신타6",
+            "firstCollectedAt": "2026-10-12T09:40:58+00:00",
+            "lastCollectedAt": "2026-10-12T09:40:58+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1173036081818322",
+            "advertiser": "BSN Supplements Korea",
+            "startedAt": "2026-10-11",
+            "query": "신타6",
+            "firstCollectedAt": "2026-10-12T09:40:58+00:00",
+            "lastCollectedAt": "2026-10-12T09:40:58+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1085482060939300",
+            "advertiser": "BSN Supplements Korea",
+            "startedAt": "2026-10-11",
+            "query": "신타6",
+            "firstCollectedAt": "2026-10-12T09:40:58+00:00",
+            "lastCollectedAt": "2026-10-12T09:40:58+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1560468989217399",
+            "advertiser": "BSN Supplements Korea",
+            "startedAt": "2026-10-11",
+            "query": "신타6",
+            "firstCollectedAt": "2026-10-12T09:40:57+00:00",
+            "lastCollectedAt": "2026-10-12T09:40:57+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1449878540355476",
+            "advertiser": "BSN Supplements Korea",
+            "startedAt": "2026-10-11",
+            "query": "신타6",
+            "firstCollectedAt": "2026-10-12T09:40:57+00:00",
+            "lastCollectedAt": "2026-10-12T09:40:57+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2313089902819154",
+            "advertiser": "BSN Supplements Korea",
+            "startedAt": "2026-09-30",
+            "query": "신타6",
+            "firstCollectedAt": "2026-10-12T09:40:56+00:00",
+            "lastCollectedAt": "2026-10-12T09:40:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1601045538184301",
+            "advertiser": "BSN Supplements Korea",
+            "startedAt": "2026-09-30",
+            "query": "신타6",
+            "firstCollectedAt": "2026-10-12T09:40:56+00:00",
+            "lastCollectedAt": "2026-10-12T09:40:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1336042572928019",
+            "advertiser": "BSN Supplements Korea",
+            "startedAt": "2026-09-30",
+            "query": "신타6",
+            "firstCollectedAt": "2026-10-12T09:40:56+00:00",
+            "lastCollectedAt": "2026-10-12T09:40:56+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-12T09:40:58+00:00",
+        "advertisers": [
+          {
+            "name": "BSN Supplements Korea",
+            "adCount": 8
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -13750,7 +13837,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "failed",
       "keywordId": "a1bdb5b69d76d169c5130e142edf069f6e181f1e091dcc8b233033221ecda690",
       "searchQuery": "알부민바디뮨",
       "adEvidence": {
@@ -15368,7 +15455,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-12T00:51:31+00:00",
       "lastObservedAt": "2026-10-12T00:51:31+00:00",
-      "state": "ready",
+      "state": "failed",
       "keywordId": "a1bdb5b69d76d169c5130e142edf069f6e181f1e091dcc8b233033221ecda690",
       "searchQuery": "알부민바디뮨",
       "adEvidence": {
@@ -16952,17 +17039,104 @@
       "rankWindow": 100,
       "observedAt": "2026-10-12T00:51:31+00:00",
       "lastObservedAt": "2026-10-12T00:51:31+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "ced9f37042f9679f98daa2d4bad1918847071d6f2d165ac3b6bfbd5fb1e83606",
       "searchQuery": "신타6",
       "adEvidence": {
         "query": "신타6",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 8,
+        "adIds": [
+          "1301161202057663",
+          "1173036081818322",
+          "1085482060939300",
+          "1560468989217399",
+          "1449878540355476",
+          "2313089902819154",
+          "1601045538184301",
+          "1336042572928019"
+        ],
+        "ads": [
+          {
+            "id": "1301161202057663",
+            "advertiser": "BSN Supplements Korea",
+            "startedAt": "2026-10-11",
+            "query": "신타6",
+            "firstCollectedAt": "2026-10-12T09:40:58+00:00",
+            "lastCollectedAt": "2026-10-12T09:40:58+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1173036081818322",
+            "advertiser": "BSN Supplements Korea",
+            "startedAt": "2026-10-11",
+            "query": "신타6",
+            "firstCollectedAt": "2026-10-12T09:40:58+00:00",
+            "lastCollectedAt": "2026-10-12T09:40:58+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1085482060939300",
+            "advertiser": "BSN Supplements Korea",
+            "startedAt": "2026-10-11",
+            "query": "신타6",
+            "firstCollectedAt": "2026-10-12T09:40:58+00:00",
+            "lastCollectedAt": "2026-10-12T09:40:58+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1560468989217399",
+            "advertiser": "BSN Supplements Korea",
+            "startedAt": "2026-10-11",
+            "query": "신타6",
+            "firstCollectedAt": "2026-10-12T09:40:57+00:00",
+            "lastCollectedAt": "2026-10-12T09:40:57+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1449878540355476",
+            "advertiser": "BSN Supplements Korea",
+            "startedAt": "2026-10-11",
+            "query": "신타6",
+            "firstCollectedAt": "2026-10-12T09:40:57+00:00",
+            "lastCollectedAt": "2026-10-12T09:40:57+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2313089902819154",
+            "advertiser": "BSN Supplements Korea",
+            "startedAt": "2026-09-30",
+            "query": "신타6",
+            "firstCollectedAt": "2026-10-12T09:40:56+00:00",
+            "lastCollectedAt": "2026-10-12T09:40:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1601045538184301",
+            "advertiser": "BSN Supplements Korea",
+            "startedAt": "2026-09-30",
+            "query": "신타6",
+            "firstCollectedAt": "2026-10-12T09:40:56+00:00",
+            "lastCollectedAt": "2026-10-12T09:40:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1336042572928019",
+            "advertiser": "BSN Supplements Korea",
+            "startedAt": "2026-09-30",
+            "query": "신타6",
+            "firstCollectedAt": "2026-10-12T09:40:56+00:00",
+            "lastCollectedAt": "2026-10-12T09:40:56+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-12T09:40:58+00:00",
+        "advertisers": [
+          {
+            "name": "BSN Supplements Korea",
+            "adCount": 8
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
