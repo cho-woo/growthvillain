@@ -1,6 +1,6 @@
 {
   "mode": "snapshot",
-  "updatedAt": "2026-10-12T14:53:25+00:00",
+  "updatedAt": "2026-10-12T14:54:49+00:00",
   "automations": [
     {
       "id": "meta-ads",
@@ -94,12 +94,12 @@
       "id": "tistory-blog",
       "name": "티스토리 연예",
       "enabled": true,
-      "running": true,
-      "state": "running",
+      "running": false,
+      "state": "waiting",
       "nextRunAt": "2026-10-12T23:59:35+09:00",
-      "lastSuccessAt": "2026-10-11T21:31:24+09:00",
+      "lastSuccessAt": "2026-10-12T23:53:41+09:00",
       "lastAttemptAt": null,
-      "message": "재로그인 확인 · 기존 원고 재개 · 추가 AI·이미지 생성 없음",
+      "message": "후보 없음 또는 발행 한도·간격 대기 · AI 호출 없음",
       "intervalSeconds": 900,
       "statusCheckIntervalSeconds": null,
       "statusCheckBatchSize": null,
@@ -157,8 +157,8 @@
   ],
   "publication": {
     "state": "synced",
-    "lastAttemptAt": "2026-10-12T14:50:57+00:00",
-    "lastSuccessAt": "2026-10-12T14:51:02+00:00",
+    "lastAttemptAt": "2026-10-12T14:53:25+00:00",
+    "lastSuccessAt": "2026-10-12T14:53:31+00:00",
     "error": null,
     "enabled": true
   }
