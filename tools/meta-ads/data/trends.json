@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12T19:46:30+00:00",
+  "updatedAt": "2026-10-12T19:50:13+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-12T18:58:11+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 8,
-    "dailyRemaining": 280,
+    "dailyUsed": 9,
+    "dailyRemaining": 279,
     "pending": 0,
-    "nextDispatchAt": "2026-10-12T19:49:34+00:00",
+    "nextDispatchAt": "2026-10-12T19:54:37+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -7974,47 +7974,89 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "done",
       "keywordId": "b4107a41c85ca8a726a842c7a9945a84b1d9506a11f5f1d3d624051726ebe7c1",
       "searchQuery": "리포좀비타민c",
       "adEvidence": {
         "query": "리포좀비타민c",
         "matchType": "collected-with-query",
-        "adCount": 14,
+        "adCount": 20,
         "adIds": [
+          "1979580646065414",
+          "3407195972784531",
           "1555478632932430",
-          "4379826042268151",
+          "1090682677277783",
+          "28472582055755572",
+          "2396055617589880",
           "1465052035598988",
           "1460002452755217",
+          "4379826042268151",
           "1100626222893495",
           "3350686705104018",
           "1630171175183241",
-          "984227524317489",
           "868875029512783",
-          "2723057091225428",
           "2449069805504669",
+          "1708461237044846",
           "1344782080953215",
-          "28852672801002631",
-          "1665084455326384"
+          "984227524317489",
+          "2723057091225428",
+          "1665084455326384",
+          "28852672801002631"
         ],
         "ads": [
+          {
+            "id": "1979580646065414",
+            "advertiser": "하루틴 코리아",
+            "startedAt": "2026-10-09",
+            "query": "리포좀비타민c",
+            "firstCollectedAt": "2026-10-12T19:49:51+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:51+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "3407195972784531",
+            "advertiser": "하이룽",
+            "startedAt": "2026-10-11",
+            "query": "리포좀비타민c",
+            "firstCollectedAt": "2026-10-12T19:49:50+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:50+00:00",
+            "startTiming": "during-window"
+          },
           {
             "id": "1555478632932430",
             "advertiser": "나경",
             "startedAt": "2026-10-07",
             "query": "리포좀비타민c",
             "firstCollectedAt": "2026-10-10T02:45:48+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:48+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:50+00:00",
             "startTiming": "during-window"
           },
           {
-            "id": "4379826042268151",
-            "advertiser": "라이필",
-            "startedAt": "2026-09-02",
+            "id": "1090682677277783",
+            "advertiser": "데이팩",
+            "startedAt": "2026-10-12",
             "query": "리포좀비타민c",
-            "firstCollectedAt": "2026-10-10T02:45:47+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:47+00:00",
-            "startTiming": "before-window"
+            "firstCollectedAt": "2026-10-12T19:49:50+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:50+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "28472582055755572",
+            "advertiser": "하루틴 코리아",
+            "startedAt": "2026-10-11",
+            "query": "리포좀비타민c",
+            "firstCollectedAt": "2026-10-12T19:49:49+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:49+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2396055617589880",
+            "advertiser": "하루틴 코리아",
+            "startedAt": "2026-10-11",
+            "query": "리포좀비타민c",
+            "firstCollectedAt": "2026-10-12T19:49:49+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:49+00:00",
+            "startTiming": "during-window"
           },
           {
             "id": "1465052035598988",
@@ -8022,7 +8064,7 @@
             "startedAt": "2026-09-08",
             "query": "리포좀비타민c",
             "firstCollectedAt": "2026-10-10T02:45:47+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:47+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:49+00:00",
             "startTiming": "before-window"
           },
           {
@@ -8031,8 +8073,17 @@
             "startedAt": "2026-10-06",
             "query": "리포좀비타민c",
             "firstCollectedAt": "2026-10-10T02:45:47+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:47+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:49+00:00",
             "startTiming": "during-window"
+          },
+          {
+            "id": "4379826042268151",
+            "advertiser": "라이필",
+            "startedAt": "2026-09-02",
+            "query": "리포좀비타민c",
+            "firstCollectedAt": "2026-10-10T02:45:47+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:48+00:00",
+            "startTiming": "before-window"
           },
           {
             "id": "1100626222893495",
@@ -8040,7 +8091,7 @@
             "startedAt": "2026-09-20",
             "query": "리포좀비타민c",
             "firstCollectedAt": "2026-10-10T02:45:36+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:36+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:48+00:00",
             "startTiming": "before-window"
           },
           {
@@ -8049,7 +8100,7 @@
             "startedAt": "2026-09-30",
             "query": "리포좀비타민c",
             "firstCollectedAt": "2026-10-10T02:45:35+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:35+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:43+00:00",
             "startTiming": "before-window"
           },
           {
@@ -8058,16 +8109,7 @@
             "startedAt": "2026-09-30",
             "query": "리포좀비타민c",
             "firstCollectedAt": "2026-10-10T02:45:35+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:35+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "984227524317489",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "리포좀비타민c",
-            "firstCollectedAt": "2026-10-10T02:45:34+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:34+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:43+00:00",
             "startTiming": "before-window"
           },
           {
@@ -8076,16 +8118,7 @@
             "startedAt": "2026-09-02",
             "query": "리포좀비타민c",
             "firstCollectedAt": "2026-10-10T02:45:34+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:34+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2723057091225428",
-            "advertiser": "",
-            "startedAt": "2025-04-28",
-            "query": "리포좀비타민c",
-            "firstCollectedAt": "2026-10-10T02:45:34+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:34+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:42+00:00",
             "startTiming": "before-window"
           },
           {
@@ -8094,7 +8127,16 @@
             "startedAt": "2026-09-02",
             "query": "리포좀비타민c",
             "firstCollectedAt": "2026-10-10T02:45:34+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:34+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1708461237044846",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-14",
+            "query": "리포좀비타민c",
+            "firstCollectedAt": "2026-10-12T19:49:42+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:42+00:00",
             "startTiming": "before-window"
           },
           {
@@ -8103,16 +8145,25 @@
             "startedAt": "2026-06-06",
             "query": "리포좀비타민c",
             "firstCollectedAt": "2026-10-10T02:45:34+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:34+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:42+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "28852672801002631",
-            "advertiser": "라이필",
-            "startedAt": "2026-09-02",
+            "id": "984227524317489",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
             "query": "리포좀비타민c",
-            "firstCollectedAt": "2026-10-10T02:45:33+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:33+00:00",
+            "firstCollectedAt": "2026-10-10T02:45:34+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2723057091225428",
+            "advertiser": "",
+            "startedAt": "2025-04-28",
+            "query": "리포좀비타민c",
+            "firstCollectedAt": "2026-10-10T02:45:34+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:41+00:00",
             "startTiming": "before-window"
           },
           {
@@ -8121,18 +8172,31 @@
             "startedAt": "2026-09-30",
             "query": "리포좀비타민c",
             "firstCollectedAt": "2026-10-10T02:45:33+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:33+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28852672801002631",
+            "advertiser": "라이필",
+            "startedAt": "2026-09-02",
+            "query": "리포좀비타민c",
+            "firstCollectedAt": "2026-10-10T02:45:33+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:40+00:00",
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-10T02:45:48+00:00",
+        "lastCollectedAt": "2026-10-12T19:49:51+00:00",
         "advertisers": [
+          {
+            "name": "Naverplus.store",
+            "adCount": 4
+          },
           {
             "name": "라이필",
             "adCount": 4
           },
           {
-            "name": "Naverplus.store",
+            "name": "하루틴 코리아",
             "adCount": 3
           },
           {
@@ -8141,6 +8205,10 @@
           },
           {
             "name": "나경",
+            "adCount": 1
+          },
+          {
+            "name": "데이팩",
             "adCount": 1
           },
           {
@@ -8153,6 +8221,10 @@
           },
           {
             "name": "위타민 weetamin",
+            "adCount": 1
+          },
+          {
+            "name": "하이룽",
             "adCount": 1
           }
         ],
@@ -31455,47 +31527,89 @@
       "rankWindow": 100,
       "observedAt": "2026-10-12T00:50:59+00:00",
       "lastObservedAt": "2026-10-12T18:57:27+00:00",
-      "state": "backlog",
+      "state": "done",
       "keywordId": "b4107a41c85ca8a726a842c7a9945a84b1d9506a11f5f1d3d624051726ebe7c1",
       "searchQuery": "리포좀비타민c",
       "adEvidence": {
         "query": "리포좀비타민c",
         "matchType": "collected-with-query",
-        "adCount": 14,
+        "adCount": 20,
         "adIds": [
+          "1979580646065414",
+          "3407195972784531",
           "1555478632932430",
-          "4379826042268151",
+          "1090682677277783",
+          "28472582055755572",
+          "2396055617589880",
           "1465052035598988",
           "1460002452755217",
+          "4379826042268151",
           "1100626222893495",
           "3350686705104018",
           "1630171175183241",
-          "984227524317489",
           "868875029512783",
-          "2723057091225428",
           "2449069805504669",
+          "1708461237044846",
           "1344782080953215",
-          "28852672801002631",
-          "1665084455326384"
+          "984227524317489",
+          "2723057091225428",
+          "1665084455326384",
+          "28852672801002631"
         ],
         "ads": [
+          {
+            "id": "1979580646065414",
+            "advertiser": "하루틴 코리아",
+            "startedAt": "2026-10-09",
+            "query": "리포좀비타민c",
+            "firstCollectedAt": "2026-10-12T19:49:51+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:51+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "3407195972784531",
+            "advertiser": "하이룽",
+            "startedAt": "2026-10-11",
+            "query": "리포좀비타민c",
+            "firstCollectedAt": "2026-10-12T19:49:50+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:50+00:00",
+            "startTiming": "during-window"
+          },
           {
             "id": "1555478632932430",
             "advertiser": "나경",
             "startedAt": "2026-10-07",
             "query": "리포좀비타민c",
             "firstCollectedAt": "2026-10-10T02:45:48+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:48+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:50+00:00",
             "startTiming": "during-window"
           },
           {
-            "id": "4379826042268151",
-            "advertiser": "라이필",
-            "startedAt": "2026-09-02",
+            "id": "1090682677277783",
+            "advertiser": "데이팩",
+            "startedAt": "2026-10-12",
             "query": "리포좀비타민c",
-            "firstCollectedAt": "2026-10-10T02:45:47+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:47+00:00",
-            "startTiming": "before-window"
+            "firstCollectedAt": "2026-10-12T19:49:50+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:50+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "28472582055755572",
+            "advertiser": "하루틴 코리아",
+            "startedAt": "2026-10-11",
+            "query": "리포좀비타민c",
+            "firstCollectedAt": "2026-10-12T19:49:49+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:49+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2396055617589880",
+            "advertiser": "하루틴 코리아",
+            "startedAt": "2026-10-11",
+            "query": "리포좀비타민c",
+            "firstCollectedAt": "2026-10-12T19:49:49+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:49+00:00",
+            "startTiming": "during-window"
           },
           {
             "id": "1465052035598988",
@@ -31503,7 +31617,7 @@
             "startedAt": "2026-09-08",
             "query": "리포좀비타민c",
             "firstCollectedAt": "2026-10-10T02:45:47+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:47+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:49+00:00",
             "startTiming": "before-window"
           },
           {
@@ -31512,8 +31626,17 @@
             "startedAt": "2026-10-06",
             "query": "리포좀비타민c",
             "firstCollectedAt": "2026-10-10T02:45:47+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:47+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:49+00:00",
             "startTiming": "during-window"
+          },
+          {
+            "id": "4379826042268151",
+            "advertiser": "라이필",
+            "startedAt": "2026-09-02",
+            "query": "리포좀비타민c",
+            "firstCollectedAt": "2026-10-10T02:45:47+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:48+00:00",
+            "startTiming": "before-window"
           },
           {
             "id": "1100626222893495",
@@ -31521,7 +31644,7 @@
             "startedAt": "2026-09-20",
             "query": "리포좀비타민c",
             "firstCollectedAt": "2026-10-10T02:45:36+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:36+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:48+00:00",
             "startTiming": "before-window"
           },
           {
@@ -31530,7 +31653,7 @@
             "startedAt": "2026-09-30",
             "query": "리포좀비타민c",
             "firstCollectedAt": "2026-10-10T02:45:35+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:35+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:43+00:00",
             "startTiming": "before-window"
           },
           {
@@ -31539,16 +31662,7 @@
             "startedAt": "2026-09-30",
             "query": "리포좀비타민c",
             "firstCollectedAt": "2026-10-10T02:45:35+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:35+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "984227524317489",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "리포좀비타민c",
-            "firstCollectedAt": "2026-10-10T02:45:34+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:34+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:43+00:00",
             "startTiming": "before-window"
           },
           {
@@ -31557,16 +31671,7 @@
             "startedAt": "2026-09-02",
             "query": "리포좀비타민c",
             "firstCollectedAt": "2026-10-10T02:45:34+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:34+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2723057091225428",
-            "advertiser": "",
-            "startedAt": "2025-04-28",
-            "query": "리포좀비타민c",
-            "firstCollectedAt": "2026-10-10T02:45:34+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:34+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:42+00:00",
             "startTiming": "before-window"
           },
           {
@@ -31575,7 +31680,16 @@
             "startedAt": "2026-09-02",
             "query": "리포좀비타민c",
             "firstCollectedAt": "2026-10-10T02:45:34+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:34+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1708461237044846",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-14",
+            "query": "리포좀비타민c",
+            "firstCollectedAt": "2026-10-12T19:49:42+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:42+00:00",
             "startTiming": "before-window"
           },
           {
@@ -31584,16 +31698,25 @@
             "startedAt": "2026-06-06",
             "query": "리포좀비타민c",
             "firstCollectedAt": "2026-10-10T02:45:34+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:34+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:42+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "28852672801002631",
-            "advertiser": "라이필",
-            "startedAt": "2026-09-02",
+            "id": "984227524317489",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
             "query": "리포좀비타민c",
-            "firstCollectedAt": "2026-10-10T02:45:33+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:33+00:00",
+            "firstCollectedAt": "2026-10-10T02:45:34+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2723057091225428",
+            "advertiser": "",
+            "startedAt": "2025-04-28",
+            "query": "리포좀비타민c",
+            "firstCollectedAt": "2026-10-10T02:45:34+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:41+00:00",
             "startTiming": "before-window"
           },
           {
@@ -31602,18 +31725,31 @@
             "startedAt": "2026-09-30",
             "query": "리포좀비타민c",
             "firstCollectedAt": "2026-10-10T02:45:33+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:33+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28852672801002631",
+            "advertiser": "라이필",
+            "startedAt": "2026-09-02",
+            "query": "리포좀비타민c",
+            "firstCollectedAt": "2026-10-10T02:45:33+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:40+00:00",
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-10T02:45:48+00:00",
+        "lastCollectedAt": "2026-10-12T19:49:51+00:00",
         "advertisers": [
+          {
+            "name": "Naverplus.store",
+            "adCount": 4
+          },
           {
             "name": "라이필",
             "adCount": 4
           },
           {
-            "name": "Naverplus.store",
+            "name": "하루틴 코리아",
             "adCount": 3
           },
           {
@@ -31622,6 +31758,10 @@
           },
           {
             "name": "나경",
+            "adCount": 1
+          },
+          {
+            "name": "데이팩",
             "adCount": 1
           },
           {
@@ -31634,6 +31774,10 @@
           },
           {
             "name": "위타민 weetamin",
+            "adCount": 1
+          },
+          {
+            "name": "하이룽",
             "adCount": 1
           }
         ],
@@ -60253,41 +60397,83 @@
       "adEvidence": {
         "query": "리포좀비타민c",
         "matchType": "collected-with-query",
-        "adCount": 14,
+        "adCount": 20,
         "adIds": [
+          "1979580646065414",
+          "3407195972784531",
           "1555478632932430",
-          "4379826042268151",
+          "1090682677277783",
+          "28472582055755572",
+          "2396055617589880",
           "1465052035598988",
           "1460002452755217",
+          "4379826042268151",
           "1100626222893495",
           "3350686705104018",
           "1630171175183241",
-          "984227524317489",
           "868875029512783",
-          "2723057091225428",
           "2449069805504669",
+          "1708461237044846",
           "1344782080953215",
-          "28852672801002631",
-          "1665084455326384"
+          "984227524317489",
+          "2723057091225428",
+          "1665084455326384",
+          "28852672801002631"
         ],
         "ads": [
+          {
+            "id": "1979580646065414",
+            "advertiser": "하루틴 코리아",
+            "startedAt": "2026-10-09",
+            "query": "리포좀비타민c",
+            "firstCollectedAt": "2026-10-12T19:49:51+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:51+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "3407195972784531",
+            "advertiser": "하이룽",
+            "startedAt": "2026-10-11",
+            "query": "리포좀비타민c",
+            "firstCollectedAt": "2026-10-12T19:49:50+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:50+00:00",
+            "startTiming": "after-window"
+          },
           {
             "id": "1555478632932430",
             "advertiser": "나경",
             "startedAt": "2026-10-07",
             "query": "리포좀비타민c",
             "firstCollectedAt": "2026-10-10T02:45:48+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:48+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:50+00:00",
             "startTiming": "during-window"
           },
           {
-            "id": "4379826042268151",
-            "advertiser": "라이필",
-            "startedAt": "2026-09-02",
+            "id": "1090682677277783",
+            "advertiser": "데이팩",
+            "startedAt": "2026-10-12",
             "query": "리포좀비타민c",
-            "firstCollectedAt": "2026-10-10T02:45:47+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:47+00:00",
-            "startTiming": "before-window"
+            "firstCollectedAt": "2026-10-12T19:49:50+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:50+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "28472582055755572",
+            "advertiser": "하루틴 코리아",
+            "startedAt": "2026-10-11",
+            "query": "리포좀비타민c",
+            "firstCollectedAt": "2026-10-12T19:49:49+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:49+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "2396055617589880",
+            "advertiser": "하루틴 코리아",
+            "startedAt": "2026-10-11",
+            "query": "리포좀비타민c",
+            "firstCollectedAt": "2026-10-12T19:49:49+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:49+00:00",
+            "startTiming": "after-window"
           },
           {
             "id": "1465052035598988",
@@ -60295,7 +60481,7 @@
             "startedAt": "2026-09-08",
             "query": "리포좀비타민c",
             "firstCollectedAt": "2026-10-10T02:45:47+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:47+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:49+00:00",
             "startTiming": "before-window"
           },
           {
@@ -60304,8 +60490,17 @@
             "startedAt": "2026-10-06",
             "query": "리포좀비타민c",
             "firstCollectedAt": "2026-10-10T02:45:47+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:47+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:49+00:00",
             "startTiming": "during-window"
+          },
+          {
+            "id": "4379826042268151",
+            "advertiser": "라이필",
+            "startedAt": "2026-09-02",
+            "query": "리포좀비타민c",
+            "firstCollectedAt": "2026-10-10T02:45:47+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:48+00:00",
+            "startTiming": "before-window"
           },
           {
             "id": "1100626222893495",
@@ -60313,7 +60508,7 @@
             "startedAt": "2026-09-20",
             "query": "리포좀비타민c",
             "firstCollectedAt": "2026-10-10T02:45:36+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:36+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:48+00:00",
             "startTiming": "before-window"
           },
           {
@@ -60322,7 +60517,7 @@
             "startedAt": "2026-09-30",
             "query": "리포좀비타민c",
             "firstCollectedAt": "2026-10-10T02:45:35+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:35+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:43+00:00",
             "startTiming": "before-window"
           },
           {
@@ -60331,16 +60526,7 @@
             "startedAt": "2026-09-30",
             "query": "리포좀비타민c",
             "firstCollectedAt": "2026-10-10T02:45:35+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:35+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "984227524317489",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "리포좀비타민c",
-            "firstCollectedAt": "2026-10-10T02:45:34+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:34+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:43+00:00",
             "startTiming": "before-window"
           },
           {
@@ -60349,16 +60535,7 @@
             "startedAt": "2026-09-02",
             "query": "리포좀비타민c",
             "firstCollectedAt": "2026-10-10T02:45:34+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:34+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2723057091225428",
-            "advertiser": "",
-            "startedAt": "2025-04-28",
-            "query": "리포좀비타민c",
-            "firstCollectedAt": "2026-10-10T02:45:34+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:34+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:42+00:00",
             "startTiming": "before-window"
           },
           {
@@ -60367,7 +60544,16 @@
             "startedAt": "2026-09-02",
             "query": "리포좀비타민c",
             "firstCollectedAt": "2026-10-10T02:45:34+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:34+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1708461237044846",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-14",
+            "query": "리포좀비타민c",
+            "firstCollectedAt": "2026-10-12T19:49:42+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:42+00:00",
             "startTiming": "before-window"
           },
           {
@@ -60376,16 +60562,25 @@
             "startedAt": "2026-06-06",
             "query": "리포좀비타민c",
             "firstCollectedAt": "2026-10-10T02:45:34+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:34+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:42+00:00",
             "startTiming": "before-window"
           },
           {
-            "id": "28852672801002631",
-            "advertiser": "라이필",
-            "startedAt": "2026-09-02",
+            "id": "984227524317489",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
             "query": "리포좀비타민c",
-            "firstCollectedAt": "2026-10-10T02:45:33+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:33+00:00",
+            "firstCollectedAt": "2026-10-10T02:45:34+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2723057091225428",
+            "advertiser": "",
+            "startedAt": "2025-04-28",
+            "query": "리포좀비타민c",
+            "firstCollectedAt": "2026-10-10T02:45:34+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:41+00:00",
             "startTiming": "before-window"
           },
           {
@@ -60394,18 +60589,31 @@
             "startedAt": "2026-09-30",
             "query": "리포좀비타민c",
             "firstCollectedAt": "2026-10-10T02:45:33+00:00",
-            "lastCollectedAt": "2026-10-10T02:45:33+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28852672801002631",
+            "advertiser": "라이필",
+            "startedAt": "2026-09-02",
+            "query": "리포좀비타민c",
+            "firstCollectedAt": "2026-10-10T02:45:33+00:00",
+            "lastCollectedAt": "2026-10-12T19:49:40+00:00",
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-10T02:45:48+00:00",
+        "lastCollectedAt": "2026-10-12T19:49:51+00:00",
         "advertisers": [
+          {
+            "name": "Naverplus.store",
+            "adCount": 4
+          },
           {
             "name": "라이필",
             "adCount": 4
           },
           {
-            "name": "Naverplus.store",
+            "name": "하루틴 코리아",
             "adCount": 3
           },
           {
@@ -60414,6 +60622,10 @@
           },
           {
             "name": "나경",
+            "adCount": 1
+          },
+          {
+            "name": "데이팩",
             "adCount": 1
           },
           {
@@ -60426,6 +60638,10 @@
           },
           {
             "name": "위타민 weetamin",
+            "adCount": 1
+          },
+          {
+            "name": "하이룽",
             "adCount": 1
           }
         ],
@@ -108068,7 +108284,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "cooldown",
+      "state": "backlog",
       "keywordId": "664f0eee12a3e0cefc4d5005db47079e8dcfa3c97b12f7c025bc86ced3155352",
       "searchQuery": "고려은단비타민c1000",
       "adEvidence": {
