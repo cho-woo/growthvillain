@@ -1,6 +1,6 @@
 {
   "mode": "snapshot",
-  "updatedAt": "2026-10-12T22:46:44+00:00",
+  "updatedAt": "2026-10-12T22:48:09+00:00",
   "automations": [
     {
       "id": "meta-ads",
@@ -94,12 +94,12 @@
       "id": "tistory-blog",
       "name": "티스토리 연예",
       "enabled": true,
-      "running": true,
-      "state": "running",
+      "running": false,
+      "state": "waiting",
       "nextRunAt": "2026-10-13T08:01:35+09:00",
       "lastSuccessAt": "2026-10-13T07:01:25+09:00",
       "lastAttemptAt": null,
-      "message": "Python 뉴스 확인·중복 검사 중 · AI 호출 없음",
+      "message": "후보 없음 또는 발행 한도·간격 대기 · AI 호출 없음",
       "intervalSeconds": 900,
       "statusCheckIntervalSeconds": null,
       "statusCheckBatchSize": null,
@@ -157,8 +157,8 @@
   ],
   "publication": {
     "state": "synced",
-    "lastAttemptAt": "2026-10-12T22:37:42+00:00",
-    "lastSuccessAt": "2026-10-12T22:37:47+00:00",
+    "lastAttemptAt": "2026-10-12T22:46:44+00:00",
+    "lastSuccessAt": "2026-10-12T22:46:51+00:00",
     "error": null,
     "enabled": true
   }
