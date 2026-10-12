@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12T06:57:50+00:00",
+  "updatedAt": "2026-10-12T06:59:56+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-12T00:51:31+00:00",
@@ -43,8 +43,8 @@
     "backlogDays": 14,
     "dailyUsed": 27,
     "dailyRemaining": 261,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-12T07:02:49+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -9141,17 +9141,744 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "2d1d2e6ec2555c5a9b5361ad68f8d36c1818dea77be2f8462dfe95f002b2fd89",
       "searchQuery": "가르시니아",
       "adEvidence": {
         "query": "가르시니아",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 64,
+        "adIds": [
+          "2336210540495124",
+          "1859785848775116",
+          "1788878242424274",
+          "1411976291045579",
+          "2297407304447601",
+          "1815825852891614",
+          "2330532494353365",
+          "2206650566923989",
+          "1762704638368167",
+          "29047325071547233",
+          "1627148479050464",
+          "2262443047666073",
+          "1801248067745413",
+          "2013964122656645",
+          "1427273406262413",
+          "1059484473385147",
+          "1789651845685976",
+          "1505278981423391",
+          "1120309117103205",
+          "1612844473872359",
+          "1116306457623079",
+          "1107027072084580",
+          "2158033061478892",
+          "2001271900570608",
+          "2194222641519381",
+          "1758210828843796",
+          "1618366559749415",
+          "1831031104749673",
+          "1324751296398972",
+          "941335325712280",
+          "2376582329819706",
+          "961428246461211",
+          "1403630078503294",
+          "1118406600746568",
+          "28418738724462703",
+          "1849581636061775",
+          "1082326001183836",
+          "1426061019478809",
+          "1240521518278874",
+          "1126990463067607",
+          "1589216289025362",
+          "1172867711845498",
+          "1481639670446455",
+          "1116479707436356",
+          "979473551180792",
+          "4414479802146140",
+          "1823368035505090",
+          "1767515787805971",
+          "1462738899016563",
+          "1405237431806624",
+          "1042353671470170",
+          "1405557161597845",
+          "1280464957576855",
+          "1077374985079698",
+          "932175413158135",
+          "2535086827024633",
+          "983538211183457",
+          "1844230386593116",
+          "1401878351438196",
+          "1126338399746624",
+          "1731398948005260",
+          "1182642493725977",
+          "2134260180316627",
+          "1618842336508619"
+        ],
+        "ads": [
+          {
+            "id": "2336210540495124",
+            "advertiser": "칼로",
+            "startedAt": "2026-10-11",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:59:29+00:00",
+            "lastCollectedAt": "2026-10-12T06:59:29+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1859785848775116",
+            "advertiser": "칼로",
+            "startedAt": "2026-10-11",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:59:29+00:00",
+            "lastCollectedAt": "2026-10-12T06:59:29+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1788878242424274",
+            "advertiser": "인플롭",
+            "startedAt": "2026-10-11",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:59:29+00:00",
+            "lastCollectedAt": "2026-10-12T06:59:29+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1411976291045579",
+            "advertiser": "인플롭",
+            "startedAt": "2026-10-11",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:59:29+00:00",
+            "lastCollectedAt": "2026-10-12T06:59:29+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2297407304447601",
+            "advertiser": "칼로",
+            "startedAt": "2026-10-11",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:59:15+00:00",
+            "lastCollectedAt": "2026-10-12T06:59:15+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1815825852891614",
+            "advertiser": "Newmodern",
+            "startedAt": "2026-10-11",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:59:15+00:00",
+            "lastCollectedAt": "2026-10-12T06:59:15+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2330532494353365",
+            "advertiser": "앙또아뷰티",
+            "startedAt": "2026-09-29",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:59:13+00:00",
+            "lastCollectedAt": "2026-10-12T06:59:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2206650566923989",
+            "advertiser": "칼로",
+            "startedAt": "2026-10-11",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:59:12+00:00",
+            "lastCollectedAt": "2026-10-12T06:59:12+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1762704638368167",
+            "advertiser": "건강한 체중 관리",
+            "startedAt": "2026-10-07",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:59:12+00:00",
+            "lastCollectedAt": "2026-10-12T06:59:12+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "29047325071547233",
+            "advertiser": "Nuebetter뉴베러",
+            "startedAt": "2026-10-11",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:59:11+00:00",
+            "lastCollectedAt": "2026-10-12T06:59:11+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1627148479050464",
+            "advertiser": "Nuebetter뉴베러",
+            "startedAt": "2026-10-10",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:59:11+00:00",
+            "lastCollectedAt": "2026-10-12T06:59:11+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2262443047666073",
+            "advertiser": "뉴니크",
+            "startedAt": "2026-10-11",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:59:10+00:00",
+            "lastCollectedAt": "2026-10-12T06:59:10+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1801248067745413",
+            "advertiser": "이소영",
+            "startedAt": "2026-09-30",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:59:10+00:00",
+            "lastCollectedAt": "2026-10-12T06:59:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2013964122656645",
+            "advertiser": "온리추얼",
+            "startedAt": "2026-10-03",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:59:09+00:00",
+            "lastCollectedAt": "2026-10-12T06:59:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1427273406262413",
+            "advertiser": "건강한 체중 관리",
+            "startedAt": "2026-10-07",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:59:01+00:00",
+            "lastCollectedAt": "2026-10-12T06:59:01+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1059484473385147",
+            "advertiser": "giftcor",
+            "startedAt": "2026-09-09",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:59:01+00:00",
+            "lastCollectedAt": "2026-10-12T06:59:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1789651845685976",
+            "advertiser": "인플롭",
+            "startedAt": "2026-10-11",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:59:00+00:00",
+            "lastCollectedAt": "2026-10-12T06:59:00+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1505278981423391",
+            "advertiser": "Nuebetter뉴베러",
+            "startedAt": "2026-10-10",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:59:00+00:00",
+            "lastCollectedAt": "2026-10-12T06:59:00+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1120309117103205",
+            "advertiser": "건강한 체중 관리",
+            "startedAt": "2026-10-07",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:59:00+00:00",
+            "lastCollectedAt": "2026-10-12T06:59:00+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1612844473872359",
+            "advertiser": "Nuebetter뉴베러",
+            "startedAt": "2026-10-10",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:59+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:59+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1116306457623079",
+            "advertiser": "CJ웰케어",
+            "startedAt": "2026-10-06",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:59+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:59+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1107027072084580",
+            "advertiser": "Nuebetter뉴베러",
+            "startedAt": "2026-10-10",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:59+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:59+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2158033061478892",
+            "advertiser": "Nuebetter뉴베러",
+            "startedAt": "2026-10-10",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:58+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:58+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2001271900570608",
+            "advertiser": "Nuebetter뉴베러",
+            "startedAt": "2026-10-10",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:58+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:58+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2194222641519381",
+            "advertiser": "칼로",
+            "startedAt": "2026-10-11",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:52+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:52+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1758210828843796",
+            "advertiser": "온리추얼",
+            "startedAt": "2026-10-02",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:52+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1618366559749415",
+            "advertiser": "온리추얼",
+            "startedAt": "2026-10-02",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:52+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1831031104749673",
+            "advertiser": "온리추얼",
+            "startedAt": "2026-10-02",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:51+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1324751296398972",
+            "advertiser": "Thailoveshop",
+            "startedAt": "2026-08-19",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:51+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "941335325712280",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-30",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:33+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2376582329819706",
+            "advertiser": "온리추얼",
+            "startedAt": "2026-10-08",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:32+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:32+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "961428246461211",
+            "advertiser": "건강한 체중 관리",
+            "startedAt": "2026-10-07",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:31+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:31+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1403630078503294",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-30",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:31+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1118406600746568",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-10-06",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:31+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:31+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "28418738724462703",
+            "advertiser": "건강한 체중 관리",
+            "startedAt": "2026-10-07",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:21+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:21+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1849581636061775",
+            "advertiser": "온리추얼",
+            "startedAt": "2026-10-03",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:21+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1082326001183836",
+            "advertiser": "CJ웰케어",
+            "startedAt": "2026-09-18",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:21+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1426061019478809",
+            "advertiser": "온리추얼",
+            "startedAt": "2026-10-02",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:20+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1240521518278874",
+            "advertiser": "페이퍼백",
+            "startedAt": "2026-10-05",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:20+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:20+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1126990463067607",
+            "advertiser": "온리추얼",
+            "startedAt": "2026-10-02",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:20+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1589216289025362",
+            "advertiser": "Riallyបោះដុំផលិតផលកូរ៉េ",
+            "startedAt": "2026-10-05",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:19+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:19+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1172867711845498",
+            "advertiser": "매그니유",
+            "startedAt": "2026-10-07",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:19+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:19+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1481639670446455",
+            "advertiser": "매그니유",
+            "startedAt": "2026-10-07",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:17+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:17+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1116479707436356",
+            "advertiser": "Nuebetter뉴베러",
+            "startedAt": "2026-10-07",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:14+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:14+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "979473551180792",
+            "advertiser": "Nuebetter뉴베러",
+            "startedAt": "2026-10-07",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:09+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:09+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4414479802146140",
+            "advertiser": "꿀팁당첨",
+            "startedAt": "2026-09-29",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:08+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1823368035505090",
+            "advertiser": "온리추얼",
+            "startedAt": "2026-10-02",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:08+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1767515787805971",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-10-03",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:08+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1462738899016563",
+            "advertiser": "CJ웰케어",
+            "startedAt": "2026-09-18",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:08+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1405237431806624",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-29",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:07+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1042353671470170",
+            "advertiser": "Nông Trại Sâm Tại HÀN QUỐC",
+            "startedAt": "2026-06-29",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:07+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1405557161597845",
+            "advertiser": "giftcor",
+            "startedAt": "2026-04-17",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:06+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1280464957576855",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-28",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:06+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1077374985079698",
+            "advertiser": "꿀팁당첨",
+            "startedAt": "2026-09-29",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:06+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "932175413158135",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-28",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:01+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2535086827024633",
+            "advertiser": "CJ웰케어",
+            "startedAt": "2026-09-27",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:01+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "983538211183457",
+            "advertiser": "giftcor",
+            "startedAt": "2026-05-29",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:00+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1844230386593116",
+            "advertiser": "칼로",
+            "startedAt": "2026-10-08",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:00+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:00+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1401878351438196",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-08-27",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:57:59+00:00",
+            "lastCollectedAt": "2026-10-12T06:57:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1126338399746624",
+            "advertiser": "Nuebetter뉴베러",
+            "startedAt": "2026-09-26",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:57:59+00:00",
+            "lastCollectedAt": "2026-10-12T06:57:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1731398948005260",
+            "advertiser": "소소한푸념",
+            "startedAt": "2026-07-07",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:57:58+00:00",
+            "lastCollectedAt": "2026-10-12T06:57:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1182642493725977",
+            "advertiser": "WJIN STORE",
+            "startedAt": "2025-10-20",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:57:56+00:00",
+            "lastCollectedAt": "2026-10-12T06:57:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2134260180316627",
+            "advertiser": "",
+            "startedAt": "2025-11-01",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:57:55+00:00",
+            "lastCollectedAt": "2026-10-12T06:57:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1618842336508619",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-31",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:57:54+00:00",
+            "lastCollectedAt": "2026-10-12T06:57:54+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-12T06:59:29+00:00",
+        "advertisers": [
+          {
+            "name": "Nuebetter뉴베러",
+            "adCount": 10
+          },
+          {
+            "name": "온리추얼",
+            "adCount": 9
+          },
+          {
+            "name": "칼로",
+            "adCount": 6
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 5
+          },
+          {
+            "name": "건강한 체중 관리",
+            "adCount": 5
+          },
+          {
+            "name": "CJ웰케어",
+            "adCount": 4
+          },
+          {
+            "name": "헬스헬퍼",
+            "adCount": 4
+          },
+          {
+            "name": "giftcor",
+            "adCount": 3
+          },
+          {
+            "name": "인플롭",
+            "adCount": 3
+          },
+          {
+            "name": "꿀팁당첨",
+            "adCount": 2
+          },
+          {
+            "name": "매그니유",
+            "adCount": 2
+          },
+          {
+            "name": "Newmodern",
+            "adCount": 1
+          },
+          {
+            "name": "Nông Trại Sâm Tại HÀN QUỐC",
+            "adCount": 1
+          },
+          {
+            "name": "Riallyបោះដុំផលិតផលកូរ៉េ",
+            "adCount": 1
+          },
+          {
+            "name": "Thailoveshop",
+            "adCount": 1
+          },
+          {
+            "name": "WJIN STORE",
+            "adCount": 1
+          },
+          {
+            "name": "뉴니크",
+            "adCount": 1
+          },
+          {
+            "name": "소소한푸념",
+            "adCount": 1
+          },
+          {
+            "name": "앙또아뷰티",
+            "adCount": 1
+          },
+          {
+            "name": "이소영",
+            "adCount": 1
+          },
+          {
+            "name": "페이퍼백",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -13603,17 +14330,744 @@
       "rankWindow": 100,
       "observedAt": "2026-10-12T00:51:31+00:00",
       "lastObservedAt": "2026-10-12T00:51:31+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "2d1d2e6ec2555c5a9b5361ad68f8d36c1818dea77be2f8462dfe95f002b2fd89",
       "searchQuery": "가르시니아",
       "adEvidence": {
         "query": "가르시니아",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 64,
+        "adIds": [
+          "2336210540495124",
+          "1859785848775116",
+          "1788878242424274",
+          "1411976291045579",
+          "2297407304447601",
+          "1815825852891614",
+          "2330532494353365",
+          "2206650566923989",
+          "1762704638368167",
+          "29047325071547233",
+          "1627148479050464",
+          "2262443047666073",
+          "1801248067745413",
+          "2013964122656645",
+          "1427273406262413",
+          "1059484473385147",
+          "1789651845685976",
+          "1505278981423391",
+          "1120309117103205",
+          "1612844473872359",
+          "1116306457623079",
+          "1107027072084580",
+          "2158033061478892",
+          "2001271900570608",
+          "2194222641519381",
+          "1758210828843796",
+          "1618366559749415",
+          "1831031104749673",
+          "1324751296398972",
+          "941335325712280",
+          "2376582329819706",
+          "961428246461211",
+          "1403630078503294",
+          "1118406600746568",
+          "28418738724462703",
+          "1849581636061775",
+          "1082326001183836",
+          "1426061019478809",
+          "1240521518278874",
+          "1126990463067607",
+          "1589216289025362",
+          "1172867711845498",
+          "1481639670446455",
+          "1116479707436356",
+          "979473551180792",
+          "4414479802146140",
+          "1823368035505090",
+          "1767515787805971",
+          "1462738899016563",
+          "1405237431806624",
+          "1042353671470170",
+          "1405557161597845",
+          "1280464957576855",
+          "1077374985079698",
+          "932175413158135",
+          "2535086827024633",
+          "983538211183457",
+          "1844230386593116",
+          "1401878351438196",
+          "1126338399746624",
+          "1731398948005260",
+          "1182642493725977",
+          "2134260180316627",
+          "1618842336508619"
+        ],
+        "ads": [
+          {
+            "id": "2336210540495124",
+            "advertiser": "칼로",
+            "startedAt": "2026-10-11",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:59:29+00:00",
+            "lastCollectedAt": "2026-10-12T06:59:29+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1859785848775116",
+            "advertiser": "칼로",
+            "startedAt": "2026-10-11",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:59:29+00:00",
+            "lastCollectedAt": "2026-10-12T06:59:29+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1788878242424274",
+            "advertiser": "인플롭",
+            "startedAt": "2026-10-11",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:59:29+00:00",
+            "lastCollectedAt": "2026-10-12T06:59:29+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1411976291045579",
+            "advertiser": "인플롭",
+            "startedAt": "2026-10-11",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:59:29+00:00",
+            "lastCollectedAt": "2026-10-12T06:59:29+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2297407304447601",
+            "advertiser": "칼로",
+            "startedAt": "2026-10-11",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:59:15+00:00",
+            "lastCollectedAt": "2026-10-12T06:59:15+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1815825852891614",
+            "advertiser": "Newmodern",
+            "startedAt": "2026-10-11",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:59:15+00:00",
+            "lastCollectedAt": "2026-10-12T06:59:15+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2330532494353365",
+            "advertiser": "앙또아뷰티",
+            "startedAt": "2026-09-29",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:59:13+00:00",
+            "lastCollectedAt": "2026-10-12T06:59:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2206650566923989",
+            "advertiser": "칼로",
+            "startedAt": "2026-10-11",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:59:12+00:00",
+            "lastCollectedAt": "2026-10-12T06:59:12+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1762704638368167",
+            "advertiser": "건강한 체중 관리",
+            "startedAt": "2026-10-07",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:59:12+00:00",
+            "lastCollectedAt": "2026-10-12T06:59:12+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "29047325071547233",
+            "advertiser": "Nuebetter뉴베러",
+            "startedAt": "2026-10-11",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:59:11+00:00",
+            "lastCollectedAt": "2026-10-12T06:59:11+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1627148479050464",
+            "advertiser": "Nuebetter뉴베러",
+            "startedAt": "2026-10-10",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:59:11+00:00",
+            "lastCollectedAt": "2026-10-12T06:59:11+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2262443047666073",
+            "advertiser": "뉴니크",
+            "startedAt": "2026-10-11",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:59:10+00:00",
+            "lastCollectedAt": "2026-10-12T06:59:10+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1801248067745413",
+            "advertiser": "이소영",
+            "startedAt": "2026-09-30",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:59:10+00:00",
+            "lastCollectedAt": "2026-10-12T06:59:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2013964122656645",
+            "advertiser": "온리추얼",
+            "startedAt": "2026-10-03",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:59:09+00:00",
+            "lastCollectedAt": "2026-10-12T06:59:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1427273406262413",
+            "advertiser": "건강한 체중 관리",
+            "startedAt": "2026-10-07",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:59:01+00:00",
+            "lastCollectedAt": "2026-10-12T06:59:01+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1059484473385147",
+            "advertiser": "giftcor",
+            "startedAt": "2026-09-09",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:59:01+00:00",
+            "lastCollectedAt": "2026-10-12T06:59:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1789651845685976",
+            "advertiser": "인플롭",
+            "startedAt": "2026-10-11",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:59:00+00:00",
+            "lastCollectedAt": "2026-10-12T06:59:00+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1505278981423391",
+            "advertiser": "Nuebetter뉴베러",
+            "startedAt": "2026-10-10",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:59:00+00:00",
+            "lastCollectedAt": "2026-10-12T06:59:00+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1120309117103205",
+            "advertiser": "건강한 체중 관리",
+            "startedAt": "2026-10-07",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:59:00+00:00",
+            "lastCollectedAt": "2026-10-12T06:59:00+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1612844473872359",
+            "advertiser": "Nuebetter뉴베러",
+            "startedAt": "2026-10-10",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:59+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:59+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1116306457623079",
+            "advertiser": "CJ웰케어",
+            "startedAt": "2026-10-06",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:59+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:59+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1107027072084580",
+            "advertiser": "Nuebetter뉴베러",
+            "startedAt": "2026-10-10",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:59+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:59+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2158033061478892",
+            "advertiser": "Nuebetter뉴베러",
+            "startedAt": "2026-10-10",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:58+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:58+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2001271900570608",
+            "advertiser": "Nuebetter뉴베러",
+            "startedAt": "2026-10-10",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:58+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:58+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2194222641519381",
+            "advertiser": "칼로",
+            "startedAt": "2026-10-11",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:52+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:52+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1758210828843796",
+            "advertiser": "온리추얼",
+            "startedAt": "2026-10-02",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:52+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1618366559749415",
+            "advertiser": "온리추얼",
+            "startedAt": "2026-10-02",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:52+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1831031104749673",
+            "advertiser": "온리추얼",
+            "startedAt": "2026-10-02",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:51+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1324751296398972",
+            "advertiser": "Thailoveshop",
+            "startedAt": "2026-08-19",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:51+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "941335325712280",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-30",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:33+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2376582329819706",
+            "advertiser": "온리추얼",
+            "startedAt": "2026-10-08",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:32+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:32+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "961428246461211",
+            "advertiser": "건강한 체중 관리",
+            "startedAt": "2026-10-07",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:31+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:31+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1403630078503294",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-30",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:31+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1118406600746568",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-10-06",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:31+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:31+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "28418738724462703",
+            "advertiser": "건강한 체중 관리",
+            "startedAt": "2026-10-07",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:21+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:21+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1849581636061775",
+            "advertiser": "온리추얼",
+            "startedAt": "2026-10-03",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:21+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1082326001183836",
+            "advertiser": "CJ웰케어",
+            "startedAt": "2026-09-18",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:21+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1426061019478809",
+            "advertiser": "온리추얼",
+            "startedAt": "2026-10-02",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:20+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1240521518278874",
+            "advertiser": "페이퍼백",
+            "startedAt": "2026-10-05",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:20+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:20+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1126990463067607",
+            "advertiser": "온리추얼",
+            "startedAt": "2026-10-02",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:20+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1589216289025362",
+            "advertiser": "Riallyបោះដុំផលិតផលកូរ៉េ",
+            "startedAt": "2026-10-05",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:19+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:19+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1172867711845498",
+            "advertiser": "매그니유",
+            "startedAt": "2026-10-07",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:19+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:19+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1481639670446455",
+            "advertiser": "매그니유",
+            "startedAt": "2026-10-07",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:17+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:17+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1116479707436356",
+            "advertiser": "Nuebetter뉴베러",
+            "startedAt": "2026-10-07",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:14+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:14+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "979473551180792",
+            "advertiser": "Nuebetter뉴베러",
+            "startedAt": "2026-10-07",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:09+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:09+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4414479802146140",
+            "advertiser": "꿀팁당첨",
+            "startedAt": "2026-09-29",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:08+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1823368035505090",
+            "advertiser": "온리추얼",
+            "startedAt": "2026-10-02",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:08+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1767515787805971",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-10-03",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:08+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1462738899016563",
+            "advertiser": "CJ웰케어",
+            "startedAt": "2026-09-18",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:08+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1405237431806624",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-29",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:07+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1042353671470170",
+            "advertiser": "Nông Trại Sâm Tại HÀN QUỐC",
+            "startedAt": "2026-06-29",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:07+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1405557161597845",
+            "advertiser": "giftcor",
+            "startedAt": "2026-04-17",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:06+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1280464957576855",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-28",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:06+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1077374985079698",
+            "advertiser": "꿀팁당첨",
+            "startedAt": "2026-09-29",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:06+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "932175413158135",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-28",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:01+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2535086827024633",
+            "advertiser": "CJ웰케어",
+            "startedAt": "2026-09-27",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:01+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "983538211183457",
+            "advertiser": "giftcor",
+            "startedAt": "2026-05-29",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:00+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1844230386593116",
+            "advertiser": "칼로",
+            "startedAt": "2026-10-08",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:58:00+00:00",
+            "lastCollectedAt": "2026-10-12T06:58:00+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1401878351438196",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-08-27",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:57:59+00:00",
+            "lastCollectedAt": "2026-10-12T06:57:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1126338399746624",
+            "advertiser": "Nuebetter뉴베러",
+            "startedAt": "2026-09-26",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:57:59+00:00",
+            "lastCollectedAt": "2026-10-12T06:57:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1731398948005260",
+            "advertiser": "소소한푸념",
+            "startedAt": "2026-07-07",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:57:58+00:00",
+            "lastCollectedAt": "2026-10-12T06:57:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1182642493725977",
+            "advertiser": "WJIN STORE",
+            "startedAt": "2025-10-20",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:57:56+00:00",
+            "lastCollectedAt": "2026-10-12T06:57:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2134260180316627",
+            "advertiser": "",
+            "startedAt": "2025-11-01",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:57:55+00:00",
+            "lastCollectedAt": "2026-10-12T06:57:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1618842336508619",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-31",
+            "query": "가르시니아",
+            "firstCollectedAt": "2026-10-12T06:57:54+00:00",
+            "lastCollectedAt": "2026-10-12T06:57:54+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-12T06:59:29+00:00",
+        "advertisers": [
+          {
+            "name": "Nuebetter뉴베러",
+            "adCount": 10
+          },
+          {
+            "name": "온리추얼",
+            "adCount": 9
+          },
+          {
+            "name": "칼로",
+            "adCount": 6
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 5
+          },
+          {
+            "name": "건강한 체중 관리",
+            "adCount": 5
+          },
+          {
+            "name": "CJ웰케어",
+            "adCount": 4
+          },
+          {
+            "name": "헬스헬퍼",
+            "adCount": 4
+          },
+          {
+            "name": "giftcor",
+            "adCount": 3
+          },
+          {
+            "name": "인플롭",
+            "adCount": 3
+          },
+          {
+            "name": "꿀팁당첨",
+            "adCount": 2
+          },
+          {
+            "name": "매그니유",
+            "adCount": 2
+          },
+          {
+            "name": "Newmodern",
+            "adCount": 1
+          },
+          {
+            "name": "Nông Trại Sâm Tại HÀN QUỐC",
+            "adCount": 1
+          },
+          {
+            "name": "Riallyបោះដុំផលិតផលកូរ៉េ",
+            "adCount": 1
+          },
+          {
+            "name": "Thailoveshop",
+            "adCount": 1
+          },
+          {
+            "name": "WJIN STORE",
+            "adCount": 1
+          },
+          {
+            "name": "뉴니크",
+            "adCount": 1
+          },
+          {
+            "name": "소소한푸념",
+            "adCount": 1
+          },
+          {
+            "name": "앙또아뷰티",
+            "adCount": 1
+          },
+          {
+            "name": "이소영",
+            "adCount": 1
+          },
+          {
+            "name": "페이퍼백",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
