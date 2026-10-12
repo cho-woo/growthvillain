@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12T22:27:19+00:00",
+  "updatedAt": "2026-10-12T23:02:50+00:00",
   "autoEnabled": true,
-  "scanning": false,
+  "scanning": true,
   "lastChecked": "2026-10-12T22:02:47+00:00",
   "error": null,
   "sourceUrl": "https://datalab.naver.com/shoppingInsight/sCategory.naver",
-  "nextRunAt": "2026-10-12T23:02:47+00:00",
+  "nextRunAt": "2026-10-13T00:02:50+00:00",
   "intervalSeconds": 3600,
   "sourceCadence": "daily",
   "comparisonDays": 7,
@@ -30,7 +30,7 @@
       "error": null
     }
   ],
-  "lastAttemptAt": "2026-10-12T22:01:17+00:00",
+  "lastAttemptAt": "2026-10-12T23:02:50+00:00",
   "lastSuccessAt": "2026-10-12T22:02:47+00:00",
   "lastError": null,
   "collectionPolicy": {
@@ -41,22 +41,22 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 19,
-    "dailyRemaining": 269,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-12T22:27:19+00:00",
+    "dailyUsed": 20,
+    "dailyRemaining": 268,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
-    "enabled": true,
+    "enabled": false,
     "collectionGuard": {
-      "state": "ready",
-      "reason": null,
-      "nextAllowedAt": null,
+      "state": "failure",
+      "reason": "Meta 조회 오류 · 5분 대기 후 다음 작업 확인",
+      "nextAllowedAt": "2026-10-12T23:06:38+00:00",
       "blockedUntil": null,
       "blockStreak": 0,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": null
+    "pausedReason": "Meta 조회 오류 · 5분 대기 후 다음 작업 확인"
   },
   "settings": {
     "category": "50000023",
@@ -7783,7 +7783,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "cooldown",
+      "state": "queued",
       "keywordId": "f47080b596a394d8591b82daff5097ae52ec4b5e127b58b84f0db153556f5642",
       "searchQuery": "bnr17유산균",
       "adEvidence": {
@@ -26952,7 +26952,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-12T00:50:59+00:00",
       "lastObservedAt": "2026-10-12T22:02:03+00:00",
-      "state": "cooldown",
+      "state": "queued",
       "keywordId": "f47080b596a394d8591b82daff5097ae52ec4b5e127b58b84f0db153556f5642",
       "searchQuery": "bnr17유산균",
       "adEvidence": {
@@ -98087,7 +98087,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "cooldown",
+      "state": "backlog",
       "keywordId": "cf7f5635a38ad217a8aa25f9be3a8a95c82f08486a73664657cd7a27cab9ede4",
       "searchQuery": "침향환",
       "adEvidence": {
