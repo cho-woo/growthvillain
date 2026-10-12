@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12T08:27:34+00:00",
+  "updatedAt": "2026-10-12T08:30:07+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-12T00:51:31+00:00",
@@ -41,22 +41,22 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 31,
-    "dailyRemaining": 257,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "dailyUsed": 32,
+    "dailyRemaining": 256,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-12T09:30:07+00:00",
     "metaAutoEnabled": true,
-    "enabled": true,
+    "enabled": false,
     "collectionGuard": {
-      "state": "ready",
-      "reason": null,
-      "nextAllowedAt": null,
-      "blockedUntil": null,
-      "blockStreak": 0,
+      "state": "blocked",
+      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
+      "nextAllowedAt": "2026-10-12T09:30:07+00:00",
+      "blockedUntil": "2026-10-12T09:30:07+00:00",
+      "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": null
+    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
   },
   "settings": {
     "category": "50000023",
@@ -4981,17 +4981,560 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "9cb1d32431347f5128e3166bc157b1394b7000185bac46ab41a04ae0a5993d07",
       "searchQuery": "쏘팔메토",
       "adEvidence": {
         "query": "쏘팔메토",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 48,
+        "adIds": [
+          "2049907578992194",
+          "1316035360542492",
+          "2633393430427120",
+          "1858681495479344",
+          "1715352286227388",
+          "830770806526623",
+          "39280090714937529",
+          "1678075487159686",
+          "1417649997176080",
+          "950646808117960",
+          "1800651547792850",
+          "1710293996687317",
+          "2888220651552495",
+          "2009706659729022",
+          "986986137753999",
+          "795931700152028",
+          "1852907592646801",
+          "1946958959594431",
+          "1904872777563302",
+          "1070342699156168",
+          "1069417232614923",
+          "2620091488426286",
+          "2314083059360878",
+          "922323830678087",
+          "1471739371672828",
+          "1124516396589494",
+          "3585037845008263",
+          "1144899894865676",
+          "27915729161350598",
+          "1957593954815375",
+          "1124182867000252",
+          "28562943670012386",
+          "1647194217248376",
+          "1555950119077923",
+          "1464817085541113",
+          "1767515787805971",
+          "1438999124780212",
+          "1382118940772924",
+          "1937590927202238",
+          "3437972583077889",
+          "1040654959021182",
+          "1739530823934589",
+          "1609597334287619",
+          "1618486263132873",
+          "1404957408483798",
+          "873482225047119",
+          "3068254116713005",
+          "2082618925649980"
+        ],
+        "ads": [
+          {
+            "id": "2049907578992194",
+            "advertiser": "민가원 Mingaone",
+            "startedAt": "2026-10-07",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:29:03+00:00",
+            "lastCollectedAt": "2026-10-12T08:29:03+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1316035360542492",
+            "advertiser": "CJ웰케어",
+            "startedAt": "2026-10-11",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:29:03+00:00",
+            "lastCollectedAt": "2026-10-12T08:29:03+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2633393430427120",
+            "advertiser": "중년건강리포트",
+            "startedAt": "2026-09-27",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:29:02+00:00",
+            "lastCollectedAt": "2026-10-12T08:29:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1858681495479344",
+            "advertiser": "중년건강리포트",
+            "startedAt": "2026-09-27",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:29:02+00:00",
+            "lastCollectedAt": "2026-10-12T08:29:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1715352286227388",
+            "advertiser": "중년건강리포트",
+            "startedAt": "2026-09-27",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:29:02+00:00",
+            "lastCollectedAt": "2026-10-12T08:29:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "830770806526623",
+            "advertiser": "العناية بالبروستاتا",
+            "startedAt": "2026-06-11",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:29:01+00:00",
+            "lastCollectedAt": "2026-10-12T08:29:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "39280090714937529",
+            "advertiser": "나우푸드",
+            "startedAt": "2026-10-01",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:29:00+00:00",
+            "lastCollectedAt": "2026-10-12T08:29:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1678075487159686",
+            "advertiser": "남자의 페이지",
+            "startedAt": "2026-10-01",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:29:00+00:00",
+            "lastCollectedAt": "2026-10-12T08:29:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1417649997176080",
+            "advertiser": "Thailoveshop",
+            "startedAt": "2026-09-07",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:48+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "950646808117960",
+            "advertiser": "민가원 Mingaone",
+            "startedAt": "2026-10-07",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:28+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:28+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1800651547792850",
+            "advertiser": "중년건강리포트",
+            "startedAt": "2026-09-27",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:28+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1710293996687317",
+            "advertiser": "할인타임",
+            "startedAt": "2026-08-10",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:28+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2888220651552495",
+            "advertiser": "지앤바이오몰",
+            "startedAt": "2026-10-08",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:27+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:27+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2009706659729022",
+            "advertiser": "지앤바이오몰",
+            "startedAt": "2026-10-08",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:27+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:27+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "986986137753999",
+            "advertiser": "지앤바이오몰",
+            "startedAt": "2026-10-08",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:26+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:26+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "795931700152028",
+            "advertiser": "العناية بالبروستاتا",
+            "startedAt": "2026-06-11",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:26+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1852907592646801",
+            "advertiser": "지앤바이오몰",
+            "startedAt": "2026-10-08",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:24+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:24+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1946958959594431",
+            "advertiser": "남자의 페이지",
+            "startedAt": "2026-09-22",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:23+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1904872777563302",
+            "advertiser": "지앤바이오몰",
+            "startedAt": "2026-10-08",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:17+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:17+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1070342699156168",
+            "advertiser": "동국제약 토탈헬스케어",
+            "startedAt": "2026-10-06",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:16+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:16+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1069417232614923",
+            "advertiser": "전립선파워집중플랜",
+            "startedAt": "2026-09-14",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:16+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2620091488426286",
+            "advertiser": "지앤바이오몰",
+            "startedAt": "2026-10-08",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:15+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:15+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2314083059360878",
+            "advertiser": "전립선파워집중플랜",
+            "startedAt": "2026-09-07",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:15+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "922323830678087",
+            "advertiser": "나우푸드",
+            "startedAt": "2026-09-30",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:14+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1471739371672828",
+            "advertiser": "지앤바이오몰",
+            "startedAt": "2026-10-07",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:14+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:14+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1124516396589494",
+            "advertiser": "동국제약 토탈헬스케어",
+            "startedAt": "2026-10-06",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:14+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:14+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "3585037845008263",
+            "advertiser": "민가원 Mingaone",
+            "startedAt": "2026-10-07",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:13+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:13+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1144899894865676",
+            "advertiser": "중년건강리포트",
+            "startedAt": "2026-09-27",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:13+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27915729161350598",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-09-15",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:08+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1957593954815375",
+            "advertiser": "중년건강정보",
+            "startedAt": "2026-09-07",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:08+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1124182867000252",
+            "advertiser": "민가원 Mingaone",
+            "startedAt": "2026-10-07",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:08+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:08+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "28562943670012386",
+            "advertiser": "전립선파워집중플랜",
+            "startedAt": "2026-09-26",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:07+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1647194217248376",
+            "advertiser": "할인타임",
+            "startedAt": "2026-08-10",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:07+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1555950119077923",
+            "advertiser": "전립선파워집중플랜",
+            "startedAt": "2026-09-15",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:07+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1464817085541113",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-04",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:07+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1767515787805971",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-10-03",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:06+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1438999124780212",
+            "advertiser": "지앤바이오몰",
+            "startedAt": "2026-09-29",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:06+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1382118940772924",
+            "advertiser": "전립선파워집중플랜",
+            "startedAt": "2026-09-13",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:06+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1937590927202238",
+            "advertiser": "나우푸드",
+            "startedAt": "2026-10-01",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:01+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3437972583077889",
+            "advertiser": "지앤바이오몰",
+            "startedAt": "2026-09-29",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:00+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1040654959021182",
+            "advertiser": "지앤바이오몰",
+            "startedAt": "2026-09-29",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:00+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1739530823934589",
+            "advertiser": "Thailoveshop",
+            "startedAt": "2026-09-03",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:27:59+00:00",
+            "lastCollectedAt": "2026-10-12T08:27:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1609597334287619",
+            "advertiser": "나우푸드",
+            "startedAt": "2026-09-30",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:27:59+00:00",
+            "lastCollectedAt": "2026-10-12T08:27:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1618486263132873",
+            "advertiser": "SOPEL 쏘펠",
+            "startedAt": "2026-09-04",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:27:40+00:00",
+            "lastCollectedAt": "2026-10-12T08:27:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1404957408483798",
+            "advertiser": "지앤바이오몰",
+            "startedAt": "2026-09-29",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:27:40+00:00",
+            "lastCollectedAt": "2026-10-12T08:27:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "873482225047119",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:27:39+00:00",
+            "lastCollectedAt": "2026-10-12T08:27:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3068254116713005",
+            "advertiser": "SOPEL 쏘펠",
+            "startedAt": "2026-09-04",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:27:39+00:00",
+            "lastCollectedAt": "2026-10-12T08:27:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2082618925649980",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:27:39+00:00",
+            "lastCollectedAt": "2026-10-12T08:27:39+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-12T08:29:03+00:00",
+        "advertisers": [
+          {
+            "name": "지앤바이오몰",
+            "adCount": 11
+          },
+          {
+            "name": "전립선파워집중플랜",
+            "adCount": 5
+          },
+          {
+            "name": "중년건강리포트",
+            "adCount": 5
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 4
+          },
+          {
+            "name": "나우푸드",
+            "adCount": 4
+          },
+          {
+            "name": "민가원 Mingaone",
+            "adCount": 4
+          },
+          {
+            "name": "SOPEL 쏘펠",
+            "adCount": 2
+          },
+          {
+            "name": "Thailoveshop",
+            "adCount": 2
+          },
+          {
+            "name": "العناية بالبروستاتا",
+            "adCount": 2
+          },
+          {
+            "name": "남자의 페이지",
+            "adCount": 2
+          },
+          {
+            "name": "동국제약 토탈헬스케어",
+            "adCount": 2
+          },
+          {
+            "name": "할인타임",
+            "adCount": 2
+          },
+          {
+            "name": "CJ웰케어",
+            "adCount": 1
+          },
+          {
+            "name": "종근당",
+            "adCount": 1
+          },
+          {
+            "name": "중년건강정보",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -13111,7 +13654,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "failed",
       "keywordId": "4e2c850a7922b6b3b24baaa621773af9ef9fe74ac752284fc339a1602c8abc41",
       "searchQuery": "gph콜라겐추천",
       "adEvidence": {
@@ -20654,7 +21197,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-12T00:51:31+00:00",
       "lastObservedAt": "2026-10-12T00:51:31+00:00",
-      "state": "ready",
+      "state": "failed",
       "keywordId": "4e2c850a7922b6b3b24baaa621773af9ef9fe74ac752284fc339a1602c8abc41",
       "searchQuery": "gph콜라겐추천",
       "adEvidence": {
@@ -27403,17 +27946,560 @@
       "rankWindow": 100,
       "observedAt": "2026-10-12T00:50:59+00:00",
       "lastObservedAt": "2026-10-12T00:50:59+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "9cb1d32431347f5128e3166bc157b1394b7000185bac46ab41a04ae0a5993d07",
       "searchQuery": "쏘팔메토",
       "adEvidence": {
         "query": "쏘팔메토",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 48,
+        "adIds": [
+          "2049907578992194",
+          "1316035360542492",
+          "2633393430427120",
+          "1858681495479344",
+          "1715352286227388",
+          "830770806526623",
+          "39280090714937529",
+          "1678075487159686",
+          "1417649997176080",
+          "950646808117960",
+          "1800651547792850",
+          "1710293996687317",
+          "2888220651552495",
+          "2009706659729022",
+          "986986137753999",
+          "795931700152028",
+          "1852907592646801",
+          "1946958959594431",
+          "1904872777563302",
+          "1070342699156168",
+          "1069417232614923",
+          "2620091488426286",
+          "2314083059360878",
+          "922323830678087",
+          "1471739371672828",
+          "1124516396589494",
+          "3585037845008263",
+          "1144899894865676",
+          "27915729161350598",
+          "1957593954815375",
+          "1124182867000252",
+          "28562943670012386",
+          "1647194217248376",
+          "1555950119077923",
+          "1464817085541113",
+          "1767515787805971",
+          "1438999124780212",
+          "1382118940772924",
+          "1937590927202238",
+          "3437972583077889",
+          "1040654959021182",
+          "1739530823934589",
+          "1609597334287619",
+          "1618486263132873",
+          "1404957408483798",
+          "873482225047119",
+          "3068254116713005",
+          "2082618925649980"
+        ],
+        "ads": [
+          {
+            "id": "2049907578992194",
+            "advertiser": "민가원 Mingaone",
+            "startedAt": "2026-10-07",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:29:03+00:00",
+            "lastCollectedAt": "2026-10-12T08:29:03+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1316035360542492",
+            "advertiser": "CJ웰케어",
+            "startedAt": "2026-10-11",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:29:03+00:00",
+            "lastCollectedAt": "2026-10-12T08:29:03+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2633393430427120",
+            "advertiser": "중년건강리포트",
+            "startedAt": "2026-09-27",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:29:02+00:00",
+            "lastCollectedAt": "2026-10-12T08:29:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1858681495479344",
+            "advertiser": "중년건강리포트",
+            "startedAt": "2026-09-27",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:29:02+00:00",
+            "lastCollectedAt": "2026-10-12T08:29:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1715352286227388",
+            "advertiser": "중년건강리포트",
+            "startedAt": "2026-09-27",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:29:02+00:00",
+            "lastCollectedAt": "2026-10-12T08:29:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "830770806526623",
+            "advertiser": "العناية بالبروستاتا",
+            "startedAt": "2026-06-11",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:29:01+00:00",
+            "lastCollectedAt": "2026-10-12T08:29:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "39280090714937529",
+            "advertiser": "나우푸드",
+            "startedAt": "2026-10-01",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:29:00+00:00",
+            "lastCollectedAt": "2026-10-12T08:29:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1678075487159686",
+            "advertiser": "남자의 페이지",
+            "startedAt": "2026-10-01",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:29:00+00:00",
+            "lastCollectedAt": "2026-10-12T08:29:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1417649997176080",
+            "advertiser": "Thailoveshop",
+            "startedAt": "2026-09-07",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:48+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "950646808117960",
+            "advertiser": "민가원 Mingaone",
+            "startedAt": "2026-10-07",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:28+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:28+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1800651547792850",
+            "advertiser": "중년건강리포트",
+            "startedAt": "2026-09-27",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:28+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1710293996687317",
+            "advertiser": "할인타임",
+            "startedAt": "2026-08-10",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:28+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2888220651552495",
+            "advertiser": "지앤바이오몰",
+            "startedAt": "2026-10-08",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:27+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:27+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2009706659729022",
+            "advertiser": "지앤바이오몰",
+            "startedAt": "2026-10-08",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:27+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:27+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "986986137753999",
+            "advertiser": "지앤바이오몰",
+            "startedAt": "2026-10-08",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:26+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:26+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "795931700152028",
+            "advertiser": "العناية بالبروستاتا",
+            "startedAt": "2026-06-11",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:26+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1852907592646801",
+            "advertiser": "지앤바이오몰",
+            "startedAt": "2026-10-08",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:24+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:24+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1946958959594431",
+            "advertiser": "남자의 페이지",
+            "startedAt": "2026-09-22",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:23+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1904872777563302",
+            "advertiser": "지앤바이오몰",
+            "startedAt": "2026-10-08",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:17+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:17+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1070342699156168",
+            "advertiser": "동국제약 토탈헬스케어",
+            "startedAt": "2026-10-06",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:16+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:16+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1069417232614923",
+            "advertiser": "전립선파워집중플랜",
+            "startedAt": "2026-09-14",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:16+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2620091488426286",
+            "advertiser": "지앤바이오몰",
+            "startedAt": "2026-10-08",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:15+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:15+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2314083059360878",
+            "advertiser": "전립선파워집중플랜",
+            "startedAt": "2026-09-07",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:15+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "922323830678087",
+            "advertiser": "나우푸드",
+            "startedAt": "2026-09-30",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:14+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1471739371672828",
+            "advertiser": "지앤바이오몰",
+            "startedAt": "2026-10-07",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:14+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:14+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1124516396589494",
+            "advertiser": "동국제약 토탈헬스케어",
+            "startedAt": "2026-10-06",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:14+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:14+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "3585037845008263",
+            "advertiser": "민가원 Mingaone",
+            "startedAt": "2026-10-07",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:13+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:13+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1144899894865676",
+            "advertiser": "중년건강리포트",
+            "startedAt": "2026-09-27",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:13+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27915729161350598",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-09-15",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:08+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1957593954815375",
+            "advertiser": "중년건강정보",
+            "startedAt": "2026-09-07",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:08+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1124182867000252",
+            "advertiser": "민가원 Mingaone",
+            "startedAt": "2026-10-07",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:08+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:08+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "28562943670012386",
+            "advertiser": "전립선파워집중플랜",
+            "startedAt": "2026-09-26",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:07+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1647194217248376",
+            "advertiser": "할인타임",
+            "startedAt": "2026-08-10",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:07+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1555950119077923",
+            "advertiser": "전립선파워집중플랜",
+            "startedAt": "2026-09-15",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:07+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1464817085541113",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-04",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:07+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1767515787805971",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-10-03",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:06+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1438999124780212",
+            "advertiser": "지앤바이오몰",
+            "startedAt": "2026-09-29",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:06+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1382118940772924",
+            "advertiser": "전립선파워집중플랜",
+            "startedAt": "2026-09-13",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:06+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1937590927202238",
+            "advertiser": "나우푸드",
+            "startedAt": "2026-10-01",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:01+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3437972583077889",
+            "advertiser": "지앤바이오몰",
+            "startedAt": "2026-09-29",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:00+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1040654959021182",
+            "advertiser": "지앤바이오몰",
+            "startedAt": "2026-09-29",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:28:00+00:00",
+            "lastCollectedAt": "2026-10-12T08:28:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1739530823934589",
+            "advertiser": "Thailoveshop",
+            "startedAt": "2026-09-03",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:27:59+00:00",
+            "lastCollectedAt": "2026-10-12T08:27:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1609597334287619",
+            "advertiser": "나우푸드",
+            "startedAt": "2026-09-30",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:27:59+00:00",
+            "lastCollectedAt": "2026-10-12T08:27:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1618486263132873",
+            "advertiser": "SOPEL 쏘펠",
+            "startedAt": "2026-09-04",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:27:40+00:00",
+            "lastCollectedAt": "2026-10-12T08:27:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1404957408483798",
+            "advertiser": "지앤바이오몰",
+            "startedAt": "2026-09-29",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:27:40+00:00",
+            "lastCollectedAt": "2026-10-12T08:27:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "873482225047119",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:27:39+00:00",
+            "lastCollectedAt": "2026-10-12T08:27:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3068254116713005",
+            "advertiser": "SOPEL 쏘펠",
+            "startedAt": "2026-09-04",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:27:39+00:00",
+            "lastCollectedAt": "2026-10-12T08:27:39+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2082618925649980",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "쏘팔메토",
+            "firstCollectedAt": "2026-10-12T08:27:39+00:00",
+            "lastCollectedAt": "2026-10-12T08:27:39+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-12T08:29:03+00:00",
+        "advertisers": [
+          {
+            "name": "지앤바이오몰",
+            "adCount": 11
+          },
+          {
+            "name": "전립선파워집중플랜",
+            "adCount": 5
+          },
+          {
+            "name": "중년건강리포트",
+            "adCount": 5
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 4
+          },
+          {
+            "name": "나우푸드",
+            "adCount": 4
+          },
+          {
+            "name": "민가원 Mingaone",
+            "adCount": 4
+          },
+          {
+            "name": "SOPEL 쏘펠",
+            "adCount": 2
+          },
+          {
+            "name": "Thailoveshop",
+            "adCount": 2
+          },
+          {
+            "name": "العناية بالبروستاتا",
+            "adCount": 2
+          },
+          {
+            "name": "남자의 페이지",
+            "adCount": 2
+          },
+          {
+            "name": "동국제약 토탈헬스케어",
+            "adCount": 2
+          },
+          {
+            "name": "할인타임",
+            "adCount": 2
+          },
+          {
+            "name": "CJ웰케어",
+            "adCount": 1
+          },
+          {
+            "name": "종근당",
+            "adCount": 1
+          },
+          {
+            "name": "중년건강정보",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
