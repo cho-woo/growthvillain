@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12T13:22:47+00:00",
+  "updatedAt": "2026-10-12T13:26:00+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-12T00:51:31+00:00",
@@ -41,8 +41,8 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 39,
-    "dailyRemaining": 249,
+    "dailyUsed": 40,
+    "dailyRemaining": 248,
     "pending": 1,
     "nextDispatchAt": null,
     "metaAutoEnabled": true,
@@ -8018,17 +8018,258 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "002f1703b37f6570f534fd8d93b642e3fb7d7c1311a7882ee4c0e54b25d28cf3",
       "searchQuery": "양배추즙",
       "adEvidence": {
         "query": "양배추즙",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 19,
+        "adIds": [
+          "1757086762271555",
+          "1110657377988277",
+          "4394931584052042",
+          "3603099203191704",
+          "1790061038683611",
+          "1120323187234926",
+          "2919898508345335",
+          "1947853025898747",
+          "1456488653008222",
+          "1026250937086795",
+          "3640855399400137",
+          "1680631870288089",
+          "1125563523235208",
+          "1096836599514673",
+          "1058720607047359",
+          "927076083808705",
+          "2275108373345003",
+          "1806099700608888",
+          "1414442646686210"
+        ],
+        "ads": [
+          {
+            "id": "1757086762271555",
+            "advertiser": "યગન",
+            "startedAt": "2026-08-11",
+            "query": "양배추즙",
+            "firstCollectedAt": "2026-10-12T13:25:33+00:00",
+            "lastCollectedAt": "2026-10-12T13:25:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1110657377988277",
+            "advertiser": "인스타그램",
+            "startedAt": "2026-10-11",
+            "query": "양배추즙",
+            "firstCollectedAt": "2026-10-12T13:25:33+00:00",
+            "lastCollectedAt": "2026-10-12T13:25:33+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4394931584052042",
+            "advertiser": "1급 비밀",
+            "startedAt": "2026-10-04",
+            "query": "양배추즙",
+            "firstCollectedAt": "2026-10-12T13:25:32+00:00",
+            "lastCollectedAt": "2026-10-12T13:25:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3603099203191704",
+            "advertiser": "ヱસુન",
+            "startedAt": "2026-08-11",
+            "query": "양배추즙",
+            "firstCollectedAt": "2026-10-12T13:25:32+00:00",
+            "lastCollectedAt": "2026-10-12T13:25:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1790061038683611",
+            "advertiser": "청담마법",
+            "startedAt": "2026-09-22",
+            "query": "양배추즙",
+            "firstCollectedAt": "2026-10-12T13:25:32+00:00",
+            "lastCollectedAt": "2026-10-12T13:25:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1120323187234926",
+            "advertiser": "1급 비밀",
+            "startedAt": "2026-09-20",
+            "query": "양배추즙",
+            "firstCollectedAt": "2026-10-12T13:25:32+00:00",
+            "lastCollectedAt": "2026-10-12T13:25:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2919898508345335",
+            "advertiser": "ગヱ⩟",
+            "startedAt": "2026-08-11",
+            "query": "양배추즙",
+            "firstCollectedAt": "2026-10-12T13:25:31+00:00",
+            "lastCollectedAt": "2026-10-12T13:25:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1947853025898747",
+            "advertiser": "ગヱ⩟",
+            "startedAt": "2026-08-11",
+            "query": "양배추즙",
+            "firstCollectedAt": "2026-10-12T13:25:31+00:00",
+            "lastCollectedAt": "2026-10-12T13:25:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1456488653008222",
+            "advertiser": "낫띵베럴",
+            "startedAt": "2026-10-09",
+            "query": "양배추즙",
+            "firstCollectedAt": "2026-10-12T13:25:31+00:00",
+            "lastCollectedAt": "2026-10-12T13:25:31+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1026250937086795",
+            "advertiser": "1급 비밀",
+            "startedAt": "2026-10-05",
+            "query": "양배추즙",
+            "firstCollectedAt": "2026-10-12T13:25:20+00:00",
+            "lastCollectedAt": "2026-10-12T13:25:20+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "3640855399400137",
+            "advertiser": "핫꿀템 hotititem",
+            "startedAt": "2026-10-06",
+            "query": "양배추즙",
+            "firstCollectedAt": "2026-10-12T13:25:19+00:00",
+            "lastCollectedAt": "2026-10-12T13:25:19+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1680631870288089",
+            "advertiser": "1급 비밀",
+            "startedAt": "2026-10-04",
+            "query": "양배추즙",
+            "firstCollectedAt": "2026-10-12T13:25:19+00:00",
+            "lastCollectedAt": "2026-10-12T13:25:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1125563523235208",
+            "advertiser": "미스터블루",
+            "startedAt": "2026-10-02",
+            "query": "양배추즙",
+            "firstCollectedAt": "2026-10-12T13:25:18+00:00",
+            "lastCollectedAt": "2026-10-12T13:25:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1096836599514673",
+            "advertiser": "Naring_e",
+            "startedAt": "2026-09-11",
+            "query": "양배추즙",
+            "firstCollectedAt": "2026-10-12T13:25:18+00:00",
+            "lastCollectedAt": "2026-10-12T13:25:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1058720607047359",
+            "advertiser": "비헬씨어",
+            "startedAt": "2026-09-22",
+            "query": "양배추즙",
+            "firstCollectedAt": "2026-10-12T13:25:18+00:00",
+            "lastCollectedAt": "2026-10-12T13:25:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "927076083808705",
+            "advertiser": "케어웰",
+            "startedAt": "2026-09-08",
+            "query": "양배추즙",
+            "firstCollectedAt": "2026-10-12T13:25:17+00:00",
+            "lastCollectedAt": "2026-10-12T13:25:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2275108373345003",
+            "advertiser": "미스터블루",
+            "startedAt": "2026-09-30",
+            "query": "양배추즙",
+            "firstCollectedAt": "2026-10-12T13:25:17+00:00",
+            "lastCollectedAt": "2026-10-12T13:25:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1806099700608888",
+            "advertiser": "1급 비밀",
+            "startedAt": "2026-09-20",
+            "query": "양배추즙",
+            "firstCollectedAt": "2026-10-12T13:25:16+00:00",
+            "lastCollectedAt": "2026-10-12T13:25:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1414442646686210",
+            "advertiser": "미스터블루",
+            "startedAt": "2026-09-24",
+            "query": "양배추즙",
+            "firstCollectedAt": "2026-10-12T13:25:16+00:00",
+            "lastCollectedAt": "2026-10-12T13:25:16+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-12T13:25:33+00:00",
+        "advertisers": [
+          {
+            "name": "1급 비밀",
+            "adCount": 5
+          },
+          {
+            "name": "미스터블루",
+            "adCount": 3
+          },
+          {
+            "name": "ગヱ⩟",
+            "adCount": 2
+          },
+          {
+            "name": "Naring_e",
+            "adCount": 1
+          },
+          {
+            "name": "યગન",
+            "adCount": 1
+          },
+          {
+            "name": "ヱસુન",
+            "adCount": 1
+          },
+          {
+            "name": "낫띵베럴",
+            "adCount": 1
+          },
+          {
+            "name": "비헬씨어",
+            "adCount": 1
+          },
+          {
+            "name": "인스타그램",
+            "adCount": 1
+          },
+          {
+            "name": "청담마법",
+            "adCount": 1
+          },
+          {
+            "name": "케어웰",
+            "adCount": 1
+          },
+          {
+            "name": "핫꿀템 hotititem",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -8239,7 +8480,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "queued",
       "keywordId": "8ef853689a1a2d52e49fdcb10874dedb82ea2309e0c122e06b6f762c6a9f128c",
       "searchQuery": "pqq",
       "adEvidence": {
@@ -22566,17 +22807,258 @@
       "rankWindow": 100,
       "observedAt": "2026-10-12T00:50:59+00:00",
       "lastObservedAt": "2026-10-12T00:50:59+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "002f1703b37f6570f534fd8d93b642e3fb7d7c1311a7882ee4c0e54b25d28cf3",
       "searchQuery": "양배추즙",
       "adEvidence": {
         "query": "양배추즙",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 19,
+        "adIds": [
+          "1757086762271555",
+          "1110657377988277",
+          "4394931584052042",
+          "3603099203191704",
+          "1790061038683611",
+          "1120323187234926",
+          "2919898508345335",
+          "1947853025898747",
+          "1456488653008222",
+          "1026250937086795",
+          "3640855399400137",
+          "1680631870288089",
+          "1125563523235208",
+          "1096836599514673",
+          "1058720607047359",
+          "927076083808705",
+          "2275108373345003",
+          "1806099700608888",
+          "1414442646686210"
+        ],
+        "ads": [
+          {
+            "id": "1757086762271555",
+            "advertiser": "યગન",
+            "startedAt": "2026-08-11",
+            "query": "양배추즙",
+            "firstCollectedAt": "2026-10-12T13:25:33+00:00",
+            "lastCollectedAt": "2026-10-12T13:25:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1110657377988277",
+            "advertiser": "인스타그램",
+            "startedAt": "2026-10-11",
+            "query": "양배추즙",
+            "firstCollectedAt": "2026-10-12T13:25:33+00:00",
+            "lastCollectedAt": "2026-10-12T13:25:33+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4394931584052042",
+            "advertiser": "1급 비밀",
+            "startedAt": "2026-10-04",
+            "query": "양배추즙",
+            "firstCollectedAt": "2026-10-12T13:25:32+00:00",
+            "lastCollectedAt": "2026-10-12T13:25:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3603099203191704",
+            "advertiser": "ヱસુન",
+            "startedAt": "2026-08-11",
+            "query": "양배추즙",
+            "firstCollectedAt": "2026-10-12T13:25:32+00:00",
+            "lastCollectedAt": "2026-10-12T13:25:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1790061038683611",
+            "advertiser": "청담마법",
+            "startedAt": "2026-09-22",
+            "query": "양배추즙",
+            "firstCollectedAt": "2026-10-12T13:25:32+00:00",
+            "lastCollectedAt": "2026-10-12T13:25:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1120323187234926",
+            "advertiser": "1급 비밀",
+            "startedAt": "2026-09-20",
+            "query": "양배추즙",
+            "firstCollectedAt": "2026-10-12T13:25:32+00:00",
+            "lastCollectedAt": "2026-10-12T13:25:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2919898508345335",
+            "advertiser": "ગヱ⩟",
+            "startedAt": "2026-08-11",
+            "query": "양배추즙",
+            "firstCollectedAt": "2026-10-12T13:25:31+00:00",
+            "lastCollectedAt": "2026-10-12T13:25:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1947853025898747",
+            "advertiser": "ગヱ⩟",
+            "startedAt": "2026-08-11",
+            "query": "양배추즙",
+            "firstCollectedAt": "2026-10-12T13:25:31+00:00",
+            "lastCollectedAt": "2026-10-12T13:25:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1456488653008222",
+            "advertiser": "낫띵베럴",
+            "startedAt": "2026-10-09",
+            "query": "양배추즙",
+            "firstCollectedAt": "2026-10-12T13:25:31+00:00",
+            "lastCollectedAt": "2026-10-12T13:25:31+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1026250937086795",
+            "advertiser": "1급 비밀",
+            "startedAt": "2026-10-05",
+            "query": "양배추즙",
+            "firstCollectedAt": "2026-10-12T13:25:20+00:00",
+            "lastCollectedAt": "2026-10-12T13:25:20+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "3640855399400137",
+            "advertiser": "핫꿀템 hotititem",
+            "startedAt": "2026-10-06",
+            "query": "양배추즙",
+            "firstCollectedAt": "2026-10-12T13:25:19+00:00",
+            "lastCollectedAt": "2026-10-12T13:25:19+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1680631870288089",
+            "advertiser": "1급 비밀",
+            "startedAt": "2026-10-04",
+            "query": "양배추즙",
+            "firstCollectedAt": "2026-10-12T13:25:19+00:00",
+            "lastCollectedAt": "2026-10-12T13:25:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1125563523235208",
+            "advertiser": "미스터블루",
+            "startedAt": "2026-10-02",
+            "query": "양배추즙",
+            "firstCollectedAt": "2026-10-12T13:25:18+00:00",
+            "lastCollectedAt": "2026-10-12T13:25:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1096836599514673",
+            "advertiser": "Naring_e",
+            "startedAt": "2026-09-11",
+            "query": "양배추즙",
+            "firstCollectedAt": "2026-10-12T13:25:18+00:00",
+            "lastCollectedAt": "2026-10-12T13:25:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1058720607047359",
+            "advertiser": "비헬씨어",
+            "startedAt": "2026-09-22",
+            "query": "양배추즙",
+            "firstCollectedAt": "2026-10-12T13:25:18+00:00",
+            "lastCollectedAt": "2026-10-12T13:25:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "927076083808705",
+            "advertiser": "케어웰",
+            "startedAt": "2026-09-08",
+            "query": "양배추즙",
+            "firstCollectedAt": "2026-10-12T13:25:17+00:00",
+            "lastCollectedAt": "2026-10-12T13:25:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2275108373345003",
+            "advertiser": "미스터블루",
+            "startedAt": "2026-09-30",
+            "query": "양배추즙",
+            "firstCollectedAt": "2026-10-12T13:25:17+00:00",
+            "lastCollectedAt": "2026-10-12T13:25:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1806099700608888",
+            "advertiser": "1급 비밀",
+            "startedAt": "2026-09-20",
+            "query": "양배추즙",
+            "firstCollectedAt": "2026-10-12T13:25:16+00:00",
+            "lastCollectedAt": "2026-10-12T13:25:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1414442646686210",
+            "advertiser": "미스터블루",
+            "startedAt": "2026-09-24",
+            "query": "양배추즙",
+            "firstCollectedAt": "2026-10-12T13:25:16+00:00",
+            "lastCollectedAt": "2026-10-12T13:25:16+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-12T13:25:33+00:00",
+        "advertisers": [
+          {
+            "name": "1급 비밀",
+            "adCount": 5
+          },
+          {
+            "name": "미스터블루",
+            "adCount": 3
+          },
+          {
+            "name": "ગヱ⩟",
+            "adCount": 2
+          },
+          {
+            "name": "Naring_e",
+            "adCount": 1
+          },
+          {
+            "name": "યગન",
+            "adCount": 1
+          },
+          {
+            "name": "ヱસુન",
+            "adCount": 1
+          },
+          {
+            "name": "낫띵베럴",
+            "adCount": 1
+          },
+          {
+            "name": "비헬씨어",
+            "adCount": 1
+          },
+          {
+            "name": "인스타그램",
+            "adCount": 1
+          },
+          {
+            "name": "청담마법",
+            "adCount": 1
+          },
+          {
+            "name": "케어웰",
+            "adCount": 1
+          },
+          {
+            "name": "핫꿀템 hotititem",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -29414,7 +29896,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-12T00:50:59+00:00",
       "lastObservedAt": "2026-10-12T00:50:59+00:00",
-      "state": "ready",
+      "state": "queued",
       "keywordId": "8ef853689a1a2d52e49fdcb10874dedb82ea2309e0c122e06b6f762c6a9f128c",
       "searchQuery": "pqq",
       "adEvidence": {
