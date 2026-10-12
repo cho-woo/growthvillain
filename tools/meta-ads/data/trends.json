@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12T20:26:13+00:00",
+  "updatedAt": "2026-10-12T20:30:39+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-12T19:59:42+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 15,
-    "dailyRemaining": 273,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-12T20:30:38+00:00",
+    "dailyUsed": 16,
+    "dailyRemaining": 272,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -10451,7 +10451,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "5bd1269b11fc4c7c128e36854805a009bde2de968bbe5ddf287cab7bdb1bd6d8",
       "searchQuery": "dem",
       "adEvidence": {
@@ -34465,7 +34465,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-12T00:50:59+00:00",
       "lastObservedAt": "2026-10-12T19:58:59+00:00",
-      "state": "backlog",
+      "state": "queued",
       "keywordId": "5bd1269b11fc4c7c128e36854805a009bde2de968bbe5ddf287cab7bdb1bd6d8",
       "searchQuery": "dem",
       "adEvidence": {
