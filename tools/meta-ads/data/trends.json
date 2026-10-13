@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-13T03:19:54+00:00",
+  "updatedAt": "2026-10-13T03:28:05+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-13T01:06:58+00:00",
@@ -41,8 +41,8 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 24,
-    "dailyRemaining": 264,
+    "dailyUsed": 25,
+    "dailyRemaining": 263,
     "pending": 1,
     "nextDispatchAt": null,
     "metaAutoEnabled": true,
@@ -52,7 +52,7 @@
       "reason": null,
       "nextAllowedAt": null,
       "blockedUntil": null,
-      "blockStreak": 1,
+      "blockStreak": 0,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
@@ -423,17 +423,960 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "a39be9bd6d9d6a860ae7270939ead044979ec53f5cdb41995f64e375f4b28bdf",
       "searchQuery": "종합비타민",
       "adEvidence": {
         "query": "종합비타민",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 82,
+        "adIds": [
+          "2066338744003560",
+          "2628308907621882",
+          "1812960216375709",
+          "1623289142706408",
+          "1375548181019024",
+          "1843838566608304",
+          "1582547110551826",
+          "1538710074951729",
+          "1417339106513997",
+          "1127491076632279",
+          "1111426211856392",
+          "4680547002232160",
+          "39217160094595912",
+          "2160137008274396",
+          "2042114649787946",
+          "1386870740266664",
+          "1101360649515549",
+          "1418943970304216",
+          "941517338639694",
+          "1637046038152693",
+          "1554780766334795",
+          "1266981356507900",
+          "2183517985561823",
+          "1799395347770178",
+          "1646808770390114",
+          "1121715110810041",
+          "1095953910036705",
+          "1032752813116852",
+          "1005101619268275",
+          "2825151741187701",
+          "1582481416900239",
+          "1071003442542815",
+          "1996557697703113",
+          "1454576896540044",
+          "1089230377148699",
+          "2339637116849119",
+          "1627584692113556",
+          "1142197518467766",
+          "966385073181789",
+          "1126279619744495",
+          "3101464313394557",
+          "1980258369598732",
+          "1627039032130541",
+          "2120866958521333",
+          "1991777658180647",
+          "28784343324515988",
+          "1881565796554328",
+          "1450856199748375",
+          "1114242311115806",
+          "4704099336539195",
+          "1375617307664687",
+          "1032075589849228",
+          "1896205695130300",
+          "1544626146878816",
+          "2523223221480522",
+          "2267973067319877",
+          "1706344177299121",
+          "1910863886555882",
+          "1039445128927318",
+          "1652310056456788",
+          "1573939653835719",
+          "1051361214531634",
+          "1695862248168366",
+          "1834451364380975",
+          "1807944577298067",
+          "1764353264602865",
+          "1767240274426523",
+          "1054772160797834",
+          "2623795541408098",
+          "1601775114917007",
+          "4434025223512563",
+          "1005503098112716",
+          "4209897466005732",
+          "788444230785758",
+          "1343140204395338",
+          "1221431276729151",
+          "835012675623544",
+          "1100176535827348",
+          "976905145236342",
+          "1168390098761351",
+          "1051851400840869",
+          "29376720588597107"
+        ],
+        "ads": [
+          {
+            "id": "2066338744003560",
+            "advertiser": "Linnov",
+            "startedAt": "2026-10-12",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:33+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:33+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2628308907621882",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-10-11",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:31+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:31+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1812960216375709",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-10-11",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:17+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:17+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1623289142706408",
+            "advertiser": "고려은단헬스케어",
+            "startedAt": "2026-09-30",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:17+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1375548181019024",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-10-11",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:17+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:17+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1843838566608304",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-10-11",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:16+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:16+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1582547110551826",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-10-06",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:16+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:16+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1538710074951729",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-10-11",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:16+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:16+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1417339106513997",
+            "advertiser": "정담건강",
+            "startedAt": "2026-10-12",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:16+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:16+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1127491076632279",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-10-11",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:16+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:16+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1111426211856392",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-10-11",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:16+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:16+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4680547002232160",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-10-11",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:15+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:15+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "39217160094595912",
+            "advertiser": "무신사",
+            "startedAt": "2026-10-12",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:07+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:07+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2160137008274396",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-27",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:07+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2042114649787946",
+            "advertiser": "고려은단헬스케어",
+            "startedAt": "2026-09-30",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:07+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1386870740266664",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-27",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:07+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1101360649515549",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-27",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:07+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1418943970304216",
+            "advertiser": "presolar_official",
+            "startedAt": "2026-10-11",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:06+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:06+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "941517338639694",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-10-09",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:05+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:05+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1637046038152693",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-10-11",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:05+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:05+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1554780766334795",
+            "advertiser": "아빠의 약속",
+            "startedAt": "2026-08-31",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:05+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1266981356507900",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-27",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:05+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2183517985561823",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-10-09",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:56+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:56+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1799395347770178",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-10-11",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:56+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:56+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1646808770390114",
+            "advertiser": "대다모",
+            "startedAt": "2026-10-07",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:55+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:55+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1121715110810041",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-27",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:55+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1095953910036705",
+            "advertiser": "rider_nging",
+            "startedAt": "2026-09-21",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:55+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1032752813116852",
+            "advertiser": "유니약사",
+            "startedAt": "2026-10-12",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:54+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1005101619268275",
+            "advertiser": "위타민",
+            "startedAt": "2026-10-06",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:54+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2825151741187701",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-27",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:52+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1582481416900239",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-30",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:52+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1071003442542815",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-08-10",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:51+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1996557697703113",
+            "advertiser": "위타민",
+            "startedAt": "2026-10-06",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:44+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:44+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1454576896540044",
+            "advertiser": "고려은단헬스케어",
+            "startedAt": "2026-10-03",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:44+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1089230377148699",
+            "advertiser": "위타민",
+            "startedAt": "2026-10-11",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:44+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:44+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2339637116849119",
+            "advertiser": "고려은단헬스케어",
+            "startedAt": "2026-09-30",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:43+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1627584692113556",
+            "advertiser": "위타민",
+            "startedAt": "2026-10-06",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:43+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1142197518467766",
+            "advertiser": "위키약사official",
+            "startedAt": "2026-10-11",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:43+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "966385073181789",
+            "advertiser": "",
+            "startedAt": "2026-10-09",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:42+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:42+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1126279619744495",
+            "advertiser": "pm_705",
+            "startedAt": "2026-09-30",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:42+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3101464313394557",
+            "advertiser": "Denps - 덴프스",
+            "startedAt": "2026-10-05",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:41+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1980258369598732",
+            "advertiser": "Wellnessgirl12",
+            "startedAt": "2026-10-08",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:41+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:41+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1627039032130541",
+            "advertiser": "율맘",
+            "startedAt": "2026-09-30",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:34+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2120866958521333",
+            "advertiser": "Kisuk_mj",
+            "startedAt": "2026-09-30",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:33+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1991777658180647",
+            "advertiser": "Denps - 덴프스",
+            "startedAt": "2026-10-05",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:33+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28784343324515988",
+            "advertiser": "옐로우니",
+            "startedAt": "2026-09-30",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:32+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1881565796554328",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-30",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:32+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1450856199748375",
+            "advertiser": "링포텐",
+            "startedAt": "2026-04-21",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:32+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1114242311115806",
+            "advertiser": "쀼약사네",
+            "startedAt": "2026-10-08",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:32+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:32+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4704099336539195",
+            "advertiser": "건강꿀팁",
+            "startedAt": "2026-09-14",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:29+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1375617307664687",
+            "advertiser": "율맘",
+            "startedAt": "2026-09-14",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:29+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1032075589849228",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-27",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:28+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1896205695130300",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-27",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:22+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1544626146878816",
+            "advertiser": "아빠의 마음으로 만든, 쁘띠앤",
+            "startedAt": "2026-09-05",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:22+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2523223221480522",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-08-10",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:21+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2267973067319877",
+            "advertiser": "약사비책",
+            "startedAt": "2026-10-04",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:21+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1706344177299121",
+            "advertiser": "건강꿀팁",
+            "startedAt": "2026-08-14",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:21+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1910863886555882",
+            "advertiser": "",
+            "startedAt": "2026-09-14",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:18+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1039445128927318",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-27",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:18+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1652310056456788",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-09-13",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:17+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1573939653835719",
+            "advertiser": "고려은단헬스케어",
+            "startedAt": "2026-09-30",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:17+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1051361214531634",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-08-10",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:17+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1695862248168366",
+            "advertiser": "건강꿀팁",
+            "startedAt": "2026-09-12",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:10+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1834451364380975",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-27",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:09+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1807944577298067",
+            "advertiser": "고려은단헬스케어",
+            "startedAt": "2026-09-30",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:09+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1764353264602865",
+            "advertiser": "건강꿀팁",
+            "startedAt": "2026-08-14",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:09+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1767240274426523",
+            "advertiser": "yolangyolang",
+            "startedAt": "2026-09-14",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:07+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1054772160797834",
+            "advertiser": "presolar_official",
+            "startedAt": "2026-09-03",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:07+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2623795541408098",
+            "advertiser": "건강꿀팁",
+            "startedAt": "2026-08-20",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:06+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1601775114917007",
+            "advertiser": "아빠의 마음으로 만든, 쁘띠앤",
+            "startedAt": "2026-09-03",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:06+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4434025223512563",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-08-10",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:05+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1005503098112716",
+            "advertiser": "빨강제약",
+            "startedAt": "2025-03-03",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:04+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4209897466005732",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-04-07",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:00+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "788444230785758",
+            "advertiser": "링포텐",
+            "startedAt": "2026-04-20",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:25:59+00:00",
+            "lastCollectedAt": "2026-10-13T03:25:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1343140204395338",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-05-21",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:25:59+00:00",
+            "lastCollectedAt": "2026-10-13T03:25:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1221431276729151",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-04-07",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:25:59+00:00",
+            "lastCollectedAt": "2026-10-13T03:25:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "835012675623544",
+            "advertiser": "익스트림 Extreme",
+            "startedAt": "2025-10-16",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:25:58+00:00",
+            "lastCollectedAt": "2026-10-13T03:25:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1100176535827348",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-06",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:25:58+00:00",
+            "lastCollectedAt": "2026-10-13T03:25:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "976905145236342",
+            "advertiser": "마더스올",
+            "startedAt": "2026-05-29",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:25:57+00:00",
+            "lastCollectedAt": "2026-10-13T03:25:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1168390098761351",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-01",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:25:57+00:00",
+            "lastCollectedAt": "2026-10-13T03:25:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1051851400840869",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-30",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:25:57+00:00",
+            "lastCollectedAt": "2026-10-13T03:25:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "29376720588597107",
+            "advertiser": "네이버플러스 스토어",
+            "startedAt": "2026-09-27",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:25:56+00:00",
+            "lastCollectedAt": "2026-10-13T03:25:56+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-13T03:27:33+00:00",
+        "advertisers": [
+          {
+            "name": "키즈텐",
+            "adCount": 32
+          },
+          {
+            "name": "고려은단헬스케어",
+            "adCount": 6
+          },
+          {
+            "name": "건강꿀팁",
+            "adCount": 5
+          },
+          {
+            "name": "위타민",
+            "adCount": 4
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 3
+          },
+          {
+            "name": "Denps - 덴프스",
+            "adCount": 2
+          },
+          {
+            "name": "presolar_official",
+            "adCount": 2
+          },
+          {
+            "name": "링포텐",
+            "adCount": 2
+          },
+          {
+            "name": "아빠의 마음으로 만든, 쁘띠앤",
+            "adCount": 2
+          },
+          {
+            "name": "율맘",
+            "adCount": 2
+          },
+          {
+            "name": "Kisuk_mj",
+            "adCount": 1
+          },
+          {
+            "name": "Linnov",
+            "adCount": 1
+          },
+          {
+            "name": "Wellnessgirl12",
+            "adCount": 1
+          },
+          {
+            "name": "pm_705",
+            "adCount": 1
+          },
+          {
+            "name": "rider_nging",
+            "adCount": 1
+          },
+          {
+            "name": "yolangyolang",
+            "adCount": 1
+          },
+          {
+            "name": "네이버플러스 스토어",
+            "adCount": 1
+          },
+          {
+            "name": "대다모",
+            "adCount": 1
+          },
+          {
+            "name": "마더스올",
+            "adCount": 1
+          },
+          {
+            "name": "무신사",
+            "adCount": 1
+          },
+          {
+            "name": "빨강제약",
+            "adCount": 1
+          },
+          {
+            "name": "쀼약사네",
+            "adCount": 1
+          },
+          {
+            "name": "아빠의 약속",
+            "adCount": 1
+          },
+          {
+            "name": "약사비책",
+            "adCount": 1
+          },
+          {
+            "name": "얼라이브 ALIVE",
+            "adCount": 1
+          },
+          {
+            "name": "옐로우니",
+            "adCount": 1
+          },
+          {
+            "name": "위키약사official",
+            "adCount": 1
+          },
+          {
+            "name": "유니약사",
+            "adCount": 1
+          },
+          {
+            "name": "익스트림 Extreme",
+            "adCount": 1
+          },
+          {
+            "name": "정담건강",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -5797,7 +6740,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "queued",
       "keywordId": "3d1ff274bc5b38da7b9413d2bba3c08a8126b30b350a766e2b0aa679fdb5ff23",
       "searchQuery": "파워젤",
       "adEvidence": {
@@ -9675,7 +10618,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:58+00:00",
       "lastObservedAt": "2026-10-13T01:06:58+00:00",
-      "state": "ready",
+      "state": "queued",
       "keywordId": "3d1ff274bc5b38da7b9413d2bba3c08a8126b30b350a766e2b0aa679fdb5ff23",
       "searchQuery": "파워젤",
       "adEvidence": {
@@ -17036,17 +17979,960 @@
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:25+00:00",
       "lastObservedAt": "2026-10-13T01:06:25+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "a39be9bd6d9d6a860ae7270939ead044979ec53f5cdb41995f64e375f4b28bdf",
       "searchQuery": "종합비타민",
       "adEvidence": {
         "query": "종합비타민",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 82,
+        "adIds": [
+          "2066338744003560",
+          "2628308907621882",
+          "1812960216375709",
+          "1623289142706408",
+          "1375548181019024",
+          "1843838566608304",
+          "1582547110551826",
+          "1538710074951729",
+          "1417339106513997",
+          "1127491076632279",
+          "1111426211856392",
+          "4680547002232160",
+          "39217160094595912",
+          "2160137008274396",
+          "2042114649787946",
+          "1386870740266664",
+          "1101360649515549",
+          "1418943970304216",
+          "941517338639694",
+          "1637046038152693",
+          "1554780766334795",
+          "1266981356507900",
+          "2183517985561823",
+          "1799395347770178",
+          "1646808770390114",
+          "1121715110810041",
+          "1095953910036705",
+          "1032752813116852",
+          "1005101619268275",
+          "2825151741187701",
+          "1582481416900239",
+          "1071003442542815",
+          "1996557697703113",
+          "1454576896540044",
+          "1089230377148699",
+          "2339637116849119",
+          "1627584692113556",
+          "1142197518467766",
+          "966385073181789",
+          "1126279619744495",
+          "3101464313394557",
+          "1980258369598732",
+          "1627039032130541",
+          "2120866958521333",
+          "1991777658180647",
+          "28784343324515988",
+          "1881565796554328",
+          "1450856199748375",
+          "1114242311115806",
+          "4704099336539195",
+          "1375617307664687",
+          "1032075589849228",
+          "1896205695130300",
+          "1544626146878816",
+          "2523223221480522",
+          "2267973067319877",
+          "1706344177299121",
+          "1910863886555882",
+          "1039445128927318",
+          "1652310056456788",
+          "1573939653835719",
+          "1051361214531634",
+          "1695862248168366",
+          "1834451364380975",
+          "1807944577298067",
+          "1764353264602865",
+          "1767240274426523",
+          "1054772160797834",
+          "2623795541408098",
+          "1601775114917007",
+          "4434025223512563",
+          "1005503098112716",
+          "4209897466005732",
+          "788444230785758",
+          "1343140204395338",
+          "1221431276729151",
+          "835012675623544",
+          "1100176535827348",
+          "976905145236342",
+          "1168390098761351",
+          "1051851400840869",
+          "29376720588597107"
+        ],
+        "ads": [
+          {
+            "id": "2066338744003560",
+            "advertiser": "Linnov",
+            "startedAt": "2026-10-12",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:33+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:33+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2628308907621882",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-10-11",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:31+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:31+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1812960216375709",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-10-11",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:17+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:17+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1623289142706408",
+            "advertiser": "고려은단헬스케어",
+            "startedAt": "2026-09-30",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:17+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1375548181019024",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-10-11",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:17+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:17+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1843838566608304",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-10-11",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:16+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:16+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1582547110551826",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-10-06",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:16+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:16+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1538710074951729",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-10-11",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:16+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:16+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1417339106513997",
+            "advertiser": "정담건강",
+            "startedAt": "2026-10-12",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:16+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:16+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1127491076632279",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-10-11",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:16+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:16+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1111426211856392",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-10-11",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:16+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:16+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4680547002232160",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-10-11",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:15+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:15+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "39217160094595912",
+            "advertiser": "무신사",
+            "startedAt": "2026-10-12",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:07+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:07+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2160137008274396",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-27",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:07+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2042114649787946",
+            "advertiser": "고려은단헬스케어",
+            "startedAt": "2026-09-30",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:07+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1386870740266664",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-27",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:07+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1101360649515549",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-27",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:07+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1418943970304216",
+            "advertiser": "presolar_official",
+            "startedAt": "2026-10-11",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:06+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:06+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "941517338639694",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-10-09",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:05+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:05+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1637046038152693",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-10-11",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:05+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:05+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1554780766334795",
+            "advertiser": "아빠의 약속",
+            "startedAt": "2026-08-31",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:05+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1266981356507900",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-27",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:27:05+00:00",
+            "lastCollectedAt": "2026-10-13T03:27:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2183517985561823",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-10-09",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:56+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:56+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1799395347770178",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-10-11",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:56+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:56+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1646808770390114",
+            "advertiser": "대다모",
+            "startedAt": "2026-10-07",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:55+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:55+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1121715110810041",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-27",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:55+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1095953910036705",
+            "advertiser": "rider_nging",
+            "startedAt": "2026-09-21",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:55+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1032752813116852",
+            "advertiser": "유니약사",
+            "startedAt": "2026-10-12",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:54+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1005101619268275",
+            "advertiser": "위타민",
+            "startedAt": "2026-10-06",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:54+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2825151741187701",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-27",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:52+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1582481416900239",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-30",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:52+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1071003442542815",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-08-10",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:51+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1996557697703113",
+            "advertiser": "위타민",
+            "startedAt": "2026-10-06",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:44+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:44+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1454576896540044",
+            "advertiser": "고려은단헬스케어",
+            "startedAt": "2026-10-03",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:44+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1089230377148699",
+            "advertiser": "위타민",
+            "startedAt": "2026-10-11",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:44+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:44+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2339637116849119",
+            "advertiser": "고려은단헬스케어",
+            "startedAt": "2026-09-30",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:43+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1627584692113556",
+            "advertiser": "위타민",
+            "startedAt": "2026-10-06",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:43+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1142197518467766",
+            "advertiser": "위키약사official",
+            "startedAt": "2026-10-11",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:43+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "966385073181789",
+            "advertiser": "",
+            "startedAt": "2026-10-09",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:42+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:42+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1126279619744495",
+            "advertiser": "pm_705",
+            "startedAt": "2026-09-30",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:42+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3101464313394557",
+            "advertiser": "Denps - 덴프스",
+            "startedAt": "2026-10-05",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:41+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1980258369598732",
+            "advertiser": "Wellnessgirl12",
+            "startedAt": "2026-10-08",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:41+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:41+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1627039032130541",
+            "advertiser": "율맘",
+            "startedAt": "2026-09-30",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:34+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2120866958521333",
+            "advertiser": "Kisuk_mj",
+            "startedAt": "2026-09-30",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:33+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1991777658180647",
+            "advertiser": "Denps - 덴프스",
+            "startedAt": "2026-10-05",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:33+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28784343324515988",
+            "advertiser": "옐로우니",
+            "startedAt": "2026-09-30",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:32+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1881565796554328",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-30",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:32+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1450856199748375",
+            "advertiser": "링포텐",
+            "startedAt": "2026-04-21",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:32+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1114242311115806",
+            "advertiser": "쀼약사네",
+            "startedAt": "2026-10-08",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:32+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:32+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4704099336539195",
+            "advertiser": "건강꿀팁",
+            "startedAt": "2026-09-14",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:29+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1375617307664687",
+            "advertiser": "율맘",
+            "startedAt": "2026-09-14",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:29+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1032075589849228",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-27",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:28+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:28+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1896205695130300",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-27",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:22+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1544626146878816",
+            "advertiser": "아빠의 마음으로 만든, 쁘띠앤",
+            "startedAt": "2026-09-05",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:22+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2523223221480522",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-08-10",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:21+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2267973067319877",
+            "advertiser": "약사비책",
+            "startedAt": "2026-10-04",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:21+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1706344177299121",
+            "advertiser": "건강꿀팁",
+            "startedAt": "2026-08-14",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:21+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1910863886555882",
+            "advertiser": "",
+            "startedAt": "2026-09-14",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:18+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1039445128927318",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-27",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:18+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1652310056456788",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-09-13",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:17+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1573939653835719",
+            "advertiser": "고려은단헬스케어",
+            "startedAt": "2026-09-30",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:17+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1051361214531634",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-08-10",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:17+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1695862248168366",
+            "advertiser": "건강꿀팁",
+            "startedAt": "2026-09-12",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:10+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1834451364380975",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-27",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:09+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1807944577298067",
+            "advertiser": "고려은단헬스케어",
+            "startedAt": "2026-09-30",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:09+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1764353264602865",
+            "advertiser": "건강꿀팁",
+            "startedAt": "2026-08-14",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:09+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1767240274426523",
+            "advertiser": "yolangyolang",
+            "startedAt": "2026-09-14",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:07+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1054772160797834",
+            "advertiser": "presolar_official",
+            "startedAt": "2026-09-03",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:07+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2623795541408098",
+            "advertiser": "건강꿀팁",
+            "startedAt": "2026-08-20",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:06+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1601775114917007",
+            "advertiser": "아빠의 마음으로 만든, 쁘띠앤",
+            "startedAt": "2026-09-03",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:06+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4434025223512563",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-08-10",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:05+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1005503098112716",
+            "advertiser": "빨강제약",
+            "startedAt": "2025-03-03",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:04+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4209897466005732",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-04-07",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:26:00+00:00",
+            "lastCollectedAt": "2026-10-13T03:26:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "788444230785758",
+            "advertiser": "링포텐",
+            "startedAt": "2026-04-20",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:25:59+00:00",
+            "lastCollectedAt": "2026-10-13T03:25:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1343140204395338",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-05-21",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:25:59+00:00",
+            "lastCollectedAt": "2026-10-13T03:25:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1221431276729151",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-04-07",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:25:59+00:00",
+            "lastCollectedAt": "2026-10-13T03:25:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "835012675623544",
+            "advertiser": "익스트림 Extreme",
+            "startedAt": "2025-10-16",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:25:58+00:00",
+            "lastCollectedAt": "2026-10-13T03:25:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1100176535827348",
+            "advertiser": "키즈텐",
+            "startedAt": "2026-09-06",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:25:58+00:00",
+            "lastCollectedAt": "2026-10-13T03:25:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "976905145236342",
+            "advertiser": "마더스올",
+            "startedAt": "2026-05-29",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:25:57+00:00",
+            "lastCollectedAt": "2026-10-13T03:25:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1168390098761351",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-01",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:25:57+00:00",
+            "lastCollectedAt": "2026-10-13T03:25:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1051851400840869",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-30",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:25:57+00:00",
+            "lastCollectedAt": "2026-10-13T03:25:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "29376720588597107",
+            "advertiser": "네이버플러스 스토어",
+            "startedAt": "2026-09-27",
+            "query": "종합비타민",
+            "firstCollectedAt": "2026-10-13T03:25:56+00:00",
+            "lastCollectedAt": "2026-10-13T03:25:56+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-13T03:27:33+00:00",
+        "advertisers": [
+          {
+            "name": "키즈텐",
+            "adCount": 32
+          },
+          {
+            "name": "고려은단헬스케어",
+            "adCount": 6
+          },
+          {
+            "name": "건강꿀팁",
+            "adCount": 5
+          },
+          {
+            "name": "위타민",
+            "adCount": 4
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 3
+          },
+          {
+            "name": "Denps - 덴프스",
+            "adCount": 2
+          },
+          {
+            "name": "presolar_official",
+            "adCount": 2
+          },
+          {
+            "name": "링포텐",
+            "adCount": 2
+          },
+          {
+            "name": "아빠의 마음으로 만든, 쁘띠앤",
+            "adCount": 2
+          },
+          {
+            "name": "율맘",
+            "adCount": 2
+          },
+          {
+            "name": "Kisuk_mj",
+            "adCount": 1
+          },
+          {
+            "name": "Linnov",
+            "adCount": 1
+          },
+          {
+            "name": "Wellnessgirl12",
+            "adCount": 1
+          },
+          {
+            "name": "pm_705",
+            "adCount": 1
+          },
+          {
+            "name": "rider_nging",
+            "adCount": 1
+          },
+          {
+            "name": "yolangyolang",
+            "adCount": 1
+          },
+          {
+            "name": "네이버플러스 스토어",
+            "adCount": 1
+          },
+          {
+            "name": "대다모",
+            "adCount": 1
+          },
+          {
+            "name": "마더스올",
+            "adCount": 1
+          },
+          {
+            "name": "무신사",
+            "adCount": 1
+          },
+          {
+            "name": "빨강제약",
+            "adCount": 1
+          },
+          {
+            "name": "쀼약사네",
+            "adCount": 1
+          },
+          {
+            "name": "아빠의 약속",
+            "adCount": 1
+          },
+          {
+            "name": "약사비책",
+            "adCount": 1
+          },
+          {
+            "name": "얼라이브 ALIVE",
+            "adCount": 1
+          },
+          {
+            "name": "옐로우니",
+            "adCount": 1
+          },
+          {
+            "name": "위키약사official",
+            "adCount": 1
+          },
+          {
+            "name": "유니약사",
+            "adCount": 1
+          },
+          {
+            "name": "익스트림 Extreme",
+            "adCount": 1
+          },
+          {
+            "name": "정담건강",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
