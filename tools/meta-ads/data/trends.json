@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-13T05:25:07+00:00",
+  "updatedAt": "2026-10-13T05:28:54+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-13T01:06:58+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 34,
-    "dailyRemaining": 254,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "dailyUsed": 35,
+    "dailyRemaining": 253,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-13T05:33:19+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -11722,17 +11722,98 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "ea484690f408dc818a08aa85ab0f98de7cd2474166ea9c07cd55e738f4d124f5",
       "searchQuery": "차전자피환",
       "adEvidence": {
         "query": "차전자피환",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 7,
+        "adIds": [
+          "1814748096545615",
+          "1619141123055918",
+          "1458677999482538",
+          "2633405013739910",
+          "1492904466003113",
+          "2327178568032839",
+          "1695590864984441"
+        ],
+        "ads": [
+          {
+            "id": "1814748096545615",
+            "advertiser": "테일러팜스 Taylor Farms",
+            "startedAt": "2026-09-30",
+            "query": "차전자피환",
+            "firstCollectedAt": "2026-10-13T05:27:49+00:00",
+            "lastCollectedAt": "2026-10-13T05:27:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1619141123055918",
+            "advertiser": "테일러팜스 Taylor Farms",
+            "startedAt": "2026-09-30",
+            "query": "차전자피환",
+            "firstCollectedAt": "2026-10-13T05:27:49+00:00",
+            "lastCollectedAt": "2026-10-13T05:27:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1458677999482538",
+            "advertiser": "테일러팜스 Taylor Farms",
+            "startedAt": "2026-10-01",
+            "query": "차전자피환",
+            "firstCollectedAt": "2026-10-13T05:27:49+00:00",
+            "lastCollectedAt": "2026-10-13T05:27:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2633405013739910",
+            "advertiser": "테일러팜스 Taylor Farms",
+            "startedAt": "2026-09-30",
+            "query": "차전자피환",
+            "firstCollectedAt": "2026-10-13T05:27:48+00:00",
+            "lastCollectedAt": "2026-10-13T05:27:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1492904466003113",
+            "advertiser": "테일러팜스 Taylor Farms",
+            "startedAt": "2026-09-30",
+            "query": "차전자피환",
+            "firstCollectedAt": "2026-10-13T05:27:48+00:00",
+            "lastCollectedAt": "2026-10-13T05:27:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2327178568032839",
+            "advertiser": "테일러팜스 Taylor Farms",
+            "startedAt": "2026-09-30",
+            "query": "차전자피환",
+            "firstCollectedAt": "2026-10-13T05:27:47+00:00",
+            "lastCollectedAt": "2026-10-13T05:27:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1695590864984441",
+            "advertiser": "류류의 일상뷰티반려견맛난것",
+            "startedAt": "2026-07-06",
+            "query": "차전자피환",
+            "firstCollectedAt": "2026-10-13T05:27:47+00:00",
+            "lastCollectedAt": "2026-10-13T05:27:47+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-13T05:27:49+00:00",
+        "advertisers": [
+          {
+            "name": "테일러팜스 Taylor Farms",
+            "adCount": 6
+          },
+          {
+            "name": "류류의 일상뷰티반려견맛난것",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -14313,17 +14394,94 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "done",
       "keywordId": "ab153ca535c389baafe730637f4e8697f977bd14a184c8240f7bd3d0705a10b0",
       "searchQuery": "리세트라",
       "adEvidence": {
         "query": "리세트라",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 7,
+        "adIds": [
+          "2170021120536458",
+          "1570987148132588",
+          "982182267516007",
+          "927051793532187",
+          "2588308108264089",
+          "1312646087269320",
+          "1111985881522422"
+        ],
+        "ads": [
+          {
+            "id": "2170021120536458",
+            "advertiser": "언니들의 비밀 레시피?",
+            "startedAt": "2026-10-06",
+            "query": "리세트라",
+            "firstCollectedAt": "2026-10-13T05:28:30+00:00",
+            "lastCollectedAt": "2026-10-13T05:28:30+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1570987148132588",
+            "advertiser": "언니들의 비밀 레시피?",
+            "startedAt": "2026-10-06",
+            "query": "리세트라",
+            "firstCollectedAt": "2026-10-13T05:28:30+00:00",
+            "lastCollectedAt": "2026-10-13T05:28:30+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "982182267516007",
+            "advertiser": "언니들의 비밀 레시피?",
+            "startedAt": "2026-10-06",
+            "query": "리세트라",
+            "firstCollectedAt": "2026-10-13T05:28:29+00:00",
+            "lastCollectedAt": "2026-10-13T05:28:29+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "927051793532187",
+            "advertiser": "언니들의 비밀 레시피?",
+            "startedAt": "2026-10-06",
+            "query": "리세트라",
+            "firstCollectedAt": "2026-10-13T05:28:29+00:00",
+            "lastCollectedAt": "2026-10-13T05:28:29+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2588308108264089",
+            "advertiser": "언니들의 비밀 레시피?",
+            "startedAt": "2026-10-08",
+            "query": "리세트라",
+            "firstCollectedAt": "2026-10-13T05:28:29+00:00",
+            "lastCollectedAt": "2026-10-13T05:28:29+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1312646087269320",
+            "advertiser": "언니들의 비밀 레시피?",
+            "startedAt": "2026-07-08",
+            "query": "리세트라",
+            "firstCollectedAt": "2026-10-13T05:28:29+00:00",
+            "lastCollectedAt": "2026-10-13T05:28:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1111985881522422",
+            "advertiser": "언니들의 비밀 레시피?",
+            "startedAt": "2026-10-06",
+            "query": "리세트라",
+            "firstCollectedAt": "2026-10-13T05:28:29+00:00",
+            "lastCollectedAt": "2026-10-13T05:28:29+00:00",
+            "startTiming": "during-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-13T05:28:30+00:00",
+        "advertisers": [
+          {
+            "name": "언니들의 비밀 레시피?",
+            "adCount": 7
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -15383,17 +15541,98 @@
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:58+00:00",
       "lastObservedAt": "2026-10-13T01:06:58+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "ea484690f408dc818a08aa85ab0f98de7cd2474166ea9c07cd55e738f4d124f5",
       "searchQuery": "차전자피환",
       "adEvidence": {
         "query": "차전자피환",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 7,
+        "adIds": [
+          "1814748096545615",
+          "1619141123055918",
+          "1458677999482538",
+          "2633405013739910",
+          "1492904466003113",
+          "2327178568032839",
+          "1695590864984441"
+        ],
+        "ads": [
+          {
+            "id": "1814748096545615",
+            "advertiser": "테일러팜스 Taylor Farms",
+            "startedAt": "2026-09-30",
+            "query": "차전자피환",
+            "firstCollectedAt": "2026-10-13T05:27:49+00:00",
+            "lastCollectedAt": "2026-10-13T05:27:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1619141123055918",
+            "advertiser": "테일러팜스 Taylor Farms",
+            "startedAt": "2026-09-30",
+            "query": "차전자피환",
+            "firstCollectedAt": "2026-10-13T05:27:49+00:00",
+            "lastCollectedAt": "2026-10-13T05:27:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1458677999482538",
+            "advertiser": "테일러팜스 Taylor Farms",
+            "startedAt": "2026-10-01",
+            "query": "차전자피환",
+            "firstCollectedAt": "2026-10-13T05:27:49+00:00",
+            "lastCollectedAt": "2026-10-13T05:27:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2633405013739910",
+            "advertiser": "테일러팜스 Taylor Farms",
+            "startedAt": "2026-09-30",
+            "query": "차전자피환",
+            "firstCollectedAt": "2026-10-13T05:27:48+00:00",
+            "lastCollectedAt": "2026-10-13T05:27:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1492904466003113",
+            "advertiser": "테일러팜스 Taylor Farms",
+            "startedAt": "2026-09-30",
+            "query": "차전자피환",
+            "firstCollectedAt": "2026-10-13T05:27:48+00:00",
+            "lastCollectedAt": "2026-10-13T05:27:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2327178568032839",
+            "advertiser": "테일러팜스 Taylor Farms",
+            "startedAt": "2026-09-30",
+            "query": "차전자피환",
+            "firstCollectedAt": "2026-10-13T05:27:47+00:00",
+            "lastCollectedAt": "2026-10-13T05:27:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1695590864984441",
+            "advertiser": "류류의 일상뷰티반려견맛난것",
+            "startedAt": "2026-07-06",
+            "query": "차전자피환",
+            "firstCollectedAt": "2026-10-13T05:27:47+00:00",
+            "lastCollectedAt": "2026-10-13T05:27:47+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-13T05:27:49+00:00",
+        "advertisers": [
+          {
+            "name": "테일러팜스 Taylor Farms",
+            "adCount": 6
+          },
+          {
+            "name": "류류의 일상뷰티반려견맛난것",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -15453,17 +15692,94 @@
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:58+00:00",
       "lastObservedAt": "2026-10-13T01:06:58+00:00",
-      "state": "ready",
+      "state": "done",
       "keywordId": "ab153ca535c389baafe730637f4e8697f977bd14a184c8240f7bd3d0705a10b0",
       "searchQuery": "리세트라",
       "adEvidence": {
         "query": "리세트라",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 7,
+        "adIds": [
+          "2170021120536458",
+          "1570987148132588",
+          "982182267516007",
+          "927051793532187",
+          "2588308108264089",
+          "1312646087269320",
+          "1111985881522422"
+        ],
+        "ads": [
+          {
+            "id": "2170021120536458",
+            "advertiser": "언니들의 비밀 레시피?",
+            "startedAt": "2026-10-06",
+            "query": "리세트라",
+            "firstCollectedAt": "2026-10-13T05:28:30+00:00",
+            "lastCollectedAt": "2026-10-13T05:28:30+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1570987148132588",
+            "advertiser": "언니들의 비밀 레시피?",
+            "startedAt": "2026-10-06",
+            "query": "리세트라",
+            "firstCollectedAt": "2026-10-13T05:28:30+00:00",
+            "lastCollectedAt": "2026-10-13T05:28:30+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "982182267516007",
+            "advertiser": "언니들의 비밀 레시피?",
+            "startedAt": "2026-10-06",
+            "query": "리세트라",
+            "firstCollectedAt": "2026-10-13T05:28:29+00:00",
+            "lastCollectedAt": "2026-10-13T05:28:29+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "927051793532187",
+            "advertiser": "언니들의 비밀 레시피?",
+            "startedAt": "2026-10-06",
+            "query": "리세트라",
+            "firstCollectedAt": "2026-10-13T05:28:29+00:00",
+            "lastCollectedAt": "2026-10-13T05:28:29+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2588308108264089",
+            "advertiser": "언니들의 비밀 레시피?",
+            "startedAt": "2026-10-08",
+            "query": "리세트라",
+            "firstCollectedAt": "2026-10-13T05:28:29+00:00",
+            "lastCollectedAt": "2026-10-13T05:28:29+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1312646087269320",
+            "advertiser": "언니들의 비밀 레시피?",
+            "startedAt": "2026-07-08",
+            "query": "리세트라",
+            "firstCollectedAt": "2026-10-13T05:28:29+00:00",
+            "lastCollectedAt": "2026-10-13T05:28:29+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1111985881522422",
+            "advertiser": "언니들의 비밀 레시피?",
+            "startedAt": "2026-10-06",
+            "query": "리세트라",
+            "firstCollectedAt": "2026-10-13T05:28:29+00:00",
+            "lastCollectedAt": "2026-10-13T05:28:29+00:00",
+            "startTiming": "during-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-13T05:28:30+00:00",
+        "advertisers": [
+          {
+            "name": "언니들의 비밀 레시피?",
+            "adCount": 7
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
