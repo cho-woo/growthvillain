@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-13T03:30:25+00:00",
+  "updatedAt": "2026-10-13T03:33:30+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-13T01:06:58+00:00",
@@ -41,8 +41,8 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 25,
-    "dailyRemaining": 263,
+    "dailyUsed": 26,
+    "dailyRemaining": 262,
     "pending": 1,
     "nextDispatchAt": null,
     "metaAutoEnabled": true,
@@ -1493,7 +1493,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "queued",
       "keywordId": "8909bb07a0e93c6302bada6d96a2d7df05a5c9c997e465a24589c432c421ee06",
       "searchQuery": "꿀스틱",
       "adEvidence": {
@@ -6740,17 +6740,212 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "3d1ff274bc5b38da7b9413d2bba3c08a8126b30b350a766e2b0aa679fdb5ff23",
       "searchQuery": "파워젤",
       "adEvidence": {
         "query": "파워젤",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 16,
+        "adIds": [
+          "1627870255532994",
+          "1116822867519844",
+          "3969079736733746",
+          "1757267195313075",
+          "1438988927986549",
+          "2164013067826493",
+          "2084626575507414",
+          "1577658184144059",
+          "1017783871021031",
+          "1731871434734615",
+          "1499528951911059",
+          "1311075407763285",
+          "1696715984872753",
+          "1618931442955431",
+          "1052521984249063",
+          "814802011642793"
+        ],
+        "ads": [
+          {
+            "id": "1627870255532994",
+            "advertiser": "Dailyenergy.log",
+            "startedAt": "2026-10-08",
+            "query": "파워젤",
+            "firstCollectedAt": "2026-10-13T03:33:02+00:00",
+            "lastCollectedAt": "2026-10-13T03:33:02+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1116822867519844",
+            "advertiser": "Dailyenergy.log",
+            "startedAt": "2026-10-08",
+            "query": "파워젤",
+            "firstCollectedAt": "2026-10-13T03:33:02+00:00",
+            "lastCollectedAt": "2026-10-13T03:33:02+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "3969079736733746",
+            "advertiser": "익스트림 Extreme",
+            "startedAt": "2026-09-10",
+            "query": "파워젤",
+            "firstCollectedAt": "2026-10-13T03:33:01+00:00",
+            "lastCollectedAt": "2026-10-13T03:33:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1757267195313075",
+            "advertiser": "Kolon Pharma Health Care",
+            "startedAt": "2026-08-14",
+            "query": "파워젤",
+            "firstCollectedAt": "2026-10-13T03:33:01+00:00",
+            "lastCollectedAt": "2026-10-13T03:33:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1438988927986549",
+            "advertiser": "Kolon Pharma Health Care",
+            "startedAt": "2026-07-03",
+            "query": "파워젤",
+            "firstCollectedAt": "2026-10-13T03:33:01+00:00",
+            "lastCollectedAt": "2026-10-13T03:33:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2164013067826493",
+            "advertiser": "Rundalim",
+            "startedAt": "2026-09-10",
+            "query": "파워젤",
+            "firstCollectedAt": "2026-10-13T03:33:00+00:00",
+            "lastCollectedAt": "2026-10-13T03:33:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2084626575507414",
+            "advertiser": "하이뮨 액티브",
+            "startedAt": "2026-09-30",
+            "query": "파워젤",
+            "firstCollectedAt": "2026-10-13T03:32:49+00:00",
+            "lastCollectedAt": "2026-10-13T03:32:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1577658184144059",
+            "advertiser": "Kolon Pharma Health Care",
+            "startedAt": "2026-08-14",
+            "query": "파워젤",
+            "firstCollectedAt": "2026-10-13T03:32:49+00:00",
+            "lastCollectedAt": "2026-10-13T03:32:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1017783871021031",
+            "advertiser": "Kolon Pharma Health Care",
+            "startedAt": "2026-08-14",
+            "query": "파워젤",
+            "firstCollectedAt": "2026-10-13T03:32:49+00:00",
+            "lastCollectedAt": "2026-10-13T03:32:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1731871434734615",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-14",
+            "query": "파워젤",
+            "firstCollectedAt": "2026-10-13T03:32:48+00:00",
+            "lastCollectedAt": "2026-10-13T03:32:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1499528951911059",
+            "advertiser": "Kolon Pharma Health Care",
+            "startedAt": "2026-06-18",
+            "query": "파워젤",
+            "firstCollectedAt": "2026-10-13T03:32:48+00:00",
+            "lastCollectedAt": "2026-10-13T03:32:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1311075407763285",
+            "advertiser": "HyeHey",
+            "startedAt": "2026-07-08",
+            "query": "파워젤",
+            "firstCollectedAt": "2026-10-13T03:32:48+00:00",
+            "lastCollectedAt": "2026-10-13T03:32:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1696715984872753",
+            "advertiser": "Kolon Pharma Health Care",
+            "startedAt": "2026-05-07",
+            "query": "파워젤",
+            "firstCollectedAt": "2026-10-13T03:32:47+00:00",
+            "lastCollectedAt": "2026-10-13T03:32:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1618931442955431",
+            "advertiser": "바이탈 솔루션",
+            "startedAt": "2026-09-08",
+            "query": "파워젤",
+            "firstCollectedAt": "2026-10-13T03:32:47+00:00",
+            "lastCollectedAt": "2026-10-13T03:32:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1052521984249063",
+            "advertiser": "바이탈 솔루션",
+            "startedAt": "2026-09-08",
+            "query": "파워젤",
+            "firstCollectedAt": "2026-10-13T03:32:47+00:00",
+            "lastCollectedAt": "2026-10-13T03:32:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "814802011642793",
+            "advertiser": "바이탈 솔루션",
+            "startedAt": "2026-08-04",
+            "query": "파워젤",
+            "firstCollectedAt": "2026-10-13T03:32:46+00:00",
+            "lastCollectedAt": "2026-10-13T03:32:46+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-13T03:33:02+00:00",
+        "advertisers": [
+          {
+            "name": "Kolon Pharma Health Care",
+            "adCount": 6
+          },
+          {
+            "name": "바이탈 솔루션",
+            "adCount": 3
+          },
+          {
+            "name": "Dailyenergy.log",
+            "adCount": 2
+          },
+          {
+            "name": "HyeHey",
+            "adCount": 1
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 1
+          },
+          {
+            "name": "Rundalim",
+            "adCount": 1
+          },
+          {
+            "name": "익스트림 Extreme",
+            "adCount": 1
+          },
+          {
+            "name": "하이뮨 액티브",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -10618,17 +10813,212 @@
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:58+00:00",
       "lastObservedAt": "2026-10-13T01:06:58+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "3d1ff274bc5b38da7b9413d2bba3c08a8126b30b350a766e2b0aa679fdb5ff23",
       "searchQuery": "파워젤",
       "adEvidence": {
         "query": "파워젤",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 16,
+        "adIds": [
+          "1627870255532994",
+          "1116822867519844",
+          "3969079736733746",
+          "1757267195313075",
+          "1438988927986549",
+          "2164013067826493",
+          "2084626575507414",
+          "1577658184144059",
+          "1017783871021031",
+          "1731871434734615",
+          "1499528951911059",
+          "1311075407763285",
+          "1696715984872753",
+          "1618931442955431",
+          "1052521984249063",
+          "814802011642793"
+        ],
+        "ads": [
+          {
+            "id": "1627870255532994",
+            "advertiser": "Dailyenergy.log",
+            "startedAt": "2026-10-08",
+            "query": "파워젤",
+            "firstCollectedAt": "2026-10-13T03:33:02+00:00",
+            "lastCollectedAt": "2026-10-13T03:33:02+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1116822867519844",
+            "advertiser": "Dailyenergy.log",
+            "startedAt": "2026-10-08",
+            "query": "파워젤",
+            "firstCollectedAt": "2026-10-13T03:33:02+00:00",
+            "lastCollectedAt": "2026-10-13T03:33:02+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "3969079736733746",
+            "advertiser": "익스트림 Extreme",
+            "startedAt": "2026-09-10",
+            "query": "파워젤",
+            "firstCollectedAt": "2026-10-13T03:33:01+00:00",
+            "lastCollectedAt": "2026-10-13T03:33:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1757267195313075",
+            "advertiser": "Kolon Pharma Health Care",
+            "startedAt": "2026-08-14",
+            "query": "파워젤",
+            "firstCollectedAt": "2026-10-13T03:33:01+00:00",
+            "lastCollectedAt": "2026-10-13T03:33:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1438988927986549",
+            "advertiser": "Kolon Pharma Health Care",
+            "startedAt": "2026-07-03",
+            "query": "파워젤",
+            "firstCollectedAt": "2026-10-13T03:33:01+00:00",
+            "lastCollectedAt": "2026-10-13T03:33:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2164013067826493",
+            "advertiser": "Rundalim",
+            "startedAt": "2026-09-10",
+            "query": "파워젤",
+            "firstCollectedAt": "2026-10-13T03:33:00+00:00",
+            "lastCollectedAt": "2026-10-13T03:33:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2084626575507414",
+            "advertiser": "하이뮨 액티브",
+            "startedAt": "2026-09-30",
+            "query": "파워젤",
+            "firstCollectedAt": "2026-10-13T03:32:49+00:00",
+            "lastCollectedAt": "2026-10-13T03:32:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1577658184144059",
+            "advertiser": "Kolon Pharma Health Care",
+            "startedAt": "2026-08-14",
+            "query": "파워젤",
+            "firstCollectedAt": "2026-10-13T03:32:49+00:00",
+            "lastCollectedAt": "2026-10-13T03:32:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1017783871021031",
+            "advertiser": "Kolon Pharma Health Care",
+            "startedAt": "2026-08-14",
+            "query": "파워젤",
+            "firstCollectedAt": "2026-10-13T03:32:49+00:00",
+            "lastCollectedAt": "2026-10-13T03:32:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1731871434734615",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-14",
+            "query": "파워젤",
+            "firstCollectedAt": "2026-10-13T03:32:48+00:00",
+            "lastCollectedAt": "2026-10-13T03:32:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1499528951911059",
+            "advertiser": "Kolon Pharma Health Care",
+            "startedAt": "2026-06-18",
+            "query": "파워젤",
+            "firstCollectedAt": "2026-10-13T03:32:48+00:00",
+            "lastCollectedAt": "2026-10-13T03:32:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1311075407763285",
+            "advertiser": "HyeHey",
+            "startedAt": "2026-07-08",
+            "query": "파워젤",
+            "firstCollectedAt": "2026-10-13T03:32:48+00:00",
+            "lastCollectedAt": "2026-10-13T03:32:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1696715984872753",
+            "advertiser": "Kolon Pharma Health Care",
+            "startedAt": "2026-05-07",
+            "query": "파워젤",
+            "firstCollectedAt": "2026-10-13T03:32:47+00:00",
+            "lastCollectedAt": "2026-10-13T03:32:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1618931442955431",
+            "advertiser": "바이탈 솔루션",
+            "startedAt": "2026-09-08",
+            "query": "파워젤",
+            "firstCollectedAt": "2026-10-13T03:32:47+00:00",
+            "lastCollectedAt": "2026-10-13T03:32:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1052521984249063",
+            "advertiser": "바이탈 솔루션",
+            "startedAt": "2026-09-08",
+            "query": "파워젤",
+            "firstCollectedAt": "2026-10-13T03:32:47+00:00",
+            "lastCollectedAt": "2026-10-13T03:32:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "814802011642793",
+            "advertiser": "바이탈 솔루션",
+            "startedAt": "2026-08-04",
+            "query": "파워젤",
+            "firstCollectedAt": "2026-10-13T03:32:46+00:00",
+            "lastCollectedAt": "2026-10-13T03:32:46+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-13T03:33:02+00:00",
+        "advertisers": [
+          {
+            "name": "Kolon Pharma Health Care",
+            "adCount": 6
+          },
+          {
+            "name": "바이탈 솔루션",
+            "adCount": 3
+          },
+          {
+            "name": "Dailyenergy.log",
+            "adCount": 2
+          },
+          {
+            "name": "HyeHey",
+            "adCount": 1
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 1
+          },
+          {
+            "name": "Rundalim",
+            "adCount": 1
+          },
+          {
+            "name": "익스트림 Extreme",
+            "adCount": 1
+          },
+          {
+            "name": "하이뮨 액티브",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -18957,7 +19347,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:25+00:00",
       "lastObservedAt": "2026-10-13T01:06:25+00:00",
-      "state": "ready",
+      "state": "queued",
       "keywordId": "8909bb07a0e93c6302bada6d96a2d7df05a5c9c997e465a24589c432c421ee06",
       "searchQuery": "꿀스틱",
       "adEvidence": {
