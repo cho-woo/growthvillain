@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-13T04:13:12+00:00",
+  "updatedAt": "2026-10-13T04:16:45+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-13T01:06:58+00:00",
@@ -41,22 +41,22 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 32,
-    "dailyRemaining": 256,
+    "dailyUsed": 33,
+    "dailyRemaining": 255,
     "pending": 0,
-    "nextDispatchAt": "2026-10-13T04:16:07+00:00",
+    "nextDispatchAt": "2026-10-13T05:16:45+00:00",
     "metaAutoEnabled": true,
-    "enabled": true,
+    "enabled": false,
     "collectionGuard": {
-      "state": "ready",
-      "reason": null,
-      "nextAllowedAt": null,
-      "blockedUntil": null,
-      "blockStreak": 0,
+      "state": "blocked",
+      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
+      "nextAllowedAt": "2026-10-13T05:16:45+00:00",
+      "blockedUntil": "2026-10-13T05:16:45+00:00",
+      "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": null
+    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
   },
   "settings": {
     "category": "50000023",
@@ -11690,7 +11690,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "failed",
       "keywordId": "6782b62bf270b65017e8b954f1e74379b7cad7ef2ba46c75f2d1d94e2ad8da38",
       "searchQuery": "식이섬유영양제",
       "adEvidence": {
@@ -14972,7 +14972,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:58+00:00",
       "lastObservedAt": "2026-10-13T01:06:58+00:00",
-      "state": "ready",
+      "state": "failed",
       "keywordId": "6782b62bf270b65017e8b954f1e74379b7cad7ef2ba46c75f2d1d94e2ad8da38",
       "searchQuery": "식이섬유영양제",
       "adEvidence": {
