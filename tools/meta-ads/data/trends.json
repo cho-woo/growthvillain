@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-13T03:45:50+00:00",
+  "updatedAt": "2026-10-13T03:47:48+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-13T01:06:58+00:00",
@@ -43,8 +43,8 @@
     "backlogDays": 14,
     "dailyUsed": 28,
     "dailyRemaining": 260,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-13T03:50:50+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -6670,17 +6670,1220 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "0616815ac902144ee9eb42b57e1b869fe3071c93a6c675e9e237ae6a583f032f",
       "searchQuery": "아연",
       "adEvidence": {
         "query": "아연",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 100,
+        "adIds": [
+          "27317362327957022",
+          "1551751333097906",
+          "4605823186364673",
+          "2591434501297249",
+          "1406771950936409",
+          "877775011795575",
+          "3202938193192941",
+          "1850212016416520",
+          "832038829740991",
+          "1372035114504748",
+          "949322577713817",
+          "3330485063791277",
+          "2529831367494455",
+          "1765076194661967",
+          "1376452514467261",
+          "1343140204395338",
+          "1320539130010968",
+          "917762724414972",
+          "1764253964617874",
+          "1094078695993119",
+          "1682121476571893",
+          "1632812018192493",
+          "1121584843665886",
+          "1499972095498930",
+          "28852672801002631",
+          "1984000935794069",
+          "945988608451011",
+          "1220700816679388",
+          "4554168938204214",
+          "974370629012578",
+          "994572519961532",
+          "1016312401441847",
+          "901768903014266",
+          "1626383031797444",
+          "1415691457402685",
+          "953883977311322",
+          "788444230785758",
+          "3029980763865290",
+          "1648678353084889",
+          "1613439684122863",
+          "745478971993654",
+          "845073468571348",
+          "2563106760785800",
+          "1401153861836035",
+          "873482225047119",
+          "2100356927227957",
+          "1750251573018570",
+          "1431501385675460",
+          "975884751938334",
+          "1345851224067991",
+          "976905145236342",
+          "1265536492306244",
+          "1173602562500528",
+          "1699333347935130",
+          "1076814568203914",
+          "1042059401480277",
+          "4421515698107552",
+          "1299470145324751",
+          "1168390098761351",
+          "1051851400840869",
+          "2830197403996197",
+          "1515962793134426",
+          "1444780120102176",
+          "743551622057365",
+          "773829701844406",
+          "1628919955305004",
+          "1404538808447210",
+          "1060199686961289",
+          "1582336396870676",
+          "1430499745595666",
+          "1904804777591307",
+          "1392402499576525",
+          "1276560037368680",
+          "2331629280912867",
+          "1989271378357447",
+          "27421764250750538",
+          "1699923754386608",
+          "1607778220736860",
+          "1341602097791026",
+          "1046939740200849",
+          "727269690295776",
+          "951595541135984",
+          "2762744657445044",
+          "1630759018260559",
+          "1423392786304484",
+          "1324171059793020",
+          "26511485725218939",
+          "1606193991124405",
+          "992543860083545",
+          "1022355223397212",
+          "1717569969364390",
+          "1669906040892632",
+          "1559202799066544",
+          "1553644958946793",
+          "1127992613222493",
+          "1050303650800766",
+          "972904288301260",
+          "2217586439024954",
+          "2082618925649980",
+          "1364605741992296"
+        ],
+        "ads": [
+          {
+            "id": "27317362327957022",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-14",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:34+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1551751333097906",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-09-04",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:34+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4605823186364673",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-09-02",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:33+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2591434501297249",
+            "advertiser": "깎아주는 깍이모",
+            "startedAt": "2026-07-23",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:33+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1406771950936409",
+            "advertiser": "두드림몰",
+            "startedAt": "2026-09-23",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:33+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "877775011795575",
+            "advertiser": "에스더포뮬러",
+            "startedAt": "2026-08-04",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:32+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3202938193192941",
+            "advertiser": "",
+            "startedAt": "2025-05-01",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:32+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1850212016416520",
+            "advertiser": "닥터프로그램 doctorprogram",
+            "startedAt": "2026-09-16",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:32+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "832038829740991",
+            "advertiser": "박혜성의 해성산부인과",
+            "startedAt": "2025-11-27",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:31+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1372035114504748",
+            "advertiser": "",
+            "startedAt": "2025-11-18",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:31+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "949322577713817",
+            "advertiser": "네오메딕스 뷰티",
+            "startedAt": "2026-04-28",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:19+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3330485063791277",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-07-13",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:19+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2529831367494455",
+            "advertiser": "바이오가이아",
+            "startedAt": "2026-09-30",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:18+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1765076194661967",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-30",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:18+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1376452514467261",
+            "advertiser": "정담건강",
+            "startedAt": "2026-08-05",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:18+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1343140204395338",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-05-21",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:18+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1320539130010968",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:18+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "917762724414972",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-04-28",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:17+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1764253964617874",
+            "advertiser": "Dwmallofficial",
+            "startedAt": "2026-09-21",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:17+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1094078695993119",
+            "advertiser": "",
+            "startedAt": "2025-11-24",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:17+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1682121476571893",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-04",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:09+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1632812018192493",
+            "advertiser": "Dwmallofficial",
+            "startedAt": "2026-09-12",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:09+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1121584843665886",
+            "advertiser": "총약사",
+            "startedAt": "2026-10-02",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:09+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1499972095498930",
+            "advertiser": "온누리쇼핑",
+            "startedAt": "2026-08-31",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:08+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28852672801002631",
+            "advertiser": "라이필",
+            "startedAt": "2026-09-02",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:07+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1984000935794069",
+            "advertiser": "Drama Terbaik Yang Harus Ditonton",
+            "startedAt": "2026-01-06",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:07+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "945988608451011",
+            "advertiser": "Mozilab",
+            "startedAt": "2026-06-21",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:01+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1220700816679388",
+            "advertiser": "하이웰코리아",
+            "startedAt": "2026-05-15",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:01+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4554168938204214",
+            "advertiser": "Dwmallofficial",
+            "startedAt": "2026-09-12",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:00+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "974370629012578",
+            "advertiser": "오늘은건강왕",
+            "startedAt": "2026-09-13",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:59+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "994572519961532",
+            "advertiser": "락피도",
+            "startedAt": "2026-06-17",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:52+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1016312401441847",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-09-02",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:52+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "901768903014266",
+            "advertiser": "건강꿀루틴",
+            "startedAt": "2025-12-26",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:51+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1626383031797444",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-06-12",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:51+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1415691457402685",
+            "advertiser": "하페테리아 hafeteria",
+            "startedAt": "2026-10-02",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:51+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "953883977311322",
+            "advertiser": "마더스올",
+            "startedAt": "2026-03-13",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:50+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "788444230785758",
+            "advertiser": "링포텐",
+            "startedAt": "2026-04-20",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:50+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3029980763865290",
+            "advertiser": "마더스올",
+            "startedAt": "2026-06-09",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:50+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1648678353084889",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:50+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1613439684122863",
+            "advertiser": "싸이언티픽 Scientific",
+            "startedAt": "2026-06-08",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:50+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "745478971993654",
+            "advertiser": "네오메딕스 뷰티",
+            "startedAt": "2026-08-06",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:43+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "845073468571348",
+            "advertiser": "Realcumin",
+            "startedAt": "2026-08-12",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:42+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2563106760785800",
+            "advertiser": "마더스올",
+            "startedAt": "2026-06-09",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:42+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1401153861836035",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:42+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "873482225047119",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:41+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2100356927227957",
+            "advertiser": "뉴트리아이",
+            "startedAt": "2026-07-21",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:41+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1750251573018570",
+            "advertiser": "필수관리 백과사전",
+            "startedAt": "2026-06-11",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:41+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1431501385675460",
+            "advertiser": "마더스올",
+            "startedAt": "2026-06-09",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:41+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "975884751938334",
+            "advertiser": "마더스올",
+            "startedAt": "2026-06-09",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:40+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1345851224067991",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:40+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "976905145236342",
+            "advertiser": "마더스올",
+            "startedAt": "2026-05-29",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:33+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1265536492306244",
+            "advertiser": "우ιㅈБ관𓇨소𓇨방𓇨관",
+            "startedAt": "2026-08-30",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:33+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1173602562500528",
+            "advertiser": "마더스올",
+            "startedAt": "2026-06-09",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:33+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1699333347935130",
+            "advertiser": "마더스올",
+            "startedAt": "2026-05-29",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:32+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1076814568203914",
+            "advertiser": "미모થ๛신",
+            "startedAt": "2026-07-16",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:31+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1042059401480277",
+            "advertiser": "마더스올",
+            "startedAt": "2026-06-09",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:31+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4421515698107552",
+            "advertiser": "최강⊂ト욧ㅎㅓ니팁",
+            "startedAt": "2026-08-24",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:30+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1299470145324751",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-02-19",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:30+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1168390098761351",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-01",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:30+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1051851400840869",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-30",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:30+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2830197403996197",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-04-26",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:23+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1515962793134426",
+            "advertiser": "장동규",
+            "startedAt": "2026-08-02",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:23+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1444780120102176",
+            "advertiser": "유한양행 버들장터",
+            "startedAt": "2026-04-19",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:23+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "743551622057365",
+            "advertiser": "담양 청아연 풀빌라",
+            "startedAt": "2026-04-02",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:22+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "773829701844406",
+            "advertiser": "락토온",
+            "startedAt": "2025-08-12",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:20+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1628919955305004",
+            "advertiser": "뉴트리모어",
+            "startedAt": "2026-08-31",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:20+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1404538808447210",
+            "advertiser": "우ιㅈБ관𓇨소𓇨방𓇨관",
+            "startedAt": "2026-08-30",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:20+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1060199686961289",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-12",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:20+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1582336396870676",
+            "advertiser": "피토틱스 Phytotics",
+            "startedAt": "2026-08-11",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:19+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1430499745595666",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-09-02",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:19+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1904804777591307",
+            "advertiser": "최강⊂ト욧ㅎㅓ니팁",
+            "startedAt": "2026-08-24",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:11+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1392402499576525",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-04-26",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:11+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1276560037368680",
+            "advertiser": "매크리 by 이쁜걸",
+            "startedAt": "2026-04-18",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:11+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2331629280912867",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:10+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1989271378357447",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:10+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27421764250750538",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:09+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1699923754386608",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:09+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1607778220736860",
+            "advertiser": "ખ 건강 ન딨ન",
+            "startedAt": "2026-09-07",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:09+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1341602097791026",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-04-21",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:09+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1046939740200849",
+            "advertiser": "",
+            "startedAt": "2024-08-20",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:09+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "727269690295776",
+            "advertiser": "더홈스",
+            "startedAt": "2025-07-21",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:04+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "951595541135984",
+            "advertiser": "유한양행 버들장터",
+            "startedAt": "2026-04-21",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:03+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2762744657445044",
+            "advertiser": "루솔",
+            "startedAt": "2026-05-29",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:03+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1630759018260559",
+            "advertiser": "마더스올",
+            "startedAt": "2026-03-12",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:03+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1423392786304484",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:03+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1324171059793020",
+            "advertiser": "리피어라",
+            "startedAt": "2026-09-03",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:03+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "26511485725218939",
+            "advertiser": "힘가네",
+            "startedAt": "2026-05-16",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:02+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1606193991124405",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:02+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "992543860083545",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-20",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:01+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1022355223397212",
+            "advertiser": "락토온",
+            "startedAt": "2025-07-08",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:01+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1717569969364390",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-22",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:45:56+00:00",
+            "lastCollectedAt": "2026-10-13T03:45:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1669906040892632",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:45:56+00:00",
+            "lastCollectedAt": "2026-10-13T03:45:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1559202799066544",
+            "advertiser": "더l일己l헬스노트",
+            "startedAt": "2026-07-15",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:45:56+00:00",
+            "lastCollectedAt": "2026-10-13T03:45:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1553644958946793",
+            "advertiser": "건강꿀팁",
+            "startedAt": "2025-07-29",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:45:56+00:00",
+            "lastCollectedAt": "2026-10-13T03:45:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1127992613222493",
+            "advertiser": "Dwmallofficial",
+            "startedAt": "2026-09-12",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:45:56+00:00",
+            "lastCollectedAt": "2026-10-13T03:45:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1050303650800766",
+            "advertiser": "진시황의 비밀",
+            "startedAt": "2026-07-27",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:45:56+00:00",
+            "lastCollectedAt": "2026-10-13T03:45:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "972904288301260",
+            "advertiser": "나노큐민 - Nanocumin",
+            "startedAt": "2025-03-21",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:45:55+00:00",
+            "lastCollectedAt": "2026-10-13T03:45:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2217586439024954",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:45:54+00:00",
+            "lastCollectedAt": "2026-10-13T03:45:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2082618925649980",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:45:54+00:00",
+            "lastCollectedAt": "2026-10-13T03:45:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1364605741992296",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:45:54+00:00",
+            "lastCollectedAt": "2026-10-13T03:45:54+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-13T03:47:34+00:00",
+        "advertisers": [
+          {
+            "name": "Naverplus.store",
+            "adCount": 19
+          },
+          {
+            "name": "마더스올",
+            "adCount": 10
+          },
+          {
+            "name": "BNR17 비에날씬 BNRThin",
+            "adCount": 7
+          },
+          {
+            "name": "주영엔에스",
+            "adCount": 5
+          },
+          {
+            "name": "Dwmallofficial",
+            "adCount": 4
+          },
+          {
+            "name": "내츄럴플러스",
+            "adCount": 2
+          },
+          {
+            "name": "네오메딕스 뷰티",
+            "adCount": 2
+          },
+          {
+            "name": "락토온",
+            "adCount": 2
+          },
+          {
+            "name": "우ιㅈБ관𓇨소𓇨방𓇨관",
+            "adCount": 2
+          },
+          {
+            "name": "유한양행 버들장터",
+            "adCount": 2
+          },
+          {
+            "name": "최강⊂ト욧ㅎㅓ니팁",
+            "adCount": 2
+          },
+          {
+            "name": "Drama Terbaik Yang Harus Ditonton",
+            "adCount": 1
+          },
+          {
+            "name": "Mozilab",
+            "adCount": 1
+          },
+          {
+            "name": "Realcumin",
+            "adCount": 1
+          },
+          {
+            "name": "ખ 건강 ન딨ન",
+            "adCount": 1
+          },
+          {
+            "name": "하페테리아 hafeteria",
+            "adCount": 1
+          },
+          {
+            "name": "건강꿀루틴",
+            "adCount": 1
+          },
+          {
+            "name": "건강꿀팁",
+            "adCount": 1
+          },
+          {
+            "name": "깎아주는 깍이모",
+            "adCount": 1
+          },
+          {
+            "name": "나노큐민 - Nanocumin",
+            "adCount": 1
+          },
+          {
+            "name": "뉴트리모어",
+            "adCount": 1
+          },
+          {
+            "name": "뉴트리아이",
+            "adCount": 1
+          },
+          {
+            "name": "닥터프로그램 doctorprogram",
+            "adCount": 1
+          },
+          {
+            "name": "담양 청아연 풀빌라",
+            "adCount": 1
+          },
+          {
+            "name": "더l일己l헬스노트",
+            "adCount": 1
+          },
+          {
+            "name": "더홈스",
+            "adCount": 1
+          },
+          {
+            "name": "두드림몰",
+            "adCount": 1
+          },
+          {
+            "name": "라이필",
+            "adCount": 1
+          },
+          {
+            "name": "락피도",
+            "adCount": 1
+          },
+          {
+            "name": "루솔",
+            "adCount": 1
+          },
+          {
+            "name": "리피어라",
+            "adCount": 1
+          },
+          {
+            "name": "링포텐",
+            "adCount": 1
+          },
+          {
+            "name": "매크리 by 이쁜걸",
+            "adCount": 1
+          },
+          {
+            "name": "미모થ๛신",
+            "adCount": 1
+          },
+          {
+            "name": "바이오가이아",
+            "adCount": 1
+          },
+          {
+            "name": "박혜성의 해성산부인과",
+            "adCount": 1
+          },
+          {
+            "name": "싸이언티픽 Scientific",
+            "adCount": 1
+          },
+          {
+            "name": "얼라이브 ALIVE",
+            "adCount": 1
+          },
+          {
+            "name": "에스더포뮬러",
+            "adCount": 1
+          },
+          {
+            "name": "오늘은건강왕",
+            "adCount": 1
+          },
+          {
+            "name": "온누리쇼핑",
+            "adCount": 1
+          },
+          {
+            "name": "장동규",
+            "adCount": 1
+          },
+          {
+            "name": "정담건강",
+            "adCount": 1
+          },
+          {
+            "name": "진시황의 비밀",
+            "adCount": 1
+          },
+          {
+            "name": "총약사",
+            "adCount": 1
+          },
+          {
+            "name": "프롬바이오",
+            "adCount": 1
+          },
+          {
+            "name": "피토틱스 Phytotics",
+            "adCount": 1
+          },
+          {
+            "name": "필수관리 백과사전",
+            "adCount": 1
+          },
+          {
+            "name": "하이웰코리아",
+            "adCount": 1
+          },
+          {
+            "name": "힘가네",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -21870,17 +23073,1220 @@
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:25+00:00",
       "lastObservedAt": "2026-10-13T01:06:25+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "0616815ac902144ee9eb42b57e1b869fe3071c93a6c675e9e237ae6a583f032f",
       "searchQuery": "아연",
       "adEvidence": {
         "query": "아연",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 100,
+        "adIds": [
+          "27317362327957022",
+          "1551751333097906",
+          "4605823186364673",
+          "2591434501297249",
+          "1406771950936409",
+          "877775011795575",
+          "3202938193192941",
+          "1850212016416520",
+          "832038829740991",
+          "1372035114504748",
+          "949322577713817",
+          "3330485063791277",
+          "2529831367494455",
+          "1765076194661967",
+          "1376452514467261",
+          "1343140204395338",
+          "1320539130010968",
+          "917762724414972",
+          "1764253964617874",
+          "1094078695993119",
+          "1682121476571893",
+          "1632812018192493",
+          "1121584843665886",
+          "1499972095498930",
+          "28852672801002631",
+          "1984000935794069",
+          "945988608451011",
+          "1220700816679388",
+          "4554168938204214",
+          "974370629012578",
+          "994572519961532",
+          "1016312401441847",
+          "901768903014266",
+          "1626383031797444",
+          "1415691457402685",
+          "953883977311322",
+          "788444230785758",
+          "3029980763865290",
+          "1648678353084889",
+          "1613439684122863",
+          "745478971993654",
+          "845073468571348",
+          "2563106760785800",
+          "1401153861836035",
+          "873482225047119",
+          "2100356927227957",
+          "1750251573018570",
+          "1431501385675460",
+          "975884751938334",
+          "1345851224067991",
+          "976905145236342",
+          "1265536492306244",
+          "1173602562500528",
+          "1699333347935130",
+          "1076814568203914",
+          "1042059401480277",
+          "4421515698107552",
+          "1299470145324751",
+          "1168390098761351",
+          "1051851400840869",
+          "2830197403996197",
+          "1515962793134426",
+          "1444780120102176",
+          "743551622057365",
+          "773829701844406",
+          "1628919955305004",
+          "1404538808447210",
+          "1060199686961289",
+          "1582336396870676",
+          "1430499745595666",
+          "1904804777591307",
+          "1392402499576525",
+          "1276560037368680",
+          "2331629280912867",
+          "1989271378357447",
+          "27421764250750538",
+          "1699923754386608",
+          "1607778220736860",
+          "1341602097791026",
+          "1046939740200849",
+          "727269690295776",
+          "951595541135984",
+          "2762744657445044",
+          "1630759018260559",
+          "1423392786304484",
+          "1324171059793020",
+          "26511485725218939",
+          "1606193991124405",
+          "992543860083545",
+          "1022355223397212",
+          "1717569969364390",
+          "1669906040892632",
+          "1559202799066544",
+          "1553644958946793",
+          "1127992613222493",
+          "1050303650800766",
+          "972904288301260",
+          "2217586439024954",
+          "2082618925649980",
+          "1364605741992296"
+        ],
+        "ads": [
+          {
+            "id": "27317362327957022",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-14",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:34+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1551751333097906",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-09-04",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:34+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4605823186364673",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-09-02",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:33+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2591434501297249",
+            "advertiser": "깎아주는 깍이모",
+            "startedAt": "2026-07-23",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:33+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1406771950936409",
+            "advertiser": "두드림몰",
+            "startedAt": "2026-09-23",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:33+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "877775011795575",
+            "advertiser": "에스더포뮬러",
+            "startedAt": "2026-08-04",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:32+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3202938193192941",
+            "advertiser": "",
+            "startedAt": "2025-05-01",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:32+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1850212016416520",
+            "advertiser": "닥터프로그램 doctorprogram",
+            "startedAt": "2026-09-16",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:32+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "832038829740991",
+            "advertiser": "박혜성의 해성산부인과",
+            "startedAt": "2025-11-27",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:31+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1372035114504748",
+            "advertiser": "",
+            "startedAt": "2025-11-18",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:31+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "949322577713817",
+            "advertiser": "네오메딕스 뷰티",
+            "startedAt": "2026-04-28",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:19+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3330485063791277",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-07-13",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:19+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2529831367494455",
+            "advertiser": "바이오가이아",
+            "startedAt": "2026-09-30",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:18+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1765076194661967",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-30",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:18+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1376452514467261",
+            "advertiser": "정담건강",
+            "startedAt": "2026-08-05",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:18+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1343140204395338",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-05-21",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:18+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1320539130010968",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:18+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "917762724414972",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-04-28",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:17+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1764253964617874",
+            "advertiser": "Dwmallofficial",
+            "startedAt": "2026-09-21",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:17+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1094078695993119",
+            "advertiser": "",
+            "startedAt": "2025-11-24",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:17+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1682121476571893",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-04",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:09+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1632812018192493",
+            "advertiser": "Dwmallofficial",
+            "startedAt": "2026-09-12",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:09+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1121584843665886",
+            "advertiser": "총약사",
+            "startedAt": "2026-10-02",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:09+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1499972095498930",
+            "advertiser": "온누리쇼핑",
+            "startedAt": "2026-08-31",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:08+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "28852672801002631",
+            "advertiser": "라이필",
+            "startedAt": "2026-09-02",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:07+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1984000935794069",
+            "advertiser": "Drama Terbaik Yang Harus Ditonton",
+            "startedAt": "2026-01-06",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:07+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "945988608451011",
+            "advertiser": "Mozilab",
+            "startedAt": "2026-06-21",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:01+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1220700816679388",
+            "advertiser": "하이웰코리아",
+            "startedAt": "2026-05-15",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:01+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4554168938204214",
+            "advertiser": "Dwmallofficial",
+            "startedAt": "2026-09-12",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:47:00+00:00",
+            "lastCollectedAt": "2026-10-13T03:47:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "974370629012578",
+            "advertiser": "오늘은건강왕",
+            "startedAt": "2026-09-13",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:59+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "994572519961532",
+            "advertiser": "락피도",
+            "startedAt": "2026-06-17",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:52+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1016312401441847",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-09-02",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:52+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "901768903014266",
+            "advertiser": "건강꿀루틴",
+            "startedAt": "2025-12-26",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:51+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1626383031797444",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-06-12",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:51+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1415691457402685",
+            "advertiser": "하페테리아 hafeteria",
+            "startedAt": "2026-10-02",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:51+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "953883977311322",
+            "advertiser": "마더스올",
+            "startedAt": "2026-03-13",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:50+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "788444230785758",
+            "advertiser": "링포텐",
+            "startedAt": "2026-04-20",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:50+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3029980763865290",
+            "advertiser": "마더스올",
+            "startedAt": "2026-06-09",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:50+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1648678353084889",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:50+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1613439684122863",
+            "advertiser": "싸이언티픽 Scientific",
+            "startedAt": "2026-06-08",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:50+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "745478971993654",
+            "advertiser": "네오메딕스 뷰티",
+            "startedAt": "2026-08-06",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:43+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "845073468571348",
+            "advertiser": "Realcumin",
+            "startedAt": "2026-08-12",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:42+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2563106760785800",
+            "advertiser": "마더스올",
+            "startedAt": "2026-06-09",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:42+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1401153861836035",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:42+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "873482225047119",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:41+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2100356927227957",
+            "advertiser": "뉴트리아이",
+            "startedAt": "2026-07-21",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:41+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1750251573018570",
+            "advertiser": "필수관리 백과사전",
+            "startedAt": "2026-06-11",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:41+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1431501385675460",
+            "advertiser": "마더스올",
+            "startedAt": "2026-06-09",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:41+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "975884751938334",
+            "advertiser": "마더스올",
+            "startedAt": "2026-06-09",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:40+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1345851224067991",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:40+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "976905145236342",
+            "advertiser": "마더스올",
+            "startedAt": "2026-05-29",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:33+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1265536492306244",
+            "advertiser": "우ιㅈБ관𓇨소𓇨방𓇨관",
+            "startedAt": "2026-08-30",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:33+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1173602562500528",
+            "advertiser": "마더스올",
+            "startedAt": "2026-06-09",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:33+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1699333347935130",
+            "advertiser": "마더스올",
+            "startedAt": "2026-05-29",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:32+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1076814568203914",
+            "advertiser": "미모થ๛신",
+            "startedAt": "2026-07-16",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:31+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1042059401480277",
+            "advertiser": "마더스올",
+            "startedAt": "2026-06-09",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:31+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4421515698107552",
+            "advertiser": "최강⊂ト욧ㅎㅓ니팁",
+            "startedAt": "2026-08-24",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:30+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1299470145324751",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-02-19",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:30+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1168390098761351",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-01",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:30+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1051851400840869",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-30",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:30+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2830197403996197",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-04-26",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:23+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1515962793134426",
+            "advertiser": "장동규",
+            "startedAt": "2026-08-02",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:23+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1444780120102176",
+            "advertiser": "유한양행 버들장터",
+            "startedAt": "2026-04-19",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:23+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "743551622057365",
+            "advertiser": "담양 청아연 풀빌라",
+            "startedAt": "2026-04-02",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:22+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "773829701844406",
+            "advertiser": "락토온",
+            "startedAt": "2025-08-12",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:20+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1628919955305004",
+            "advertiser": "뉴트리모어",
+            "startedAt": "2026-08-31",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:20+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1404538808447210",
+            "advertiser": "우ιㅈБ관𓇨소𓇨방𓇨관",
+            "startedAt": "2026-08-30",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:20+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1060199686961289",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-12",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:20+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1582336396870676",
+            "advertiser": "피토틱스 Phytotics",
+            "startedAt": "2026-08-11",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:19+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1430499745595666",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-09-02",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:19+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1904804777591307",
+            "advertiser": "최강⊂ト욧ㅎㅓ니팁",
+            "startedAt": "2026-08-24",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:11+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1392402499576525",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-04-26",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:11+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1276560037368680",
+            "advertiser": "매크리 by 이쁜걸",
+            "startedAt": "2026-04-18",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:11+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:11+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2331629280912867",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:10+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1989271378357447",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:10+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "27421764250750538",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:09+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1699923754386608",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:09+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1607778220736860",
+            "advertiser": "ખ 건강 ન딨ન",
+            "startedAt": "2026-09-07",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:09+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1341602097791026",
+            "advertiser": "BNR17 비에날씬 BNRThin",
+            "startedAt": "2026-04-21",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:09+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1046939740200849",
+            "advertiser": "",
+            "startedAt": "2024-08-20",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:09+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "727269690295776",
+            "advertiser": "더홈스",
+            "startedAt": "2025-07-21",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:04+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:04+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "951595541135984",
+            "advertiser": "유한양행 버들장터",
+            "startedAt": "2026-04-21",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:03+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2762744657445044",
+            "advertiser": "루솔",
+            "startedAt": "2026-05-29",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:03+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1630759018260559",
+            "advertiser": "마더스올",
+            "startedAt": "2026-03-12",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:03+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1423392786304484",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:03+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1324171059793020",
+            "advertiser": "리피어라",
+            "startedAt": "2026-09-03",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:03+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "26511485725218939",
+            "advertiser": "힘가네",
+            "startedAt": "2026-05-16",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:02+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1606193991124405",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:02+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "992543860083545",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-20",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:01+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1022355223397212",
+            "advertiser": "락토온",
+            "startedAt": "2025-07-08",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:46:01+00:00",
+            "lastCollectedAt": "2026-10-13T03:46:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1717569969364390",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-22",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:45:56+00:00",
+            "lastCollectedAt": "2026-10-13T03:45:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1669906040892632",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:45:56+00:00",
+            "lastCollectedAt": "2026-10-13T03:45:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1559202799066544",
+            "advertiser": "더l일己l헬스노트",
+            "startedAt": "2026-07-15",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:45:56+00:00",
+            "lastCollectedAt": "2026-10-13T03:45:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1553644958946793",
+            "advertiser": "건강꿀팁",
+            "startedAt": "2025-07-29",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:45:56+00:00",
+            "lastCollectedAt": "2026-10-13T03:45:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1127992613222493",
+            "advertiser": "Dwmallofficial",
+            "startedAt": "2026-09-12",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:45:56+00:00",
+            "lastCollectedAt": "2026-10-13T03:45:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1050303650800766",
+            "advertiser": "진시황의 비밀",
+            "startedAt": "2026-07-27",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:45:56+00:00",
+            "lastCollectedAt": "2026-10-13T03:45:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "972904288301260",
+            "advertiser": "나노큐민 - Nanocumin",
+            "startedAt": "2025-03-21",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:45:55+00:00",
+            "lastCollectedAt": "2026-10-13T03:45:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2217586439024954",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:45:54+00:00",
+            "lastCollectedAt": "2026-10-13T03:45:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2082618925649980",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:45:54+00:00",
+            "lastCollectedAt": "2026-10-13T03:45:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1364605741992296",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-08-27",
+            "query": "아연",
+            "firstCollectedAt": "2026-10-13T03:45:54+00:00",
+            "lastCollectedAt": "2026-10-13T03:45:54+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-13T03:47:34+00:00",
+        "advertisers": [
+          {
+            "name": "Naverplus.store",
+            "adCount": 19
+          },
+          {
+            "name": "마더스올",
+            "adCount": 10
+          },
+          {
+            "name": "BNR17 비에날씬 BNRThin",
+            "adCount": 7
+          },
+          {
+            "name": "주영엔에스",
+            "adCount": 5
+          },
+          {
+            "name": "Dwmallofficial",
+            "adCount": 4
+          },
+          {
+            "name": "내츄럴플러스",
+            "adCount": 2
+          },
+          {
+            "name": "네오메딕스 뷰티",
+            "adCount": 2
+          },
+          {
+            "name": "락토온",
+            "adCount": 2
+          },
+          {
+            "name": "우ιㅈБ관𓇨소𓇨방𓇨관",
+            "adCount": 2
+          },
+          {
+            "name": "유한양행 버들장터",
+            "adCount": 2
+          },
+          {
+            "name": "최강⊂ト욧ㅎㅓ니팁",
+            "adCount": 2
+          },
+          {
+            "name": "Drama Terbaik Yang Harus Ditonton",
+            "adCount": 1
+          },
+          {
+            "name": "Mozilab",
+            "adCount": 1
+          },
+          {
+            "name": "Realcumin",
+            "adCount": 1
+          },
+          {
+            "name": "ખ 건강 ન딨ન",
+            "adCount": 1
+          },
+          {
+            "name": "하페테리아 hafeteria",
+            "adCount": 1
+          },
+          {
+            "name": "건강꿀루틴",
+            "adCount": 1
+          },
+          {
+            "name": "건강꿀팁",
+            "adCount": 1
+          },
+          {
+            "name": "깎아주는 깍이모",
+            "adCount": 1
+          },
+          {
+            "name": "나노큐민 - Nanocumin",
+            "adCount": 1
+          },
+          {
+            "name": "뉴트리모어",
+            "adCount": 1
+          },
+          {
+            "name": "뉴트리아이",
+            "adCount": 1
+          },
+          {
+            "name": "닥터프로그램 doctorprogram",
+            "adCount": 1
+          },
+          {
+            "name": "담양 청아연 풀빌라",
+            "adCount": 1
+          },
+          {
+            "name": "더l일己l헬스노트",
+            "adCount": 1
+          },
+          {
+            "name": "더홈스",
+            "adCount": 1
+          },
+          {
+            "name": "두드림몰",
+            "adCount": 1
+          },
+          {
+            "name": "라이필",
+            "adCount": 1
+          },
+          {
+            "name": "락피도",
+            "adCount": 1
+          },
+          {
+            "name": "루솔",
+            "adCount": 1
+          },
+          {
+            "name": "리피어라",
+            "adCount": 1
+          },
+          {
+            "name": "링포텐",
+            "adCount": 1
+          },
+          {
+            "name": "매크리 by 이쁜걸",
+            "adCount": 1
+          },
+          {
+            "name": "미모થ๛신",
+            "adCount": 1
+          },
+          {
+            "name": "바이오가이아",
+            "adCount": 1
+          },
+          {
+            "name": "박혜성의 해성산부인과",
+            "adCount": 1
+          },
+          {
+            "name": "싸이언티픽 Scientific",
+            "adCount": 1
+          },
+          {
+            "name": "얼라이브 ALIVE",
+            "adCount": 1
+          },
+          {
+            "name": "에스더포뮬러",
+            "adCount": 1
+          },
+          {
+            "name": "오늘은건강왕",
+            "adCount": 1
+          },
+          {
+            "name": "온누리쇼핑",
+            "adCount": 1
+          },
+          {
+            "name": "장동규",
+            "adCount": 1
+          },
+          {
+            "name": "정담건강",
+            "adCount": 1
+          },
+          {
+            "name": "진시황의 비밀",
+            "adCount": 1
+          },
+          {
+            "name": "총약사",
+            "adCount": 1
+          },
+          {
+            "name": "프롬바이오",
+            "adCount": 1
+          },
+          {
+            "name": "피토틱스 Phytotics",
+            "adCount": 1
+          },
+          {
+            "name": "필수관리 백과사전",
+            "adCount": 1
+          },
+          {
+            "name": "하이웰코리아",
+            "adCount": 1
+          },
+          {
+            "name": "힘가네",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
