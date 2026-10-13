@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-13T05:28:54+00:00",
+  "updatedAt": "2026-10-13T05:38:28+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-13T01:06:58+00:00",
@@ -41,22 +41,22 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 35,
-    "dailyRemaining": 253,
+    "dailyUsed": 36,
+    "dailyRemaining": 252,
     "pending": 0,
-    "nextDispatchAt": "2026-10-13T05:33:19+00:00",
+    "nextDispatchAt": "2026-10-13T06:38:27+00:00",
     "metaAutoEnabled": true,
-    "enabled": true,
+    "enabled": false,
     "collectionGuard": {
-      "state": "ready",
-      "reason": null,
-      "nextAllowedAt": null,
-      "blockedUntil": null,
-      "blockStreak": 0,
+      "state": "blocked",
+      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
+      "nextAllowedAt": "2026-10-13T06:38:27+00:00",
+      "blockedUntil": "2026-10-13T06:38:27+00:00",
+      "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": null
+    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
   },
   "settings": {
     "category": "50000023",
@@ -14503,7 +14503,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "failed",
       "keywordId": "cee992c3f5e02bdd4c0377b7924bd5aaa36718ab6c9e60695ad6cccf96501600",
       "searchQuery": "빨간통다이어트",
       "adEvidence": {
@@ -15657,7 +15657,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:58+00:00",
       "lastObservedAt": "2026-10-13T01:06:58+00:00",
-      "state": "ready",
+      "state": "failed",
       "keywordId": "cee992c3f5e02bdd4c0377b7924bd5aaa36718ab6c9e60695ad6cccf96501600",
       "searchQuery": "빨간통다이어트",
       "adEvidence": {
