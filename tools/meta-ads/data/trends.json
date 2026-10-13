@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-13T03:40:46+00:00",
+  "updatedAt": "2026-10-13T03:43:10+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-13T01:06:58+00:00",
@@ -43,8 +43,8 @@
     "backlogDays": 14,
     "dailyUsed": 27,
     "dailyRemaining": 261,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-13T03:45:46+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -1662,17 +1662,1124 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "6563c007393064da4c79423d10140520b49716e650c78278d3f450bafcdf580e",
       "searchQuery": "칼마디",
       "adEvidence": {
         "query": "칼마디",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 96,
+        "adIds": [
+          "1884666526311871",
+          "946237088101279",
+          "3577270079106994",
+          "2539356066491552",
+          "2103132907230703",
+          "1885349192881973",
+          "1806337437060457",
+          "1571063497659824",
+          "1470389384933415",
+          "1721881922712476",
+          "1556012222998264",
+          "1405598898310130",
+          "1864926248208272",
+          "1094864470094231",
+          "903802496003934",
+          "1116700560936937",
+          "2304878933644902",
+          "28567335779591023",
+          "2291948554951132",
+          "1612606416994005",
+          "1608197614133227",
+          "2678626242594837",
+          "1633924828432720",
+          "1403900995237709",
+          "1475876154536984",
+          "1421434363500867",
+          "2188540615377743",
+          "2133298270948309",
+          "1616934129529357",
+          "1453170700069605",
+          "1085630770984785",
+          "2697775027307758",
+          "1755444045511382",
+          "1830751324765829",
+          "1535301068355369",
+          "1133843946257690",
+          "1657284552734591",
+          "1110860231401587",
+          "2273565510100276",
+          "2008478683180568",
+          "1613947647051598",
+          "1830884228091218",
+          "1654470856032720",
+          "1630193045298370",
+          "1110404431387579",
+          "2000400423990620",
+          "943153375085652",
+          "883318954641287",
+          "1729155108383161",
+          "1619738382976408",
+          "1308964667926400",
+          "2925445284490420",
+          "2044824719731765",
+          "1808946913464334",
+          "1124516396589494",
+          "2035581643787875",
+          "2294077441406095",
+          "1114242311115806",
+          "1612973787290850",
+          "1664940525252382",
+          "4183664281765518",
+          "1651517609666163",
+          "1638408664744385",
+          "1788711585806091",
+          "1114354534273431",
+          "1091913376725739",
+          "1405621741428014",
+          "1751020770359581",
+          "1750745422881174",
+          "1605136381243607",
+          "1337205518169410",
+          "1504574578098621",
+          "1291117116405865",
+          "2318928965607705",
+          "1033917832417666",
+          "999720939786644",
+          "1653366486149618",
+          "1724075018865460",
+          "1042594718260793",
+          "1032020763119499",
+          "1006188765240888",
+          "3923942841076625",
+          "2310066086402761",
+          "1609737287204236",
+          "1440718964567926",
+          "1850212016416520",
+          "3330485063791277",
+          "2203100436918645",
+          "1765076194661967",
+          "1376452514467261",
+          "1009127188727653",
+          "25669572835997020",
+          "1699923754386608",
+          "1628919955305004",
+          "1717569969364390",
+          "1055934593696061"
+        ],
+        "ads": [
+          {
+            "id": "1884666526311871",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:42+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:42+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "946237088101279",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:41+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:41+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "3577270079106994",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:41+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:41+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2539356066491552",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:41+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:41+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2103132907230703",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:41+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:41+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1885349192881973",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:41+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:41+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1806337437060457",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:25+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:25+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1571063497659824",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:25+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:25+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1470389384933415",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:25+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:25+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1721881922712476",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:24+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:24+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1556012222998264",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:24+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:24+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1405598898310130",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:24+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:24+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1864926248208272",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:23+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:23+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1094864470094231",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:23+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:23+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "903802496003934",
+            "advertiser": "정담건강",
+            "startedAt": "2026-10-08",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:22+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:22+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1116700560936937",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:22+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:22+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2304878933644902",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:14+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:14+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "28567335779591023",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:13+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:13+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2291948554951132",
+            "advertiser": "안국약품",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:13+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:13+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1612606416994005",
+            "advertiser": "아빠의 마음으로 만든, 쁘띠앤",
+            "startedAt": "2026-10-12",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:13+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:13+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1608197614133227",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:13+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:13+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2678626242594837",
+            "advertiser": "정담건강",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:12+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:12+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1633924828432720",
+            "advertiser": "그로우랩",
+            "startedAt": "2026-09-30",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:12+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1403900995237709",
+            "advertiser": "아빠의 마음으로 만든, 쁘띠앤",
+            "startedAt": "2026-10-12",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:12+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:12+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1475876154536984",
+            "advertiser": "YUN",
+            "startedAt": "2026-10-12",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:11+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:11+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1421434363500867",
+            "advertiser": "키즐키즐",
+            "startedAt": "2026-10-07",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:11+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:11+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2188540615377743",
+            "advertiser": "마미톡",
+            "startedAt": "2026-10-12",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:00+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:00+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2133298270948309",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:00+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:00+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1616934129529357",
+            "advertiser": "그린푸드메이커",
+            "startedAt": "2026-04-24",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:00+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1453170700069605",
+            "advertiser": "어바인랩 Irvinelab",
+            "startedAt": "2026-10-10",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:59+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:59+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1085630770984785",
+            "advertiser": "",
+            "startedAt": "2026-10-12",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:59+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:59+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2697775027307758",
+            "advertiser": "벌꿀육아템",
+            "startedAt": "2026-10-08",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:58+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:58+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1755444045511382",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:58+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:58+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1830751324765829",
+            "advertiser": "Heȁlʈhydȁy",
+            "startedAt": "2026-10-01",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:57+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1535301068355369",
+            "advertiser": "키즐키즐",
+            "startedAt": "2026-10-08",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:57+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:57+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1133843946257690",
+            "advertiser": "키즐키즐",
+            "startedAt": "2026-10-07",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:57+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:57+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1657284552734591",
+            "advertiser": "자신있는 약상담ㅣ자신약사",
+            "startedAt": "2026-10-12",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:49+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:49+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1110860231401587",
+            "advertiser": "헬스꿀팁",
+            "startedAt": "2026-10-06",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:49+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:49+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2273565510100276",
+            "advertiser": "ꔌ늘થ ටㅏગ템",
+            "startedAt": "2026-10-01",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:46+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2008478683180568",
+            "advertiser": "자신있는 약상담ㅣ자신약사",
+            "startedAt": "2026-10-12",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:45+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:45+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1613947647051598",
+            "advertiser": "건강식품 추천",
+            "startedAt": "2026-10-07",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:45+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:45+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1830884228091218",
+            "advertiser": "자신있는 약상담ㅣ자신약사",
+            "startedAt": "2026-10-12",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:44+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:44+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1654470856032720",
+            "advertiser": "키즐키즐",
+            "startedAt": "2026-10-08",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:42+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:42+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1630193045298370",
+            "advertiser": "필요약",
+            "startedAt": "2026-10-06",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:41+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:41+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1110404431387579",
+            "advertiser": "위키약사official",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:41+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:41+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2000400423990620",
+            "advertiser": "",
+            "startedAt": "2026-10-10",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:40+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:40+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "943153375085652",
+            "advertiser": "ꔌ늘થ ටㅏગ템",
+            "startedAt": "2026-10-01",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:33+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "883318954641287",
+            "advertiser": "નયૃગ ටㅏગ템",
+            "startedAt": "2026-08-23",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:33+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1729155108383161",
+            "advertiser": "નયૃગ ටㅏગ템",
+            "startedAt": "2026-09-07",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:33+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1619738382976408",
+            "advertiser": "키즐키즐",
+            "startedAt": "2026-10-08",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:32+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:32+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1308964667926400",
+            "advertiser": "하이픽",
+            "startedAt": "2026-10-06",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:32+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:32+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2925445284490420",
+            "advertiser": "UNA:N",
+            "startedAt": "2026-10-05",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:31+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2044824719731765",
+            "advertiser": "그로우랩",
+            "startedAt": "2026-08-24",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:31+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1808946913464334",
+            "advertiser": "아빠의 마음으로 만든, 쁘띠앤",
+            "startedAt": "2026-10-01",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:31+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1124516396589494",
+            "advertiser": "동국제약 토탈헬스케어",
+            "startedAt": "2026-10-06",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:31+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:31+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2035581643787875",
+            "advertiser": "ꔌ늘થ ටㅏગ템",
+            "startedAt": "2026-10-01",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:30+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2294077441406095",
+            "advertiser": "키즐키즐",
+            "startedAt": "2026-10-08",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:24+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:24+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1114242311115806",
+            "advertiser": "쀼약사네",
+            "startedAt": "2026-10-08",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:23+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:23+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1612973787290850",
+            "advertiser": "웰빙연구소",
+            "startedAt": "2026-09-28",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:21+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1664940525252382",
+            "advertiser": "이다윤",
+            "startedAt": "2026-09-22",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:20+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4183664281765518",
+            "advertiser": "쀼약사네",
+            "startedAt": "2026-09-30",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:19+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1651517609666163",
+            "advertiser": "어린이건강 뮴",
+            "startedAt": "2026-10-01",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:17+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1638408664744385",
+            "advertiser": "toad_pharm",
+            "startedAt": "2026-10-06",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:17+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:17+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1788711585806091",
+            "advertiser": "어바인랩 Irvinelab",
+            "startedAt": "2026-09-30",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:16+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1114354534273431",
+            "advertiser": "키즐키즐",
+            "startedAt": "2026-10-07",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:16+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:16+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1091913376725739",
+            "advertiser": "નયૃગ ටㅏગ템",
+            "startedAt": "2026-08-23",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:16+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1405621741428014",
+            "advertiser": "나우푸드",
+            "startedAt": "2026-06-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:09+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1751020770359581",
+            "advertiser": "네이처메이드",
+            "startedAt": "2026-10-01",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:08+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1750745422881174",
+            "advertiser": "ꔌ늘થ ටㅏગ템",
+            "startedAt": "2026-10-01",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:08+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1605136381243607",
+            "advertiser": "નયૃગ ටㅏગ템",
+            "startedAt": "2026-09-08",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:08+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1337205518169410",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-08-20",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:08+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1504574578098621",
+            "advertiser": "નયૃગ ටㅏગ템",
+            "startedAt": "2026-09-07",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:07+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1291117116405865",
+            "advertiser": "약사피셜",
+            "startedAt": "2026-09-29",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:07+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2318928965607705",
+            "advertiser": "네이처메이드",
+            "startedAt": "2026-10-01",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:06+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1033917832417666",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-14",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:06+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "999720939786644",
+            "advertiser": "",
+            "startedAt": "2026-08-25",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:05+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1653366486149618",
+            "advertiser": "UNA:N",
+            "startedAt": "2026-09-14",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:01+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1724075018865460",
+            "advertiser": "નયૃગ ටㅏગ템",
+            "startedAt": "2026-09-07",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:00+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1042594718260793",
+            "advertiser": "아빠의 마음으로 만든, 쁘띠앤",
+            "startedAt": "2026-07-30",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:00+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1032020763119499",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-14",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:00+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1006188765240888",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-09",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:00+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3923942841076625",
+            "advertiser": "어린이건강 뮴",
+            "startedAt": "2026-08-26",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:40:59+00:00",
+            "lastCollectedAt": "2026-10-13T03:40:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2310066086402761",
+            "advertiser": "어린이건강 뮴",
+            "startedAt": "2026-09-08",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:40:59+00:00",
+            "lastCollectedAt": "2026-10-13T03:40:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1609737287204236",
+            "advertiser": "아빠의 마음으로 만든, 쁘띠앤",
+            "startedAt": "2026-09-09",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:40:59+00:00",
+            "lastCollectedAt": "2026-10-13T03:40:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1440718964567926",
+            "advertiser": "아빠의 마음으로 만든, 쁘띠앤",
+            "startedAt": "2026-09-09",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:40:59+00:00",
+            "lastCollectedAt": "2026-10-13T03:40:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1850212016416520",
+            "advertiser": "닥터프로그램 doctorprogram",
+            "startedAt": "2026-09-16",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:40:58+00:00",
+            "lastCollectedAt": "2026-10-13T03:40:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3330485063791277",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-07-13",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:40:53+00:00",
+            "lastCollectedAt": "2026-10-13T03:40:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2203100436918645",
+            "advertiser": "નયૃગ ටㅏગ템",
+            "startedAt": "2026-09-07",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:40:53+00:00",
+            "lastCollectedAt": "2026-10-13T03:40:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1765076194661967",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-30",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:40:53+00:00",
+            "lastCollectedAt": "2026-10-13T03:40:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1376452514467261",
+            "advertiser": "정담건강",
+            "startedAt": "2026-08-05",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:40:53+00:00",
+            "lastCollectedAt": "2026-10-13T03:40:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1009127188727653",
+            "advertiser": "정약사의 건강나눔",
+            "startedAt": "2026-05-26",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:40:52+00:00",
+            "lastCollectedAt": "2026-10-13T03:40:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "25669572835997020",
+            "advertiser": "약사남",
+            "startedAt": "2026-01-26",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:40:51+00:00",
+            "lastCollectedAt": "2026-10-13T03:40:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1699923754386608",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:40:51+00:00",
+            "lastCollectedAt": "2026-10-13T03:40:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1628919955305004",
+            "advertiser": "뉴트리모어",
+            "startedAt": "2026-08-31",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:40:51+00:00",
+            "lastCollectedAt": "2026-10-13T03:40:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1717569969364390",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-22",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:40:50+00:00",
+            "lastCollectedAt": "2026-10-13T03:40:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1055934593696061",
+            "advertiser": "필요약",
+            "startedAt": "2026-08-23",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:40:50+00:00",
+            "lastCollectedAt": "2026-10-13T03:40:50+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-13T03:42:42+00:00",
+        "advertisers": [
+          {
+            "name": "달심",
+            "adCount": 20
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 7
+          },
+          {
+            "name": "નયૃગ ටㅏગ템",
+            "adCount": 7
+          },
+          {
+            "name": "키즐키즐",
+            "adCount": 7
+          },
+          {
+            "name": "아빠의 마음으로 만든, 쁘띠앤",
+            "adCount": 6
+          },
+          {
+            "name": "ꔌ늘થ ටㅏગ템",
+            "adCount": 4
+          },
+          {
+            "name": "어린이건강 뮴",
+            "adCount": 3
+          },
+          {
+            "name": "자신있는 약상담ㅣ자신약사",
+            "adCount": 3
+          },
+          {
+            "name": "정담건강",
+            "adCount": 3
+          },
+          {
+            "name": "UNA:N",
+            "adCount": 2
+          },
+          {
+            "name": "그로우랩",
+            "adCount": 2
+          },
+          {
+            "name": "네이처메이드",
+            "adCount": 2
+          },
+          {
+            "name": "쀼약사네",
+            "adCount": 2
+          },
+          {
+            "name": "어바인랩 Irvinelab",
+            "adCount": 2
+          },
+          {
+            "name": "필요약",
+            "adCount": 2
+          },
+          {
+            "name": "Heȁlʈhydȁy",
+            "adCount": 1
+          },
+          {
+            "name": "YUN",
+            "adCount": 1
+          },
+          {
+            "name": "toad_pharm",
+            "adCount": 1
+          },
+          {
+            "name": "건강식품 추천",
+            "adCount": 1
+          },
+          {
+            "name": "그린푸드메이커",
+            "adCount": 1
+          },
+          {
+            "name": "나우푸드",
+            "adCount": 1
+          },
+          {
+            "name": "내츄럴플러스",
+            "adCount": 1
+          },
+          {
+            "name": "뉴트리모어",
+            "adCount": 1
+          },
+          {
+            "name": "닥터프로그램 doctorprogram",
+            "adCount": 1
+          },
+          {
+            "name": "동국제약 토탈헬스케어",
+            "adCount": 1
+          },
+          {
+            "name": "마미톡",
+            "adCount": 1
+          },
+          {
+            "name": "벌꿀육아템",
+            "adCount": 1
+          },
+          {
+            "name": "안국약품",
+            "adCount": 1
+          },
+          {
+            "name": "약사남",
+            "adCount": 1
+          },
+          {
+            "name": "약사피셜",
+            "adCount": 1
+          },
+          {
+            "name": "웰빙연구소",
+            "adCount": 1
+          },
+          {
+            "name": "위키약사official",
+            "adCount": 1
+          },
+          {
+            "name": "이다윤",
+            "adCount": 1
+          },
+          {
+            "name": "정약사의 건강나눔",
+            "adCount": 1
+          },
+          {
+            "name": "하이픽",
+            "adCount": 1
+          },
+          {
+            "name": "헬스꿀팁",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -17957,17 +19064,1124 @@
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:25+00:00",
       "lastObservedAt": "2026-10-13T01:06:25+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "6563c007393064da4c79423d10140520b49716e650c78278d3f450bafcdf580e",
       "searchQuery": "칼마디",
       "adEvidence": {
         "query": "칼마디",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 96,
+        "adIds": [
+          "1884666526311871",
+          "946237088101279",
+          "3577270079106994",
+          "2539356066491552",
+          "2103132907230703",
+          "1885349192881973",
+          "1806337437060457",
+          "1571063497659824",
+          "1470389384933415",
+          "1721881922712476",
+          "1556012222998264",
+          "1405598898310130",
+          "1864926248208272",
+          "1094864470094231",
+          "903802496003934",
+          "1116700560936937",
+          "2304878933644902",
+          "28567335779591023",
+          "2291948554951132",
+          "1612606416994005",
+          "1608197614133227",
+          "2678626242594837",
+          "1633924828432720",
+          "1403900995237709",
+          "1475876154536984",
+          "1421434363500867",
+          "2188540615377743",
+          "2133298270948309",
+          "1616934129529357",
+          "1453170700069605",
+          "1085630770984785",
+          "2697775027307758",
+          "1755444045511382",
+          "1830751324765829",
+          "1535301068355369",
+          "1133843946257690",
+          "1657284552734591",
+          "1110860231401587",
+          "2273565510100276",
+          "2008478683180568",
+          "1613947647051598",
+          "1830884228091218",
+          "1654470856032720",
+          "1630193045298370",
+          "1110404431387579",
+          "2000400423990620",
+          "943153375085652",
+          "883318954641287",
+          "1729155108383161",
+          "1619738382976408",
+          "1308964667926400",
+          "2925445284490420",
+          "2044824719731765",
+          "1808946913464334",
+          "1124516396589494",
+          "2035581643787875",
+          "2294077441406095",
+          "1114242311115806",
+          "1612973787290850",
+          "1664940525252382",
+          "4183664281765518",
+          "1651517609666163",
+          "1638408664744385",
+          "1788711585806091",
+          "1114354534273431",
+          "1091913376725739",
+          "1405621741428014",
+          "1751020770359581",
+          "1750745422881174",
+          "1605136381243607",
+          "1337205518169410",
+          "1504574578098621",
+          "1291117116405865",
+          "2318928965607705",
+          "1033917832417666",
+          "999720939786644",
+          "1653366486149618",
+          "1724075018865460",
+          "1042594718260793",
+          "1032020763119499",
+          "1006188765240888",
+          "3923942841076625",
+          "2310066086402761",
+          "1609737287204236",
+          "1440718964567926",
+          "1850212016416520",
+          "3330485063791277",
+          "2203100436918645",
+          "1765076194661967",
+          "1376452514467261",
+          "1009127188727653",
+          "25669572835997020",
+          "1699923754386608",
+          "1628919955305004",
+          "1717569969364390",
+          "1055934593696061"
+        ],
+        "ads": [
+          {
+            "id": "1884666526311871",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:42+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:42+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "946237088101279",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:41+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:41+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "3577270079106994",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:41+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:41+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2539356066491552",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:41+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:41+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2103132907230703",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:41+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:41+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1885349192881973",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:41+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:41+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1806337437060457",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:25+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:25+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1571063497659824",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:25+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:25+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1470389384933415",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:25+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:25+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1721881922712476",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:24+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:24+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1556012222998264",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:24+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:24+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1405598898310130",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:24+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:24+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1864926248208272",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:23+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:23+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1094864470094231",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:23+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:23+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "903802496003934",
+            "advertiser": "정담건강",
+            "startedAt": "2026-10-08",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:22+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:22+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1116700560936937",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:22+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:22+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2304878933644902",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:14+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:14+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "28567335779591023",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:13+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:13+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2291948554951132",
+            "advertiser": "안국약품",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:13+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:13+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1612606416994005",
+            "advertiser": "아빠의 마음으로 만든, 쁘띠앤",
+            "startedAt": "2026-10-12",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:13+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:13+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1608197614133227",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:13+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:13+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2678626242594837",
+            "advertiser": "정담건강",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:12+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:12+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1633924828432720",
+            "advertiser": "그로우랩",
+            "startedAt": "2026-09-30",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:12+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:12+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1403900995237709",
+            "advertiser": "아빠의 마음으로 만든, 쁘띠앤",
+            "startedAt": "2026-10-12",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:12+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:12+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1475876154536984",
+            "advertiser": "YUN",
+            "startedAt": "2026-10-12",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:11+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:11+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1421434363500867",
+            "advertiser": "키즐키즐",
+            "startedAt": "2026-10-07",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:11+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:11+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2188540615377743",
+            "advertiser": "마미톡",
+            "startedAt": "2026-10-12",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:00+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:00+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2133298270948309",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:00+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:00+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1616934129529357",
+            "advertiser": "그린푸드메이커",
+            "startedAt": "2026-04-24",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:42:00+00:00",
+            "lastCollectedAt": "2026-10-13T03:42:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1453170700069605",
+            "advertiser": "어바인랩 Irvinelab",
+            "startedAt": "2026-10-10",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:59+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:59+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1085630770984785",
+            "advertiser": "",
+            "startedAt": "2026-10-12",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:59+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:59+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2697775027307758",
+            "advertiser": "벌꿀육아템",
+            "startedAt": "2026-10-08",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:58+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:58+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1755444045511382",
+            "advertiser": "달심",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:58+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:58+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1830751324765829",
+            "advertiser": "Heȁlʈhydȁy",
+            "startedAt": "2026-10-01",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:57+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1535301068355369",
+            "advertiser": "키즐키즐",
+            "startedAt": "2026-10-08",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:57+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:57+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1133843946257690",
+            "advertiser": "키즐키즐",
+            "startedAt": "2026-10-07",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:57+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:57+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1657284552734591",
+            "advertiser": "자신있는 약상담ㅣ자신약사",
+            "startedAt": "2026-10-12",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:49+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:49+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1110860231401587",
+            "advertiser": "헬스꿀팁",
+            "startedAt": "2026-10-06",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:49+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:49+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2273565510100276",
+            "advertiser": "ꔌ늘થ ටㅏગ템",
+            "startedAt": "2026-10-01",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:46+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2008478683180568",
+            "advertiser": "자신있는 약상담ㅣ자신약사",
+            "startedAt": "2026-10-12",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:45+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:45+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1613947647051598",
+            "advertiser": "건강식품 추천",
+            "startedAt": "2026-10-07",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:45+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:45+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1830884228091218",
+            "advertiser": "자신있는 약상담ㅣ자신약사",
+            "startedAt": "2026-10-12",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:44+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:44+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1654470856032720",
+            "advertiser": "키즐키즐",
+            "startedAt": "2026-10-08",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:42+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:42+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1630193045298370",
+            "advertiser": "필요약",
+            "startedAt": "2026-10-06",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:41+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:41+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1110404431387579",
+            "advertiser": "위키약사official",
+            "startedAt": "2026-10-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:41+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:41+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2000400423990620",
+            "advertiser": "",
+            "startedAt": "2026-10-10",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:40+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:40+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "943153375085652",
+            "advertiser": "ꔌ늘થ ටㅏગ템",
+            "startedAt": "2026-10-01",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:33+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "883318954641287",
+            "advertiser": "નયૃગ ටㅏગ템",
+            "startedAt": "2026-08-23",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:33+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1729155108383161",
+            "advertiser": "નયૃગ ටㅏગ템",
+            "startedAt": "2026-09-07",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:33+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1619738382976408",
+            "advertiser": "키즐키즐",
+            "startedAt": "2026-10-08",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:32+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:32+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1308964667926400",
+            "advertiser": "하이픽",
+            "startedAt": "2026-10-06",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:32+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:32+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2925445284490420",
+            "advertiser": "UNA:N",
+            "startedAt": "2026-10-05",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:31+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2044824719731765",
+            "advertiser": "그로우랩",
+            "startedAt": "2026-08-24",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:31+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1808946913464334",
+            "advertiser": "아빠의 마음으로 만든, 쁘띠앤",
+            "startedAt": "2026-10-01",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:31+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1124516396589494",
+            "advertiser": "동국제약 토탈헬스케어",
+            "startedAt": "2026-10-06",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:31+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:31+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2035581643787875",
+            "advertiser": "ꔌ늘થ ටㅏગ템",
+            "startedAt": "2026-10-01",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:30+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:30+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2294077441406095",
+            "advertiser": "키즐키즐",
+            "startedAt": "2026-10-08",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:24+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:24+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1114242311115806",
+            "advertiser": "쀼약사네",
+            "startedAt": "2026-10-08",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:23+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:23+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1612973787290850",
+            "advertiser": "웰빙연구소",
+            "startedAt": "2026-09-28",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:21+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1664940525252382",
+            "advertiser": "이다윤",
+            "startedAt": "2026-09-22",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:20+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4183664281765518",
+            "advertiser": "쀼약사네",
+            "startedAt": "2026-09-30",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:19+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1651517609666163",
+            "advertiser": "어린이건강 뮴",
+            "startedAt": "2026-10-01",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:17+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:17+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1638408664744385",
+            "advertiser": "toad_pharm",
+            "startedAt": "2026-10-06",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:17+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:17+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1788711585806091",
+            "advertiser": "어바인랩 Irvinelab",
+            "startedAt": "2026-09-30",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:16+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1114354534273431",
+            "advertiser": "키즐키즐",
+            "startedAt": "2026-10-07",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:16+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:16+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1091913376725739",
+            "advertiser": "નયૃગ ටㅏગ템",
+            "startedAt": "2026-08-23",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:16+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1405621741428014",
+            "advertiser": "나우푸드",
+            "startedAt": "2026-06-11",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:09+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1751020770359581",
+            "advertiser": "네이처메이드",
+            "startedAt": "2026-10-01",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:08+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1750745422881174",
+            "advertiser": "ꔌ늘થ ටㅏગ템",
+            "startedAt": "2026-10-01",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:08+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1605136381243607",
+            "advertiser": "નયૃગ ටㅏગ템",
+            "startedAt": "2026-09-08",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:08+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1337205518169410",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-08-20",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:08+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1504574578098621",
+            "advertiser": "નયૃગ ටㅏગ템",
+            "startedAt": "2026-09-07",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:07+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1291117116405865",
+            "advertiser": "약사피셜",
+            "startedAt": "2026-09-29",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:07+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2318928965607705",
+            "advertiser": "네이처메이드",
+            "startedAt": "2026-10-01",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:06+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1033917832417666",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-14",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:06+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "999720939786644",
+            "advertiser": "",
+            "startedAt": "2026-08-25",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:05+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1653366486149618",
+            "advertiser": "UNA:N",
+            "startedAt": "2026-09-14",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:01+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1724075018865460",
+            "advertiser": "નયૃગ ටㅏગ템",
+            "startedAt": "2026-09-07",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:00+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1042594718260793",
+            "advertiser": "아빠의 마음으로 만든, 쁘띠앤",
+            "startedAt": "2026-07-30",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:00+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1032020763119499",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-14",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:00+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1006188765240888",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-09",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:41:00+00:00",
+            "lastCollectedAt": "2026-10-13T03:41:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3923942841076625",
+            "advertiser": "어린이건강 뮴",
+            "startedAt": "2026-08-26",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:40:59+00:00",
+            "lastCollectedAt": "2026-10-13T03:40:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2310066086402761",
+            "advertiser": "어린이건강 뮴",
+            "startedAt": "2026-09-08",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:40:59+00:00",
+            "lastCollectedAt": "2026-10-13T03:40:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1609737287204236",
+            "advertiser": "아빠의 마음으로 만든, 쁘띠앤",
+            "startedAt": "2026-09-09",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:40:59+00:00",
+            "lastCollectedAt": "2026-10-13T03:40:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1440718964567926",
+            "advertiser": "아빠의 마음으로 만든, 쁘띠앤",
+            "startedAt": "2026-09-09",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:40:59+00:00",
+            "lastCollectedAt": "2026-10-13T03:40:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1850212016416520",
+            "advertiser": "닥터프로그램 doctorprogram",
+            "startedAt": "2026-09-16",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:40:58+00:00",
+            "lastCollectedAt": "2026-10-13T03:40:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3330485063791277",
+            "advertiser": "내츄럴플러스",
+            "startedAt": "2026-07-13",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:40:53+00:00",
+            "lastCollectedAt": "2026-10-13T03:40:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2203100436918645",
+            "advertiser": "નયૃગ ටㅏગ템",
+            "startedAt": "2026-09-07",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:40:53+00:00",
+            "lastCollectedAt": "2026-10-13T03:40:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1765076194661967",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-30",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:40:53+00:00",
+            "lastCollectedAt": "2026-10-13T03:40:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1376452514467261",
+            "advertiser": "정담건강",
+            "startedAt": "2026-08-05",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:40:53+00:00",
+            "lastCollectedAt": "2026-10-13T03:40:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1009127188727653",
+            "advertiser": "정약사의 건강나눔",
+            "startedAt": "2026-05-26",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:40:52+00:00",
+            "lastCollectedAt": "2026-10-13T03:40:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "25669572835997020",
+            "advertiser": "약사남",
+            "startedAt": "2026-01-26",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:40:51+00:00",
+            "lastCollectedAt": "2026-10-13T03:40:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1699923754386608",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:40:51+00:00",
+            "lastCollectedAt": "2026-10-13T03:40:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1628919955305004",
+            "advertiser": "뉴트리모어",
+            "startedAt": "2026-08-31",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:40:51+00:00",
+            "lastCollectedAt": "2026-10-13T03:40:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1717569969364390",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-06-22",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:40:50+00:00",
+            "lastCollectedAt": "2026-10-13T03:40:50+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1055934593696061",
+            "advertiser": "필요약",
+            "startedAt": "2026-08-23",
+            "query": "칼마디",
+            "firstCollectedAt": "2026-10-13T03:40:50+00:00",
+            "lastCollectedAt": "2026-10-13T03:40:50+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-13T03:42:42+00:00",
+        "advertisers": [
+          {
+            "name": "달심",
+            "adCount": 20
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 7
+          },
+          {
+            "name": "નયૃગ ටㅏગ템",
+            "adCount": 7
+          },
+          {
+            "name": "키즐키즐",
+            "adCount": 7
+          },
+          {
+            "name": "아빠의 마음으로 만든, 쁘띠앤",
+            "adCount": 6
+          },
+          {
+            "name": "ꔌ늘થ ටㅏગ템",
+            "adCount": 4
+          },
+          {
+            "name": "어린이건강 뮴",
+            "adCount": 3
+          },
+          {
+            "name": "자신있는 약상담ㅣ자신약사",
+            "adCount": 3
+          },
+          {
+            "name": "정담건강",
+            "adCount": 3
+          },
+          {
+            "name": "UNA:N",
+            "adCount": 2
+          },
+          {
+            "name": "그로우랩",
+            "adCount": 2
+          },
+          {
+            "name": "네이처메이드",
+            "adCount": 2
+          },
+          {
+            "name": "쀼약사네",
+            "adCount": 2
+          },
+          {
+            "name": "어바인랩 Irvinelab",
+            "adCount": 2
+          },
+          {
+            "name": "필요약",
+            "adCount": 2
+          },
+          {
+            "name": "Heȁlʈhydȁy",
+            "adCount": 1
+          },
+          {
+            "name": "YUN",
+            "adCount": 1
+          },
+          {
+            "name": "toad_pharm",
+            "adCount": 1
+          },
+          {
+            "name": "건강식품 추천",
+            "adCount": 1
+          },
+          {
+            "name": "그린푸드메이커",
+            "adCount": 1
+          },
+          {
+            "name": "나우푸드",
+            "adCount": 1
+          },
+          {
+            "name": "내츄럴플러스",
+            "adCount": 1
+          },
+          {
+            "name": "뉴트리모어",
+            "adCount": 1
+          },
+          {
+            "name": "닥터프로그램 doctorprogram",
+            "adCount": 1
+          },
+          {
+            "name": "동국제약 토탈헬스케어",
+            "adCount": 1
+          },
+          {
+            "name": "마미톡",
+            "adCount": 1
+          },
+          {
+            "name": "벌꿀육아템",
+            "adCount": 1
+          },
+          {
+            "name": "안국약품",
+            "adCount": 1
+          },
+          {
+            "name": "약사남",
+            "adCount": 1
+          },
+          {
+            "name": "약사피셜",
+            "adCount": 1
+          },
+          {
+            "name": "웰빙연구소",
+            "adCount": 1
+          },
+          {
+            "name": "위키약사official",
+            "adCount": 1
+          },
+          {
+            "name": "이다윤",
+            "adCount": 1
+          },
+          {
+            "name": "정약사의 건강나눔",
+            "adCount": 1
+          },
+          {
+            "name": "하이픽",
+            "adCount": 1
+          },
+          {
+            "name": "헬스꿀팁",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
