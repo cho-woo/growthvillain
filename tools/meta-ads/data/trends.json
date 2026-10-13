@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-13T08:07:18+00:00",
+  "updatedAt": "2026-10-13T08:10:02+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-13T01:06:58+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 48,
-    "dailyRemaining": 240,
+    "dailyUsed": 49,
+    "dailyRemaining": 239,
     "pending": 0,
-    "nextDispatchAt": "2026-10-13T08:09:05+00:00",
+    "nextDispatchAt": "2026-10-13T08:14:07+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -10371,29 +10371,43 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "done",
       "keywordId": "664f0eee12a3e0cefc4d5005db47079e8dcfa3c97b12f7c025bc86ced3155352",
       "searchQuery": "고려은단비타민c1000",
       "adEvidence": {
         "query": "고려은단비타민c1000",
         "matchType": "collected-with-query",
-        "adCount": 1,
+        "adCount": 2,
         "adIds": [
+          "1081295998088496",
           "1737454970672476"
         ],
         "ads": [
+          {
+            "id": "1081295998088496",
+            "advertiser": "Jenny Live in Korea",
+            "startedAt": "2026-10-12",
+            "query": "고려은단비타민c1000",
+            "firstCollectedAt": "2026-10-13T08:09:37+00:00",
+            "lastCollectedAt": "2026-10-13T08:09:37+00:00",
+            "startTiming": "during-window"
+          },
           {
             "id": "1737454970672476",
             "advertiser": "Thailoveshop",
             "startedAt": "2026-09-29",
             "query": "고려은단비타민c1000",
             "firstCollectedAt": "2026-10-08T20:15:15+00:00",
-            "lastCollectedAt": "2026-10-11T19:48:03+00:00",
+            "lastCollectedAt": "2026-10-13T08:09:27+00:00",
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-11T19:48:03+00:00",
+        "lastCollectedAt": "2026-10-13T08:09:37+00:00",
         "advertisers": [
+          {
+            "name": "Jenny Live in Korea",
+            "adCount": 1
+          },
           {
             "name": "Thailoveshop",
             "adCount": 1
@@ -26606,29 +26620,43 @@
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:25+00:00",
       "lastObservedAt": "2026-10-13T01:06:25+00:00",
-      "state": "ready",
+      "state": "done",
       "keywordId": "664f0eee12a3e0cefc4d5005db47079e8dcfa3c97b12f7c025bc86ced3155352",
       "searchQuery": "고려은단비타민c1000",
       "adEvidence": {
         "query": "고려은단비타민c1000",
         "matchType": "collected-with-query",
-        "adCount": 1,
+        "adCount": 2,
         "adIds": [
+          "1081295998088496",
           "1737454970672476"
         ],
         "ads": [
+          {
+            "id": "1081295998088496",
+            "advertiser": "Jenny Live in Korea",
+            "startedAt": "2026-10-12",
+            "query": "고려은단비타민c1000",
+            "firstCollectedAt": "2026-10-13T08:09:37+00:00",
+            "lastCollectedAt": "2026-10-13T08:09:37+00:00",
+            "startTiming": "during-window"
+          },
           {
             "id": "1737454970672476",
             "advertiser": "Thailoveshop",
             "startedAt": "2026-09-29",
             "query": "고려은단비타민c1000",
             "firstCollectedAt": "2026-10-08T20:15:15+00:00",
-            "lastCollectedAt": "2026-10-11T19:48:03+00:00",
+            "lastCollectedAt": "2026-10-13T08:09:27+00:00",
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-11T19:48:03+00:00",
+        "lastCollectedAt": "2026-10-13T08:09:37+00:00",
         "advertisers": [
+          {
+            "name": "Jenny Live in Korea",
+            "adCount": 1
+          },
           {
             "name": "Thailoveshop",
             "adCount": 1
@@ -61903,23 +61931,37 @@
       "adEvidence": {
         "query": "고려은단비타민c1000",
         "matchType": "collected-with-query",
-        "adCount": 1,
+        "adCount": 2,
         "adIds": [
+          "1081295998088496",
           "1737454970672476"
         ],
         "ads": [
+          {
+            "id": "1081295998088496",
+            "advertiser": "Jenny Live in Korea",
+            "startedAt": "2026-10-12",
+            "query": "고려은단비타민c1000",
+            "firstCollectedAt": "2026-10-13T08:09:37+00:00",
+            "lastCollectedAt": "2026-10-13T08:09:37+00:00",
+            "startTiming": "after-window"
+          },
           {
             "id": "1737454970672476",
             "advertiser": "Thailoveshop",
             "startedAt": "2026-09-29",
             "query": "고려은단비타민c1000",
             "firstCollectedAt": "2026-10-08T20:15:15+00:00",
-            "lastCollectedAt": "2026-10-11T19:48:03+00:00",
+            "lastCollectedAt": "2026-10-13T08:09:27+00:00",
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-11T19:48:03+00:00",
+        "lastCollectedAt": "2026-10-13T08:09:37+00:00",
         "advertisers": [
+          {
+            "name": "Jenny Live in Korea",
+            "adCount": 1
+          },
           {
             "name": "Thailoveshop",
             "adCount": 1
@@ -100000,23 +100042,37 @@
       "adEvidence": {
         "query": "고려은단비타민c1000",
         "matchType": "collected-with-query",
-        "adCount": 1,
+        "adCount": 2,
         "adIds": [
+          "1081295998088496",
           "1737454970672476"
         ],
         "ads": [
+          {
+            "id": "1081295998088496",
+            "advertiser": "Jenny Live in Korea",
+            "startedAt": "2026-10-12",
+            "query": "고려은단비타민c1000",
+            "firstCollectedAt": "2026-10-13T08:09:37+00:00",
+            "lastCollectedAt": "2026-10-13T08:09:37+00:00",
+            "startTiming": "after-window"
+          },
           {
             "id": "1737454970672476",
             "advertiser": "Thailoveshop",
             "startedAt": "2026-09-29",
             "query": "고려은단비타민c1000",
             "firstCollectedAt": "2026-10-08T20:15:15+00:00",
-            "lastCollectedAt": "2026-10-11T19:48:03+00:00",
+            "lastCollectedAt": "2026-10-13T08:09:27+00:00",
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-11T19:48:03+00:00",
+        "lastCollectedAt": "2026-10-13T08:09:37+00:00",
         "advertisers": [
+          {
+            "name": "Jenny Live in Korea",
+            "adCount": 1
+          },
           {
             "name": "Thailoveshop",
             "adCount": 1
@@ -125393,29 +125449,43 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "backlog",
+      "state": "cooldown",
       "keywordId": "664f0eee12a3e0cefc4d5005db47079e8dcfa3c97b12f7c025bc86ced3155352",
       "searchQuery": "고려은단비타민c1000",
       "adEvidence": {
         "query": "고려은단비타민c1000",
         "matchType": "collected-with-query",
-        "adCount": 1,
+        "adCount": 2,
         "adIds": [
+          "1081295998088496",
           "1737454970672476"
         ],
         "ads": [
+          {
+            "id": "1081295998088496",
+            "advertiser": "Jenny Live in Korea",
+            "startedAt": "2026-10-12",
+            "query": "고려은단비타민c1000",
+            "firstCollectedAt": "2026-10-13T08:09:37+00:00",
+            "lastCollectedAt": "2026-10-13T08:09:37+00:00",
+            "startTiming": "after-window"
+          },
           {
             "id": "1737454970672476",
             "advertiser": "Thailoveshop",
             "startedAt": "2026-09-29",
             "query": "고려은단비타민c1000",
             "firstCollectedAt": "2026-10-08T20:15:15+00:00",
-            "lastCollectedAt": "2026-10-11T19:48:03+00:00",
+            "lastCollectedAt": "2026-10-13T08:09:27+00:00",
             "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-11T19:48:03+00:00",
+        "lastCollectedAt": "2026-10-13T08:09:37+00:00",
         "advertisers": [
+          {
+            "name": "Jenny Live in Korea",
+            "adCount": 1
+          },
           {
             "name": "Thailoveshop",
             "adCount": 1
