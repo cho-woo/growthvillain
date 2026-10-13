@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-13T07:30:45+00:00",
+  "updatedAt": "2026-10-13T07:34:59+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-13T01:06:58+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 44,
-    "dailyRemaining": 244,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-13T07:34:58+00:00",
+    "dailyUsed": 45,
+    "dailyRemaining": 243,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -4762,7 +4762,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "queued",
       "keywordId": "8f18a5b7bc20c1f7f3197cb76b01220a6e4df74d8ec86f3feb1c77a6f0091db1",
       "searchQuery": "질유산균",
       "adEvidence": {
@@ -21789,7 +21789,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:25+00:00",
       "lastObservedAt": "2026-10-13T01:06:25+00:00",
-      "state": "ready",
+      "state": "queued",
       "keywordId": "8f18a5b7bc20c1f7f3197cb76b01220a6e4df74d8ec86f3feb1c77a6f0091db1",
       "searchQuery": "질유산균",
       "adEvidence": {
