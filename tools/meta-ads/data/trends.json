@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-13T03:43:10+00:00",
+  "updatedAt": "2026-10-13T03:45:50+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-13T01:06:58+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 27,
-    "dailyRemaining": 261,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-13T03:45:46+00:00",
+    "dailyUsed": 28,
+    "dailyRemaining": 260,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -6670,7 +6670,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "queued",
       "keywordId": "0616815ac902144ee9eb42b57e1b869fe3071c93a6c675e9e237ae6a583f032f",
       "searchQuery": "아연",
       "adEvidence": {
@@ -21870,7 +21870,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:25+00:00",
       "lastObservedAt": "2026-10-13T01:06:25+00:00",
-      "state": "ready",
+      "state": "queued",
       "keywordId": "0616815ac902144ee9eb42b57e1b869fe3071c93a6c675e9e237ae6a583f032f",
       "searchQuery": "아연",
       "adEvidence": {
