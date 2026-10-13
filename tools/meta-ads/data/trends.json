@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-13T03:47:48+00:00",
+  "updatedAt": "2026-10-13T03:50:54+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-13T01:06:58+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 28,
-    "dailyRemaining": 260,
-    "pending": 0,
-    "nextDispatchAt": "2026-10-13T03:50:50+00:00",
+    "dailyUsed": 29,
+    "dailyRemaining": 259,
+    "pending": 1,
+    "nextDispatchAt": null,
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -7905,7 +7905,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "queued",
       "keywordId": "ee1c261176024d91ee40cc7480bc794e8970b59eea43282668d11902e0dff07a",
       "searchQuery": "경옥고",
       "adEvidence": {
@@ -19941,7 +19941,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:25+00:00",
       "lastObservedAt": "2026-10-13T01:06:25+00:00",
-      "state": "ready",
+      "state": "queued",
       "keywordId": "ee1c261176024d91ee40cc7480bc794e8970b59eea43282668d11902e0dff07a",
       "searchQuery": "경옥고",
       "adEvidence": {
