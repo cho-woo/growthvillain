@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-13T04:11:07+00:00",
+  "updatedAt": "2026-10-13T04:13:12+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-13T01:06:58+00:00",
@@ -43,8 +43,8 @@
     "backlogDays": 14,
     "dailyUsed": 32,
     "dailyRemaining": 256,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-13T04:16:07+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -8016,17 +8016,1148 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "9484ee0cb62e49f87df6dbd75556ef649d3884a841657309ccaf114ce5ea945b",
       "searchQuery": "이노시톨",
       "adEvidence": {
         "query": "이노시톨",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 100,
+        "adIds": [
+          "27332446723061186",
+          "1847078139627599",
+          "1621434746269189",
+          "1036087879042581",
+          "905397715518074",
+          "4256367361269002",
+          "1800646373985564",
+          "1407912384304155",
+          "1342106880555148",
+          "1233704064760446",
+          "1078862928271262",
+          "1620863176294566",
+          "1916013645615917",
+          "1874785260160463",
+          "1645088390503691",
+          "1531549034578004",
+          "1455597698903530",
+          "1372613148180828",
+          "2466050427219000",
+          "1825995028845056",
+          "908651521711713",
+          "1453757803298296",
+          "1266489911947109",
+          "2448860068923500",
+          "1390637693019207",
+          "1081491394059728",
+          "1078141275012865",
+          "3491690130992169",
+          "1825647501937877",
+          "1289092139708155",
+          "1374062621109430",
+          "1112888207913060",
+          "1763660031338549",
+          "1091172893618515",
+          "2530804044105085",
+          "1192604036367003",
+          "1101116709159693",
+          "1966787020692991",
+          "1593083092308621",
+          "1037904682049443",
+          "833759472387354",
+          "1716455869471215",
+          "1190071559774836",
+          "2585396888644994",
+          "1989231381741025",
+          "897607172919198",
+          "2143904246160787",
+          "2023679341583487",
+          "1398741432033822",
+          "1484267833457697",
+          "831682126012022",
+          "1439057608088123",
+          "1383964153930654",
+          "1100394436286203",
+          "822535790444522",
+          "1782073832984651",
+          "1096488649738927",
+          "1615454006954908",
+          "33233475682964495",
+          "1097809356293041",
+          "1543890790771125",
+          "1013637141351831",
+          "847943974314305",
+          "2221550835005502",
+          "1376452514467261",
+          "729609436771840",
+          "1352568079595196",
+          "1673289360823994",
+          "1485295502809776",
+          "26992839907056271",
+          "1142630801431236",
+          "2202603750260449",
+          "2007312256626841",
+          "1424513205808820",
+          "1113341531258650",
+          "818772821199477",
+          "1613439684122863",
+          "1415811412848988",
+          "1671297493932954",
+          "1434309484442916",
+          "1552510926901570",
+          "3104504133053971",
+          "1641618030244481",
+          "1922859199104600",
+          "1108052851505749",
+          "1269464008576842",
+          "1039645372365800",
+          "4583380151927958",
+          "1752313382691602",
+          "1061140366528571",
+          "2460921301003057",
+          "1880618592889615",
+          "2090110018486368",
+          "1642707043432264",
+          "1542981153662960",
+          "1145876253576972",
+          "890277470138086",
+          "24941042202230967",
+          "1783855969475893",
+          "1439917427681727"
+        ],
+        "ads": [
+          {
+            "id": "27332446723061186",
+            "advertiser": "알잘딱꿀팁",
+            "startedAt": "2026-06-15",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:58+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1847078139627599",
+            "advertiser": "Unnie's Secret",
+            "startedAt": "2026-10-07",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:57+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:57+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1621434746269189",
+            "advertiser": "Unnie's Secret",
+            "startedAt": "2026-09-30",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:57+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1036087879042581",
+            "advertiser": "Hihihioop",
+            "startedAt": "2026-08-18",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:57+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "905397715518074",
+            "advertiser": "Woman_Health",
+            "startedAt": "2026-02-10",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:56+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4256367361269002",
+            "advertiser": "알잘딱꿀팁",
+            "startedAt": "2026-05-17",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:56+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1800646373985564",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2025-12-14",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:56+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1407912384304155",
+            "advertiser": "Woman_Health",
+            "startedAt": "2026-02-09",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:56+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1342106880555148",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2025-12-15",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:55+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1233704064760446",
+            "advertiser": "알잘딱꿀팁",
+            "startedAt": "2026-02-04",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:55+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1078862928271262",
+            "advertiser": "뷰티의 중요성",
+            "startedAt": "2026-09-22",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:46+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1620863176294566",
+            "advertiser": "아빠의 마음으로 만든, 쁘띠앤",
+            "startedAt": "2026-10-01",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:45+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1916013645615917",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2025-10-26",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:44+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1874785260160463",
+            "advertiser": "꿀창고",
+            "startedAt": "2026-09-01",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:44+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1645088390503691",
+            "advertiser": "Woman_Health",
+            "startedAt": "2026-10-06",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:44+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:44+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1531549034578004",
+            "advertiser": "Woman_Health",
+            "startedAt": "2026-02-08",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:44+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1455597698903530",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2025-08-18",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:44+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1372613148180828",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-08-04",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:44+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2466050427219000",
+            "advertiser": "Woman_Health",
+            "startedAt": "2026-09-13",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:43+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1825995028845056",
+            "advertiser": "",
+            "startedAt": "2026-10-07",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:43+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "908651521711713",
+            "advertiser": "알잘딱꿀팁",
+            "startedAt": "2026-02-09",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:34+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1453757803298296",
+            "advertiser": "르뷰",
+            "startedAt": "2026-09-14",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:34+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1266489911947109",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2025-10-27",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:34+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2448860068923500",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2026-06-21",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:33+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1390637693019207",
+            "advertiser": "Linnov",
+            "startedAt": "2026-07-26",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:33+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1081491394059728",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2025-10-27",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:33+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1078141275012865",
+            "advertiser": "라엘코리아",
+            "startedAt": "2026-09-28",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:33+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3491690130992169",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2026-08-17",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:32+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1825647501937877",
+            "advertiser": "Woman_Health",
+            "startedAt": "2026-09-13",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:32+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1289092139708155",
+            "advertiser": "메디트리",
+            "startedAt": "2026-02-03",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:31+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1374062621109430",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2025-10-29",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:21+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1112888207913060",
+            "advertiser": "Unnie's Secret",
+            "startedAt": "2026-09-22",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:21+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1763660031338549",
+            "advertiser": "룸33",
+            "startedAt": "2026-08-18",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:20+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1091172893618515",
+            "advertiser": "알잘딱꿀팁",
+            "startedAt": "2026-09-30",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:20+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2530804044105085",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2026-08-18",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:19+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1192604036367003",
+            "advertiser": "알잘딱꿀팁",
+            "startedAt": "2026-02-08",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:19+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1101116709159693",
+            "advertiser": "Woman_Health",
+            "startedAt": "2026-09-13",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:19+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1966787020692991",
+            "advertiser": "마인드",
+            "startedAt": "2026-08-23",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:18+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1593083092308621",
+            "advertiser": "임신준비연구소",
+            "startedAt": "2026-08-09",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:18+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1037904682049443",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-14",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:18+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "833759472387354",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2025-11-02",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:10+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1716455869471215",
+            "advertiser": "룸33",
+            "startedAt": "2026-08-17",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:09+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1190071559774836",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2026-02-05",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:09+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2585396888644994",
+            "advertiser": "알잘딱꿀팁",
+            "startedAt": "2026-09-20",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:08+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1989231381741025",
+            "advertiser": "Unnie's Secret",
+            "startedAt": "2026-10-08",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:08+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:08+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "897607172919198",
+            "advertiser": "Woman_Health",
+            "startedAt": "2026-01-26",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:07+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2143904246160787",
+            "advertiser": "라엘코리아",
+            "startedAt": "2026-09-27",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:07+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2023679341583487",
+            "advertiser": "임신준비연구소",
+            "startedAt": "2026-08-09",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:07+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1398741432033822",
+            "advertiser": "알잘딱꿀팁",
+            "startedAt": "2026-02-09",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:07+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1484267833457697",
+            "advertiser": "yaksamom",
+            "startedAt": "2026-09-23",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:06+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "831682126012022",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2025-11-02",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:57+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1439057608088123",
+            "advertiser": "지미",
+            "startedAt": "2026-09-14",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:57+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1383964153930654",
+            "advertiser": "걸즈토크모음집",
+            "startedAt": "2026-08-23",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:56+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1100394436286203",
+            "advertiser": "Ellenlee627",
+            "startedAt": "2026-09-22",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:56+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "822535790444522",
+            "advertiser": "allsu_777",
+            "startedAt": "2025-09-29",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:55+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1782073832984651",
+            "advertiser": "알잘딱꿀팁",
+            "startedAt": "2026-09-21",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:54+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1096488649738927",
+            "advertiser": "pomom",
+            "startedAt": "2026-09-22",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:54+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1615454006954908",
+            "advertiser": "휴럼 사이언스",
+            "startedAt": "2026-09-17",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:53+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "33233475682964495",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2026-01-12",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:52+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1097809356293041",
+            "advertiser": "Unnie's Secret",
+            "startedAt": "2026-09-27",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:51+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1543890790771125",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:44+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1013637141351831",
+            "advertiser": "Woman_Health",
+            "startedAt": "2026-05-25",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:44+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "847943974314305",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2025-11-02",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:43+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2221550835005502",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2025-11-04",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:43+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1376452514467261",
+            "advertiser": "정담건강",
+            "startedAt": "2026-08-05",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:43+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "729609436771840",
+            "advertiser": "서지애",
+            "startedAt": "2025-09-30",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:42+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1352568079595196",
+            "advertiser": "카밍의아뜰리에",
+            "startedAt": "2025-09-29",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:42+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1673289360823994",
+            "advertiser": "공동구매 알리미",
+            "startedAt": "2026-09-21",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:41+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1485295502809776",
+            "advertiser": "메디트리",
+            "startedAt": "2026-06-02",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:41+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "26992839907056271",
+            "advertiser": "알잘딱꿀팁",
+            "startedAt": "2026-08-04",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:40+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1142630801431236",
+            "advertiser": "알잘딱꿀팁",
+            "startedAt": "2026-09-28",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:34+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2202603750260449",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2025-08-24",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:33+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2007312256626841",
+            "advertiser": "패션 송백",
+            "startedAt": "2026-09-30",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:33+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1424513205808820",
+            "advertiser": "Woman_Health",
+            "startedAt": "2026-02-10",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:33+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1113341531258650",
+            "advertiser": "Woman_Health",
+            "startedAt": "2026-09-13",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:33+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "818772821199477",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-08",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:32+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1613439684122863",
+            "advertiser": "싸이언티픽 Scientific",
+            "startedAt": "2026-06-08",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:32+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1415811412848988",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2025-08-18",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:32+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1671297493932954",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2026-08-18",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:31+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1434309484442916",
+            "advertiser": "Woman_Health",
+            "startedAt": "2025-07-21",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:31+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1552510926901570",
+            "advertiser": "알잘딱꿀팁",
+            "startedAt": "2026-09-15",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:26+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3104504133053971",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2025-09-21",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:25+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1641618030244481",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2026-07-13",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:25+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1922859199104600",
+            "advertiser": "Woman_Health",
+            "startedAt": "2026-03-04",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:24+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1108052851505749",
+            "advertiser": "지미",
+            "startedAt": "2025-09-30",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:24+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1269464008576842",
+            "advertiser": "걸즈토크모음집",
+            "startedAt": "2026-09-06",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:23+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1039645372365800",
+            "advertiser": "여성 건강 꿀팁",
+            "startedAt": "2026-07-20",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:23+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4583380151927958",
+            "advertiser": "알잘딱꿀팁",
+            "startedAt": "2026-09-20",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:22+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1752313382691602",
+            "advertiser": "Woman_Health",
+            "startedAt": "2026-09-13",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:22+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1061140366528571",
+            "advertiser": "Woman_Health",
+            "startedAt": "2026-09-13",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:21+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2460921301003057",
+            "advertiser": "Lactiv.official",
+            "startedAt": "2026-05-27",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:16+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1880618592889615",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2025-10-13",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:16+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2090110018486368",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2026-01-29",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:15+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1642707043432264",
+            "advertiser": "Woman_Health",
+            "startedAt": "2026-02-08",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:15+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1542981153662960",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2026-01-26",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:14+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1145876253576972",
+            "advertiser": "danbiq",
+            "startedAt": "2025-10-04",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:14+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "890277470138086",
+            "advertiser": "Lactiv.official",
+            "startedAt": "2026-05-12",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:13+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "24941042202230967",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2025-11-04",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:13+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1783855969475893",
+            "advertiser": "알잘딱꿀팁",
+            "startedAt": "2026-08-31",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:13+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1439917427681727",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2026-01-26",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:12+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:12+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-13T04:12:58+00:00",
+        "advertisers": [
+          {
+            "name": "꿀팁저장해바라",
+            "adCount": 26
+          },
+          {
+            "name": "Woman_Health",
+            "adCount": 16
+          },
+          {
+            "name": "알잘딱꿀팁",
+            "adCount": 14
+          },
+          {
+            "name": "Unnie's Secret",
+            "adCount": 5
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 4
+          },
+          {
+            "name": "Lactiv.official",
+            "adCount": 2
+          },
+          {
+            "name": "걸즈토크모음집",
+            "adCount": 2
+          },
+          {
+            "name": "라엘코리아",
+            "adCount": 2
+          },
+          {
+            "name": "룸33",
+            "adCount": 2
+          },
+          {
+            "name": "메디트리",
+            "adCount": 2
+          },
+          {
+            "name": "임신준비연구소",
+            "adCount": 2
+          },
+          {
+            "name": "지미",
+            "adCount": 2
+          },
+          {
+            "name": "Ellenlee627",
+            "adCount": 1
+          },
+          {
+            "name": "Hihihioop",
+            "adCount": 1
+          },
+          {
+            "name": "Linnov",
+            "adCount": 1
+          },
+          {
+            "name": "allsu_777",
+            "adCount": 1
+          },
+          {
+            "name": "danbiq",
+            "adCount": 1
+          },
+          {
+            "name": "pomom",
+            "adCount": 1
+          },
+          {
+            "name": "yaksamom",
+            "adCount": 1
+          },
+          {
+            "name": "서지애",
+            "adCount": 1
+          },
+          {
+            "name": "공동구매 알리미",
+            "adCount": 1
+          },
+          {
+            "name": "꿀창고",
+            "adCount": 1
+          },
+          {
+            "name": "르뷰",
+            "adCount": 1
+          },
+          {
+            "name": "마인드",
+            "adCount": 1
+          },
+          {
+            "name": "뷰티의 중요성",
+            "adCount": 1
+          },
+          {
+            "name": "싸이언티픽 Scientific",
+            "adCount": 1
+          },
+          {
+            "name": "아빠의 마음으로 만든, 쁘띠앤",
+            "adCount": 1
+          },
+          {
+            "name": "여성 건강 꿀팁",
+            "adCount": 1
+          },
+          {
+            "name": "정담건강",
+            "adCount": 1
+          },
+          {
+            "name": "카밍의아뜰리에",
+            "adCount": 1
+          },
+          {
+            "name": "패션 송백",
+            "adCount": 1
+          },
+          {
+            "name": "휴럼 사이언스",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -26485,17 +27616,1148 @@
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:25+00:00",
       "lastObservedAt": "2026-10-13T01:06:25+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "9484ee0cb62e49f87df6dbd75556ef649d3884a841657309ccaf114ce5ea945b",
       "searchQuery": "이노시톨",
       "adEvidence": {
         "query": "이노시톨",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 100,
+        "adIds": [
+          "27332446723061186",
+          "1847078139627599",
+          "1621434746269189",
+          "1036087879042581",
+          "905397715518074",
+          "4256367361269002",
+          "1800646373985564",
+          "1407912384304155",
+          "1342106880555148",
+          "1233704064760446",
+          "1078862928271262",
+          "1620863176294566",
+          "1916013645615917",
+          "1874785260160463",
+          "1645088390503691",
+          "1531549034578004",
+          "1455597698903530",
+          "1372613148180828",
+          "2466050427219000",
+          "1825995028845056",
+          "908651521711713",
+          "1453757803298296",
+          "1266489911947109",
+          "2448860068923500",
+          "1390637693019207",
+          "1081491394059728",
+          "1078141275012865",
+          "3491690130992169",
+          "1825647501937877",
+          "1289092139708155",
+          "1374062621109430",
+          "1112888207913060",
+          "1763660031338549",
+          "1091172893618515",
+          "2530804044105085",
+          "1192604036367003",
+          "1101116709159693",
+          "1966787020692991",
+          "1593083092308621",
+          "1037904682049443",
+          "833759472387354",
+          "1716455869471215",
+          "1190071559774836",
+          "2585396888644994",
+          "1989231381741025",
+          "897607172919198",
+          "2143904246160787",
+          "2023679341583487",
+          "1398741432033822",
+          "1484267833457697",
+          "831682126012022",
+          "1439057608088123",
+          "1383964153930654",
+          "1100394436286203",
+          "822535790444522",
+          "1782073832984651",
+          "1096488649738927",
+          "1615454006954908",
+          "33233475682964495",
+          "1097809356293041",
+          "1543890790771125",
+          "1013637141351831",
+          "847943974314305",
+          "2221550835005502",
+          "1376452514467261",
+          "729609436771840",
+          "1352568079595196",
+          "1673289360823994",
+          "1485295502809776",
+          "26992839907056271",
+          "1142630801431236",
+          "2202603750260449",
+          "2007312256626841",
+          "1424513205808820",
+          "1113341531258650",
+          "818772821199477",
+          "1613439684122863",
+          "1415811412848988",
+          "1671297493932954",
+          "1434309484442916",
+          "1552510926901570",
+          "3104504133053971",
+          "1641618030244481",
+          "1922859199104600",
+          "1108052851505749",
+          "1269464008576842",
+          "1039645372365800",
+          "4583380151927958",
+          "1752313382691602",
+          "1061140366528571",
+          "2460921301003057",
+          "1880618592889615",
+          "2090110018486368",
+          "1642707043432264",
+          "1542981153662960",
+          "1145876253576972",
+          "890277470138086",
+          "24941042202230967",
+          "1783855969475893",
+          "1439917427681727"
+        ],
+        "ads": [
+          {
+            "id": "27332446723061186",
+            "advertiser": "알잘딱꿀팁",
+            "startedAt": "2026-06-15",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:58+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:58+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1847078139627599",
+            "advertiser": "Unnie's Secret",
+            "startedAt": "2026-10-07",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:57+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:57+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1621434746269189",
+            "advertiser": "Unnie's Secret",
+            "startedAt": "2026-09-30",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:57+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1036087879042581",
+            "advertiser": "Hihihioop",
+            "startedAt": "2026-08-18",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:57+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "905397715518074",
+            "advertiser": "Woman_Health",
+            "startedAt": "2026-02-10",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:56+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4256367361269002",
+            "advertiser": "알잘딱꿀팁",
+            "startedAt": "2026-05-17",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:56+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1800646373985564",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2025-12-14",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:56+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1407912384304155",
+            "advertiser": "Woman_Health",
+            "startedAt": "2026-02-09",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:56+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1342106880555148",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2025-12-15",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:55+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1233704064760446",
+            "advertiser": "알잘딱꿀팁",
+            "startedAt": "2026-02-04",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:55+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1078862928271262",
+            "advertiser": "뷰티의 중요성",
+            "startedAt": "2026-09-22",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:46+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:46+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1620863176294566",
+            "advertiser": "아빠의 마음으로 만든, 쁘띠앤",
+            "startedAt": "2026-10-01",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:45+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:45+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1916013645615917",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2025-10-26",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:44+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1874785260160463",
+            "advertiser": "꿀창고",
+            "startedAt": "2026-09-01",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:44+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1645088390503691",
+            "advertiser": "Woman_Health",
+            "startedAt": "2026-10-06",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:44+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:44+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1531549034578004",
+            "advertiser": "Woman_Health",
+            "startedAt": "2026-02-08",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:44+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1455597698903530",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2025-08-18",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:44+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1372613148180828",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-08-04",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:44+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2466050427219000",
+            "advertiser": "Woman_Health",
+            "startedAt": "2026-09-13",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:43+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1825995028845056",
+            "advertiser": "",
+            "startedAt": "2026-10-07",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:43+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "908651521711713",
+            "advertiser": "알잘딱꿀팁",
+            "startedAt": "2026-02-09",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:34+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1453757803298296",
+            "advertiser": "르뷰",
+            "startedAt": "2026-09-14",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:34+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1266489911947109",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2025-10-27",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:34+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2448860068923500",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2026-06-21",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:33+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1390637693019207",
+            "advertiser": "Linnov",
+            "startedAt": "2026-07-26",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:33+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1081491394059728",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2025-10-27",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:33+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1078141275012865",
+            "advertiser": "라엘코리아",
+            "startedAt": "2026-09-28",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:33+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3491690130992169",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2026-08-17",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:32+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1825647501937877",
+            "advertiser": "Woman_Health",
+            "startedAt": "2026-09-13",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:32+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1289092139708155",
+            "advertiser": "메디트리",
+            "startedAt": "2026-02-03",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:31+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1374062621109430",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2025-10-29",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:21+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1112888207913060",
+            "advertiser": "Unnie's Secret",
+            "startedAt": "2026-09-22",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:21+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1763660031338549",
+            "advertiser": "룸33",
+            "startedAt": "2026-08-18",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:20+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1091172893618515",
+            "advertiser": "알잘딱꿀팁",
+            "startedAt": "2026-09-30",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:20+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:20+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2530804044105085",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2026-08-18",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:19+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1192604036367003",
+            "advertiser": "알잘딱꿀팁",
+            "startedAt": "2026-02-08",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:19+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1101116709159693",
+            "advertiser": "Woman_Health",
+            "startedAt": "2026-09-13",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:19+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:19+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1966787020692991",
+            "advertiser": "마인드",
+            "startedAt": "2026-08-23",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:18+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1593083092308621",
+            "advertiser": "임신준비연구소",
+            "startedAt": "2026-08-09",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:18+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1037904682049443",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-14",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:18+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "833759472387354",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2025-11-02",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:10+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:10+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1716455869471215",
+            "advertiser": "룸33",
+            "startedAt": "2026-08-17",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:09+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1190071559774836",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2026-02-05",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:09+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:09+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2585396888644994",
+            "advertiser": "알잘딱꿀팁",
+            "startedAt": "2026-09-20",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:08+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:08+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1989231381741025",
+            "advertiser": "Unnie's Secret",
+            "startedAt": "2026-10-08",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:08+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:08+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "897607172919198",
+            "advertiser": "Woman_Health",
+            "startedAt": "2026-01-26",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:07+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2143904246160787",
+            "advertiser": "라엘코리아",
+            "startedAt": "2026-09-27",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:07+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2023679341583487",
+            "advertiser": "임신준비연구소",
+            "startedAt": "2026-08-09",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:07+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1398741432033822",
+            "advertiser": "알잘딱꿀팁",
+            "startedAt": "2026-02-09",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:07+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:07+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1484267833457697",
+            "advertiser": "yaksamom",
+            "startedAt": "2026-09-23",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:12:06+00:00",
+            "lastCollectedAt": "2026-10-13T04:12:06+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "831682126012022",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2025-11-02",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:57+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1439057608088123",
+            "advertiser": "지미",
+            "startedAt": "2026-09-14",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:57+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:57+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1383964153930654",
+            "advertiser": "걸즈토크모음집",
+            "startedAt": "2026-08-23",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:56+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1100394436286203",
+            "advertiser": "Ellenlee627",
+            "startedAt": "2026-09-22",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:56+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:56+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "822535790444522",
+            "advertiser": "allsu_777",
+            "startedAt": "2025-09-29",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:55+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:55+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1782073832984651",
+            "advertiser": "알잘딱꿀팁",
+            "startedAt": "2026-09-21",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:54+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1096488649738927",
+            "advertiser": "pomom",
+            "startedAt": "2026-09-22",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:54+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1615454006954908",
+            "advertiser": "휴럼 사이언스",
+            "startedAt": "2026-09-17",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:53+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "33233475682964495",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2026-01-12",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:52+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1097809356293041",
+            "advertiser": "Unnie's Secret",
+            "startedAt": "2026-09-27",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:51+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1543890790771125",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:44+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1013637141351831",
+            "advertiser": "Woman_Health",
+            "startedAt": "2026-05-25",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:44+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:44+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "847943974314305",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2025-11-02",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:43+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2221550835005502",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2025-11-04",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:43+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1376452514467261",
+            "advertiser": "정담건강",
+            "startedAt": "2026-08-05",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:43+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:43+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "729609436771840",
+            "advertiser": "서지애",
+            "startedAt": "2025-09-30",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:42+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1352568079595196",
+            "advertiser": "카밍의아뜰리에",
+            "startedAt": "2025-09-29",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:42+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:42+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1673289360823994",
+            "advertiser": "공동구매 알리미",
+            "startedAt": "2026-09-21",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:41+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1485295502809776",
+            "advertiser": "메디트리",
+            "startedAt": "2026-06-02",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:41+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:41+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "26992839907056271",
+            "advertiser": "알잘딱꿀팁",
+            "startedAt": "2026-08-04",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:40+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:40+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1142630801431236",
+            "advertiser": "알잘딱꿀팁",
+            "startedAt": "2026-09-28",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:34+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2202603750260449",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2025-08-24",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:33+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2007312256626841",
+            "advertiser": "패션 송백",
+            "startedAt": "2026-09-30",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:33+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1424513205808820",
+            "advertiser": "Woman_Health",
+            "startedAt": "2026-02-10",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:33+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1113341531258650",
+            "advertiser": "Woman_Health",
+            "startedAt": "2026-09-13",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:33+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "818772821199477",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-08",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:32+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1613439684122863",
+            "advertiser": "싸이언티픽 Scientific",
+            "startedAt": "2026-06-08",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:32+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1415811412848988",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2025-08-18",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:32+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:32+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1671297493932954",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2026-08-18",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:31+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1434309484442916",
+            "advertiser": "Woman_Health",
+            "startedAt": "2025-07-21",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:31+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:31+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1552510926901570",
+            "advertiser": "알잘딱꿀팁",
+            "startedAt": "2026-09-15",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:26+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3104504133053971",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2025-09-21",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:25+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1641618030244481",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2026-07-13",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:25+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1922859199104600",
+            "advertiser": "Woman_Health",
+            "startedAt": "2026-03-04",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:24+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1108052851505749",
+            "advertiser": "지미",
+            "startedAt": "2025-09-30",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:24+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1269464008576842",
+            "advertiser": "걸즈토크모음집",
+            "startedAt": "2026-09-06",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:23+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1039645372365800",
+            "advertiser": "여성 건강 꿀팁",
+            "startedAt": "2026-07-20",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:23+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4583380151927958",
+            "advertiser": "알잘딱꿀팁",
+            "startedAt": "2026-09-20",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:22+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1752313382691602",
+            "advertiser": "Woman_Health",
+            "startedAt": "2026-09-13",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:22+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:22+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1061140366528571",
+            "advertiser": "Woman_Health",
+            "startedAt": "2026-09-13",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:21+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2460921301003057",
+            "advertiser": "Lactiv.official",
+            "startedAt": "2026-05-27",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:16+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1880618592889615",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2025-10-13",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:16+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:16+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2090110018486368",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2026-01-29",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:15+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1642707043432264",
+            "advertiser": "Woman_Health",
+            "startedAt": "2026-02-08",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:15+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:15+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1542981153662960",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2026-01-26",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:14+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1145876253576972",
+            "advertiser": "danbiq",
+            "startedAt": "2025-10-04",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:14+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:14+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "890277470138086",
+            "advertiser": "Lactiv.official",
+            "startedAt": "2026-05-12",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:13+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "24941042202230967",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2025-11-04",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:13+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1783855969475893",
+            "advertiser": "알잘딱꿀팁",
+            "startedAt": "2026-08-31",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:13+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:13+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1439917427681727",
+            "advertiser": "꿀팁저장해바라",
+            "startedAt": "2026-01-26",
+            "query": "이노시톨",
+            "firstCollectedAt": "2026-10-13T04:11:12+00:00",
+            "lastCollectedAt": "2026-10-13T04:11:12+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-13T04:12:58+00:00",
+        "advertisers": [
+          {
+            "name": "꿀팁저장해바라",
+            "adCount": 26
+          },
+          {
+            "name": "Woman_Health",
+            "adCount": 16
+          },
+          {
+            "name": "알잘딱꿀팁",
+            "adCount": 14
+          },
+          {
+            "name": "Unnie's Secret",
+            "adCount": 5
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 4
+          },
+          {
+            "name": "Lactiv.official",
+            "adCount": 2
+          },
+          {
+            "name": "걸즈토크모음집",
+            "adCount": 2
+          },
+          {
+            "name": "라엘코리아",
+            "adCount": 2
+          },
+          {
+            "name": "룸33",
+            "adCount": 2
+          },
+          {
+            "name": "메디트리",
+            "adCount": 2
+          },
+          {
+            "name": "임신준비연구소",
+            "adCount": 2
+          },
+          {
+            "name": "지미",
+            "adCount": 2
+          },
+          {
+            "name": "Ellenlee627",
+            "adCount": 1
+          },
+          {
+            "name": "Hihihioop",
+            "adCount": 1
+          },
+          {
+            "name": "Linnov",
+            "adCount": 1
+          },
+          {
+            "name": "allsu_777",
+            "adCount": 1
+          },
+          {
+            "name": "danbiq",
+            "adCount": 1
+          },
+          {
+            "name": "pomom",
+            "adCount": 1
+          },
+          {
+            "name": "yaksamom",
+            "adCount": 1
+          },
+          {
+            "name": "서지애",
+            "adCount": 1
+          },
+          {
+            "name": "공동구매 알리미",
+            "adCount": 1
+          },
+          {
+            "name": "꿀창고",
+            "adCount": 1
+          },
+          {
+            "name": "르뷰",
+            "adCount": 1
+          },
+          {
+            "name": "마인드",
+            "adCount": 1
+          },
+          {
+            "name": "뷰티의 중요성",
+            "adCount": 1
+          },
+          {
+            "name": "싸이언티픽 Scientific",
+            "adCount": 1
+          },
+          {
+            "name": "아빠의 마음으로 만든, 쁘띠앤",
+            "adCount": 1
+          },
+          {
+            "name": "여성 건강 꿀팁",
+            "adCount": 1
+          },
+          {
+            "name": "정담건강",
+            "adCount": 1
+          },
+          {
+            "name": "카밍의아뜰리에",
+            "adCount": 1
+          },
+          {
+            "name": "패션 송백",
+            "adCount": 1
+          },
+          {
+            "name": "휴럼 사이언스",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
