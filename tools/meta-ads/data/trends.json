@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-13T14:12:32+00:00",
+  "updatedAt": "2026-10-13T15:08:16+00:00",
   "autoEnabled": true,
-  "scanning": false,
-  "lastChecked": "2026-10-13T01:06:58+00:00",
+  "scanning": true,
+  "lastChecked": "2026-10-13T15:08:15+00:00",
   "error": null,
   "sourceUrl": "https://datalab.naver.com/shoppingInsight/sCategory.naver",
-  "nextRunAt": "2026-10-13T15:07:26+00:00",
+  "nextRunAt": "2026-10-13T16:07:31+00:00",
   "intervalSeconds": 3600,
   "sourceCadence": "daily",
   "comparisonDays": 7,
@@ -18,7 +18,7 @@
       "categoryName": "건강식품",
       "sourceDate": "2026-10-12",
       "previousSourceDate": "2026-10-05",
-      "lastChecked": "2026-10-13T01:06:25+00:00",
+      "lastChecked": "2026-10-13T15:08:15+00:00",
       "error": null
     },
     {
@@ -30,8 +30,8 @@
       "error": null
     }
   ],
-  "lastAttemptAt": "2026-10-13T01:05:53+00:00",
-  "lastSuccessAt": "2026-10-13T01:06:58+00:00",
+  "lastAttemptAt": "2026-10-13T15:07:31+00:00",
+  "lastSuccessAt": "2026-10-13T15:08:15+00:00",
   "lastError": null,
   "collectionPolicy": {
     "maxDailyQueries": 288,
@@ -41,22 +41,22 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 53,
-    "dailyRemaining": 235,
+    "dailyUsed": 0,
+    "dailyRemaining": 288,
     "pending": 0,
-    "nextDispatchAt": "2026-10-13T14:12:33+00:00",
+    "nextDispatchAt": "2026-10-13T15:11:10+00:00",
     "metaAutoEnabled": true,
-    "enabled": true,
+    "enabled": false,
     "collectionGuard": {
-      "state": "ready",
-      "reason": null,
-      "nextAllowedAt": null,
+      "state": "failure",
+      "reason": "Meta 조회 오류 · 5분 대기 후 다음 작업 확인",
+      "nextAllowedAt": "2026-10-13T15:11:10+00:00",
       "blockedUntil": null,
       "blockStreak": 0,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": null
+    "pausedReason": "Meta 조회 오류 · 5분 대기 후 다음 작업 확인"
   },
   "settings": {
     "category": "50000023",
@@ -129,8 +129,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -404,8 +404,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1379,8 +1379,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1442,8 +1442,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1474,8 +1474,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -1643,8 +1643,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -2782,8 +2782,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -3331,8 +3331,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -4784,8 +4784,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -5037,8 +5037,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -6354,8 +6354,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -7341,8 +7341,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -8576,8 +8576,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -8687,8 +8687,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -9850,8 +9850,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -10239,8 +10239,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -10432,8 +10432,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -10495,8 +10495,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -10778,8 +10778,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000023",
@@ -11019,8 +11019,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -11068,8 +11068,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -11345,8 +11345,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -11572,8 +11572,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -11847,8 +11847,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -11879,8 +11879,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -12218,8 +12218,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -12250,8 +12250,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -12393,8 +12393,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -12638,8 +12638,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -12670,8 +12670,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -12783,8 +12783,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -14282,8 +14282,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -15817,8 +15817,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -15866,8 +15866,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -15975,8 +15975,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "category": "50000024",
@@ -16007,8 +16007,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     }
   ],
   "history": [
@@ -16257,8 +16257,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "03350b6876b0afae33c65e2d9c04703380a460cba989aa303572f85bb6beb91a",
@@ -16599,8 +16599,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "2790776d0b899510cfa476752f690edad4c9e77fc14bd4f149631168ad9005b1",
@@ -16634,8 +16634,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "32ad1aebacd1ab9d70bcafec1f773252dc76034d33d3bb3f1ade5ed40ee72319",
@@ -16864,8 +16864,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "4358d2109962544d0faaffa83a43405de4c47a3558c4ca487aed51a2ef4b1dba",
@@ -17010,8 +17010,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "4a6a2d97196c5e801490e0f075d694b068745ff9cc6ead212b99e5d7fbd995d3",
@@ -17126,8 +17126,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "77ba5ef20a4f9941f46b6234973adf68492795ba45d320a682831b6321888645",
@@ -17161,8 +17161,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "872db2571f35e8eb02123560cbc73380a0c5442f0f88418a74e81242612e9dab",
@@ -17273,8 +17273,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "a72fa77a4eabde0ad02fbdecf1800103bdfcebacf1f2331ab3d6726197908af2",
@@ -17325,8 +17325,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "abdc3b702874941c41791b72738b5ea9b6bb2b3287ab1d37241b8d52dec618bb",
@@ -17377,8 +17377,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "c066bcd4c168d2980a112b8b4dc5d6afdc3fb26a4e46e7b1ddee562e6279f4ab",
@@ -17655,8 +17655,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "cb7140f0ae16c293373934587d4aa14dde42786ea5783e047305204f88294b5e",
@@ -17690,8 +17690,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "ccfb88f8afee27e661397a340c952d51905a87fd54115552383fcf2ef32e1cc1",
@@ -19228,8 +19228,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "cd4b00023c49b36b70bd198480c3efaf85e415f5d9360cee36a452a5b7cbb4da",
@@ -19508,8 +19508,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "d9fb305c0d60dc4ce8ba7d8eb5554b6d5915bd9a23004918da0db0cf3e59ebb6",
@@ -21010,8 +21010,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "fe7b5136456ecc5671498c32376fe5d24525d03c76e7a63becea77e13b35372a",
@@ -21045,8 +21045,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "0312acbbc55ff3994be4a6e6c66f5fafd43e757e7c1486f9341fed1a11cf7452",
@@ -21066,7 +21066,7 @@
       "periodDays": 7,
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:25+00:00",
-      "lastObservedAt": "2026-10-13T01:06:25+00:00",
+      "lastObservedAt": "2026-10-13T15:08:15+00:00",
       "state": "done",
       "keywordId": "fe2421bd7766baa6af355afb894f52a9c29d7676ec12de532c849e55334b9cd3",
       "searchQuery": "밀크씨슬",
@@ -22501,8 +22501,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "14685472e74d0263fd740c3bd35fd22c0d6a0e376c6ed08e41c706ba787c1334",
@@ -22522,7 +22522,7 @@
       "periodDays": 7,
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:25+00:00",
-      "lastObservedAt": "2026-10-13T01:06:25+00:00",
+      "lastObservedAt": "2026-10-13T15:08:15+00:00",
       "state": "done",
       "keywordId": "cf7f5635a38ad217a8aa25f9be3a8a95c82f08486a73664657cd7a27cab9ede4",
       "searchQuery": "침향환",
@@ -23053,8 +23053,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "2763d0baf6ca9e890d136246c8ac202b65fe0d743415507b79129f8c64f61408",
@@ -23074,7 +23074,7 @@
       "periodDays": 7,
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:25+00:00",
-      "lastObservedAt": "2026-10-13T01:06:25+00:00",
+      "lastObservedAt": "2026-10-13T15:08:15+00:00",
       "state": "done",
       "keywordId": "32356e62f83ce1d1f3d4b4f88bdf6774392425a5e293a0ccd2e5afe770748bc6",
       "searchQuery": "폴리코사놀",
@@ -23119,8 +23119,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "2c82251e85b5e0720f232bec6131c90c5849fdef60621c4e7ee85917084d8b6a",
@@ -23140,7 +23140,7 @@
       "periodDays": 7,
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:25+00:00",
-      "lastObservedAt": "2026-10-13T01:06:25+00:00",
+      "lastObservedAt": "2026-10-13T15:08:15+00:00",
       "state": "done",
       "keywordId": "8f18a5b7bc20c1f7f3197cb76b01220a6e4df74d8ec86f3feb1c77a6f0091db1",
       "searchQuery": "질유산균",
@@ -24439,8 +24439,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "33e46d6a6f9f7b675b04a27a21a6ec3a68b0c238efef824f948a5f9aeb2b06fc",
@@ -24460,7 +24460,7 @@
       "periodDays": 7,
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:25+00:00",
-      "lastObservedAt": "2026-10-13T01:06:25+00:00",
+      "lastObservedAt": "2026-10-13T15:08:15+00:00",
       "state": "done",
       "keywordId": "66b29de313202b353a6d351befe2b37e257be4d264966a4c1fc73d6f3a11586f",
       "searchQuery": "하스카프베리",
@@ -24683,8 +24683,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "467de5a15b340989ed7371874d3b5825905a3fc96d6db69a8e04b183644db4cf",
@@ -24704,7 +24704,7 @@
       "periodDays": 7,
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:25+00:00",
-      "lastObservedAt": "2026-10-13T01:06:25+00:00",
+      "lastObservedAt": "2026-10-13T15:08:15+00:00",
       "state": "done",
       "keywordId": "5c0111843342825d1d828733f3a8692af2e2f530a46eb906f7efe4dd1d654e41",
       "searchQuery": "드시모네유산균",
@@ -24749,8 +24749,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "4b0f1db22ee7f60158a54cfe02ef57169e8e5ddce55e0b38f4036846aaab595e",
@@ -24770,7 +24770,7 @@
       "periodDays": 7,
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:25+00:00",
-      "lastObservedAt": "2026-10-13T01:06:25+00:00",
+      "lastObservedAt": "2026-10-13T15:08:15+00:00",
       "state": "done",
       "keywordId": "ee1c261176024d91ee40cc7480bc794e8970b59eea43282668d11902e0dff07a",
       "searchQuery": "경옥고",
@@ -24863,8 +24863,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "505aa2c6813b795d8930f7a14b3f405aa1f88c6dfd981a9d84e19e494f8a25b1",
@@ -24884,7 +24884,7 @@
       "periodDays": 7,
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:25+00:00",
-      "lastObservedAt": "2026-10-13T01:06:25+00:00",
+      "lastObservedAt": "2026-10-13T15:08:15+00:00",
       "state": "failed",
       "keywordId": "f154eb3cad43de08e0ec36fd379c1210359a737f7257fddbdfb7b66535eb7a78",
       "searchQuery": "애터미헤모힘",
@@ -24898,8 +24898,8 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "61d5d2c6e890f518d6600beb5fd10fdc4d553453ce38aa6947fdb884ad604a8c",
@@ -24919,7 +24919,7 @@
       "periodDays": 7,
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:25+00:00",
-      "lastObservedAt": "2026-10-13T01:06:25+00:00",
+      "lastObservedAt": "2026-10-13T15:08:15+00:00",
       "state": "done",
       "keywordId": "7d3a25ba0db56e63aaf55083c0444b6d09a5b24549107ca377efbd59b73444b2",
       "searchQuery": "캡슐레이션효소",
@@ -25154,8 +25154,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "84a8d23ecb8fc360bb4ed779faf7ea4ec5f5b20d2c6a80eb48093b6f75e49292",
@@ -25175,7 +25175,7 @@
       "periodDays": 7,
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:25+00:00",
-      "lastObservedAt": "2026-10-13T01:06:25+00:00",
+      "lastObservedAt": "2026-10-13T15:08:15+00:00",
       "state": "done",
       "keywordId": "6563c007393064da4c79423d10140520b49716e650c78278d3f450bafcdf580e",
       "searchQuery": "칼마디",
@@ -26296,8 +26296,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "89fbfa962eeb146ab739e3009eee4e96601ed4ce005a3bbf357616d278cffe89",
@@ -26317,7 +26317,7 @@
       "periodDays": 7,
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:25+00:00",
-      "lastObservedAt": "2026-10-13T01:06:25+00:00",
+      "lastObservedAt": "2026-10-13T15:08:15+00:00",
       "state": "done",
       "keywordId": "002f1703b37f6570f534fd8d93b642e3fb7d7c1311a7882ee4c0e54b25d28cf3",
       "searchQuery": "양배추즙",
@@ -26582,8 +26582,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "964c9c126029b8b810ee167ba363a19a11504309489d6905debf9ff60bb5c8a2",
@@ -26603,7 +26603,7 @@
       "periodDays": 7,
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:25+00:00",
-      "lastObservedAt": "2026-10-13T01:06:25+00:00",
+      "lastObservedAt": "2026-10-13T15:08:15+00:00",
       "state": "done",
       "keywordId": "bf431df1505cea75ed66bce40af40888bfc19069515fe286a6bcecebc76bd9b0",
       "searchQuery": "비에날17유산균",
@@ -26778,8 +26778,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "a1b24cc8c5c3fb14f9d6aa71b4934f3e1d3d4811e4eca9b5e6d483f0c7c3db03",
@@ -26799,7 +26799,7 @@
       "periodDays": 7,
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:25+00:00",
-      "lastObservedAt": "2026-10-13T01:06:25+00:00",
+      "lastObservedAt": "2026-10-13T15:08:15+00:00",
       "state": "done",
       "keywordId": "664f0eee12a3e0cefc4d5005db47079e8dcfa3c97b12f7c025bc86ced3155352",
       "searchQuery": "고려은단비타민c1000",
@@ -26844,8 +26844,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "bcfc37e156cb34de0d77dfb50e0b9b747b11eea833acbbea6d902aa4a04c1723",
@@ -26865,7 +26865,7 @@
       "periodDays": 7,
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:25+00:00",
-      "lastObservedAt": "2026-10-13T01:06:25+00:00",
+      "lastObservedAt": "2026-10-13T15:08:15+00:00",
       "state": "done",
       "keywordId": "a39be9bd6d9d6a860ae7270939ead044979ec53f5cdb41995f64e375f4b28bdf",
       "searchQuery": "종합비타민",
@@ -27822,8 +27822,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "c068fbeb456f3da2d926611c14ab28b3b2762b2d5b0c2d011fbacc3fa9bed763",
@@ -27843,7 +27843,7 @@
       "periodDays": 7,
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:25+00:00",
-      "lastObservedAt": "2026-10-13T01:06:25+00:00",
+      "lastObservedAt": "2026-10-13T15:08:15+00:00",
       "state": "done",
       "keywordId": "8909bb07a0e93c6302bada6d96a2d7df05a5c9c997e465a24589c432c421ee06",
       "searchQuery": "꿀스틱",
@@ -27994,8 +27994,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "c4604cccd94b0a74a6e16070801b11bf7268747f5c4f892e517e1a7df4286150",
@@ -28015,7 +28015,7 @@
       "periodDays": 7,
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:25+00:00",
-      "lastObservedAt": "2026-10-13T01:06:25+00:00",
+      "lastObservedAt": "2026-10-13T15:08:15+00:00",
       "state": "done",
       "keywordId": "0616815ac902144ee9eb42b57e1b869fe3071c93a6c675e9e237ae6a583f032f",
       "searchQuery": "아연",
@@ -29232,8 +29232,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "d064abb7a5d1d7b826ef650dab74754ebdc3edcf42e92c5c1473d05db9641423",
@@ -29253,7 +29253,7 @@
       "periodDays": 7,
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:25+00:00",
-      "lastObservedAt": "2026-10-13T01:06:25+00:00",
+      "lastObservedAt": "2026-10-13T15:08:15+00:00",
       "state": "done",
       "keywordId": "d26f6c2a7b284ecb6f0394c33f5ddb0a834461b4e21c58b297bcffe307fc4047",
       "searchQuery": "매스틱",
@@ -29624,8 +29624,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "eccea2c755e90b1963f6ec0171203aa4a78f12f5d0da64d26a15d27b1f752dc8",
@@ -29645,7 +29645,7 @@
       "periodDays": 7,
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:25+00:00",
-      "lastObservedAt": "2026-10-13T01:06:25+00:00",
+      "lastObservedAt": "2026-10-13T15:08:15+00:00",
       "state": "cooldown",
       "keywordId": "b4107a41c85ca8a726a842c7a9945a84b1d9506a11f5f1d3d624051726ebe7c1",
       "searchQuery": "리포좀비타민c",
@@ -29902,8 +29902,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "f1851f319ceb25678f0ac3f3956ce52856de559c66a11d6abb0ebfe142216b2d",
@@ -29923,7 +29923,7 @@
       "periodDays": 7,
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:25+00:00",
-      "lastObservedAt": "2026-10-13T01:06:25+00:00",
+      "lastObservedAt": "2026-10-13T15:08:15+00:00",
       "state": "done",
       "keywordId": "7478199ee3e9cb574beebef253e0dabb6cd87b9b2daced39c97b8c1a7861c34c",
       "searchQuery": "포스파티딜세린",
@@ -30892,8 +30892,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "f6f22d3aed1311e20cc0a7689f6ffab7994a7c8bf1d1777b8966871b778c986a",
@@ -30913,7 +30913,7 @@
       "periodDays": 7,
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:25+00:00",
-      "lastObservedAt": "2026-10-13T01:06:25+00:00",
+      "lastObservedAt": "2026-10-13T15:08:15+00:00",
       "state": "done",
       "keywordId": "9484ee0cb62e49f87df6dbd75556ef649d3884a841657309ccaf114ce5ea945b",
       "searchQuery": "이노시톨",
@@ -32058,8 +32058,8 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 1,
-      "collectionReason": "current"
+      "sourceAgeDays": 2,
+      "collectionReason": "historical-backlog"
     },
     {
       "id": "0810763d42a054134beb52da21990eeafed749f17b46d0ca99c031e9994b98c1",
@@ -32093,7 +32093,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -32128,7 +32128,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -32163,7 +32163,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -32198,7 +32198,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -32233,7 +32233,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -32513,7 +32513,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -33755,7 +33755,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -33877,7 +33877,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -35167,7 +35167,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -35202,7 +35202,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -35382,7 +35382,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -35808,7 +35808,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -36742,7 +36742,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -36777,7 +36777,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -36812,7 +36812,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -37154,7 +37154,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -37916,7 +37916,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -37998,7 +37998,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -38276,7 +38276,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -38311,7 +38311,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -38346,7 +38346,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -38660,7 +38660,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -38695,7 +38695,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -38811,7 +38811,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -39123,7 +39123,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -39158,7 +39158,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -39193,7 +39193,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -39228,7 +39228,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -39514,7 +39514,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -40680,7 +40680,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -41080,7 +41080,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -42584,7 +42584,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -42790,7 +42790,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -44470,7 +44470,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -44774,7 +44774,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -46164,7 +46164,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -46199,7 +46199,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -46251,7 +46251,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -46529,7 +46529,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -47107,7 +47107,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -48213,7 +48213,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -49419,7 +49419,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -50467,7 +50467,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 2,
+      "sourceAgeDays": 3,
       "collectionReason": "historical-backlog"
     },
     {
@@ -51569,7 +51569,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -51911,7 +51911,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -52001,7 +52001,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -52067,7 +52067,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -52102,7 +52102,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -52154,7 +52154,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -52189,7 +52189,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -52224,7 +52224,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -52259,7 +52259,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -53761,7 +53761,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -53796,7 +53796,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -54542,7 +54542,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -54608,7 +54608,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -54643,7 +54643,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -54823,7 +54823,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -54858,7 +54858,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -54920,7 +54920,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -54955,7 +54955,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -55007,7 +55007,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -56213,7 +56213,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -56709,7 +56709,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -56744,7 +56744,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -56824,7 +56824,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -56859,7 +56859,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -58315,7 +58315,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -58511,7 +58511,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -58901,7 +58901,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -59453,7 +59453,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -60831,7 +60831,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -62173,7 +62173,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -62239,7 +62239,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -62741,7 +62741,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -63201,7 +63201,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -63601,7 +63601,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -64921,7 +64921,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -66119,7 +66119,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -66361,7 +66361,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -66396,7 +66396,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -66768,7 +66768,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 3,
+      "sourceAgeDays": 4,
       "collectionReason": "historical-backlog"
     },
     {
@@ -66803,7 +66803,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -68021,7 +68021,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -68187,7 +68187,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -68239,7 +68239,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -68274,7 +68274,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -68309,7 +68309,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -68344,7 +68344,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -68379,7 +68379,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -68414,7 +68414,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -68449,7 +68449,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -68539,7 +68539,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -68574,7 +68574,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -68609,7 +68609,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -68789,7 +68789,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -69723,7 +69723,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -69877,7 +69877,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -69959,7 +69959,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -69994,7 +69994,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -70029,7 +70029,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -71533,7 +71533,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -72697,7 +72697,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -72732,7 +72732,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -72767,7 +72767,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -72833,7 +72833,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -74175,7 +74175,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -74381,7 +74381,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -74557,7 +74557,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -74861,7 +74861,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -75353,7 +75353,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -75849,7 +75849,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -75915,7 +75915,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -76375,7 +76375,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -76653,7 +76653,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -76909,7 +76909,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -77309,7 +77309,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -78555,7 +78555,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -78947,7 +78947,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -79549,7 +79549,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 4,
+      "sourceAgeDays": 5,
       "collectionReason": "historical-backlog"
     },
     {
@@ -79584,7 +79584,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 5,
+      "sourceAgeDays": 6,
       "collectionReason": "historical-backlog"
     },
     {
@@ -79619,7 +79619,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 5,
+      "sourceAgeDays": 6,
       "collectionReason": "historical-backlog"
     },
     {
@@ -79961,7 +79961,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 5,
+      "sourceAgeDays": 6,
       "collectionReason": "historical-backlog"
     },
     {
@@ -81179,7 +81179,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 5,
+      "sourceAgeDays": 6,
       "collectionReason": "historical-backlog"
     },
     {
@@ -81269,7 +81269,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 5,
+      "sourceAgeDays": 6,
       "collectionReason": "historical-backlog"
     },
     {
@@ -81304,7 +81304,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 5,
+      "sourceAgeDays": 6,
       "collectionReason": "historical-backlog"
     },
     {
@@ -81339,7 +81339,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 5,
+      "sourceAgeDays": 6,
       "collectionReason": "historical-backlog"
     },
     {
@@ -81374,7 +81374,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 5,
+      "sourceAgeDays": 6,
       "collectionReason": "historical-backlog"
     },
     {
@@ -81440,7 +81440,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 5,
+      "sourceAgeDays": 6,
       "collectionReason": "historical-backlog"
     },
     {
@@ -81475,7 +81475,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 5,
+      "sourceAgeDays": 6,
       "collectionReason": "historical-backlog"
     },
     {
@@ -81510,7 +81510,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 5,
+      "sourceAgeDays": 6,
       "collectionReason": "historical-backlog"
     },
     {
@@ -83048,7 +83048,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 5,
+      "sourceAgeDays": 6,
       "collectionReason": "historical-backlog"
     },
     {
@@ -83083,7 +83083,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 5,
+      "sourceAgeDays": 6,
       "collectionReason": "historical-backlog"
     },
     {
@@ -83263,7 +83263,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 5,
+      "sourceAgeDays": 6,
       "collectionReason": "historical-backlog"
     },
     {
@@ -83343,7 +83343,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 5,
+      "sourceAgeDays": 6,
       "collectionReason": "historical-backlog"
     },
     {
@@ -83623,7 +83623,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 5,
+      "sourceAgeDays": 6,
       "collectionReason": "historical-backlog"
     },
     {
@@ -83675,7 +83675,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 5,
+      "sourceAgeDays": 6,
       "collectionReason": "historical-backlog"
     },
     {
@@ -83710,7 +83710,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 5,
+      "sourceAgeDays": 6,
       "collectionReason": "historical-backlog"
     },
     {
@@ -83745,7 +83745,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 5,
+      "sourceAgeDays": 6,
       "collectionReason": "historical-backlog"
     },
     {
@@ -84913,7 +84913,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 5,
+      "sourceAgeDays": 6,
       "collectionReason": "historical-backlog"
     },
     {
@@ -85321,7 +85321,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 5,
+      "sourceAgeDays": 6,
       "collectionReason": "historical-backlog"
     },
     {
@@ -85356,7 +85356,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 5,
+      "sourceAgeDays": 6,
       "collectionReason": "historical-backlog"
     },
     {
@@ -85460,7 +85460,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 5,
+      "sourceAgeDays": 6,
       "collectionReason": "historical-backlog"
     },
     {
@@ -86964,7 +86964,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 5,
+      "sourceAgeDays": 6,
       "collectionReason": "historical-backlog"
     },
     {
@@ -87220,7 +87220,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 5,
+      "sourceAgeDays": 6,
       "collectionReason": "historical-backlog"
     },
     {
@@ -87286,7 +87286,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 5,
+      "sourceAgeDays": 6,
       "collectionReason": "historical-backlog"
     },
     {
@@ -87366,7 +87366,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 5,
+      "sourceAgeDays": 6,
       "collectionReason": "historical-backlog"
     },
     {
@@ -89046,7 +89046,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 5,
+      "sourceAgeDays": 6,
       "collectionReason": "historical-backlog"
     },
     {
@@ -89598,7 +89598,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 5,
+      "sourceAgeDays": 6,
       "collectionReason": "historical-backlog"
     },
     {
@@ -89970,7 +89970,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 5,
+      "sourceAgeDays": 6,
       "collectionReason": "historical-backlog"
     },
     {
@@ -90036,7 +90036,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 5,
+      "sourceAgeDays": 6,
       "collectionReason": "historical-backlog"
     },
     {
@@ -90428,7 +90428,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 5,
+      "sourceAgeDays": 6,
       "collectionReason": "historical-backlog"
     },
     {
@@ -91712,7 +91712,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 5,
+      "sourceAgeDays": 6,
       "collectionReason": "historical-backlog"
     },
     {
@@ -93102,7 +93102,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 5,
+      "sourceAgeDays": 6,
       "collectionReason": "historical-backlog"
     },
     {
@@ -93192,7 +93192,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 5,
+      "sourceAgeDays": 6,
       "collectionReason": "historical-backlog"
     },
     {
@@ -94534,7 +94534,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 5,
+      "sourceAgeDays": 6,
       "collectionReason": "historical-backlog"
     },
     {
@@ -94780,7 +94780,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 6,
+      "sourceAgeDays": 7,
       "collectionReason": "historical-backlog"
     },
     {
@@ -96318,7 +96318,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 6,
+      "sourceAgeDays": 7,
       "collectionReason": "historical-backlog"
     },
     {
@@ -96353,7 +96353,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 6,
+      "sourceAgeDays": 7,
       "collectionReason": "historical-backlog"
     },
     {
@@ -96388,7 +96388,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 6,
+      "sourceAgeDays": 7,
       "collectionReason": "historical-backlog"
     },
     {
@@ -96478,7 +96478,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 6,
+      "sourceAgeDays": 7,
       "collectionReason": "historical-backlog"
     },
     {
@@ -96513,7 +96513,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 6,
+      "sourceAgeDays": 7,
       "collectionReason": "historical-backlog"
     },
     {
@@ -96548,7 +96548,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 6,
+      "sourceAgeDays": 7,
       "collectionReason": "historical-backlog"
     },
     {
@@ -96583,7 +96583,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 6,
+      "sourceAgeDays": 7,
       "collectionReason": "historical-backlog"
     },
     {
@@ -96618,7 +96618,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 6,
+      "sourceAgeDays": 7,
       "collectionReason": "historical-backlog"
     },
     {
@@ -96670,7 +96670,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 6,
+      "sourceAgeDays": 7,
       "collectionReason": "historical-backlog"
     },
     {
@@ -96732,7 +96732,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 6,
+      "sourceAgeDays": 7,
       "collectionReason": "historical-backlog"
     },
     {
@@ -97478,7 +97478,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 6,
+      "sourceAgeDays": 7,
       "collectionReason": "historical-backlog"
     },
     {
@@ -97792,7 +97792,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 6,
+      "sourceAgeDays": 7,
       "collectionReason": "historical-backlog"
     },
     {
@@ -98134,7 +98134,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 6,
+      "sourceAgeDays": 7,
       "collectionReason": "historical-backlog"
     },
     {
@@ -98216,7 +98216,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 6,
+      "sourceAgeDays": 7,
       "collectionReason": "historical-backlog"
     },
     {
@@ -98268,7 +98268,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 6,
+      "sourceAgeDays": 7,
       "collectionReason": "historical-backlog"
     },
     {
@@ -98820,7 +98820,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 6,
+      "sourceAgeDays": 7,
       "collectionReason": "historical-backlog"
     },
     {
@@ -98855,7 +98855,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 6,
+      "sourceAgeDays": 7,
       "collectionReason": "historical-backlog"
     },
     {
@@ -98890,7 +98890,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 6,
+      "sourceAgeDays": 7,
       "collectionReason": "historical-backlog"
     },
     {
@@ -98994,7 +98994,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 6,
+      "sourceAgeDays": 7,
       "collectionReason": "historical-backlog"
     },
     {
@@ -100044,7 +100044,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 6,
+      "sourceAgeDays": 7,
       "collectionReason": "historical-backlog"
     },
     {
@@ -100444,7 +100444,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 6,
+      "sourceAgeDays": 7,
       "collectionReason": "historical-backlog"
     },
     {
@@ -100510,7 +100510,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 6,
+      "sourceAgeDays": 7,
       "collectionReason": "historical-backlog"
     },
     {
@@ -100545,7 +100545,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 6,
+      "sourceAgeDays": 7,
       "collectionReason": "historical-backlog"
     },
     {
@@ -100580,7 +100580,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 6,
+      "sourceAgeDays": 7,
       "collectionReason": "historical-backlog"
     },
     {
@@ -100952,7 +100952,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 6,
+      "sourceAgeDays": 7,
       "collectionReason": "historical-backlog"
     },
     {
@@ -102000,7 +102000,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 6,
+      "sourceAgeDays": 7,
       "collectionReason": "historical-backlog"
     },
     {
@@ -103284,7 +103284,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 6,
+      "sourceAgeDays": 7,
       "collectionReason": "historical-backlog"
     },
     {
@@ -103319,7 +103319,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 6,
+      "sourceAgeDays": 7,
       "collectionReason": "historical-backlog"
     },
     {
@@ -104697,7 +104697,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 6,
+      "sourceAgeDays": 7,
       "collectionReason": "historical-backlog"
     },
     {
@@ -105687,7 +105687,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 6,
+      "sourceAgeDays": 7,
       "collectionReason": "historical-backlog"
     },
     {
@@ -106905,7 +106905,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 6,
+      "sourceAgeDays": 7,
       "collectionReason": "historical-backlog"
     },
     {
@@ -107013,7 +107013,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 6,
+      "sourceAgeDays": 7,
       "collectionReason": "historical-backlog"
     },
     {
@@ -107048,7 +107048,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 6,
+      "sourceAgeDays": 7,
       "collectionReason": "historical-backlog"
     },
     {
@@ -108222,7 +108222,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 6,
+      "sourceAgeDays": 7,
       "collectionReason": "historical-backlog"
     },
     {
@@ -108257,7 +108257,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 6,
+      "sourceAgeDays": 7,
       "collectionReason": "historical-backlog"
     },
     {
@@ -108417,7 +108417,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 6,
+      "sourceAgeDays": 7,
       "collectionReason": "historical-backlog"
     },
     {
@@ -109111,7 +109111,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 6,
+      "sourceAgeDays": 7,
       "collectionReason": "historical-backlog"
     },
     {
@@ -109603,7 +109603,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 7,
+      "sourceAgeDays": 8,
       "collectionReason": "historical-backlog"
     },
     {
@@ -109809,7 +109809,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 7,
+      "sourceAgeDays": 8,
       "collectionReason": "historical-backlog"
     },
     {
@@ -110181,7 +110181,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 7,
+      "sourceAgeDays": 8,
       "collectionReason": "historical-backlog"
     },
     {
@@ -110437,7 +110437,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 7,
+      "sourceAgeDays": 8,
       "collectionReason": "historical-backlog"
     },
     {
@@ -110901,7 +110901,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 7,
+      "sourceAgeDays": 8,
       "collectionReason": "historical-backlog"
     },
     {
@@ -111147,7 +111147,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 7,
+      "sourceAgeDays": 8,
       "collectionReason": "historical-backlog"
     },
     {
@@ -111182,7 +111182,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 7,
+      "sourceAgeDays": 8,
       "collectionReason": "historical-backlog"
     },
     {
@@ -112346,7 +112346,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 7,
+      "sourceAgeDays": 8,
       "collectionReason": "historical-backlog"
     },
     {
@@ -113620,7 +113620,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 7,
+      "sourceAgeDays": 8,
       "collectionReason": "historical-backlog"
     },
     {
@@ -114172,7 +114172,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 7,
+      "sourceAgeDays": 8,
       "collectionReason": "historical-backlog"
     },
     {
@@ -115478,7 +115478,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 7,
+      "sourceAgeDays": 8,
       "collectionReason": "historical-backlog"
     },
     {
@@ -116724,7 +116724,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 7,
+      "sourceAgeDays": 8,
       "collectionReason": "historical-backlog"
     },
     {
@@ -118102,7 +118102,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 7,
+      "sourceAgeDays": 8,
       "collectionReason": "historical-backlog"
     },
     {
@@ -119260,7 +119260,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 7,
+      "sourceAgeDays": 8,
       "collectionReason": "historical-backlog"
     },
     {
@@ -120310,7 +120310,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 7,
+      "sourceAgeDays": 8,
       "collectionReason": "historical-backlog"
     },
     {
@@ -120345,7 +120345,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 7,
+      "sourceAgeDays": 8,
       "collectionReason": "historical-backlog"
     },
     {
@@ -120453,7 +120453,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 7,
+      "sourceAgeDays": 8,
       "collectionReason": "historical-backlog"
     },
     {
@@ -120505,7 +120505,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 7,
+      "sourceAgeDays": 8,
       "collectionReason": "historical-backlog"
     },
     {
@@ -120809,7 +120809,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 7,
+      "sourceAgeDays": 8,
       "collectionReason": "historical-backlog"
     },
     {
@@ -120875,7 +120875,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 7,
+      "sourceAgeDays": 8,
       "collectionReason": "historical-backlog"
     },
     {
@@ -120910,7 +120910,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 7,
+      "sourceAgeDays": 8,
       "collectionReason": "historical-backlog"
     },
     {
@@ -121512,7 +121512,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 7,
+      "sourceAgeDays": 8,
       "collectionReason": "historical-backlog"
     },
     {
@@ -121602,7 +121602,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 7,
+      "sourceAgeDays": 8,
       "collectionReason": "historical-backlog"
     },
     {
@@ -121856,7 +121856,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 7,
+      "sourceAgeDays": 8,
       "collectionReason": "historical-backlog"
     },
     {
@@ -121980,7 +121980,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 7,
+      "sourceAgeDays": 8,
       "collectionReason": "historical-backlog"
     },
     {
@@ -122440,7 +122440,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 7,
+      "sourceAgeDays": 8,
       "collectionReason": "historical-backlog"
     },
     {
@@ -124120,7 +124120,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 7,
+      "sourceAgeDays": 8,
       "collectionReason": "historical-backlog"
     },
     {
@@ -124155,7 +124155,7 @@
         "advertisers": [],
         "causationEstablished": false
       },
-      "sourceAgeDays": 7,
+      "sourceAgeDays": 8,
       "collectionReason": "historical-backlog"
     },
     {
@@ -125145,7 +125145,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 7,
+      "sourceAgeDays": 8,
       "collectionReason": "historical-backlog"
     },
     {
@@ -125537,7 +125537,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 7,
+      "sourceAgeDays": 8,
       "collectionReason": "historical-backlog"
     },
     {
@@ -125937,7 +125937,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 7,
+      "sourceAgeDays": 8,
       "collectionReason": "historical-backlog"
     },
     {
@@ -126003,7 +126003,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 7,
+      "sourceAgeDays": 8,
       "collectionReason": "historical-backlog"
     },
     {
@@ -126397,7 +126397,7 @@
         ],
         "causationEstablished": false
       },
-      "sourceAgeDays": 7,
+      "sourceAgeDays": 8,
       "collectionReason": "historical-backlog"
     }
   ],
