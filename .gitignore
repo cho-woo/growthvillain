@@ -13,3 +13,6 @@ services/meta-ads-collector/runtime/
 
 # Atomic snapshot temporary files are never published.
 tools/meta-ads/data/*.tmp
+
+# Retired public automation tools; local blog workers remain separate.
+/tools/

@@ -25,3 +25,10 @@ X-Content-Type-Options = "nosniff"
 Referrer-Policy = "strict-origin-when-cross-origin"
 Permissions-Policy = "camera=(), microphone=(), geolocation=()"
 Content-Security-Policy = "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; media-src 'self'; connect-src 'self'; object-src 'none'; frame-ancestors 'self'; base-uri 'self'; form-action 'self'"
+
+# Only the portfolio is published. Former tool pages are retired.
+[[redirects]]
+from = "/tools/*"
+to = "/404.html"
+status = 404
+force = true
