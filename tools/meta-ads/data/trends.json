@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-13T03:57:24+00:00",
+  "updatedAt": "2026-10-13T04:02:47+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-13T01:06:58+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 30,
-    "dailyRemaining": 258,
+    "dailyUsed": 31,
+    "dailyRemaining": 257,
     "pending": 0,
-    "nextDispatchAt": "2026-10-13T04:01:52+00:00",
+    "nextDispatchAt": "2026-10-13T04:06:54+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -10314,17 +10314,230 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "done",
       "keywordId": "c23b3fe60fb3ea283868f0373cf5478373fbe60133fa19ef8caa6f1ee75f92bc",
       "searchQuery": "파이버맥싱",
       "adEvidence": {
         "query": "파이버맥싱",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 17,
+        "adIds": [
+          "1132751105858240",
+          "1131946075961638",
+          "28652291917725740",
+          "2162844477644568",
+          "1891497535343111",
+          "2566590500487216",
+          "953086291202681",
+          "1146271014740100",
+          "2159712334582923",
+          "1403630078503294",
+          "1102993128790073",
+          "4490798767915262",
+          "4414479802146140",
+          "1740185658110575",
+          "1077374985079698",
+          "1437802708208623",
+          "1454400936611228"
+        ],
+        "ads": [
+          {
+            "id": "1132751105858240",
+            "advertiser": "프레딧",
+            "startedAt": "2026-10-12",
+            "query": "파이버맥싱",
+            "firstCollectedAt": "2026-10-13T04:02:23+00:00",
+            "lastCollectedAt": "2026-10-13T04:02:23+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1131946075961638",
+            "advertiser": "무위록",
+            "startedAt": "2026-10-11",
+            "query": "파이버맥싱",
+            "firstCollectedAt": "2026-10-13T04:02:23+00:00",
+            "lastCollectedAt": "2026-10-13T04:02:23+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "28652291917725740",
+            "advertiser": "무위록",
+            "startedAt": "2026-10-11",
+            "query": "파이버맥싱",
+            "firstCollectedAt": "2026-10-13T04:02:22+00:00",
+            "lastCollectedAt": "2026-10-13T04:02:22+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2162844477644568",
+            "advertiser": "꿀팁당첨",
+            "startedAt": "2026-10-08",
+            "query": "파이버맥싱",
+            "firstCollectedAt": "2026-10-13T04:02:21+00:00",
+            "lastCollectedAt": "2026-10-13T04:02:21+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1891497535343111",
+            "advertiser": "이노그린팜",
+            "startedAt": "2026-09-22",
+            "query": "파이버맥싱",
+            "firstCollectedAt": "2026-10-13T04:02:21+00:00",
+            "lastCollectedAt": "2026-10-13T04:02:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2566590500487216",
+            "advertiser": "Selfiteunmi",
+            "startedAt": "2026-10-12",
+            "query": "파이버맥싱",
+            "firstCollectedAt": "2026-10-13T04:02:20+00:00",
+            "lastCollectedAt": "2026-10-13T04:02:20+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "953086291202681",
+            "advertiser": "꿀팁당첨",
+            "startedAt": "2026-10-08",
+            "query": "파이버맥싱",
+            "firstCollectedAt": "2026-10-13T04:02:19+00:00",
+            "lastCollectedAt": "2026-10-13T04:02:19+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1146271014740100",
+            "advertiser": "프레딧",
+            "startedAt": "2026-10-12",
+            "query": "파이버맥싱",
+            "firstCollectedAt": "2026-10-13T04:02:08+00:00",
+            "lastCollectedAt": "2026-10-13T04:02:08+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2159712334582923",
+            "advertiser": "망생일기",
+            "startedAt": "2026-10-11",
+            "query": "파이버맥싱",
+            "firstCollectedAt": "2026-10-13T04:02:07+00:00",
+            "lastCollectedAt": "2026-10-13T04:02:07+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1403630078503294",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-30",
+            "query": "파이버맥싱",
+            "firstCollectedAt": "2026-10-13T04:02:05+00:00",
+            "lastCollectedAt": "2026-10-13T04:02:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1102993128790073",
+            "advertiser": "파이벌 Fiberrr",
+            "startedAt": "2026-10-08",
+            "query": "파이버맥싱",
+            "firstCollectedAt": "2026-10-13T04:02:05+00:00",
+            "lastCollectedAt": "2026-10-13T04:02:05+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4490798767915262",
+            "advertiser": "모아모아할인꿀템",
+            "startedAt": "2026-09-11",
+            "query": "파이버맥싱",
+            "firstCollectedAt": "2026-10-13T04:02:03+00:00",
+            "lastCollectedAt": "2026-10-13T04:02:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4414479802146140",
+            "advertiser": "꿀팁당첨",
+            "startedAt": "2026-09-29",
+            "query": "파이버맥싱",
+            "firstCollectedAt": "2026-10-13T04:02:03+00:00",
+            "lastCollectedAt": "2026-10-13T04:02:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1740185658110575",
+            "advertiser": "모아모아할인꿀템",
+            "startedAt": "2026-09-17",
+            "query": "파이버맥싱",
+            "firstCollectedAt": "2026-10-13T04:02:02+00:00",
+            "lastCollectedAt": "2026-10-13T04:02:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1077374985079698",
+            "advertiser": "꿀팁당첨",
+            "startedAt": "2026-09-29",
+            "query": "파이버맥싱",
+            "firstCollectedAt": "2026-10-13T04:02:02+00:00",
+            "lastCollectedAt": "2026-10-13T04:02:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1437802708208623",
+            "advertiser": "널담",
+            "startedAt": "2026-09-19",
+            "query": "파이버맥싱",
+            "firstCollectedAt": "2026-10-13T04:02:01+00:00",
+            "lastCollectedAt": "2026-10-13T04:02:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1454400936611228",
+            "advertiser": "널담",
+            "startedAt": "2026-09-19",
+            "query": "파이버맥싱",
+            "firstCollectedAt": "2026-10-13T04:02:00+00:00",
+            "lastCollectedAt": "2026-10-13T04:02:00+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-13T04:02:23+00:00",
+        "advertisers": [
+          {
+            "name": "꿀팁당첨",
+            "adCount": 4
+          },
+          {
+            "name": "널담",
+            "adCount": 2
+          },
+          {
+            "name": "모아모아할인꿀템",
+            "adCount": 2
+          },
+          {
+            "name": "무위록",
+            "adCount": 2
+          },
+          {
+            "name": "프레딧",
+            "adCount": 2
+          },
+          {
+            "name": "Selfiteunmi",
+            "adCount": 1
+          },
+          {
+            "name": "망생일기",
+            "adCount": 1
+          },
+          {
+            "name": "이노그린팜",
+            "adCount": 1
+          },
+          {
+            "name": "파이벌 Fiberrr",
+            "adCount": 1
+          },
+          {
+            "name": "헬스헬퍼",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -13038,17 +13251,230 @@
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:58+00:00",
       "lastObservedAt": "2026-10-13T01:06:58+00:00",
-      "state": "ready",
+      "state": "done",
       "keywordId": "c23b3fe60fb3ea283868f0373cf5478373fbe60133fa19ef8caa6f1ee75f92bc",
       "searchQuery": "파이버맥싱",
       "adEvidence": {
         "query": "파이버맥싱",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 17,
+        "adIds": [
+          "1132751105858240",
+          "1131946075961638",
+          "28652291917725740",
+          "2162844477644568",
+          "1891497535343111",
+          "2566590500487216",
+          "953086291202681",
+          "1146271014740100",
+          "2159712334582923",
+          "1403630078503294",
+          "1102993128790073",
+          "4490798767915262",
+          "4414479802146140",
+          "1740185658110575",
+          "1077374985079698",
+          "1437802708208623",
+          "1454400936611228"
+        ],
+        "ads": [
+          {
+            "id": "1132751105858240",
+            "advertiser": "프레딧",
+            "startedAt": "2026-10-12",
+            "query": "파이버맥싱",
+            "firstCollectedAt": "2026-10-13T04:02:23+00:00",
+            "lastCollectedAt": "2026-10-13T04:02:23+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1131946075961638",
+            "advertiser": "무위록",
+            "startedAt": "2026-10-11",
+            "query": "파이버맥싱",
+            "firstCollectedAt": "2026-10-13T04:02:23+00:00",
+            "lastCollectedAt": "2026-10-13T04:02:23+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "28652291917725740",
+            "advertiser": "무위록",
+            "startedAt": "2026-10-11",
+            "query": "파이버맥싱",
+            "firstCollectedAt": "2026-10-13T04:02:22+00:00",
+            "lastCollectedAt": "2026-10-13T04:02:22+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2162844477644568",
+            "advertiser": "꿀팁당첨",
+            "startedAt": "2026-10-08",
+            "query": "파이버맥싱",
+            "firstCollectedAt": "2026-10-13T04:02:21+00:00",
+            "lastCollectedAt": "2026-10-13T04:02:21+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1891497535343111",
+            "advertiser": "이노그린팜",
+            "startedAt": "2026-09-22",
+            "query": "파이버맥싱",
+            "firstCollectedAt": "2026-10-13T04:02:21+00:00",
+            "lastCollectedAt": "2026-10-13T04:02:21+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2566590500487216",
+            "advertiser": "Selfiteunmi",
+            "startedAt": "2026-10-12",
+            "query": "파이버맥싱",
+            "firstCollectedAt": "2026-10-13T04:02:20+00:00",
+            "lastCollectedAt": "2026-10-13T04:02:20+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "953086291202681",
+            "advertiser": "꿀팁당첨",
+            "startedAt": "2026-10-08",
+            "query": "파이버맥싱",
+            "firstCollectedAt": "2026-10-13T04:02:19+00:00",
+            "lastCollectedAt": "2026-10-13T04:02:19+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1146271014740100",
+            "advertiser": "프레딧",
+            "startedAt": "2026-10-12",
+            "query": "파이버맥싱",
+            "firstCollectedAt": "2026-10-13T04:02:08+00:00",
+            "lastCollectedAt": "2026-10-13T04:02:08+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2159712334582923",
+            "advertiser": "망생일기",
+            "startedAt": "2026-10-11",
+            "query": "파이버맥싱",
+            "firstCollectedAt": "2026-10-13T04:02:07+00:00",
+            "lastCollectedAt": "2026-10-13T04:02:07+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1403630078503294",
+            "advertiser": "헬스헬퍼",
+            "startedAt": "2026-09-30",
+            "query": "파이버맥싱",
+            "firstCollectedAt": "2026-10-13T04:02:05+00:00",
+            "lastCollectedAt": "2026-10-13T04:02:05+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1102993128790073",
+            "advertiser": "파이벌 Fiberrr",
+            "startedAt": "2026-10-08",
+            "query": "파이버맥싱",
+            "firstCollectedAt": "2026-10-13T04:02:05+00:00",
+            "lastCollectedAt": "2026-10-13T04:02:05+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4490798767915262",
+            "advertiser": "모아모아할인꿀템",
+            "startedAt": "2026-09-11",
+            "query": "파이버맥싱",
+            "firstCollectedAt": "2026-10-13T04:02:03+00:00",
+            "lastCollectedAt": "2026-10-13T04:02:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4414479802146140",
+            "advertiser": "꿀팁당첨",
+            "startedAt": "2026-09-29",
+            "query": "파이버맥싱",
+            "firstCollectedAt": "2026-10-13T04:02:03+00:00",
+            "lastCollectedAt": "2026-10-13T04:02:03+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1740185658110575",
+            "advertiser": "모아모아할인꿀템",
+            "startedAt": "2026-09-17",
+            "query": "파이버맥싱",
+            "firstCollectedAt": "2026-10-13T04:02:02+00:00",
+            "lastCollectedAt": "2026-10-13T04:02:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1077374985079698",
+            "advertiser": "꿀팁당첨",
+            "startedAt": "2026-09-29",
+            "query": "파이버맥싱",
+            "firstCollectedAt": "2026-10-13T04:02:02+00:00",
+            "lastCollectedAt": "2026-10-13T04:02:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1437802708208623",
+            "advertiser": "널담",
+            "startedAt": "2026-09-19",
+            "query": "파이버맥싱",
+            "firstCollectedAt": "2026-10-13T04:02:01+00:00",
+            "lastCollectedAt": "2026-10-13T04:02:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1454400936611228",
+            "advertiser": "널담",
+            "startedAt": "2026-09-19",
+            "query": "파이버맥싱",
+            "firstCollectedAt": "2026-10-13T04:02:00+00:00",
+            "lastCollectedAt": "2026-10-13T04:02:00+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-13T04:02:23+00:00",
+        "advertisers": [
+          {
+            "name": "꿀팁당첨",
+            "adCount": 4
+          },
+          {
+            "name": "널담",
+            "adCount": 2
+          },
+          {
+            "name": "모아모아할인꿀템",
+            "adCount": 2
+          },
+          {
+            "name": "무위록",
+            "adCount": 2
+          },
+          {
+            "name": "프레딧",
+            "adCount": 2
+          },
+          {
+            "name": "Selfiteunmi",
+            "adCount": 1
+          },
+          {
+            "name": "망생일기",
+            "adCount": 1
+          },
+          {
+            "name": "이노그린팜",
+            "adCount": 1
+          },
+          {
+            "name": "파이벌 Fiberrr",
+            "adCount": 1
+          },
+          {
+            "name": "헬스헬퍼",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
