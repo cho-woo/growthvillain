@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-13T03:50:54+00:00",
+  "updatedAt": "2026-10-13T03:57:24+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-13T01:06:58+00:00",
@@ -41,10 +41,10 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 29,
-    "dailyRemaining": 259,
-    "pending": 1,
-    "nextDispatchAt": null,
+    "dailyUsed": 30,
+    "dailyRemaining": 258,
+    "pending": 0,
+    "nextDispatchAt": "2026-10-13T04:01:52+00:00",
     "metaAutoEnabled": true,
     "enabled": true,
     "collectionGuard": {
@@ -7905,17 +7905,96 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "ee1c261176024d91ee40cc7480bc794e8970b59eea43282668d11902e0dff07a",
       "searchQuery": "경옥고",
       "adEvidence": {
         "query": "경옥고",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 6,
+        "adIds": [
+          "3700987383381918",
+          "2717694248649559",
+          "1986065435402096",
+          "3169575963252117",
+          "2571022563360387",
+          "1750575886126529"
+        ],
+        "ads": [
+          {
+            "id": "3700987383381918",
+            "advertiser": "경희수한의원",
+            "startedAt": "2026-10-10",
+            "query": "경옥고",
+            "firstCollectedAt": "2026-10-13T03:56:24+00:00",
+            "lastCollectedAt": "2026-10-13T03:56:24+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2717694248649559",
+            "advertiser": "나은내일한의원",
+            "startedAt": "2026-10-11",
+            "query": "경옥고",
+            "firstCollectedAt": "2026-10-13T03:56:24+00:00",
+            "lastCollectedAt": "2026-10-13T03:56:24+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1986065435402096",
+            "advertiser": "태안으뜸한의원",
+            "startedAt": "2026-09-11",
+            "query": "경옥고",
+            "firstCollectedAt": "2026-10-13T03:56:24+00:00",
+            "lastCollectedAt": "2026-10-13T03:56:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3169575963252117",
+            "advertiser": "태안으뜸한의원",
+            "startedAt": "2026-09-05",
+            "query": "경옥고",
+            "firstCollectedAt": "2026-10-13T03:56:23+00:00",
+            "lastCollectedAt": "2026-10-13T03:56:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2571022563360387",
+            "advertiser": "태안으뜸한의원",
+            "startedAt": "2026-09-11",
+            "query": "경옥고",
+            "firstCollectedAt": "2026-10-13T03:56:23+00:00",
+            "lastCollectedAt": "2026-10-13T03:56:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1750575886126529",
+            "advertiser": "남원s한의원",
+            "startedAt": "2026-06-08",
+            "query": "경옥고",
+            "firstCollectedAt": "2026-10-13T03:56:23+00:00",
+            "lastCollectedAt": "2026-10-13T03:56:23+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-13T03:56:24+00:00",
+        "advertisers": [
+          {
+            "name": "태안으뜸한의원",
+            "adCount": 3
+          },
+          {
+            "name": "경희수한의원",
+            "adCount": 1
+          },
+          {
+            "name": "나은내일한의원",
+            "adCount": 1
+          },
+          {
+            "name": "남원s한의원",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -10092,17 +10171,128 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "done",
       "keywordId": "956b1ab94a0af8de3ebe13999944d3c705225bb447d602bbdde9610df2966154",
       "searchQuery": "잠백이",
       "adEvidence": {
         "query": "잠백이",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 10,
+        "adIds": [
+          "1605088260618828",
+          "1633322778439497",
+          "1402472392041277",
+          "2327614401346092",
+          "2165675607704854",
+          "1431672198891163",
+          "1756429475571476",
+          "1087373940750441",
+          "1537809418102534",
+          "1428511469377001"
+        ],
+        "ads": [
+          {
+            "id": "1605088260618828",
+            "advertiser": "Netshorts",
+            "startedAt": "2026-10-12",
+            "query": "잠백이",
+            "firstCollectedAt": "2026-10-13T03:57:01+00:00",
+            "lastCollectedAt": "2026-10-13T03:57:01+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1633322778439497",
+            "advertiser": "Jambaekee",
+            "startedAt": "2026-10-11",
+            "query": "잠백이",
+            "firstCollectedAt": "2026-10-13T03:56:59+00:00",
+            "lastCollectedAt": "2026-10-13T03:56:59+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1402472392041277",
+            "advertiser": "Jambaekee",
+            "startedAt": "2026-10-12",
+            "query": "잠백이",
+            "firstCollectedAt": "2026-10-13T03:56:59+00:00",
+            "lastCollectedAt": "2026-10-13T03:56:59+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2327614401346092",
+            "advertiser": "Jambaekee",
+            "startedAt": "2026-10-12",
+            "query": "잠백이",
+            "firstCollectedAt": "2026-10-13T03:56:58+00:00",
+            "lastCollectedAt": "2026-10-13T03:56:58+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2165675607704854",
+            "advertiser": "Jambaekee",
+            "startedAt": "2026-10-11",
+            "query": "잠백이",
+            "firstCollectedAt": "2026-10-13T03:56:58+00:00",
+            "lastCollectedAt": "2026-10-13T03:56:58+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1431672198891163",
+            "advertiser": "Jambaekee",
+            "startedAt": "2026-10-06",
+            "query": "잠백이",
+            "firstCollectedAt": "2026-10-13T03:56:58+00:00",
+            "lastCollectedAt": "2026-10-13T03:56:58+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1756429475571476",
+            "advertiser": "Jambaekee",
+            "startedAt": "2026-10-06",
+            "query": "잠백이",
+            "firstCollectedAt": "2026-10-13T03:56:57+00:00",
+            "lastCollectedAt": "2026-10-13T03:56:57+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1087373940750441",
+            "advertiser": "Jambaekee",
+            "startedAt": "2026-10-12",
+            "query": "잠백이",
+            "firstCollectedAt": "2026-10-13T03:56:57+00:00",
+            "lastCollectedAt": "2026-10-13T03:56:57+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1537809418102534",
+            "advertiser": "Jambaekee",
+            "startedAt": "2026-10-12",
+            "query": "잠백이",
+            "firstCollectedAt": "2026-10-13T03:56:56+00:00",
+            "lastCollectedAt": "2026-10-13T03:56:56+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1428511469377001",
+            "advertiser": "Jambaekee",
+            "startedAt": "2026-09-30",
+            "query": "잠백이",
+            "firstCollectedAt": "2026-10-13T03:56:56+00:00",
+            "lastCollectedAt": "2026-10-13T03:56:56+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-13T03:57:01+00:00",
+        "advertisers": [
+          {
+            "name": "Jambaekee",
+            "adCount": 9
+          },
+          {
+            "name": "Netshorts",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -13490,17 +13680,128 @@
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:58+00:00",
       "lastObservedAt": "2026-10-13T01:06:58+00:00",
-      "state": "ready",
+      "state": "done",
       "keywordId": "956b1ab94a0af8de3ebe13999944d3c705225bb447d602bbdde9610df2966154",
       "searchQuery": "잠백이",
       "adEvidence": {
         "query": "잠백이",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 10,
+        "adIds": [
+          "1605088260618828",
+          "1633322778439497",
+          "1402472392041277",
+          "2327614401346092",
+          "2165675607704854",
+          "1431672198891163",
+          "1756429475571476",
+          "1087373940750441",
+          "1537809418102534",
+          "1428511469377001"
+        ],
+        "ads": [
+          {
+            "id": "1605088260618828",
+            "advertiser": "Netshorts",
+            "startedAt": "2026-10-12",
+            "query": "잠백이",
+            "firstCollectedAt": "2026-10-13T03:57:01+00:00",
+            "lastCollectedAt": "2026-10-13T03:57:01+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1633322778439497",
+            "advertiser": "Jambaekee",
+            "startedAt": "2026-10-11",
+            "query": "잠백이",
+            "firstCollectedAt": "2026-10-13T03:56:59+00:00",
+            "lastCollectedAt": "2026-10-13T03:56:59+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1402472392041277",
+            "advertiser": "Jambaekee",
+            "startedAt": "2026-10-12",
+            "query": "잠백이",
+            "firstCollectedAt": "2026-10-13T03:56:59+00:00",
+            "lastCollectedAt": "2026-10-13T03:56:59+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2327614401346092",
+            "advertiser": "Jambaekee",
+            "startedAt": "2026-10-12",
+            "query": "잠백이",
+            "firstCollectedAt": "2026-10-13T03:56:58+00:00",
+            "lastCollectedAt": "2026-10-13T03:56:58+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2165675607704854",
+            "advertiser": "Jambaekee",
+            "startedAt": "2026-10-11",
+            "query": "잠백이",
+            "firstCollectedAt": "2026-10-13T03:56:58+00:00",
+            "lastCollectedAt": "2026-10-13T03:56:58+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1431672198891163",
+            "advertiser": "Jambaekee",
+            "startedAt": "2026-10-06",
+            "query": "잠백이",
+            "firstCollectedAt": "2026-10-13T03:56:58+00:00",
+            "lastCollectedAt": "2026-10-13T03:56:58+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1756429475571476",
+            "advertiser": "Jambaekee",
+            "startedAt": "2026-10-06",
+            "query": "잠백이",
+            "firstCollectedAt": "2026-10-13T03:56:57+00:00",
+            "lastCollectedAt": "2026-10-13T03:56:57+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1087373940750441",
+            "advertiser": "Jambaekee",
+            "startedAt": "2026-10-12",
+            "query": "잠백이",
+            "firstCollectedAt": "2026-10-13T03:56:57+00:00",
+            "lastCollectedAt": "2026-10-13T03:56:57+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1537809418102534",
+            "advertiser": "Jambaekee",
+            "startedAt": "2026-10-12",
+            "query": "잠백이",
+            "firstCollectedAt": "2026-10-13T03:56:56+00:00",
+            "lastCollectedAt": "2026-10-13T03:56:56+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1428511469377001",
+            "advertiser": "Jambaekee",
+            "startedAt": "2026-09-30",
+            "query": "잠백이",
+            "firstCollectedAt": "2026-10-13T03:56:56+00:00",
+            "lastCollectedAt": "2026-10-13T03:56:56+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-13T03:57:01+00:00",
+        "advertisers": [
+          {
+            "name": "Jambaekee",
+            "adCount": 9
+          },
+          {
+            "name": "Netshorts",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -19941,17 +20242,96 @@
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:25+00:00",
       "lastObservedAt": "2026-10-13T01:06:25+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "ee1c261176024d91ee40cc7480bc794e8970b59eea43282668d11902e0dff07a",
       "searchQuery": "경옥고",
       "adEvidence": {
         "query": "경옥고",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 6,
+        "adIds": [
+          "3700987383381918",
+          "2717694248649559",
+          "1986065435402096",
+          "3169575963252117",
+          "2571022563360387",
+          "1750575886126529"
+        ],
+        "ads": [
+          {
+            "id": "3700987383381918",
+            "advertiser": "경희수한의원",
+            "startedAt": "2026-10-10",
+            "query": "경옥고",
+            "firstCollectedAt": "2026-10-13T03:56:24+00:00",
+            "lastCollectedAt": "2026-10-13T03:56:24+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2717694248649559",
+            "advertiser": "나은내일한의원",
+            "startedAt": "2026-10-11",
+            "query": "경옥고",
+            "firstCollectedAt": "2026-10-13T03:56:24+00:00",
+            "lastCollectedAt": "2026-10-13T03:56:24+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1986065435402096",
+            "advertiser": "태안으뜸한의원",
+            "startedAt": "2026-09-11",
+            "query": "경옥고",
+            "firstCollectedAt": "2026-10-13T03:56:24+00:00",
+            "lastCollectedAt": "2026-10-13T03:56:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3169575963252117",
+            "advertiser": "태안으뜸한의원",
+            "startedAt": "2026-09-05",
+            "query": "경옥고",
+            "firstCollectedAt": "2026-10-13T03:56:23+00:00",
+            "lastCollectedAt": "2026-10-13T03:56:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2571022563360387",
+            "advertiser": "태안으뜸한의원",
+            "startedAt": "2026-09-11",
+            "query": "경옥고",
+            "firstCollectedAt": "2026-10-13T03:56:23+00:00",
+            "lastCollectedAt": "2026-10-13T03:56:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1750575886126529",
+            "advertiser": "남원s한의원",
+            "startedAt": "2026-06-08",
+            "query": "경옥고",
+            "firstCollectedAt": "2026-10-13T03:56:23+00:00",
+            "lastCollectedAt": "2026-10-13T03:56:23+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-13T03:56:24+00:00",
+        "advertisers": [
+          {
+            "name": "태안으뜸한의원",
+            "adCount": 3
+          },
+          {
+            "name": "경희수한의원",
+            "adCount": 1
+          },
+          {
+            "name": "나은내일한의원",
+            "adCount": 1
+          },
+          {
+            "name": "남원s한의원",
+            "adCount": 1
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
