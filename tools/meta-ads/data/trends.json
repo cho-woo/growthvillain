@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-13T06:38:28+00:00",
+  "updatedAt": "2026-10-13T06:45:18+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-13T01:06:58+00:00",
@@ -41,8 +41,8 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 37,
-    "dailyRemaining": 251,
+    "dailyUsed": 38,
+    "dailyRemaining": 250,
     "pending": 1,
     "nextDispatchAt": null,
     "metaAutoEnabled": true,
@@ -52,7 +52,7 @@
       "reason": null,
       "nextAllowedAt": null,
       "blockedUntil": null,
-      "blockStreak": 1,
+      "blockStreak": 0,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
@@ -5941,7 +5941,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "queued",
       "keywordId": "7478199ee3e9cb574beebef253e0dabb6cd87b9b2daced39c97b8c1a7861c34c",
       "searchQuery": "포스파티딜세린",
       "adEvidence": {
@@ -10039,17 +10039,226 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "66b29de313202b353a6d351befe2b37e257be4d264966a4c1fc73d6f3a11586f",
       "searchQuery": "하스카프베리",
       "adEvidence": {
         "query": "하스카프베리",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 19,
+        "adIds": [
+          "820417731162034",
+          "4621946964705599",
+          "1748452456459034",
+          "1418671003028361",
+          "1086817644223346",
+          "4395552370684794",
+          "1665033341910351",
+          "1645813880363554",
+          "1406447621683843",
+          "3475144319325546",
+          "1989603991706978",
+          "1613615983770129",
+          "1450985060272539",
+          "1445082754203103",
+          "1409007394710955",
+          "1097784255982143",
+          "1029158223517484",
+          "29122969470638855",
+          "1593173912317857"
+        ],
+        "ads": [
+          {
+            "id": "820417731162034",
+            "advertiser": "tigermorningshot",
+            "startedAt": "2026-09-03",
+            "query": "하스카프베리",
+            "firstCollectedAt": "2026-10-13T06:44:49+00:00",
+            "lastCollectedAt": "2026-10-13T06:44:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4621946964705599",
+            "advertiser": "위바이옴",
+            "startedAt": "2026-10-12",
+            "query": "하스카프베리",
+            "firstCollectedAt": "2026-10-13T06:44:48+00:00",
+            "lastCollectedAt": "2026-10-13T06:44:48+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1748452456459034",
+            "advertiser": "닥터풀리",
+            "startedAt": "2026-09-16",
+            "query": "하스카프베리",
+            "firstCollectedAt": "2026-10-13T06:44:48+00:00",
+            "lastCollectedAt": "2026-10-13T06:44:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1418671003028361",
+            "advertiser": "위바이옴",
+            "startedAt": "2026-10-12",
+            "query": "하스카프베리",
+            "firstCollectedAt": "2026-10-13T06:44:48+00:00",
+            "lastCollectedAt": "2026-10-13T06:44:48+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1086817644223346",
+            "advertiser": "위바이옴",
+            "startedAt": "2026-10-12",
+            "query": "하스카프베리",
+            "firstCollectedAt": "2026-10-13T06:44:48+00:00",
+            "lastCollectedAt": "2026-10-13T06:44:48+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4395552370684794",
+            "advertiser": "닥터풀리",
+            "startedAt": "2026-08-20",
+            "query": "하스카프베리",
+            "firstCollectedAt": "2026-10-13T06:44:47+00:00",
+            "lastCollectedAt": "2026-10-13T06:44:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1665033341910351",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-09-23",
+            "query": "하스카프베리",
+            "firstCollectedAt": "2026-10-13T06:44:47+00:00",
+            "lastCollectedAt": "2026-10-13T06:44:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1645813880363554",
+            "advertiser": "",
+            "startedAt": "2026-10-06",
+            "query": "하스카프베리",
+            "firstCollectedAt": "2026-10-13T06:44:47+00:00",
+            "lastCollectedAt": "2026-10-13T06:44:47+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1406447621683843",
+            "advertiser": "닥터풀리",
+            "startedAt": "2026-09-16",
+            "query": "하스카프베리",
+            "firstCollectedAt": "2026-10-13T06:44:47+00:00",
+            "lastCollectedAt": "2026-10-13T06:44:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3475144319325546",
+            "advertiser": "닥터풀리",
+            "startedAt": "2026-09-17",
+            "query": "하스카프베리",
+            "firstCollectedAt": "2026-10-13T06:44:35+00:00",
+            "lastCollectedAt": "2026-10-13T06:44:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1989603991706978",
+            "advertiser": "tigermorningshot",
+            "startedAt": "2026-10-05",
+            "query": "하스카프베리",
+            "firstCollectedAt": "2026-10-13T06:44:35+00:00",
+            "lastCollectedAt": "2026-10-13T06:44:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1613615983770129",
+            "advertiser": "닥터풀리",
+            "startedAt": "2026-08-20",
+            "query": "하스카프베리",
+            "firstCollectedAt": "2026-10-13T06:44:35+00:00",
+            "lastCollectedAt": "2026-10-13T06:44:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1450985060272539",
+            "advertiser": "tigermorningshot",
+            "startedAt": "2026-10-06",
+            "query": "하스카프베리",
+            "firstCollectedAt": "2026-10-13T06:44:35+00:00",
+            "lastCollectedAt": "2026-10-13T06:44:35+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1445082754203103",
+            "advertiser": "tigermorningshot",
+            "startedAt": "2026-10-06",
+            "query": "하스카프베리",
+            "firstCollectedAt": "2026-10-13T06:44:35+00:00",
+            "lastCollectedAt": "2026-10-13T06:44:35+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1409007394710955",
+            "advertiser": "tigermorningshot",
+            "startedAt": "2026-08-25",
+            "query": "하스카프베리",
+            "firstCollectedAt": "2026-10-13T06:44:34+00:00",
+            "lastCollectedAt": "2026-10-13T06:44:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1097784255982143",
+            "advertiser": "tigermorningshot",
+            "startedAt": "2026-09-22",
+            "query": "하스카프베리",
+            "firstCollectedAt": "2026-10-13T06:44:34+00:00",
+            "lastCollectedAt": "2026-10-13T06:44:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1029158223517484",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-09-22",
+            "query": "하스카프베리",
+            "firstCollectedAt": "2026-10-13T06:44:34+00:00",
+            "lastCollectedAt": "2026-10-13T06:44:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "29122969470638855",
+            "advertiser": "tigermorningshot",
+            "startedAt": "2026-09-09",
+            "query": "하스카프베리",
+            "firstCollectedAt": "2026-10-13T06:44:33+00:00",
+            "lastCollectedAt": "2026-10-13T06:44:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1593173912317857",
+            "advertiser": "tigermorningshot",
+            "startedAt": "2026-09-09",
+            "query": "하스카프베리",
+            "firstCollectedAt": "2026-10-13T06:44:33+00:00",
+            "lastCollectedAt": "2026-10-13T06:44:33+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-13T06:44:49+00:00",
+        "advertisers": [
+          {
+            "name": "tigermorningshot",
+            "adCount": 8
+          },
+          {
+            "name": "닥터풀리",
+            "adCount": 5
+          },
+          {
+            "name": "위바이옴",
+            "adCount": 3
+          },
+          {
+            "name": "주영엔에스",
+            "adCount": 2
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -22014,17 +22223,226 @@
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:25+00:00",
       "lastObservedAt": "2026-10-13T01:06:25+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "66b29de313202b353a6d351befe2b37e257be4d264966a4c1fc73d6f3a11586f",
       "searchQuery": "하스카프베리",
       "adEvidence": {
         "query": "하스카프베리",
         "matchType": "collected-with-query",
-        "adCount": 0,
-        "adIds": [],
-        "ads": [],
-        "lastCollectedAt": null,
-        "advertisers": [],
+        "adCount": 19,
+        "adIds": [
+          "820417731162034",
+          "4621946964705599",
+          "1748452456459034",
+          "1418671003028361",
+          "1086817644223346",
+          "4395552370684794",
+          "1665033341910351",
+          "1645813880363554",
+          "1406447621683843",
+          "3475144319325546",
+          "1989603991706978",
+          "1613615983770129",
+          "1450985060272539",
+          "1445082754203103",
+          "1409007394710955",
+          "1097784255982143",
+          "1029158223517484",
+          "29122969470638855",
+          "1593173912317857"
+        ],
+        "ads": [
+          {
+            "id": "820417731162034",
+            "advertiser": "tigermorningshot",
+            "startedAt": "2026-09-03",
+            "query": "하스카프베리",
+            "firstCollectedAt": "2026-10-13T06:44:49+00:00",
+            "lastCollectedAt": "2026-10-13T06:44:49+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4621946964705599",
+            "advertiser": "위바이옴",
+            "startedAt": "2026-10-12",
+            "query": "하스카프베리",
+            "firstCollectedAt": "2026-10-13T06:44:48+00:00",
+            "lastCollectedAt": "2026-10-13T06:44:48+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1748452456459034",
+            "advertiser": "닥터풀리",
+            "startedAt": "2026-09-16",
+            "query": "하스카프베리",
+            "firstCollectedAt": "2026-10-13T06:44:48+00:00",
+            "lastCollectedAt": "2026-10-13T06:44:48+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1418671003028361",
+            "advertiser": "위바이옴",
+            "startedAt": "2026-10-12",
+            "query": "하스카프베리",
+            "firstCollectedAt": "2026-10-13T06:44:48+00:00",
+            "lastCollectedAt": "2026-10-13T06:44:48+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1086817644223346",
+            "advertiser": "위바이옴",
+            "startedAt": "2026-10-12",
+            "query": "하스카프베리",
+            "firstCollectedAt": "2026-10-13T06:44:48+00:00",
+            "lastCollectedAt": "2026-10-13T06:44:48+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4395552370684794",
+            "advertiser": "닥터풀리",
+            "startedAt": "2026-08-20",
+            "query": "하스카프베리",
+            "firstCollectedAt": "2026-10-13T06:44:47+00:00",
+            "lastCollectedAt": "2026-10-13T06:44:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1665033341910351",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-09-23",
+            "query": "하스카프베리",
+            "firstCollectedAt": "2026-10-13T06:44:47+00:00",
+            "lastCollectedAt": "2026-10-13T06:44:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1645813880363554",
+            "advertiser": "",
+            "startedAt": "2026-10-06",
+            "query": "하스카프베리",
+            "firstCollectedAt": "2026-10-13T06:44:47+00:00",
+            "lastCollectedAt": "2026-10-13T06:44:47+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1406447621683843",
+            "advertiser": "닥터풀리",
+            "startedAt": "2026-09-16",
+            "query": "하스카프베리",
+            "firstCollectedAt": "2026-10-13T06:44:47+00:00",
+            "lastCollectedAt": "2026-10-13T06:44:47+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "3475144319325546",
+            "advertiser": "닥터풀리",
+            "startedAt": "2026-09-17",
+            "query": "하스카프베리",
+            "firstCollectedAt": "2026-10-13T06:44:35+00:00",
+            "lastCollectedAt": "2026-10-13T06:44:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1989603991706978",
+            "advertiser": "tigermorningshot",
+            "startedAt": "2026-10-05",
+            "query": "하스카프베리",
+            "firstCollectedAt": "2026-10-13T06:44:35+00:00",
+            "lastCollectedAt": "2026-10-13T06:44:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1613615983770129",
+            "advertiser": "닥터풀리",
+            "startedAt": "2026-08-20",
+            "query": "하스카프베리",
+            "firstCollectedAt": "2026-10-13T06:44:35+00:00",
+            "lastCollectedAt": "2026-10-13T06:44:35+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1450985060272539",
+            "advertiser": "tigermorningshot",
+            "startedAt": "2026-10-06",
+            "query": "하스카프베리",
+            "firstCollectedAt": "2026-10-13T06:44:35+00:00",
+            "lastCollectedAt": "2026-10-13T06:44:35+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1445082754203103",
+            "advertiser": "tigermorningshot",
+            "startedAt": "2026-10-06",
+            "query": "하스카프베리",
+            "firstCollectedAt": "2026-10-13T06:44:35+00:00",
+            "lastCollectedAt": "2026-10-13T06:44:35+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1409007394710955",
+            "advertiser": "tigermorningshot",
+            "startedAt": "2026-08-25",
+            "query": "하스카프베리",
+            "firstCollectedAt": "2026-10-13T06:44:34+00:00",
+            "lastCollectedAt": "2026-10-13T06:44:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1097784255982143",
+            "advertiser": "tigermorningshot",
+            "startedAt": "2026-09-22",
+            "query": "하스카프베리",
+            "firstCollectedAt": "2026-10-13T06:44:34+00:00",
+            "lastCollectedAt": "2026-10-13T06:44:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1029158223517484",
+            "advertiser": "주영엔에스",
+            "startedAt": "2026-09-22",
+            "query": "하스카프베리",
+            "firstCollectedAt": "2026-10-13T06:44:34+00:00",
+            "lastCollectedAt": "2026-10-13T06:44:34+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "29122969470638855",
+            "advertiser": "tigermorningshot",
+            "startedAt": "2026-09-09",
+            "query": "하스카프베리",
+            "firstCollectedAt": "2026-10-13T06:44:33+00:00",
+            "lastCollectedAt": "2026-10-13T06:44:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1593173912317857",
+            "advertiser": "tigermorningshot",
+            "startedAt": "2026-09-09",
+            "query": "하스카프베리",
+            "firstCollectedAt": "2026-10-13T06:44:33+00:00",
+            "lastCollectedAt": "2026-10-13T06:44:33+00:00",
+            "startTiming": "before-window"
+          }
+        ],
+        "lastCollectedAt": "2026-10-13T06:44:49+00:00",
+        "advertisers": [
+          {
+            "name": "tigermorningshot",
+            "adCount": 8
+          },
+          {
+            "name": "닥터풀리",
+            "adCount": 5
+          },
+          {
+            "name": "위바이옴",
+            "adCount": 3
+          },
+          {
+            "name": "주영엔에스",
+            "adCount": 2
+          }
+        ],
         "causationEstablished": false
       },
       "sourceAgeDays": 1,
@@ -27200,7 +27618,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:25+00:00",
       "lastObservedAt": "2026-10-13T01:06:25+00:00",
-      "state": "ready",
+      "state": "queued",
       "keywordId": "7478199ee3e9cb574beebef253e0dabb6cd87b9b2daced39c97b8c1a7861c34c",
       "searchQuery": "포스파티딜세린",
       "adEvidence": {
@@ -119397,7 +119815,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-07T03:15:08+00:00",
       "lastObservedAt": "2026-10-07T03:15:08+00:00",
-      "state": "backlog",
+      "state": "cooldown",
       "keywordId": "7478199ee3e9cb574beebef253e0dabb6cd87b9b2daced39c97b8c1a7861c34c",
       "searchQuery": "포스파티딜세린",
       "adEvidence": {
