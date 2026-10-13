@@ -1,6 +1,6 @@
 {
   "mode": "snapshot",
-  "updatedAt": "2026-10-13T15:24:53+00:00",
+  "updatedAt": "2026-10-13T15:34:43+00:00",
   "automations": [
     {
       "id": "meta-ads",
@@ -45,13 +45,13 @@
     {
       "id": "food-blog",
       "name": "맛집 블로그",
-      "enabled": false,
+      "enabled": true,
       "running": false,
-      "state": "paused",
-      "nextRunAt": null,
+      "state": "waiting",
+      "nextRunAt": "2026-10-14T11:57:13+09:00",
       "lastSuccessAt": null,
       "lastAttemptAt": null,
-      "message": "예약 실행 OFF",
+      "message": "다음 맛집 발행 대기",
       "intervalSeconds": null,
       "statusCheckIntervalSeconds": null,
       "statusCheckBatchSize": null,
@@ -157,8 +157,8 @@
   ],
   "publication": {
     "state": "synced",
-    "lastAttemptAt": "2026-10-13T15:22:18+00:00",
-    "lastSuccessAt": "2026-10-13T15:22:25+00:00",
+    "lastAttemptAt": "2026-10-13T15:24:53+00:00",
+    "lastSuccessAt": "2026-10-13T15:24:59+00:00",
     "error": null,
     "enabled": true
   }
