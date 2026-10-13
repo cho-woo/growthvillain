@@ -1,6 +1,6 @@
 {
   "mode": "snapshot",
-  "updatedAt": "2026-10-13T02:53:52+00:00",
+  "updatedAt": "2026-10-13T02:57:25+00:00",
   "automations": [
     {
       "id": "meta-ads",
@@ -110,12 +110,12 @@
       "id": "tistory-investment",
       "name": "티스토리 주식",
       "enabled": true,
-      "running": false,
-      "state": "waiting",
-      "nextRunAt": "2026-10-13T11:56:00+09:00",
+      "running": true,
+      "state": "writing",
+      "nextRunAt": null,
       "lastSuccessAt": null,
       "lastAttemptAt": null,
-      "message": "평일 예약 시각 대기 · AI 호출 없음",
+      "message": "검증 자료로 주식 글 작성 중 · GPT 1회",
       "intervalSeconds": 900,
       "statusCheckIntervalSeconds": null,
       "statusCheckBatchSize": null,
@@ -157,8 +157,8 @@
   ],
   "publication": {
     "state": "synced",
-    "lastAttemptAt": "2026-10-13T02:48:34+00:00",
-    "lastSuccessAt": "2026-10-13T02:48:41+00:00",
+    "lastAttemptAt": "2026-10-13T02:53:52+00:00",
+    "lastSuccessAt": "2026-10-13T02:53:58+00:00",
     "error": null,
     "enabled": true
   }
