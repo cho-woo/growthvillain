@@ -1,6 +1,6 @@
 {
   "mode": "snapshot",
-  "updatedAt": "2026-10-13T05:55:35+00:00",
+  "updatedAt": "2026-10-13T05:57:00+00:00",
   "automations": [
     {
       "id": "meta-ads",
@@ -99,7 +99,7 @@
       "nextRunAt": "2026-10-13T15:03:02+09:00",
       "lastSuccessAt": "2026-10-13T14:55:30+09:00",
       "lastAttemptAt": null,
-      "message": "발행 완료 · 다음 뉴스 확인 대기",
+      "message": "후보 없음 또는 발행 한도·간격 대기 · AI 호출 없음",
       "intervalSeconds": 900,
       "statusCheckIntervalSeconds": null,
       "statusCheckBatchSize": null,
@@ -157,8 +157,8 @@
   ],
   "publication": {
     "state": "synced",
-    "lastAttemptAt": "2026-10-13T05:54:10+00:00",
-    "lastSuccessAt": "2026-10-13T05:54:16+00:00",
+    "lastAttemptAt": "2026-10-13T05:55:35+00:00",
+    "lastSuccessAt": "2026-10-13T05:55:41+00:00",
     "error": null,
     "enabled": true
   }
