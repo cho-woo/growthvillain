@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-13T04:02:47+00:00",
+  "updatedAt": "2026-10-13T04:07:08+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-13T01:06:58+00:00",
   "error": null,
   "sourceUrl": "https://datalab.naver.com/shoppingInsight/sCategory.naver",
-  "nextRunAt": "2026-10-13T04:07:08+00:00",
+  "nextRunAt": "2026-10-13T05:07:08+00:00",
   "intervalSeconds": 3600,
   "sourceCadence": "daily",
   "comparisonDays": 7,
@@ -44,19 +44,19 @@
     "dailyUsed": 31,
     "dailyRemaining": 257,
     "pending": 0,
-    "nextDispatchAt": "2026-10-13T04:06:54+00:00",
+    "nextDispatchAt": "2026-10-13T04:11:05+00:00",
     "metaAutoEnabled": true,
-    "enabled": true,
+    "enabled": false,
     "collectionGuard": {
-      "state": "ready",
-      "reason": null,
-      "nextAllowedAt": null,
+      "state": "failure",
+      "reason": "Meta 조회 오류 · 5분 대기 후 다음 작업 확인",
+      "nextAllowedAt": "2026-10-13T04:11:05+00:00",
       "blockedUntil": null,
       "blockStreak": 0,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": null
+    "pausedReason": "Meta 조회 오류 · 5분 대기 후 다음 작업 확인"
   },
   "settings": {
     "category": "50000023",
