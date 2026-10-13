@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-13T08:17:39+00:00",
+  "updatedAt": "2026-10-13T08:21:49+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-13T01:06:58+00:00",
@@ -41,22 +41,22 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 50,
-    "dailyRemaining": 238,
+    "dailyUsed": 51,
+    "dailyRemaining": 237,
     "pending": 0,
-    "nextDispatchAt": "2026-10-13T08:21:39+00:00",
+    "nextDispatchAt": "2026-10-13T09:21:49+00:00",
     "metaAutoEnabled": true,
-    "enabled": true,
+    "enabled": false,
     "collectionGuard": {
-      "state": "ready",
-      "reason": null,
-      "nextAllowedAt": null,
-      "blockedUntil": null,
-      "blockStreak": 0,
+      "state": "blocked",
+      "reason": "Meta 접근 제한 · 다음 자동 시도까지 대기",
+      "nextAllowedAt": "2026-10-13T09:21:49+00:00",
+      "blockedUntil": "2026-10-13T09:21:49+00:00",
+      "blockStreak": 1,
       "storageReady": true,
       "minimumFreeBytes": 5368709120
     },
-    "pausedReason": null
+    "pausedReason": "Meta 접근 제한 · 다음 자동 시도까지 대기"
   },
   "settings": {
     "category": "50000023",
@@ -11581,7 +11581,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "failed",
       "keywordId": "4aeccf4707e4160cd1bd93275ba1d6948e387a761885d97381a8d05f48a0668c",
       "searchQuery": "wpi프로틴",
       "adEvidence": {
@@ -17389,7 +17389,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:58+00:00",
       "lastObservedAt": "2026-10-13T01:06:58+00:00",
-      "state": "ready",
+      "state": "failed",
       "keywordId": "4aeccf4707e4160cd1bd93275ba1d6948e387a761885d97381a8d05f48a0668c",
       "searchQuery": "wpi프로틴",
       "adEvidence": {
