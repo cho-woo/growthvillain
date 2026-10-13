@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-13T06:49:46+00:00",
+  "updatedAt": "2026-10-13T06:51:41+00:00",
   "autoEnabled": true,
   "scanning": false,
   "lastChecked": "2026-10-13T01:06:58+00:00",
@@ -41,8 +41,8 @@
     "keywordCooldownSeconds": 86400,
     "priority": "uncollected-first-oldest-first",
     "backlogDays": 14,
-    "dailyUsed": 38,
-    "dailyRemaining": 250,
+    "dailyUsed": 39,
+    "dailyRemaining": 249,
     "pending": 1,
     "nextDispatchAt": null,
     "metaAutoEnabled": true,
@@ -5941,85 +5941,353 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "queued",
+      "state": "done",
       "keywordId": "7478199ee3e9cb574beebef253e0dabb6cd87b9b2daced39c97b8c1a7861c34c",
       "searchQuery": "포스파티딜세린",
       "adEvidence": {
         "query": "포스파티딜세린",
         "matchType": "collected-with-query",
-        "adCount": 61,
+        "adCount": 86,
         "adIds": [
+          "978812378602328",
+          "2167582533966018",
+          "1781460456522480",
+          "1551486553412131",
+          "1446905924069492",
+          "1095389253084564",
+          "1863895651262003",
+          "1085330977435100",
+          "1080178141673070",
+          "1062185600152202",
+          "3015891488802824",
+          "1672819437596576",
+          "1060284677035329",
+          "3847591712057655",
+          "1848171559696684",
+          "1132045486147384",
+          "1100324309246898",
+          "2904653439867504",
+          "2868811913496678",
           "2236497980255509",
-          "934059429781542",
-          "1422138635912008",
-          "1097796602967592",
-          "1811454536568486",
-          "1807738797115230",
+          "1755026428885139",
+          "1118305144183740",
           "1417514203888925",
+          "1869814570678503",
+          "40216427001289651",
+          "1868122407491483",
+          "1646877130361164",
+          "1587310562731876",
+          "934059429781542",
+          "1827474868421922",
+          "1630193045298370",
+          "1422138635912008",
+          "1811454536568486",
+          "4532375287041850",
+          "1967751130586855",
+          "1118939810659727",
+          "4654017414829413",
+          "2575831559586687",
+          "1619746882893580",
+          "785093754692104",
+          "2355347321872159",
+          "1083979101109260",
+          "2186462498917500",
+          "1068706495979121",
+          "1739530823934589",
+          "1652310056456788",
+          "1613784953741641",
+          "1708461237044846",
+          "1563306729163635",
+          "1088651646879650",
+          "2173984703186822",
+          "1737629660836347",
+          "1483240626881235",
+          "4499581893704392",
+          "1044758795065287",
+          "982200517857490",
+          "975877435068271",
+          "2207854309771714",
+          "1575105537569689",
+          "1242704301128191",
+          "1488351379436907",
+          "1105403675215306",
+          "1055934593696061",
+          "1097796602967592",
+          "1807738797115230",
           "1673357984453041",
           "1534104705418877",
           "1419910213668536",
           "1139504725309637",
           "3315042158885544",
-          "1869814570678503",
-          "1630193045298370",
           "1605397577703340",
           "1137470785622994",
-          "1068706495979121",
           "28673787248919294",
-          "1646877130361164",
           "1585636279974741",
           "1144201314933320",
-          "1967751130586855",
-          "1587310562731876",
-          "1083979101109260",
-          "1827474868421922",
           "1754999295710239",
-          "1118939810659727",
-          "4654017414829413",
-          "4532375287041850",
-          "1619746882893580",
-          "1613784953741641",
-          "2575831559586687",
-          "2186462498917500",
           "1464817085541113",
-          "785093754692104",
-          "2355347321872159",
           "2184213725836839",
           "1915778092919043",
           "1904801040250094",
           "1662108788814194",
           "1359277102986988",
-          "2173984703186822",
-          "1739530823934589",
-          "1563306729163635",
           "1740713363883703",
-          "1483240626881235",
-          "1088651646879650",
-          "2207854309771714",
           "1752480952617504",
-          "1737629660836347",
-          "1044758795065287",
-          "4499581893704392",
           "2112049346099696",
-          "1242704301128191",
-          "982200517857490",
-          "975877435068271",
-          "1575105537569689",
-          "1278731794324297",
-          "1105403675215306",
-          "1488351379436907",
-          "1055934593696061"
+          "1278731794324297"
         ],
         "ads": [
+          {
+            "id": "978812378602328",
+            "advertiser": "판티오",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:51:10+00:00",
+            "lastCollectedAt": "2026-10-13T06:51:10+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2167582533966018",
+            "advertiser": "판티오",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:51:10+00:00",
+            "lastCollectedAt": "2026-10-13T06:51:10+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1781460456522480",
+            "advertiser": "위바이옴",
+            "startedAt": "2026-10-11",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:51:10+00:00",
+            "lastCollectedAt": "2026-10-13T06:51:10+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1551486553412131",
+            "advertiser": "판티오",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:55+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:55+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1446905924069492",
+            "advertiser": "갓생루틴 저장소",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:55+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:55+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1095389253084564",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-10-11",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:55+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:55+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1863895651262003",
+            "advertiser": "알고먹는 건강정보",
+            "startedAt": "2026-10-11",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:54+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1085330977435100",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:54+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1080178141673070",
+            "advertiser": "없음",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:54+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1062185600152202",
+            "advertiser": "갓생루틴 저장소",
+            "startedAt": "2026-10-11",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:54+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "3015891488802824",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:53+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:53+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1672819437596576",
+            "advertiser": "위바이옴",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:52+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:52+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1060284677035329",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-10-11",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:52+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:52+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "3847591712057655",
+            "advertiser": "위바이옴",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:44+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:44+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1848171559696684",
+            "advertiser": "위바이옴",
+            "startedAt": "2026-10-11",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:44+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:44+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1132045486147384",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:44+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:44+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1100324309246898",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:44+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:44+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2904653439867504",
+            "advertiser": "위바이옴",
+            "startedAt": "2026-10-11",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:43+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2868811913496678",
+            "advertiser": "에스더포뮬러",
+            "startedAt": "2026-10-11",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:43+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:43+00:00",
+            "startTiming": "during-window"
+          },
           {
             "id": "2236497980255509",
             "advertiser": "Dr.mainu",
             "startedAt": "2026-10-07",
             "query": "포스파티딜세린",
             "firstCollectedAt": "2026-10-08T20:35:40+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:40+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:42+00:00",
             "startTiming": "during-window"
+          },
+          {
+            "id": "1755026428885139",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:42+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:42+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1118305144183740",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-10-11",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:42+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:42+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1417514203888925",
+            "advertiser": "Dr.mainu",
+            "startedAt": "2026-10-07",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:26+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:41+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1869814570678503",
+            "advertiser": "Pilleday",
+            "startedAt": "2026-10-06",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:15+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:35+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "40216427001289651",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:34+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:34+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1868122407491483",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:34+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:34+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1646877130361164",
+            "advertiser": "Pilleday",
+            "startedAt": "2026-10-06",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:14+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:34+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1587310562731876",
+            "advertiser": "멍스타그램",
+            "startedAt": "2025-12-16",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:07+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:34+00:00",
+            "startTiming": "before-window"
           },
           {
             "id": "934059429781542",
@@ -6027,7 +6295,25 @@
             "startedAt": "2026-10-07",
             "query": "포스파티딜세린",
             "firstCollectedAt": "2026-10-08T20:35:27+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:27+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:33+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1827474868421922",
+            "advertiser": "에스더포뮬러",
+            "startedAt": "2026-09-14",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:06+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1630193045298370",
+            "advertiser": "필요약",
+            "startedAt": "2026-10-06",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:15+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:33+00:00",
             "startTiming": "during-window"
           },
           {
@@ -6036,8 +6322,287 @@
             "startedAt": "2026-10-07",
             "query": "포스파티딜세린",
             "firstCollectedAt": "2026-10-08T20:35:27+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:27+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:33+00:00",
             "startTiming": "during-window"
+          },
+          {
+            "id": "1811454536568486",
+            "advertiser": "Dr.mainu",
+            "startedAt": "2026-10-07",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:26+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:32+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4532375287041850",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-27",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:05+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1967751130586855",
+            "advertiser": "NewOrigin 뉴오리진",
+            "startedAt": "2026-09-29",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:07+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1118939810659727",
+            "advertiser": "NewOrigin 뉴오리진",
+            "startedAt": "2026-09-29",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:06+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4654017414829413",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-09-10",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:05+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2575831559586687",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-27",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:58+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1619746882893580",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-01",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:05+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "785093754692104",
+            "advertiser": "건강 꿀팁 페이지",
+            "startedAt": "2026-08-04",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:57+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2355347321872159",
+            "advertiser": "라이펫 Lifet",
+            "startedAt": "2026-09-22",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:57+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1083979101109260",
+            "advertiser": "집중력강화연구소",
+            "startedAt": "2026-10-06",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:07+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:24+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2186462498917500",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-01",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:58+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1068706495979121",
+            "advertiser": "GC 녹십자웰빙",
+            "startedAt": "2026-10-07",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:15+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:19+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1739530823934589",
+            "advertiser": "Thailoveshop",
+            "startedAt": "2026-09-03",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:51+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1652310056456788",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-09-13",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:18+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1613784953741641",
+            "advertiser": "집중력강화연구소",
+            "startedAt": "2026-10-06",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:05+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:18+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1708461237044846",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-14",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:02+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1563306729163635",
+            "advertiser": "건강꿀팁",
+            "startedAt": "2026-08-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:36+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1088651646879650",
+            "advertiser": "에스더포뮬러",
+            "startedAt": "2026-09-14",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:34+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2173984703186822",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-01",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:51+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1737629660836347",
+            "advertiser": "그로우랩",
+            "startedAt": "2026-09-09",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:33+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1483240626881235",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:34+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4499581893704392",
+            "advertiser": "건강꿀팁",
+            "startedAt": "2026-08-14",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:28+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1044758795065287",
+            "advertiser": "에스더포뮬러",
+            "startedAt": "2026-09-14",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:32+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "982200517857490",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-28",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:25+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "975877435068271",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-06-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:25+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2207854309771714",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-30",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:33+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1575105537569689",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-06-03",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:25+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1242704301128191",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-06-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:26+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1488351379436907",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:24+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1105403675215306",
+            "advertiser": "동국제약 토탈헬스케어",
+            "startedAt": "2026-09-30",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:25+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1055934593696061",
+            "advertiser": "필요약",
+            "startedAt": "2026-08-23",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:24+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:51+00:00",
+            "startTiming": "before-window"
           },
           {
             "id": "1097796602967592",
@@ -6049,27 +6614,9 @@
             "startTiming": "during-window"
           },
           {
-            "id": "1811454536568486",
-            "advertiser": "Dr.mainu",
-            "startedAt": "2026-10-07",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:26+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:26+00:00",
-            "startTiming": "during-window"
-          },
-          {
             "id": "1807738797115230",
             "advertiser": "판티오",
             "startedAt": "2026-10-08",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:26+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:26+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1417514203888925",
-            "advertiser": "Dr.mainu",
-            "startedAt": "2026-10-07",
             "query": "포스파티딜세린",
             "firstCollectedAt": "2026-10-08T20:35:26+00:00",
             "lastCollectedAt": "2026-10-08T20:35:26+00:00",
@@ -6121,24 +6668,6 @@
             "startTiming": "during-window"
           },
           {
-            "id": "1869814570678503",
-            "advertiser": "Pilleday",
-            "startedAt": "2026-10-06",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:15+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:15+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1630193045298370",
-            "advertiser": "필요약",
-            "startedAt": "2026-10-06",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:15+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:15+00:00",
-            "startTiming": "during-window"
-          },
-          {
             "id": "1605397577703340",
             "advertiser": "갓생루틴 저장소",
             "startedAt": "2026-10-08",
@@ -6157,25 +6686,7 @@
             "startTiming": "before-window"
           },
           {
-            "id": "1068706495979121",
-            "advertiser": "GC 녹십자웰빙",
-            "startedAt": "2026-10-07",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:15+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:15+00:00",
-            "startTiming": "during-window"
-          },
-          {
             "id": "28673787248919294",
-            "advertiser": "Pilleday",
-            "startedAt": "2026-10-06",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:14+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:14+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1646877130361164",
             "advertiser": "Pilleday",
             "startedAt": "2026-10-06",
             "query": "포스파티딜세린",
@@ -6202,42 +6713,6 @@
             "startTiming": "during-window"
           },
           {
-            "id": "1967751130586855",
-            "advertiser": "NewOrigin 뉴오리진",
-            "startedAt": "2026-09-29",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:07+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:07+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1587310562731876",
-            "advertiser": "멍스타그램",
-            "startedAt": "2025-12-16",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:07+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:07+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1083979101109260",
-            "advertiser": "집중력강화연구소",
-            "startedAt": "2026-10-06",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:07+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:07+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1827474868421922",
-            "advertiser": "에스더포뮬러",
-            "startedAt": "2026-09-14",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:06+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:06+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "1754999295710239",
             "advertiser": "종근당",
             "startedAt": "2026-09-22",
@@ -6247,93 +6722,12 @@
             "startTiming": "before-window"
           },
           {
-            "id": "1118939810659727",
-            "advertiser": "NewOrigin 뉴오리진",
-            "startedAt": "2026-09-29",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:06+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:06+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "4654017414829413",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-09-10",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:05+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:05+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "4532375287041850",
-            "advertiser": "종근당",
-            "startedAt": "2026-09-27",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:05+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:05+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1619746882893580",
-            "advertiser": "종근당",
-            "startedAt": "2026-10-01",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:05+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:05+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1613784953741641",
-            "advertiser": "집중력강화연구소",
-            "startedAt": "2026-10-06",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:05+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:05+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "2575831559586687",
-            "advertiser": "종근당",
-            "startedAt": "2026-09-27",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:58+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:58+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2186462498917500",
-            "advertiser": "종근당",
-            "startedAt": "2026-10-01",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:58+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:58+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "1464817085541113",
             "advertiser": "종근당",
             "startedAt": "2026-10-04",
             "query": "포스파티딜세린",
             "firstCollectedAt": "2026-10-08T20:34:58+00:00",
             "lastCollectedAt": "2026-10-08T20:34:58+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "785093754692104",
-            "advertiser": "건강 꿀팁 페이지",
-            "startedAt": "2026-08-04",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:57+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:57+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2355347321872159",
-            "advertiser": "라이펫 Lifet",
-            "startedAt": "2026-09-22",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:57+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:57+00:00",
             "startTiming": "before-window"
           },
           {
@@ -6382,66 +6776,12 @@
             "startTiming": "before-window"
           },
           {
-            "id": "2173984703186822",
-            "advertiser": "종근당",
-            "startedAt": "2026-10-01",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:51+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:51+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1739530823934589",
-            "advertiser": "Thailoveshop",
-            "startedAt": "2026-09-03",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:51+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:51+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1563306729163635",
-            "advertiser": "건강꿀팁",
-            "startedAt": "2026-08-12",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:36+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:36+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "1740713363883703",
             "advertiser": "종근당",
             "startedAt": "2026-10-01",
             "query": "포스파티딜세린",
             "firstCollectedAt": "2026-10-08T20:34:34+00:00",
             "lastCollectedAt": "2026-10-08T20:34:34+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1483240626881235",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:34+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:34+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1088651646879650",
-            "advertiser": "에스더포뮬러",
-            "startedAt": "2026-09-14",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:34+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:34+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2207854309771714",
-            "advertiser": "종근당",
-            "startedAt": "2026-09-30",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:33+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:33+00:00",
             "startTiming": "before-window"
           },
           {
@@ -6454,75 +6794,12 @@
             "startTiming": "before-window"
           },
           {
-            "id": "1737629660836347",
-            "advertiser": "그로우랩",
-            "startedAt": "2026-09-09",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:33+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:33+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1044758795065287",
-            "advertiser": "에스더포뮬러",
-            "startedAt": "2026-09-14",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:32+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:32+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "4499581893704392",
-            "advertiser": "건강꿀팁",
-            "startedAt": "2026-08-14",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:28+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:28+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "2112049346099696",
             "advertiser": "에스더포뮬러",
             "startedAt": "2026-09-14",
             "query": "포스파티딜세린",
             "firstCollectedAt": "2026-10-08T20:34:26+00:00",
             "lastCollectedAt": "2026-10-08T20:34:26+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1242704301128191",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-06-12",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:26+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:26+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "982200517857490",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-28",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:25+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:25+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "975877435068271",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-06-12",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:25+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:25+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1575105537569689",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-06-03",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:25+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:25+00:00",
             "startTiming": "before-window"
           },
           {
@@ -6533,47 +6810,32 @@
             "firstCollectedAt": "2026-10-08T20:34:25+00:00",
             "lastCollectedAt": "2026-10-08T20:34:25+00:00",
             "startTiming": "before-window"
-          },
-          {
-            "id": "1105403675215306",
-            "advertiser": "동국제약 토탈헬스케어",
-            "startedAt": "2026-09-30",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:25+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:25+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1488351379436907",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:24+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:24+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1055934593696061",
-            "advertiser": "필요약",
-            "startedAt": "2026-08-23",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:24+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:24+00:00",
-            "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-08T20:35:40+00:00",
+        "lastCollectedAt": "2026-10-13T06:51:10+00:00",
         "advertisers": [
           {
             "name": "종근당",
-            "adCount": 17
+            "adCount": 24
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 7
+          },
+          {
+            "name": "위바이옴",
+            "adCount": 7
+          },
+          {
+            "name": "판티오",
+            "adCount": 6
           },
           {
             "name": "Dr.mainu",
             "adCount": 5
           },
           {
-            "name": "Naverplus.store",
+            "name": "에스더포뮬러",
             "adCount": 5
           },
           {
@@ -6581,11 +6843,11 @@
             "adCount": 4
           },
           {
-            "name": "에스더포뮬러",
+            "name": "갓생루틴 저장소",
             "adCount": 4
           },
           {
-            "name": "판티오",
+            "name": "얼라이브 ALIVE",
             "adCount": 3
           },
           {
@@ -6597,15 +6859,11 @@
             "adCount": 2
           },
           {
-            "name": "갓생루틴 저장소",
-            "adCount": 2
-          },
-          {
             "name": "건강꿀팁",
             "adCount": 2
           },
           {
-            "name": "위바이옴",
+            "name": "알고먹는 건강정보",
             "adCount": 2
           },
           {
@@ -6645,7 +6903,7 @@
             "adCount": 1
           },
           {
-            "name": "알고먹는 건강정보",
+            "name": "없음",
             "adCount": 1
           }
         ],
@@ -13247,7 +13505,7 @@
       "needsReview": false,
       "periodDays": 7,
       "rankWindow": 100,
-      "state": "ready",
+      "state": "queued",
       "keywordId": "d4a4eaed75e38796ebe581811b4cb34bb3d4eb214e985cfb2e85ad4e91558802",
       "searchQuery": "식이섬유",
       "adEvidence": {
@@ -16430,7 +16688,7 @@
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:58+00:00",
       "lastObservedAt": "2026-10-13T01:06:58+00:00",
-      "state": "ready",
+      "state": "queued",
       "keywordId": "d4a4eaed75e38796ebe581811b4cb34bb3d4eb214e985cfb2e85ad4e91558802",
       "searchQuery": "식이섬유",
       "adEvidence": {
@@ -27618,85 +27876,353 @@
       "rankWindow": 100,
       "observedAt": "2026-10-13T01:06:25+00:00",
       "lastObservedAt": "2026-10-13T01:06:25+00:00",
-      "state": "queued",
+      "state": "done",
       "keywordId": "7478199ee3e9cb574beebef253e0dabb6cd87b9b2daced39c97b8c1a7861c34c",
       "searchQuery": "포스파티딜세린",
       "adEvidence": {
         "query": "포스파티딜세린",
         "matchType": "collected-with-query",
-        "adCount": 61,
+        "adCount": 86,
         "adIds": [
+          "978812378602328",
+          "2167582533966018",
+          "1781460456522480",
+          "1551486553412131",
+          "1446905924069492",
+          "1095389253084564",
+          "1863895651262003",
+          "1085330977435100",
+          "1080178141673070",
+          "1062185600152202",
+          "3015891488802824",
+          "1672819437596576",
+          "1060284677035329",
+          "3847591712057655",
+          "1848171559696684",
+          "1132045486147384",
+          "1100324309246898",
+          "2904653439867504",
+          "2868811913496678",
           "2236497980255509",
-          "934059429781542",
-          "1422138635912008",
-          "1097796602967592",
-          "1811454536568486",
-          "1807738797115230",
+          "1755026428885139",
+          "1118305144183740",
           "1417514203888925",
+          "1869814570678503",
+          "40216427001289651",
+          "1868122407491483",
+          "1646877130361164",
+          "1587310562731876",
+          "934059429781542",
+          "1827474868421922",
+          "1630193045298370",
+          "1422138635912008",
+          "1811454536568486",
+          "4532375287041850",
+          "1967751130586855",
+          "1118939810659727",
+          "4654017414829413",
+          "2575831559586687",
+          "1619746882893580",
+          "785093754692104",
+          "2355347321872159",
+          "1083979101109260",
+          "2186462498917500",
+          "1068706495979121",
+          "1739530823934589",
+          "1652310056456788",
+          "1613784953741641",
+          "1708461237044846",
+          "1563306729163635",
+          "1088651646879650",
+          "2173984703186822",
+          "1737629660836347",
+          "1483240626881235",
+          "4499581893704392",
+          "1044758795065287",
+          "982200517857490",
+          "975877435068271",
+          "2207854309771714",
+          "1575105537569689",
+          "1242704301128191",
+          "1488351379436907",
+          "1105403675215306",
+          "1055934593696061",
+          "1097796602967592",
+          "1807738797115230",
           "1673357984453041",
           "1534104705418877",
           "1419910213668536",
           "1139504725309637",
           "3315042158885544",
-          "1869814570678503",
-          "1630193045298370",
           "1605397577703340",
           "1137470785622994",
-          "1068706495979121",
           "28673787248919294",
-          "1646877130361164",
           "1585636279974741",
           "1144201314933320",
-          "1967751130586855",
-          "1587310562731876",
-          "1083979101109260",
-          "1827474868421922",
           "1754999295710239",
-          "1118939810659727",
-          "4654017414829413",
-          "4532375287041850",
-          "1619746882893580",
-          "1613784953741641",
-          "2575831559586687",
-          "2186462498917500",
           "1464817085541113",
-          "785093754692104",
-          "2355347321872159",
           "2184213725836839",
           "1915778092919043",
           "1904801040250094",
           "1662108788814194",
           "1359277102986988",
-          "2173984703186822",
-          "1739530823934589",
-          "1563306729163635",
           "1740713363883703",
-          "1483240626881235",
-          "1088651646879650",
-          "2207854309771714",
           "1752480952617504",
-          "1737629660836347",
-          "1044758795065287",
-          "4499581893704392",
           "2112049346099696",
-          "1242704301128191",
-          "982200517857490",
-          "975877435068271",
-          "1575105537569689",
-          "1278731794324297",
-          "1105403675215306",
-          "1488351379436907",
-          "1055934593696061"
+          "1278731794324297"
         ],
         "ads": [
+          {
+            "id": "978812378602328",
+            "advertiser": "판티오",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:51:10+00:00",
+            "lastCollectedAt": "2026-10-13T06:51:10+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2167582533966018",
+            "advertiser": "판티오",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:51:10+00:00",
+            "lastCollectedAt": "2026-10-13T06:51:10+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1781460456522480",
+            "advertiser": "위바이옴",
+            "startedAt": "2026-10-11",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:51:10+00:00",
+            "lastCollectedAt": "2026-10-13T06:51:10+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1551486553412131",
+            "advertiser": "판티오",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:55+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:55+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1446905924069492",
+            "advertiser": "갓생루틴 저장소",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:55+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:55+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1095389253084564",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-10-11",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:55+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:55+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1863895651262003",
+            "advertiser": "알고먹는 건강정보",
+            "startedAt": "2026-10-11",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:54+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1085330977435100",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:54+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1080178141673070",
+            "advertiser": "없음",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:54+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1062185600152202",
+            "advertiser": "갓생루틴 저장소",
+            "startedAt": "2026-10-11",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:54+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:54+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "3015891488802824",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:53+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:53+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1672819437596576",
+            "advertiser": "위바이옴",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:52+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:52+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1060284677035329",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-10-11",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:52+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:52+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "3847591712057655",
+            "advertiser": "위바이옴",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:44+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:44+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1848171559696684",
+            "advertiser": "위바이옴",
+            "startedAt": "2026-10-11",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:44+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:44+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1132045486147384",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:44+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:44+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1100324309246898",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:44+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:44+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2904653439867504",
+            "advertiser": "위바이옴",
+            "startedAt": "2026-10-11",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:43+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:43+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2868811913496678",
+            "advertiser": "에스더포뮬러",
+            "startedAt": "2026-10-11",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:43+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:43+00:00",
+            "startTiming": "during-window"
+          },
           {
             "id": "2236497980255509",
             "advertiser": "Dr.mainu",
             "startedAt": "2026-10-07",
             "query": "포스파티딜세린",
             "firstCollectedAt": "2026-10-08T20:35:40+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:40+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:42+00:00",
             "startTiming": "during-window"
+          },
+          {
+            "id": "1755026428885139",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:42+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:42+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1118305144183740",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-10-11",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:42+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:42+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1417514203888925",
+            "advertiser": "Dr.mainu",
+            "startedAt": "2026-10-07",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:26+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:41+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1869814570678503",
+            "advertiser": "Pilleday",
+            "startedAt": "2026-10-06",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:15+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:35+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "40216427001289651",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:34+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:34+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1868122407491483",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:34+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:34+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1646877130361164",
+            "advertiser": "Pilleday",
+            "startedAt": "2026-10-06",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:14+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:34+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1587310562731876",
+            "advertiser": "멍스타그램",
+            "startedAt": "2025-12-16",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:07+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:34+00:00",
+            "startTiming": "before-window"
           },
           {
             "id": "934059429781542",
@@ -27704,7 +28230,25 @@
             "startedAt": "2026-10-07",
             "query": "포스파티딜세린",
             "firstCollectedAt": "2026-10-08T20:35:27+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:27+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:33+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1827474868421922",
+            "advertiser": "에스더포뮬러",
+            "startedAt": "2026-09-14",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:06+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1630193045298370",
+            "advertiser": "필요약",
+            "startedAt": "2026-10-06",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:15+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:33+00:00",
             "startTiming": "during-window"
           },
           {
@@ -27713,8 +28257,287 @@
             "startedAt": "2026-10-07",
             "query": "포스파티딜세린",
             "firstCollectedAt": "2026-10-08T20:35:27+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:27+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:33+00:00",
             "startTiming": "during-window"
+          },
+          {
+            "id": "1811454536568486",
+            "advertiser": "Dr.mainu",
+            "startedAt": "2026-10-07",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:26+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:32+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4532375287041850",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-27",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:05+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1967751130586855",
+            "advertiser": "NewOrigin 뉴오리진",
+            "startedAt": "2026-09-29",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:07+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1118939810659727",
+            "advertiser": "NewOrigin 뉴오리진",
+            "startedAt": "2026-09-29",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:06+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4654017414829413",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-09-10",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:05+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2575831559586687",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-27",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:58+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1619746882893580",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-01",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:05+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "785093754692104",
+            "advertiser": "건강 꿀팁 페이지",
+            "startedAt": "2026-08-04",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:57+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2355347321872159",
+            "advertiser": "라이펫 Lifet",
+            "startedAt": "2026-09-22",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:57+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1083979101109260",
+            "advertiser": "집중력강화연구소",
+            "startedAt": "2026-10-06",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:07+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:24+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2186462498917500",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-01",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:58+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:23+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1068706495979121",
+            "advertiser": "GC 녹십자웰빙",
+            "startedAt": "2026-10-07",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:15+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:19+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1739530823934589",
+            "advertiser": "Thailoveshop",
+            "startedAt": "2026-09-03",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:51+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1652310056456788",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-09-13",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:18+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1613784953741641",
+            "advertiser": "집중력강화연구소",
+            "startedAt": "2026-10-06",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:05+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:18+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1708461237044846",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-14",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:02+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1563306729163635",
+            "advertiser": "건강꿀팁",
+            "startedAt": "2026-08-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:36+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1088651646879650",
+            "advertiser": "에스더포뮬러",
+            "startedAt": "2026-09-14",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:34+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2173984703186822",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-01",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:51+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1737629660836347",
+            "advertiser": "그로우랩",
+            "startedAt": "2026-09-09",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:33+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1483240626881235",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:34+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4499581893704392",
+            "advertiser": "건강꿀팁",
+            "startedAt": "2026-08-14",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:28+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1044758795065287",
+            "advertiser": "에스더포뮬러",
+            "startedAt": "2026-09-14",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:32+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "982200517857490",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-28",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:25+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "975877435068271",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-06-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:25+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2207854309771714",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-30",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:33+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1575105537569689",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-06-03",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:25+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1242704301128191",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-06-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:26+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1488351379436907",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:24+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1105403675215306",
+            "advertiser": "동국제약 토탈헬스케어",
+            "startedAt": "2026-09-30",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:25+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1055934593696061",
+            "advertiser": "필요약",
+            "startedAt": "2026-08-23",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:24+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:51+00:00",
+            "startTiming": "before-window"
           },
           {
             "id": "1097796602967592",
@@ -27726,27 +28549,9 @@
             "startTiming": "during-window"
           },
           {
-            "id": "1811454536568486",
-            "advertiser": "Dr.mainu",
-            "startedAt": "2026-10-07",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:26+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:26+00:00",
-            "startTiming": "during-window"
-          },
-          {
             "id": "1807738797115230",
             "advertiser": "판티오",
             "startedAt": "2026-10-08",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:26+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:26+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1417514203888925",
-            "advertiser": "Dr.mainu",
-            "startedAt": "2026-10-07",
             "query": "포스파티딜세린",
             "firstCollectedAt": "2026-10-08T20:35:26+00:00",
             "lastCollectedAt": "2026-10-08T20:35:26+00:00",
@@ -27798,24 +28603,6 @@
             "startTiming": "during-window"
           },
           {
-            "id": "1869814570678503",
-            "advertiser": "Pilleday",
-            "startedAt": "2026-10-06",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:15+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:15+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1630193045298370",
-            "advertiser": "필요약",
-            "startedAt": "2026-10-06",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:15+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:15+00:00",
-            "startTiming": "during-window"
-          },
-          {
             "id": "1605397577703340",
             "advertiser": "갓생루틴 저장소",
             "startedAt": "2026-10-08",
@@ -27834,25 +28621,7 @@
             "startTiming": "before-window"
           },
           {
-            "id": "1068706495979121",
-            "advertiser": "GC 녹십자웰빙",
-            "startedAt": "2026-10-07",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:15+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:15+00:00",
-            "startTiming": "during-window"
-          },
-          {
             "id": "28673787248919294",
-            "advertiser": "Pilleday",
-            "startedAt": "2026-10-06",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:14+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:14+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1646877130361164",
             "advertiser": "Pilleday",
             "startedAt": "2026-10-06",
             "query": "포스파티딜세린",
@@ -27879,42 +28648,6 @@
             "startTiming": "during-window"
           },
           {
-            "id": "1967751130586855",
-            "advertiser": "NewOrigin 뉴오리진",
-            "startedAt": "2026-09-29",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:07+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:07+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1587310562731876",
-            "advertiser": "멍스타그램",
-            "startedAt": "2025-12-16",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:07+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:07+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1083979101109260",
-            "advertiser": "집중력강화연구소",
-            "startedAt": "2026-10-06",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:07+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:07+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1827474868421922",
-            "advertiser": "에스더포뮬러",
-            "startedAt": "2026-09-14",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:06+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:06+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "1754999295710239",
             "advertiser": "종근당",
             "startedAt": "2026-09-22",
@@ -27924,93 +28657,12 @@
             "startTiming": "before-window"
           },
           {
-            "id": "1118939810659727",
-            "advertiser": "NewOrigin 뉴오리진",
-            "startedAt": "2026-09-29",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:06+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:06+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "4654017414829413",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-09-10",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:05+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:05+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "4532375287041850",
-            "advertiser": "종근당",
-            "startedAt": "2026-09-27",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:05+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:05+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1619746882893580",
-            "advertiser": "종근당",
-            "startedAt": "2026-10-01",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:05+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:05+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1613784953741641",
-            "advertiser": "집중력강화연구소",
-            "startedAt": "2026-10-06",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:05+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:05+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "2575831559586687",
-            "advertiser": "종근당",
-            "startedAt": "2026-09-27",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:58+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:58+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2186462498917500",
-            "advertiser": "종근당",
-            "startedAt": "2026-10-01",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:58+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:58+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "1464817085541113",
             "advertiser": "종근당",
             "startedAt": "2026-10-04",
             "query": "포스파티딜세린",
             "firstCollectedAt": "2026-10-08T20:34:58+00:00",
             "lastCollectedAt": "2026-10-08T20:34:58+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "785093754692104",
-            "advertiser": "건강 꿀팁 페이지",
-            "startedAt": "2026-08-04",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:57+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:57+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2355347321872159",
-            "advertiser": "라이펫 Lifet",
-            "startedAt": "2026-09-22",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:57+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:57+00:00",
             "startTiming": "before-window"
           },
           {
@@ -28059,66 +28711,12 @@
             "startTiming": "before-window"
           },
           {
-            "id": "2173984703186822",
-            "advertiser": "종근당",
-            "startedAt": "2026-10-01",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:51+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:51+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1739530823934589",
-            "advertiser": "Thailoveshop",
-            "startedAt": "2026-09-03",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:51+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:51+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1563306729163635",
-            "advertiser": "건강꿀팁",
-            "startedAt": "2026-08-12",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:36+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:36+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "1740713363883703",
             "advertiser": "종근당",
             "startedAt": "2026-10-01",
             "query": "포스파티딜세린",
             "firstCollectedAt": "2026-10-08T20:34:34+00:00",
             "lastCollectedAt": "2026-10-08T20:34:34+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1483240626881235",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:34+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:34+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1088651646879650",
-            "advertiser": "에스더포뮬러",
-            "startedAt": "2026-09-14",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:34+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:34+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2207854309771714",
-            "advertiser": "종근당",
-            "startedAt": "2026-09-30",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:33+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:33+00:00",
             "startTiming": "before-window"
           },
           {
@@ -28131,75 +28729,12 @@
             "startTiming": "before-window"
           },
           {
-            "id": "1737629660836347",
-            "advertiser": "그로우랩",
-            "startedAt": "2026-09-09",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:33+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:33+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1044758795065287",
-            "advertiser": "에스더포뮬러",
-            "startedAt": "2026-09-14",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:32+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:32+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "4499581893704392",
-            "advertiser": "건강꿀팁",
-            "startedAt": "2026-08-14",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:28+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:28+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "2112049346099696",
             "advertiser": "에스더포뮬러",
             "startedAt": "2026-09-14",
             "query": "포스파티딜세린",
             "firstCollectedAt": "2026-10-08T20:34:26+00:00",
             "lastCollectedAt": "2026-10-08T20:34:26+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1242704301128191",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-06-12",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:26+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:26+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "982200517857490",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-28",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:25+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:25+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "975877435068271",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-06-12",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:25+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:25+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1575105537569689",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-06-03",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:25+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:25+00:00",
             "startTiming": "before-window"
           },
           {
@@ -28210,47 +28745,32 @@
             "firstCollectedAt": "2026-10-08T20:34:25+00:00",
             "lastCollectedAt": "2026-10-08T20:34:25+00:00",
             "startTiming": "before-window"
-          },
-          {
-            "id": "1105403675215306",
-            "advertiser": "동국제약 토탈헬스케어",
-            "startedAt": "2026-09-30",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:25+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:25+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1488351379436907",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:24+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:24+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1055934593696061",
-            "advertiser": "필요약",
-            "startedAt": "2026-08-23",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:24+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:24+00:00",
-            "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-08T20:35:40+00:00",
+        "lastCollectedAt": "2026-10-13T06:51:10+00:00",
         "advertisers": [
           {
             "name": "종근당",
-            "adCount": 17
+            "adCount": 24
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 7
+          },
+          {
+            "name": "위바이옴",
+            "adCount": 7
+          },
+          {
+            "name": "판티오",
+            "adCount": 6
           },
           {
             "name": "Dr.mainu",
             "adCount": 5
           },
           {
-            "name": "Naverplus.store",
+            "name": "에스더포뮬러",
             "adCount": 5
           },
           {
@@ -28258,11 +28778,11 @@
             "adCount": 4
           },
           {
-            "name": "에스더포뮬러",
+            "name": "갓생루틴 저장소",
             "adCount": 4
           },
           {
-            "name": "판티오",
+            "name": "얼라이브 ALIVE",
             "adCount": 3
           },
           {
@@ -28274,15 +28794,11 @@
             "adCount": 2
           },
           {
-            "name": "갓생루틴 저장소",
-            "adCount": 2
-          },
-          {
             "name": "건강꿀팁",
             "adCount": 2
           },
           {
-            "name": "위바이옴",
+            "name": "알고먹는 건강정보",
             "adCount": 2
           },
           {
@@ -28322,7 +28838,7 @@
             "adCount": 1
           },
           {
-            "name": "알고먹는 건강정보",
+            "name": "없음",
             "adCount": 1
           }
         ],
@@ -100701,79 +101217,347 @@
       "adEvidence": {
         "query": "포스파티딜세린",
         "matchType": "collected-with-query",
-        "adCount": 61,
+        "adCount": 86,
         "adIds": [
+          "978812378602328",
+          "2167582533966018",
+          "1781460456522480",
+          "1551486553412131",
+          "1446905924069492",
+          "1095389253084564",
+          "1863895651262003",
+          "1085330977435100",
+          "1080178141673070",
+          "1062185600152202",
+          "3015891488802824",
+          "1672819437596576",
+          "1060284677035329",
+          "3847591712057655",
+          "1848171559696684",
+          "1132045486147384",
+          "1100324309246898",
+          "2904653439867504",
+          "2868811913496678",
           "2236497980255509",
-          "934059429781542",
-          "1422138635912008",
-          "1097796602967592",
-          "1811454536568486",
-          "1807738797115230",
+          "1755026428885139",
+          "1118305144183740",
           "1417514203888925",
+          "1869814570678503",
+          "40216427001289651",
+          "1868122407491483",
+          "1646877130361164",
+          "1587310562731876",
+          "934059429781542",
+          "1827474868421922",
+          "1630193045298370",
+          "1422138635912008",
+          "1811454536568486",
+          "4532375287041850",
+          "1967751130586855",
+          "1118939810659727",
+          "4654017414829413",
+          "2575831559586687",
+          "1619746882893580",
+          "785093754692104",
+          "2355347321872159",
+          "1083979101109260",
+          "2186462498917500",
+          "1068706495979121",
+          "1739530823934589",
+          "1652310056456788",
+          "1613784953741641",
+          "1708461237044846",
+          "1563306729163635",
+          "1088651646879650",
+          "2173984703186822",
+          "1737629660836347",
+          "1483240626881235",
+          "4499581893704392",
+          "1044758795065287",
+          "982200517857490",
+          "975877435068271",
+          "2207854309771714",
+          "1575105537569689",
+          "1242704301128191",
+          "1488351379436907",
+          "1105403675215306",
+          "1055934593696061",
+          "1097796602967592",
+          "1807738797115230",
           "1673357984453041",
           "1534104705418877",
           "1419910213668536",
           "1139504725309637",
           "3315042158885544",
-          "1869814570678503",
-          "1630193045298370",
           "1605397577703340",
           "1137470785622994",
-          "1068706495979121",
           "28673787248919294",
-          "1646877130361164",
           "1585636279974741",
           "1144201314933320",
-          "1967751130586855",
-          "1587310562731876",
-          "1083979101109260",
-          "1827474868421922",
           "1754999295710239",
-          "1118939810659727",
-          "4654017414829413",
-          "4532375287041850",
-          "1619746882893580",
-          "1613784953741641",
-          "2575831559586687",
-          "2186462498917500",
           "1464817085541113",
-          "785093754692104",
-          "2355347321872159",
           "2184213725836839",
           "1915778092919043",
           "1904801040250094",
           "1662108788814194",
           "1359277102986988",
-          "2173984703186822",
-          "1739530823934589",
-          "1563306729163635",
           "1740713363883703",
-          "1483240626881235",
-          "1088651646879650",
-          "2207854309771714",
           "1752480952617504",
-          "1737629660836347",
-          "1044758795065287",
-          "4499581893704392",
           "2112049346099696",
-          "1242704301128191",
-          "982200517857490",
-          "975877435068271",
-          "1575105537569689",
-          "1278731794324297",
-          "1105403675215306",
-          "1488351379436907",
-          "1055934593696061"
+          "1278731794324297"
         ],
         "ads": [
+          {
+            "id": "978812378602328",
+            "advertiser": "판티오",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:51:10+00:00",
+            "lastCollectedAt": "2026-10-13T06:51:10+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "2167582533966018",
+            "advertiser": "판티오",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:51:10+00:00",
+            "lastCollectedAt": "2026-10-13T06:51:10+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1781460456522480",
+            "advertiser": "위바이옴",
+            "startedAt": "2026-10-11",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:51:10+00:00",
+            "lastCollectedAt": "2026-10-13T06:51:10+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1551486553412131",
+            "advertiser": "판티오",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:55+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:55+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1446905924069492",
+            "advertiser": "갓생루틴 저장소",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:55+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:55+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1095389253084564",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-10-11",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:55+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:55+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1863895651262003",
+            "advertiser": "알고먹는 건강정보",
+            "startedAt": "2026-10-11",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:54+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:54+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1085330977435100",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:54+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:54+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1080178141673070",
+            "advertiser": "없음",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:54+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:54+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1062185600152202",
+            "advertiser": "갓생루틴 저장소",
+            "startedAt": "2026-10-11",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:54+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:54+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "3015891488802824",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:53+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:53+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1672819437596576",
+            "advertiser": "위바이옴",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:52+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:52+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1060284677035329",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-10-11",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:52+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:52+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "3847591712057655",
+            "advertiser": "위바이옴",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:44+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:44+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1848171559696684",
+            "advertiser": "위바이옴",
+            "startedAt": "2026-10-11",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:44+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:44+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1132045486147384",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:44+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:44+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1100324309246898",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:44+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:44+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "2904653439867504",
+            "advertiser": "위바이옴",
+            "startedAt": "2026-10-11",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:43+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:43+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "2868811913496678",
+            "advertiser": "에스더포뮬러",
+            "startedAt": "2026-10-11",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:43+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:43+00:00",
+            "startTiming": "after-window"
+          },
           {
             "id": "2236497980255509",
             "advertiser": "Dr.mainu",
             "startedAt": "2026-10-07",
             "query": "포스파티딜세린",
             "firstCollectedAt": "2026-10-08T20:35:40+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:40+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:42+00:00",
             "startTiming": "during-window"
+          },
+          {
+            "id": "1755026428885139",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:42+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:42+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1118305144183740",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-10-11",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:42+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:42+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1417514203888925",
+            "advertiser": "Dr.mainu",
+            "startedAt": "2026-10-07",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:26+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:41+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1869814570678503",
+            "advertiser": "Pilleday",
+            "startedAt": "2026-10-06",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:15+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:35+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "40216427001289651",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:34+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:34+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1868122407491483",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:34+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:34+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1646877130361164",
+            "advertiser": "Pilleday",
+            "startedAt": "2026-10-06",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:14+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:34+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1587310562731876",
+            "advertiser": "멍스타그램",
+            "startedAt": "2025-12-16",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:07+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:34+00:00",
+            "startTiming": "before-window"
           },
           {
             "id": "934059429781542",
@@ -100781,7 +101565,25 @@
             "startedAt": "2026-10-07",
             "query": "포스파티딜세린",
             "firstCollectedAt": "2026-10-08T20:35:27+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:27+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:33+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1827474868421922",
+            "advertiser": "에스더포뮬러",
+            "startedAt": "2026-09-14",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:06+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1630193045298370",
+            "advertiser": "필요약",
+            "startedAt": "2026-10-06",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:15+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:33+00:00",
             "startTiming": "during-window"
           },
           {
@@ -100790,8 +101592,287 @@
             "startedAt": "2026-10-07",
             "query": "포스파티딜세린",
             "firstCollectedAt": "2026-10-08T20:35:27+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:27+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:33+00:00",
             "startTiming": "during-window"
+          },
+          {
+            "id": "1811454536568486",
+            "advertiser": "Dr.mainu",
+            "startedAt": "2026-10-07",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:26+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:32+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "4532375287041850",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-27",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:05+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1967751130586855",
+            "advertiser": "NewOrigin 뉴오리진",
+            "startedAt": "2026-09-29",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:07+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1118939810659727",
+            "advertiser": "NewOrigin 뉴오리진",
+            "startedAt": "2026-09-29",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:06+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4654017414829413",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-09-10",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:05+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2575831559586687",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-27",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:58+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1619746882893580",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-01",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:05+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:25+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "785093754692104",
+            "advertiser": "건강 꿀팁 페이지",
+            "startedAt": "2026-08-04",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:57+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2355347321872159",
+            "advertiser": "라이펫 Lifet",
+            "startedAt": "2026-09-22",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:57+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1083979101109260",
+            "advertiser": "집중력강화연구소",
+            "startedAt": "2026-10-06",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:07+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:24+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2186462498917500",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-01",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:58+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:23+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1068706495979121",
+            "advertiser": "GC 녹십자웰빙",
+            "startedAt": "2026-10-07",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:15+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:19+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1739530823934589",
+            "advertiser": "Thailoveshop",
+            "startedAt": "2026-09-03",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:51+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1652310056456788",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-09-13",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:18+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1613784953741641",
+            "advertiser": "집중력강화연구소",
+            "startedAt": "2026-10-06",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:05+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:18+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1708461237044846",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-14",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:02+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1563306729163635",
+            "advertiser": "건강꿀팁",
+            "startedAt": "2026-08-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:36+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1088651646879650",
+            "advertiser": "에스더포뮬러",
+            "startedAt": "2026-09-14",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:34+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2173984703186822",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-01",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:51+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:59+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1737629660836347",
+            "advertiser": "그로우랩",
+            "startedAt": "2026-09-09",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:33+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1483240626881235",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:34+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4499581893704392",
+            "advertiser": "건강꿀팁",
+            "startedAt": "2026-08-14",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:28+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1044758795065287",
+            "advertiser": "에스더포뮬러",
+            "startedAt": "2026-09-14",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:32+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "982200517857490",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-28",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:25+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "975877435068271",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-06-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:25+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2207854309771714",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-30",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:33+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1575105537569689",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-06-03",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:25+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1242704301128191",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-06-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:26+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1488351379436907",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:24+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1105403675215306",
+            "advertiser": "동국제약 토탈헬스케어",
+            "startedAt": "2026-09-30",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:25+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1055934593696061",
+            "advertiser": "필요약",
+            "startedAt": "2026-08-23",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:24+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:51+00:00",
+            "startTiming": "before-window"
           },
           {
             "id": "1097796602967592",
@@ -100803,15 +101884,6 @@
             "startTiming": "after-window"
           },
           {
-            "id": "1811454536568486",
-            "advertiser": "Dr.mainu",
-            "startedAt": "2026-10-07",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:26+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:26+00:00",
-            "startTiming": "during-window"
-          },
-          {
             "id": "1807738797115230",
             "advertiser": "판티오",
             "startedAt": "2026-10-08",
@@ -100819,15 +101891,6 @@
             "firstCollectedAt": "2026-10-08T20:35:26+00:00",
             "lastCollectedAt": "2026-10-08T20:35:26+00:00",
             "startTiming": "after-window"
-          },
-          {
-            "id": "1417514203888925",
-            "advertiser": "Dr.mainu",
-            "startedAt": "2026-10-07",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:26+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:26+00:00",
-            "startTiming": "during-window"
           },
           {
             "id": "1673357984453041",
@@ -100875,24 +101938,6 @@
             "startTiming": "during-window"
           },
           {
-            "id": "1869814570678503",
-            "advertiser": "Pilleday",
-            "startedAt": "2026-10-06",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:15+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:15+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1630193045298370",
-            "advertiser": "필요약",
-            "startedAt": "2026-10-06",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:15+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:15+00:00",
-            "startTiming": "during-window"
-          },
-          {
             "id": "1605397577703340",
             "advertiser": "갓생루틴 저장소",
             "startedAt": "2026-10-08",
@@ -100911,25 +101956,7 @@
             "startTiming": "during-window"
           },
           {
-            "id": "1068706495979121",
-            "advertiser": "GC 녹십자웰빙",
-            "startedAt": "2026-10-07",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:15+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:15+00:00",
-            "startTiming": "during-window"
-          },
-          {
             "id": "28673787248919294",
-            "advertiser": "Pilleday",
-            "startedAt": "2026-10-06",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:14+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:14+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1646877130361164",
             "advertiser": "Pilleday",
             "startedAt": "2026-10-06",
             "query": "포스파티딜세린",
@@ -100956,42 +101983,6 @@
             "startTiming": "after-window"
           },
           {
-            "id": "1967751130586855",
-            "advertiser": "NewOrigin 뉴오리진",
-            "startedAt": "2026-09-29",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:07+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:07+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1587310562731876",
-            "advertiser": "멍스타그램",
-            "startedAt": "2025-12-16",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:07+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:07+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1083979101109260",
-            "advertiser": "집중력강화연구소",
-            "startedAt": "2026-10-06",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:07+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:07+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1827474868421922",
-            "advertiser": "에스더포뮬러",
-            "startedAt": "2026-09-14",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:06+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:06+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "1754999295710239",
             "advertiser": "종근당",
             "startedAt": "2026-09-22",
@@ -101001,69 +101992,6 @@
             "startTiming": "before-window"
           },
           {
-            "id": "1118939810659727",
-            "advertiser": "NewOrigin 뉴오리진",
-            "startedAt": "2026-09-29",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:06+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:06+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "4654017414829413",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-09-10",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:05+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:05+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "4532375287041850",
-            "advertiser": "종근당",
-            "startedAt": "2026-09-27",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:05+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:05+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1619746882893580",
-            "advertiser": "종근당",
-            "startedAt": "2026-10-01",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:05+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:05+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1613784953741641",
-            "advertiser": "집중력강화연구소",
-            "startedAt": "2026-10-06",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:05+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:05+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "2575831559586687",
-            "advertiser": "종근당",
-            "startedAt": "2026-09-27",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:58+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:58+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2186462498917500",
-            "advertiser": "종근당",
-            "startedAt": "2026-10-01",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:58+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:58+00:00",
-            "startTiming": "during-window"
-          },
-          {
             "id": "1464817085541113",
             "advertiser": "종근당",
             "startedAt": "2026-10-04",
@@ -101071,24 +101999,6 @@
             "firstCollectedAt": "2026-10-08T20:34:58+00:00",
             "lastCollectedAt": "2026-10-08T20:34:58+00:00",
             "startTiming": "during-window"
-          },
-          {
-            "id": "785093754692104",
-            "advertiser": "건강 꿀팁 페이지",
-            "startedAt": "2026-08-04",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:57+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:57+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2355347321872159",
-            "advertiser": "라이펫 Lifet",
-            "startedAt": "2026-09-22",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:57+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:57+00:00",
-            "startTiming": "before-window"
           },
           {
             "id": "2184213725836839",
@@ -101136,33 +102046,6 @@
             "startTiming": "before-window"
           },
           {
-            "id": "2173984703186822",
-            "advertiser": "종근당",
-            "startedAt": "2026-10-01",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:51+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:51+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1739530823934589",
-            "advertiser": "Thailoveshop",
-            "startedAt": "2026-09-03",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:51+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:51+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1563306729163635",
-            "advertiser": "건강꿀팁",
-            "startedAt": "2026-08-12",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:36+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:36+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "1740713363883703",
             "advertiser": "종근당",
             "startedAt": "2026-10-01",
@@ -101172,66 +102055,12 @@
             "startTiming": "during-window"
           },
           {
-            "id": "1483240626881235",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:34+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:34+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1088651646879650",
-            "advertiser": "에스더포뮬러",
-            "startedAt": "2026-09-14",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:34+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:34+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2207854309771714",
-            "advertiser": "종근당",
-            "startedAt": "2026-09-30",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:33+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:33+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "1752480952617504",
             "advertiser": "종근당",
             "startedAt": "2026-08-14",
             "query": "포스파티딜세린",
             "firstCollectedAt": "2026-10-08T20:34:33+00:00",
             "lastCollectedAt": "2026-10-08T20:34:33+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1737629660836347",
-            "advertiser": "그로우랩",
-            "startedAt": "2026-09-09",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:33+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:33+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1044758795065287",
-            "advertiser": "에스더포뮬러",
-            "startedAt": "2026-09-14",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:32+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:32+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "4499581893704392",
-            "advertiser": "건강꿀팁",
-            "startedAt": "2026-08-14",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:28+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:28+00:00",
             "startTiming": "before-window"
           },
           {
@@ -101244,42 +102073,6 @@
             "startTiming": "before-window"
           },
           {
-            "id": "1242704301128191",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-06-12",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:26+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:26+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "982200517857490",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-28",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:25+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:25+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "975877435068271",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-06-12",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:25+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:25+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1575105537569689",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-06-03",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:25+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:25+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "1278731794324297",
             "advertiser": "종근당",
             "startedAt": "2026-09-22",
@@ -101287,47 +102080,32 @@
             "firstCollectedAt": "2026-10-08T20:34:25+00:00",
             "lastCollectedAt": "2026-10-08T20:34:25+00:00",
             "startTiming": "before-window"
-          },
-          {
-            "id": "1105403675215306",
-            "advertiser": "동국제약 토탈헬스케어",
-            "startedAt": "2026-09-30",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:25+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:25+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1488351379436907",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:24+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:24+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1055934593696061",
-            "advertiser": "필요약",
-            "startedAt": "2026-08-23",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:24+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:24+00:00",
-            "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-08T20:35:40+00:00",
+        "lastCollectedAt": "2026-10-13T06:51:10+00:00",
         "advertisers": [
           {
             "name": "종근당",
-            "adCount": 17
+            "adCount": 24
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 7
+          },
+          {
+            "name": "위바이옴",
+            "adCount": 7
+          },
+          {
+            "name": "판티오",
+            "adCount": 6
           },
           {
             "name": "Dr.mainu",
             "adCount": 5
           },
           {
-            "name": "Naverplus.store",
+            "name": "에스더포뮬러",
             "adCount": 5
           },
           {
@@ -101335,11 +102113,11 @@
             "adCount": 4
           },
           {
-            "name": "에스더포뮬러",
+            "name": "갓생루틴 저장소",
             "adCount": 4
           },
           {
-            "name": "판티오",
+            "name": "얼라이브 ALIVE",
             "adCount": 3
           },
           {
@@ -101351,15 +102129,11 @@
             "adCount": 2
           },
           {
-            "name": "갓생루틴 저장소",
-            "adCount": 2
-          },
-          {
             "name": "건강꿀팁",
             "adCount": 2
           },
           {
-            "name": "위바이옴",
+            "name": "알고먹는 건강정보",
             "adCount": 2
           },
           {
@@ -101399,7 +102173,7 @@
             "adCount": 1
           },
           {
-            "name": "알고먹는 건강정보",
+            "name": "없음",
             "adCount": 1
           }
         ],
@@ -119821,79 +120595,347 @@
       "adEvidence": {
         "query": "포스파티딜세린",
         "matchType": "collected-with-query",
-        "adCount": 61,
+        "adCount": 86,
         "adIds": [
+          "978812378602328",
+          "2167582533966018",
+          "1781460456522480",
+          "1551486553412131",
+          "1446905924069492",
+          "1095389253084564",
+          "1863895651262003",
+          "1085330977435100",
+          "1080178141673070",
+          "1062185600152202",
+          "3015891488802824",
+          "1672819437596576",
+          "1060284677035329",
+          "3847591712057655",
+          "1848171559696684",
+          "1132045486147384",
+          "1100324309246898",
+          "2904653439867504",
+          "2868811913496678",
           "2236497980255509",
-          "934059429781542",
-          "1422138635912008",
-          "1097796602967592",
-          "1811454536568486",
-          "1807738797115230",
+          "1755026428885139",
+          "1118305144183740",
           "1417514203888925",
+          "1869814570678503",
+          "40216427001289651",
+          "1868122407491483",
+          "1646877130361164",
+          "1587310562731876",
+          "934059429781542",
+          "1827474868421922",
+          "1630193045298370",
+          "1422138635912008",
+          "1811454536568486",
+          "4532375287041850",
+          "1967751130586855",
+          "1118939810659727",
+          "4654017414829413",
+          "2575831559586687",
+          "1619746882893580",
+          "785093754692104",
+          "2355347321872159",
+          "1083979101109260",
+          "2186462498917500",
+          "1068706495979121",
+          "1739530823934589",
+          "1652310056456788",
+          "1613784953741641",
+          "1708461237044846",
+          "1563306729163635",
+          "1088651646879650",
+          "2173984703186822",
+          "1737629660836347",
+          "1483240626881235",
+          "4499581893704392",
+          "1044758795065287",
+          "982200517857490",
+          "975877435068271",
+          "2207854309771714",
+          "1575105537569689",
+          "1242704301128191",
+          "1488351379436907",
+          "1105403675215306",
+          "1055934593696061",
+          "1097796602967592",
+          "1807738797115230",
           "1673357984453041",
           "1534104705418877",
           "1419910213668536",
           "1139504725309637",
           "3315042158885544",
-          "1869814570678503",
-          "1630193045298370",
           "1605397577703340",
           "1137470785622994",
-          "1068706495979121",
           "28673787248919294",
-          "1646877130361164",
           "1585636279974741",
           "1144201314933320",
-          "1967751130586855",
-          "1587310562731876",
-          "1083979101109260",
-          "1827474868421922",
           "1754999295710239",
-          "1118939810659727",
-          "4654017414829413",
-          "4532375287041850",
-          "1619746882893580",
-          "1613784953741641",
-          "2575831559586687",
-          "2186462498917500",
           "1464817085541113",
-          "785093754692104",
-          "2355347321872159",
           "2184213725836839",
           "1915778092919043",
           "1904801040250094",
           "1662108788814194",
           "1359277102986988",
-          "2173984703186822",
-          "1739530823934589",
-          "1563306729163635",
           "1740713363883703",
-          "1483240626881235",
-          "1088651646879650",
-          "2207854309771714",
           "1752480952617504",
-          "1737629660836347",
-          "1044758795065287",
-          "4499581893704392",
           "2112049346099696",
-          "1242704301128191",
-          "982200517857490",
-          "975877435068271",
-          "1575105537569689",
-          "1278731794324297",
-          "1105403675215306",
-          "1488351379436907",
-          "1055934593696061"
+          "1278731794324297"
         ],
         "ads": [
+          {
+            "id": "978812378602328",
+            "advertiser": "판티오",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:51:10+00:00",
+            "lastCollectedAt": "2026-10-13T06:51:10+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "2167582533966018",
+            "advertiser": "판티오",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:51:10+00:00",
+            "lastCollectedAt": "2026-10-13T06:51:10+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1781460456522480",
+            "advertiser": "위바이옴",
+            "startedAt": "2026-10-11",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:51:10+00:00",
+            "lastCollectedAt": "2026-10-13T06:51:10+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1551486553412131",
+            "advertiser": "판티오",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:55+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:55+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1446905924069492",
+            "advertiser": "갓생루틴 저장소",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:55+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:55+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1095389253084564",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-10-11",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:55+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:55+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1863895651262003",
+            "advertiser": "알고먹는 건강정보",
+            "startedAt": "2026-10-11",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:54+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:54+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1085330977435100",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:54+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:54+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1080178141673070",
+            "advertiser": "없음",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:54+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:54+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1062185600152202",
+            "advertiser": "갓생루틴 저장소",
+            "startedAt": "2026-10-11",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:54+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:54+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "3015891488802824",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:53+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:53+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1672819437596576",
+            "advertiser": "위바이옴",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:52+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:52+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1060284677035329",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-10-11",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:52+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:52+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "3847591712057655",
+            "advertiser": "위바이옴",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:44+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:44+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1848171559696684",
+            "advertiser": "위바이옴",
+            "startedAt": "2026-10-11",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:44+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:44+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1132045486147384",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:44+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:44+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1100324309246898",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:44+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:44+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "2904653439867504",
+            "advertiser": "위바이옴",
+            "startedAt": "2026-10-11",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:43+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:43+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "2868811913496678",
+            "advertiser": "에스더포뮬러",
+            "startedAt": "2026-10-11",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:43+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:43+00:00",
+            "startTiming": "after-window"
+          },
           {
             "id": "2236497980255509",
             "advertiser": "Dr.mainu",
             "startedAt": "2026-10-07",
             "query": "포스파티딜세린",
             "firstCollectedAt": "2026-10-08T20:35:40+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:40+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:42+00:00",
             "startTiming": "after-window"
+          },
+          {
+            "id": "1755026428885139",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:42+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:42+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1118305144183740",
+            "advertiser": "얼라이브 ALIVE",
+            "startedAt": "2026-10-11",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:42+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:42+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1417514203888925",
+            "advertiser": "Dr.mainu",
+            "startedAt": "2026-10-07",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:26+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:41+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1869814570678503",
+            "advertiser": "Pilleday",
+            "startedAt": "2026-10-06",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:15+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:35+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "40216427001289651",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:34+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:34+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1868122407491483",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:34+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:34+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1646877130361164",
+            "advertiser": "Pilleday",
+            "startedAt": "2026-10-06",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:14+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:34+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1587310562731876",
+            "advertiser": "멍스타그램",
+            "startedAt": "2025-12-16",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:07+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:34+00:00",
+            "startTiming": "before-window"
           },
           {
             "id": "934059429781542",
@@ -119901,8 +120943,26 @@
             "startedAt": "2026-10-07",
             "query": "포스파티딜세린",
             "firstCollectedAt": "2026-10-08T20:35:27+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:27+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:33+00:00",
             "startTiming": "after-window"
+          },
+          {
+            "id": "1827474868421922",
+            "advertiser": "에스더포뮬러",
+            "startedAt": "2026-09-14",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:06+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:33+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1630193045298370",
+            "advertiser": "필요약",
+            "startedAt": "2026-10-06",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:15+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:33+00:00",
+            "startTiming": "during-window"
           },
           {
             "id": "1422138635912008",
@@ -119910,8 +120970,287 @@
             "startedAt": "2026-10-07",
             "query": "포스파티딜세린",
             "firstCollectedAt": "2026-10-08T20:35:27+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:27+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:33+00:00",
             "startTiming": "after-window"
+          },
+          {
+            "id": "1811454536568486",
+            "advertiser": "Dr.mainu",
+            "startedAt": "2026-10-07",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:26+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:32+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "4532375287041850",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-27",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:05+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1967751130586855",
+            "advertiser": "NewOrigin 뉴오리진",
+            "startedAt": "2026-09-29",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:07+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1118939810659727",
+            "advertiser": "NewOrigin 뉴오리진",
+            "startedAt": "2026-09-29",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:06+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:26+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4654017414829413",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-09-10",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:05+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2575831559586687",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-27",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:58+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:25+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1619746882893580",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-01",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:05+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:25+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "785093754692104",
+            "advertiser": "건강 꿀팁 페이지",
+            "startedAt": "2026-08-04",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:57+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2355347321872159",
+            "advertiser": "라이펫 Lifet",
+            "startedAt": "2026-09-22",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:57+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:24+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1083979101109260",
+            "advertiser": "집중력강화연구소",
+            "startedAt": "2026-10-06",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:07+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:24+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "2186462498917500",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-01",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:58+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:23+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1068706495979121",
+            "advertiser": "GC 녹십자웰빙",
+            "startedAt": "2026-10-07",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:15+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:19+00:00",
+            "startTiming": "after-window"
+          },
+          {
+            "id": "1739530823934589",
+            "advertiser": "Thailoveshop",
+            "startedAt": "2026-09-03",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:51+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1652310056456788",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-09-13",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:18+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:18+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1613784953741641",
+            "advertiser": "집중력강화연구소",
+            "startedAt": "2026-10-06",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:35:05+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:18+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1708461237044846",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-07-14",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-13T06:50:02+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:02+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1563306729163635",
+            "advertiser": "건강꿀팁",
+            "startedAt": "2026-08-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:36+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:01+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1088651646879650",
+            "advertiser": "에스더포뮬러",
+            "startedAt": "2026-09-14",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:34+00:00",
+            "lastCollectedAt": "2026-10-13T06:50:00+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2173984703186822",
+            "advertiser": "종근당",
+            "startedAt": "2026-10-01",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:51+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:59+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1737629660836347",
+            "advertiser": "그로우랩",
+            "startedAt": "2026-09-09",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:33+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1483240626881235",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:34+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:59+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "4499581893704392",
+            "advertiser": "건강꿀팁",
+            "startedAt": "2026-08-14",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:28+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:54+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1044758795065287",
+            "advertiser": "에스더포뮬러",
+            "startedAt": "2026-09-14",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:32+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:53+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "982200517857490",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-28",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:25+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "975877435068271",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-06-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:25+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "2207854309771714",
+            "advertiser": "종근당",
+            "startedAt": "2026-09-30",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:33+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:52+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1575105537569689",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-06-03",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:25+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1242704301128191",
+            "advertiser": "프롬바이오",
+            "startedAt": "2026-06-12",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:26+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:52+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1488351379436907",
+            "advertiser": "Naverplus.store",
+            "startedAt": "2026-05-27",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:24+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:51+00:00",
+            "startTiming": "before-window"
+          },
+          {
+            "id": "1105403675215306",
+            "advertiser": "동국제약 토탈헬스케어",
+            "startedAt": "2026-09-30",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:25+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:51+00:00",
+            "startTiming": "during-window"
+          },
+          {
+            "id": "1055934593696061",
+            "advertiser": "필요약",
+            "startedAt": "2026-08-23",
+            "query": "포스파티딜세린",
+            "firstCollectedAt": "2026-10-08T20:34:24+00:00",
+            "lastCollectedAt": "2026-10-13T06:49:51+00:00",
+            "startTiming": "before-window"
           },
           {
             "id": "1097796602967592",
@@ -119923,27 +121262,9 @@
             "startTiming": "after-window"
           },
           {
-            "id": "1811454536568486",
-            "advertiser": "Dr.mainu",
-            "startedAt": "2026-10-07",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:26+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:26+00:00",
-            "startTiming": "after-window"
-          },
-          {
             "id": "1807738797115230",
             "advertiser": "판티오",
             "startedAt": "2026-10-08",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:26+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:26+00:00",
-            "startTiming": "after-window"
-          },
-          {
-            "id": "1417514203888925",
-            "advertiser": "Dr.mainu",
-            "startedAt": "2026-10-07",
             "query": "포스파티딜세린",
             "firstCollectedAt": "2026-10-08T20:35:26+00:00",
             "lastCollectedAt": "2026-10-08T20:35:26+00:00",
@@ -119995,24 +121316,6 @@
             "startTiming": "during-window"
           },
           {
-            "id": "1869814570678503",
-            "advertiser": "Pilleday",
-            "startedAt": "2026-10-06",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:15+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:15+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1630193045298370",
-            "advertiser": "필요약",
-            "startedAt": "2026-10-06",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:15+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:15+00:00",
-            "startTiming": "during-window"
-          },
-          {
             "id": "1605397577703340",
             "advertiser": "갓생루틴 저장소",
             "startedAt": "2026-10-08",
@@ -120031,25 +121334,7 @@
             "startTiming": "during-window"
           },
           {
-            "id": "1068706495979121",
-            "advertiser": "GC 녹십자웰빙",
-            "startedAt": "2026-10-07",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:15+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:15+00:00",
-            "startTiming": "after-window"
-          },
-          {
             "id": "28673787248919294",
-            "advertiser": "Pilleday",
-            "startedAt": "2026-10-06",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:14+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:14+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1646877130361164",
             "advertiser": "Pilleday",
             "startedAt": "2026-10-06",
             "query": "포스파티딜세린",
@@ -120076,42 +121361,6 @@
             "startTiming": "after-window"
           },
           {
-            "id": "1967751130586855",
-            "advertiser": "NewOrigin 뉴오리진",
-            "startedAt": "2026-09-29",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:07+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:07+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1587310562731876",
-            "advertiser": "멍스타그램",
-            "startedAt": "2025-12-16",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:07+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:07+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1083979101109260",
-            "advertiser": "집중력강화연구소",
-            "startedAt": "2026-10-06",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:07+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:07+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1827474868421922",
-            "advertiser": "에스더포뮬러",
-            "startedAt": "2026-09-14",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:06+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:06+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "1754999295710239",
             "advertiser": "종근당",
             "startedAt": "2026-09-22",
@@ -120121,69 +121370,6 @@
             "startTiming": "before-window"
           },
           {
-            "id": "1118939810659727",
-            "advertiser": "NewOrigin 뉴오리진",
-            "startedAt": "2026-09-29",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:06+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:06+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "4654017414829413",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-09-10",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:05+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:05+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "4532375287041850",
-            "advertiser": "종근당",
-            "startedAt": "2026-09-27",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:05+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:05+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1619746882893580",
-            "advertiser": "종근당",
-            "startedAt": "2026-10-01",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:05+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:05+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1613784953741641",
-            "advertiser": "집중력강화연구소",
-            "startedAt": "2026-10-06",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:35:05+00:00",
-            "lastCollectedAt": "2026-10-08T20:35:05+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "2575831559586687",
-            "advertiser": "종근당",
-            "startedAt": "2026-09-27",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:58+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:58+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2186462498917500",
-            "advertiser": "종근당",
-            "startedAt": "2026-10-01",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:58+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:58+00:00",
-            "startTiming": "during-window"
-          },
-          {
             "id": "1464817085541113",
             "advertiser": "종근당",
             "startedAt": "2026-10-04",
@@ -120191,24 +121377,6 @@
             "firstCollectedAt": "2026-10-08T20:34:58+00:00",
             "lastCollectedAt": "2026-10-08T20:34:58+00:00",
             "startTiming": "during-window"
-          },
-          {
-            "id": "785093754692104",
-            "advertiser": "건강 꿀팁 페이지",
-            "startedAt": "2026-08-04",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:57+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:57+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2355347321872159",
-            "advertiser": "라이펫 Lifet",
-            "startedAt": "2026-09-22",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:57+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:57+00:00",
-            "startTiming": "before-window"
           },
           {
             "id": "2184213725836839",
@@ -120256,66 +121424,12 @@
             "startTiming": "before-window"
           },
           {
-            "id": "2173984703186822",
-            "advertiser": "종근당",
-            "startedAt": "2026-10-01",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:51+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:51+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1739530823934589",
-            "advertiser": "Thailoveshop",
-            "startedAt": "2026-09-03",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:51+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:51+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1563306729163635",
-            "advertiser": "건강꿀팁",
-            "startedAt": "2026-08-12",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:36+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:36+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "1740713363883703",
             "advertiser": "종근당",
             "startedAt": "2026-10-01",
             "query": "포스파티딜세린",
             "firstCollectedAt": "2026-10-08T20:34:34+00:00",
             "lastCollectedAt": "2026-10-08T20:34:34+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1483240626881235",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:34+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:34+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1088651646879650",
-            "advertiser": "에스더포뮬러",
-            "startedAt": "2026-09-14",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:34+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:34+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "2207854309771714",
-            "advertiser": "종근당",
-            "startedAt": "2026-09-30",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:33+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:33+00:00",
             "startTiming": "during-window"
           },
           {
@@ -120328,75 +121442,12 @@
             "startTiming": "before-window"
           },
           {
-            "id": "1737629660836347",
-            "advertiser": "그로우랩",
-            "startedAt": "2026-09-09",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:33+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:33+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1044758795065287",
-            "advertiser": "에스더포뮬러",
-            "startedAt": "2026-09-14",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:32+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:32+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "4499581893704392",
-            "advertiser": "건강꿀팁",
-            "startedAt": "2026-08-14",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:28+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:28+00:00",
-            "startTiming": "before-window"
-          },
-          {
             "id": "2112049346099696",
             "advertiser": "에스더포뮬러",
             "startedAt": "2026-09-14",
             "query": "포스파티딜세린",
             "firstCollectedAt": "2026-10-08T20:34:26+00:00",
             "lastCollectedAt": "2026-10-08T20:34:26+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1242704301128191",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-06-12",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:26+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:26+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "982200517857490",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-28",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:25+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:25+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "975877435068271",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-06-12",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:25+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:25+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1575105537569689",
-            "advertiser": "프롬바이오",
-            "startedAt": "2026-06-03",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:25+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:25+00:00",
             "startTiming": "before-window"
           },
           {
@@ -120407,47 +121458,32 @@
             "firstCollectedAt": "2026-10-08T20:34:25+00:00",
             "lastCollectedAt": "2026-10-08T20:34:25+00:00",
             "startTiming": "before-window"
-          },
-          {
-            "id": "1105403675215306",
-            "advertiser": "동국제약 토탈헬스케어",
-            "startedAt": "2026-09-30",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:25+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:25+00:00",
-            "startTiming": "during-window"
-          },
-          {
-            "id": "1488351379436907",
-            "advertiser": "Naverplus.store",
-            "startedAt": "2026-05-27",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:24+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:24+00:00",
-            "startTiming": "before-window"
-          },
-          {
-            "id": "1055934593696061",
-            "advertiser": "필요약",
-            "startedAt": "2026-08-23",
-            "query": "포스파티딜세린",
-            "firstCollectedAt": "2026-10-08T20:34:24+00:00",
-            "lastCollectedAt": "2026-10-08T20:34:24+00:00",
-            "startTiming": "before-window"
           }
         ],
-        "lastCollectedAt": "2026-10-08T20:35:40+00:00",
+        "lastCollectedAt": "2026-10-13T06:51:10+00:00",
         "advertisers": [
           {
             "name": "종근당",
-            "adCount": 17
+            "adCount": 24
+          },
+          {
+            "name": "Naverplus.store",
+            "adCount": 7
+          },
+          {
+            "name": "위바이옴",
+            "adCount": 7
+          },
+          {
+            "name": "판티오",
+            "adCount": 6
           },
           {
             "name": "Dr.mainu",
             "adCount": 5
           },
           {
-            "name": "Naverplus.store",
+            "name": "에스더포뮬러",
             "adCount": 5
           },
           {
@@ -120455,11 +121491,11 @@
             "adCount": 4
           },
           {
-            "name": "에스더포뮬러",
+            "name": "갓생루틴 저장소",
             "adCount": 4
           },
           {
-            "name": "판티오",
+            "name": "얼라이브 ALIVE",
             "adCount": 3
           },
           {
@@ -120471,15 +121507,11 @@
             "adCount": 2
           },
           {
-            "name": "갓생루틴 저장소",
-            "adCount": 2
-          },
-          {
             "name": "건강꿀팁",
             "adCount": 2
           },
           {
-            "name": "위바이옴",
+            "name": "알고먹는 건강정보",
             "adCount": 2
           },
           {
@@ -120519,7 +121551,7 @@
             "adCount": 1
           },
           {
-            "name": "알고먹는 건강정보",
+            "name": "없음",
             "adCount": 1
           }
         ],
