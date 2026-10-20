@@ -16,3 +16,7 @@ tools/meta-ads/data/*.tmp
 
 # Retired public automation tools; local blog workers remain separate.
 /tools/
+
+# Local account files must not be committed.
+pw
+pw.txt
