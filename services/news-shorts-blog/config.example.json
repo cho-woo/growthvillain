@@ -1,0 +1,15 @@
+{
+  "blog_id": "wdetector",
+  "category": "이슈",
+  "topic": "사회·정치",
+  "credentials_file": "C:\\Users\\LG\\Desktop\\그로스빌런\\pw.txt",
+  "browser_channel": "chrome",
+  "poll_seconds": 60,
+  "min_publish_interval_seconds": 300,
+  "daily_limit": 3,
+  "channels": [
+    {"name": "SBS 뉴스", "handle": "@SBSnews8"},
+    {"name": "MBC 뉴스", "handle": "@MBCNEWS11"},
+    {"name": "YTN", "handle": "@ytnnews24"}
+  ]
+}
