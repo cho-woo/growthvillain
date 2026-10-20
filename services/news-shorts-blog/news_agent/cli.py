@@ -8,10 +8,12 @@ import json
 import os
 from pathlib import Path
 import re
+import sqlite3
 import sys
 import threading
 
 from .core import GateClosed, Store, article_for, now_kst, stamp
+from .errors import AgentAlreadyRunning, ConfigurationError
 
 DEFAULTS = {
     "blog_id": "wdetector", "category": "이슈", "topic": "사회·정치",
@@ -32,39 +34,53 @@ def default_root():
 
 
 def read_config(path):
-    value = json.loads(path.read_text(encoding="utf-8-sig"))
+    try:
+        raw = path.read_text(encoding="utf-8-sig")
+    except FileNotFoundError:
+        raise ConfigurationError("CONFIG_MISSING", "설정 파일이 없습니다. Setup.cmd를 실행하고 Installed 메시지를 확인하세요.") from None
+    except UnicodeError:
+        raise ConfigurationError("CONFIG_ENCODING", "config.json을 UTF-8로 저장하세요. 기존 파일을 삭제하거나 비밀번호를 보내지 마세요.") from None
+    except OSError:
+        raise ConfigurationError("CONFIG_ACCESS", "config.json을 읽을 수 없습니다. 파일 접근 권한과 폴더 위치를 확인하세요.") from None
+    try:
+        value = json.loads(raw)
+    except json.JSONDecodeError as error:
+        raise ConfigurationError("CONFIG_JSON", f"config.json의 {error.lineno}행 {error.colno}열에 JSON 형식 오류가 있습니다. 따옴표·쉼표·경로의 역슬래시를 확인하세요.") from None
     if not isinstance(value, dict):
-        raise ValueError("설정은 JSON 객체여야 합니다.")
+        raise ConfigurationError("CONFIG_VALUE", "설정은 JSON 객체여야 합니다.")
     config = {**DEFAULTS, **value}
     if not isinstance(config["blog_id"], str) or not re.fullmatch(r"[A-Za-z0-9_-]{2,60}", config["blog_id"]):
-        raise ValueError("config.json에 대상 blog_id를 입력하세요. 비밀번호는 넣지 마세요.")
+        raise ConfigurationError("CONFIG_VALUE", "blog_id에는 블로그 주소 전체 대신 wdetector처럼 ID만 입력하세요.")
     for key, low, high in (("poll_seconds", 30, 3600), ("daily_limit", 1, 3),
                            ("min_publish_interval_seconds", 0, 86400)):
         if type(config[key]) is not int or not low <= config[key] <= high:
-            raise ValueError(f"{key}: {low}~{high} 범위의 정수가 필요합니다.")
+            raise ConfigurationError("CONFIG_VALUE", f"{key}: {low}~{high} 범위의 정수가 필요합니다.")
     if config["browser_channel"] not in ("chrome", "msedge", "chromium"):
-        raise ValueError("browser_channel은 chrome, msedge, chromium 중 하나입니다.")
+        raise ConfigurationError("CONFIG_VALUE", "browser_channel은 chrome, msedge, chromium 중 하나입니다.")
     if config["category"] is not None and (not isinstance(config["category"], str) or not config["category"].strip()):
-        raise ValueError("category는 카테고리 이름 또는 null이어야 합니다.")
+        raise ConfigurationError("CONFIG_VALUE", "category는 카테고리 이름 또는 null이어야 합니다.")
     if config["topic"] is not None and (not isinstance(config["topic"], str) or not config["topic"].strip()):
-        raise ValueError("topic은 주제 분류 이름 또는 null이어야 합니다.")
+        raise ConfigurationError("CONFIG_VALUE", "topic은 주제 분류 이름 또는 null이어야 합니다.")
     if config["credentials_file"] is not None and not isinstance(config["credentials_file"], str):
-        raise ValueError("credentials_file은 파일 경로 또는 null이어야 합니다.")
+        raise ConfigurationError("CONFIG_VALUE", "credentials_file은 파일 경로 또는 null이어야 합니다.")
     channels = config["channels"]
     if not isinstance(channels, list) or not 1 <= len(channels) <= 10:
-        raise ValueError("channels는 채널 1~10개여야 합니다.")
+        raise ConfigurationError("CONFIG_VALUE", "channels는 채널 1~10개여야 합니다.")
     handles = set()
     names = set()
     from .youtube import YouTubeSource
     for channel in channels:
         if (not isinstance(channel, dict) or not isinstance(channel.get("name"), str) or
                 not re.fullmatch(r"@[A-Za-z0-9_.-]+", str(channel.get("handle", "")))):
-            raise ValueError("채널 이름과 공식 @handle을 확인하세요.")
+            raise ConfigurationError("CONFIG_VALUE", "channels의 채널 이름과 공식 @handle을 확인하세요.")
         if channel["handle"].lower() in handles:
-            raise ValueError("중복 채널이 있습니다.")
+            raise ConfigurationError("CONFIG_VALUE", "channels에 중복 채널이 있습니다.")
         if channel["name"] in names:
-            raise ValueError("채널 표시 이름은 서로 달라야 합니다.")
-        YouTubeSource(handle=channel["handle"], name=channel["name"], channel_id=channel.get("channel_id"))
+            raise ConfigurationError("CONFIG_VALUE", "channels의 표시 이름은 서로 달라야 합니다.")
+        try:
+            YouTubeSource(handle=channel["handle"], name=channel["name"], channel_id=channel.get("channel_id"))
+        except (ValueError, TypeError):
+            raise ConfigurationError("CONFIG_VALUE", "channels의 name·handle·channel_id 형식을 확인하세요.") from None
         handles.add(channel["handle"].lower())
         names.add(channel["name"])
     return config
@@ -88,7 +104,7 @@ def instance_lock(path):
                 import fcntl
                 fcntl.flock(handle.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
         except OSError as error:
-            raise ValueError("에이전트 또는 로그인 창이 이미 실행 중입니다.") from error
+            raise AgentAlreadyRunning("에이전트 또는 로그인 창이 이미 실행 중입니다. 기존 Start.cmd·Login.cmd·Post-Once.cmd 실행을 종료한 후 다시 시도하세요.") from error
         yield
     finally:
         handle.close()
@@ -256,6 +272,7 @@ def main(argv=None):
     commands.add_parser("run", help="감시 및 자동 발행 시작")
     commands.add_parser("once", help="채널 확인 후 최대 1개 게시하고 종료; 기존 일일 한도 적용")
     commands.add_parser("status", help="현재 상태와 게시 내역 확인")
+    commands.add_parser("diagnose", help="설정·설치·중복 실행 진단; 로그인이나 게시를 수행하지 않음")
     reconcile = commands.add_parser("reconcile", help="실제 블로그를 확인한 뒤 불확실한 결과 정리")
     reconcile.add_argument("video_id")
     outcome = reconcile.add_mutually_exclusive_group(required=True)
@@ -264,6 +281,9 @@ def main(argv=None):
     args = parser.parse_args(argv)
     try:
         path = args.config.expanduser().resolve()
+        if args.command == "diagnose":
+            from .diagnostics import diagnose
+            return diagnose(path)
         if args.command == "init":
             if path.exists():
                 print("기존 설정을 보존했습니다. 변경은 config.json에서 하세요.")
@@ -301,8 +321,22 @@ def main(argv=None):
     except (PublishNotSubmitted, PublishUncertain) as error:
         print(str(error), file=sys.stderr)
         return 2
-    except (ValueError, OSError, json.JSONDecodeError):
-        print("설정·실행을 확인하세요: config.json의 블로그 ID/경로, 실행 중인 에이전트, 브라우저 설치 상태를 확인하세요.", file=sys.stderr)
+    except ConfigurationError as error:
+        print(f"[{error.code}] {error}", file=sys.stderr)
+        print(f"설정 파일 위치: {args.config}", file=sys.stderr)
+        print("자세한 점검: Diagnose.cmd", file=sys.stderr)
+        return 2
+    except AgentAlreadyRunning as error:
+        print(f"[ALREADY_RUNNING] {error}", file=sys.stderr)
+        return 2
+    except OSError as error:
+        print(f"[FILESYSTEM_ERROR] 파일 접근 오류 (errno={error.errno}). 폴더 권한과 저장 공간을 확인하고 Diagnose.cmd를 실행하세요.", file=sys.stderr)
+        return 2
+    except sqlite3.Error:
+        print("[DATABASE_ERROR] 게시 기록 파일을 열거나 갱신하지 못했습니다. 실행 중인 창과 폴더 권한을 확인하세요. 중복 방지를 위해 기록 파일은 삭제하지 마세요.", file=sys.stderr)
+        return 2
+    except ValueError:
+        print("[INVALID_VALUE] 입력값이나 파일 경로 형식을 확인하세요. Diagnose.cmd로 설정을 점검할 수 있습니다.", file=sys.stderr)
         return 2
 
 

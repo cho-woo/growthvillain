@@ -9,7 +9,7 @@ param(
 
 $ErrorActionPreference = 'Stop'
 if (-not $env:LOCALAPPDATA) { throw 'LOCALAPPDATA is unavailable. Run this installer in your Windows user session.' }
-$StateRoot = Join-Path $env:LOCALAPPDATA 'GrowthvillainNewsAgent'
+$StateRoot = [System.IO.Path]::GetFullPath((Join-Path $env:LOCALAPPDATA 'GrowthvillainNewsAgent'))
 $VenvRoot = Join-Path $StateRoot '.venv'
 $AgentPython = Join-Path $VenvRoot 'Scripts\python.exe'
 $ConfigPath = Join-Path $StateRoot 'config.json'
@@ -18,6 +18,16 @@ function Invoke-Checked {
     param([string]$Executable, [string[]]$Arguments)
     & $Executable @Arguments
     if ($LASTEXITCODE -ne 0) { throw "Command failed with exit code $LASTEXITCODE. See the output above." }
+}
+
+function Assert-PythonVersion {
+    param([string]$Executable, [string[]]$Prefix = @())
+    # Windows PowerShell 5.1 strips embedded double quotes in native arguments.
+    # Keep this Python snippet quote-free so it also works in that host.
+    & $Executable @Prefix -c 'import sys; sys.exit(0 if sys.version_info >= (3, 11) else 1)'
+    if ($LASTEXITCODE -ne 0) {
+        throw 'Python 3.11 or newer is required. Check the selected Python installation, then run Setup.cmd again.'
+    }
 }
 
 New-Item -ItemType Directory -Path $StateRoot -Force | Out-Null
@@ -34,10 +44,10 @@ try {
             $PythonExecutable = $Launcher.Source
             $PythonPrefix = @()
         }
-        Invoke-Checked -Executable $PythonExecutable -Arguments ($PythonPrefix + @('-c', 'import sys; assert sys.version_info >= (3, 11), "Python 3.11+ is required"'))
+        Assert-PythonVersion -Executable $PythonExecutable -Prefix $PythonPrefix
         Invoke-Checked -Executable $PythonExecutable -Arguments ($PythonPrefix + @('-m', 'venv', $VenvRoot))
     }
-    Invoke-Checked -Executable $AgentPython -Arguments @('-c', 'import sys; assert sys.version_info >= (3, 11), "Python 3.11+ is required"')
+    Assert-PythonVersion -Executable $AgentPython
     Invoke-Checked -Executable $AgentPython -Arguments @('-m', 'pip', 'install', '-r', (Join-Path $PSScriptRoot 'requirements.txt'))
 
     $InitArguments = @('-m', 'news_agent', '--config', $ConfigPath, 'init')
@@ -45,7 +55,14 @@ try {
     if ($Category) { $InitArguments += @('--category', $Category) }
     Invoke-Checked -Executable $AgentPython -Arguments $InitArguments
 
-    $Config = Get-Content -LiteralPath $ConfigPath -Raw -Encoding UTF8 | ConvertFrom-Json
+    if (-not (Test-Path -LiteralPath $ConfigPath -PathType Leaf)) {
+        throw "Setup did not create the configuration file: $ConfigPath. Run Setup.cmd again and check the configuration creation output."
+    }
+    try {
+        $Config = Get-Content -LiteralPath $ConfigPath -Raw -Encoding UTF8 | ConvertFrom-Json
+    } catch {
+        throw "Cannot read valid JSON from the configuration file: $ConfigPath. Run Diagnose.cmd to check the configuration."
+    }
     $ConfigChanged = $false
     if ($PSBoundParameters.ContainsKey('BlogId')) {
         if ($BlogId -notmatch '^[A-Za-z0-9_-]{2,60}$') {
