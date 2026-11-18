@@ -12,7 +12,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 DIST = ROOT / "dist"
 ASSET_DIRS = ("css", "js", "img", "video", "content", "portfolio", "_next")
-ROOT_FILES = ("index.html", "404.html", "robots.txt", "sitemap.xml")
+ROOT_FILES = ("index.html", "work.html", "contents.html", "404.html", "robots.txt", "sitemap.xml",
+              "planning.html", "viral.html", "data.html", "performance.html", "commerce.html",
+              "leadership.html", "career.html", "contact.html", "portfolio.html")
 MAX_ASSET_SIZE = 25 * 1024 * 1024
 
 
