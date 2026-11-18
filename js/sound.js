@@ -1,6 +1,6 @@
 /* Background music and UI tones. Starts only after a user gesture. */
 export function createSound(){
-  const audio=document.createElement('audio');audio.id='ambient-audio';audio.src='/audio/iamdaylight-apple-groove.mp3';audio.loop=true;audio.preload='none';audio.setAttribute('aria-hidden','true');document.body.append(audio);
+  const audio=document.createElement('audio');audio.id='ambient-audio';audio.src='/audio/flint-code-runner.mp3';audio.loop=true;audio.preload='none';audio.setAttribute('aria-hidden','true');document.body.append(audio);
   let ctx,ambientGain,fxGain,busy=false,wanted=false,ducked=false,sequence=0,resumeOnVisible=false;
   const storage={get(key){try{return localStorage.getItem(key);}catch{return null;}},set(key,v){try{localStorage.setItem(key,v);}catch{}}};
   function running(){return !audio.paused&&!audio.ended&&ctx?.state==='running';}
