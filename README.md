@@ -13,9 +13,9 @@ py scripts/verify.py
 로컬 미리보기: http://127.0.0.1:4174/ . 콘텐츠를 바꾼 뒤에는 `py build_v2.py`로 HTML을 다시 만들고 결과도 함께 커밋합니다. Cloudflare의 `python build_cloudflare.py`는 체크인한 정적 파일을 `dist/`에 모읍니다.
 
 - 사례 원고: `content/projects.json`
-- 한 페이지 템플릿: `templates/portfolio.html`, `scripts/profile_build.py`
-- 화면 스타일: `css/profile.css`와 작업물 공통 스타일 `css/v2.css`
-- 3D / 탐색 / 사운드: `js/decision-field.js`, `js/profile.js`, `js/sound.js`
+- 템플릿: `build_v2.py`
+- 화면 스타일: `css/v2.css`
+- 3D / 탐색 / 사운드: `js/decision-field.js`, `js/v2.js`, `js/sound.js`
 - 자료 목록·원본 해시·검수 결과: `research/`
 - 배경음악은 Flint의 **Code Runner**입니다. 제공된 MP3와 파일 정보는 `audio/`에 있습니다.
 
