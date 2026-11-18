@@ -3,7 +3,7 @@ from pathlib import Path
 from urllib.parse import urlsplit, unquote
 from collections import Counter
 from bs4 import BeautifulSoup
-import json, hashlib, wave
+import json, hashlib
 
 root=Path(__file__).resolve().parents[1];dist=root/'dist'
 docs={p.resolve():BeautifulSoup(p.read_text(encoding='utf-8'),'html.parser') for p in dist.rglob('*.html')}
@@ -46,9 +46,12 @@ source=BeautifulSoup((root/'source/contents.html').read_text(encoding='utf-8'),'
 library=docs[(dist/'contents.html').resolve()]
 def video_refs(s):return set(v.get('src') for v in s.select('video[src],source[src]'))
 if not video_refs(source).issubset(video_refs(library)):errors.append('Original video library omitted a source')
-with wave.open(str(dist/'audio/decision-field-ambient.wav')) as wav:
-    sound={'seconds':wav.getnframes()/wav.getframerate(),'channels':wav.getnchannels(),'sample_rate':wav.getframerate()}
-if sound['seconds']!=24 or sound['channels']!=2:errors.append('Ambient audio metadata mismatch')
+sound = json.loads((dist / 'audio/source.json').read_text(encoding='utf-8'))
+track = dist / 'audio' / sound['file']
+if not track.is_file() or hashlib.sha256(track.read_bytes()).hexdigest() != sound['sha256']:
+    errors.append('Background music missing or different from the supplied file')
+if f"/audio/{sound['file']}" not in (dist / 'js/sound.js').read_text(encoding='utf-8'):
+    errors.append('Sound player does not point to the verified music file')
 result={'public_html_pages':len(docs),'narrative_cases':len(facts),'data_cases':34,'archive_entries':len(rows),'comparison_originals':len(mapping),'video_library_clips':len(library.select('video')),'sound':sound,'errors':errors}
 (root/'research/static-verification.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print(json.dumps(result,ensure_ascii=False,indent=2))

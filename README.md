@@ -17,6 +17,6 @@ py scripts/verify.py
 - 화면 스타일: `css/v2.css`
 - 3D / 탐색 / 사운드: `js/decision-field.js`, `js/v2.js`, `js/sound.js`
 - 자료 목록·원본 해시·검수 결과: `research/`
-- 자체 합성 음원: `audio/`, `scripts/make_sound.py`
+- 배경음악은 IamDayLight의 **Apple Groove**입니다. 제공된 MP3와 파일 정보는 `audio/`에 있습니다.
 
 빌드 출력은 검색 수집을 막도록 `noindex`를 사용합니다. 미디어 파일은 Cloudflare의 파일별 25MiB 제한을 빌드에서 확인합니다.
