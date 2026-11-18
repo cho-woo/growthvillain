@@ -1,0 +1,21 @@
+/* Original ambient composition and restrained UI tones. Starts only after a user gesture. */
+export function createSound(){
+  const audio=document.createElement('audio');audio.id='ambient-audio';audio.src='/audio/decision-field-ambient.wav';audio.loop=true;audio.preload='none';audio.setAttribute('aria-hidden','true');document.body.append(audio);
+  let ctx,ambientGain,fxGain,busy=false,wanted=false,ducked=false,sequence=0,resumeOnVisible=false;
+  const storage={get(key){try{return localStorage.getItem(key);}catch{return null;}},set(key,v){try{localStorage.setItem(key,v);}catch{}}};
+  function running(){return !audio.paused&&!audio.ended&&ctx?.state==='running';}
+  function announce(message){const region=document.querySelector('.sound-status');if(region)region.textContent=message;}
+  function update(){const on=running();document.querySelectorAll('.sound-toggle').forEach(button=>{button.setAttribute('aria-pressed',String(on));button.setAttribute('aria-label',on?'사운드 끄기':'사운드 켜기');button.dataset.state=on?'playing':busy?'loading':'off';button.querySelector('[data-sound-label]').textContent=busy?'LOADING':on?'SOUND ON':'SOUND OFF';});}
+  function init(){if(ctx)return;const AudioContext=window.AudioContext||window.webkitAudioContext;if(!AudioContext)throw Error('audio-unavailable');ctx=new AudioContext();ambientGain=ctx.createGain();ambientGain.gain.value=.32;ambientGain.connect(ctx.destination);ctx.createMediaElementSource(audio).connect(ambientGain);fxGain=ctx.createGain();fxGain.gain.value=.045;fxGain.connect(ctx.destination);ctx.addEventListener('statechange',update);}
+  async function enable(){if(busy)return;const token=++sequence;wanted=true;busy=true;update();try{init();await ctx.resume();await audio.play();if(token!==sequence){audio.pause();return;}storage.set('jwh-v2-sound','on');storage.set('jwh-v2-sound-choice','yes');document.querySelector('.sound-invitation')?.setAttribute('hidden','');announce('사운드가 켜졌습니다.');}catch{wanted=false;audio.pause();announce('사운드를 재생하지 못했습니다. 버튼을 다시 눌러 주세요.');}finally{busy=false;update();}}
+  function disable(){sequence++;wanted=false;audio.pause();storage.set('jwh-v2-sound','off');storage.set('jwh-v2-sound-choice','yes');document.querySelector('.sound-invitation')?.setAttribute('hidden','');announce('사운드가 꺼졌습니다.');update();}
+  function toggle(){if(running()||busy)disable();else enable();}
+  function duck(){const videos=[...document.querySelectorAll('video')];ducked=videos.some(v=>!v.paused&&!v.ended&&!v.muted&&v.volume>0);if(ambientGain&&ctx){ambientGain.gain.cancelScheduledValues(ctx.currentTime);ambientGain.gain.setTargetAtTime(ducked?.035:.32,ctx.currentTime,.12);}audio.dataset.ducked=String(ducked);}
+  function effect(kind='select'){if(!running()||!fxGain||ducked)return;const now=ctx.currentTime,osc=ctx.createOscillator(),gain=ctx.createGain();osc.type='sine';osc.frequency.setValueAtTime(kind==='route'?247:330,now);osc.frequency.exponentialRampToValueAtTime(kind==='route'?370:440,now+.1);gain.gain.setValueAtTime(.0001,now);gain.gain.exponentialRampToValueAtTime(.7,now+.012);gain.gain.exponentialRampToValueAtTime(.0001,now+.16);osc.connect(gain);gain.connect(fxGain);osc.start(now);osc.stop(now+.18);osc.onended=()=>{osc.disconnect();gain.disconnect();};}
+  audio.addEventListener('playing',update);audio.addEventListener('pause',update);audio.addEventListener('error',()=>{busy=false;wanted=false;announce('배경음 파일을 불러오지 못했습니다. 무음으로 계속 탐색할 수 있습니다.');update();});
+  document.addEventListener('play',e=>{if(e.target instanceof HTMLVideoElement){document.querySelectorAll('video').forEach(v=>{if(v!==e.target&&!v.paused)v.pause();});duck();}},true);
+  ['pause','ended','volumechange'].forEach(type=>document.addEventListener(type,e=>{if(e.target instanceof HTMLVideoElement)duck();},true));
+  document.addEventListener('visibilitychange',()=>{if(document.hidden){resumeOnVisible=running();if(resumeOnVisible)audio.pause();document.querySelectorAll('video').forEach(v=>{if(!v.paused)v.pause();});}else if(resumeOnVisible&&wanted){resumeOnVisible=false;audio.play().catch(()=>announce('사운드 버튼을 눌러 배경음을 다시 켤 수 있습니다.'));}});
+  function refresh(){if(storage.get('jwh-v2-sound-choice'))document.querySelector('.sound-invitation')?.setAttribute('hidden','');duck();update();}
+  update();return {enable,disable,toggle,effect,refresh,running};
+}

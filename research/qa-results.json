@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-18",
+  "environment": "Windows / Chromium in-app browser; local static build",
+  "viewports": [
+    [
+      1280,
+      720
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      320,
+      740
+    ]
+  ],
+  "passed": [
+    "Real WebGL hero rendered; scroll stage progressed close view → wider context → into the work",
+    "No horizontal page overflow at inspected viewport widths",
+    "Mobile menu opens and closes after navigation; actual project images are visible without hover",
+    "Archive has 41 entries: 7 narrative and 34 data cases; data + 정관장 search returns one result",
+    "Archive filter and query preserved after opening a company case and going back",
+    "Mobile selected-work scroll restored exactly: 1891px before opening detail and after back",
+    "Direct #work navigation scrolls to the selected-work section at 320px width",
+    "Keyboard Enter opens archive and case; image dialog opens, Escape closes, focus returns to source button",
+    "Original Desillab native video played with duration 140.340998s, readyState 4, advancing currentTime",
+    "Opt-in ambient playback currentTime advances; actual UI state ON, OFF works, state persists across routes",
+    "Ambient ducked state true during unmuted project video and false after pause",
+    "Comparison uses 45 local image slots with zero loaded broken images; after-only mode works",
+    "Synchronized comparison scroll ratios observed: left .0148066, right .0148044",
+    "Email copy returned confirmation and live announcement; mailto and telephone match source",
+    "Emulated prefers-reduced-motion uses static alternative, MOTION OFF, 100vh hero",
+    "Blocked main JS module: mobile navigation remains visible and project content readable",
+    "Fresh navigation after transition cancellation fix: no new console warnings or errors in inspected session"
+  ],
+  "fixes": [
+    "Preserved target scroll before page initialization",
+    "Handled skipped View Transition promises and cancelled stale transitions",
+    "Direct initial hash navigation",
+    "Mobile header contrast",
+    "Kept real project covers instead of concept art"
+  ],
+  "limits": [
+    "Viewport emulation, not physical-device or cross-browser certification",
+    "Audio playback state and ducking verified; reference soundtrack was not audibly reviewed",
+    "No measured Core Web Vitals or exhaustive frame-time benchmark",
+    "Historical external links with HTTP/TLS errors are listed separately in content-inventory.json"
+  ],
+  "screenshots": "../docs/screenshots/",
+  "static_verification": "static-verification.json"
+}
