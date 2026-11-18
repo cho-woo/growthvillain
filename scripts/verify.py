@@ -33,26 +33,39 @@ for p,soup in docs.items():
         if len(soup.select('h1'))!=1:errors.append(f'{name}: expected one main heading')
 for p in dist.rglob('*'):
     if p.is_file() and p.stat().st_size>=25*1024*1024:errors.append(f'Cloudflare file size exceeded: {p.relative_to(dist)}')
-archive=docs[(dist/'archive.html').resolve()]
-rows=archive.select('.archive-row')
-if len(rows)!=41:errors.append(f'Archive count mismatch: {len(rows)}')
-if sum(r.get('data-category')=='data' for r in rows)!=34:errors.append('Data archive count mismatch')
-facts=json.loads((root/'content/projects.json').read_text(encoding='utf-8'))
-if len(facts)!=7:errors.append('Narrative case count mismatch')
-mapping=json.loads((root/'research/evidence-map.json').read_text(encoding='utf-8'))
-for item in mapping:
-    if not (dist/item['local_url'].lstrip('/')).is_file():errors.append('Comparison source missing: '+item['local_url'])
-source=BeautifulSoup((root/'source/contents.html').read_text(encoding='utf-8'),'html.parser')
-library=docs[(dist/'contents.html').resolve()]
-def video_refs(s):return set(v.get('src') for v in s.select('video[src],source[src]'))
-if not video_refs(source).issubset(video_refs(library)):errors.append('Original video library omitted a source')
+home = docs[(dist/'index.html').resolve()]
+if len(home.select('main h1')) != 1:
+    errors.append('Single document requires one primary heading')
+rows = home.select('.case-sheet, .company')
+cases = home.select('.case-sheet')
+companies = home.select('.company')
+films = home.select('#film-collection video')
+if len(rows) != 41 or len(cases) != 7 or len(companies) != 34:
+    errors.append('One-page portfolio is missing a project')
+for link in home.select('a[href]'):
+    parsed = urlsplit(link['href'])
+    if not parsed.scheme and not parsed.netloc and parsed.path and not parsed.path.startswith('/img/'):
+        errors.append('Internal navigation must stay in the document: ' + link['href'])
+mapping = json.loads((root/'research/evidence-map.json').read_text(encoding='utf-8'))
+images = {img['src'] for img in home.select('.comparison img[src]')}
+if images != {row['local_url'] for row in mapping}:
+    errors.append('Missing comparison evidence in the single document')
+source = BeautifulSoup((root/'source/contents.html').read_text(encoding='utf-8'),'html.parser')
+def video_refs(s):
+    return {v['src'] for v in s.select('video[src], video source[src]')}
+if len(films) != 16 or video_refs(source) != video_refs(home.select_one('#film-collection')):
+    errors.append('Single-page video library mismatch')
+for redirect in dist.glob('projects/*/index.html'):
+    expected = '/#' + redirect.parent.name
+    if not docs[redirect.resolve()].find('a', href=expected):
+        errors.append('Legacy project URL missing target: ' + expected)
 sound = json.loads((dist / 'audio/source.json').read_text(encoding='utf-8'))
 track = dist / 'audio' / sound['file']
 if not track.is_file() or hashlib.sha256(track.read_bytes()).hexdigest() != sound['sha256']:
     errors.append('Background music missing or different from the supplied file')
 if f"/audio/{sound['file']}" not in (dist / 'js/sound.js').read_text(encoding='utf-8'):
     errors.append('Sound player does not point to the verified music file')
-result={'public_html_pages':len(docs),'narrative_cases':len(facts),'data_cases':34,'archive_entries':len(rows),'comparison_originals':len(mapping),'video_library_clips':len(library.select('video')),'sound':sound,'errors':errors}
+result={'public_html_pages':len(docs),'narrative_cases':len(cases),'data_cases':34,'archive_entries':len(rows),'comparison_originals':len(mapping),'video_library_clips':len(films),'sound':sound,'errors':errors}
 (root/'research/static-verification.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print(json.dumps(result,ensure_ascii=False,indent=2))
 raise SystemExit(bool(errors))
