@@ -35,10 +35,14 @@ for p in dist.rglob('*'):
     if p.is_file() and p.stat().st_size>=25*1024*1024:errors.append(f'Cloudflare file size exceeded: {p.relative_to(dist)}')
 archive=docs[(dist/'archive.html').resolve()]
 rows=archive.select('.archive-row')
-if len(rows)!=41:errors.append(f'Archive count mismatch: {len(rows)}')
+if len(rows)!=42:errors.append(f'Archive count mismatch: {len(rows)}')
 if sum(r.get('data-category')=='data' for r in rows)!=34:errors.append('Data archive count mismatch')
 facts=json.loads((root/'content/projects.json').read_text(encoding='utf-8'))
-if len(facts)!=7:errors.append('Narrative case count mismatch')
+if len(facts)!=8:errors.append('Narrative case count mismatch')
+for button in archive.select('button[data-filter]'):
+    group=button['data-filter']
+    expected=len(rows) if group=='all' else sum(r.get('data-category')==group for r in rows)
+    if button.span.get_text(strip=True)!=str(expected):errors.append(f'Archive filter count mismatch: {group}')
 mapping=json.loads((root/'research/evidence-map.json').read_text(encoding='utf-8'))
 for item in mapping:
     if not (dist/item['local_url'].lstrip('/')).is_file():errors.append('Comparison source missing: '+item['local_url'])
