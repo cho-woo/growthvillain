@@ -104,7 +104,7 @@ document.addEventListener('click',async e=>{
     if(button.matches('[data-sound-dismiss]')){sound.disable();return;}
     if(button.matches('.motion-toggle')){motion=!motion;refreshMotion();return;}
     if(button.matches('.zoom-image')){openImage(button);return;}
-    if(button.matches('.email-copy')){try{await navigator.clipboard.writeText('hello@valuewander.com');button.textContent='복사했습니다 ✓';document.querySelector('.copy-announcement').textContent='이메일 주소가 복사되었습니다.';sound.effect();setTimeout(()=>{if(button.isConnected)button.innerHTML='이메일 복사 <span aria-hidden="true">⧉</span>';},2500);}catch{button.textContent='hello@valuewander.com';document.querySelector('.copy-announcement').textContent='이메일 주소는 hello@valuewander.com입니다.';}return;}
+    if(button.matches('.email-copy')){try{await navigator.clipboard.writeText('hi341096@gmail.com');button.textContent='복사했습니다 ✓';document.querySelector('.copy-announcement').textContent='이메일 주소가 복사되었습니다.';sound.effect();setTimeout(()=>{if(button.isConnected)button.innerHTML='이메일 복사 <span aria-hidden="true">⧉</span>';},2500);}catch{button.textContent='hi341096@gmail.com';document.querySelector('.copy-announcement').textContent='이메일 주소는 hi341096@gmail.com입니다.';}return;}
   }
   const link=e.target.closest('a[href]');if(!link||e.defaultPrevented||e.button!==0||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey||link.target==='_blank'||link.hasAttribute('download'))return;
   const url=new URL(link.href,location.href);if(url.origin!==location.origin||!['http:','https:'].includes(url.protocol))return;
