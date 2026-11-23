@@ -26,13 +26,21 @@
 .aerunb-comparison figcaption { margin-top: 10px; font-size: 12px; line-height: 1.8; color: var(--muted); word-break: keep-all; }
 .aerunb-screen { max-width: 880px; }
 .aerunb-screen figcaption strong { font-weight: 600; color: #e6e1f2; }
+.aerunb-results { width: 100%; max-width: 840px; margin: 28px 0 0; border-collapse: collapse; table-layout: fixed; font-size: clamp(13px, 1.6vw, 17px); font-variant-numeric: tabular-nums; }
+.aerunb-results caption { padding-bottom: 12px; text-align: left; font-size: 15px; font-weight: 600; }
+.aerunb-results th, .aerunb-results td { padding: 12px clamp(4px, 1.5vw, 18px); border-bottom: 1px solid var(--line); text-align: right; }
+.aerunb-results tr > :first-child { width: 30%; text-align: left; }
+.aerunb-results thead th { color: var(--violet-bright); background: var(--surface); border-top: 1px solid var(--line); font-weight: 600; }
+.aerunb-results tbody th { font-weight: 400; color: var(--muted); }
+.aerunb-results tbody tr:last-child td { font-weight: 600; color: var(--violet-bright); }
+.aerunb-breakdown { max-width: 840px; margin-top: 10px; }
+.aerunb-breakdown summary { width: fit-content; padding: 12px 0; color: var(--violet-bright); font-size: 14px; cursor: pointer; }
+.aerunb-breakdown .aerunb-results { margin: 10px 0 22px; font-size: 13px; }
+.aerunb-breakdown p { color: var(--muted); font-size: 13px; line-height: 1.8; word-break: keep-all; }
 .aerunb-ads { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; max-width: 840px; margin: 26px 0; }
 .aerunb-ad { display: flex; flex-direction: column; align-items: stretch; padding: 20px; border: 1px solid var(--line); }
 .aerunb-ad h4 { margin: 0 0 10px; font-size: 22px; font-weight: 500; }
-.aerunb-ad p { flex-grow: 1; margin: 0; color: var(--muted); font-size: 14px; line-height: 1.85; word-break: keep-all; }
-.aerunb-ad dl { display: flex; flex-wrap: wrap; gap: 12px 28px; margin: 20px 0; }
-.aerunb-ad dt { margin-bottom: 4px; color: var(--muted); font-size: 12px; }
-.aerunb-ad dd { margin: 0; font-size: 22px; color: var(--violet-bright); }
+.aerunb-ad p { flex-grow: 1; margin: 0 0 16px; color: var(--muted); font-size: 14px; line-height: 1.85; word-break: keep-all; }
 .aerunb-ad iframe { display: block; width: 100%; aspect-ratio: 9 / 16; max-height: 540px; border: 0; background: #0c0b10; }
 .aerunb-ad .underlink { align-self: flex-start; margin-top: 14px; }
 @media (max-width: 620px) { .aerunb-ads { grid-template-columns: minmax(0, 1fr); gap: 16px; } }
