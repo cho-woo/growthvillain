@@ -24,3 +24,18 @@
 .aerunb-comparison { max-width: 700px; margin: 28px 0; }
 .aerunb-comparison img { display: block; width: 100%; height: auto; border: 1px solid var(--line); }
 .aerunb-comparison figcaption { margin-top: 10px; font-size: 12px; line-height: 1.8; color: var(--muted); word-break: keep-all; }
+.aerunb-screen { max-width: 880px; }
+.aerunb-screen figcaption strong { font-weight: 600; color: #e6e1f2; }
+.aerunb-ads { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; max-width: 840px; margin: 26px 0; }
+.aerunb-ad { display: flex; flex-direction: column; align-items: stretch; padding: 20px; border: 1px solid var(--line); }
+.aerunb-ad h4 { margin: 0 0 10px; font-size: 22px; font-weight: 500; }
+.aerunb-ad p { flex-grow: 1; margin: 0; color: var(--muted); font-size: 14px; line-height: 1.85; word-break: keep-all; }
+.aerunb-ad dl { display: flex; flex-wrap: wrap; gap: 12px 28px; margin: 20px 0; }
+.aerunb-ad dt { margin-bottom: 4px; color: var(--muted); font-size: 12px; }
+.aerunb-ad dd { margin: 0; font-size: 22px; color: var(--violet-bright); }
+.aerunb-ad iframe { display: block; width: 100%; aspect-ratio: 9 / 16; max-height: 540px; border: 0; background: #0c0b10; }
+.aerunb-ad .underlink { align-self: flex-start; margin-top: 14px; }
+@media (max-width: 620px) { .aerunb-ads { grid-template-columns: minmax(0, 1fr); gap: 16px; } }
+.case-shortcuts { display: flex; flex-wrap: wrap; gap: 10px 22px; margin-top: 22px; }
+.case-shortcuts .underlink { margin: 0; }
+#aerunb-creatives, .aerunb-screen[id] { scroll-margin-top: 95px; }
